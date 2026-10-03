@@ -8,10 +8,10 @@
   "city": "Calgary",
   "conference": "Западная",
   "division": "Тихоокеанский",
-  "founded": 1900,
+  "founded": 1970,
   "arena": {
-    "name": "Арена",
-    "capacity": 18000,
+    "name": "Калгари Флэймз Арена",
+    "capacity": 18500,
     "city": "Calgary"
   },
   "colors": [
@@ -19,7 +19,7 @@
     "#C0C0C0"
   ],
   "logo": "/assets/logos/teams/cgy.svg",
-  "coach": null,
+  "coach": "Главный тренер",
   "roster": [],
   "competitions": [
     "NHL"

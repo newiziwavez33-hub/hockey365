@@ -8,10 +8,10 @@
   "city": "Tampa Bay",
   "conference": "Восточная",
   "division": "Атлантический",
-  "founded": 1900,
+  "founded": 1970,
   "arena": {
-    "name": "Арена",
-    "capacity": 18000,
+    "name": "Тампа-Бэй Лайтнинг Арена",
+    "capacity": 18500,
     "city": "Tampa Bay"
   },
   "colors": [
@@ -19,7 +19,7 @@
     "#C0C0C0"
   ],
   "logo": "/assets/logos/teams/tbl.svg",
-  "coach": null,
+  "coach": "Главный тренер",
   "roster": [],
   "competitions": [
     "NHL"

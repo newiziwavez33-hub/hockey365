@@ -1,0 +1,37 @@
+{
+  "id": "nhl:p_8477492",
+  "name": "Nathan MacKinnon",
+  "nameEn": "Nathan MacKinnon",
+  "position": "C",
+  "shoots": "R",
+  "birthDate": "1995-09-01",
+  "heightCm": 183,
+  "weightKg": 91,
+  "nationality": "CAN",
+  "number": 29,
+  "teamId": "nhl:col",
+  "photo": "https://assets.nhle.com/mugs/nhl/20262027/COL/8477492.png",
+  "stats": [
+    {
+      "season": "2026/27",
+      "compId": "NHL",
+      "gp": 1,
+      "g": 2,
+      "a": 0,
+      "pts": 2,
+      "plusMinus": -2,
+      "pim": 5,
+      "shots": 8,
+      "toi": "21:30",
+      "gk": null
+    }
+  ],
+  "career": [
+    {
+      "teamId": "nhl:col",
+      "teamName": "Colorado Avalanche",
+      "from": "2015",
+      "to": "2027"
+    }
+  ]
+}

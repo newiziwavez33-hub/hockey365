@@ -1,0 +1,37 @@
+{
+  "id": "nhl:p_8479318",
+  "name": "Auston Matthews",
+  "nameEn": "Auston Matthews",
+  "position": "C",
+  "shoots": "L",
+  "birthDate": "1997-09-17",
+  "heightCm": 191,
+  "weightKg": 97,
+  "nationality": "USA",
+  "number": 34,
+  "teamId": "nhl:tor",
+  "photo": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8479318.png",
+  "stats": [
+    {
+      "season": "2026/27",
+      "compId": "NHL",
+      "gp": 2,
+      "g": 0,
+      "a": 0,
+      "pts": 0,
+      "plusMinus": -2,
+      "pim": 0,
+      "shots": 4,
+      "toi": "21:30",
+      "gk": null
+    }
+  ],
+  "career": [
+    {
+      "teamId": "nhl:tor",
+      "teamName": "Toronto Maple Leafs",
+      "from": "2015",
+      "to": "2027"
+    }
+  ]
+}

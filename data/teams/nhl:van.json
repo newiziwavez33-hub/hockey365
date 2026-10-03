@@ -8,10 +8,10 @@
   "city": "Vancouver",
   "conference": "Западная",
   "division": "Тихоокеанский",
-  "founded": 1900,
+  "founded": 1970,
   "arena": {
-    "name": "Арена",
-    "capacity": 18000,
+    "name": "Ванкувер Кэнакс Арена",
+    "capacity": 18500,
     "city": "Vancouver"
   },
   "colors": [
@@ -19,7 +19,7 @@
     "#C0C0C0"
   ],
   "logo": "/assets/logos/teams/van.svg",
-  "coach": null,
+  "coach": "Главный тренер",
   "roster": [],
   "competitions": [
     "NHL"

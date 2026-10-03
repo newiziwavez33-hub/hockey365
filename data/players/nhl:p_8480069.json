@@ -1,0 +1,37 @@
+{
+  "id": "nhl:p_8480069",
+  "name": "Cale Makar",
+  "nameEn": "Cale Makar",
+  "position": "D",
+  "shoots": "R",
+  "birthDate": "1998-10-30",
+  "heightCm": 183,
+  "weightKg": 85,
+  "nationality": "CAN",
+  "number": 8,
+  "teamId": "nhl:col",
+  "photo": "https://assets.nhle.com/mugs/nhl/20262027/COL/8480069.png",
+  "stats": [
+    {
+      "season": "2026/27",
+      "compId": "NHL",
+      "gp": 1,
+      "g": 0,
+      "a": 2,
+      "pts": 2,
+      "plusMinus": -1,
+      "pim": 0,
+      "shots": 1,
+      "toi": "21:30",
+      "gk": null
+    }
+  ],
+  "career": [
+    {
+      "teamId": "nhl:col",
+      "teamName": "Colorado Avalanche",
+      "from": "2015",
+      "to": "2027"
+    }
+  ]
+}

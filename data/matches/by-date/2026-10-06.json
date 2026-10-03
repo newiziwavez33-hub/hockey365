@@ -39,22 +39,22 @@
       "home": {
         "goalies": [
           {
-            "playerId": "nhl:tor_g1",
+            "playerId": "nhl:g_tor",
             "name": "Вратарь 1",
             "number": 31
           }
         ],
         "lines": [
           {
-            "LW": "nhl:tor_f1",
+            "LW": "nhl:f1_tor",
             "LW_name": "Нападающий 1",
-            "C": "nhl:tor_f2",
+            "C": "nhl:c1_tor",
             "C_name": "Центр 1",
-            "RW": "nhl:tor_f3",
+            "RW": "nhl:f2_tor",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:tor_d1",
+            "LD": "nhl:d1_tor",
             "LD_name": "Защитник 1",
-            "RD": "nhl:tor_d2",
+            "RD": "nhl:d2_tor",
             "RD_name": "Защитник 2"
           }
         ]
@@ -62,22 +62,22 @@
       "away": {
         "goalies": [
           {
-            "playerId": "nhl:nsh_g1",
+            "playerId": "nhl:g_nsh",
             "name": "Вратарь 1",
             "number": 35
           }
         ],
         "lines": [
           {
-            "LW": "nhl:nsh_f1",
+            "LW": "nhl:f1_nsh",
             "LW_name": "Нападающий 1",
-            "C": "nhl:nsh_f2",
+            "C": "nhl:c1_nsh",
             "C_name": "Центр 1",
-            "RW": "nhl:nsh_f3",
+            "RW": "nhl:f2_nsh",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:nsh_d1",
+            "LD": "nhl:d1_nsh",
             "LD_name": "Защитник 1",
-            "RD": "nhl:nsh_d2",
+            "RD": "nhl:d2_nsh",
             "RD_name": "Защитник 2"
           }
         ]
@@ -163,22 +163,22 @@
       "home": {
         "goalies": [
           {
-            "playerId": "nhl:mtl_g1",
+            "playerId": "nhl:g_mtl",
             "name": "Вратарь 1",
             "number": 31
           }
         ],
         "lines": [
           {
-            "LW": "nhl:mtl_f1",
+            "LW": "nhl:f1_mtl",
             "LW_name": "Нападающий 1",
-            "C": "nhl:mtl_f2",
+            "C": "nhl:c1_mtl",
             "C_name": "Центр 1",
-            "RW": "nhl:mtl_f3",
+            "RW": "nhl:f2_mtl",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:mtl_d1",
+            "LD": "nhl:d1_mtl",
             "LD_name": "Защитник 1",
-            "RD": "nhl:mtl_d2",
+            "RD": "nhl:d2_mtl",
             "RD_name": "Защитник 2"
           }
         ]
@@ -186,22 +186,22 @@
       "away": {
         "goalies": [
           {
-            "playerId": "nhl:car_g1",
+            "playerId": "nhl:g_car",
             "name": "Вратарь 1",
             "number": 35
           }
         ],
         "lines": [
           {
-            "LW": "nhl:car_f1",
+            "LW": "nhl:f1_car",
             "LW_name": "Нападающий 1",
-            "C": "nhl:car_f2",
+            "C": "nhl:c1_car",
             "C_name": "Центр 1",
-            "RW": "nhl:car_f3",
+            "RW": "nhl:f2_car",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:car_d1",
+            "LD": "nhl:d1_car",
             "LD_name": "Защитник 1",
-            "RD": "nhl:car_d2",
+            "RD": "nhl:d2_car",
             "RD_name": "Защитник 2"
           }
         ]
@@ -287,22 +287,22 @@
       "home": {
         "goalies": [
           {
-            "playerId": "nhl:det_g1",
+            "playerId": "nhl:g_det",
             "name": "Вратарь 1",
             "number": 31
           }
         ],
         "lines": [
           {
-            "LW": "nhl:det_f1",
+            "LW": "nhl:f1_det",
             "LW_name": "Нападающий 1",
-            "C": "nhl:det_f2",
+            "C": "nhl:c1_det",
             "C_name": "Центр 1",
-            "RW": "nhl:det_f3",
+            "RW": "nhl:f2_det",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:det_d1",
+            "LD": "nhl:d1_det",
             "LD_name": "Защитник 1",
-            "RD": "nhl:det_d2",
+            "RD": "nhl:d2_det",
             "RD_name": "Защитник 2"
           }
         ]
@@ -310,22 +310,22 @@
       "away": {
         "goalies": [
           {
-            "playerId": "nhl:ott_g1",
+            "playerId": "nhl:g_ott",
             "name": "Вратарь 1",
             "number": 35
           }
         ],
         "lines": [
           {
-            "LW": "nhl:ott_f1",
+            "LW": "nhl:f1_ott",
             "LW_name": "Нападающий 1",
-            "C": "nhl:ott_f2",
+            "C": "nhl:c1_ott",
             "C_name": "Центр 1",
-            "RW": "nhl:ott_f3",
+            "RW": "nhl:f2_ott",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:ott_d1",
+            "LD": "nhl:d1_ott",
             "LD_name": "Защитник 1",
-            "RD": "nhl:ott_d2",
+            "RD": "nhl:d2_ott",
             "RD_name": "Защитник 2"
           }
         ]
@@ -411,22 +411,22 @@
       "home": {
         "goalies": [
           {
-            "playerId": "nhl:njd_g1",
+            "playerId": "nhl:g_njd",
             "name": "Вратарь 1",
             "number": 31
           }
         ],
         "lines": [
           {
-            "LW": "nhl:njd_f1",
+            "LW": "nhl:f1_njd",
             "LW_name": "Нападающий 1",
-            "C": "nhl:njd_f2",
+            "C": "nhl:c1_njd",
             "C_name": "Центр 1",
-            "RW": "nhl:njd_f3",
+            "RW": "nhl:f2_njd",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:njd_d1",
+            "LD": "nhl:d1_njd",
             "LD_name": "Защитник 1",
-            "RD": "nhl:njd_d2",
+            "RD": "nhl:d2_njd",
             "RD_name": "Защитник 2"
           }
         ]
@@ -434,22 +434,22 @@
       "away": {
         "goalies": [
           {
-            "playerId": "nhl:uta_g1",
+            "playerId": "nhl:g_uta",
             "name": "Вратарь 1",
             "number": 35
           }
         ],
         "lines": [
           {
-            "LW": "nhl:uta_f1",
+            "LW": "nhl:f1_uta",
             "LW_name": "Нападающий 1",
-            "C": "nhl:uta_f2",
+            "C": "nhl:c1_uta",
             "C_name": "Центр 1",
-            "RW": "nhl:uta_f3",
+            "RW": "nhl:f2_uta",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:uta_d1",
+            "LD": "nhl:d1_uta",
             "LD_name": "Защитник 1",
-            "RD": "nhl:uta_d2",
+            "RD": "nhl:d2_uta",
             "RD_name": "Защитник 2"
           }
         ]
@@ -535,22 +535,22 @@
       "home": {
         "goalies": [
           {
-            "playerId": "nhl:buf_g1",
+            "playerId": "nhl:g_buf",
             "name": "Вратарь 1",
             "number": 31
           }
         ],
         "lines": [
           {
-            "LW": "nhl:buf_f1",
+            "LW": "nhl:f1_buf",
             "LW_name": "Нападающий 1",
-            "C": "nhl:buf_f2",
+            "C": "nhl:c1_buf",
             "C_name": "Центр 1",
-            "RW": "nhl:buf_f3",
+            "RW": "nhl:f2_buf",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:buf_d1",
+            "LD": "nhl:d1_buf",
             "LD_name": "Защитник 1",
-            "RD": "nhl:buf_d2",
+            "RD": "nhl:d2_buf",
             "RD_name": "Защитник 2"
           }
         ]
@@ -558,22 +558,22 @@
       "away": {
         "goalies": [
           {
-            "playerId": "nhl:min_g1",
+            "playerId": "nhl:g_min",
             "name": "Вратарь 1",
             "number": 35
           }
         ],
         "lines": [
           {
-            "LW": "nhl:min_f1",
+            "LW": "nhl:f1_min",
             "LW_name": "Нападающий 1",
-            "C": "nhl:min_f2",
+            "C": "nhl:c1_min",
             "C_name": "Центр 1",
-            "RW": "nhl:min_f3",
+            "RW": "nhl:f2_min",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:min_d1",
+            "LD": "nhl:d1_min",
             "LD_name": "Защитник 1",
-            "RD": "nhl:min_d2",
+            "RD": "nhl:d2_min",
             "RD_name": "Защитник 2"
           }
         ]
@@ -659,22 +659,22 @@
       "home": {
         "goalies": [
           {
-            "playerId": "nhl:nyr_g1",
+            "playerId": "nhl:g_nyr",
             "name": "Вратарь 1",
             "number": 31
           }
         ],
         "lines": [
           {
-            "LW": "nhl:nyr_f1",
+            "LW": "nhl:f1_nyr",
             "LW_name": "Нападающий 1",
-            "C": "nhl:nyr_f2",
+            "C": "nhl:c1_nyr",
             "C_name": "Центр 1",
-            "RW": "nhl:nyr_f3",
+            "RW": "nhl:f2_nyr",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:nyr_d1",
+            "LD": "nhl:d1_nyr",
             "LD_name": "Защитник 1",
-            "RD": "nhl:nyr_d2",
+            "RD": "nhl:d2_nyr",
             "RD_name": "Защитник 2"
           }
         ]
@@ -682,22 +682,22 @@
       "away": {
         "goalies": [
           {
-            "playerId": "nhl:nyi_g1",
+            "playerId": "nhl:g_nyi",
             "name": "Вратарь 1",
             "number": 35
           }
         ],
         "lines": [
           {
-            "LW": "nhl:nyi_f1",
+            "LW": "nhl:f1_nyi",
             "LW_name": "Нападающий 1",
-            "C": "nhl:nyi_f2",
+            "C": "nhl:c1_nyi",
             "C_name": "Центр 1",
-            "RW": "nhl:nyi_f3",
+            "RW": "nhl:f2_nyi",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:nyi_d1",
+            "LD": "nhl:d1_nyi",
             "LD_name": "Защитник 1",
-            "RD": "nhl:nyi_d2",
+            "RD": "nhl:d2_nyi",
             "RD_name": "Защитник 2"
           }
         ]
@@ -783,22 +783,22 @@
       "home": {
         "goalies": [
           {
-            "playerId": "nhl:chi_g1",
+            "playerId": "nhl:g_chi",
             "name": "Вратарь 1",
             "number": 31
           }
         ],
         "lines": [
           {
-            "LW": "nhl:chi_f1",
+            "LW": "nhl:f1_chi",
             "LW_name": "Нападающий 1",
-            "C": "nhl:chi_f2",
+            "C": "nhl:c1_chi",
             "C_name": "Центр 1",
-            "RW": "nhl:chi_f3",
+            "RW": "nhl:f2_chi",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:chi_d1",
+            "LD": "nhl:d1_chi",
             "LD_name": "Защитник 1",
-            "RD": "nhl:chi_d2",
+            "RD": "nhl:d2_chi",
             "RD_name": "Защитник 2"
           }
         ]
@@ -806,22 +806,22 @@
       "away": {
         "goalies": [
           {
-            "playerId": "nhl:stl_g1",
+            "playerId": "nhl:g_stl",
             "name": "Вратарь 1",
             "number": 35
           }
         ],
         "lines": [
           {
-            "LW": "nhl:stl_f1",
+            "LW": "nhl:f1_stl",
             "LW_name": "Нападающий 1",
-            "C": "nhl:stl_f2",
+            "C": "nhl:c1_stl",
             "C_name": "Центр 1",
-            "RW": "nhl:stl_f3",
+            "RW": "nhl:f2_stl",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:stl_d1",
+            "LD": "nhl:d1_stl",
             "LD_name": "Защитник 1",
-            "RD": "nhl:stl_d2",
+            "RD": "nhl:d2_stl",
             "RD_name": "Защитник 2"
           }
         ]
@@ -907,22 +907,22 @@
       "home": {
         "goalies": [
           {
-            "playerId": "nhl:sea_g1",
+            "playerId": "nhl:g_sea",
             "name": "Вратарь 1",
             "number": 31
           }
         ],
         "lines": [
           {
-            "LW": "nhl:sea_f1",
+            "LW": "nhl:f1_sea",
             "LW_name": "Нападающий 1",
-            "C": "nhl:sea_f2",
+            "C": "nhl:c1_sea",
             "C_name": "Центр 1",
-            "RW": "nhl:sea_f3",
+            "RW": "nhl:f2_sea",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:sea_d1",
+            "LD": "nhl:d1_sea",
             "LD_name": "Защитник 1",
-            "RD": "nhl:sea_d2",
+            "RD": "nhl:d2_sea",
             "RD_name": "Защитник 2"
           }
         ]
@@ -930,22 +930,22 @@
       "away": {
         "goalies": [
           {
-            "playerId": "nhl:vgk_g1",
+            "playerId": "nhl:g_vgk",
             "name": "Вратарь 1",
             "number": 35
           }
         ],
         "lines": [
           {
-            "LW": "nhl:vgk_f1",
+            "LW": "nhl:f1_vgk",
             "LW_name": "Нападающий 1",
-            "C": "nhl:vgk_f2",
+            "C": "nhl:c1_vgk",
             "C_name": "Центр 1",
-            "RW": "nhl:vgk_f3",
+            "RW": "nhl:f2_vgk",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:vgk_d1",
+            "LD": "nhl:d1_vgk",
             "LD_name": "Защитник 1",
-            "RD": "nhl:vgk_d2",
+            "RD": "nhl:d2_vgk",
             "RD_name": "Защитник 2"
           }
         ]
@@ -1031,22 +1031,22 @@
       "home": {
         "goalies": [
           {
-            "playerId": "nhl:lak_g1",
+            "playerId": "nhl:g_lak",
             "name": "Вратарь 1",
             "number": 31
           }
         ],
         "lines": [
           {
-            "LW": "nhl:lak_f1",
+            "LW": "nhl:f1_lak",
             "LW_name": "Нападающий 1",
-            "C": "nhl:lak_f2",
+            "C": "nhl:c1_lak",
             "C_name": "Центр 1",
-            "RW": "nhl:lak_f3",
+            "RW": "nhl:f2_lak",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:lak_d1",
+            "LD": "nhl:d1_lak",
             "LD_name": "Защитник 1",
-            "RD": "nhl:lak_d2",
+            "RD": "nhl:d2_lak",
             "RD_name": "Защитник 2"
           }
         ]
@@ -1054,22 +1054,22 @@
       "away": {
         "goalies": [
           {
-            "playerId": "nhl:fla_g1",
+            "playerId": "nhl:g_fla",
             "name": "Вратарь 1",
             "number": 35
           }
         ],
         "lines": [
           {
-            "LW": "nhl:fla_f1",
+            "LW": "nhl:f1_fla",
             "LW_name": "Нападающий 1",
-            "C": "nhl:fla_f2",
+            "C": "nhl:c1_fla",
             "C_name": "Центр 1",
-            "RW": "nhl:fla_f3",
+            "RW": "nhl:f2_fla",
             "RW_name": "Нападающий 2",
-            "LD": "nhl:fla_d1",
+            "LD": "nhl:d1_fla",
             "LD_name": "Защитник 1",
-            "RD": "nhl:fla_d2",
+            "RD": "nhl:d2_fla",
             "RD_name": "Защитник 2"
           }
         ]

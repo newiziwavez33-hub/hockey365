@@ -38,22 +38,22 @@
     "home": {
       "goalies": [
         {
-          "playerId": "nhl:stl_g1",
+          "playerId": "nhl:g_stl",
           "name": "Вратарь 1",
           "number": 31
         }
       ],
       "lines": [
         {
-          "LW": "nhl:stl_f1",
+          "LW": "nhl:f1_stl",
           "LW_name": "Нападающий 1",
-          "C": "nhl:stl_f2",
+          "C": "nhl:c1_stl",
           "C_name": "Центр 1",
-          "RW": "nhl:stl_f3",
+          "RW": "nhl:f2_stl",
           "RW_name": "Нападающий 2",
-          "LD": "nhl:stl_d1",
+          "LD": "nhl:d1_stl",
           "LD_name": "Защитник 1",
-          "RD": "nhl:stl_d2",
+          "RD": "nhl:d2_stl",
           "RD_name": "Защитник 2"
         }
       ]
@@ -61,22 +61,22 @@
     "away": {
       "goalies": [
         {
-          "playerId": "nhl:sjs_g1",
+          "playerId": "nhl:g_sjs",
           "name": "Вратарь 1",
           "number": 35
         }
       ],
       "lines": [
         {
-          "LW": "nhl:sjs_f1",
+          "LW": "nhl:f1_sjs",
           "LW_name": "Нападающий 1",
-          "C": "nhl:sjs_f2",
+          "C": "nhl:c1_sjs",
           "C_name": "Центр 1",
-          "RW": "nhl:sjs_f3",
+          "RW": "nhl:f2_sjs",
           "RW_name": "Нападающий 2",
-          "LD": "nhl:sjs_d1",
+          "LD": "nhl:d1_sjs",
           "LD_name": "Защитник 1",
-          "RD": "nhl:sjs_d2",
+          "RD": "nhl:d2_sjs",
           "RD_name": "Защитник 2"
         }
       ]

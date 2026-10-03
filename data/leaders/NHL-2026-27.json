@@ -1,0 +1,166 @@
+{
+  "compId": "NHL",
+  "season": "2026/27",
+  "categories": {
+    "points": [
+      {
+        "playerId": "nhl:p_8480803",
+        "playerName": "Evan Bouchard",
+        "teamId": "nhl:edm",
+        "value": 8
+      },
+      {
+        "playerId": "nhl:p_8478402",
+        "playerName": "Connor McDavid",
+        "teamId": "nhl:edm",
+        "value": 7
+      },
+      {
+        "playerId": "nhl:p_8478403",
+        "playerName": "Jack Eichel",
+        "teamId": "nhl:vgk",
+        "value": 5
+      },
+      {
+        "playerId": "nhl:p_8481032",
+        "playerName": "Paul Cotter",
+        "teamId": "nhl:van",
+        "value": 4
+      },
+      {
+        "playerId": "nhl:p_8481617",
+        "playerName": "Vasily Podkolzin",
+        "teamId": "nhl:edm",
+        "value": 4
+      }
+    ],
+    "goals": [
+      {
+        "playerId": "nhl:p_8480803",
+        "playerName": "Evan Bouchard",
+        "teamId": "nhl:edm",
+        "value": 4
+      },
+      {
+        "playerId": "nhl:p_8481032",
+        "playerName": "Paul Cotter",
+        "teamId": "nhl:van",
+        "value": 3
+      },
+      {
+        "playerId": "nhl:p_8481617",
+        "playerName": "Vasily Podkolzin",
+        "teamId": "nhl:edm",
+        "value": 3
+      },
+      {
+        "playerId": "nhl:p_8482079",
+        "playerName": "Marco Rossi",
+        "teamId": "nhl:van",
+        "value": 3
+      },
+      {
+        "playerId": "nhl:p_8477934",
+        "playerName": "Leon Draisaitl",
+        "teamId": "nhl:edm",
+        "value": 2
+      }
+    ],
+    "assists": [
+      {
+        "playerId": "nhl:p_8478402",
+        "playerName": "Connor McDavid",
+        "teamId": "nhl:edm",
+        "value": 6
+      },
+      {
+        "playerId": "nhl:p_8480803",
+        "playerName": "Evan Bouchard",
+        "teamId": "nhl:edm",
+        "value": 4
+      },
+      {
+        "playerId": "nhl:p_8478403",
+        "playerName": "Jack Eichel",
+        "teamId": "nhl:vgk",
+        "value": 4
+      },
+      {
+        "playerId": "nhl:p_8479425",
+        "playerName": "Filip Hronek",
+        "teamId": "nhl:van",
+        "value": 4
+      },
+      {
+        "playerId": "nhl:p_8475745",
+        "playerName": "Charlie Coyle",
+        "teamId": "nhl:cbj",
+        "value": 3
+      }
+    ],
+    "gaa": [
+      {
+        "playerId": "nhl:p_8474593",
+        "playerName": "Jacob Markstrom",
+        "teamId": "nhl:fla",
+        "value": 0.0
+      },
+      {
+        "playerId": "nhl:p_8481668",
+        "playerName": "Arturs Silovs",
+        "teamId": "nhl:pit",
+        "value": 0.0
+      },
+      {
+        "playerId": "nhl:p_8478872",
+        "playerName": "Karel Vejmelka",
+        "teamId": "nhl:uta",
+        "value": 0.0
+      },
+      {
+        "playerId": "nhl:p_8482193",
+        "playerName": "Dylan Garand",
+        "teamId": "nhl:nyr",
+        "value": 0.0
+      },
+      {
+        "playerId": "nhl:p_8480981",
+        "playerName": "Joel Hofer",
+        "teamId": "nhl:stl",
+        "value": 0.0
+      }
+    ],
+    "svPct": [
+      {
+        "playerId": "nhl:p_8474593",
+        "playerName": "Jacob Markstrom",
+        "teamId": "nhl:fla",
+        "value": 1.0
+      },
+      {
+        "playerId": "nhl:p_8481668",
+        "playerName": "Arturs Silovs",
+        "teamId": "nhl:pit",
+        "value": 1.0
+      },
+      {
+        "playerId": "nhl:p_8478872",
+        "playerName": "Karel Vejmelka",
+        "teamId": "nhl:uta",
+        "value": 1.0
+      },
+      {
+        "playerId": "nhl:p_8482193",
+        "playerName": "Dylan Garand",
+        "teamId": "nhl:nyr",
+        "value": 1.0
+      },
+      {
+        "playerId": "nhl:p_8480981",
+        "playerName": "Joel Hofer",
+        "teamId": "nhl:stl",
+        "value": 1.0
+      }
+    ]
+  }
+}

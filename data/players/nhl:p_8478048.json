@@ -1,0 +1,44 @@
+{
+  "id": "nhl:p_8478048",
+  "name": "Igor Shesterkin",
+  "nameEn": "Igor Shesterkin",
+  "position": "G",
+  "shoots": "L",
+  "birthDate": "1995-12-30",
+  "heightCm": 185,
+  "weightKg": 90,
+  "nationality": "RUS",
+  "number": 31,
+  "teamId": "nhl:nyr",
+  "photo": "https://assets.nhle.com/mugs/nhl/20262027/NYR/8478048.png",
+  "stats": [
+    {
+      "season": "2026/27",
+      "compId": "NHL",
+      "gp": 2,
+      "g": 5,
+      "a": 10,
+      "pts": 15,
+      "plusMinus": 4,
+      "pim": 2,
+      "shots": 35,
+      "toi": "21:30",
+      "gk": {
+        "gaa": 2.15,
+        "svPct": 0.925,
+        "so": 2,
+        "w": 8,
+        "l": 3,
+        "otl": 1
+      }
+    }
+  ],
+  "career": [
+    {
+      "teamId": "nhl:nyr",
+      "teamName": "New York Rangers",
+      "from": "2015",
+      "to": "2027"
+    }
+  ]
+}

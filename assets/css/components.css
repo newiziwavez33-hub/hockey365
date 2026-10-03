@@ -1,13 +1,15 @@
-/* Hockey365 Components CSS */
+/* Hockey365 Components CSS — High-Density Sports Portal */
 
-/* --- Site Header --- */
+/* --- Sticky Modern Site Header --- */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 1000;
   background-color: var(--color-bg-surface);
-  border-bottom: 2px solid var(--color-accent-blue);
-  box-shadow: var(--shadow-sm);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .header-top {
@@ -15,29 +17,34 @@
   align-items: center;
   justify-content: space-between;
   height: var(--header-height);
-  gap: var(--space-12);
+  gap: var(--space-16);
 }
 
 .brand-link {
   display: flex;
   align-items: center;
-  gap: var(--space-8);
+  gap: var(--space-10);
   font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-black);
   color: var(--color-accent-blue);
   letter-spacing: -0.5px;
+  text-decoration: none;
+}
+.brand-link:hover {
+  text-decoration: none;
 }
 .brand-link span.brand-accent {
   color: var(--color-text-primary);
 }
 .brand-logo-icon {
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
+  filter: drop-shadow(0 2px 4px var(--color-accent-glow));
 }
 
 .header-search {
   flex: 1;
-  max-width: 420px;
+  max-width: 440px;
   position: relative;
   display: none;
 }
@@ -47,26 +54,27 @@
 
 .header-search input {
   width: 100%;
-  height: 36px;
-  padding: 0 var(--space-12) 0 36px;
+  height: 38px;
+  padding: 0 var(--space-12) 0 38px;
   background-color: var(--color-bg-secondary);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
   font-size: var(--font-size-sm);
   color: var(--color-text-primary);
-  transition: border-color var(--transition-fast);
+  transition: all var(--transition-fast);
 }
 .header-search input:focus {
   background-color: var(--color-bg-surface);
   border-color: var(--color-accent-blue);
+  box-shadow: 0 0 0 3px var(--color-accent-glow);
 }
 .search-icon-svg {
   position: absolute;
-  left: 10px;
+  left: 11px;
   top: 50%;
   transform: translateY(-50%);
-  width: 16px;
-  height: 16px;
+  width: 17px;
+  height: 17px;
   color: var(--color-text-muted);
   pointer-events: none;
 }
@@ -78,18 +86,21 @@
 }
 
 .icon-btn {
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: var(--radius-sm);
   color: var(--color-text-secondary);
-  transition: background-color var(--transition-fast), color var(--transition-fast);
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border-subtle);
+  transition: all var(--transition-fast);
 }
 .icon-btn:hover {
-  background-color: var(--color-bg-secondary);
-  color: var(--color-text-primary);
+  background-color: var(--color-bg-surface-hover);
+  color: var(--color-accent-blue);
+  border-color: var(--color-border);
 }
 
 /* Header Navigation Bar */
@@ -112,11 +123,11 @@
   display: flex;
   align-items: center;
   gap: var(--space-6);
-  padding: var(--space-8) var(--space-12);
+  padding: 10px 14px;
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
   color: var(--color-text-secondary);
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid transparent;
   transition: all var(--transition-fast);
 }
 .nav-item a:hover {
@@ -138,11 +149,12 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   margin-bottom: var(--space-16);
+  box-shadow: var(--shadow-sm);
   overflow: hidden;
 }
 
 .ribbon-arrow {
-  padding: var(--space-8) var(--space-12);
+  padding: 10px 14px;
   color: var(--color-text-secondary);
   display: flex;
   align-items: center;
@@ -164,8 +176,8 @@
 
 .day-btn {
   flex: 1;
-  min-width: 64px;
-  padding: var(--space-6) var(--space-4);
+  min-width: 68px;
+  padding: var(--space-8) var(--space-4);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -175,12 +187,13 @@
   font-size: var(--font-size-xs);
   transition: all var(--transition-fast);
 }
-.day-btn .day-name { text-transform: uppercase; font-size: 10px; font-weight: var(--font-weight-semibold); }
-.day-btn .day-num { font-size: var(--font-size-sm); font-weight: var(--font-weight-bold); }
+.day-btn .day-name { text-transform: uppercase; font-size: 10px; font-weight: var(--font-weight-semibold); letter-spacing: 0.5px; }
+.day-btn .day-num { font-size: var(--font-size-sm); font-weight: var(--font-weight-black); }
 .day-btn:hover { background-color: var(--color-bg-surface-hover); }
 .day-btn.active {
-  background-color: var(--color-accent-blue);
+  background: linear-gradient(135deg, var(--color-accent-blue), #023e8a);
   color: #fff;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 .day-btn.active .day-name,
 .day-btn.active .day-num {
@@ -191,7 +204,7 @@
   border: none;
   background: none;
   cursor: pointer;
-  padding: var(--space-8);
+  padding: var(--space-10);
   color: var(--color-text-secondary);
 }
 
@@ -201,6 +214,7 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   background-color: var(--color-bg-surface);
+  box-shadow: var(--shadow-sm);
   overflow: hidden;
 }
 
@@ -208,8 +222,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--space-8) var(--space-12);
-  background-color: var(--color-bg-secondary);
+  padding: 10px 14px;
+  background: linear-gradient(90deg, var(--color-bg-secondary), var(--color-bg-surface));
   border-bottom: 1px solid var(--color-border);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-bold);
@@ -217,34 +231,32 @@
 .comp-header-left {
   display: flex;
   align-items: center;
-  gap: var(--space-8);
+  gap: var(--space-10);
 }
 .comp-emblem {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   object-fit: contain;
 }
-.comp-country-flag {
-  width: 16px;
-  height: 12px;
-  border-radius: 1px;
-}
 
-/* --- Match Row (Soccer365 Style Dense Rows) --- */
+/* --- Match Row (Soccer365 / Flashscore Style) --- */
 .match-row {
   display: grid;
-  grid-template-columns: 80px 1fr 60px 1fr 32px;
+  grid-template-columns: 88px 1fr 64px 1fr 34px;
   align-items: center;
-  padding: var(--space-8) var(--space-12);
+  padding: 10px 14px;
   border-bottom: 1px solid var(--color-border-subtle);
   font-size: var(--font-size-sm);
-  transition: background-color var(--transition-fast);
+  transition: all var(--transition-fast);
 }
 .match-row:last-child {
   border-bottom: none;
 }
 .match-row:hover {
   background-color: var(--color-bg-surface-hover);
+}
+.match-row.is-live-row {
+  background-color: rgba(255, 51, 75, 0.03);
 }
 
 .match-time-status {
@@ -254,17 +266,19 @@
   gap: 2px;
   font-size: var(--font-size-xs);
   color: var(--color-text-muted);
+  font-weight: var(--font-weight-medium);
 }
 .match-time-status.is-live {
   color: var(--color-live);
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-black);
 }
 
 .match-team {
   display: flex;
   align-items: center;
-  gap: var(--space-8);
+  gap: var(--space-10);
   min-width: 0;
+  text-decoration: none;
 }
 .match-team.team-home {
   justify-content: flex-end;
@@ -280,17 +294,20 @@
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: var(--font-weight-medium);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-sm);
 }
 .match-team-name.is-winner {
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-black);
   color: var(--color-text-primary);
 }
 
 .team-logo-small {
-  width: 20px;
-  height: 20px;
+  width: 26px;
+  height: 26px;
   flex-shrink: 0;
   object-fit: contain;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
 }
 
 .match-score-box {
@@ -298,37 +315,52 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-black);
+  font-size: var(--font-size-md);
+  font-variant-numeric: tabular-nums;
   color: var(--color-text-primary);
-  min-width: 48px;
+  min-width: 52px;
+  padding: 3px 6px;
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xs);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+.match-score-box:hover {
+  border-color: var(--color-accent-blue);
+  background-color: var(--color-accent-ice);
 }
 .match-score-box.is-live {
   color: var(--color-live);
+  border-color: var(--color-live);
+  background-color: var(--color-live-bg);
 }
 .match-extra-note {
-  font-size: 10px;
-  font-weight: var(--font-weight-bold);
+  font-size: 9px;
+  font-weight: var(--font-weight-black);
   color: var(--color-accent-blue);
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .match-fav-star {
   display: flex;
   justify-content: center;
   color: var(--color-border);
-  transition: color var(--transition-fast);
+  transition: all var(--transition-fast);
 }
 .match-fav-star:hover,
 .match-fav-star.active {
-  color: #f1c21b;
+  color: #f59e0b;
+  transform: scale(1.15);
 }
 
 /* Period detail badge in row */
 .periods-breakdown {
   grid-column: 1 / -1;
-  padding: 2px var(--space-12) var(--space-4);
-  font-size: var(--font-size-xs);
+  padding: 3px 12px;
+  font-size: 11px;
   color: var(--color-text-muted);
   text-align: center;
   background-color: var(--color-bg-secondary);
@@ -337,15 +369,17 @@
 }
 
 /* Mobile responsive match-row */
-@media (max-width: 540px) {
+@media (max-width: 560px) {
   .match-row {
-    grid-template-columns: 60px 1fr 50px 1fr 24px;
-    padding: var(--space-6) var(--space-8);
-    font-size: var(--font-size-xs);
+    grid-template-columns: 66px 1fr 50px 1fr 24px;
+    padding: var(--space-8) var(--space-8);
   }
   .team-logo-small {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
+  }
+  .match-team-name {
+    font-size: 12px;
   }
 }
 
@@ -358,19 +392,21 @@
 .standings-table {
   font-size: var(--font-size-sm);
   text-align: center;
+  font-variant-numeric: tabular-nums;
 }
 
 .standings-table th {
   background-color: var(--color-bg-secondary);
-  color: var(--color-text-secondary);
+  color: var(--color-text-muted);
   font-weight: var(--font-weight-semibold);
-  padding: var(--space-8) var(--space-6);
+  padding: 9px 8px;
   border-bottom: 1px solid var(--color-border);
-  font-size: var(--font-size-xs);
+  font-size: 11px;
+  text-transform: uppercase;
 }
 
 .standings-table td {
-  padding: var(--space-8) var(--space-6);
+  padding: 9px 8px;
   border-bottom: 1px solid var(--color-border-subtle);
   white-space: nowrap;
 }
@@ -381,20 +417,21 @@
 
 .standings-table .col-pos {
   width: 32px;
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-black);
 }
 .standings-table .col-team {
   text-align: left;
   display: flex;
   align-items: center;
   gap: var(--space-8);
-  font-weight: var(--font-weight-medium);
-  min-width: 160px;
+  font-weight: var(--font-weight-semibold);
+  min-width: 180px;
 }
 .standings-table .col-pts {
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-black);
   color: var(--color-text-primary);
   background-color: var(--color-bg-secondary);
+  font-size: 14px;
 }
 
 /* Playoff zone indicators */
@@ -408,14 +445,14 @@
 /* Form Pills (W, L, OT) */
 .form-pills {
   display: inline-flex;
-  gap: 2px;
+  gap: 3px;
 }
 .form-pill {
-  width: 18px;
-  height: 18px;
+  width: 19px;
+  height: 19px;
   border-radius: var(--radius-xs);
   font-size: 10px;
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-black);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -433,7 +470,7 @@
   padding: var(--space-16) 0;
 }
 .playoff-round {
-  flex: 0 0 240px;
+  flex: 0 0 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -441,56 +478,65 @@
 }
 .playoff-round-title {
   font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-black);
   text-transform: uppercase;
-  color: var(--color-text-muted);
+  color: var(--color-accent-blue);
   text-align: center;
   margin-bottom: var(--space-8);
+  letter-spacing: 0.5px;
 }
 .playoff-series-card {
   background: var(--color-bg-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
-  padding: var(--space-8);
+  padding: 10px;
   box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+.playoff-series-card:hover {
+  border-color: var(--color-accent-blue);
+  box-shadow: var(--shadow-md);
 }
 .series-team-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--space-4) 0;
+  padding: 5px 0;
   font-size: var(--font-size-xs);
 }
 .series-team-row.is-winner {
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-black);
+  color: var(--color-text-primary);
 }
 .series-score {
-  font-weight: var(--font-weight-bold);
-  padding: 0 var(--space-6);
+  font-weight: var(--font-weight-black);
+  padding: 2px 8px;
   background: var(--color-bg-secondary);
   border-radius: var(--radius-xs);
+  border: 1px solid var(--color-border);
 }
 
 /* --- Hockey Lines Board (Пятёрки звеньев) --- */
 .lines-board {
   display: flex;
   flex-direction: column;
-  gap: var(--space-12);
+  gap: var(--space-16);
 }
 .line-unit {
   background: var(--color-bg-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
-  padding: var(--space-8);
+  padding: 12px;
 }
 .line-unit-title {
   font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-black);
   color: var(--color-accent-blue);
   text-transform: uppercase;
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-8);
   border-bottom: 1px solid var(--color-border-subtle);
-  padding-bottom: var(--space-4);
+  padding-bottom: 6px;
+  letter-spacing: 0.5px;
 }
 .line-players {
   display: grid;
@@ -502,62 +548,71 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: var(--space-8);
-  margin-top: var(--space-6);
+  margin-top: var(--space-8);
   text-align: center;
 }
 .player-chip {
   background: var(--color-bg-secondary);
-  padding: var(--space-4) var(--space-6);
+  border: 1px solid var(--color-border-subtle);
+  padding: var(--space-6) var(--space-8);
   border-radius: var(--radius-xs);
   font-size: var(--font-size-xs);
+  transition: all var(--transition-fast);
+}
+.player-chip:hover {
+  border-color: var(--color-accent-blue);
+  background-color: var(--color-bg-surface-hover);
 }
 .player-chip .num {
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-black);
   color: var(--color-accent-blue);
   margin-right: 4px;
 }
 
 /* --- Rink SVG (Mini Ice Surface) --- */
 .rink-view-card {
-  background-color: #0b1e36;
+  background: radial-gradient(circle at center, #0f2747 0%, #081426 100%);
   border-radius: var(--radius-md);
-  padding: var(--space-12);
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 .rink-svg {
   width: 100%;
-  max-width: 480px;
+  max-width: 520px;
   height: auto;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.5));
 }
 
 /* --- Stat Comparison Bar --- */
 .stat-row {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  margin-bottom: var(--space-12);
+  gap: 6px;
+  margin-bottom: 14px;
   font-size: var(--font-size-xs);
 }
 .stat-labels {
   display: flex;
   justify-content: space-between;
-  font-weight: var(--font-weight-semibold);
+  font-weight: var(--font-weight-bold);
+  font-variant-numeric: tabular-nums;
 }
 .stat-bar-track {
-  height: 8px;
+  height: 9px;
   background-color: var(--color-bg-tertiary);
   border-radius: var(--radius-full);
   display: flex;
   overflow: hidden;
 }
 .stat-fill-home {
-  background-color: var(--color-accent-blue);
+  background: linear-gradient(90deg, #0077b6, #00b4d8);
   height: 100%;
 }
 .stat-fill-away {
-  background-color: var(--color-accent-cyan);
+  background: linear-gradient(90deg, #48cae4, #90e0ef);
   height: 100%;
 }
 
@@ -570,7 +625,7 @@
   scrollbar-width: none;
 }
 .tab-btn {
-  padding: var(--space-8) var(--space-16);
+  padding: 10px 18px;
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
   color: var(--color-text-secondary);
@@ -584,62 +639,8 @@
 }
 .tab-btn.active {
   color: var(--color-accent-blue);
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-black);
   border-bottom-color: var(--color-accent-blue);
-}
-
-.tab-pane {
-  display: none;
-}
-.tab-pane.active {
-  display: block;
-}
-
-/* --- News Card --- */
-.news-item {
-  display: flex;
-  gap: var(--space-12);
-  padding: var(--space-12) 0;
-  border-bottom: 1px solid var(--color-border-subtle);
-}
-.news-item:last-child { border-bottom: none; }
-.news-thumb {
-  width: 90px;
-  height: 60px;
-  border-radius: var(--radius-xs);
-  object-fit: cover;
-  background-color: var(--color-bg-secondary);
-  flex-shrink: 0;
-}
-.news-info {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-4);
-}
-.news-title {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-semibold);
-  line-height: var(--line-height-tight);
-}
-.news-meta {
-  font-size: var(--font-size-xs);
-  color: var(--color-text-muted);
-}
-
-/* --- Transfer Row --- */
-.transfer-item {
-  display: grid;
-  grid-template-columns: 80px 1fr 1fr 1fr 80px;
-  align-items: center;
-  padding: var(--space-8) var(--space-12);
-  border-bottom: 1px solid var(--color-border-subtle);
-  font-size: var(--font-size-sm);
-}
-.transfer-type {
-  font-size: var(--font-size-xs);
-  font-weight: var(--font-weight-bold);
-  color: var(--color-accent-blue);
-  text-transform: uppercase;
 }
 
 /* --- Period Score Breakdown Table --- */
@@ -647,53 +648,24 @@
   width: 100%;
   font-size: var(--font-size-xs);
   text-align: center;
-  margin-top: var(--space-12);
+  font-variant-numeric: tabular-nums;
+  margin-top: 14px;
 }
 .period-table th, .period-table td {
-  padding: var(--space-4) var(--space-8);
+  padding: 6px 10px;
   border: 1px solid var(--color-border-subtle);
 }
 .period-table th {
   background-color: var(--color-bg-secondary);
-  font-weight: var(--font-weight-semibold);
-}
-
-/* --- Empty & Error States --- */
-.state-message {
-  padding: var(--space-32) var(--space-16);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--space-12);
-  color: var(--color-text-secondary);
-}
-.state-icon {
-  width: 48px;
-  height: 48px;
+  font-weight: var(--font-weight-bold);
   color: var(--color-text-muted);
-}
-.btn-primary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: var(--space-8) var(--space-16);
-  background-color: var(--color-accent-blue);
-  color: #fff;
-  border-radius: var(--radius-sm);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-semibold);
-  transition: background var(--transition-fast);
-}
-.btn-primary:hover {
-  background-color: var(--color-accent-blue-hover);
 }
 
 /* --- Footer --- */
 .site-footer {
   background-color: var(--color-bg-surface);
   border-top: 1px solid var(--color-border);
-  padding: var(--space-24) 0;
+  padding: var(--space-32) 0;
   margin-top: auto;
   font-size: var(--font-size-sm);
   color: var(--color-text-secondary);

@@ -54,7 +54,7 @@
     "id": "khl:metallurg-mg",
     "title": "Металлург Мг",
     "subtitle": "Восток • Магнитогорск",
-    "logo": "/assets/logos/teams/metallurg-mg.svg",
+    "logo": "/assets/logos/teams/metallurg-mg.png",
     "url": "/team/?id=khl:metallurg-mg",
     "tokens": "металлург мг metallurg magnitogorsk ммг магнитогорск metallurg mg"
   },
@@ -63,7 +63,7 @@
     "id": "khl:amur",
     "title": "Амур",
     "subtitle": "Восток • Хабаровск",
-    "logo": "/assets/logos/teams/amur.svg",
+    "logo": "/assets/logos/teams/amur.png",
     "url": "/team/?id=khl:amur",
     "tokens": "амур amur khabarovsk аму хабаровск amur"
   },
@@ -72,7 +72,7 @@
     "id": "khl:lokomotiv",
     "title": "Локомотив",
     "subtitle": "Запад • Ярославль",
-    "logo": "/assets/logos/teams/lokomotiv.svg",
+    "logo": "/assets/logos/teams/lokomotiv.png",
     "url": "/team/?id=khl:lokomotiv",
     "tokens": "локомотив lokomotiv yaroslavl лок ярославль lokomotiv"
   },
@@ -99,7 +99,7 @@
     "id": "khl:traktor",
     "title": "Трактор",
     "subtitle": "Восток • Челябинск",
-    "logo": "/assets/logos/teams/traktor.svg",
+    "logo": "/assets/logos/teams/traktor.png",
     "url": "/team/?id=khl:traktor",
     "tokens": "трактор traktor chelyabinsk трк челябинск traktor"
   },
@@ -126,7 +126,7 @@
     "id": "khl:lada",
     "title": "Лада",
     "subtitle": "Восток • Тольятти",
-    "logo": "/assets/logos/teams/lada.svg",
+    "logo": "/assets/logos/teams/lada.png",
     "url": "/team/?id=khl:lada",
     "tokens": "лада lada togliatti лад тольятти lada"
   },
@@ -153,7 +153,7 @@
     "id": "khl:avangard",
     "title": "Авангард",
     "subtitle": "Восток • Омск",
-    "logo": "/assets/logos/teams/avangard.svg",
+    "logo": "/assets/logos/teams/avangard.png",
     "url": "/team/?id=khl:avangard",
     "tokens": "авангард avangard omsk авг омск avangard"
   },
@@ -162,7 +162,7 @@
     "id": "khl:neftekhimik",
     "title": "Нефтехимик",
     "subtitle": "Восток • Нижнекамск",
-    "logo": "/assets/logos/teams/neftekhimik.svg",
+    "logo": "/assets/logos/teams/neftekhimik.png",
     "url": "/team/?id=khl:neftekhimik",
     "tokens": "нефтехимик neftekhimik nizhnekamsk нхк нижнекамск neftekhimik"
   },
@@ -243,7 +243,7 @@
     "id": "khl:spartak",
     "title": "Спартак",
     "subtitle": "Запад • Москва",
-    "logo": "/assets/logos/teams/spartak.svg",
+    "logo": "/assets/logos/teams/spartak.png",
     "url": "/team/?id=khl:spartak",
     "tokens": "спартак spartak moscow спа москва spartak"
   },
@@ -261,7 +261,7 @@
     "id": "khl:salavat-yulaev",
     "title": "Салават Юлаев",
     "subtitle": "Восток • Уфа",
-    "logo": "/assets/logos/teams/salavat-yulaev.svg",
+    "logo": "/assets/logos/teams/salavat-yulaev.png",
     "url": "/team/?id=khl:salavat-yulaev",
     "tokens": "салават юлаев salavat yulaev ufa сюл уфа salavat yulaev"
   },
@@ -288,7 +288,7 @@
     "id": "khl:ska",
     "title": "СКА",
     "subtitle": "Запад • Санкт-Петербург",
-    "logo": "/assets/logos/teams/ska.svg",
+    "logo": "/assets/logos/teams/ska.png",
     "url": "/team/?id=khl:ska",
     "tokens": "ска ska saint petersburg ска санкт-петербург ska"
   },
@@ -297,7 +297,7 @@
     "id": "khl:barys",
     "title": "Барыс",
     "subtitle": "Восток • Астана",
-    "logo": "/assets/logos/teams/barys.svg",
+    "logo": "/assets/logos/teams/barys.png",
     "url": "/team/?id=khl:barys",
     "tokens": "барыс barys astana бар астана barys"
   },
@@ -306,7 +306,7 @@
     "id": "khl:sochi",
     "title": "ХК Сочи",
     "subtitle": "Запад • Сочи",
-    "logo": "/assets/logos/teams/sochi.svg",
+    "logo": "/assets/logos/teams/sochi.png",
     "url": "/team/?id=khl:sochi",
     "tokens": "хк сочи hc sochi соч сочи khk sochi"
   },
@@ -315,7 +315,7 @@
     "id": "khl:vityaz",
     "title": "Витязь",
     "subtitle": "Запад • Балашиха",
-    "logo": "/assets/logos/teams/vityaz.svg",
+    "logo": "/assets/logos/teams/vityaz.png",
     "url": "/team/?id=khl:vityaz",
     "tokens": "витязь vityaz balashikha вит балашиха vityaz"
   },
@@ -342,7 +342,7 @@
     "id": "khl:dynamo-msk",
     "title": "Динамо М",
     "subtitle": "Запад • Москва",
-    "logo": "/assets/logos/teams/dynamo-msk.svg",
+    "logo": "/assets/logos/teams/dynamo-msk.png",
     "url": "/team/?id=khl:dynamo-msk",
     "tokens": "динамо м dynamo moscow дин москва dinamo m"
   },
@@ -405,7 +405,7 @@
     "id": "khl:ak-bars",
     "title": "Ак Барс",
     "subtitle": "Восток • Казань",
-    "logo": "/assets/logos/teams/ak-bars.svg",
+    "logo": "/assets/logos/teams/ak-bars.png",
     "url": "/team/?id=khl:ak-bars",
     "tokens": "ак барс ak bars kazan акб казань ak bars"
   },
@@ -414,7 +414,7 @@
     "id": "khl:admiral",
     "title": "Адмирал",
     "subtitle": "Восток • Владивосток",
-    "logo": "/assets/logos/teams/admiral.svg",
+    "logo": "/assets/logos/teams/admiral.png",
     "url": "/team/?id=khl:admiral",
     "tokens": "адмирал admiral vladivostok адм владивосток admiral"
   },
@@ -423,7 +423,7 @@
     "id": "khl:kunlun",
     "title": "Куньлунь РС",
     "subtitle": "Запад • Пекин / Мытищи",
-    "logo": "/assets/logos/teams/kunlun.svg",
+    "logo": "/assets/logos/teams/kunlun.png",
     "url": "/team/?id=khl:kunlun",
     "tokens": "куньлунь рс kunlun red star крс пекин / мытищи kunlun rs"
   },
@@ -432,7 +432,7 @@
     "id": "khl:sibir",
     "title": "Сибирь",
     "subtitle": "Восток • Новосибирск",
-    "logo": "/assets/logos/teams/sibir.svg",
+    "logo": "/assets/logos/teams/sibir.png",
     "url": "/team/?id=khl:sibir",
     "tokens": "сибирь sibir novosibirsk сиб новосибирск sibir"
   },
@@ -459,7 +459,7 @@
     "id": "khl:dynamo-mns",
     "title": "Динамо Мн",
     "subtitle": "Запад • Минск",
-    "logo": "/assets/logos/teams/dynamo-mns.svg",
+    "logo": "/assets/logos/teams/dynamo-mns.png",
     "url": "/team/?id=khl:dynamo-mns",
     "tokens": "динамо мн dinamo minsk мнс минск dinamo mn"
   },
@@ -468,7 +468,7 @@
     "id": "khl:severstal",
     "title": "Северсталь",
     "subtitle": "Запад • Череповец",
-    "logo": "/assets/logos/teams/severstal.svg",
+    "logo": "/assets/logos/teams/severstal.png",
     "url": "/team/?id=khl:severstal",
     "tokens": "северсталь severstal cherepovets сев череповец severstal"
   },
@@ -477,7 +477,7 @@
     "id": "khl:torpedo",
     "title": "Торпедо",
     "subtitle": "Запад • Нижний Новгород",
-    "logo": "/assets/logos/teams/torpedo.svg",
+    "logo": "/assets/logos/teams/torpedo.png",
     "url": "/team/?id=khl:torpedo",
     "tokens": "торпедо torpedo nizhny novgorod тор нижний новгород torpedo"
   },
@@ -495,7 +495,7 @@
     "id": "khl:avtomobilist",
     "title": "Автомобилист",
     "subtitle": "Восток • Екатеринбург",
-    "logo": "/assets/logos/teams/avtomobilist.svg",
+    "logo": "/assets/logos/teams/avtomobilist.png",
     "url": "/team/?id=khl:avtomobilist",
     "tokens": "автомобилист avtomobilist yekaterinburg авт екатеринбург avtomobilist"
   },
@@ -522,9 +522,17 @@
     "id": "khl:cska",
     "title": "ЦСКА",
     "subtitle": "Запад • Москва",
-    "logo": "/assets/logos/teams/cska.svg",
+    "logo": "/assets/logos/teams/cska.png",
     "url": "/team/?id=khl:cska",
     "tokens": "цска cska moscow цск москва tsska"
+  },
+  {
+    "type": "player",
+    "id": "nhl:p_8478550",
+    "title": "Artemi Panarin",
+    "subtitle": "#10 • Позиция: LW",
+    "url": "/player/?id=nhl:p_8478550",
+    "tokens": "artemi panarin artemi panarin lw artemi panarin"
   },
   {
     "type": "player",
@@ -552,6 +560,38 @@
   },
   {
     "type": "player",
+    "id": "nhl:p_8471214",
+    "title": "Alex Ovechkin",
+    "subtitle": "#8 • Позиция: LW",
+    "url": "/player/?id=nhl:p_8471214",
+    "tokens": "alex ovechkin alex ovechkin lw alex ovechkin"
+  },
+  {
+    "type": "player",
+    "id": "nhl:p_8480069",
+    "title": "Cale Makar",
+    "subtitle": "#8 • Позиция: D",
+    "url": "/player/?id=nhl:p_8480069",
+    "tokens": "cale makar cale makar d cale makar"
+  },
+  {
+    "type": "player",
+    "id": "nhl:p_8476453",
+    "title": "Nikita Kucherov",
+    "subtitle": "#86 • Позиция: RW",
+    "url": "/player/?id=nhl:p_8476453",
+    "tokens": "nikita kucherov nikita kucherov rw nikita kucherov"
+  },
+  {
+    "type": "player",
+    "id": "nhl:p_8477492",
+    "title": "Nathan MacKinnon",
+    "subtitle": "#29 • Позиция: C",
+    "url": "/player/?id=nhl:p_8477492",
+    "tokens": "nathan mackinnon nathan mackinnon c nathan mackinnon"
+  },
+  {
+    "type": "player",
     "id": "khl:p_isaev",
     "title": "Даниил Исаев",
     "subtitle": "#92 • Позиция: G",
@@ -560,11 +600,35 @@
   },
   {
     "type": "player",
+    "id": "nhl:p_8478048",
+    "title": "Igor Shesterkin",
+    "subtitle": "#31 • Позиция: G",
+    "url": "/player/?id=nhl:p_8478048",
+    "tokens": "igor shesterkin igor shesterkin g igor shesterkin"
+  },
+  {
+    "type": "player",
     "id": "khl:p_radulov",
     "title": "Александр Радулов",
     "subtitle": "#47 • Позиция: RW",
     "url": "/player/?id=khl:p_radulov",
     "tokens": "александр радулов alexander radulov rw aleksandr radulov"
+  },
+  {
+    "type": "player",
+    "id": "nhl:p_8478402",
+    "title": "Connor McDavid",
+    "subtitle": "#97 • Позиция: C",
+    "url": "/player/?id=nhl:p_8478402",
+    "tokens": "connor mcdavid connor mcdavid c connor mcdavid"
+  },
+  {
+    "type": "player",
+    "id": "nhl:p_8479318",
+    "title": "Auston Matthews",
+    "subtitle": "#34 • Позиция: C",
+    "url": "/player/?id=nhl:p_8479318",
+    "tokens": "auston matthews auston matthews c auston matthews"
   },
   {
     "type": "news",

@@ -1,10 +1,10 @@
 {
   "compId": "NHL",
   "season": "2026/27",
-  "updatedAt": "2026-10-03T20:00:00Z",
+  "updatedAt": "2026-10-03T20:30:00Z",
   "groups": [
     {
-      "name": "Конференция: Восточная",
+      "name": "Конференция Восточная",
       "type": "conference",
       "rows": [
         {
@@ -282,7 +282,7 @@
       ]
     },
     {
-      "name": "Конференция: Западная",
+      "name": "Конференция Западная",
       "type": "conference",
       "rows": [
         {
@@ -560,7 +560,7 @@
       ]
     },
     {
-      "name": "Дивизион: Атлантический",
+      "name": "Дивизион Атлантический",
       "type": "division",
       "rows": [
         {
@@ -702,7 +702,7 @@
       ]
     },
     {
-      "name": "Дивизион: Столичный",
+      "name": "Дивизион Столичный",
       "type": "division",
       "rows": [
         {
@@ -844,149 +844,7 @@
       ]
     },
     {
-      "name": "Дивизион: Тихоокеанский",
-      "type": "division",
-      "rows": [
-        {
-          "pos": 3,
-          "teamId": "nhl:edm",
-          "gp": 2,
-          "w": 1,
-          "wOT": 0,
-          "wSO": 0,
-          "lOT": 1,
-          "lSO": 0,
-          "l": 0,
-          "gf": 14,
-          "ga": 13,
-          "gd": 1,
-          "pts": 3,
-          "form": "W",
-          "zone": "PO"
-        },
-        {
-          "pos": 7,
-          "teamId": "nhl:sea",
-          "gp": 1,
-          "w": 1,
-          "wOT": 0,
-          "wSO": 0,
-          "lOT": 0,
-          "lSO": 0,
-          "l": 0,
-          "gf": 6,
-          "ga": 1,
-          "gd": 5,
-          "pts": 2,
-          "form": "W",
-          "zone": "PO"
-        },
-        {
-          "pos": 12,
-          "teamId": "nhl:vgk",
-          "gp": 2,
-          "w": 1,
-          "wOT": 0,
-          "wSO": 0,
-          "lOT": 0,
-          "lSO": 0,
-          "l": 1,
-          "gf": 8,
-          "ga": 6,
-          "gd": 2,
-          "pts": 2,
-          "form": "L",
-          "zone": "OUT"
-        },
-        {
-          "pos": 14,
-          "teamId": "nhl:ana",
-          "gp": 1,
-          "w": 1,
-          "wOT": 0,
-          "wSO": 0,
-          "lOT": 0,
-          "lSO": 0,
-          "l": 0,
-          "gf": 4,
-          "ga": 3,
-          "gd": 1,
-          "pts": 2,
-          "form": "W",
-          "zone": "PO"
-        },
-        {
-          "pos": 15,
-          "teamId": "nhl:sjs",
-          "gp": 1,
-          "w": 1,
-          "wOT": 0,
-          "wSO": 0,
-          "lOT": 0,
-          "lSO": 0,
-          "l": 0,
-          "gf": 4,
-          "ga": 3,
-          "gd": 1,
-          "pts": 2,
-          "form": "W",
-          "zone": "PO"
-        },
-        {
-          "pos": 19,
-          "teamId": "nhl:van",
-          "gp": 2,
-          "w": 1,
-          "wOT": 0,
-          "wSO": 0,
-          "lOT": 0,
-          "lSO": 0,
-          "l": 1,
-          "gf": 13,
-          "ga": 14,
-          "gd": -1,
-          "pts": 2,
-          "form": "L",
-          "zone": "OUT"
-        },
-        {
-          "pos": 28,
-          "teamId": "nhl:lak",
-          "gp": 1,
-          "w": 0,
-          "wOT": 0,
-          "wSO": 0,
-          "lOT": 0,
-          "lSO": 0,
-          "l": 1,
-          "gf": 4,
-          "ga": 8,
-          "gd": -4,
-          "pts": 0,
-          "form": "L",
-          "zone": "OUT"
-        },
-        {
-          "pos": 31,
-          "teamId": "nhl:cgy",
-          "gp": 1,
-          "w": 0,
-          "wOT": 0,
-          "wSO": 0,
-          "lOT": 0,
-          "lSO": 0,
-          "l": 1,
-          "gf": 1,
-          "ga": 6,
-          "gd": -5,
-          "pts": 0,
-          "form": "L",
-          "zone": "OUT"
-        }
-      ]
-    },
-    {
-      "name": "Дивизион: Центральный",
+      "name": "Дивизион Центральный",
       "type": "division",
       "rows": [
         {
@@ -1121,6 +979,148 @@
           "gf": 2,
           "ga": 11,
           "gd": -9,
+          "pts": 0,
+          "form": "L",
+          "zone": "OUT"
+        }
+      ]
+    },
+    {
+      "name": "Дивизион Тихоокеанский",
+      "type": "division",
+      "rows": [
+        {
+          "pos": 3,
+          "teamId": "nhl:edm",
+          "gp": 2,
+          "w": 1,
+          "wOT": 0,
+          "wSO": 0,
+          "lOT": 1,
+          "lSO": 0,
+          "l": 0,
+          "gf": 14,
+          "ga": 13,
+          "gd": 1,
+          "pts": 3,
+          "form": "W",
+          "zone": "PO"
+        },
+        {
+          "pos": 7,
+          "teamId": "nhl:sea",
+          "gp": 1,
+          "w": 1,
+          "wOT": 0,
+          "wSO": 0,
+          "lOT": 0,
+          "lSO": 0,
+          "l": 0,
+          "gf": 6,
+          "ga": 1,
+          "gd": 5,
+          "pts": 2,
+          "form": "W",
+          "zone": "PO"
+        },
+        {
+          "pos": 12,
+          "teamId": "nhl:vgk",
+          "gp": 2,
+          "w": 1,
+          "wOT": 0,
+          "wSO": 0,
+          "lOT": 0,
+          "lSO": 0,
+          "l": 1,
+          "gf": 8,
+          "ga": 6,
+          "gd": 2,
+          "pts": 2,
+          "form": "L",
+          "zone": "OUT"
+        },
+        {
+          "pos": 14,
+          "teamId": "nhl:ana",
+          "gp": 1,
+          "w": 1,
+          "wOT": 0,
+          "wSO": 0,
+          "lOT": 0,
+          "lSO": 0,
+          "l": 0,
+          "gf": 4,
+          "ga": 3,
+          "gd": 1,
+          "pts": 2,
+          "form": "W",
+          "zone": "PO"
+        },
+        {
+          "pos": 15,
+          "teamId": "nhl:sjs",
+          "gp": 1,
+          "w": 1,
+          "wOT": 0,
+          "wSO": 0,
+          "lOT": 0,
+          "lSO": 0,
+          "l": 0,
+          "gf": 4,
+          "ga": 3,
+          "gd": 1,
+          "pts": 2,
+          "form": "W",
+          "zone": "PO"
+        },
+        {
+          "pos": 19,
+          "teamId": "nhl:van",
+          "gp": 2,
+          "w": 1,
+          "wOT": 0,
+          "wSO": 0,
+          "lOT": 0,
+          "lSO": 0,
+          "l": 1,
+          "gf": 13,
+          "ga": 14,
+          "gd": -1,
+          "pts": 2,
+          "form": "L",
+          "zone": "OUT"
+        },
+        {
+          "pos": 28,
+          "teamId": "nhl:lak",
+          "gp": 1,
+          "w": 0,
+          "wOT": 0,
+          "wSO": 0,
+          "lOT": 0,
+          "lSO": 0,
+          "l": 1,
+          "gf": 4,
+          "ga": 8,
+          "gd": -4,
+          "pts": 0,
+          "form": "L",
+          "zone": "OUT"
+        },
+        {
+          "pos": 31,
+          "teamId": "nhl:cgy",
+          "gp": 1,
+          "w": 0,
+          "wOT": 0,
+          "wSO": 0,
+          "lOT": 0,
+          "lSO": 0,
+          "l": 1,
+          "gf": 1,
+          "ga": 6,
+          "gd": -5,
           "pts": 0,
           "form": "L",
           "zone": "OUT"

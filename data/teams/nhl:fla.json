@@ -8,10 +8,10 @@
   "city": "Florida",
   "conference": "Восточная",
   "division": "Атлантический",
-  "founded": 1900,
+  "founded": 1970,
   "arena": {
-    "name": "Арена",
-    "capacity": 18000,
+    "name": "Флорида Пантерз Арена",
+    "capacity": 18500,
     "city": "Florida"
   },
   "colors": [
@@ -19,7 +19,7 @@
     "#C0C0C0"
   ],
   "logo": "/assets/logos/teams/fla.svg",
-  "coach": null,
+  "coach": "Главный тренер",
   "roster": [],
   "competitions": [
     "NHL"

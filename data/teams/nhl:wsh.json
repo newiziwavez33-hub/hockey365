@@ -8,10 +8,10 @@
   "city": "Washington",
   "conference": "Восточная",
   "division": "Столичный",
-  "founded": 1900,
+  "founded": 1970,
   "arena": {
-    "name": "Арена",
-    "capacity": 18000,
+    "name": "Вашингтон Кэпиталз Арена",
+    "capacity": 18500,
     "city": "Washington"
   },
   "colors": [
@@ -19,7 +19,7 @@
     "#C0C0C0"
   ],
   "logo": "/assets/logos/teams/wsh.svg",
-  "coach": null,
+  "coach": "Главный тренер",
   "roster": [],
   "competitions": [
     "NHL"

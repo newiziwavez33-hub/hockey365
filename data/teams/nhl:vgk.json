@@ -8,10 +8,10 @@
   "city": "Vegas",
   "conference": "Западная",
   "division": "Тихоокеанский",
-  "founded": 1900,
+  "founded": 1970,
   "arena": {
-    "name": "Арена",
-    "capacity": 18000,
+    "name": "Вегас Голден Найтс Арена",
+    "capacity": 18500,
     "city": "Vegas"
   },
   "colors": [
@@ -19,7 +19,7 @@
     "#C0C0C0"
   ],
   "logo": "/assets/logos/teams/vgk.svg",
-  "coach": null,
+  "coach": "Главный тренер",
   "roster": [],
   "competitions": [
     "NHL"

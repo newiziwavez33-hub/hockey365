@@ -8,10 +8,10 @@
   "city": "Colorado",
   "conference": "Западная",
   "division": "Центральный",
-  "founded": 1900,
+  "founded": 1970,
   "arena": {
-    "name": "Арена",
-    "capacity": 18000,
+    "name": "Колорадо Эвеланш Арена",
+    "capacity": 18500,
     "city": "Colorado"
   },
   "colors": [
@@ -19,7 +19,7 @@
     "#C0C0C0"
   ],
   "logo": "/assets/logos/teams/col.svg",
-  "coach": null,
+  "coach": "Главный тренер",
   "roster": [],
   "competitions": [
     "NHL"

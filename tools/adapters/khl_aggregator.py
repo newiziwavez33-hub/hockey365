@@ -14,35 +14,35 @@ KHL_TEAMS = [
         "id": "khl:ska", "slug": "ska-saint-petersburg", "name": "СКА", "nameEn": "SKA Saint Petersburg",
         "short": "СКА", "country": "RUS", "city": "Санкт-Петербург", "conference": "Запад", "division": "Боброва",
         "founded": 1946, "arena": {"name": "СКА Арена", "capacity": 21500, "city": "Санкт-Петербург"},
-        "colors": ["#002D62", "#D3A029"], "logo": "/assets/logos/teams/ska.svg", "coach": "Роман Ротенберг",
+        "colors": ["#002D62", "#D3A029"], "logo": "/assets/logos/teams/ska.png", "coach": "Роман Ротенберг",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:spartak", "slug": "spartak-moscow", "name": "Спартак", "nameEn": "Spartak Moscow",
         "short": "СПА", "country": "RUS", "city": "Москва", "conference": "Запад", "division": "Боброва",
         "founded": 1946, "arena": {"name": "Мегаспорт", "capacity": 12396, "city": "Москва"},
-        "colors": ["#E31B23", "#FFFFFF"], "logo": "/assets/logos/teams/spartak.svg", "coach": "Алексей Жамнов",
+        "colors": ["#E31B23", "#FFFFFF"], "logo": "/assets/logos/teams/spartak.png", "coach": "Алексей Жамнов",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:torpedo", "slug": "torpedo-nizhny-novgorod", "name": "Торпедо", "nameEn": "Torpedo Nizhny Novgorod",
         "short": "ТОР", "country": "RUS", "city": "Нижний Новгород", "conference": "Запад", "division": "Боброва",
         "founded": 1946, "arena": {"name": "КРК Нагорный", "capacity": 5500, "city": "Нижний Новгород"},
-        "colors": ["#00205B", "#E31B23"], "logo": "/assets/logos/teams/torpedo.svg", "coach": "Игорь Ларионов",
+        "colors": ["#00205B", "#E31B23"], "logo": "/assets/logos/teams/torpedo.png", "coach": "Игорь Ларионов",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:sochi", "slug": "hc-sochi", "name": "ХК Сочи", "nameEn": "HC Sochi",
         "short": "СОЧ", "country": "RUS", "city": "Сочи", "conference": "Запад", "division": "Боброва",
         "founded": 2014, "arena": {"name": "Большой", "capacity": 12000, "city": "Сочи"},
-        "colors": ["#003366", "#FFCC00"], "logo": "/assets/logos/teams/sochi.svg", "coach": "Сергей Зубов",
+        "colors": ["#003366", "#FFCC00"], "logo": "/assets/logos/teams/sochi.png", "coach": "Сергей Зубов",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:vityaz", "slug": "vityaz-balashikha", "name": "Витязь", "nameEn": "Vityaz Balashikha",
         "short": "ВИТ", "country": "RUS", "city": "Балашиха", "conference": "Запад", "division": "Боброва",
         "founded": 1996, "arena": {"name": "Арена Балашиха", "capacity": 5678, "city": "Балашиха"},
-        "colors": ["#C8102E", "#FFFFFF"], "logo": "/assets/logos/teams/vityaz.svg", "coach": "Павел Десятков",
+        "colors": ["#C8102E", "#FFFFFF"], "logo": "/assets/logos/teams/vityaz.png", "coach": "Павел Десятков",
         "competitions": ["KHL"]
     },
 
@@ -51,42 +51,42 @@ KHL_TEAMS = [
         "id": "khl:cska", "slug": "cska-moscow", "name": "ЦСКА", "nameEn": "CSKA Moscow",
         "short": "ЦСК", "country": "RUS", "city": "Москва", "conference": "Запад", "division": "Тарасова",
         "founded": 1946, "arena": {"name": "ЦСКА Арена", "capacity": 12100, "city": "Москва"},
-        "colors": ["#E31B23", "#002D62"], "logo": "/assets/logos/teams/cska.svg", "coach": "Илья Воробьёв",
+        "colors": ["#E31B23", "#002D62"], "logo": "/assets/logos/teams/cska.png", "coach": "Илья Воробьёв",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:dynamo-msk", "slug": "dynamo-moscow", "name": "Динамо М", "nameEn": "Dynamo Moscow",
         "short": "ДИН", "country": "RUS", "city": "Москва", "conference": "Запад", "division": "Тарасова",
         "founded": 1946, "arena": {"name": "ВТБ Арена", "capacity": 10500, "city": "Москва"},
-        "colors": ["#003DA5", "#FFFFFF"], "logo": "/assets/logos/teams/dynamo-msk.svg", "coach": "Алексей Кудашов",
+        "colors": ["#003DA5", "#FFFFFF"], "logo": "/assets/logos/teams/dynamo-msk.png", "coach": "Алексей Кудашов",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:lokomotiv", "slug": "lokomotiv-yaroslavl", "name": "Локомотив", "nameEn": "Lokomotiv Yaroslavl",
         "short": "ЛОК", "country": "RUS", "city": "Ярославль", "conference": "Запад", "division": "Тарасова",
         "founded": 1959, "arena": {"name": "Арена-2000", "capacity": 9070, "city": "Ярославль"},
-        "colors": ["#E31B23", "#00205B"], "logo": "/assets/logos/teams/lokomotiv.svg", "coach": "Игорь Никитин",
+        "colors": ["#E31B23", "#00205B"], "logo": "/assets/logos/teams/lokomotiv.png", "coach": "Игорь Никитин",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:severstal", "slug": "severstal-cherepovets", "name": "Северсталь", "nameEn": "Severstal Cherepovets",
         "short": "СЕВ", "country": "RUS", "city": "Череповец", "conference": "Запад", "division": "Тарасова",
         "founded": 1956, "arena": {"name": "Ледовый дворец", "capacity": 5583, "city": "Череповец"},
-        "colors": ["#FFCC00", "#000000"], "logo": "/assets/logos/teams/severstal.svg", "coach": "Андрей Козырев",
+        "colors": ["#FFCC00", "#000000"], "logo": "/assets/logos/teams/severstal.png", "coach": "Андрей Козырев",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:dynamo-mns", "slug": "dynamo-minsk", "name": "Динамо Мн", "nameEn": "Dinamo Minsk",
         "short": "МНС", "country": "BLR", "city": "Минск", "conference": "Запад", "division": "Тарасова",
         "founded": 1948, "arena": {"name": "Минск-Арена", "capacity": 15086, "city": "Минск"},
-        "colors": ["#0055A5", "#FFFFFF"], "logo": "/assets/logos/teams/dynamo-mns.svg", "coach": "Дмитрий Квартальнов",
+        "colors": ["#0055A5", "#FFFFFF"], "logo": "/assets/logos/teams/dynamo-mns.png", "coach": "Дмитрий Квартальнов",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:kunlun", "slug": "kunlun-red-star", "name": "Куньлунь РС", "nameEn": "Kunlun Red Star",
         "short": "КРС", "country": "CHN", "city": "Пекин / Мытищи", "conference": "Запад", "division": "Тарасова",
         "founded": 2016, "arena": {"name": "Арена Мытищи", "capacity": 7114, "city": "Мытищи"},
-        "colors": ["#C8102E", "#FFCC00"], "logo": "/assets/logos/teams/kunlun.svg", "coach": "Михаил Кравец",
+        "colors": ["#C8102E", "#FFCC00"], "logo": "/assets/logos/teams/kunlun.png", "coach": "Михаил Кравец",
         "competitions": ["KHL"]
     },
 
@@ -95,42 +95,42 @@ KHL_TEAMS = [
         "id": "khl:ak-bars", "slug": "ak-bars-kazan", "name": "Ак Барс", "nameEn": "Ak Bars Kazan",
         "short": "АКБ", "country": "RUS", "city": "Казань", "conference": "Восток", "division": "Харламова",
         "founded": 1956, "arena": {"name": "Татнефть Арена", "capacity": 8890, "city": "Казань"},
-        "colors": ["#006A4E", "#E31B23"], "logo": "/assets/logos/teams/ak-bars.svg", "coach": "Анвар Гатиятулин",
+        "colors": ["#006A4E", "#E31B23"], "logo": "/assets/logos/teams/ak-bars.png", "coach": "Анвар Гатиятулин",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:metallurg-mg", "slug": "metallurg-magnitogorsk", "name": "Металлург Мг", "nameEn": "Metallurg Magnitogorsk",
         "short": "ММГ", "country": "RUS", "city": "Магнитогорск", "conference": "Восток", "division": "Харламова",
         "founded": 1955, "arena": {"name": "Арена Металлург", "capacity": 7700, "city": "Магнитогорск"},
-        "colors": ["#E31B23", "#002D62"], "logo": "/assets/logos/teams/metallurg-mg.svg", "coach": "Андрей Разин",
+        "colors": ["#E31B23", "#002D62"], "logo": "/assets/logos/teams/metallurg-mg.png", "coach": "Андрей Разин",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:traktor", "slug": "traktor-chelyabinsk", "name": "Трактор", "nameEn": "Traktor Chelyabinsk",
         "short": "ТРК", "country": "RUS", "city": "Челябинск", "conference": "Восток", "division": "Харламова",
         "founded": 1947, "arena": {"name": "Ледовая арена Трактор", "capacity": 7500, "city": "Челябинск"},
-        "colors": ["#000000", "#FFFFFF"], "logo": "/assets/logos/teams/traktor.svg", "coach": "Бенуа Гру",
+        "colors": ["#000000", "#FFFFFF"], "logo": "/assets/logos/teams/traktor.png", "coach": "Бенуа Гру",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:avtomobilist", "slug": "avtomobilist-yekaterinburg", "name": "Автомобилист", "nameEn": "Avtomobilist Yekaterinburg",
         "short": "АВТ", "country": "RUS", "city": "Екатеринбург", "conference": "Восток", "division": "Харламова",
         "founded": 2006, "arena": {"name": "КРК Уралец", "capacity": 5570, "city": "Екатеринбург"},
-        "colors": ["#E31B23", "#00205B"], "logo": "/assets/logos/teams/avtomobilist.svg", "coach": "Николай Заварухин",
+        "colors": ["#E31B23", "#00205B"], "logo": "/assets/logos/teams/avtomobilist.png", "coach": "Николай Заварухин",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:neftekhimik", "slug": "neftekhimik-nizhnekamsk", "name": "Нефтехимик", "nameEn": "Neftekhimik Nizhnekamsk",
         "short": "НХК", "country": "RUS", "city": "Нижнекамск", "conference": "Восток", "division": "Харламова",
         "founded": 1968, "arena": {"name": "Нефтехим Арена", "capacity": 6000, "city": "Нижнекамск"},
-        "colors": ["#00205B", "#00A3BF"], "logo": "/assets/logos/teams/neftekhimik.svg", "coach": "Олег Леонтьев",
+        "colors": ["#00205B", "#00A3BF"], "logo": "/assets/logos/teams/neftekhimik.png", "coach": "Олег Леонтьев",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:lada", "slug": "lada-togliatti", "name": "Лада", "nameEn": "Lada Togliatti",
         "short": "ЛАД", "country": "RUS", "city": "Тольятти", "conference": "Восток", "division": "Харламова",
         "founded": 1976, "arena": {"name": "Лада-Арена", "capacity": 6000, "city": "Тольятти"},
-        "colors": ["#003366", "#E31B23"], "logo": "/assets/logos/teams/lada.svg", "coach": "Олег Браташ",
+        "colors": ["#003366", "#E31B23"], "logo": "/assets/logos/teams/lada.png", "coach": "Олег Браташ",
         "competitions": ["KHL"]
     },
 
@@ -139,42 +139,42 @@ KHL_TEAMS = [
         "id": "khl:avangard", "slug": "avangard-omsk", "name": "Авангард", "nameEn": "Avangard Omsk",
         "short": "АВГ", "country": "RUS", "city": "Омск", "conference": "Восток", "division": "Чернышёва",
         "founded": 1950, "arena": {"name": "G-Drive Арена", "capacity": 12011, "city": "Омск"},
-        "colors": ["#E31B23", "#000000"], "logo": "/assets/logos/teams/avangard.svg", "coach": "Сергей Звягин",
+        "colors": ["#E31B23", "#000000"], "logo": "/assets/logos/teams/avangard.png", "coach": "Сергей Звягин",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:salavat-yulaev", "slug": "salavat-yulaev-ufa", "name": "Салават Юлаев", "nameEn": "Salavat Yulaev Ufa",
         "short": "СЮЛ", "country": "RUS", "city": "Уфа", "conference": "Восток", "division": "Чернышёва",
         "founded": 1961, "arena": {"name": "Уфа-Арена", "capacity": 8522, "city": "Уфа"},
-        "colors": ["#008751", "#00205B"], "logo": "/assets/logos/teams/salavat-yulaev.svg", "coach": "Виктор Козлов",
+        "colors": ["#008751", "#00205B"], "logo": "/assets/logos/teams/salavat-yulaev.png", "coach": "Виктор Козлов",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:sibir", "slug": "sibir-novosibirsk", "name": "Сибирь", "nameEn": "Sibir Novosibirsk",
         "short": "СИБ", "country": "RUS", "city": "Новосибирск", "conference": "Восток", "division": "Чернышёва",
         "founded": 1962, "arena": {"name": "Сибирь-Арена", "capacity": 10587, "city": "Новосибирск"},
-        "colors": ["#00205B", "#00A3BF"], "logo": "/assets/logos/teams/sibir.svg", "coach": "Вадим Епанчинцев",
+        "colors": ["#00205B", "#00A3BF"], "logo": "/assets/logos/teams/sibir.png", "coach": "Вадим Епанчинцев",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:barys", "slug": "barys-astana", "name": "Барыс", "nameEn": "Barys Astana",
         "short": "БАР", "country": "KAZ", "city": "Астана", "conference": "Восток", "division": "Чернышёва",
         "founded": 1999, "arena": {"name": "Барыс Арена", "capacity": 11578, "city": "Астана"},
-        "colors": ["#00A3BF", "#FFCC00"], "logo": "/assets/logos/teams/barys.svg", "coach": "Галым Мамбеталиев",
+        "colors": ["#00A3BF", "#FFCC00"], "logo": "/assets/logos/teams/barys.png", "coach": "Галым Мамбеталиев",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:amur", "slug": "amur-khabarovsk", "name": "Амур", "nameEn": "Amur Khabarovsk",
         "short": "АМУ", "country": "RUS", "city": "Хабаровск", "conference": "Восток", "division": "Чернышёва",
         "founded": 1957, "arena": {"name": "Платинум Арена", "capacity": 7100, "city": "Хабаровск"},
-        "colors": ["#E31B23", "#000000"], "logo": "/assets/logos/teams/amur.svg", "coach": "Андрей Мартемьянов",
+        "colors": ["#E31B23", "#000000"], "logo": "/assets/logos/teams/amur.png", "coach": "Андрей Мартемьянов",
         "competitions": ["KHL"]
     },
     {
         "id": "khl:admiral", "slug": "admiral-vladivostok", "name": "Адмирал", "nameEn": "Admiral Vladivostok",
         "short": "АДМ", "country": "RUS", "city": "Владивосток", "conference": "Восток", "division": "Чернышёва",
         "founded": 2013, "arena": {"name": "Фетисов Арена", "capacity": 5500, "city": "Владивосток"},
-        "colors": ["#00205B", "#C0C0C0"], "logo": "/assets/logos/teams/admiral.svg", "coach": "Леонид Тамбиев",
+        "colors": ["#00205B", "#C0C0C0"], "logo": "/assets/logos/teams/admiral.png", "coach": "Леонид Тамбиев",
         "competitions": ["KHL"]
     }
 ]

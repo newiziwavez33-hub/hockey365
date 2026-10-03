@@ -8,7 +8,7 @@ import { getParam, setParam, buildLink } from '../core/router.js';
 import { createStandingsTable } from '../components/standings-table.js';
 import { createPlayoffBracket } from '../components/playoff-bracket.js';
 import { createTabs } from '../components/tabs.js';
-import { createMatchRow } from '../components/match-row.js';
+import { createMatchRow, KNOWN_TEAMS } from '../components/match-row.js';
 import { getAssetUrl } from '../core/config.js';
 import { getTodayISODate, formatSavePct, formatGAA } from '../core/format.js';
 
@@ -156,13 +156,24 @@ function renderLeaders(container, lData) {
           )
         ),
         el('tbody', {},
-          rows.map((r, idx) => el('tr', {},
-            el('td', {}, idx + 1),
-            el('td', { style: { textAlign: 'left' } },
-              el('a', { href: buildLink('/player/', { id: r.playerId }), className: 'link-accent' }, r.playerName || r.playerId)
-            ),
-            el('td', { style: { textAlign: 'right', fontWeight: 'bold' } }, valFormatter ? valFormatter(r.value) : r.value)
-          ))
+          rows.map((r, idx) => {
+            const team = KNOWN_TEAMS[r.teamId] || {};
+            return el('tr', {},
+              el('td', { style: { color: 'var(--text-muted)' } }, idx + 1),
+              el('td', { style: { textAlign: 'left' } },
+                el('div', { className: 'flex items-center gap-8' },
+                  team.logo ? el('img', { 
+                    src: getAssetUrl(team.logo), 
+                    alt: team.name || '', 
+                    style: { width: '18px', height: '18px', objectFit: 'contain', flexShrink: '0' } 
+                  }) : null,
+                  el('a', { href: buildLink('/player/', { id: r.playerId }), className: 'link-accent', style: { fontWeight: '500' } }, r.playerName || r.playerId),
+                  team.short ? el('span', { className: 'text-xs text-muted' }, team.short) : null
+                )
+              ),
+              el('td', { style: { textAlign: 'right', fontWeight: 'bold', color: 'var(--primary-light)' } }, valFormatter ? valFormatter(r.value) : r.value)
+            );
+          })
         )
       )
     );
