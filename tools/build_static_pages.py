@@ -8,7 +8,7 @@ import os
 import json
 import glob
 
-SITE_URL = "https://giddammit-crypto.github.io/hockey365"
+SITE_URL = "https://newiziwavez33-hub.github.io/hockey365"
 
 def enhance_static_pages(root_dir):
     data_dir = os.path.join(root_dir, 'data')

@@ -25,7 +25,7 @@ export class SiteFooter extends HTMLElement {
             el('a', { href: buildLink('/about/') }, 'О проекте и источниках'),
             el('a', { href: buildLink('/privacy/') }, 'Конфиденциальность'),
             el('a', { href: buildLink('/settings/') }, 'Настройки'),
-            el('a', { href: 'https://github.com/giddammit-crypto/hockey365', target: '_blank', rel: 'noopener' }, 'GitHub')
+            el('a', { href: 'https://github.com/newiziwavez33-hub/hockey365', target: '_blank', rel: 'noopener' }, 'GitHub')
           )
         ),
         el('div', { className: 'text-xs text-muted text-center', style: { marginTop: '16px', borderTop: '1px solid var(--color-border-subtle)', paddingTop: '12px' } },

@@ -7,7 +7,7 @@ import os
 import json
 import glob
 
-SITE_URL = "https://giddammit-crypto.github.io/hockey365"
+SITE_URL = "https://newiziwavez33-hub.github.io/hockey365"
 
 def generate_sitemap(root_dir):
     urls = [

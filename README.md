@@ -2,10 +2,10 @@
 
 > Независимый статический спортивный портал по аналогии с Soccer365.ru, полностью адаптированный под специфику хоккея с шайбой (**КХЛ, НХЛ, ВХЛ, МХЛ**).
 
-[![Deploy to GitHub Pages](https://github.com/giddammit-crypto/hockey365/actions/workflows/deploy.yml/badge.svg)](https://github.com/giddammit-crypto/hockey365/actions/workflows/deploy.yml)
-[![CI Validation and Tests](https://github.com/giddammit-crypto/hockey365/actions/workflows/ci.yml/badge.svg)](https://github.com/giddammit-crypto/hockey365/actions/workflows/ci.yml)
+[![Deploy to GitHub Pages](https://github.com/newiziwavez33-hub/hockey365/actions/workflows/deploy.yml/badge.svg)](https://github.com/newiziwavez33-hub/hockey365/actions/workflows/deploy.yml)
+[![CI Validation and Tests](https://github.com/newiziwavez33-hub/hockey365/actions/workflows/ci.yml/badge.svg)](https://github.com/newiziwavez33-hub/hockey365/actions/workflows/ci.yml)
 
-🌐 **Живой сайт:** [https://giddammit-crypto.github.io/hockey365/](https://giddammit-crypto.github.io/hockey365/)
+🌐 **Живой сайт:** [https://newiziwavez33-hub.github.io/hockey365/](https://newiziwavez33-hub.github.io/hockey365/)
 
 ---
 
@@ -83,7 +83,7 @@ hockey365/
 
 ```bash
 # Клонируйте репозиторий
-git clone https://github.com/giddammit-crypto/hockey365.git
+git clone https://github.com/newiziwavez33-hub/hockey365.git
 cd hockey365
 
 # Запустите локальный веб-сервер Python:
