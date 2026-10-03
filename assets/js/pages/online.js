@@ -3,13 +3,15 @@
  */
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
-import { getMatchesByDate, getCompetitions, getMeta } from '../core/api.js';
+import { getMatchesByDate, getCompetitions, getMeta, startLivePolling } from '../core/api.js';
 import { getTodayISODate, formatDate } from '../core/format.js';
-import { createMatchRow } from '../components/match-row.js';
+import { createMatchRow, KNOWN_TEAMS } from '../components/match-row.js';
+import { trackMatchUpdates } from '../core/live-tracker.js';
 import { buildLink } from '../core/router.js';
-import { getAssetUrl } from '../core/config.js';
+import { getAssetUrl, CONFIG } from '../core/config.js';
 
 let activeFilter = 'all';
+let stopPolling = null;
 
 export async function initOnlinePage() {
   const container = qs('#online-matches-slot');
@@ -37,6 +39,52 @@ export async function initOnlinePage() {
   }
 
   let currentMatchesList = [];
+  let pollCountdown = 10;
+  let countdownTimer = null;
+
+  // Add Real-Time Live Status Bar above matches
+  const statusBar = el('div', { className: 'live-status-bar' },
+    el('div', { className: 'live-countdown-text' },
+      el('span', { className: 'live-dot' }),
+      el('span', { id: 'live-ticker-text' }, 'Прямой эфир: обновление каждые 10с')
+    ),
+    el('button', {
+      className: 'live-refresh-btn',
+      id: 'manual-refresh-btn',
+      type: 'button',
+      title: 'Обновить прямо сейчас',
+      onClick: () => {
+        if (stopPolling && stopPolling.refresh) {
+          const btn = qs('#manual-refresh-btn');
+          if (btn) btn.classList.add('spinning');
+          stopPolling.refresh().finally(() => {
+            setTimeout(() => { if (btn) btn.classList.remove('spinning'); }, 600);
+          });
+          pollCountdown = 10;
+        }
+      }
+    },
+      el('svg', { width: '13', height: '13', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2' },
+        el('path', { d: 'M23 4v6h-6M1 20v-6h6' }),
+        el('path', { d: 'M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15' })
+      ),
+      el('span', {}, 'Обновить')
+    )
+  );
+
+  container.parentNode.insertBefore(statusBar, container);
+
+  function startCountdown() {
+    if (countdownTimer) clearInterval(countdownTimer);
+    countdownTimer = setInterval(() => {
+      pollCountdown--;
+      if (pollCountdown <= 0) pollCountdown = 10;
+      const ticker = qs('#live-ticker-text');
+      if (ticker) {
+        ticker.textContent = `Прямой эфир: следующее обновление через ${pollCountdown}с`;
+      }
+    }, 1000);
+  }
 
   function renderMatches(matches) {
     container.innerHTML = '';
@@ -53,10 +101,17 @@ export async function initOnlinePage() {
       filtered = matches.filter(m => m.compId === activeFilter);
     }
 
-    const liveCount = matches.filter(m => m.status === 'LIVE' || m.status === 'INTERMISSION').length;
+    const liveMatches = matches.filter(m => m.status === 'LIVE' || m.status === 'INTERMISSION');
+    const liveCount = liveMatches.length;
+
     if (liveCountBadge) {
-      liveCountBadge.textContent = `${liveCount} в игре на момент среза`;
-      liveCountBadge.className = 'badge badge-scheduled';
+      if (liveCount > 0) {
+        liveCountBadge.innerHTML = `<span class="live-dot" style="margin-right: 4px;"></span>${liveCount} LIVE`;
+        liveCountBadge.className = 'badge badge-live';
+      } else {
+        liveCountBadge.textContent = '0 LIVE';
+        liveCountBadge.className = 'badge badge-scheduled';
+      }
     }
 
     if (filtered.length === 0) {
@@ -82,7 +137,7 @@ export async function initOnlinePage() {
           el('span', { className: 'text-xs text-muted' }, `${grouped[compId].length} игр`)
         ),
         el('div', { className: 'comp-matches-list' },
-          grouped[compId].map(m => createMatchRow(m))
+          grouped[compId].map(m => createMatchRow(m, KNOWN_TEAMS))
         )
       );
 
@@ -90,21 +145,40 @@ export async function initOnlinePage() {
     }
   }
 
-  async function loadSnapshot() {
+  async function startLiveCenter() {
     renderLoading(container, 4);
     try {
       const meta = await getMeta();
       const today = getTodayISODate();
       const targetDate = meta?.availableDates?.includes(today) ? today : meta?.activeDate || meta?.availableDates?.[0];
       if (!targetDate) throw new Error('No snapshot dates');
-      if (updatedStamp) updatedStamp.textContent = `Срез данных: ${meta.updatedAt ? formatDate(meta.updatedAt, 'full') : targetDate}. Данные могут устареть.`;
-      currentMatchesList = await getMatchesByDate(targetDate) || [];
-      renderMatches(currentMatchesList);
+
+      if (stopPolling) stopPolling();
+
+      stopPolling = startLivePolling(targetDate, (err, matches) => {
+        if (err) {
+          if (updatedStamp) updatedStamp.textContent = 'Ошибка подключения к серверу';
+          return;
+        }
+
+        const now = new Date();
+        const timeStr = now.toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+        if (updatedStamp) {
+          updatedStamp.innerHTML = `Обновлено в ${timeStr} • <span style="color: var(--primary-container);">В реальном времени</span>`;
+        }
+
+        currentMatchesList = matches || [];
+        trackMatchUpdates(currentMatchesList, KNOWN_TEAMS);
+        renderMatches(currentMatchesList);
+        pollCountdown = 10;
+      }, 10000);
+
+      startCountdown();
     } catch (e) {
-      if (updatedStamp) updatedStamp.textContent = 'Не удалось определить время среза';
-      renderError(container, 'Не удалось получить сохранённые матчи', loadSnapshot);
+      if (updatedStamp) updatedStamp.textContent = 'Не удалось загрузить данные';
+      renderError(container, 'Не удалось получить сохранённые матчи', startLiveCenter);
     }
   }
 
-  loadSnapshot();
+  startLiveCenter();
 }

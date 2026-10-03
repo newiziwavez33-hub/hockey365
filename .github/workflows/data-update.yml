@@ -2,19 +2,24 @@ name: Scheduled Data Update
 
 on:
   schedule:
-    # Periodic publication of the official NHL snapshot.
-    - cron: '*/20 * * * *'
+    # Run every 5 minutes for near real-time updates
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: "data-update"
+  group: "pages"
   cancel-in-progress: false
 
 jobs:
   update-data:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -35,15 +40,36 @@ jobs:
           python3 tools/normalize.py
           python3 tools/validate_data.py
           python3 tools/build_search_index.py
+          python3 tools/build_sitemap.py
+          python3 tools/build_static_pages.py
 
       - name: Commit & Push Changes
+        id: commit_step
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           if git diff --staged --quiet; then
             echo "No data changes to commit."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
           else
-            git commit -m "chore(data): auto-update hockey matches & standings [skip ci]"
+            git commit -m "chore(data): auto-update hockey matches & standings"
             git push origin main
+            echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
+
+      - name: Setup Pages
+        if: steps.commit_step.outputs.has_changes == 'true'
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        if: steps.commit_step.outputs.has_changes == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        if: steps.commit_step.outputs.has_changes == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4
+

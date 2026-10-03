@@ -18,9 +18,10 @@ export async function fetchJSON(url, useCache = true) {
   const timeoutId = setTimeout(() => controller.abort(), CONFIG.API_TIMEOUT_MS);
 
   try {
-    const response = await fetch(url, {
+    const fetchUrl = useCache ? url : `${url}${url.includes('?') ? '&' : '?'}_t=${Date.now()}`;
+    const response = await fetch(fetchUrl, {
       signal: controller.signal,
-      cache: useCache ? 'default' : 'no-cache',
+      cache: useCache ? 'default' : 'no-store',
       headers: {
         'Accept': 'application/json'
       }
@@ -66,9 +67,9 @@ export async function getMatchesByDate(dateStr) {
   return matches.filter(match => !meta.unverifiedCompetitions?.includes(match.compId));
 }
 
-export async function getMatch(matchId) {
+export async function getMatch(matchId, useCache = true) {
   if (await isUnverified(matchId.split(':')[0].toUpperCase())) unavailable(matchId);
-  return fetchJSON(getDataUrl(`matches/${matchId}.json`));
+  return fetchJSON(getDataUrl(`matches/${matchId}.json`), useCache);
 }
 
 export async function getTeam(teamId) {
@@ -123,11 +124,12 @@ export async function getSearchIndex() {
 }
 
 /**
- * Live polling helper: runs callback immediately, then every intervalMs
+ * Live polling helper for date-based matches with instant refresh capability
  */
 export function startLivePolling(dateStr, callback, intervalMs = CONFIG.POLL_INTERVAL_LIVE_MS) {
   let isCancelled = false;
   let inFlight = false;
+  let timer = null;
 
   async function poll() {
     if (isCancelled || inFlight) return;
@@ -143,10 +145,60 @@ export function startLivePolling(dateStr, callback, intervalMs = CONFIG.POLL_INT
   }
 
   poll();
-  const timer = setInterval(poll, intervalMs);
+  timer = setInterval(poll, intervalMs);
 
-  return () => {
+  function onVisibilityChange() {
+    if (document.visibilityState === 'visible' && !isCancelled) {
+      poll();
+    }
+  }
+  document.addEventListener('visibilitychange', onVisibilityChange);
+
+  const cleanup = () => {
     isCancelled = true;
     clearInterval(timer);
+    document.removeEventListener('visibilitychange', onVisibilityChange);
   };
+  cleanup.refresh = poll;
+  return cleanup;
+}
+
+/**
+ * Live polling helper for a single active match
+ */
+export function startMatchPolling(matchId, callback, intervalMs = CONFIG.POLL_INTERVAL_LIVE_MS) {
+  let isCancelled = false;
+  let inFlight = false;
+  let timer = null;
+
+  async function poll() {
+    if (isCancelled || inFlight) return;
+    inFlight = true;
+    try {
+      const data = await getMatch(matchId, false);
+      if (!isCancelled) callback(null, data);
+    } catch (err) {
+      if (!isCancelled) callback(err, null);
+    } finally {
+      inFlight = false;
+    }
+  }
+
+  poll();
+  timer = setInterval(poll, intervalMs);
+
+  function onVisibilityChange() {
+    if (document.visibilityState === 'visible' && !isCancelled) {
+      poll();
+    }
+  }
+  document.addEventListener('visibilitychange', onVisibilityChange);
+
+  const cleanup = () => {
+    isCancelled = true;
+    clearInterval(timer);
+    document.removeEventListener('visibilitychange', onVisibilityChange);
+  };
+  cleanup.refresh = poll;
+  return cleanup;
 }

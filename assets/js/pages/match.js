@@ -3,7 +3,7 @@
  */
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
-import { getMatch, getTeam } from '../core/api.js';
+import { getMatch, getTeam, startMatchPolling } from '../core/api.js';
 import { getParam, setParam, buildLink } from '../core/router.js';
 import { createTabs } from '../components/tabs.js';
 import { createLinesBoard } from '../components/lines-board.js';
@@ -11,6 +11,8 @@ import { createRinkSvg } from '../components/rink-svg.js';
 import { getAssetUrl } from '../core/config.js';
 import { formatScore, formatPeriodStatus, formatDate } from '../core/format.js';
 import { availablePlayerIds, playerName } from '../core/profile-links.js';
+import { playGoalHorn } from '../core/sound.js';
+import { showGoalToast } from '../core/live-tracker.js';
 
 export async function initMatchPage() {
   const matchId = getParam('id');
@@ -53,63 +55,69 @@ export async function initMatchPage() {
   const defaultLogo = getAssetUrl('assets/logos/teams/placeholder.svg');
   const available = await availablePlayerIds();
 
-  // Render Match Header
-  headerSlot.innerHTML = '';
-  const headerCard = el('div', { className: 'card' },
-    // Meta bar
-    el('div', { className: 'card-header' },
-      el('span', { className: 'text-xs text-muted' },
-        `${match.compId} • ${formatDate(match.utcDate, 'full')} • ${match.arena || 'Арена'}`
-      ),
-      el('span', { className: `badge ${match.status === 'FINISHED' ? 'badge-finished' : 'badge-scheduled'}` }, formatPeriodStatus(match))
-    ),
-    // Teams and Score
-    el('div', { className: 'card-body', style: { padding: '24px 16px' } },
-      el('div', { className: 'flex items-center justify-between gap-16' },
-        // Home Team
-        el('div', { className: 'flex flex-col items-center flex-1 text-center' },
-          el('img', {
-            src: homeTeam.logo ? getAssetUrl(homeTeam.logo) : defaultLogo,
-            alt: homeTeam.name,
-            style: { width: '64px', height: '64px', objectFit: 'contain', marginBottom: '8px' },
-            onerror: (e) => { e.target.src = defaultLogo; }
-          }),
-          el('a', { href: buildLink('/team/', { id: match.home.id }), className: 'text-lg text-bold link-accent' },
-            homeTeam.name
-          ),
-          el('div', { className: 'text-xs text-muted' }, homeTeam.city || '')
+  function renderMatchHeader() {
+    headerSlot.innerHTML = '';
+    const headerCard = el('div', { className: 'card' },
+      // Meta bar
+      el('div', { className: 'card-header' },
+        el('span', { className: 'text-xs text-muted' },
+          `${match.compId} • ${formatDate(match.utcDate, 'full')} • ${match.arena || 'Арена'}`
         ),
-
-        // Big Score
-        el('div', { className: 'flex flex-col items-center justify-center' },
-          el('div', { className: 'text-3xl text-bold', style: { letterSpacing: '2px' } },
-            formatScore(match.home.score, match.away.score, match.status)
-          ),
-          match.finishedIn ? el('div', { className: 'badge badge-scheduled', style: { marginTop: '6px' } },
-            match.finishedIn === 'OT' ? 'Овертайм' : match.finishedIn === 'SO' ? 'Буллиты' : ''
-          ) : null
-        ),
-
-        // Away Team
-        el('div', { className: 'flex flex-col items-center flex-1 text-center' },
-          el('img', {
-            src: awayTeam.logo ? getAssetUrl(awayTeam.logo) : defaultLogo,
-            alt: awayTeam.name,
-            style: { width: '64px', height: '64px', objectFit: 'contain', marginBottom: '8px' },
-            onerror: (e) => { e.target.src = defaultLogo; }
-          }),
-          el('a', { href: buildLink('/team/', { id: match.away.id }), className: 'text-lg text-bold link-accent' },
-            awayTeam.name
-          ),
-          el('div', { className: 'text-xs text-muted' }, awayTeam.city || '')
+        el('div', { className: 'flex items-center gap-8' },
+          match.status === 'LIVE' ? el('span', { className: 'badge badge-live' }, el('span', { className: 'live-dot' }), formatPeriodStatus(match)) :
+          el('span', { className: `badge ${match.status === 'FINISHED' ? 'badge-finished' : 'badge-scheduled'}` }, formatPeriodStatus(match))
         )
       ),
+      // Teams and Score
+      el('div', { className: 'card-body', style: { padding: '24px 16px' } },
+        el('div', { className: 'flex items-center justify-between gap-16' },
+          // Home Team
+          el('div', { className: 'flex flex-col items-center flex-1 text-center' },
+            el('img', {
+              src: homeTeam.logo ? getAssetUrl(homeTeam.logo) : defaultLogo,
+              alt: homeTeam.name,
+              style: { width: '64px', height: '64px', objectFit: 'contain', marginBottom: '8px' },
+              onerror: (e) => { e.target.src = defaultLogo; }
+            }),
+            el('a', { href: buildLink('/team/', { id: match.home.id }), className: 'text-lg text-bold link-accent' },
+              homeTeam.name
+            ),
+            el('div', { className: 'text-xs text-muted' }, homeTeam.city || '')
+          ),
 
-      // Period Scores Table
-      renderPeriodBreakdownTable(match, homeTeam, awayTeam)
-    )
-  );
-  headerSlot.appendChild(headerCard);
+          // Big Score
+          el('div', { className: 'flex flex-col items-center justify-center' },
+            el('div', { className: 'text-3xl text-bold', style: { letterSpacing: '2px' } },
+              formatScore(match.home.score, match.away.score, match.status)
+            ),
+            match.finishedIn ? el('div', { className: 'badge badge-scheduled', style: { marginTop: '6px' } },
+              match.finishedIn === 'OT' ? 'Овертайм' : match.finishedIn === 'SO' ? 'Буллиты' : ''
+            ) : null
+          ),
+
+          // Away Team
+          el('div', { className: 'flex flex-col items-center flex-1 text-center' },
+            el('img', {
+              src: awayTeam.logo ? getAssetUrl(awayTeam.logo) : defaultLogo,
+              alt: awayTeam.name,
+              style: { width: '64px', height: '64px', objectFit: 'contain', marginBottom: '8px' },
+              onerror: (e) => { e.target.src = defaultLogo; }
+            }),
+            el('a', { href: buildLink('/team/', { id: match.away.id }), className: 'text-lg text-bold link-accent' },
+              awayTeam.name
+            ),
+            el('div', { className: 'text-xs text-muted' }, awayTeam.city || '')
+          )
+        ),
+
+        // Period Scores Table
+        renderPeriodBreakdownTable(match, homeTeam, awayTeam)
+      )
+    );
+    headerSlot.appendChild(headerCard);
+  }
+
+  renderMatchHeader();
 
   // Tabs
   const tabsConfig = [
@@ -152,6 +160,36 @@ export async function initMatchPage() {
   }
 
   renderTabBody();
+
+  // Real-time live polling for active/scheduled matches
+  if (match.status !== 'FINISHED') {
+    const stopPolling = startMatchPolling(matchId, (err, updated) => {
+      if (err || !updated) return;
+
+      const oldHome = Number(match.home?.score ?? 0);
+      const oldAway = Number(match.away?.score ?? 0);
+      const newHome = Number(updated.home?.score ?? 0);
+      const newAway = Number(updated.away?.score ?? 0);
+
+      if (newHome > oldHome || newAway > oldAway) {
+        playGoalHorn();
+        showGoalToast({
+          match: updated,
+          teamScored: newHome > oldHome ? homeTeam.name : awayTeam.name,
+          homeScore: newHome,
+          awayScore: newAway,
+          homeName: homeTeam.name,
+          awayName: awayTeam.name
+        });
+      }
+
+      match = updated;
+      renderMatchHeader();
+      renderTabBody();
+    }, 10000);
+
+    window.addEventListener('beforeunload', () => stopPolling());
+  }
 }
 
 function renderPeriodBreakdownTable(match, homeTeam, awayTeam) {

@@ -105,6 +105,29 @@ export class SiteHeader extends HTMLElement {
               )
             ),
 
+            // Sound Notification Toggle Button
+            el('button', {
+              className: 'icon-btn sound-toggle-btn',
+              'aria-label': store.isSoundEnabled() ? 'Отключить звук гола' : 'Включить звук гола',
+              title: store.isSoundEnabled() ? 'Звуковые оповещения о голах включены' : 'Звуковые оповещения выключены',
+              style: { color: store.isSoundEnabled() ? 'var(--primary-container)' : 'var(--text-muted)' },
+              onClick: () => {
+                store.toggleSound();
+                this.render();
+              }
+            },
+              store.isSoundEnabled()
+                ? el('svg', { width: '18', height: '18', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2' },
+                    el('polygon', { points: '11 5 6 9 2 9 2 15 6 15 11 19 11 5' }),
+                    el('path', { d: 'M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07' })
+                  )
+                : el('svg', { width: '18', height: '18', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2' },
+                    el('polygon', { points: '11 5 6 9 2 9 2 15 6 15 11 19 11 5' }),
+                    el('line', { x1: '23', y1: '9', x2: '17', y2: '15' }),
+                    el('line', { x1: '17', y1: '9', x2: '23', y2: '15' })
+                  )
+            ),
+
             // Theme Toggle Button
             el('button', {
               className: 'icon-btn theme-toggle-btn',

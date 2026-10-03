@@ -3,16 +3,17 @@
  */
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
-import { getMatchesByDate, getCompetitions, getNews, getStandings, getMeta, getMatch } from '../core/api.js';
+import { getMatchesByDate, getCompetitions, getNews, getStandings, getMeta, getMatch, startLivePolling } from '../core/api.js';
 import { getTodayISODate, formatDate } from '../core/format.js';
 import { getParam, setParam, buildLink } from '../core/router.js';
 import { createDatepicker } from '../components/datepicker.js';
 import { createMatchRow, KNOWN_TEAMS } from '../components/match-row.js';
+import { trackMatchUpdates } from '../core/live-tracker.js';
 import { getAssetUrl } from '../core/config.js';
 
 let activeDate = getParam('date');
 let activeFilter = 'all'; // 'all', 'live', 'KHL', 'NHL'
-let requestNumber = 0;
+let stopPolling = null;
 
 let cachedCompetitions = [];
 let cachedTeamsMap = { ...KNOWN_TEAMS };
@@ -152,14 +153,22 @@ export async function initHomePage() {
   function loadMatchesForDate() {
     renderLoading(matchesContainer, 4);
 
-    const request = ++requestNumber;
-    getMatchesByDate(activeDate).then(matches => {
-      if (request !== requestNumber) return;
+    if (stopPolling) stopPolling();
+
+    stopPolling = startLivePolling(activeDate, (err, matches) => {
+      if (err) {
+        latestMatches = [];
+        if (highlightBannerContainer) highlightBannerContainer.replaceChildren();
+        renderError(matchesContainer, 'Не удалось загрузить матчи выбранной даты', loadMatchesForDate);
+        return;
+      }
+
       latestMatches = matches || [];
+      trackMatchUpdates(latestMatches, cachedTeamsMap);
       renderHighlightBanner(highlightBannerContainer, latestMatches);
       renderCurrentMatches();
 
-      // Find suitable match for Daily Stats widget (e.g. CKA vs Lokomotiv or first finished)
+      // Find suitable match for Daily Stats widget
       const statsCandidate = latestMatches.find(m => m.status === 'FINISHED' && m.stats) || latestMatches.find(m => m.stats);
       if (statsCandidate) {
         loadSidebarStats(sidebarStatsContainer, statsCandidate.id);
@@ -167,12 +176,7 @@ export async function initHomePage() {
         const card = qs('#sidebar-stats-card');
         if (card) card.style.display = 'none';
       }
-    }).catch(() => {
-      if (request !== requestNumber) return;
-      latestMatches = [];
-      if (highlightBannerContainer) highlightBannerContainer.replaceChildren();
-      renderError(matchesContainer, 'Не удалось загрузить матчи выбранной даты', loadMatchesForDate);
-    });
+    }, 10000);
   }
 
   loadMatchesForDate();

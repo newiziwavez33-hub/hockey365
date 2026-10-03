@@ -13,7 +13,8 @@ const defaultState = {
     matches: []
   },
   customApiKey: '',
-  notificationsEnabled: false
+  notificationsEnabled: false,
+  soundEnabled: true
 };
 
 function normalizeState(value) {
@@ -30,7 +31,8 @@ function normalizeState(value) {
     timezone: ['Europe/Moscow', 'UTC', 'local'].includes(value.timezone) ? value.timezone : defaultState.timezone,
     favorites: validFavorites,
     customApiKey: typeof value.customApiKey === 'string' ? value.customApiKey : '',
-    notificationsEnabled: value.notificationsEnabled === true
+    notificationsEnabled: value.notificationsEnabled === true,
+    soundEnabled: value.soundEnabled !== false
   };
 }
 
@@ -126,6 +128,21 @@ class Store {
     }
     this._save();
     return this.isFavorite(type, id);
+  }
+
+  isSoundEnabled() {
+    return this.state.soundEnabled !== false;
+  }
+
+  setSoundEnabled(val) {
+    this.state.soundEnabled = Boolean(val);
+    this._save();
+    this.listeners.forEach(cb => cb(this.state));
+  }
+
+  toggleSound() {
+    this.setSoundEnabled(!this.isSoundEnabled());
+    return this.isSoundEnabled();
   }
 
   exportData() {
