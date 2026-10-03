@@ -1,0 +1,41 @@
+{
+  "season": "2026/27",
+  "transfers": [
+    {
+      "id": "tr-1",
+      "playerId": "khl:p_radulov",
+      "playerName": "Александр Радулов",
+      "fromTeamId": "khl:ak-bars",
+      "fromTeamName": "Ак Барс",
+      "toTeamId": "khl:lokomotiv",
+      "toTeamName": "Локомотив",
+      "date": "2026-06-15",
+      "type": "signing",
+      "terms": "Контракт на 1 год"
+    },
+    {
+      "id": "tr-2",
+      "playerId": "khl:p_gusev",
+      "playerName": "Никита Гусев",
+      "fromTeamId": "khl:dynamo-msk",
+      "fromTeamName": "Динамо М",
+      "toTeamId": "khl:ska",
+      "toTeamName": "СКА",
+      "date": "2026-07-02",
+      "type": "trade",
+      "terms": "Обмен на денежную компенсацию"
+    },
+    {
+      "id": "tr-3",
+      "playerId": "khl:p_goldobin",
+      "playerName": "Николай Голдобин",
+      "fromTeamId": "khl:spartak",
+      "fromTeamName": "Спартак",
+      "toTeamId": "khl:spartak",
+      "toTeamName": "Спартак",
+      "date": "2026-05-20",
+      "type": "extension",
+      "terms": "Продление на 2 года"
+    }
+  ]
+}

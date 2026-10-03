@@ -1,0 +1,27 @@
+{
+  "id": "nhl:phi",
+  "slug": "phi-flyers",
+  "name": "Филадельфия Флайерз",
+  "nameEn": "Philadelphia Flyers",
+  "short": "PHI",
+  "country": "USA",
+  "city": "Philadelphia",
+  "conference": "Восточная",
+  "division": "Столичный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Philadelphia"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/phi.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "KHL",
+    "name": "КХЛ",
+    "nameEn": "Kontinental Hockey League",
+    "country": "RUS",
+    "type": "league",
+    "pointsRule": "2-1-0-ot",
+    "structure": {
+      "conferences": ["Запад", "Восток"],
+      "divisions": ["Боброва", "Тарасова", "Харламова", "Чернышёва"]
+    },
+    "periods": 3,
+    "periodMinutes": 20,
+    "overtime": {
+      "regular": "3x3-5min+shootout",
+      "playoff": "20min-5v5"
+    },
+    "playoff": {
+      "teamsPerConference": 8,
+      "seriesBestOf": 7
+    },
+    "emblem": "/assets/logos/comp/KHL.svg",
+    "currentSeason": "2026/27",
+    "seasons": ["2026/27", "2025/26"]
+  },
+  {
+    "id": "NHL",
+    "name": "НХЛ",
+    "nameEn": "National Hockey League",
+    "country": "USA",
+    "type": "league",
+    "pointsRule": "2-1-0-ot",
+    "structure": {
+      "conferences": ["Восточная", "Западная"],
+      "divisions": ["Атлантический", "Столичный", "Центральный", "Тихоокеанский"]
+    },
+    "periods": 3,
+    "periodMinutes": 20,
+    "overtime": {
+      "regular": "3x3-5min+shootout",
+      "playoff": "20min-5v5"
+    },
+    "playoff": {
+      "teamsPerConference": 8,
+      "seriesBestOf": 7
+    },
+    "emblem": "/assets/logos/comp/NHL.svg",
+    "currentSeason": "2026/27",
+    "seasons": ["2026/27", "2025/26"]
+  },
+  {
+    "id": "VHL",
+    "name": "ВХЛ",
+    "nameEn": "All-Russian Hockey League",
+    "country": "RUS",
+    "type": "league",
+    "pointsRule": "2-1-0-ot",
+    "structure": {
+      "conferences": [],
+      "divisions": []
+    },
+    "periods": 3,
+    "periodMinutes": 20,
+    "overtime": {
+      "regular": "3x3-5min+shootout",
+      "playoff": "20min-5v5"
+    },
+    "playoff": {
+      "teamsPerConference": 16,
+      "seriesBestOf": 7
+    },
+    "emblem": "/assets/logos/comp/VHL.svg",
+    "currentSeason": "2026/27",
+    "seasons": ["2026/27"]
+  },
+  {
+    "id": "MHL",
+    "name": "МХЛ",
+    "nameEn": "Junior Hockey League",
+    "country": "RUS",
+    "type": "league",
+    "pointsRule": "2-1-0-ot",
+    "structure": {
+      "conferences": ["Запад", "Восток"],
+      "divisions": ["Золотой", "Серебряный"]
+    },
+    "periods": 3,
+    "periodMinutes": 20,
+    "overtime": {
+      "regular": "3x3-5min+shootout",
+      "playoff": "20min-5v5"
+    },
+    "playoff": {
+      "teamsPerConference": 8,
+      "seriesBestOf": 5
+    },
+    "emblem": "/assets/logos/comp/MHL.svg",
+    "currentSeason": "2026/27",
+    "seasons": ["2026/27"]
+  }
+]

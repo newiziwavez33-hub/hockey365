@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Страница не найдена (404) | Hockey365</title>
+  <link rel="icon" type="image/svg+xml" href="assets/logos/comp/KHL.svg">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Перейти к основному контенту</a>
+
+  <site-header></site-header>
+
+  <main id="main-content" class="main-content">
+    <div class="app-container" style="max-width: 600px; text-align: center; padding-top: 48px;">
+
+      <div class="card">
+        <div class="card-body flex-col items-center gap-16" style="padding: 40px 20px;">
+          <div style="font-size: 72px; font-weight: 900; color: var(--color-accent-blue); line-height: 1;">404</div>
+          <h1 class="text-xl text-bold">Страница не найдена</h1>
+          <p class="text-secondary text-sm">
+            Запрошенная страница не существует или была перемещена. Возможно, изменился адрес матча или турнира.
+          </p>
+          <div class="flex gap-12" style="margin-top: 16px;">
+            <a href="./" class="btn-primary">На главную</a>
+            <a href="search/" class="tab-btn" style="border: 1px solid var(--color-border); border-radius: var(--radius-sm);">Перейти к поиску</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <site-footer></site-footer>
+
+  <script type="module">
+    import './assets/js/components/site-header.js';
+    import './assets/js/components/site-footer.js';
+  </script>
+</body>
+</html>

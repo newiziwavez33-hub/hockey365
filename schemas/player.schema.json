@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Player",
+  "type": "object",
+  "required": ["id", "name", "position", "teamId"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "nameEn": { "type": "string" },
+    "position": { "type": "string", "enum": ["G", "D", "LW", "C", "RW"] },
+    "shoots": { "type": ["string", "null"], "enum": ["L", "R", null] },
+    "birthDate": { "type": ["string", "null"] },
+    "heightCm": { "type": ["integer", "null"] },
+    "weightKg": { "type": ["integer", "null"] },
+    "nationality": { "type": ["string", "null"] },
+    "number": { "type": ["integer", "null"] },
+    "teamId": { "type": "string" },
+    "photo": { "type": ["string", "null"] },
+    "stats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["season", "compId"],
+        "properties": {
+          "season": { "type": "string" },
+          "compId": { "type": "string" },
+          "gp": { "type": "integer" },
+          "g": { "type": ["integer", "null"] },
+          "a": { "type": ["integer", "null"] },
+          "pts": { "type": ["integer", "null"] },
+          "plusMinus": { "type": ["integer", "null"] },
+          "pim": { "type": ["integer", "null"] },
+          "shots": { "type": ["integer", "null"] },
+          "toi": { "type": ["string", "null"] },
+          "gk": {
+            "type": ["object", "null"],
+            "properties": {
+              "gaa": { "type": "number" },
+              "svPct": { "type": "number" },
+              "so": { "type": "integer" },
+              "w": { "type": "integer" },
+              "l": { "type": "integer" },
+              "otl": { "type": "integer" }
+            }
+          }
+        }
+      }
+    },
+    "career": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "teamId": { "type": "string" },
+          "teamName": { "type": "string" },
+          "from": { "type": "string" },
+          "to": { "type": "string" }
+        }
+      }
+    }
+  }
+}

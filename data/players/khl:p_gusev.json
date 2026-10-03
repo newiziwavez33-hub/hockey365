@@ -1,0 +1,62 @@
+{
+  "id": "khl:p_gusev",
+  "name": "Никита Гусев",
+  "nameEn": "Nikita Gusev",
+  "position": "LW",
+  "shoots": "R",
+  "birthDate": "1992-07-08",
+  "heightCm": 178,
+  "weightKg": 82,
+  "nationality": "RUS",
+  "number": 97,
+  "teamId": "khl:ska",
+  "photo": null,
+  "stats": [
+    {
+      "season": "2026/27",
+      "compId": "KHL",
+      "gp": 13,
+      "g": 7,
+      "a": 14,
+      "pts": 21,
+      "plusMinus": 8,
+      "pim": 2,
+      "shots": 40,
+      "toi": "20:05",
+      "gk": null
+    },
+    {
+      "season": "2025/26",
+      "compId": "KHL",
+      "gp": 68,
+      "g": 23,
+      "a": 66,
+      "pts": 89,
+      "plusMinus": 22,
+      "pim": 10,
+      "shots": 170,
+      "toi": "20:30",
+      "gk": null
+    }
+  ],
+  "career": [
+    {
+      "teamId": "khl:ska",
+      "teamName": "СКА",
+      "from": "2015",
+      "to": "2019"
+    },
+    {
+      "teamId": "khl:dynamo-msk",
+      "teamName": "Динамо М",
+      "from": "2023",
+      "to": "2024"
+    },
+    {
+      "teamId": "khl:ska",
+      "teamName": "СКА",
+      "from": "2024",
+      "to": "2027"
+    }
+  ]
+}

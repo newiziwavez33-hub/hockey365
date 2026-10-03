@@ -1,0 +1,27 @@
+{
+  "id": "nhl:sea",
+  "slug": "sea-kraken",
+  "name": "Сиэтл Кракен",
+  "nameEn": "Seattle Kraken",
+  "short": "SEA",
+  "country": "USA",
+  "city": "Seattle",
+  "conference": "Западная",
+  "division": "Тихоокеанский",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Seattle"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/sea.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

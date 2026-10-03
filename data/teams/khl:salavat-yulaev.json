@@ -1,0 +1,50 @@
+{
+  "id": "khl:salavat-yulaev",
+  "slug": "salavat-yulaev-ufa",
+  "name": "Салават Юлаев",
+  "nameEn": "Salavat Yulaev Ufa",
+  "short": "СЮЛ",
+  "country": "RUS",
+  "city": "Уфа",
+  "conference": "Восток",
+  "division": "Чернышёва",
+  "founded": 1961,
+  "arena": {
+    "name": "Уфа-Арена",
+    "capacity": 8522,
+    "city": "Уфа"
+  },
+  "colors": [
+    "#008751",
+    "#00205B"
+  ],
+  "logo": "/assets/logos/teams/salavat-yulaev.svg",
+  "coach": "Виктор Козлов",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:salavat-yulaev_p1",
+    "khl:salavat-yulaev_p2",
+    "khl:salavat-yulaev_p3",
+    "khl:salavat-yulaev_p4",
+    "khl:salavat-yulaev_p5",
+    "khl:salavat-yulaev_p6",
+    "khl:salavat-yulaev_p7",
+    "khl:salavat-yulaev_p8",
+    "khl:salavat-yulaev_p9",
+    "khl:salavat-yulaev_p10",
+    "khl:salavat-yulaev_p11",
+    "khl:salavat-yulaev_p12",
+    "khl:salavat-yulaev_p13",
+    "khl:salavat-yulaev_p14",
+    "khl:salavat-yulaev_p15",
+    "khl:salavat-yulaev_p16",
+    "khl:salavat-yulaev_p17",
+    "khl:salavat-yulaev_p18",
+    "khl:salavat-yulaev_p19",
+    "khl:salavat-yulaev_p20",
+    "khl:salavat-yulaev_p21",
+    "khl:salavat-yulaev_p22"
+  ]
+}

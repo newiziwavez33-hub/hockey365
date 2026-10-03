@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Новости хоккея — КХЛ, НХЛ, трансферы и события | Hockey365</title>
+  <meta name="description" content="Свежие хоккейные новости КХЛ и НХЛ: результаты матчей, комментарии тренеров, обзоры и аналитика.">
+  <link rel="icon" type="image/svg+xml" href="../assets/logos/comp/KHL.svg">
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Перейти к основному контенту</a>
+
+  <site-header></site-header>
+
+  <main id="main-content" class="main-content">
+    <div class="app-container">
+
+      <!-- News Feed Slot -->
+      <div id="news-feed-slot"></div>
+
+    </div>
+  </main>
+
+  <site-footer></site-footer>
+
+  <script type="module">
+    import '../assets/js/components/site-header.js';
+    import '../assets/js/components/site-footer.js';
+    import { initNewsPage } from '../assets/js/pages/news.js';
+
+    initNewsPage();
+  </script>
+</body>
+</html>

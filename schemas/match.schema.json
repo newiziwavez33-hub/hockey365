@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Match",
+  "type": "object",
+  "required": ["id", "compId", "season", "utcDate", "status", "home", "away"],
+  "properties": {
+    "id": { "type": "string" },
+    "compId": { "type": "string" },
+    "season": { "type": "string" },
+    "stage": { "type": "string", "enum": ["regular", "playoff", "preseason"] },
+    "round": { "type": ["string", "integer", "null"] },
+    "seriesGame": { "type": ["integer", "null"] },
+    "utcDate": { "type": "string" },
+    "status": { "type": "string", "enum": ["SCHEDULED", "LIVE", "INTERMISSION", "FINISHED", "POSTPONED", "CANCELLED"] },
+    "period": { "type": ["integer", "null"] },
+    "clock": { "type": ["string", "null"] },
+    "finishedIn": { "type": ["string", "null"], "enum": ["REG", "OT", "SO", null] },
+    "home": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": { "type": "string" },
+        "score": { "type": ["integer", "null"] },
+        "periods": { "type": "array", "items": { "type": ["integer", "null"] } },
+        "shots": { "type": ["integer", "null"] }
+      }
+    },
+    "away": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": { "type": "string" },
+        "score": { "type": ["integer", "null"] },
+        "periods": { "type": "array", "items": { "type": ["integer", "null"] } },
+        "shots": { "type": ["integer", "null"] }
+      }
+    },
+    "arena": { "type": ["string", "null"] },
+    "officials": {
+      "type": "object",
+      "properties": {
+        "referees": { "type": "array", "items": { "type": "string" } },
+        "linesmen": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type"],
+        "properties": {
+          "period": { "type": ["integer", "string"] },
+          "time": { "type": "string" },
+          "type": { "type": "string", "enum": ["GOAL", "PENALTY", "SHOOTOUT", "GOALIE_CHANGE", "TIMEOUT"] },
+          "team": { "type": "string", "enum": ["home", "away"] },
+          "playerId": { "type": ["string", "null"] },
+          "playerName": { "type": ["string", "null"] },
+          "assists": { "type": "array", "items": { "type": "string" } },
+          "strength": { "type": ["string", "null"], "enum": ["EV", "PP", "SH", "EN", "PS", null] },
+          "score": { "type": ["string", "null"] },
+          "minutes": { "type": ["integer", "null"] },
+          "reason": { "type": ["string", "null"] },
+          "kind": { "type": ["string", "null"] },
+          "order": { "type": ["integer", "null"] },
+          "result": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "lineups": {
+      "type": ["object", "null"],
+      "properties": {
+        "home": { "type": "object" },
+        "away": { "type": "object" }
+      }
+    },
+    "stats": {
+      "type": ["object", "null"],
+      "properties": {
+        "shots": { "type": "array", "items": { "type": "integer" } },
+        "shotsOnGoal": { "type": "array", "items": { "type": "integer" } },
+        "hits": { "type": "array", "items": { "type": "integer" } },
+        "blocks": { "type": "array", "items": { "type": "integer" } },
+        "faceoffPct": { "type": "array", "items": { "type": "number" } },
+        "pim": { "type": "array", "items": { "type": "integer" } },
+        "powerPlay": { "type": "array", "items": { "type": "string" } },
+        "takeaways": { "type": "array", "items": { "type": "integer" } },
+        "giveaways": { "type": "array", "items": { "type": "integer" } }
+      }
+    },
+    "h2h": { "type": "array", "items": { "type": "string" } }
+  }
+}

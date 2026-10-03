@@ -1,0 +1,50 @@
+{
+  "id": "khl:barys",
+  "slug": "barys-astana",
+  "name": "Барыс",
+  "nameEn": "Barys Astana",
+  "short": "БАР",
+  "country": "KAZ",
+  "city": "Астана",
+  "conference": "Восток",
+  "division": "Чернышёва",
+  "founded": 1999,
+  "arena": {
+    "name": "Барыс Арена",
+    "capacity": 11578,
+    "city": "Астана"
+  },
+  "colors": [
+    "#00A3BF",
+    "#FFCC00"
+  ],
+  "logo": "/assets/logos/teams/barys.svg",
+  "coach": "Галым Мамбеталиев",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:barys_p1",
+    "khl:barys_p2",
+    "khl:barys_p3",
+    "khl:barys_p4",
+    "khl:barys_p5",
+    "khl:barys_p6",
+    "khl:barys_p7",
+    "khl:barys_p8",
+    "khl:barys_p9",
+    "khl:barys_p10",
+    "khl:barys_p11",
+    "khl:barys_p12",
+    "khl:barys_p13",
+    "khl:barys_p14",
+    "khl:barys_p15",
+    "khl:barys_p16",
+    "khl:barys_p17",
+    "khl:barys_p18",
+    "khl:barys_p19",
+    "khl:barys_p20",
+    "khl:barys_p21",
+    "khl:barys_p22"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "khl:p_goldobin",
+  "name": "Николай Голдобин",
+  "nameEn": "Nikolai Goldobin",
+  "position": "RW",
+  "shoots": "L",
+  "birthDate": "1995-10-07",
+  "heightCm": 182,
+  "weightKg": 86,
+  "nationality": "RUS",
+  "number": 87,
+  "teamId": "khl:spartak",
+  "photo": null,
+  "stats": [
+    {
+      "season": "2026/27",
+      "compId": "KHL",
+      "gp": 13,
+      "g": 12,
+      "a": 10,
+      "pts": 22,
+      "plusMinus": 6,
+      "pim": 6,
+      "shots": 52,
+      "toi": "19:15",
+      "gk": null
+    },
+    {
+      "season": "2025/26",
+      "compId": "KHL",
+      "gp": 67,
+      "g": 37,
+      "a": 41,
+      "pts": 78,
+      "plusMinus": 15,
+      "pim": 20,
+      "shots": 185,
+      "toi": "19:40",
+      "gk": null
+    }
+  ],
+  "career": [
+    {
+      "teamId": "khl:cska",
+      "teamName": "ЦСКА",
+      "from": "2020",
+      "to": "2021"
+    },
+    {
+      "teamId": "khl:metallurg-mg",
+      "teamName": "Металлург Мг",
+      "from": "2021",
+      "to": "2023"
+    },
+    {
+      "teamId": "khl:spartak",
+      "teamName": "Спартак",
+      "from": "2023",
+      "to": "2027"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "nhl:2026020048",
+  "compId": "NHL",
+  "season": "2026/27",
+  "stage": "regular",
+  "round": null,
+  "seriesGame": null,
+  "utcDate": "2026-10-06T23:30:00Z",
+  "status": "SCHEDULED",
+  "period": null,
+  "clock": "14:20",
+  "finishedIn": null,
+  "home": {
+    "id": "nhl:nyr",
+    "score": null,
+    "periods": [],
+    "shots": 30
+  },
+  "away": {
+    "id": "nhl:nyi",
+    "score": null,
+    "periods": [],
+    "shots": 28
+  },
+  "arena": "Madison Square Garden",
+  "officials": {
+    "referees": [
+      "Chris Rooney",
+      "Kelly Sutherland"
+    ],
+    "linesmen": [
+      "Matt MacPherson",
+      "Ryan Daisy"
+    ]
+  },
+  "events": [],
+  "lineups": {
+    "home": {
+      "goalies": [
+        {
+          "playerId": "nhl:nyr_g1",
+          "name": "Вратарь 1",
+          "number": 31
+        }
+      ],
+      "lines": [
+        {
+          "LW": "nhl:nyr_f1",
+          "LW_name": "Нападающий 1",
+          "C": "nhl:nyr_f2",
+          "C_name": "Центр 1",
+          "RW": "nhl:nyr_f3",
+          "RW_name": "Нападающий 2",
+          "LD": "nhl:nyr_d1",
+          "LD_name": "Защитник 1",
+          "RD": "nhl:nyr_d2",
+          "RD_name": "Защитник 2"
+        }
+      ]
+    },
+    "away": {
+      "goalies": [
+        {
+          "playerId": "nhl:nyi_g1",
+          "name": "Вратарь 1",
+          "number": 35
+        }
+      ],
+      "lines": [
+        {
+          "LW": "nhl:nyi_f1",
+          "LW_name": "Нападающий 1",
+          "C": "nhl:nyi_f2",
+          "C_name": "Центр 1",
+          "RW": "nhl:nyi_f3",
+          "RW_name": "Нападающий 2",
+          "LD": "nhl:nyi_d1",
+          "LD_name": "Защитник 1",
+          "RD": "nhl:nyi_d2",
+          "RD_name": "Защитник 2"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "shots": [
+      32,
+      29
+    ],
+    "shotsOnGoal": [
+      30,
+      28
+    ],
+    "hits": [
+      22,
+      19
+    ],
+    "blocks": [
+      14,
+      11
+    ],
+    "faceoffPct": [
+      53.5,
+      46.5
+    ],
+    "pim": [
+      6,
+      8
+    ],
+    "powerPlay": [
+      "1/3",
+      "0/2"
+    ],
+    "takeaways": [
+      6,
+      4
+    ],
+    "giveaways": [
+      5,
+      7
+    ]
+  },
+  "h2h": []
+}

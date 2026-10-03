@@ -1,0 +1,27 @@
+{
+  "id": "nhl:stl",
+  "slug": "stl-blues",
+  "name": "Сент-Луис Блюз",
+  "nameEn": "St. Louis Blues",
+  "short": "STL",
+  "country": "USA",
+  "city": "St. Louis",
+  "conference": "Западная",
+  "division": "Центральный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "St. Louis"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/stl.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

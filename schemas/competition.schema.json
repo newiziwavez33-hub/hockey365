@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Competition",
+  "type": "object",
+  "required": ["id", "name", "country", "type", "pointsRule", "periods", "currentSeason", "seasons"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "nameEn": { "type": "string" },
+    "country": { "type": "string" },
+    "type": { "type": "string", "enum": ["league", "cup", "tournament"] },
+    "pointsRule": { "type": "string", "enum": ["2-1-0", "2-1-0-ot", "3-2-1-0"] },
+    "structure": {
+      "type": "object",
+      "properties": {
+        "conferences": { "type": "array", "items": { "type": "string" } },
+        "divisions": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "periods": { "type": "integer", "minimum": 3 },
+    "periodMinutes": { "type": "integer" },
+    "overtime": { "type": "object" },
+    "playoff": { "type": "object" },
+    "emblem": { "type": "string" },
+    "currentSeason": { "type": "string" },
+    "seasons": { "type": "array", "items": { "type": "string" } }
+  }
+}

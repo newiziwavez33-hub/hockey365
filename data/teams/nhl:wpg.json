@@ -1,0 +1,27 @@
+{
+  "id": "nhl:wpg",
+  "slug": "wpg-jets",
+  "name": "Виннипег Джетс",
+  "nameEn": "Winnipeg Jets",
+  "short": "WPG",
+  "country": "CAN",
+  "city": "Winnipeg",
+  "conference": "Западная",
+  "division": "Центральный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Winnipeg"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/wpg.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

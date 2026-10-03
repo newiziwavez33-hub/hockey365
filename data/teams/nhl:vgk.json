@@ -1,0 +1,27 @@
+{
+  "id": "nhl:vgk",
+  "slug": "vgk-golden-knights",
+  "name": "Вегас Голден Найтс",
+  "nameEn": "Vegas Golden Knights",
+  "short": "VGK",
+  "country": "USA",
+  "city": "Vegas",
+  "conference": "Западная",
+  "division": "Тихоокеанский",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Vegas"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/vgk.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

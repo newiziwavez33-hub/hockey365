@@ -1,0 +1,50 @@
+{
+  "id": "khl:traktor",
+  "slug": "traktor-chelyabinsk",
+  "name": "Трактор",
+  "nameEn": "Traktor Chelyabinsk",
+  "short": "ТРК",
+  "country": "RUS",
+  "city": "Челябинск",
+  "conference": "Восток",
+  "division": "Харламова",
+  "founded": 1947,
+  "arena": {
+    "name": "Ледовая арена Трактор",
+    "capacity": 7500,
+    "city": "Челябинск"
+  },
+  "colors": [
+    "#000000",
+    "#FFFFFF"
+  ],
+  "logo": "/assets/logos/teams/traktor.svg",
+  "coach": "Бенуа Гру",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:traktor_p1",
+    "khl:traktor_p2",
+    "khl:traktor_p3",
+    "khl:traktor_p4",
+    "khl:traktor_p5",
+    "khl:traktor_p6",
+    "khl:traktor_p7",
+    "khl:traktor_p8",
+    "khl:traktor_p9",
+    "khl:traktor_p10",
+    "khl:traktor_p11",
+    "khl:traktor_p12",
+    "khl:traktor_p13",
+    "khl:traktor_p14",
+    "khl:traktor_p15",
+    "khl:traktor_p16",
+    "khl:traktor_p17",
+    "khl:traktor_p18",
+    "khl:traktor_p19",
+    "khl:traktor_p20",
+    "khl:traktor_p21",
+    "khl:traktor_p22"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "nhl:cgy",
+  "slug": "cgy-flames",
+  "name": "Калгари Флэймз",
+  "nameEn": "Calgary Flames",
+  "short": "CGY",
+  "country": "CAN",
+  "city": "Calgary",
+  "conference": "Западная",
+  "division": "Тихоокеанский",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Calgary"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/cgy.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

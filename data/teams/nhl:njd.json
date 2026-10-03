@@ -1,0 +1,27 @@
+{
+  "id": "nhl:njd",
+  "slug": "njd-devils",
+  "name": "Нью-Джерси Девилз",
+  "nameEn": "New Jersey Devils",
+  "short": "NJD",
+  "country": "USA",
+  "city": "New Jersey",
+  "conference": "Восточная",
+  "division": "Столичный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "New Jersey"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/njd.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

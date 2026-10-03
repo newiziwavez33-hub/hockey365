@@ -1,0 +1,50 @@
+{
+  "id": "khl:metallurg-mg",
+  "slug": "metallurg-magnitogorsk",
+  "name": "Металлург Мг",
+  "nameEn": "Metallurg Magnitogorsk",
+  "short": "ММГ",
+  "country": "RUS",
+  "city": "Магнитогорск",
+  "conference": "Восток",
+  "division": "Харламова",
+  "founded": 1955,
+  "arena": {
+    "name": "Арена Металлург",
+    "capacity": 7700,
+    "city": "Магнитогорск"
+  },
+  "colors": [
+    "#E31B23",
+    "#002D62"
+  ],
+  "logo": "/assets/logos/teams/metallurg-mg.svg",
+  "coach": "Андрей Разин",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:metallurg-mg_p1",
+    "khl:metallurg-mg_p2",
+    "khl:metallurg-mg_p3",
+    "khl:metallurg-mg_p4",
+    "khl:metallurg-mg_p5",
+    "khl:metallurg-mg_p6",
+    "khl:metallurg-mg_p7",
+    "khl:metallurg-mg_p8",
+    "khl:metallurg-mg_p9",
+    "khl:metallurg-mg_p10",
+    "khl:metallurg-mg_p11",
+    "khl:metallurg-mg_p12",
+    "khl:metallurg-mg_p13",
+    "khl:metallurg-mg_p14",
+    "khl:metallurg-mg_p15",
+    "khl:metallurg-mg_p16",
+    "khl:metallurg-mg_p17",
+    "khl:metallurg-mg_p18",
+    "khl:metallurg-mg_p19",
+    "khl:metallurg-mg_p20",
+    "khl:metallurg-mg_p21",
+    "khl:metallurg-mg_p22"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "khl:amur",
+  "slug": "amur-khabarovsk",
+  "name": "Амур",
+  "nameEn": "Amur Khabarovsk",
+  "short": "АМУ",
+  "country": "RUS",
+  "city": "Хабаровск",
+  "conference": "Восток",
+  "division": "Чернышёва",
+  "founded": 1957,
+  "arena": {
+    "name": "Платинум Арена",
+    "capacity": 7100,
+    "city": "Хабаровск"
+  },
+  "colors": [
+    "#E31B23",
+    "#000000"
+  ],
+  "logo": "/assets/logos/teams/amur.svg",
+  "coach": "Андрей Мартемьянов",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:amur_p1",
+    "khl:amur_p2",
+    "khl:amur_p3",
+    "khl:amur_p4",
+    "khl:amur_p5",
+    "khl:amur_p6",
+    "khl:amur_p7",
+    "khl:amur_p8",
+    "khl:amur_p9",
+    "khl:amur_p10",
+    "khl:amur_p11",
+    "khl:amur_p12",
+    "khl:amur_p13",
+    "khl:amur_p14",
+    "khl:amur_p15",
+    "khl:amur_p16",
+    "khl:amur_p17",
+    "khl:amur_p18",
+    "khl:amur_p19",
+    "khl:amur_p20",
+    "khl:amur_p21",
+    "khl:amur_p22"
+  ]
+}

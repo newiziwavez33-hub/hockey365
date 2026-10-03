@@ -1,0 +1,50 @@
+{
+  "id": "khl:cska",
+  "slug": "cska-moscow",
+  "name": "ЦСКА",
+  "nameEn": "CSKA Moscow",
+  "short": "ЦСК",
+  "country": "RUS",
+  "city": "Москва",
+  "conference": "Запад",
+  "division": "Тарасова",
+  "founded": 1946,
+  "arena": {
+    "name": "ЦСКА Арена",
+    "capacity": 12100,
+    "city": "Москва"
+  },
+  "colors": [
+    "#E31B23",
+    "#002D62"
+  ],
+  "logo": "/assets/logos/teams/cska.svg",
+  "coach": "Илья Воробьёв",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:cska_p1",
+    "khl:cska_p2",
+    "khl:cska_p3",
+    "khl:cska_p4",
+    "khl:cska_p5",
+    "khl:cska_p6",
+    "khl:cska_p7",
+    "khl:cska_p8",
+    "khl:cska_p9",
+    "khl:cska_p10",
+    "khl:cska_p11",
+    "khl:cska_p12",
+    "khl:cska_p13",
+    "khl:cska_p14",
+    "khl:cska_p15",
+    "khl:cska_p16",
+    "khl:cska_p17",
+    "khl:cska_p18",
+    "khl:cska_p19",
+    "khl:cska_p20",
+    "khl:cska_p21",
+    "khl:cska_p22"
+  ]
+}

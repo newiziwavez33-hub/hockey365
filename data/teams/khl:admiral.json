@@ -1,0 +1,50 @@
+{
+  "id": "khl:admiral",
+  "slug": "admiral-vladivostok",
+  "name": "Адмирал",
+  "nameEn": "Admiral Vladivostok",
+  "short": "АДМ",
+  "country": "RUS",
+  "city": "Владивосток",
+  "conference": "Восток",
+  "division": "Чернышёва",
+  "founded": 2013,
+  "arena": {
+    "name": "Фетисов Арена",
+    "capacity": 5500,
+    "city": "Владивосток"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/admiral.svg",
+  "coach": "Леонид Тамбиев",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:admiral_p1",
+    "khl:admiral_p2",
+    "khl:admiral_p3",
+    "khl:admiral_p4",
+    "khl:admiral_p5",
+    "khl:admiral_p6",
+    "khl:admiral_p7",
+    "khl:admiral_p8",
+    "khl:admiral_p9",
+    "khl:admiral_p10",
+    "khl:admiral_p11",
+    "khl:admiral_p12",
+    "khl:admiral_p13",
+    "khl:admiral_p14",
+    "khl:admiral_p15",
+    "khl:admiral_p16",
+    "khl:admiral_p17",
+    "khl:admiral_p18",
+    "khl:admiral_p19",
+    "khl:admiral_p20",
+    "khl:admiral_p21",
+    "khl:admiral_p22"
+  ]
+}

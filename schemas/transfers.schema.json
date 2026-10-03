@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Transfers",
+  "type": "object",
+  "required": ["season", "transfers"],
+  "properties": {
+    "season": { "type": "string" },
+    "transfers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "playerId", "playerName", "date", "type"],
+        "properties": {
+          "id": { "type": "string" },
+          "playerId": { "type": "string" },
+          "playerName": { "type": "string" },
+          "fromTeamId": { "type": ["string", "null"] },
+          "fromTeamName": { "type": ["string", "null"] },
+          "toTeamId": { "type": ["string", "null"] },
+          "toTeamName": { "type": ["string", "null"] },
+          "date": { "type": "string" },
+          "type": { "type": "string", "enum": ["trade", "signing", "extension", "waiver", "draft", "release"] },
+          "terms": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

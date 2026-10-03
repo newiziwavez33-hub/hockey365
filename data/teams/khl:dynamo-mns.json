@@ -1,0 +1,50 @@
+{
+  "id": "khl:dynamo-mns",
+  "slug": "dynamo-minsk",
+  "name": "Динамо Мн",
+  "nameEn": "Dinamo Minsk",
+  "short": "МНС",
+  "country": "BLR",
+  "city": "Минск",
+  "conference": "Запад",
+  "division": "Тарасова",
+  "founded": 1948,
+  "arena": {
+    "name": "Минск-Арена",
+    "capacity": 15086,
+    "city": "Минск"
+  },
+  "colors": [
+    "#0055A5",
+    "#FFFFFF"
+  ],
+  "logo": "/assets/logos/teams/dynamo-mns.svg",
+  "coach": "Дмитрий Квартальнов",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:dynamo-mns_p1",
+    "khl:dynamo-mns_p2",
+    "khl:dynamo-mns_p3",
+    "khl:dynamo-mns_p4",
+    "khl:dynamo-mns_p5",
+    "khl:dynamo-mns_p6",
+    "khl:dynamo-mns_p7",
+    "khl:dynamo-mns_p8",
+    "khl:dynamo-mns_p9",
+    "khl:dynamo-mns_p10",
+    "khl:dynamo-mns_p11",
+    "khl:dynamo-mns_p12",
+    "khl:dynamo-mns_p13",
+    "khl:dynamo-mns_p14",
+    "khl:dynamo-mns_p15",
+    "khl:dynamo-mns_p16",
+    "khl:dynamo-mns_p17",
+    "khl:dynamo-mns_p18",
+    "khl:dynamo-mns_p19",
+    "khl:dynamo-mns_p20",
+    "khl:dynamo-mns_p21",
+    "khl:dynamo-mns_p22"
+  ]
+}

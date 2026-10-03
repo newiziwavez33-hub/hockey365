@@ -1,0 +1,50 @@
+{
+  "id": "khl:ska",
+  "slug": "ska-saint-petersburg",
+  "name": "СКА",
+  "nameEn": "SKA Saint Petersburg",
+  "short": "СКА",
+  "country": "RUS",
+  "city": "Санкт-Петербург",
+  "conference": "Запад",
+  "division": "Боброва",
+  "founded": 1946,
+  "arena": {
+    "name": "СКА Арена",
+    "capacity": 21500,
+    "city": "Санкт-Петербург"
+  },
+  "colors": [
+    "#002D62",
+    "#D3A029"
+  ],
+  "logo": "/assets/logos/teams/ska.svg",
+  "coach": "Роман Ротенберг",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:ska_p1",
+    "khl:ska_p2",
+    "khl:ska_p3",
+    "khl:ska_p4",
+    "khl:ska_p5",
+    "khl:ska_p6",
+    "khl:ska_p7",
+    "khl:ska_p8",
+    "khl:ska_p9",
+    "khl:ska_p10",
+    "khl:ska_p11",
+    "khl:ska_p12",
+    "khl:ska_p13",
+    "khl:ska_p14",
+    "khl:ska_p15",
+    "khl:ska_p16",
+    "khl:ska_p17",
+    "khl:ska_p18",
+    "khl:ska_p19",
+    "khl:ska_p20",
+    "khl:ska_p21",
+    "khl:ska_p22"
+  ]
+}

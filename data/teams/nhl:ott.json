@@ -1,0 +1,27 @@
+{
+  "id": "nhl:ott",
+  "slug": "ott-senators",
+  "name": "Оттава Сенаторз",
+  "nameEn": "Ottawa Senators",
+  "short": "OTT",
+  "country": "CAN",
+  "city": "Ottawa",
+  "conference": "Восточная",
+  "division": "Атлантический",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Ottawa"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/ott.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

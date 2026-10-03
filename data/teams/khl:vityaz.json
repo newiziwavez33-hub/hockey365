@@ -1,0 +1,50 @@
+{
+  "id": "khl:vityaz",
+  "slug": "vityaz-balashikha",
+  "name": "Витязь",
+  "nameEn": "Vityaz Balashikha",
+  "short": "ВИТ",
+  "country": "RUS",
+  "city": "Балашиха",
+  "conference": "Запад",
+  "division": "Боброва",
+  "founded": 1996,
+  "arena": {
+    "name": "Арена Балашиха",
+    "capacity": 5678,
+    "city": "Балашиха"
+  },
+  "colors": [
+    "#C8102E",
+    "#FFFFFF"
+  ],
+  "logo": "/assets/logos/teams/vityaz.svg",
+  "coach": "Павел Десятков",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:vityaz_p1",
+    "khl:vityaz_p2",
+    "khl:vityaz_p3",
+    "khl:vityaz_p4",
+    "khl:vityaz_p5",
+    "khl:vityaz_p6",
+    "khl:vityaz_p7",
+    "khl:vityaz_p8",
+    "khl:vityaz_p9",
+    "khl:vityaz_p10",
+    "khl:vityaz_p11",
+    "khl:vityaz_p12",
+    "khl:vityaz_p13",
+    "khl:vityaz_p14",
+    "khl:vityaz_p15",
+    "khl:vityaz_p16",
+    "khl:vityaz_p17",
+    "khl:vityaz_p18",
+    "khl:vityaz_p19",
+    "khl:vityaz_p20",
+    "khl:vityaz_p21",
+    "khl:vityaz_p22"
+  ]
+}

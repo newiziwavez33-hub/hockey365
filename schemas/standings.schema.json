@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Standings",
+  "type": "object",
+  "required": ["compId", "season", "updatedAt", "groups"],
+  "properties": {
+    "compId": { "type": "string" },
+    "season": { "type": "string" },
+    "updatedAt": { "type": "string" },
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "rows"],
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string", "enum": ["overall", "conference", "division"] },
+          "rows": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["pos", "teamId", "gp", "gf", "ga", "gd", "pts"],
+              "properties": {
+                "pos": { "type": "integer" },
+                "teamId": { "type": "string" },
+                "gp": { "type": "integer" },
+                "w": { "type": "integer" },
+                "wOT": { "type": "integer" },
+                "wSO": { "type": "integer" },
+                "lOT": { "type": "integer" },
+                "lSO": { "type": "integer" },
+                "l": { "type": "integer" },
+                "gf": { "type": "integer" },
+                "ga": { "type": "integer" },
+                "gd": { "type": "integer" },
+                "pts": { "type": "integer" },
+                "form": { "type": "string" },
+                "zone": { "type": ["string", "null"] }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

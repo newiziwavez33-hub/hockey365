@@ -1,0 +1,50 @@
+{
+  "id": "khl:lada",
+  "slug": "lada-togliatti",
+  "name": "Лада",
+  "nameEn": "Lada Togliatti",
+  "short": "ЛАД",
+  "country": "RUS",
+  "city": "Тольятти",
+  "conference": "Восток",
+  "division": "Харламова",
+  "founded": 1976,
+  "arena": {
+    "name": "Лада-Арена",
+    "capacity": 6000,
+    "city": "Тольятти"
+  },
+  "colors": [
+    "#003366",
+    "#E31B23"
+  ],
+  "logo": "/assets/logos/teams/lada.svg",
+  "coach": "Олег Браташ",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:lada_p1",
+    "khl:lada_p2",
+    "khl:lada_p3",
+    "khl:lada_p4",
+    "khl:lada_p5",
+    "khl:lada_p6",
+    "khl:lada_p7",
+    "khl:lada_p8",
+    "khl:lada_p9",
+    "khl:lada_p10",
+    "khl:lada_p11",
+    "khl:lada_p12",
+    "khl:lada_p13",
+    "khl:lada_p14",
+    "khl:lada_p15",
+    "khl:lada_p16",
+    "khl:lada_p17",
+    "khl:lada_p18",
+    "khl:lada_p19",
+    "khl:lada_p20",
+    "khl:lada_p21",
+    "khl:lada_p22"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "nhl:dal",
+  "slug": "dal-stars",
+  "name": "Даллас Старз",
+  "nameEn": "Dallas Stars",
+  "short": "DAL",
+  "country": "USA",
+  "city": "Dallas",
+  "conference": "Западная",
+  "division": "Центральный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Dallas"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/dal.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

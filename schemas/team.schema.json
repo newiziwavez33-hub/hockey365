@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Team",
+  "type": "object",
+  "required": ["id", "slug", "name", "short", "country", "city", "logo", "competitions"],
+  "properties": {
+    "id": { "type": "string" },
+    "slug": { "type": "string" },
+    "name": { "type": "string" },
+    "nameEn": { "type": "string" },
+    "short": { "type": "string" },
+    "country": { "type": "string" },
+    "city": { "type": "string" },
+    "conference": { "type": ["string", "null"] },
+    "division": { "type": ["string", "null"] },
+    "founded": { "type": ["integer", "null"] },
+    "arena": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "capacity": { "type": ["integer", "null"] },
+        "city": { "type": "string" }
+      }
+    },
+    "colors": { "type": "array", "items": { "type": "string" } },
+    "logo": { "type": "string" },
+    "coach": { "type": ["string", "null"] },
+    "roster": { "type": "array", "items": { "type": "string" } },
+    "competitions": { "type": "array", "items": { "type": "string" } }
+  }
+}

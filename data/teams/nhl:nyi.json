@@ -1,0 +1,27 @@
+{
+  "id": "nhl:nyi",
+  "slug": "nyi-islanders",
+  "name": "Нью-Йорк Айлендерс",
+  "nameEn": "New York Islanders",
+  "short": "NYI",
+  "country": "USA",
+  "city": "NY Islanders",
+  "conference": "Восточная",
+  "division": "Столичный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "NY Islanders"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/nyi.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

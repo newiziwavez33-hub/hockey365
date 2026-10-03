@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Онлайн хоккей — Результаты матчей в прямом эфире | Hockey365</title>
+  <meta name="description" content="Прямой эфир хоккейных матчей КХЛ и НХЛ: онлайн счёт, время периода, броски и автообновление без перезагрузки страницы.">
+  <link rel="icon" type="image/svg+xml" href="../assets/logos/comp/KHL.svg">
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Перейти к основному контенту</a>
+
+  <site-header></site-header>
+
+  <main id="main-content" class="main-content">
+    <div class="app-container">
+
+      <!-- Header Banner & Live Status -->
+      <div class="card" style="margin-bottom: var(--space-16);">
+        <div class="card-header">
+          <h1 class="card-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            Хоккей Онлайн (Live Center)
+          </h1>
+          <div class="flex items-center gap-12">
+            <span id="live-count-badge" class="badge badge-live">0 LIVE</span>
+            <span id="updated-stamp" class="text-xs text-muted">Обновлено только что</span>
+          </div>
+        </div>
+
+        <div class="card-body" style="padding: var(--space-8) var(--space-12);">
+          <div id="online-filters" class="flex gap-8" style="overflow-x: auto;">
+            <button class="tab-btn active" data-filter="all">Все</button>
+            <button class="tab-btn" data-filter="live">🔴 Только LIVE</button>
+            <button class="tab-btn" data-filter="KHL">КХЛ</button>
+            <button class="tab-btn" data-filter="NHL">НХЛ</button>
+            <button class="tab-btn" data-filter="finished">Завершенные</button>
+            <button class="tab-btn" data-filter="scheduled">Запланированные</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Online Matches Slot -->
+      <section aria-label="Матчи онлайн">
+        <div id="online-matches-slot"></div>
+      </section>
+
+    </div>
+  </main>
+
+  <site-footer></site-footer>
+
+  <script type="module">
+    import '../assets/js/components/site-header.js';
+    import '../assets/js/components/site-footer.js';
+    import { initOnlinePage } from '../assets/js/pages/online.js';
+
+    initOnlinePage();
+  </script>
+</body>
+</html>

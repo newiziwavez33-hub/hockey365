@@ -1,0 +1,27 @@
+{
+  "id": "nhl:nyr",
+  "slug": "nyr-rangers",
+  "name": "Нью-Йорк Рейнджерс",
+  "nameEn": "New York Rangers",
+  "short": "NYR",
+  "country": "USA",
+  "city": "NY Rangers",
+  "conference": "Восточная",
+  "division": "Столичный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "NY Rangers"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/nyr.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

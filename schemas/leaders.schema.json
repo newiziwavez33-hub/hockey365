@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Leaders",
+  "type": "object",
+  "required": ["compId", "season", "categories"],
+  "properties": {
+    "compId": { "type": "string" },
+    "season": { "type": "string" },
+    "categories": {
+      "type": "object",
+      "properties": {
+        "points": { "type": "array" },
+        "goals": { "type": "array" },
+        "assists": { "type": "array" },
+        "plusMinus": { "type": "array" },
+        "pim": { "type": "array" },
+        "gaa": { "type": "array" },
+        "svPct": { "type": "array" }
+      }
+    }
+  }
+}

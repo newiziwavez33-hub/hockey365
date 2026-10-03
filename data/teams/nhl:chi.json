@@ -1,0 +1,27 @@
+{
+  "id": "nhl:chi",
+  "slug": "chi-blackhawks",
+  "name": "Чикаго Блэкхокс",
+  "nameEn": "Chicago Blackhawks",
+  "short": "CHI",
+  "country": "USA",
+  "city": "Chicago",
+  "conference": "Западная",
+  "division": "Центральный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Chicago"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/chi.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

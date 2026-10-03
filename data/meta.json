@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-10-03T20:15:00Z",
+  "siteName": "Hockey365",
+  "description": "Хоккейный портал матчей, таблиц и статистики КХЛ и НХЛ",
+  "leagues": ["KHL", "NHL", "VHL", "MHL"]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "nhl:min",
+  "slug": "min-wild",
+  "name": "Миннесота Уайлд",
+  "nameEn": "Minnesota Wild",
+  "short": "MIN",
+  "country": "USA",
+  "city": "Minnesota",
+  "conference": "Западная",
+  "division": "Центральный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Minnesota"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/min.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "nhl:pit",
+  "slug": "pit-penguins",
+  "name": "Питтсбург Пингвинз",
+  "nameEn": "Pittsburgh Penguins",
+  "short": "PIT",
+  "country": "USA",
+  "city": "Pittsburgh",
+  "conference": "Восточная",
+  "division": "Столичный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Pittsburgh"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/pit.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

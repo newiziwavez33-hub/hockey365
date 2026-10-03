@@ -1,0 +1,16 @@
+{
+  "name": "Hockey365 — Хоккейный портал",
+  "short_name": "Hockey365",
+  "description": "Матчи, турнирные таблицы, статистика и результаты КХЛ и НХЛ онлайн",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0e131d",
+  "theme_color": "#0b63ce",
+  "icons": [
+    {
+      "src": "assets/logos/comp/KHL.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

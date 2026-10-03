@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Трансферы хоккея — Обмены, переходы, контракты КХЛ и НХЛ | Hockey365</title>
+  <meta name="description" content="Таблица хоккейных переходов, обменов и подписаний свободных агентов в КХЛ и НХЛ на Hockey365.">
+  <link rel="icon" type="image/svg+xml" href="../assets/logos/comp/KHL.svg">
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Перейти к основному контенту</a>
+
+  <site-header></site-header>
+
+  <main id="main-content" class="main-content">
+    <div class="app-container">
+
+      <!-- Transfers Slot -->
+      <div id="transfers-slot"></div>
+
+    </div>
+  </main>
+
+  <site-footer></site-footer>
+
+  <script type="module">
+    import '../assets/js/components/site-header.js';
+    import '../assets/js/components/site-footer.js';
+    import { initTransfersPage } from '../assets/js/pages/transfers.js';
+
+    initTransfersPage();
+  </script>
+</body>
+</html>

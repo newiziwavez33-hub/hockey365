@@ -1,0 +1,50 @@
+{
+  "id": "khl:sibir",
+  "slug": "sibir-novosibirsk",
+  "name": "Сибирь",
+  "nameEn": "Sibir Novosibirsk",
+  "short": "СИБ",
+  "country": "RUS",
+  "city": "Новосибирск",
+  "conference": "Восток",
+  "division": "Чернышёва",
+  "founded": 1962,
+  "arena": {
+    "name": "Сибирь-Арена",
+    "capacity": 10587,
+    "city": "Новосибирск"
+  },
+  "colors": [
+    "#00205B",
+    "#00A3BF"
+  ],
+  "logo": "/assets/logos/teams/sibir.svg",
+  "coach": "Вадим Епанчинцев",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:sibir_p1",
+    "khl:sibir_p2",
+    "khl:sibir_p3",
+    "khl:sibir_p4",
+    "khl:sibir_p5",
+    "khl:sibir_p6",
+    "khl:sibir_p7",
+    "khl:sibir_p8",
+    "khl:sibir_p9",
+    "khl:sibir_p10",
+    "khl:sibir_p11",
+    "khl:sibir_p12",
+    "khl:sibir_p13",
+    "khl:sibir_p14",
+    "khl:sibir_p15",
+    "khl:sibir_p16",
+    "khl:sibir_p17",
+    "khl:sibir_p18",
+    "khl:sibir_p19",
+    "khl:sibir_p20",
+    "khl:sibir_p21",
+    "khl:sibir_p22"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "khl:spartak",
+  "slug": "spartak-moscow",
+  "name": "Спартак",
+  "nameEn": "Spartak Moscow",
+  "short": "СПА",
+  "country": "RUS",
+  "city": "Москва",
+  "conference": "Запад",
+  "division": "Боброва",
+  "founded": 1946,
+  "arena": {
+    "name": "Мегаспорт",
+    "capacity": 12396,
+    "city": "Москва"
+  },
+  "colors": [
+    "#E31B23",
+    "#FFFFFF"
+  ],
+  "logo": "/assets/logos/teams/spartak.svg",
+  "coach": "Алексей Жамнов",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:spartak_p1",
+    "khl:spartak_p2",
+    "khl:spartak_p3",
+    "khl:spartak_p4",
+    "khl:spartak_p5",
+    "khl:spartak_p6",
+    "khl:spartak_p7",
+    "khl:spartak_p8",
+    "khl:spartak_p9",
+    "khl:spartak_p10",
+    "khl:spartak_p11",
+    "khl:spartak_p12",
+    "khl:spartak_p13",
+    "khl:spartak_p14",
+    "khl:spartak_p15",
+    "khl:spartak_p16",
+    "khl:spartak_p17",
+    "khl:spartak_p18",
+    "khl:spartak_p19",
+    "khl:spartak_p20",
+    "khl:spartak_p21",
+    "khl:spartak_p22"
+  ]
+}

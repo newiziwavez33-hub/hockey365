@@ -1,0 +1,27 @@
+{
+  "id": "nhl:van",
+  "slug": "van-canucks",
+  "name": "Ванкувер Кэнакс",
+  "nameEn": "Vancouver Canucks",
+  "short": "VAN",
+  "country": "CAN",
+  "city": "Vancouver",
+  "conference": "Западная",
+  "division": "Тихоокеанский",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Vancouver"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/van.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

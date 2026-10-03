@@ -1,0 +1,27 @@
+{
+  "id": "nhl:nsh",
+  "slug": "nsh-predators",
+  "name": "Нэшвилл Предаторз",
+  "nameEn": "Nashville Predators",
+  "short": "NSH",
+  "country": "USA",
+  "city": "Nashville",
+  "conference": "Западная",
+  "division": "Центральный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Nashville"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/nsh.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

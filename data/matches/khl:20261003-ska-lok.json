@@ -1,0 +1,223 @@
+{
+  "id": "khl:20261003-ska-lok",
+  "compId": "KHL",
+  "season": "2026/27",
+  "stage": "regular",
+  "round": 12,
+  "utcDate": "2026-10-03T16:30:00Z",
+  "status": "FINISHED",
+  "period": 3,
+  "clock": "20:00",
+  "finishedIn": "OT",
+  "home": {
+    "id": "khl:ska",
+    "score": 3,
+    "periods": [
+      1,
+      1,
+      0,
+      1
+    ],
+    "shots": 34
+  },
+  "away": {
+    "id": "khl:lokomotiv",
+    "score": 2,
+    "periods": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "shots": 29
+  },
+  "arena": "СКА Арена, Санкт-Петербург",
+  "officials": {
+    "referees": [
+      "Константин Оленин",
+      "Евгений Ромасько"
+    ],
+    "linesmen": [
+      "Дмитрий Сивов",
+      "Александр Чернышёв"
+    ]
+  },
+  "events": [
+    {
+      "period": 1,
+      "time": "11:24",
+      "type": "GOAL",
+      "team": "home",
+      "playerId": "khl:p_nikishin",
+      "playerName": "Александр Никишин",
+      "assists": [
+        "khl:p_gusev",
+        "khl:p_plotnikov"
+      ],
+      "strength": "PP",
+      "score": "1:0"
+    },
+    {
+      "period": 2,
+      "time": "05:12",
+      "type": "PENALTY",
+      "team": "home",
+      "playerId": "khl:p_falb",
+      "playerName": "Сергей Плотников",
+      "minutes": 2,
+      "reason": "Подножка",
+      "kind": "minor"
+    },
+    {
+      "period": 2,
+      "time": "06:48",
+      "type": "GOAL",
+      "team": "away",
+      "playerId": "khl:p_radulov",
+      "playerName": "Александр Радулов",
+      "assists": [
+        "khl:p_shapunov"
+      ],
+      "strength": "PP",
+      "score": "1:1"
+    },
+    {
+      "period": 2,
+      "time": "18:03",
+      "type": "GOAL",
+      "team": "home",
+      "playerId": "khl:p_gusev",
+      "playerName": "Никита Гусев",
+      "assists": [
+        "khl:p_glotov"
+      ],
+      "strength": "EV",
+      "score": "2:1"
+    },
+    {
+      "period": 3,
+      "time": "14:15",
+      "type": "GOAL",
+      "team": "away",
+      "playerId": "khl:p_kayumov",
+      "playerName": "Артур Каюмов",
+      "assists": [
+        "khl:p_shлунов"
+      ],
+      "strength": "EV",
+      "score": "2:2"
+    },
+    {
+      "period": 4,
+      "time": "03:18",
+      "type": "GOAL",
+      "team": "home",
+      "playerId": "khl:p_nikishin",
+      "playerName": "Александр Никишин",
+      "assists": [
+        "khl:p_gusev"
+      ],
+      "strength": "EV",
+      "score": "3:2"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "goalies": [
+        {
+          "playerId": "khl:p_serebryakov",
+          "name": "Никита Серебряков",
+          "number": 90
+        }
+      ],
+      "lines": [
+        {
+          "LW": "khl:p_gusev",
+          "LW_name": "Никита Гусев",
+          "C": "khl:p_glotov",
+          "C_name": "Василий Глотов",
+          "RW": "khl:p_plotnikov",
+          "RW_name": "Сергей Плотников",
+          "LD": "khl:p_nikishin",
+          "LD_name": "Александр Никишин",
+          "RD": "khl:p_zaytsev",
+          "RD_name": "Никита Зайцев"
+        },
+        {
+          "LW": "khl:p_gritsyuk",
+          "LW_name": "Арсений Грицюк",
+          "C": "khl:p_vorobyov",
+          "C_name": "Михаил Воробьёв",
+          "RW": "khl:p_alymov",
+          "RW_name": "Захар Бардаков",
+          "LD": "khl:p_pedan",
+          "LD_name": "Андрей Педан",
+          "RD": "khl:p_zemchyonok",
+          "RD_name": "Артём Земчёнок"
+        }
+      ]
+    },
+    "away": {
+      "goalies": [
+        {
+          "playerId": "khl:p_isaev",
+          "name": "Даниил Исаев",
+          "number": 92
+        }
+      ],
+      "lines": [
+        {
+          "LW": "khl:p_radulov",
+          "LW_name": "Александр Радулов",
+          "C": "khl:p_ivanov",
+          "C_name": "Георгий Иванов",
+          "RW": "khl:p_kayumov",
+          "RW_name": "Артур Каюмов",
+          "LD": "khl:p_rafikov",
+          "LD_name": "Рушан Рафиков",
+          "RD": "khl:p_sergeev",
+          "RD_name": "Андрей Сергеев"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "shots": [
+      34,
+      29
+    ],
+    "shotsOnGoal": [
+      34,
+      29
+    ],
+    "hits": [
+      24,
+      28
+    ],
+    "blocks": [
+      16,
+      12
+    ],
+    "faceoffPct": [
+      54.2,
+      45.8
+    ],
+    "pim": [
+      6,
+      8
+    ],
+    "powerPlay": [
+      "1/3",
+      "1/2"
+    ],
+    "takeaways": [
+      8,
+      5
+    ],
+    "giveaways": [
+      4,
+      6
+    ]
+  },
+  "h2h": []
+}

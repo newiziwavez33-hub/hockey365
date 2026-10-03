@@ -1,0 +1,27 @@
+{
+  "id": "nhl:car",
+  "slug": "car-hurricanes",
+  "name": "Каролина Харрикейнз",
+  "nameEn": "Carolina Hurricanes",
+  "short": "CAR",
+  "country": "USA",
+  "city": "Carolina",
+  "conference": "Восточная",
+  "division": "Столичный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Carolina"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/car.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

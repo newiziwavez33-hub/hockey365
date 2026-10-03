@@ -1,0 +1,50 @@
+{
+  "id": "khl:lokomotiv",
+  "slug": "lokomotiv-yaroslavl",
+  "name": "Локомотив",
+  "nameEn": "Lokomotiv Yaroslavl",
+  "short": "ЛОК",
+  "country": "RUS",
+  "city": "Ярославль",
+  "conference": "Запад",
+  "division": "Тарасова",
+  "founded": 1959,
+  "arena": {
+    "name": "Арена-2000",
+    "capacity": 9070,
+    "city": "Ярославль"
+  },
+  "colors": [
+    "#E31B23",
+    "#00205B"
+  ],
+  "logo": "/assets/logos/teams/lokomotiv.svg",
+  "coach": "Игорь Никитин",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:lokomotiv_p1",
+    "khl:lokomotiv_p2",
+    "khl:lokomotiv_p3",
+    "khl:lokomotiv_p4",
+    "khl:lokomotiv_p5",
+    "khl:lokomotiv_p6",
+    "khl:lokomotiv_p7",
+    "khl:lokomotiv_p8",
+    "khl:lokomotiv_p9",
+    "khl:lokomotiv_p10",
+    "khl:lokomotiv_p11",
+    "khl:lokomotiv_p12",
+    "khl:lokomotiv_p13",
+    "khl:lokomotiv_p14",
+    "khl:lokomotiv_p15",
+    "khl:lokomotiv_p16",
+    "khl:lokomotiv_p17",
+    "khl:lokomotiv_p18",
+    "khl:lokomotiv_p19",
+    "khl:lokomotiv_p20",
+    "khl:lokomotiv_p21",
+    "khl:lokomotiv_p22"
+  ]
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Поиск по сайту — Команды, игроки, лиги, новости | Hockey365</title>
+  <meta name="description" content="Быстрый поиск команд, хоккеистов, лиг и новостей с автодополнением и транслитерацией.">
+  <link rel="icon" type="image/svg+xml" href="../assets/logos/comp/KHL.svg">
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Перейти к основному контенту</a>
+
+  <site-header></site-header>
+
+  <main id="main-content" class="main-content">
+    <div class="app-container">
+
+      <!-- Search Input Card -->
+      <div class="card" style="margin-bottom: var(--space-16);">
+        <div class="card-header">
+          <h1 class="card-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            Поиск по хоккейному порталу
+          </h1>
+        </div>
+        <div class="card-body">
+          <div style="position: relative;">
+            <input
+              id="search-page-input"
+              type="search"
+              placeholder="Начните вводить название клуба (напр. СКА, Ак Барс, Rangers) или фамилию игрока..."
+              style="width: 100%; height: 48px; padding: 0 16px; font-size: 16px; border: 1px solid var(--color-border); border-radius: var(--radius-sm); background: var(--color-bg-secondary); color: var(--color-text-primary);"
+            />
+          </div>
+          <div id="search-status-slot" class="text-xs text-muted" style="margin-top: 8px;"></div>
+        </div>
+      </div>
+
+      <!-- Search Results Area -->
+      <div id="search-results-slot"></div>
+
+    </div>
+  </main>
+
+  <site-footer></site-footer>
+
+  <script type="module">
+    import '../assets/js/components/site-header.js';
+    import '../assets/js/components/site-footer.js';
+    import { initSearchPage } from '../assets/js/pages/search.js';
+
+    initSearchPage();
+  </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "id": "nhl:mtl",
+  "slug": "mtl-canadiens",
+  "name": "Монреаль Канадиенс",
+  "nameEn": "Montréal Canadiens",
+  "short": "MTL",
+  "country": "CAN",
+  "city": "Montréal",
+  "conference": "Восточная",
+  "division": "Атлантический",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Montréal"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/mtl.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

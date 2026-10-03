@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hockey365 — Хоккей онлайн, матчи КХЛ и НХЛ, таблицы, результаты</title>
+  <meta name="description" content="Хоккейный портал Hockey365: онлайн-счёт матчей КХЛ и НХЛ, расписание, турнирные таблицы конференций и дивизионов, статистика игроков и сетка плей-офф.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="assets/logos/comp/KHL.svg">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsOrganization",
+  "name": "Hockey365",
+  "url": "https://giddammit-crypto.github.io/hockey365",
+  "description": "Хоккейный портал онлайн матчей, таблиц и статистики КХЛ и НХЛ",
+  "sport": "Ice Hockey"
+}
+</script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Перейти к основному контенту</a>
+
+  <site-header></site-header>
+
+  <main id="main-content" class="main-content">
+    <div class="app-container">
+      
+      <!-- Datepicker Ribbon -->
+      <div id="datepicker-slot"></div>
+
+      <!-- Filter Pills -->
+      <div class="card" style="margin-bottom: var(--space-16);">
+        <div class="card-body" style="padding: var(--space-8) var(--space-12);">
+          <div id="filter-pills" class="flex gap-8" style="overflow-x: auto;">
+            <button class="tab-btn active" data-filter="all">Все матчи</button>
+            <button class="tab-btn" data-filter="live">🔴 Только LIVE</button>
+            <button class="tab-btn" data-filter="KHL">КХЛ</button>
+            <button class="tab-btn" data-filter="NHL">НХЛ</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Layout Grid: Main Matches Column + Sidebar -->
+      <div class="layout-grid">
+        <!-- Matches Column -->
+        <section aria-label="Матчи дня">
+          <div id="matches-slot"></div>
+        </section>
+
+        <!-- Sidebar -->
+        <aside aria-label="Новости и таблицы">
+          <!-- News Widget -->
+          <div class="card">
+            <div class="card-header">
+              <h2 class="card-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V7m2 13a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"></path>
+                </svg>
+                Новости хоккея
+              </h2>
+              <a href="news/" class="text-xs text-muted link-accent">Все →</a>
+            </div>
+            <div class="card-body" id="sidebar-news-slot"></div>
+          </div>
+
+          <!-- Standings Preview Widget -->
+          <div class="card">
+            <div class="card-header">
+              <h2 class="card-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="3" y1="9" x2="21" y2="9"></line>
+                  <line x1="9" y1="21" x2="9" y2="9"></line>
+                </svg>
+                Лидеры КХЛ
+              </h2>
+              <a href="competition/?id=KHL" class="text-xs text-muted link-accent">Таблица →</a>
+            </div>
+            <div class="card-body" id="sidebar-standings-slot"></div>
+          </div>
+        </aside>
+      </div>
+
+    </div>
+  </main>
+
+  <site-footer></site-footer>
+
+  <script type="module">
+    import './assets/js/components/site-header.js';
+    import './assets/js/components/site-footer.js';
+    import { initHomePage } from './assets/js/pages/home.js';
+
+    initHomePage();
+
+    // Register Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(err => console.warn('SW register error', err));
+      });
+    }
+  </script>
+</body>
+</html>

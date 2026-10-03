@@ -1,0 +1,50 @@
+{
+  "id": "khl:sochi",
+  "slug": "hc-sochi",
+  "name": "ХК Сочи",
+  "nameEn": "HC Sochi",
+  "short": "СОЧ",
+  "country": "RUS",
+  "city": "Сочи",
+  "conference": "Запад",
+  "division": "Боброва",
+  "founded": 2014,
+  "arena": {
+    "name": "Большой",
+    "capacity": 12000,
+    "city": "Сочи"
+  },
+  "colors": [
+    "#003366",
+    "#FFCC00"
+  ],
+  "logo": "/assets/logos/teams/sochi.svg",
+  "coach": "Сергей Зубов",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:sochi_p1",
+    "khl:sochi_p2",
+    "khl:sochi_p3",
+    "khl:sochi_p4",
+    "khl:sochi_p5",
+    "khl:sochi_p6",
+    "khl:sochi_p7",
+    "khl:sochi_p8",
+    "khl:sochi_p9",
+    "khl:sochi_p10",
+    "khl:sochi_p11",
+    "khl:sochi_p12",
+    "khl:sochi_p13",
+    "khl:sochi_p14",
+    "khl:sochi_p15",
+    "khl:sochi_p16",
+    "khl:sochi_p17",
+    "khl:sochi_p18",
+    "khl:sochi_p19",
+    "khl:sochi_p20",
+    "khl:sochi_p21",
+    "khl:sochi_p22"
+  ]
+}

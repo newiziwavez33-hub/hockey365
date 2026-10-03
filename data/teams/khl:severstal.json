@@ -1,0 +1,50 @@
+{
+  "id": "khl:severstal",
+  "slug": "severstal-cherepovets",
+  "name": "Северсталь",
+  "nameEn": "Severstal Cherepovets",
+  "short": "СЕВ",
+  "country": "RUS",
+  "city": "Череповец",
+  "conference": "Запад",
+  "division": "Тарасова",
+  "founded": 1956,
+  "arena": {
+    "name": "Ледовый дворец",
+    "capacity": 5583,
+    "city": "Череповец"
+  },
+  "colors": [
+    "#FFCC00",
+    "#000000"
+  ],
+  "logo": "/assets/logos/teams/severstal.svg",
+  "coach": "Андрей Козырев",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:severstal_p1",
+    "khl:severstal_p2",
+    "khl:severstal_p3",
+    "khl:severstal_p4",
+    "khl:severstal_p5",
+    "khl:severstal_p6",
+    "khl:severstal_p7",
+    "khl:severstal_p8",
+    "khl:severstal_p9",
+    "khl:severstal_p10",
+    "khl:severstal_p11",
+    "khl:severstal_p12",
+    "khl:severstal_p13",
+    "khl:severstal_p14",
+    "khl:severstal_p15",
+    "khl:severstal_p16",
+    "khl:severstal_p17",
+    "khl:severstal_p18",
+    "khl:severstal_p19",
+    "khl:severstal_p20",
+    "khl:severstal_p21",
+    "khl:severstal_p22"
+  ]
+}

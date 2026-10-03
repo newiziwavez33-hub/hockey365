@@ -1,0 +1,27 @@
+{
+  "id": "nhl:det",
+  "slug": "det-red-wings",
+  "name": "Детройт Ред Уингз",
+  "nameEn": "Detroit Red Wings",
+  "short": "DET",
+  "country": "USA",
+  "city": "Detroit",
+  "conference": "Восточная",
+  "division": "Атлантический",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Detroit"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/det.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

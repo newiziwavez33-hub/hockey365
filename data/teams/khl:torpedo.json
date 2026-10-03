@@ -1,0 +1,50 @@
+{
+  "id": "khl:torpedo",
+  "slug": "torpedo-nizhny-novgorod",
+  "name": "Торпедо",
+  "nameEn": "Torpedo Nizhny Novgorod",
+  "short": "ТОР",
+  "country": "RUS",
+  "city": "Нижний Новгород",
+  "conference": "Запад",
+  "division": "Боброва",
+  "founded": 1946,
+  "arena": {
+    "name": "КРК Нагорный",
+    "capacity": 5500,
+    "city": "Нижний Новгород"
+  },
+  "colors": [
+    "#00205B",
+    "#E31B23"
+  ],
+  "logo": "/assets/logos/teams/torpedo.svg",
+  "coach": "Игорь Ларионов",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:torpedo_p1",
+    "khl:torpedo_p2",
+    "khl:torpedo_p3",
+    "khl:torpedo_p4",
+    "khl:torpedo_p5",
+    "khl:torpedo_p6",
+    "khl:torpedo_p7",
+    "khl:torpedo_p8",
+    "khl:torpedo_p9",
+    "khl:torpedo_p10",
+    "khl:torpedo_p11",
+    "khl:torpedo_p12",
+    "khl:torpedo_p13",
+    "khl:torpedo_p14",
+    "khl:torpedo_p15",
+    "khl:torpedo_p16",
+    "khl:torpedo_p17",
+    "khl:torpedo_p18",
+    "khl:torpedo_p19",
+    "khl:torpedo_p20",
+    "khl:torpedo_p21",
+    "khl:torpedo_p22"
+  ]
+}

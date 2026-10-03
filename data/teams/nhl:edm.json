@@ -1,0 +1,27 @@
+{
+  "id": "nhl:edm",
+  "slug": "edm-oilers",
+  "name": "Эдмонтон Ойлерз",
+  "nameEn": "Edmonton Oilers",
+  "short": "EDM",
+  "country": "CAN",
+  "city": "Edmonton",
+  "conference": "Западная",
+  "division": "Тихоокеанский",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Edmonton"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/edm.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

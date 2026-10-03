@@ -1,0 +1,50 @@
+{
+  "id": "khl:ak-bars",
+  "slug": "ak-bars-kazan",
+  "name": "Ак Барс",
+  "nameEn": "Ak Bars Kazan",
+  "short": "АКБ",
+  "country": "RUS",
+  "city": "Казань",
+  "conference": "Восток",
+  "division": "Харламова",
+  "founded": 1956,
+  "arena": {
+    "name": "Татнефть Арена",
+    "capacity": 8890,
+    "city": "Казань"
+  },
+  "colors": [
+    "#006A4E",
+    "#E31B23"
+  ],
+  "logo": "/assets/logos/teams/ak-bars.svg",
+  "coach": "Анвар Гатиятулин",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:ak-bars_p1",
+    "khl:ak-bars_p2",
+    "khl:ak-bars_p3",
+    "khl:ak-bars_p4",
+    "khl:ak-bars_p5",
+    "khl:ak-bars_p6",
+    "khl:ak-bars_p7",
+    "khl:ak-bars_p8",
+    "khl:ak-bars_p9",
+    "khl:ak-bars_p10",
+    "khl:ak-bars_p11",
+    "khl:ak-bars_p12",
+    "khl:ak-bars_p13",
+    "khl:ak-bars_p14",
+    "khl:ak-bars_p15",
+    "khl:ak-bars_p16",
+    "khl:ak-bars_p17",
+    "khl:ak-bars_p18",
+    "khl:ak-bars_p19",
+    "khl:ak-bars_p20",
+    "khl:ak-bars_p21",
+    "khl:ak-bars_p22"
+  ]
+}

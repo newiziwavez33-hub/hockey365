@@ -1,0 +1,27 @@
+{
+  "id": "nhl:tor",
+  "slug": "tor-maple-leafs",
+  "name": "Торонто Мейпл Лифс",
+  "nameEn": "Toronto Maple Leafs",
+  "short": "TOR",
+  "country": "CAN",
+  "city": "Toronto",
+  "conference": "Восточная",
+  "division": "Атлантический",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Toronto"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/tor.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

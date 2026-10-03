@@ -1,0 +1,210 @@
+{
+  "compId": "KHL",
+  "season": "2026/27",
+  "rounds": [
+    {
+      "roundNumber": 1,
+      "roundName": "1/8 финала (Первый раунд)",
+      "series": [
+        {
+          "seriesId": "khl:po-w1",
+          "homeTeamId": "khl:lokomotiv",
+          "awayTeamId": "khl:dynamo-mns",
+          "wins": [
+            4,
+            1
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        },
+        {
+          "seriesId": "khl:po-w2",
+          "homeTeamId": "khl:ska",
+          "awayTeamId": "khl:torpedo",
+          "wins": [
+            4,
+            2
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        },
+        {
+          "seriesId": "khl:po-w3",
+          "homeTeamId": "khl:spartak",
+          "awayTeamId": "khl:severstal",
+          "wins": [
+            4,
+            1
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        },
+        {
+          "seriesId": "khl:po-w4",
+          "homeTeamId": "khl:cska",
+          "awayTeamId": "khl:dynamo-msk",
+          "wins": [
+            4,
+            3
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        },
+        {
+          "seriesId": "khl:po-e1",
+          "homeTeamId": "khl:traktor",
+          "awayTeamId": "khl:neftekhimik",
+          "wins": [
+            4,
+            1
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        },
+        {
+          "seriesId": "khl:po-e2",
+          "homeTeamId": "khl:metallurg-mg",
+          "awayTeamId": "khl:admiral",
+          "wins": [
+            4,
+            2
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        },
+        {
+          "seriesId": "khl:po-e3",
+          "homeTeamId": "khl:avtomobilist",
+          "awayTeamId": "khl:avangard",
+          "wins": [
+            4,
+            3
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        },
+        {
+          "seriesId": "khl:po-e4",
+          "homeTeamId": "khl:ak-bars",
+          "awayTeamId": "khl:salavat-yulaev",
+          "wins": [
+            4,
+            2
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        }
+      ]
+    },
+    {
+      "roundNumber": 2,
+      "roundName": "1/4 финала (Второй раунд)",
+      "series": [
+        {
+          "seriesId": "khl:po-r2-1",
+          "homeTeamId": "khl:lokomotiv",
+          "awayTeamId": "khl:avtomobilist",
+          "wins": [
+            4,
+            2
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        },
+        {
+          "seriesId": "khl:po-r2-2",
+          "homeTeamId": "khl:metallurg-mg",
+          "awayTeamId": "khl:spartak",
+          "wins": [
+            4,
+            2
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        },
+        {
+          "seriesId": "khl:po-r2-3",
+          "homeTeamId": "khl:traktor",
+          "awayTeamId": "khl:cska",
+          "wins": [
+            4,
+            1
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        },
+        {
+          "seriesId": "khl:po-r2-4",
+          "homeTeamId": "khl:ska",
+          "awayTeamId": "khl:ak-bars",
+          "wins": [
+            3,
+            4
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        }
+      ]
+    },
+    {
+      "roundNumber": 3,
+      "roundName": "Полуфиналы",
+      "series": [
+        {
+          "seriesId": "khl:po-semi-1",
+          "homeTeamId": "khl:lokomotiv",
+          "awayTeamId": "khl:traktor",
+          "wins": [
+            4,
+            0
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        },
+        {
+          "seriesId": "khl:po-semi-2",
+          "homeTeamId": "khl:metallurg-mg",
+          "awayTeamId": "khl:ak-bars",
+          "wins": [
+            4,
+            3
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        }
+      ]
+    },
+    {
+      "roundNumber": 4,
+      "roundName": "Финал Кубка Гагарина",
+      "series": [
+        {
+          "seriesId": "khl:po-final",
+          "homeTeamId": "khl:metallurg-mg",
+          "awayTeamId": "khl:lokomotiv",
+          "wins": [
+            4,
+            0
+          ],
+          "bestOf": 7,
+          "status": "FINISHED",
+          "games": []
+        }
+      ]
+    }
+  ]
+}

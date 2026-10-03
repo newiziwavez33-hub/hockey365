@@ -1,0 +1,50 @@
+{
+  "id": "khl:dynamo-msk",
+  "slug": "dynamo-moscow",
+  "name": "Динамо М",
+  "nameEn": "Dynamo Moscow",
+  "short": "ДИН",
+  "country": "RUS",
+  "city": "Москва",
+  "conference": "Запад",
+  "division": "Тарасова",
+  "founded": 1946,
+  "arena": {
+    "name": "ВТБ Арена",
+    "capacity": 10500,
+    "city": "Москва"
+  },
+  "colors": [
+    "#003DA5",
+    "#FFFFFF"
+  ],
+  "logo": "/assets/logos/teams/dynamo-msk.svg",
+  "coach": "Алексей Кудашов",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:dynamo-msk_p1",
+    "khl:dynamo-msk_p2",
+    "khl:dynamo-msk_p3",
+    "khl:dynamo-msk_p4",
+    "khl:dynamo-msk_p5",
+    "khl:dynamo-msk_p6",
+    "khl:dynamo-msk_p7",
+    "khl:dynamo-msk_p8",
+    "khl:dynamo-msk_p9",
+    "khl:dynamo-msk_p10",
+    "khl:dynamo-msk_p11",
+    "khl:dynamo-msk_p12",
+    "khl:dynamo-msk_p13",
+    "khl:dynamo-msk_p14",
+    "khl:dynamo-msk_p15",
+    "khl:dynamo-msk_p16",
+    "khl:dynamo-msk_p17",
+    "khl:dynamo-msk_p18",
+    "khl:dynamo-msk_p19",
+    "khl:dynamo-msk_p20",
+    "khl:dynamo-msk_p21",
+    "khl:dynamo-msk_p22"
+  ]
+}

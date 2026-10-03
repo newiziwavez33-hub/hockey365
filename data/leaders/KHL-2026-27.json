@@ -1,0 +1,154 @@
+{
+  "compId": "KHL",
+  "season": "2026/27",
+  "categories": {
+    "points": [
+      {
+        "playerId": "khl:p_nikishin",
+        "playerName": "Александр Никишин",
+        "teamId": "khl:ska",
+        "value": 24
+      },
+      {
+        "playerId": "khl:p_goldobin",
+        "playerName": "Николай Голдобин",
+        "teamId": "khl:spartak",
+        "value": 22
+      },
+      {
+        "playerId": "khl:p_gusev",
+        "playerName": "Никита Гусев",
+        "teamId": "khl:ska",
+        "value": 21
+      },
+      {
+        "playerId": "khl:p_radulov",
+        "playerName": "Александр Радулов",
+        "teamId": "khl:lokomotiv",
+        "value": 19
+      },
+      {
+        "playerId": "khl:p_shabanov",
+        "playerName": "Максим Шабанов",
+        "teamId": "khl:traktor",
+        "value": 18
+      }
+    ],
+    "goals": [
+      {
+        "playerId": "khl:p_goldobin",
+        "playerName": "Николай Голдобин",
+        "teamId": "khl:spartak",
+        "value": 12
+      },
+      {
+        "playerId": "khl:p_shabanov",
+        "playerName": "Максим Шабанов",
+        "teamId": "khl:traktor",
+        "value": 10
+      },
+      {
+        "playerId": "khl:p_radulov",
+        "playerName": "Александр Радулов",
+        "teamId": "khl:lokomotiv",
+        "value": 9
+      },
+      {
+        "playerId": "khl:p_nikishin",
+        "playerName": "Александр Никишин",
+        "teamId": "khl:ska",
+        "value": 8
+      },
+      {
+        "playerId": "khl:p_gusev",
+        "playerName": "Никита Гусев",
+        "teamId": "khl:ska",
+        "value": 7
+      }
+    ],
+    "assists": [
+      {
+        "playerId": "khl:p_nikishin",
+        "playerName": "Александр Никишин",
+        "teamId": "khl:ska",
+        "value": 16
+      },
+      {
+        "playerId": "khl:p_gusev",
+        "playerName": "Никита Гусев",
+        "teamId": "khl:ska",
+        "value": 14
+      },
+      {
+        "playerId": "khl:p_poryadin",
+        "playerName": "Павел Порядин",
+        "teamId": "khl:spartak",
+        "value": 12
+      },
+      {
+        "playerId": "khl:p_radulov",
+        "playerName": "Александр Радулов",
+        "teamId": "khl:lokomotiv",
+        "value": 10
+      },
+      {
+        "playerId": "khl:p_goldobin",
+        "playerName": "Николай Голдобин",
+        "teamId": "khl:spartak",
+        "value": 10
+      }
+    ],
+    "gaa": [
+      {
+        "playerId": "khl:p_isaev",
+        "playerName": "Даниил Исаев",
+        "teamId": "khl:lokomotiv",
+        "value": 1.45
+      },
+      {
+        "playerId": "khl:p_fukale",
+        "playerName": "Зак Фукале",
+        "teamId": "khl:traktor",
+        "value": 1.78
+      },
+      {
+        "playerId": "khl:p_bilialov",
+        "playerName": "Тимур Билялов",
+        "teamId": "khl:ak-bars",
+        "value": 1.95
+      },
+      {
+        "playerId": "khl:p_serebryakov",
+        "playerName": "Никита Серебряков",
+        "teamId": "khl:ska",
+        "value": 2.15
+      }
+    ],
+    "svPct": [
+      {
+        "playerId": "khl:p_isaev",
+        "playerName": "Даниил Исаев",
+        "teamId": "khl:lokomotiv",
+        "value": 0.942
+      },
+      {
+        "playerId": "khl:p_fukale",
+        "playerName": "Зак Фукале",
+        "teamId": "khl:traktor",
+        "value": 0.935
+      },
+      {
+        "playerId": "khl:p_bilialov",
+        "playerName": "Тимур Билялов",
+        "teamId": "khl:ak-bars",
+        "value": 0.928
+      },
+      {
+        "playerId": "khl:p_serebryakov",
+        "playerName": "Никита Серебряков",
+        "teamId": "khl:ska",
+        "value": 0.922
+      }
+    ]
+  }
+}

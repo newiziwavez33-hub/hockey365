@@ -1,0 +1,56 @@
+{
+  "id": "khl:p_nikishin",
+  "name": "Александр Никишин",
+  "nameEn": "Alexander Nikishin",
+  "position": "D",
+  "shoots": "L",
+  "birthDate": "2001-10-02",
+  "heightCm": 193,
+  "weightKg": 98,
+  "nationality": "RUS",
+  "number": 57,
+  "teamId": "khl:ska",
+  "photo": null,
+  "stats": [
+    {
+      "season": "2026/27",
+      "compId": "KHL",
+      "gp": 13,
+      "g": 8,
+      "a": 16,
+      "pts": 24,
+      "plusMinus": 12,
+      "pim": 8,
+      "shots": 48,
+      "toi": "23:45",
+      "gk": null
+    },
+    {
+      "season": "2025/26",
+      "compId": "KHL",
+      "gp": 67,
+      "g": 17,
+      "a": 39,
+      "pts": 56,
+      "plusMinus": 32,
+      "pim": 39,
+      "shots": 195,
+      "toi": "24:12",
+      "gk": null
+    }
+  ],
+  "career": [
+    {
+      "teamId": "khl:spartak",
+      "teamName": "Спартак",
+      "from": "2019",
+      "to": "2022"
+    },
+    {
+      "teamId": "khl:ska",
+      "teamName": "СКА",
+      "from": "2022",
+      "to": "2027"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "nhl:lak",
+  "slug": "lak-kings",
+  "name": "Лос-Анджелес Кингз",
+  "nameEn": "Los Angeles Kings",
+  "short": "LAK",
+  "country": "USA",
+  "city": "Los Angeles",
+  "conference": "Западная",
+  "division": "Тихоокеанский",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Los Angeles"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/lak.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "nhl:sjs",
+  "slug": "sjs-sharks",
+  "name": "Сан-Хосе Шаркс",
+  "nameEn": "San Jose Sharks",
+  "short": "SJS",
+  "country": "USA",
+  "city": "San Jose",
+  "conference": "Западная",
+  "division": "Тихоокеанский",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "San Jose"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/sjs.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

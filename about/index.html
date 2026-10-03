@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О проекте и источниках данных | Hockey365</title>
+  <meta name="description" content="Информация о хоккейном портале Hockey365, архитектуре проекта и источниках данных.">
+  <link rel="icon" type="image/svg+xml" href="../assets/logos/comp/KHL.svg">
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Перейти к основному контенту</a>
+
+  <site-header></site-header>
+
+  <main id="main-content" class="main-content">
+    <div class="app-container" style="max-width: 800px;">
+
+      <div class="card">
+        <div class="card-header">
+          <h1 class="card-title">О проекте Hockey365</h1>
+        </div>
+        <div class="card-body flex-col gap-16" style="line-height: 1.7;">
+          <p>
+            <strong>Hockey365</strong> — это независимый хоккейный портал, вдохновлённый классическим форматом Soccer365.ru и адаптированный под специфику хоккея с шайбой (КХЛ, НХЛ, ВХЛ, МХЛ).
+          </p>
+
+          <h2 class="text-lg text-bold" style="margin-top: 8px;">Ключевая идея и технологии</h2>
+          <p>
+            Портал построен по принципу <em>«Репозиторий = База Данных»</em>. Здесь нет Node.js, Vite, сборщиков, MySQL или сторонних серверных бэкендов. Вся клиентская логика исполняется непосредственно браузером на нативных ES-модулях JavaScript. Все данные хранятся в виде открытых статических JSON-файлов в репозитории GitHub и обновляются с помощью автоматических скриптов Python через GitHub Actions.
+          </p>
+
+          <h2 class="text-lg text-bold" style="margin-top: 8px;">Источники данных и атрибуция</h2>
+          <ul class="flex-col gap-8" style="list-style: disc; margin-left: 20px;">
+            <li><strong>НХЛ (Национальная Хоккейная Лига):</strong> публичные открытые интерфейсы статистики NHL Web API (api-web.nhle.com).</li>
+            <li><strong>КХЛ (Континентальная Хоккейная Лига):</strong> структурированные справочные датасеты спортивных сводок и нормализованные архивы регулярного чемпионата и плей-офф.</li>
+            <li><strong>Графика и эмблемы:</strong> логотипы и товарные знаки хоккейных клубов принадлежат их соответствующим правообладателям и используются исключительно в информационных целях для идентификации спортивных команд.</li>
+          </ul>
+
+          <h2 class="text-lg text-bold" style="margin-top: 8px;">Открытый исходный код</h2>
+          <p>
+            Проект является полностью открытым и распространяется под свободной лицензией. Вы можете ознакомиться с исходным кодом, предложить улучшение или сообщить об ошибке в официальном репозитории на GitHub.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <site-footer></site-footer>
+
+  <script type="module">
+    import '../assets/js/components/site-header.js';
+    import '../assets/js/components/site-footer.js';
+  </script>
+</body>
+</html>

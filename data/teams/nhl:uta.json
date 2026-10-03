@@ -1,0 +1,27 @@
+{
+  "id": "nhl:uta",
+  "slug": "uta-mammoth",
+  "name": "Юта Хоккей Клаб",
+  "nameEn": "Utah Mammoth",
+  "short": "UTA",
+  "country": "USA",
+  "city": "Utah",
+  "conference": "Западная",
+  "division": "Центральный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Utah"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/uta.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

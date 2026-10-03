@@ -1,0 +1,50 @@
+{
+  "id": "khl:avangard",
+  "slug": "avangard-omsk",
+  "name": "Авангард",
+  "nameEn": "Avangard Omsk",
+  "short": "АВГ",
+  "country": "RUS",
+  "city": "Омск",
+  "conference": "Восток",
+  "division": "Чернышёва",
+  "founded": 1950,
+  "arena": {
+    "name": "G-Drive Арена",
+    "capacity": 12011,
+    "city": "Омск"
+  },
+  "colors": [
+    "#E31B23",
+    "#000000"
+  ],
+  "logo": "/assets/logos/teams/avangard.svg",
+  "coach": "Сергей Звягин",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:avangard_p1",
+    "khl:avangard_p2",
+    "khl:avangard_p3",
+    "khl:avangard_p4",
+    "khl:avangard_p5",
+    "khl:avangard_p6",
+    "khl:avangard_p7",
+    "khl:avangard_p8",
+    "khl:avangard_p9",
+    "khl:avangard_p10",
+    "khl:avangard_p11",
+    "khl:avangard_p12",
+    "khl:avangard_p13",
+    "khl:avangard_p14",
+    "khl:avangard_p15",
+    "khl:avangard_p16",
+    "khl:avangard_p17",
+    "khl:avangard_p18",
+    "khl:avangard_p19",
+    "khl:avangard_p20",
+    "khl:avangard_p21",
+    "khl:avangard_p22"
+  ]
+}

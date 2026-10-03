@@ -1,0 +1,27 @@
+{
+  "id": "nhl:cbj",
+  "slug": "cbj-blue-jackets",
+  "name": "Коламбус Блю Джекетс",
+  "nameEn": "Columbus Blue Jackets",
+  "short": "CBJ",
+  "country": "USA",
+  "city": "Columbus",
+  "conference": "Восточная",
+  "division": "Столичный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Columbus"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/cbj.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

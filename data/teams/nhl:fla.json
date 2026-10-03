@@ -1,0 +1,27 @@
+{
+  "id": "nhl:fla",
+  "slug": "fla-panthers",
+  "name": "Флорида Пантерз",
+  "nameEn": "Florida Panthers",
+  "short": "FLA",
+  "country": "USA",
+  "city": "Florida",
+  "conference": "Восточная",
+  "division": "Атлантический",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Florida"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/fla.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

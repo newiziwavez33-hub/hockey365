@@ -1,0 +1,50 @@
+{
+  "id": "khl:kunlun",
+  "slug": "kunlun-red-star",
+  "name": "Куньлунь РС",
+  "nameEn": "Kunlun Red Star",
+  "short": "КРС",
+  "country": "CHN",
+  "city": "Пекин / Мытищи",
+  "conference": "Запад",
+  "division": "Тарасова",
+  "founded": 2016,
+  "arena": {
+    "name": "Арена Мытищи",
+    "capacity": 7114,
+    "city": "Мытищи"
+  },
+  "colors": [
+    "#C8102E",
+    "#FFCC00"
+  ],
+  "logo": "/assets/logos/teams/kunlun.svg",
+  "coach": "Михаил Кравец",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:kunlun_p1",
+    "khl:kunlun_p2",
+    "khl:kunlun_p3",
+    "khl:kunlun_p4",
+    "khl:kunlun_p5",
+    "khl:kunlun_p6",
+    "khl:kunlun_p7",
+    "khl:kunlun_p8",
+    "khl:kunlun_p9",
+    "khl:kunlun_p10",
+    "khl:kunlun_p11",
+    "khl:kunlun_p12",
+    "khl:kunlun_p13",
+    "khl:kunlun_p14",
+    "khl:kunlun_p15",
+    "khl:kunlun_p16",
+    "khl:kunlun_p17",
+    "khl:kunlun_p18",
+    "khl:kunlun_p19",
+    "khl:kunlun_p20",
+    "khl:kunlun_p21",
+    "khl:kunlun_p22"
+  ]
+}

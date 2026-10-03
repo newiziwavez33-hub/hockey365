@@ -1,0 +1,50 @@
+{
+  "id": "khl:neftekhimik",
+  "slug": "neftekhimik-nizhnekamsk",
+  "name": "Нефтехимик",
+  "nameEn": "Neftekhimik Nizhnekamsk",
+  "short": "НХК",
+  "country": "RUS",
+  "city": "Нижнекамск",
+  "conference": "Восток",
+  "division": "Харламова",
+  "founded": 1968,
+  "arena": {
+    "name": "Нефтехим Арена",
+    "capacity": 6000,
+    "city": "Нижнекамск"
+  },
+  "colors": [
+    "#00205B",
+    "#00A3BF"
+  ],
+  "logo": "/assets/logos/teams/neftekhimik.svg",
+  "coach": "Олег Леонтьев",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:neftekhimik_p1",
+    "khl:neftekhimik_p2",
+    "khl:neftekhimik_p3",
+    "khl:neftekhimik_p4",
+    "khl:neftekhimik_p5",
+    "khl:neftekhimik_p6",
+    "khl:neftekhimik_p7",
+    "khl:neftekhimik_p8",
+    "khl:neftekhimik_p9",
+    "khl:neftekhimik_p10",
+    "khl:neftekhimik_p11",
+    "khl:neftekhimik_p12",
+    "khl:neftekhimik_p13",
+    "khl:neftekhimik_p14",
+    "khl:neftekhimik_p15",
+    "khl:neftekhimik_p16",
+    "khl:neftekhimik_p17",
+    "khl:neftekhimik_p18",
+    "khl:neftekhimik_p19",
+    "khl:neftekhimik_p20",
+    "khl:neftekhimik_p21",
+    "khl:neftekhimik_p22"
+  ]
+}

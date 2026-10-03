@@ -1,0 +1,50 @@
+{
+  "id": "khl:avtomobilist",
+  "slug": "avtomobilist-yekaterinburg",
+  "name": "Автомобилист",
+  "nameEn": "Avtomobilist Yekaterinburg",
+  "short": "АВТ",
+  "country": "RUS",
+  "city": "Екатеринбург",
+  "conference": "Восток",
+  "division": "Харламова",
+  "founded": 2006,
+  "arena": {
+    "name": "КРК Уралец",
+    "capacity": 5570,
+    "city": "Екатеринбург"
+  },
+  "colors": [
+    "#E31B23",
+    "#00205B"
+  ],
+  "logo": "/assets/logos/teams/avtomobilist.svg",
+  "coach": "Николай Заварухин",
+  "competitions": [
+    "KHL"
+  ],
+  "roster": [
+    "khl:avtomobilist_p1",
+    "khl:avtomobilist_p2",
+    "khl:avtomobilist_p3",
+    "khl:avtomobilist_p4",
+    "khl:avtomobilist_p5",
+    "khl:avtomobilist_p6",
+    "khl:avtomobilist_p7",
+    "khl:avtomobilist_p8",
+    "khl:avtomobilist_p9",
+    "khl:avtomobilist_p10",
+    "khl:avtomobilist_p11",
+    "khl:avtomobilist_p12",
+    "khl:avtomobilist_p13",
+    "khl:avtomobilist_p14",
+    "khl:avtomobilist_p15",
+    "khl:avtomobilist_p16",
+    "khl:avtomobilist_p17",
+    "khl:avtomobilist_p18",
+    "khl:avtomobilist_p19",
+    "khl:avtomobilist_p20",
+    "khl:avtomobilist_p21",
+    "khl:avtomobilist_p22"
+  ]
+}

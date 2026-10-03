@@ -1,0 +1,27 @@
+{
+  "id": "nhl:col",
+  "slug": "col-avalanche",
+  "name": "Колорадо Эвеланш",
+  "nameEn": "Colorado Avalanche",
+  "short": "COL",
+  "country": "USA",
+  "city": "Colorado",
+  "conference": "Западная",
+  "division": "Центральный",
+  "founded": 1900,
+  "arena": {
+    "name": "Арена",
+    "capacity": 18000,
+    "city": "Colorado"
+  },
+  "colors": [
+    "#00205B",
+    "#C0C0C0"
+  ],
+  "logo": "/assets/logos/teams/col.svg",
+  "coach": null,
+  "roster": [],
+  "competitions": [
+    "NHL"
+  ]
+}

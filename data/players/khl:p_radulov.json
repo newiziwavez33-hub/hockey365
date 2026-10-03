@@ -1,0 +1,68 @@
+{
+  "id": "khl:p_radulov",
+  "name": "Александр Радулов",
+  "nameEn": "Alexander Radulov",
+  "position": "RW",
+  "shoots": "L",
+  "birthDate": "1986-07-05",
+  "heightCm": 186,
+  "weightKg": 92,
+  "nationality": "RUS",
+  "number": 47,
+  "teamId": "khl:lokomotiv",
+  "photo": null,
+  "stats": [
+    {
+      "season": "2026/27",
+      "compId": "KHL",
+      "gp": 13,
+      "g": 9,
+      "a": 10,
+      "pts": 19,
+      "plusMinus": 10,
+      "pim": 14,
+      "shots": 45,
+      "toi": "18:40",
+      "gk": null
+    },
+    {
+      "season": "2025/26",
+      "compId": "KHL",
+      "gp": 58,
+      "g": 16,
+      "a": 24,
+      "pts": 40,
+      "plusMinus": -1,
+      "pim": 54,
+      "shots": 140,
+      "toi": "18:10",
+      "gk": null
+    }
+  ],
+  "career": [
+    {
+      "teamId": "khl:salavat-yulaev",
+      "teamName": "Салават Юлаев",
+      "from": "2008",
+      "to": "2012"
+    },
+    {
+      "teamId": "khl:cska",
+      "teamName": "ЦСКА",
+      "from": "2012",
+      "to": "2016"
+    },
+    {
+      "teamId": "khl:ak-bars",
+      "teamName": "Ак Барс",
+      "from": "2022",
+      "to": "2024"
+    },
+    {
+      "teamId": "khl:lokomotiv",
+      "teamName": "Локомотив",
+      "from": "2024",
+      "to": "2027"
+    }
+  ]
+}
