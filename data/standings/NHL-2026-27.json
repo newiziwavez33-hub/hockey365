@@ -1,7 +1,7 @@
 {
   "compId": "NHL",
   "season": "2026/27",
-  "updatedAt": "2026-10-03T20:30:00Z",
+  "updatedAt": "2026-10-03T21:20:42.187326+00:00",
   "groups": [
     {
       "name": "Конференция Восточная",
@@ -42,7 +42,7 @@
           "zone": "PO"
         },
         {
-          "pos": 4,
+          "pos": 3,
           "teamId": "nhl:fla",
           "gp": 2,
           "w": 1,
@@ -59,7 +59,7 @@
           "zone": "PO"
         },
         {
-          "pos": 5,
+          "pos": 4,
           "teamId": "nhl:pit",
           "gp": 1,
           "w": 1,
@@ -76,7 +76,7 @@
           "zone": "PO"
         },
         {
-          "pos": 10,
+          "pos": 5,
           "teamId": "nhl:cbj",
           "gp": 1,
           "w": 1,
@@ -93,7 +93,7 @@
           "zone": "PO"
         },
         {
-          "pos": 11,
+          "pos": 6,
           "teamId": "nhl:wsh",
           "gp": 1,
           "w": 1,
@@ -110,7 +110,7 @@
           "zone": "PO"
         },
         {
-          "pos": 16,
+          "pos": 7,
           "teamId": "nhl:mtl",
           "gp": 1,
           "w": 1,
@@ -127,7 +127,7 @@
           "zone": "PO"
         },
         {
-          "pos": 17,
+          "pos": 8,
           "teamId": "nhl:njd",
           "gp": 1,
           "w": 1,
@@ -144,7 +144,7 @@
           "zone": "PO"
         },
         {
-          "pos": 18,
+          "pos": 9,
           "teamId": "nhl:tor",
           "gp": 2,
           "w": 1,
@@ -161,7 +161,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 21,
+          "pos": 10,
           "teamId": "nhl:car",
           "gp": 2,
           "w": 0,
@@ -178,7 +178,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 22,
+          "pos": 11,
           "teamId": "nhl:phi",
           "gp": 2,
           "w": 0,
@@ -195,7 +195,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 23,
+          "pos": 12,
           "teamId": "nhl:ott",
           "gp": 0,
           "w": 0,
@@ -212,7 +212,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 24,
+          "pos": 13,
           "teamId": "nhl:nyi",
           "gp": 1,
           "w": 0,
@@ -229,7 +229,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 26,
+          "pos": 14,
           "teamId": "nhl:det",
           "gp": 1,
           "w": 0,
@@ -246,7 +246,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 27,
+          "pos": 15,
           "teamId": "nhl:buf",
           "gp": 1,
           "w": 0,
@@ -263,7 +263,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 29,
+          "pos": 16,
           "teamId": "nhl:tbl",
           "gp": 1,
           "w": 0,
@@ -286,7 +286,7 @@
       "type": "conference",
       "rows": [
         {
-          "pos": 3,
+          "pos": 1,
           "teamId": "nhl:edm",
           "gp": 2,
           "w": 1,
@@ -303,7 +303,7 @@
           "zone": "PO"
         },
         {
-          "pos": 6,
+          "pos": 2,
           "teamId": "nhl:uta",
           "gp": 1,
           "w": 1,
@@ -320,7 +320,7 @@
           "zone": "PO"
         },
         {
-          "pos": 7,
+          "pos": 3,
           "teamId": "nhl:sea",
           "gp": 1,
           "w": 1,
@@ -337,7 +337,7 @@
           "zone": "PO"
         },
         {
-          "pos": 8,
+          "pos": 4,
           "teamId": "nhl:col",
           "gp": 1,
           "w": 1,
@@ -354,7 +354,7 @@
           "zone": "PO"
         },
         {
-          "pos": 9,
+          "pos": 5,
           "teamId": "nhl:stl",
           "gp": 1,
           "w": 1,
@@ -371,7 +371,7 @@
           "zone": "PO"
         },
         {
-          "pos": 12,
+          "pos": 6,
           "teamId": "nhl:vgk",
           "gp": 2,
           "w": 1,
@@ -388,7 +388,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 13,
+          "pos": 7,
           "teamId": "nhl:min",
           "gp": 1,
           "w": 1,
@@ -405,7 +405,7 @@
           "zone": "PO"
         },
         {
-          "pos": 14,
+          "pos": 8,
           "teamId": "nhl:ana",
           "gp": 1,
           "w": 1,
@@ -422,7 +422,7 @@
           "zone": "PO"
         },
         {
-          "pos": 15,
+          "pos": 9,
           "teamId": "nhl:sjs",
           "gp": 1,
           "w": 1,
@@ -439,7 +439,7 @@
           "zone": "PO"
         },
         {
-          "pos": 19,
+          "pos": 10,
           "teamId": "nhl:van",
           "gp": 2,
           "w": 1,
@@ -456,7 +456,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 20,
+          "pos": 11,
           "teamId": "nhl:wpg",
           "gp": 1,
           "w": 0,
@@ -473,7 +473,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 25,
+          "pos": 12,
           "teamId": "nhl:nsh",
           "gp": 1,
           "w": 0,
@@ -490,7 +490,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 28,
+          "pos": 13,
           "teamId": "nhl:lak",
           "gp": 1,
           "w": 0,
@@ -507,7 +507,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 30,
+          "pos": 14,
           "teamId": "nhl:dal",
           "gp": 1,
           "w": 0,
@@ -524,7 +524,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 31,
+          "pos": 15,
           "teamId": "nhl:cgy",
           "gp": 1,
           "w": 0,
@@ -541,7 +541,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 32,
+          "pos": 16,
           "teamId": "nhl:chi",
           "gp": 2,
           "w": 0,
@@ -581,7 +581,7 @@
           "zone": "PO"
         },
         {
-          "pos": 4,
+          "pos": 2,
           "teamId": "nhl:fla",
           "gp": 2,
           "w": 1,
@@ -598,7 +598,7 @@
           "zone": "PO"
         },
         {
-          "pos": 16,
+          "pos": 3,
           "teamId": "nhl:mtl",
           "gp": 1,
           "w": 1,
@@ -615,7 +615,7 @@
           "zone": "PO"
         },
         {
-          "pos": 18,
+          "pos": 4,
           "teamId": "nhl:tor",
           "gp": 2,
           "w": 1,
@@ -632,7 +632,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 23,
+          "pos": 5,
           "teamId": "nhl:ott",
           "gp": 0,
           "w": 0,
@@ -649,7 +649,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 26,
+          "pos": 6,
           "teamId": "nhl:det",
           "gp": 1,
           "w": 0,
@@ -666,7 +666,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 27,
+          "pos": 7,
           "teamId": "nhl:buf",
           "gp": 1,
           "w": 0,
@@ -683,7 +683,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 29,
+          "pos": 8,
           "teamId": "nhl:tbl",
           "gp": 1,
           "w": 0,
@@ -706,7 +706,7 @@
       "type": "division",
       "rows": [
         {
-          "pos": 2,
+          "pos": 1,
           "teamId": "nhl:nyr",
           "gp": 3,
           "w": 2,
@@ -723,7 +723,7 @@
           "zone": "PO"
         },
         {
-          "pos": 5,
+          "pos": 2,
           "teamId": "nhl:pit",
           "gp": 1,
           "w": 1,
@@ -740,7 +740,7 @@
           "zone": "PO"
         },
         {
-          "pos": 10,
+          "pos": 3,
           "teamId": "nhl:cbj",
           "gp": 1,
           "w": 1,
@@ -757,7 +757,7 @@
           "zone": "PO"
         },
         {
-          "pos": 11,
+          "pos": 4,
           "teamId": "nhl:wsh",
           "gp": 1,
           "w": 1,
@@ -774,7 +774,7 @@
           "zone": "PO"
         },
         {
-          "pos": 17,
+          "pos": 5,
           "teamId": "nhl:njd",
           "gp": 1,
           "w": 1,
@@ -791,7 +791,7 @@
           "zone": "PO"
         },
         {
-          "pos": 21,
+          "pos": 6,
           "teamId": "nhl:car",
           "gp": 2,
           "w": 0,
@@ -808,7 +808,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 22,
+          "pos": 7,
           "teamId": "nhl:phi",
           "gp": 2,
           "w": 0,
@@ -825,7 +825,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 24,
+          "pos": 8,
           "teamId": "nhl:nyi",
           "gp": 1,
           "w": 0,
@@ -848,7 +848,7 @@
       "type": "division",
       "rows": [
         {
-          "pos": 6,
+          "pos": 1,
           "teamId": "nhl:uta",
           "gp": 1,
           "w": 1,
@@ -865,7 +865,7 @@
           "zone": "PO"
         },
         {
-          "pos": 8,
+          "pos": 2,
           "teamId": "nhl:col",
           "gp": 1,
           "w": 1,
@@ -882,7 +882,7 @@
           "zone": "PO"
         },
         {
-          "pos": 9,
+          "pos": 3,
           "teamId": "nhl:stl",
           "gp": 1,
           "w": 1,
@@ -899,7 +899,7 @@
           "zone": "PO"
         },
         {
-          "pos": 13,
+          "pos": 4,
           "teamId": "nhl:min",
           "gp": 1,
           "w": 1,
@@ -916,7 +916,7 @@
           "zone": "PO"
         },
         {
-          "pos": 20,
+          "pos": 5,
           "teamId": "nhl:wpg",
           "gp": 1,
           "w": 0,
@@ -933,7 +933,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 25,
+          "pos": 6,
           "teamId": "nhl:nsh",
           "gp": 1,
           "w": 0,
@@ -950,7 +950,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 30,
+          "pos": 7,
           "teamId": "nhl:dal",
           "gp": 1,
           "w": 0,
@@ -967,7 +967,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 32,
+          "pos": 8,
           "teamId": "nhl:chi",
           "gp": 2,
           "w": 0,
@@ -990,7 +990,7 @@
       "type": "division",
       "rows": [
         {
-          "pos": 3,
+          "pos": 1,
           "teamId": "nhl:edm",
           "gp": 2,
           "w": 1,
@@ -1007,7 +1007,7 @@
           "zone": "PO"
         },
         {
-          "pos": 7,
+          "pos": 2,
           "teamId": "nhl:sea",
           "gp": 1,
           "w": 1,
@@ -1024,7 +1024,7 @@
           "zone": "PO"
         },
         {
-          "pos": 12,
+          "pos": 3,
           "teamId": "nhl:vgk",
           "gp": 2,
           "w": 1,
@@ -1041,7 +1041,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 14,
+          "pos": 4,
           "teamId": "nhl:ana",
           "gp": 1,
           "w": 1,
@@ -1058,7 +1058,7 @@
           "zone": "PO"
         },
         {
-          "pos": 15,
+          "pos": 5,
           "teamId": "nhl:sjs",
           "gp": 1,
           "w": 1,
@@ -1075,7 +1075,7 @@
           "zone": "PO"
         },
         {
-          "pos": 19,
+          "pos": 6,
           "teamId": "nhl:van",
           "gp": 2,
           "w": 1,
@@ -1092,7 +1092,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 28,
+          "pos": 7,
           "teamId": "nhl:lak",
           "gp": 1,
           "w": 0,
@@ -1109,7 +1109,7 @@
           "zone": "OUT"
         },
         {
-          "pos": 31,
+          "pos": 8,
           "teamId": "nhl:cgy",
           "gp": 1,
           "w": 0,

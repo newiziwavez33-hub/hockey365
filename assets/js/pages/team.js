@@ -3,21 +3,28 @@
  */
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
-import { getTeam, getMatchesByDate, getPlayer } from '../core/api.js';
+import { getTeam, getMatchesByDate, getPlayer, getSearchIndex, getMeta } from '../core/api.js';
 import { getParam, setParam, buildLink } from '../core/router.js';
 import { store } from '../core/store.js';
 import { createTabs } from '../components/tabs.js';
 import { createMatchRow } from '../components/match-row.js';
 import { getAssetUrl } from '../core/config.js';
-import { getTodayISODate } from '../core/format.js';
+import { getTodayISODate, formatPosition } from '../core/format.js';
 
 export async function initTeamPage() {
-  const teamId = getParam('id') || 'khl:ska';
+  const teamId = getParam('id');
   let activeTab = getParam('tab') || 'matches';
+  if (!['matches', 'roster', 'about'].includes(activeTab)) activeTab = 'matches';
+  let renderVersion = 0;
 
   const headerSlot = qs('#team-header-slot');
   const tabsSlot = qs('#team-tabs-slot');
   const contentSlot = qs('#team-content-slot');
+
+  if (!teamId) {
+    renderError(contentSlot, 'Выберите команду через поиск или турнирную таблицу');
+    return;
+  }
 
   renderLoading(headerSlot, 2);
   renderLoading(contentSlot, 4);
@@ -50,7 +57,7 @@ export async function initTeamPage() {
             `${team.city} • ${team.conference || ''} (${team.division || ''})`
           ),
           team.arena ? el('div', { className: 'text-xs text-secondary', style: { marginTop: '4px' } },
-            `Арена: ${team.arena.name} (${team.arena.capacity || '12 000'} мест)`
+            `Арена: ${team.arena.name}${team.arena.capacity ? ` (${team.arena.capacity} мест)` : ''}`
           ) : null
         )
       ),
@@ -58,9 +65,13 @@ export async function initTeamPage() {
       // Favorite toggle button
       el('button', {
         className: `btn-primary ${isFav ? 'active' : ''}`,
+        'aria-pressed': isFav ? 'true' : 'false',
+        'aria-label': `${isFav ? 'Удалить' : 'Добавить'} ${team.name} ${isFav ? 'из' : 'в'} избранное`,
         onClick: (e) => {
           const active = store.toggleFavorite('teams', team.id);
           e.currentTarget.textContent = active ? '★ В избранном' : '☆ В избранное';
+          e.currentTarget.setAttribute('aria-pressed', String(active));
+          e.currentTarget.setAttribute('aria-label', `${active ? 'Удалить' : 'Добавить'} ${team.name} ${active ? 'из' : 'в'} избранное`);
         }
       }, isFav ? '★ В избранном' : '☆ В избранное')
     )
@@ -87,30 +98,45 @@ export async function initTeamPage() {
   renderTabNav();
 
   async function renderTabBody() {
+    const version = ++renderVersion;
     contentSlot.innerHTML = '';
+    contentSlot.id = `tab-pane-${activeTab}`;
+    contentSlot.setAttribute('role', 'tabpanel');
+    contentSlot.setAttribute('aria-labelledby', `tab-btn-${activeTab}`);
 
     if (activeTab === 'matches') {
       renderLoading(contentSlot, 3);
       try {
-        const todayMatches = await getMatchesByDate(getTodayISODate());
+        const meta = await getMeta();
+        const date = meta.availableDates?.includes(getTodayISODate()) ? getTodayISODate() : meta.activeDate;
+        if (!date) throw new Error('No snapshot available');
+        const todayMatches = await getMatchesByDate(date);
+        if (version !== renderVersion) return;
         const teamMatches = (todayMatches || []).filter(m => m.home.id === teamId || m.away.id === teamId);
         contentSlot.innerHTML = '';
         if (teamMatches.length === 0) {
-          renderEmpty(contentSlot, 'Сегодня матчей команды нет.');
+          renderEmpty(contentSlot, `В доступном срезе за ${date} матчей команды нет.`);
         } else {
           const card = el('div', { className: 'card' },
             el('div', { className: 'card-header' },
-              el('h3', { className: 'card-title' }, 'Ближайшие / текущие матчи')
+              el('h3', { className: 'card-title' }, `Матчи из среза за ${date}`)
             ),
             el('div', {}, teamMatches.map(m => createMatchRow(m)))
           );
           contentSlot.appendChild(card);
         }
       } catch (e) {
-        renderEmpty(contentSlot, 'Матчи пока не загружены.');
+        if (version === renderVersion) renderError(contentSlot, 'Не удалось загрузить матчи', renderTabBody);
       }
     } else if (activeTab === 'roster') {
-      renderRoster(contentSlot, team);
+      renderLoading(contentSlot, 2);
+      try {
+        const index = await getSearchIndex();
+        const profiles = await Promise.all(index.filter(item => item.type === 'player' && item.id?.startsWith(team.id.split(':')[0] + ':')).map(item => getPlayer(item.id).catch(() => null)));
+        if (version === renderVersion) renderRoster(contentSlot, team, profiles.filter(player => player?.teamId === team.id));
+      } catch {
+        if (version === renderVersion) renderError(contentSlot, 'Не удалось загрузить доступные профили игроков', renderTabBody);
+      }
     } else if (activeTab === 'about') {
       renderAbout(contentSlot, team);
     }
@@ -119,28 +145,25 @@ export async function initTeamPage() {
   renderTabBody();
 }
 
-function renderRoster(container, team) {
-  // Show roster cards
+function renderRoster(container, team, players) {
+  container.replaceChildren();
+  if (!players.length) {
+    renderEmpty(container, 'Подтверждённых профилей игроков этого клуба в текущем наборе данных нет.');
+    return;
+  }
   const card = el('div', { className: 'card' },
     el('div', { className: 'card-header' },
-      el('h3', { className: 'card-title' }, `Состав команды (${team.name})`)
+      el('h3', { className: 'card-title' }, `Доступные профили игроков (${team.name})`)
     ),
     el('div', { className: 'card-body' },
       el('div', { className: 'layout-grid', style: { gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))' } },
-        // Sample core players for top clubs
-        [
-          { name: 'Александр Никишин', pos: 'D', num: 57, id: 'khl:p_nikishin' },
-          { name: 'Никита Гусев', pos: 'LW', num: 97, id: 'khl:p_gusev' },
-          { name: 'Николай Голдобин', pos: 'RW', num: 87, id: 'khl:p_goldobin' },
-          { name: 'Александр Радулов', pos: 'RW', num: 47, id: 'khl:p_radulov' },
-          { name: 'Даниил Исаев', pos: 'G', num: 92, id: 'khl:p_isaev' }
-        ].map(p => el('div', { className: 'card', style: { margin: 0, padding: '12px' } },
+        players.map(p => el('div', { className: 'card', style: { margin: 0, padding: '12px' } },
           el('div', { className: 'flex items-center justify-between' },
             el('div', {},
               el('a', { href: buildLink('/player/', { id: p.id }), className: 'text-bold link-accent' }, p.name),
-              el('div', { className: 'text-xs text-muted' }, `Амплуа: ${p.pos}`)
+              el('div', { className: 'text-xs text-muted' }, `Амплуа: ${formatPosition(p.position)}`)
             ),
-            el('span', { className: 'badge badge-scheduled' }, `#${p.num}`)
+            el('span', { className: 'badge badge-scheduled' }, `#${p.number ?? '—'}`)
           )
         ))
       )
@@ -159,7 +182,7 @@ function renderAbout(container, team) {
       el('div', {}, el('strong', {}, 'Город: '), team.city),
       el('div', {}, el('strong', {}, 'Год основания: '), team.founded || '-'),
       el('div', {}, el('strong', {}, 'Главный тренер: '), team.coach || 'Не указан'),
-      el('div', {}, el('strong', {}, 'Арена: '), team.arena ? `${team.arena.name} (${team.arena.capacity || '12 000'} зрителей)` : 'Арена клуба'),
+      el('div', {}, el('strong', {}, 'Арена: '), team.arena ? `${team.arena.name}${team.arena.capacity ? ` (${team.arena.capacity} зрителей)` : ''}` : 'Не указана'),
       el('div', {}, el('strong', {}, 'Лиги: '), (team.competitions || []).join(', '))
     )
   );

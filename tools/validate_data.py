@@ -89,6 +89,30 @@ def validate_all(root_dir):
                     if diff != 1:
                         errors.append(f"Match {m['id']} finished in SO but goal diff is {diff} (must be 1)")
 
+    # Each date-feed match must resolve to the same canonical detail JSON.
+    for date_file in glob.glob(os.path.join(data_dir, 'matches', 'by-date', '*.json')):
+        day = os.path.basename(date_file).removesuffix('.json')
+        feed = load_json(date_file)
+        if not isinstance(feed, list):
+            errors.append(f"Date feed {day} must be an array")
+            continue
+        seen = set()
+        for match in feed:
+            if not isinstance(match, dict) or not isinstance(match.get('id'), str):
+                errors.append(f"Date feed {day} contains a match without an id")
+                continue
+            match_id = match['id']
+            if match_id in seen:
+                errors.append(f"Date feed {day} duplicates {match_id}")
+            seen.add(match_id)
+            try:
+                jsonschema.validate(instance=match, schema=match_schema)
+            except jsonschema.ValidationError as e:
+                errors.append(f"Date feed {day} match {match_id} schema error: {e.message}")
+            detail_path = os.path.join(data_dir, 'matches', f'{match_id}.json')
+            if not os.path.isfile(detail_path) or load_json(detail_path) != match:
+                errors.append(f"Date feed {day} match {match_id} differs from its detail file")
+
     # 5. Validate Standings
     standings_schema = load_json(os.path.join(schemas_dir, 'standings.schema.json'))
     standings_files = glob.glob(os.path.join(data_dir, 'standings', '*.json'))

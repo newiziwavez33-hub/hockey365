@@ -112,9 +112,8 @@ export function createMatchRow(match, teamsMap = {}) {
   },
     // Column 1: Time / Status
     el('div', { className: `match-time-status ${isLive ? 'is-live' : ''}` },
-      isLive ? el('span', { className: 'badge badge-live' },
-        el('span', { className: 'live-dot' }),
-        formatPeriodStatus(match)
+      isLive ? el('span', { className: 'badge badge-scheduled', title: 'Статус из сохранённого среза; не прямой эфир' },
+        formatPeriodStatus(match), ' (срез)'
       ) : el('span', {}, formatPeriodStatus(match))
     ),
 
@@ -163,8 +162,9 @@ export function createMatchRow(match, teamsMap = {}) {
     // Column 5: Favorite star
     el('button', {
       className: `match-fav-star ${isFav ? 'active' : ''}`,
-      'aria-label': 'Добавить в избранное',
-      title: 'В избранное',
+      'aria-label': `${isFav ? 'Удалить матч из избранного' : 'Добавить матч в избранное'}`,
+      'aria-pressed': isFav ? 'true' : 'false',
+      title: isFav ? 'Удалить из избранного' : 'Добавить в избранное',
       onClick: (e) => {
         e.stopPropagation();
         const active = store.toggleFavorite('matches', match.id);
@@ -173,6 +173,10 @@ export function createMatchRow(match, teamsMap = {}) {
         } else {
           e.currentTarget.classList.remove('active');
         }
+        e.currentTarget.setAttribute('aria-pressed', String(active));
+        e.currentTarget.setAttribute('aria-label', active ? 'Удалить матч из избранного' : 'Добавить матч в избранное');
+        e.currentTarget.title = active ? 'Удалить из избранного' : 'Добавить в избранное';
+        e.currentTarget.querySelector('svg').setAttribute('fill', active ? 'currentColor' : 'none');
       }
     },
       el('svg', { width: '16', height: '16', viewBox: '0 0 24 24', fill: isFav ? 'currentColor' : 'none', stroke: 'currentColor', 'stroke-width': '2' },

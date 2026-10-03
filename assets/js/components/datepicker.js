@@ -6,29 +6,34 @@ import { el } from '../core/dom.js';
 import { getTodayISODate } from '../core/format.js';
 
 export function createDatepicker(currentDateStr, onDateSelect) {
-  const current = new Date(currentDateStr || getTodayISODate());
+  const selected = /^\d{4}-\d{2}-\d{2}$/.test(currentDateStr || '') &&
+    !Number.isNaN(Date.parse(`${currentDateStr}T12:00:00Z`))
+    ? currentDateStr : getTodayISODate();
+  const current = new Date(`${selected}T12:00:00Z`);
 
   // Generate 7 days centered on current date (-3 to +3)
   const days = [];
   for (let offset = -3; offset <= 3; offset++) {
     const d = new Date(current);
-    d.setDate(d.getDate() + offset);
+    d.setUTCDate(d.getUTCDate() + offset);
     const iso = d.toISOString().slice(0, 10);
     days.push({
       date: d,
       iso,
       isToday: iso === getTodayISODate(),
-      isActive: iso === currentDateStr
+      isActive: iso === selected
     });
   }
 
   const dayButtons = days.map(d => {
     const dayNames = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
-    const name = d.isToday ? 'СЕГОДНЯ' : dayNames[d.date.getDay()];
-    const num = d.date.getDate();
+    const name = d.isToday ? 'СЕГОДНЯ' : dayNames[d.date.getUTCDay()];
+    const num = d.date.getUTCDate();
 
     return el('button', {
       className: `day-btn ${d.isActive ? 'active' : ''}`,
+      'aria-label': d.iso,
+      'aria-pressed': d.isActive ? 'true' : 'false',
       onClick: () => onDateSelect(d.iso)
     },
       el('span', { className: 'day-name' }, name),
@@ -37,9 +42,9 @@ export function createDatepicker(currentDateStr, onDateSelect) {
   });
 
   const prevDate = new Date(current);
-  prevDate.setDate(prevDate.getDate() - 1);
+  prevDate.setUTCDate(prevDate.getUTCDate() - 1);
   const nextDate = new Date(current);
-  nextDate.setDate(nextDate.getDate() + 1);
+  nextDate.setUTCDate(nextDate.getUTCDate() + 1);
 
   const prevIso = prevDate.toISOString().slice(0, 10);
   const nextIso = nextDate.toISOString().slice(0, 10);
@@ -74,7 +79,7 @@ export function createDatepicker(currentDateStr, onDateSelect) {
     el('input', {
       type: 'date',
       className: 'ribbon-calendar-input',
-      value: currentDateStr,
+      value: selected,
       'aria-label': 'Выбрать дату в календаре',
       onChange: (e) => {
         if (e.target.value) {

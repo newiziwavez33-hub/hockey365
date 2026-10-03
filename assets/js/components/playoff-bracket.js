@@ -84,7 +84,7 @@ export function createPlayoffBracket(bracketData, teamsMap = {}) {
         ),
         // Series Status / Best-of
         el('div', { className: 'text-xs text-muted text-center', style: { marginTop: '6px', borderTop: '1px solid var(--color-border-subtle)', paddingTop: '4px' } },
-          series.status === 'FINISHED' ? 'Серия завершена' : `Серия до ${series.bestOf} побед`
+          series.status === 'FINISHED' ? 'Серия завершена' : `Серия до ${Math.ceil(series.bestOf / 2)} побед`
         )
       );
 

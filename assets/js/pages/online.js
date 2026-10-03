@@ -3,15 +3,13 @@
  */
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
-import { getMatchesByDate, getCompetitions, startLivePolling, getMeta } from '../core/api.js';
-import { getTodayISODate } from '../core/format.js';
+import { getMatchesByDate, getCompetitions, getMeta } from '../core/api.js';
+import { getTodayISODate, formatDate } from '../core/format.js';
 import { createMatchRow } from '../components/match-row.js';
 import { buildLink } from '../core/router.js';
 import { getAssetUrl } from '../core/config.js';
 
 let activeFilter = 'all';
-let stopPolling = null;
-let lastUpdatedTime = new Date();
 
 export async function initOnlinePage() {
   const container = qs('#online-matches-slot');
@@ -26,19 +24,13 @@ export async function initOnlinePage() {
     console.error(e);
   }
 
-  // Update "updated N seconds ago" counter
-  setInterval(() => {
-    if (!updatedStamp) return;
-    const diffSec = Math.floor((new Date() - lastUpdatedTime) / 1000);
-    updatedStamp.textContent = `Обновлено ${diffSec} сек назад`;
-  }, 3000);
-
   if (filterGroup) {
     filterGroup.addEventListener('click', (e) => {
       const btn = e.target.closest('.tab-btn');
       if (!btn) return;
-      filterGroup.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      filterGroup.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
       btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
       activeFilter = btn.dataset.filter;
       renderMatches(currentMatchesList);
     });
@@ -63,8 +55,8 @@ export async function initOnlinePage() {
 
     const liveCount = matches.filter(m => m.status === 'LIVE' || m.status === 'INTERMISSION').length;
     if (liveCountBadge) {
-      liveCountBadge.textContent = `${liveCount} LIVE`;
-      liveCountBadge.className = `badge ${liveCount > 0 ? 'badge-live' : 'badge-finished'}`;
+      liveCountBadge.textContent = `${liveCount} в игре на момент среза`;
+      liveCountBadge.className = 'badge badge-scheduled';
     }
 
     if (filtered.length === 0) {
@@ -98,30 +90,21 @@ export async function initOnlinePage() {
     }
   }
 
-  async function startPolling() {
+  async function loadSnapshot() {
     renderLoading(container, 4);
-    
-    let targetDate = '2026-10-03';
     try {
       const meta = await getMeta();
       const today = getTodayISODate();
-      if (meta?.availableDates?.includes(today)) {
-        targetDate = today;
-      } else if (meta?.activeDate) {
-        targetDate = meta.activeDate;
-      }
-    } catch (e) {}
-
-    stopPolling = startLivePolling(targetDate, (err, matches) => {
-      lastUpdatedTime = new Date();
-      if (err) {
-        renderError(container, 'Не удалось получить данные онлайн-матчей', () => startPolling());
-        return;
-      }
-      currentMatchesList = matches || [];
+      const targetDate = meta?.availableDates?.includes(today) ? today : meta?.activeDate || meta?.availableDates?.[0];
+      if (!targetDate) throw new Error('No snapshot dates');
+      if (updatedStamp) updatedStamp.textContent = `Срез данных: ${meta.updatedAt ? formatDate(meta.updatedAt, 'full') : targetDate}. Данные могут устареть.`;
+      currentMatchesList = await getMatchesByDate(targetDate) || [];
       renderMatches(currentMatchesList);
-    }, 15000); // 15 seconds polling on online page
+    } catch (e) {
+      if (updatedStamp) updatedStamp.textContent = 'Не удалось определить время среза';
+      renderError(container, 'Не удалось получить сохранённые матчи', loadSnapshot);
+    }
   }
 
-  startPolling();
+  loadSnapshot();
 }

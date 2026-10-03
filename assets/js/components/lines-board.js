@@ -3,9 +3,9 @@
  */
 
 import { el } from '../core/dom.js';
-import { buildLink } from '../core/router.js';
+import { playerName } from '../core/profile-links.js';
 
-export function createLinesBoard(teamName, lineupData, playersMap = {}) {
+export function createLinesBoard(teamName, lineupData, available = new Set(), playersMap = {}) {
   const container = el('div', { className: 'lines-board' });
 
   // 1. Goalies
@@ -17,9 +17,7 @@ export function createLinesBoard(teamName, lineupData, playersMap = {}) {
           const pInfo = playersMap[g.playerId] || { name: g.name || g.playerId, number: g.number };
           return el('div', { className: 'player-chip flex-1' },
             el('span', { className: 'num' }, `#${pInfo.number || '-'}`),
-            el('a', { href: buildLink('/player/', { id: g.playerId }), className: 'link-accent' },
-              pInfo.name
-            ),
+            playerName(g.playerId, pInfo.name, available),
             el('span', { className: 'text-xs text-muted', style: { marginLeft: '4px' } },
               idx === 0 ? '(Старт)' : '(Запас)'
             )
@@ -43,7 +41,7 @@ export function createLinesBoard(teamName, lineupData, playersMap = {}) {
             return el('div', { className: 'player-chip' },
               el('div', { className: 'text-xs text-muted' }, pos),
               pInfo.number ? el('span', { className: 'num' }, `#${pInfo.number}`) : null,
-              playerId ? el('a', { href: buildLink('/player/', { id: playerId }), className: 'link-accent' }, pInfo.name) : el('span', {}, '-')
+              playerId ? playerName(playerId, pInfo.name, available) : el('span', {}, '-')
             );
           })
         ),
@@ -55,7 +53,7 @@ export function createLinesBoard(teamName, lineupData, playersMap = {}) {
             return el('div', { className: 'player-chip' },
               el('div', { className: 'text-xs text-muted' }, pIdx === 0 ? 'LD' : 'RD'),
               pInfo.number ? el('span', { className: 'num' }, `#${pInfo.number}`) : null,
-              playerId ? el('a', { href: buildLink('/player/', { id: playerId }), className: 'link-accent' }, pInfo.name) : el('span', {}, '-')
+              playerId ? playerName(playerId, pInfo.name, available) : el('span', {}, '-')
             );
           })
         )

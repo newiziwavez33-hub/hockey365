@@ -16,23 +16,44 @@ const defaultState = {
   notificationsEnabled: false
 };
 
+function normalizeState(value) {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) return null;
+  const favorites = value.favorites && typeof value.favorites === 'object' && !Array.isArray(value.favorites) ? value.favorites : {};
+  const validFavorites = {};
+  for (const key of ['teams', 'leagues', 'matches']) {
+    validFavorites[key] = Array.isArray(favorites[key])
+      ? [...new Set(favorites[key].filter(id => typeof id === 'string'))]
+      : [...defaultState.favorites[key]];
+  }
+  return {
+    theme: ['dark', 'light', 'auto'].includes(value.theme) ? value.theme : defaultState.theme,
+    timezone: ['Europe/Moscow', 'UTC', 'local'].includes(value.timezone) ? value.timezone : defaultState.timezone,
+    favorites: validFavorites,
+    customApiKey: typeof value.customApiKey === 'string' ? value.customApiKey : '',
+    notificationsEnabled: value.notificationsEnabled === true
+  };
+}
+
 class Store {
   constructor() {
     this.state = this._load();
     this.listeners = new Set();
     this.applyTheme(this.state.theme);
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+      if (this.state.theme === 'auto') this.applyTheme('auto');
+    });
   }
 
   _load() {
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
-        return { ...defaultState, ...JSON.parse(saved) };
+        return normalizeState(JSON.parse(saved)) || normalizeState(defaultState);
       }
     } catch (e) {
       console.warn('Failed to load store from localStorage', e);
     }
-    return { ...defaultState };
+    return normalizeState(defaultState);
   }
 
   _save() {
@@ -108,13 +129,23 @@ class Store {
   }
 
   exportData() {
-    return JSON.stringify(this.state, null, 2);
+    // Legacy API keys are local-only and are not used by the static site.
+    return JSON.stringify({ ...this.state, customApiKey: '' }, null, 2);
   }
 
   importData(jsonString) {
     try {
-      const parsed = JSON.parse(jsonString);
-      this.state = { ...defaultState, ...parsed };
+      const raw = JSON.parse(jsonString);
+      if (!raw || typeof raw !== 'object' || Array.isArray(raw) ||
+          !['theme', 'timezone', 'favorites'].some(key => Object.hasOwn(raw, key)) ||
+          (raw.theme !== undefined && !['dark', 'light', 'auto'].includes(raw.theme)) ||
+          (raw.timezone !== undefined && !['Europe/Moscow', 'UTC', 'local'].includes(raw.timezone)) ||
+          (raw.favorites !== undefined && (!raw.favorites || typeof raw.favorites !== 'object' || Array.isArray(raw.favorites) ||
+            ['teams', 'leagues', 'matches'].some(key => raw.favorites[key] !== undefined &&
+              (!Array.isArray(raw.favorites[key]) || raw.favorites[key].some(id => typeof id !== 'string')))))) return false;
+      const parsed = normalizeState(raw);
+      if (!parsed) return false;
+      this.state = parsed;
       this.applyTheme(this.state.theme);
       this._save();
       return true;

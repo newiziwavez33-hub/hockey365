@@ -12,6 +12,7 @@ html {
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-height) + 52px);
 }
 
 body {
@@ -44,8 +45,8 @@ h1, h2, h3, h4, h5, h6 {
   top: -100px;
   left: var(--space-16);
   padding: var(--space-8) var(--space-16);
-  background: var(--color-accent-blue);
-  color: #fff;
+  background: var(--color-accent-blue-hover);
+  color: var(--color-text-inverse);
   font-weight: var(--font-weight-semibold);
   border-radius: var(--radius-sm);
   z-index: 10000;
@@ -70,6 +71,9 @@ a.link-accent {
   color: var(--color-accent-blue);
 }
 a.link-accent:hover {
+  text-decoration: underline;
+}
+a.link-accent:focus-visible {
   text-decoration: underline;
 }
 
@@ -126,6 +130,9 @@ table {
   grid-template-columns: 1fr;
   gap: var(--space-16);
 }
+.layout-grid > * {
+  min-width: 0;
+}
 
 @media (min-width: 1024px) {
   .layout-grid {
@@ -160,6 +167,7 @@ table {
   display: flex;
   align-items: center;
   gap: var(--space-8);
+  min-width: 0;
 }
 
 .card-body {
@@ -189,6 +197,8 @@ table {
 .gap-8 { gap: var(--space-8); }
 .gap-12 { gap: var(--space-12); }
 .gap-16 { gap: var(--space-16); }
+.gap-6 { gap: var(--space-6); }
+.flex-wrap { flex-wrap: wrap; }
 
 /* Badges */
 .badge {
@@ -245,6 +255,27 @@ table {
 @keyframes skeleton-loading {
   0% { background-position: 100% 50%; }
   100% { background-position: 0 50%; }
+}
+
+@media (max-width: 600px) {
+  .app-container {
+    padding-left: var(--space-12);
+    padding-right: var(--space-12);
+  }
+  /* Inline desktop minmax(320px/280px) grids otherwise overflow at 320px. */
+  .layout-grid[style*="auto-fit"] {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+  .card-header {
+    gap: var(--space-8);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .badge-live, .mob-live-dot, .highlight-badge-pulse, .skeleton {
+    animation: none;
+  }
 }
 
 /* Scrollbar styling */

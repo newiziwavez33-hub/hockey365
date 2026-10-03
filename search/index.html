@@ -34,11 +34,13 @@
             <input
               id="search-page-input"
               type="search"
+              aria-label="Поиск команд, игроков, лиг и новостей"
+              aria-describedby="search-status-slot"
               placeholder="Начните вводить название клуба (напр. СКА, Ак Барс, Rangers) или фамилию игрока..."
               style="width: 100%; height: 48px; padding: 0 16px; font-size: 16px; border: 1px solid var(--color-border); border-radius: var(--radius-sm); background: var(--color-bg-secondary); color: var(--color-text-primary);"
             />
           </div>
-          <div id="search-status-slot" class="text-xs text-muted" style="margin-top: 8px;"></div>
+          <div id="search-status-slot" role="status" aria-live="polite" class="text-xs text-muted" style="margin-top: 8px;"></div>
         </div>
       </div>
 

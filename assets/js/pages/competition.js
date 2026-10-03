@@ -11,11 +11,16 @@ import { createTabs } from '../components/tabs.js';
 import { createMatchRow, KNOWN_TEAMS } from '../components/match-row.js';
 import { getAssetUrl } from '../core/config.js';
 import { getTodayISODate, formatSavePct, formatGAA } from '../core/format.js';
+import { availablePlayerIds, playerName } from '../core/profile-links.js';
+import { createDatepicker } from '../components/datepicker.js';
 
 export async function initCompetitionPage() {
   const compId = getParam('id') || 'KHL';
   let activeTab = getParam('tab') || 'table';
   let activeSeason = getParam('season') || '2026/27';
+  let calendarDate = getParam('date');
+  let tabRequest = 0;
+  if (!['table', 'playoff', 'leaders', 'calendar'].includes(activeTab)) activeTab = 'table';
 
   const titleSlot = qs('#comp-title-slot');
   const tabsSlot = qs('#comp-tabs-slot');
@@ -26,7 +31,7 @@ export async function initCompetitionPage() {
   let compInfo = null;
   try {
     const all = await getCompetitions();
-    compInfo = all.find(c => c.id === compId) || all[0];
+    compInfo = all.find(c => c.id === compId);
   } catch (e) {
     console.error(e);
   }
@@ -35,6 +40,9 @@ export async function initCompetitionPage() {
     renderError(contentSlot, 'Соревнование не найдено');
     return;
   }
+  const meta = await getMeta().catch(() => null);
+  const unavailableSource = meta?.unverifiedCompetitions?.includes(compId);
+  if (!compInfo.seasons?.includes(activeSeason)) activeSeason = compInfo.currentSeason;
 
   // Render Comp Header
   titleSlot.innerHTML = '';
@@ -52,6 +60,8 @@ export async function initCompetitionPage() {
       )
     )
   );
+  if (unavailableSource) titleSlot.appendChild(el('p', { className: 'card text-muted', style: { padding: '12px' } },
+    'Результаты и статистика этой лиги скрыты: проверенный источник данных пока не подключён.'));
 
   const tabsConfig = [
     { id: 'table', label: 'Таблицы' },
@@ -73,14 +83,19 @@ export async function initCompetitionPage() {
   renderTabNav();
 
   async function loadTabContent() {
+    const request = ++tabRequest;
     renderLoading(contentSlot, 3);
+    contentSlot.id = `tab-pane-${activeTab}`;
+    contentSlot.setAttribute('role', 'tabpanel');
+    contentSlot.setAttribute('aria-labelledby', `tab-btn-${activeTab}`);
 
     try {
       if (activeTab === 'table') {
         const standingsData = await getStandings(compId, activeSeason);
+        if (request !== tabRequest) return;
         contentSlot.innerHTML = '';
         if (!standingsData || !standingsData.groups || standingsData.groups.length === 0) {
-          renderEmpty(contentSlot, 'Таблицы для данного турнира пока не сформированы.');
+          renderEmpty(contentSlot, unavailableSource ? 'Таблицы скрыты до подключения проверенного источника.' : 'Таблицы для данного турнира пока не сформированы.');
           return;
         }
         for (const grp of standingsData.groups) {
@@ -90,7 +105,9 @@ export async function initCompetitionPage() {
         contentSlot.innerHTML = '';
         try {
           const poData = await getPlayoffs(compId, activeSeason);
+          if (request !== tabRequest) return;
           if (poData && poData.rounds && poData.rounds.length > 0) {
+            contentSlot.appendChild(el('p', { className: 'text-xs text-muted' }, 'Сетка из сохранённого статического файла; актуальность результатов не подтверждена прямой трансляцией.'));
             contentSlot.appendChild(createPlayoffBracket(poData));
           } else {
             renderEmpty(contentSlot, 'Сетка плей-офф еще не стартовала.');
@@ -102,34 +119,42 @@ export async function initCompetitionPage() {
         contentSlot.innerHTML = '';
         try {
           const lData = await getLeaders(compId, activeSeason);
-          renderLeaders(contentSlot, lData);
+          const available = await availablePlayerIds();
+          if (request !== tabRequest) return;
+          renderLeaders(contentSlot, lData, available);
         } catch (e) {
           renderEmpty(contentSlot, 'Статистика лидеров обновляется.');
         }
       } else if (activeTab === 'calendar') {
         contentSlot.innerHTML = '';
-        let targetDate = getTodayISODate();
+        let targetDate = calendarDate || getTodayISODate();
+        let dates = [];
         try {
           const meta = await getMeta();
-          if (meta?.activeDate && !meta?.availableDates?.includes(targetDate)) {
-            targetDate = meta.activeDate;
-          }
+          dates = meta?.availableDates || [];
+          if (!calendarDate && !dates.includes(targetDate)) targetDate = meta.activeDate || dates[0] || targetDate;
         } catch (e) {}
-
-        let matches = [];
-        try {
-          matches = await getMatchesByDate(targetDate);
-        } catch (e) {
-          try { matches = await getMatchesByDate('2026-10-03'); } catch (err2) {}
+        if (request !== tabRequest) return;
+        const dateSlot = el('div', {}, createDatepicker(targetDate, date => {
+          calendarDate = date;
+          setParam('date', date, true);
+          loadTabContent();
+        }));
+        contentSlot.appendChild(dateSlot);
+        if (!dates.includes(targetDate)) {
+          contentSlot.appendChild(el('p', { className: 'card text-muted' }, `За ${targetDate} сохранённого игрового дня нет. Доступные даты: ${dates.join(', ') || 'не указаны'}.`));
+          return;
         }
+        const matches = await getMatchesByDate(targetDate);
+        if (request !== tabRequest) return;
 
         const compMatches = (matches || []).filter(m => m.compId === compId);
         if (compMatches.length === 0) {
-          renderEmpty(contentSlot, 'Матчи на сегодня завершены или не запланированы.');
+          contentSlot.appendChild(el('p', { className: 'card text-muted' }, `На ${targetDate} матчей ${compInfo.name} в сохранённом срезе нет.`));
         } else {
           const list = el('div', { className: 'card' },
             el('div', { className: 'card-header' },
-              el('h3', { className: 'card-title' }, `Матчи игрового дня (${compInfo.name})`)
+              el('h3', { className: 'card-title' }, `Матчи ${compInfo.name} за ${targetDate}`)
             ),
             el('div', { className: 'comp-matches-list' },
               compMatches.map(m => createMatchRow(m))
@@ -139,14 +164,14 @@ export async function initCompetitionPage() {
         }
       }
     } catch (err) {
-      renderError(contentSlot, 'Не удалось загрузить раздел турнира', () => loadTabContent());
+      if (request === tabRequest) renderError(contentSlot, 'Не удалось загрузить раздел турнира', loadTabContent);
     }
   }
 
   loadTabContent();
 }
 
-function renderLeaders(container, lData) {
+function renderLeaders(container, lData, available) {
   if (!lData || !lData.categories) {
     renderEmpty(container, 'Данные лидеров отсутствуют');
     return;
@@ -180,7 +205,7 @@ function renderLeaders(container, lData) {
                     alt: team.name || '', 
                     style: { width: '18px', height: '18px', objectFit: 'contain', flexShrink: '0' } 
                   }) : null,
-                  el('a', { href: buildLink('/player/', { id: r.playerId }), className: 'link-accent', style: { fontWeight: '500' } }, r.playerName || r.playerId),
+                  playerName(r.playerId, r.playerName, available),
                   team.short ? el('span', { className: 'text-xs text-muted' }, team.short) : null
                 )
               ),

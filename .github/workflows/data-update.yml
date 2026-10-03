@@ -2,7 +2,7 @@ name: Scheduled Data Update
 
 on:
   schedule:
-    # Every hour, and every 10 minutes in game windows
+    # Periodic publication of the official NHL snapshot.
     - cron: '*/20 * * * *'
   workflow_dispatch:
 
@@ -29,12 +29,9 @@ jobs:
         run: |
           pip install -r tools/requirements.txt
 
-      - name: Fetch NHL & KHL Data
-        env:
-          SPORTS_API_KEY: ${{ secrets.SPORTS_API_KEY }}
+      - name: Fetch verified NHL data and rebuild indexes
         run: |
           python3 tools/adapters/nhl_web.py
-          python3 tools/adapters/khl_aggregator.py
           python3 tools/normalize.py
           python3 tools/validate_data.py
           python3 tools/build_search_index.py

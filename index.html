@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hockey365 — Хоккей онлайн, матчи КХЛ и НХЛ, таблицы, результаты</title>
-  <meta name="description" content="Хоккейный портал Hockey365: онлайн-счёт матчей КХЛ и НХЛ, расписание, турнирные таблицы конференций и дивизионов, статистика игроков и сетка плей-офф.">
+  <title>Hockey365 — Матчи КХЛ и НХЛ, таблицы и результаты</title>
+  <meta name="description" content="Сохранённые результаты и расписание матчей КХЛ и НХЛ, таблицы и статистика игроков. Статические данные могут устареть.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
   "@type": "SportsOrganization",
   "name": "Hockey365",
   "url": "https://newiziwavez33-hub.github.io/hockey365",
-  "description": "Хоккейный портал онлайн матчей, таблиц и статистики КХЛ и НХЛ",
+  "description": "Хоккейный портал сохранённых матчей, таблиц и статистики КХЛ и НХЛ",
   "sport": "Ice Hockey"
 }
 </script>
@@ -34,6 +34,7 @@
       
       <!-- Datepicker Ribbon -->
       <div id="datepicker-slot"></div>
+      <p id="snapshot-notice" class="text-xs text-muted" role="status" aria-live="polite">Показаны сохранённые матчи; прямой трансляции нет.</p>
 
       <!-- Stitch Highlight Banner: Match of the Day -->
       <div id="highlight-banner-slot"></div>
@@ -41,11 +42,11 @@
       <!-- Filter Pills -->
       <div class="card" style="margin-bottom: var(--space-16);">
         <div class="card-body" style="padding: var(--space-8) var(--space-12);">
-          <div id="filter-pills" class="flex gap-8" style="overflow-x: auto;">
-            <button class="tab-btn active" data-filter="all">Все матчи</button>
-            <button class="tab-btn" data-filter="live">🔴 Только LIVE</button>
-            <button class="tab-btn" data-filter="KHL">КХЛ</button>
-            <button class="tab-btn" data-filter="NHL">НХЛ</button>
+          <div id="filter-pills" class="flex gap-8" role="group" aria-label="Фильтр матчей" style="overflow-x: auto;">
+            <button class="tab-btn active" type="button" aria-pressed="true" data-filter="all">Все матчи</button>
+            <button class="tab-btn" type="button" aria-pressed="false" data-filter="live">В игре на момент среза</button>
+            <button class="tab-btn" type="button" aria-pressed="false" data-filter="KHL">КХЛ</button>
+            <button class="tab-btn" type="button" aria-pressed="false" data-filter="NHL">НХЛ</button>
           </div>
         </div>
       </div>
@@ -66,7 +67,7 @@
                 <span class="material-symbols-outlined" style="font-size: 18px; color: var(--primary-container);">analytics</span>
                 Статистика дня
               </h2>
-              <span class="text-xs text-muted" id="sidebar-stats-match-name">СКА vs Локо</span>
+              <span class="text-xs text-muted" id="sidebar-stats-match-name"></span>
             </div>
             <div class="card-body" id="sidebar-stats-slot"></div>
           </div>

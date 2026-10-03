@@ -9,8 +9,13 @@ import { formatPosition, formatSavePct, formatGAA } from '../core/format.js';
 import { getAssetUrl } from '../core/config.js';
 
 export async function initPlayerPage() {
-  const playerId = getParam('id') || 'khl:p_nikishin';
+  const playerId = getParam('id');
   const container = qs('#player-profile-slot');
+
+  if (!playerId) {
+    renderError(container, 'Выберите игрока через поиск или страницу клуба');
+    return;
+  }
 
   renderLoading(container, 3);
 
@@ -76,7 +81,7 @@ export async function initPlayerPage() {
         ),
         el('div', {},
           el('div', { className: 'text-muted' }, 'Гражданство'),
-          el('div', { className: 'text-bold' }, player.nationality || 'RUS')
+          el('div', { className: 'text-bold' }, player.nationality || '—')
         )
       )
     )

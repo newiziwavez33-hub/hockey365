@@ -29,7 +29,7 @@
           </h1>
         </div>
         <div class="card-body flex-col gap-16">
-          <div id="settings-status" class="badge badge-live" style="display: none; padding: 8px 12px; font-size: 14px;"></div>
+          <div id="settings-status" role="status" aria-live="polite" class="badge badge-scheduled" style="display: none; padding: 8px 12px; font-size: 14px;"></div>
 
           <!-- Theme -->
           <div class="flex-col gap-6">
@@ -51,27 +51,13 @@
             </select>
           </div>
 
-          <!-- Direct API key -->
-          <div class="flex-col gap-6">
-            <label for="custom-api-key" class="text-bold text-sm">Пользовательский API-ключ (опционально)</label>
-            <input
-              id="custom-api-key"
-              type="password"
-              placeholder="Введите ключ API-Sports или Highlightly..."
-              style="height: 40px; padding: 0 12px; border: 1px solid var(--color-border); border-radius: var(--radius-sm); background: var(--color-bg-secondary); color: var(--color-text-primary);"
-            />
-            <span class="text-xs text-muted">Ключ хранится исключительно локально в вашем браузере (localStorage) и не передаётся на сервер.</span>
-          </div>
-
           <!-- Export / Import -->
           <div class="flex-col gap-8" style="margin-top: 12px; border-top: 1px solid var(--color-border-subtle); paddingTop: 16px;">
             <div class="text-bold text-sm">Резервное копирование и перенос данных</div>
             <div class="flex gap-12 flex-wrap">
               <button id="export-settings-btn" class="btn-primary">Экспорт настроек и избранного</button>
-              <label class="btn-primary" style="cursor: pointer; background: var(--color-bg-secondary); color: var(--color-text-primary); border: 1px solid var(--color-border);">
-                Импорт настроек
-                <input id="import-file-input" type="file" accept=".json" style="display: none;" />
-              </label>
+              <button id="import-settings-btn" type="button" class="btn-primary">Импорт настроек</button>
+              <input id="import-file-input" type="file" accept=".json,application/json" aria-label="Файл настроек для импорта" hidden />
             </div>
           </div>
 

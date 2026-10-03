@@ -8,117 +8,27 @@
   "utcDate": "2026-10-05T00:00:00Z",
   "status": "SCHEDULED",
   "period": null,
-  "clock": "14:20",
+  "clock": null,
   "finishedIn": null,
   "home": {
     "id": "nhl:ana",
     "score": null,
     "periods": [],
-    "shots": 30
+    "shots": null
   },
   "away": {
     "id": "nhl:fla",
     "score": null,
     "periods": [],
-    "shots": 28
+    "shots": null
   },
   "arena": "Honda Center",
   "officials": {
-    "referees": [
-      "Chris Rooney",
-      "Kelly Sutherland"
-    ],
-    "linesmen": [
-      "Matt MacPherson",
-      "Ryan Daisy"
-    ]
+    "referees": [],
+    "linesmen": []
   },
   "events": [],
-  "lineups": {
-    "home": {
-      "goalies": [
-        {
-          "playerId": "nhl:g_ana",
-          "name": "Вратарь 1",
-          "number": 31
-        }
-      ],
-      "lines": [
-        {
-          "LW": "nhl:f1_ana",
-          "LW_name": "Нападающий 1",
-          "C": "nhl:c1_ana",
-          "C_name": "Центр 1",
-          "RW": "nhl:f2_ana",
-          "RW_name": "Нападающий 2",
-          "LD": "nhl:d1_ana",
-          "LD_name": "Защитник 1",
-          "RD": "nhl:d2_ana",
-          "RD_name": "Защитник 2"
-        }
-      ]
-    },
-    "away": {
-      "goalies": [
-        {
-          "playerId": "nhl:g_fla",
-          "name": "Вратарь 1",
-          "number": 35
-        }
-      ],
-      "lines": [
-        {
-          "LW": "nhl:f1_fla",
-          "LW_name": "Нападающий 1",
-          "C": "nhl:c1_fla",
-          "C_name": "Центр 1",
-          "RW": "nhl:f2_fla",
-          "RW_name": "Нападающий 2",
-          "LD": "nhl:d1_fla",
-          "LD_name": "Защитник 1",
-          "RD": "nhl:d2_fla",
-          "RD_name": "Защитник 2"
-        }
-      ]
-    }
-  },
-  "stats": {
-    "shots": [
-      32,
-      29
-    ],
-    "shotsOnGoal": [
-      30,
-      28
-    ],
-    "hits": [
-      22,
-      19
-    ],
-    "blocks": [
-      14,
-      11
-    ],
-    "faceoffPct": [
-      53.5,
-      46.5
-    ],
-    "pim": [
-      6,
-      8
-    ],
-    "powerPlay": [
-      "1/3",
-      "0/2"
-    ],
-    "takeaways": [
-      6,
-      4
-    ],
-    "giveaways": [
-      5,
-      7
-    ]
-  },
+  "lineups": null,
+  "stats": null,
   "h2h": []
 }

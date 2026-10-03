@@ -9,118 +9,28 @@
     "utcDate": "2026-10-08T23:00:00Z",
     "status": "SCHEDULED",
     "period": null,
-    "clock": "14:20",
+    "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:bos",
       "score": null,
       "periods": [],
-      "shots": 30
+      "shots": null
     },
     "away": {
       "id": "nhl:uta",
       "score": null,
       "periods": [],
-      "shots": 28
+      "shots": null
     },
     "arena": "TD Garden",
     "officials": {
-      "referees": [
-        "Chris Rooney",
-        "Kelly Sutherland"
-      ],
-      "linesmen": [
-        "Matt MacPherson",
-        "Ryan Daisy"
-      ]
+      "referees": [],
+      "linesmen": []
     },
     "events": [],
-    "lineups": {
-      "home": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_bos",
-            "name": "Вратарь 1",
-            "number": 31
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_bos",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_bos",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_bos",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_bos",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_bos",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      },
-      "away": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_uta",
-            "name": "Вратарь 1",
-            "number": 35
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_uta",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_uta",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_uta",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_uta",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_uta",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      }
-    },
-    "stats": {
-      "shots": [
-        32,
-        29
-      ],
-      "shotsOnGoal": [
-        30,
-        28
-      ],
-      "hits": [
-        22,
-        19
-      ],
-      "blocks": [
-        14,
-        11
-      ],
-      "faceoffPct": [
-        53.5,
-        46.5
-      ],
-      "pim": [
-        6,
-        8
-      ],
-      "powerPlay": [
-        "1/3",
-        "0/2"
-      ],
-      "takeaways": [
-        6,
-        4
-      ],
-      "giveaways": [
-        5,
-        7
-      ]
-    },
+    "lineups": null,
+    "stats": null,
     "h2h": []
   },
   {
@@ -133,118 +43,28 @@
     "utcDate": "2026-10-08T23:00:00Z",
     "status": "SCHEDULED",
     "period": null,
-    "clock": "14:20",
+    "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:buf",
       "score": null,
       "periods": [],
-      "shots": 30
+      "shots": null
     },
     "away": {
       "id": "nhl:dal",
       "score": null,
       "periods": [],
-      "shots": 28
+      "shots": null
     },
     "arena": "KeyBank Center",
     "officials": {
-      "referees": [
-        "Chris Rooney",
-        "Kelly Sutherland"
-      ],
-      "linesmen": [
-        "Matt MacPherson",
-        "Ryan Daisy"
-      ]
+      "referees": [],
+      "linesmen": []
     },
     "events": [],
-    "lineups": {
-      "home": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_buf",
-            "name": "Вратарь 1",
-            "number": 31
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_buf",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_buf",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_buf",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_buf",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_buf",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      },
-      "away": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_dal",
-            "name": "Вратарь 1",
-            "number": 35
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_dal",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_dal",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_dal",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_dal",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_dal",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      }
-    },
-    "stats": {
-      "shots": [
-        32,
-        29
-      ],
-      "shotsOnGoal": [
-        30,
-        28
-      ],
-      "hits": [
-        22,
-        19
-      ],
-      "blocks": [
-        14,
-        11
-      ],
-      "faceoffPct": [
-        53.5,
-        46.5
-      ],
-      "pim": [
-        6,
-        8
-      ],
-      "powerPlay": [
-        "1/3",
-        "0/2"
-      ],
-      "takeaways": [
-        6,
-        4
-      ],
-      "giveaways": [
-        5,
-        7
-      ]
-    },
+    "lineups": null,
+    "stats": null,
     "h2h": []
   },
   {
@@ -257,118 +77,28 @@
     "utcDate": "2026-10-08T23:00:00Z",
     "status": "SCHEDULED",
     "period": null,
-    "clock": "14:20",
+    "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:mtl",
       "score": null,
       "periods": [],
-      "shots": 30
+      "shots": null
     },
     "away": {
       "id": "nhl:nsh",
       "score": null,
       "periods": [],
-      "shots": 28
+      "shots": null
     },
     "arena": "Centre Bell",
     "officials": {
-      "referees": [
-        "Chris Rooney",
-        "Kelly Sutherland"
-      ],
-      "linesmen": [
-        "Matt MacPherson",
-        "Ryan Daisy"
-      ]
+      "referees": [],
+      "linesmen": []
     },
     "events": [],
-    "lineups": {
-      "home": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_mtl",
-            "name": "Вратарь 1",
-            "number": 31
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_mtl",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_mtl",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_mtl",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_mtl",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_mtl",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      },
-      "away": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_nsh",
-            "name": "Вратарь 1",
-            "number": 35
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_nsh",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_nsh",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_nsh",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_nsh",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_nsh",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      }
-    },
-    "stats": {
-      "shots": [
-        32,
-        29
-      ],
-      "shotsOnGoal": [
-        30,
-        28
-      ],
-      "hits": [
-        22,
-        19
-      ],
-      "blocks": [
-        14,
-        11
-      ],
-      "faceoffPct": [
-        53.5,
-        46.5
-      ],
-      "pim": [
-        6,
-        8
-      ],
-      "powerPlay": [
-        "1/3",
-        "0/2"
-      ],
-      "takeaways": [
-        6,
-        4
-      ],
-      "giveaways": [
-        5,
-        7
-      ]
-    },
+    "lineups": null,
+    "stats": null,
     "h2h": []
   },
   {
@@ -381,118 +111,28 @@
     "utcDate": "2026-10-08T23:00:00Z",
     "status": "SCHEDULED",
     "period": null,
-    "clock": "14:20",
+    "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:ott",
       "score": null,
       "periods": [],
-      "shots": 30
+      "shots": null
     },
     "away": {
       "id": "nhl:phi",
       "score": null,
       "periods": [],
-      "shots": 28
+      "shots": null
     },
     "arena": "Canadian Tire Centre",
     "officials": {
-      "referees": [
-        "Chris Rooney",
-        "Kelly Sutherland"
-      ],
-      "linesmen": [
-        "Matt MacPherson",
-        "Ryan Daisy"
-      ]
+      "referees": [],
+      "linesmen": []
     },
     "events": [],
-    "lineups": {
-      "home": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_ott",
-            "name": "Вратарь 1",
-            "number": 31
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_ott",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_ott",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_ott",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_ott",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_ott",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      },
-      "away": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_phi",
-            "name": "Вратарь 1",
-            "number": 35
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_phi",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_phi",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_phi",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_phi",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_phi",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      }
-    },
-    "stats": {
-      "shots": [
-        32,
-        29
-      ],
-      "shotsOnGoal": [
-        30,
-        28
-      ],
-      "hits": [
-        22,
-        19
-      ],
-      "blocks": [
-        14,
-        11
-      ],
-      "faceoffPct": [
-        53.5,
-        46.5
-      ],
-      "pim": [
-        6,
-        8
-      ],
-      "powerPlay": [
-        "1/3",
-        "0/2"
-      ],
-      "takeaways": [
-        6,
-        4
-      ],
-      "giveaways": [
-        5,
-        7
-      ]
-    },
+    "lineups": null,
+    "stats": null,
     "h2h": []
   },
   {
@@ -505,118 +145,28 @@
     "utcDate": "2026-10-08T23:00:00Z",
     "status": "SCHEDULED",
     "period": null,
-    "clock": "14:20",
+    "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:tbl",
       "score": null,
       "periods": [],
-      "shots": 30
+      "shots": null
     },
     "away": {
       "id": "nhl:min",
       "score": null,
       "periods": [],
-      "shots": 28
+      "shots": null
     },
     "arena": "Benchmark International Arena",
     "officials": {
-      "referees": [
-        "Chris Rooney",
-        "Kelly Sutherland"
-      ],
-      "linesmen": [
-        "Matt MacPherson",
-        "Ryan Daisy"
-      ]
+      "referees": [],
+      "linesmen": []
     },
     "events": [],
-    "lineups": {
-      "home": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_tbl",
-            "name": "Вратарь 1",
-            "number": 31
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_tbl",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_tbl",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_tbl",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_tbl",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_tbl",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      },
-      "away": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_min",
-            "name": "Вратарь 1",
-            "number": 35
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_min",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_min",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_min",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_min",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_min",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      }
-    },
-    "stats": {
-      "shots": [
-        32,
-        29
-      ],
-      "shotsOnGoal": [
-        30,
-        28
-      ],
-      "hits": [
-        22,
-        19
-      ],
-      "blocks": [
-        14,
-        11
-      ],
-      "faceoffPct": [
-        53.5,
-        46.5
-      ],
-      "pim": [
-        6,
-        8
-      ],
-      "powerPlay": [
-        "1/3",
-        "0/2"
-      ],
-      "takeaways": [
-        6,
-        4
-      ],
-      "giveaways": [
-        5,
-        7
-      ]
-    },
+    "lineups": null,
+    "stats": null,
     "h2h": []
   },
   {
@@ -629,118 +179,28 @@
     "utcDate": "2026-10-08T23:00:00Z",
     "status": "SCHEDULED",
     "period": null,
-    "clock": "14:20",
+    "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:car",
       "score": null,
       "periods": [],
-      "shots": 30
+      "shots": null
     },
     "away": {
       "id": "nhl:van",
       "score": null,
       "periods": [],
-      "shots": 28
+      "shots": null
     },
     "arena": "Lenovo Center",
     "officials": {
-      "referees": [
-        "Chris Rooney",
-        "Kelly Sutherland"
-      ],
-      "linesmen": [
-        "Matt MacPherson",
-        "Ryan Daisy"
-      ]
+      "referees": [],
+      "linesmen": []
     },
     "events": [],
-    "lineups": {
-      "home": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_car",
-            "name": "Вратарь 1",
-            "number": 31
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_car",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_car",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_car",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_car",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_car",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      },
-      "away": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_van",
-            "name": "Вратарь 1",
-            "number": 35
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_van",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_van",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_van",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_van",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_van",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      }
-    },
-    "stats": {
-      "shots": [
-        32,
-        29
-      ],
-      "shotsOnGoal": [
-        30,
-        28
-      ],
-      "hits": [
-        22,
-        19
-      ],
-      "blocks": [
-        14,
-        11
-      ],
-      "faceoffPct": [
-        53.5,
-        46.5
-      ],
-      "pim": [
-        6,
-        8
-      ],
-      "powerPlay": [
-        "1/3",
-        "0/2"
-      ],
-      "takeaways": [
-        6,
-        4
-      ],
-      "giveaways": [
-        5,
-        7
-      ]
-    },
+    "lineups": null,
+    "stats": null,
     "h2h": []
   },
   {
@@ -753,118 +213,28 @@
     "utcDate": "2026-10-08T23:30:00Z",
     "status": "SCHEDULED",
     "period": null,
-    "clock": "14:20",
+    "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:nyi",
       "score": null,
       "periods": [],
-      "shots": 30
+      "shots": null
     },
     "away": {
       "id": "nhl:chi",
       "score": null,
       "periods": [],
-      "shots": 28
+      "shots": null
     },
     "arena": "UBS Arena",
     "officials": {
-      "referees": [
-        "Chris Rooney",
-        "Kelly Sutherland"
-      ],
-      "linesmen": [
-        "Matt MacPherson",
-        "Ryan Daisy"
-      ]
+      "referees": [],
+      "linesmen": []
     },
     "events": [],
-    "lineups": {
-      "home": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_nyi",
-            "name": "Вратарь 1",
-            "number": 31
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_nyi",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_nyi",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_nyi",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_nyi",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_nyi",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      },
-      "away": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_chi",
-            "name": "Вратарь 1",
-            "number": 35
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_chi",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_chi",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_chi",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_chi",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_chi",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      }
-    },
-    "stats": {
-      "shots": [
-        32,
-        29
-      ],
-      "shotsOnGoal": [
-        30,
-        28
-      ],
-      "hits": [
-        22,
-        19
-      ],
-      "blocks": [
-        14,
-        11
-      ],
-      "faceoffPct": [
-        53.5,
-        46.5
-      ],
-      "pim": [
-        6,
-        8
-      ],
-      "powerPlay": [
-        "1/3",
-        "0/2"
-      ],
-      "takeaways": [
-        6,
-        4
-      ],
-      "giveaways": [
-        5,
-        7
-      ]
-    },
+    "lineups": null,
+    "stats": null,
     "h2h": []
   },
   {
@@ -877,118 +247,28 @@
     "utcDate": "2026-10-09T00:00:00Z",
     "status": "SCHEDULED",
     "period": null,
-    "clock": "14:20",
+    "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:stl",
       "score": null,
       "periods": [],
-      "shots": 30
+      "shots": null
     },
     "away": {
       "id": "nhl:sjs",
       "score": null,
       "periods": [],
-      "shots": 28
+      "shots": null
     },
     "arena": "Enterprise Center",
     "officials": {
-      "referees": [
-        "Chris Rooney",
-        "Kelly Sutherland"
-      ],
-      "linesmen": [
-        "Matt MacPherson",
-        "Ryan Daisy"
-      ]
+      "referees": [],
+      "linesmen": []
     },
     "events": [],
-    "lineups": {
-      "home": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_stl",
-            "name": "Вратарь 1",
-            "number": 31
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_stl",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_stl",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_stl",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_stl",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_stl",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      },
-      "away": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_sjs",
-            "name": "Вратарь 1",
-            "number": 35
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_sjs",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_sjs",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_sjs",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_sjs",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_sjs",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      }
-    },
-    "stats": {
-      "shots": [
-        32,
-        29
-      ],
-      "shotsOnGoal": [
-        30,
-        28
-      ],
-      "hits": [
-        22,
-        19
-      ],
-      "blocks": [
-        14,
-        11
-      ],
-      "faceoffPct": [
-        53.5,
-        46.5
-      ],
-      "pim": [
-        6,
-        8
-      ],
-      "powerPlay": [
-        "1/3",
-        "0/2"
-      ],
-      "takeaways": [
-        6,
-        4
-      ],
-      "giveaways": [
-        5,
-        7
-      ]
-    },
+    "lineups": null,
+    "stats": null,
     "h2h": []
   },
   {
@@ -1001,118 +281,28 @@
     "utcDate": "2026-10-09T01:00:00Z",
     "status": "SCHEDULED",
     "period": null,
-    "clock": "14:20",
+    "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:cgy",
       "score": null,
       "periods": [],
-      "shots": 30
+      "shots": null
     },
     "away": {
       "id": "nhl:col",
       "score": null,
       "periods": [],
-      "shots": 28
+      "shots": null
     },
     "arena": "Scotiabank Saddledome",
     "officials": {
-      "referees": [
-        "Chris Rooney",
-        "Kelly Sutherland"
-      ],
-      "linesmen": [
-        "Matt MacPherson",
-        "Ryan Daisy"
-      ]
+      "referees": [],
+      "linesmen": []
     },
     "events": [],
-    "lineups": {
-      "home": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_cgy",
-            "name": "Вратарь 1",
-            "number": 31
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_cgy",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_cgy",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_cgy",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_cgy",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_cgy",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      },
-      "away": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_col",
-            "name": "Вратарь 1",
-            "number": 35
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_col",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_col",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_col",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_col",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_col",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      }
-    },
-    "stats": {
-      "shots": [
-        32,
-        29
-      ],
-      "shotsOnGoal": [
-        30,
-        28
-      ],
-      "hits": [
-        22,
-        19
-      ],
-      "blocks": [
-        14,
-        11
-      ],
-      "faceoffPct": [
-        53.5,
-        46.5
-      ],
-      "pim": [
-        6,
-        8
-      ],
-      "powerPlay": [
-        "1/3",
-        "0/2"
-      ],
-      "takeaways": [
-        6,
-        4
-      ],
-      "giveaways": [
-        5,
-        7
-      ]
-    },
+    "lineups": null,
+    "stats": null,
     "h2h": []
   },
   {
@@ -1125,118 +315,28 @@
     "utcDate": "2026-10-09T02:00:00Z",
     "status": "SCHEDULED",
     "period": null,
-    "clock": "14:20",
+    "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:vgk",
       "score": null,
       "periods": [],
-      "shots": 30
+      "shots": null
     },
     "away": {
       "id": "nhl:tor",
       "score": null,
       "periods": [],
-      "shots": 28
+      "shots": null
     },
     "arena": "T-Mobile Arena",
     "officials": {
-      "referees": [
-        "Chris Rooney",
-        "Kelly Sutherland"
-      ],
-      "linesmen": [
-        "Matt MacPherson",
-        "Ryan Daisy"
-      ]
+      "referees": [],
+      "linesmen": []
     },
     "events": [],
-    "lineups": {
-      "home": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_vgk",
-            "name": "Вратарь 1",
-            "number": 31
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_vgk",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_vgk",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_vgk",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_vgk",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_vgk",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      },
-      "away": {
-        "goalies": [
-          {
-            "playerId": "nhl:g_tor",
-            "name": "Вратарь 1",
-            "number": 35
-          }
-        ],
-        "lines": [
-          {
-            "LW": "nhl:f1_tor",
-            "LW_name": "Нападающий 1",
-            "C": "nhl:c1_tor",
-            "C_name": "Центр 1",
-            "RW": "nhl:f2_tor",
-            "RW_name": "Нападающий 2",
-            "LD": "nhl:d1_tor",
-            "LD_name": "Защитник 1",
-            "RD": "nhl:d2_tor",
-            "RD_name": "Защитник 2"
-          }
-        ]
-      }
-    },
-    "stats": {
-      "shots": [
-        32,
-        29
-      ],
-      "shotsOnGoal": [
-        30,
-        28
-      ],
-      "hits": [
-        22,
-        19
-      ],
-      "blocks": [
-        14,
-        11
-      ],
-      "faceoffPct": [
-        53.5,
-        46.5
-      ],
-      "pim": [
-        6,
-        8
-      ],
-      "powerPlay": [
-        "1/3",
-        "0/2"
-      ],
-      "takeaways": [
-        6,
-        4
-      ],
-      "giveaways": [
-        5,
-        7
-      ]
-    },
+    "lineups": null,
+    "stats": null,
     "h2h": []
   }
 ]

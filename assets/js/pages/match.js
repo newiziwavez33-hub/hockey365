@@ -10,10 +10,12 @@ import { createLinesBoard } from '../components/lines-board.js';
 import { createRinkSvg } from '../components/rink-svg.js';
 import { getAssetUrl } from '../core/config.js';
 import { formatScore, formatPeriodStatus, formatDate } from '../core/format.js';
+import { availablePlayerIds, playerName } from '../core/profile-links.js';
 
 export async function initMatchPage() {
   const matchId = getParam('id');
   let activeTab = getParam('tab') || 'events';
+  if (!['events', 'lineups', 'stats', 'rink', 'info'].includes(activeTab)) activeTab = 'events';
 
   const headerSlot = qs('#match-header-slot');
   const tabsSlot = qs('#match-tabs-slot');
@@ -49,6 +51,7 @@ export async function initMatchPage() {
   }
 
   const defaultLogo = getAssetUrl('assets/logos/teams/placeholder.svg');
+  const available = await availablePlayerIds();
 
   // Render Match Header
   headerSlot.innerHTML = '';
@@ -58,7 +61,7 @@ export async function initMatchPage() {
       el('span', { className: 'text-xs text-muted' },
         `${match.compId} • ${formatDate(match.utcDate, 'full')} • ${match.arena || 'Арена'}`
       ),
-      el('span', { className: 'badge badge-finished' }, formatPeriodStatus(match))
+      el('span', { className: `badge ${match.status === 'FINISHED' ? 'badge-finished' : 'badge-scheduled'}` }, formatPeriodStatus(match))
     ),
     // Teams and Score
     el('div', { className: 'card-body', style: { padding: '24px 16px' } },
@@ -131,11 +134,14 @@ export async function initMatchPage() {
 
   function renderTabBody() {
     contentSlot.innerHTML = '';
+    contentSlot.id = `tab-pane-${activeTab}`;
+    contentSlot.setAttribute('role', 'tabpanel');
+    contentSlot.setAttribute('aria-labelledby', `tab-btn-${activeTab}`);
 
     if (activeTab === 'events') {
-      renderEventsTab(contentSlot, match);
+      renderEventsTab(contentSlot, match, available);
     } else if (activeTab === 'lineups') {
-      renderLineupsTab(contentSlot, match, homeTeam, awayTeam);
+      renderLineupsTab(contentSlot, match, homeTeam, awayTeam, available);
     } else if (activeTab === 'stats') {
       renderStatsTab(contentSlot, match, homeTeam, awayTeam);
     } else if (activeTab === 'rink') {
@@ -190,7 +196,7 @@ function renderPeriodBreakdownTable(match, homeTeam, awayTeam) {
   );
 }
 
-function renderEventsTab(container, match) {
+function renderEventsTab(container, match, available) {
   if (!match.events || match.events.length === 0) {
     renderEmpty(container, 'События в матче пока отсутствуют.');
     return;
@@ -231,7 +237,7 @@ function renderEventsTab(container, match) {
               el('span', { className: `badge ${typeBadgeClass}` }, typeLabel),
               el('div', {},
                 el('div', { className: 'text-sm text-bold' },
-                  ev.playerId ? el('a', { href: buildLink('/player/', { id: ev.playerId }), className: 'link-accent' }, ev.playerName || 'Игрок') : ev.playerName || 'Игрок',
+                  playerName(ev.playerId, ev.playerName, available),
                   ev.score ? ` — ${ev.score}` : ''
                 ),
                 ev.assists && ev.assists.length > 0 ? el('div', { className: 'text-xs text-muted' },
@@ -252,7 +258,7 @@ function renderEventsTab(container, match) {
   container.appendChild(card);
 }
 
-function renderLineupsTab(container, match, homeTeam, awayTeam) {
+function renderLineupsTab(container, match, homeTeam, awayTeam, available) {
   if (!match.lineups || (!match.lineups.home && !match.lineups.away)) {
     renderEmpty(container, 'Составы на этот матч пока не объявлены.');
     return;
@@ -260,10 +266,10 @@ function renderLineupsTab(container, match, homeTeam, awayTeam) {
 
   const grid = el('div', { className: 'layout-grid' });
   if (match.lineups.home) {
-    grid.appendChild(createLinesBoard(homeTeam.name, match.lineups.home));
+    grid.appendChild(createLinesBoard(homeTeam.name, match.lineups.home, available));
   }
   if (match.lineups.away) {
-    grid.appendChild(createLinesBoard(awayTeam.name, match.lineups.away));
+    grid.appendChild(createLinesBoard(awayTeam.name, match.lineups.away, available));
   }
   container.appendChild(grid);
 }

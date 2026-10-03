@@ -25,6 +25,7 @@
 
   /* Match Statuses */
   --color-live: #e63946;
+  --color-live-solid: #c52231;
   --color-live-bg: #fff0f1;
   --color-live-pulse: rgba(230, 57, 70, 0.45);
   --color-success: #10b981;
@@ -33,6 +34,29 @@
   --color-warning-bg: #fffbeb;
   --color-penalty: #f97316;
   --color-penalty-bg: #fff7ed;
+
+  /* Shared component aliases: date ribbon, match rows and footer use these
+     in both themes, not only in the dark-theme override. */
+  --surface-base: var(--color-bg-primary);
+  --surface-card: var(--color-bg-surface);
+  --surface-elevated: var(--color-bg-secondary);
+  --surface-highlight: var(--color-bg-tertiary);
+  --primary-container: var(--color-accent-blue-hover);
+  --primary: var(--color-accent-blue-hover);
+  --primary-light: var(--color-accent-blue-hover);
+  --secondary: var(--color-accent-blue);
+  --ice-glow: var(--color-accent-glow);
+  --live-red: #c52231;
+  --live-red-glow: var(--color-live-pulse);
+  --win-green: #087c58;
+  --warning-amber: #b66300;
+  --text-primary: var(--color-text-primary);
+  --text-secondary: var(--color-text-secondary);
+  --text-muted: var(--color-text-muted);
+  --text-inverse: var(--color-text-inverse);
+  --border-glass: var(--color-border);
+  --border-subtle: var(--color-border-subtle);
+  --border-focus: var(--color-border-focus);
 
   /* Typography (Stitch: Space Grotesk + Manrope) */
   --font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -119,7 +143,7 @@
   /* Stitch Typography Colors */
   --text-primary: #F8FAFC;
   --text-secondary: #94A3B8;
-  --text-muted: #64748B;
+  --text-muted: #8393aa;
   --text-inverse: #0B0E14;
 
   /* Stitch Borders & Glass */
@@ -150,6 +174,7 @@
   --color-accent-glow: var(--ice-glow);
 
   --color-live: var(--live-red);
+  --color-live-solid: #b91c2d;
   --color-live-bg: rgba(239, 68, 68, 0.15);
   --color-live-pulse: var(--live-red-glow);
   --color-success: var(--win-green);
@@ -158,6 +183,7 @@
   --color-warning-bg: rgba(245, 158, 11, 0.15);
   --color-penalty: #fb923c;
   --color-penalty-bg: rgba(251, 146, 60, 0.15);
+  --primary-light: var(--primary);
 
   --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.4);
   --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.55);

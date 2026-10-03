@@ -20,6 +20,7 @@ export async function fetchJSON(url, useCache = true) {
   try {
     const response = await fetch(url, {
       signal: controller.signal,
+      cache: useCache ? 'default' : 'no-cache',
       headers: {
         'Accept': 'application/json'
       }
@@ -46,53 +47,79 @@ export async function getMeta() {
   return fetchJSON(getDataUrl('meta.json'));
 }
 
+async function isUnverified(compId) {
+  const meta = await getMeta();
+  return meta.unverifiedCompetitions?.includes(compId) || false;
+}
+
+function unavailable(compId) {
+  throw new Error(`${compId}: нет подтверждённого источника данных`);
+}
+
 export async function getCompetitions() {
   return fetchJSON(getDataUrl('competitions.json'));
 }
 
 export async function getMatchesByDate(dateStr) {
   const url = getDataUrl(`matches/by-date/${dateStr}.json`);
-  return fetchJSON(url, false); // Don't cache live date queries too long
+  const [matches, meta] = await Promise.all([fetchJSON(url, false), getMeta()]);
+  return matches.filter(match => !meta.unverifiedCompetitions?.includes(match.compId));
 }
 
 export async function getMatch(matchId) {
+  if (await isUnverified(matchId.split(':')[0].toUpperCase())) unavailable(matchId);
   return fetchJSON(getDataUrl(`matches/${matchId}.json`));
 }
 
 export async function getTeam(teamId) {
+  if (await isUnverified(teamId.split(':')[0].toUpperCase())) unavailable(teamId);
   return fetchJSON(getDataUrl(`teams/${teamId}.json`));
 }
 
 export async function getPlayer(playerId) {
+  if (await isUnverified(playerId.split(':')[0].toUpperCase())) unavailable(playerId);
   return fetchJSON(getDataUrl(`players/${playerId}.json`));
 }
 
 export async function getStandings(compId, season = '2026/27') {
+  if (await isUnverified(compId)) return { groups: [] };
   const cleanSeason = season.replace('/', '-');
   return fetchJSON(getDataUrl(`standings/${compId}-${cleanSeason}.json`));
 }
 
 export async function getPlayoffs(compId, season = '2026/27') {
+  if (await isUnverified(compId)) return { rounds: [] };
   const cleanSeason = season.replace('/', '-');
   return fetchJSON(getDataUrl(`playoffs/${compId}-${cleanSeason}.json`));
 }
 
 export async function getLeaders(compId, season = '2026/27') {
+  if (await isUnverified(compId)) return { categories: {} };
   const cleanSeason = season.replace('/', '-');
   return fetchJSON(getDataUrl(`leaders/${compId}-${cleanSeason}.json`));
 }
 
 export async function getNews() {
-  return fetchJSON(getDataUrl('news/index.json'));
+  const [data, meta] = await Promise.all([fetchJSON(getDataUrl('news/index.json')), getMeta()]);
+  return { ...data, news: (data.news || []).filter(item =>
+    /^https:\/\//.test(item.url || '') &&
+    !meta.unverifiedCompetitions?.some(comp => item.tags?.includes(comp) || item.relatedTeamIds?.some(id => id.toUpperCase().startsWith(`${comp}:`)))) };
 }
 
 export async function getTransfers(season = '2026-2027') {
   const cleanSeason = season.replace('/', '-');
-  return fetchJSON(getDataUrl(`transfers/${cleanSeason}.json`));
+  const [data, meta] = await Promise.all([fetchJSON(getDataUrl(`transfers/${cleanSeason}.json`)), getMeta()]);
+  return { ...data, transfers: (data.transfers || []).filter(item =>
+    !meta.unverifiedCompetitions?.some(comp => [item.fromTeamId, item.toTeamId, item.playerId]
+      .some(id => id?.toUpperCase().startsWith(`${comp}:`)))) };
 }
 
 export async function getSearchIndex() {
-  return fetchJSON(getDataUrl('search-index.json'));
+  const [items, meta, news] = await Promise.all([fetchJSON(getDataUrl('search-index.json')), getMeta(), getNews()]);
+  const verifiedNews = new Set(news.news.map(item => item.id));
+  return items.filter(item => !meta.unverifiedCompetitions?.some(comp =>
+    item.id?.toUpperCase().startsWith(`${comp}:`) || item.id === comp) &&
+    (item.type !== 'news' || verifiedNews.has(item.id)));
 }
 
 /**
@@ -100,14 +127,18 @@ export async function getSearchIndex() {
  */
 export function startLivePolling(dateStr, callback, intervalMs = CONFIG.POLL_INTERVAL_LIVE_MS) {
   let isCancelled = false;
+  let inFlight = false;
 
   async function poll() {
-    if (isCancelled) return;
+    if (isCancelled || inFlight) return;
+    inFlight = true;
     try {
       const data = await getMatchesByDate(dateStr);
-      callback(null, data);
+      if (!isCancelled) callback(null, data);
     } catch (err) {
-      callback(err, null);
+      if (!isCancelled) callback(err, null);
+    } finally {
+      inFlight = false;
     }
   }
 

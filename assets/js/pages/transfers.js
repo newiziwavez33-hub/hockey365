@@ -11,7 +11,7 @@ export async function initTransfersPage() {
   renderLoading(container, 3);
 
   try {
-    const data = await getTransfers('2026-2027');
+    const data = await getTransfers('2026/27');
     const transfers = data.transfers || [];
     container.innerHTML = '';
 

@@ -96,7 +96,7 @@ export function createStandingsTable(group, teamsMap = {}) {
           logo: row.teamId.startsWith('khl:') ? `/assets/logos/teams/${row.teamId.split(':')[1]}.png` : `/assets/logos/teams/${row.teamId.split(':')[1]}.svg`
         };
 
-        const isPO = row.zone === 'PO' || row.pos <= 8;
+        const isPO = row.zone === 'PO';
 
         // Render form pills
         const formPills = el('div', { className: 'form-pills' });

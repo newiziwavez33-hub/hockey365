@@ -13,7 +13,10 @@ export function escapeHTML(str) {
 }
 
 export function el(tag, attributes = {}, ...children) {
-  const element = document.createElement(tag);
+  const svgTags = new Set(['svg', 'circle', 'ellipse', 'line', 'path', 'polygon', 'polyline', 'rect', 'text', 'g']);
+  const element = svgTags.has(tag)
+    ? document.createElementNS('http://www.w3.org/2000/svg', tag)
+    : document.createElement(tag);
 
   for (const [key, value] of Object.entries(attributes)) {
     if (value === null || value === undefined) continue;
@@ -22,7 +25,8 @@ export function el(tag, attributes = {}, ...children) {
       const eventName = key.slice(2).toLowerCase();
       element.addEventListener(eventName, value);
     } else if (key === 'className') {
-      element.className = value;
+      if (element.namespaceURI === 'http://www.w3.org/2000/svg') element.setAttribute('class', value);
+      else element.className = value;
     } else if (key === 'dataset' && typeof value === 'object') {
       for (const [dataKey, dataValue] of Object.entries(value)) {
         element.dataset[dataKey] = dataValue;

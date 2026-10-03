@@ -8,8 +8,8 @@ import { store } from '../core/store.js';
 export function initSettingsPage() {
   const themeSelect = qs('#theme-select');
   const timezoneSelect = qs('#timezone-select');
-  const apiKeyInput = qs('#custom-api-key');
   const exportBtn = qs('#export-settings-btn');
+  const importBtn = qs('#import-settings-btn');
   const importInput = qs('#import-file-input');
   const statusMsg = qs('#settings-status');
 
@@ -29,15 +29,7 @@ export function initSettingsPage() {
     });
   }
 
-  if (apiKeyInput) {
-    apiKeyInput.value = store.state.customApiKey || '';
-    apiKeyInput.addEventListener('change', (e) => {
-      store.state.customApiKey = e.target.value.trim();
-      store._save();
-      showStatus('Ключ API сохранен в локальном хранилище!');
-    });
-  }
-
+  importBtn?.addEventListener('click', () => importInput?.click());
   if (exportBtn) {
     exportBtn.addEventListener('click', () => {
       const dataStr = 'data:text/json;charset=utf-8,' + encodeURIComponent(store.exportData());
@@ -65,7 +57,9 @@ export function initSettingsPage() {
           showStatus('Ошибка при чтении файла настроек.');
         }
       };
+      reader.onerror = () => showStatus('Не удалось прочитать файл настроек.');
       reader.readAsText(file);
+      e.target.value = '';
     });
   }
 

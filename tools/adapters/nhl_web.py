@@ -11,6 +11,7 @@ import urllib.request
 import json
 import os
 import sys
+from datetime import datetime, timezone
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -26,6 +27,10 @@ def sync_nhl_standings_and_teams(output_data_dir):
     url = 'https://api-web.nhle.com/v1/standings/now'
     data = fetch_nhl_url(url)
     standings_raw = data.get('standings', [])
+    if not standings_raw:
+        raise ValueError('NHL standings response has no teams; existing files preserved')
+    if any(item.get('seasonId') != 20262027 for item in standings_raw):
+        raise ValueError('NHL standings are not for 2026/27; existing files preserved')
 
     teams_dir = os.path.join(output_data_dir, 'teams')
     os.makedirs(teams_dir, exist_ok=True)
@@ -68,32 +73,8 @@ def sync_nhl_standings_and_teams(output_data_dir):
         }
         div_ru = div_map.get(div_en, div_en)
 
-        # Team file
-        team_file = os.path.join(teams_dir, f"{team_id}.json")
-        team_obj = {
-            "id": team_id,
-            "slug": f"{abbr.lower()}-{team_common_name.lower().replace(' ', '-')}",
-            "name": team_name_ru,
-            "nameEn": f"{team_name_en}",
-            "short": abbr,
-            "country": "CAN" if abbr in ['TOR', 'EDM', 'VAN', 'WPG', 'CGY', 'OTT', 'MTL'] else "USA",
-            "city": item.get('placeName', {}).get('default', ''),
-            "conference": conf_ru,
-            "division": div_ru,
-            "founded": 1917 if abbr in ['TOR', 'MTL'] else 1970,
-            "arena": {
-                "name": f"{team_name_ru} Арена",
-                "capacity": 18500,
-                "city": item.get('placeName', {}).get('default', '')
-            },
-            "colors": ["#00205B", "#C0C0C0"],
-            "logo": f"/assets/logos/teams/{abbr.lower()}.svg",
-            "coach": "Главный тренер",
-            "roster": [],
-            "competitions": ["NHL"]
-        }
-        with open(team_file, 'w', encoding='utf-8') as f:
-            json.dump(team_obj, f, ensure_ascii=False, indent=2)
+        # Standings do not contain verified arena, coach, founding year or roster.
+        # Do not overwrite team profiles with invented details.
 
         # Standings row
         row = {
@@ -119,7 +100,7 @@ def sync_nhl_standings_and_teams(output_data_dir):
         overall_rows.append(row)
 
     def sort_rows(rows):
-        sorted_list = sorted(rows, key=lambda r: (r['pts'], r['gd'], r['gf']), reverse=True)
+        sorted_list = [dict(row) for row in sorted(rows, key=lambda r: (r['pts'], r['gd'], r['gf']), reverse=True)]
         for idx, r in enumerate(sorted_list, 1):
             r['pos'] = idx
         return sorted_list
@@ -156,7 +137,7 @@ def sync_nhl_standings_and_teams(output_data_dir):
         json.dump({
             "compId": "NHL",
             "season": "2026/27",
-            "updatedAt": "2026-10-03T20:30:00Z",
+            "updatedAt": datetime.now(timezone.utc).isoformat(),
             "groups": groups_data
         }, f, ensure_ascii=False, indent=2)
 
@@ -175,8 +156,8 @@ def sync_nhl_leaders(output_data_dir):
         "svPct": []
     }
 
+    s_data = fetch_nhl_url(skater_url)
     try:
-        s_data = fetch_nhl_url(skater_url)
         for cat in ['points', 'goals', 'assists']:
             if cat in s_data:
                 for item in s_data[cat][:10]:
@@ -189,11 +170,11 @@ def sync_nhl_leaders(output_data_dir):
                         "teamId": f"nhl:{team_abbr}",
                         "value": item.get('value', 0)
                     })
-    except Exception as e:
-        print("Failed to fetch skater leaders:", e)
+    except (TypeError, ValueError, KeyError) as e:
+        raise ValueError('Invalid NHL skater leader response; existing file preserved') from e
 
+    g_data = fetch_nhl_url(goalie_url)
     try:
-        g_data = fetch_nhl_url(goalie_url)
         if 'goalsAgainstAverage' in g_data:
             for item in g_data['goalsAgainstAverage'][:10]:
                 fn = item.get('firstName', {}).get('default', '')
@@ -216,11 +197,13 @@ def sync_nhl_leaders(output_data_dir):
                     "teamId": f"nhl:{team_abbr}",
                     "value": round(item.get('value', 0.0), 3)
                 })
-    except Exception as e:
-        print("Failed to fetch goalie leaders:", e)
+    except (TypeError, ValueError, KeyError) as e:
+        raise ValueError('Invalid NHL goalie leader response; existing file preserved') from e
 
     leaders_file = os.path.join(output_data_dir, 'leaders', 'NHL-2026-27.json')
     os.makedirs(os.path.dirname(leaders_file), exist_ok=True)
+    if not categories['points'] or not categories['gaa']:
+        raise ValueError('NHL leaders unavailable; existing file preserved')
     with open(leaders_file, 'w', encoding='utf-8') as f:
         json.dump({
             "compId": "NHL",
@@ -259,53 +242,41 @@ def sync_nhl_star_players(output_data_dir):
             elif pos in ['R', 'RW']: pos = 'RW'
             elif pos == 'D': pos = 'D'
             elif pos == 'G': pos = 'G'
-            else: pos = 'C'
+            elif pos != 'C':
+                print(f'  [Player] {p_id} has unknown position; skipping.')
+                continue
 
-            team_abbr = p_data.get('currentTeamAbbrev', 'EDM').lower()
+            team_abbr = p_data.get('currentTeamAbbrev', '').lower()
+            if not team_abbr:
+                print(f'  [Player] {p_id} has no current team; skipping.')
+                continue
+
+            featured = p_data.get('featuredStats', {})
+            season_stats = featured.get('regularSeason', {}).get('subSeason', {})
+            stats = []
+            if featured.get('season') == 20262027 and season_stats:
+                entry = {'season': '2026/27', 'compId': 'NHL', 'gp': season_stats.get('gamesPlayed', 0)}
+                for source, dest in [('goals', 'g'), ('assists', 'a'), ('points', 'pts'),
+                                     ('plusMinus', 'plusMinus'), ('pim', 'pim'), ('shots', 'shots')]:
+                    if source in season_stats:
+                        entry[dest] = season_stats[source]
+                stats.append(entry)
 
             player_obj = {
                 "id": f"nhl:p_{p_id}",
                 "name": f"{fn} {ln}",
                 "nameEn": f"{fn} {ln}",
                 "position": pos,
-                "shoots": p_data.get('shootsCatches', 'L'),
+                "shoots": p_data.get('shootsCatches'),
                 "birthDate": p_data.get('birthDate'),
-                "heightCm": p_data.get('heightInCentimeters', 185),
-                "weightKg": p_data.get('weightInKilograms', 88),
-                "nationality": p_data.get('birthCountry', 'CAN'),
-                "number": p_data.get('sweaterNumber', 97),
+                "heightCm": p_data.get('heightInCentimeters'),
+                "weightKg": p_data.get('weightInKilograms'),
+                "nationality": p_data.get('birthCountry'),
+                "number": p_data.get('sweaterNumber'),
                 "teamId": f"nhl:{team_abbr}",
                 "photo": p_data.get('headshot'),
-                "stats": [
-                    {
-                        "season": "2026/27",
-                        "compId": "NHL",
-                        "gp": p_data.get('featuredStats', {}).get('regularSeason', {}).get('subSeason', {}).get('gamesPlayed', 10),
-                        "g": p_data.get('featuredStats', {}).get('regularSeason', {}).get('subSeason', {}).get('goals', 5),
-                        "a": p_data.get('featuredStats', {}).get('regularSeason', {}).get('subSeason', {}).get('assists', 10),
-                        "pts": p_data.get('featuredStats', {}).get('regularSeason', {}).get('subSeason', {}).get('points', 15),
-                        "plusMinus": p_data.get('featuredStats', {}).get('regularSeason', {}).get('subSeason', {}).get('plusMinus', 4),
-                        "pim": p_data.get('featuredStats', {}).get('regularSeason', {}).get('subSeason', {}).get('pim', 2),
-                        "shots": p_data.get('featuredStats', {}).get('regularSeason', {}).get('subSeason', {}).get('shots', 35),
-                        "toi": "21:30",
-                        "gk": {
-                            "gaa": 2.15,
-                            "svPct": 0.925,
-                            "so": 2,
-                            "w": 8,
-                            "l": 3,
-                            "otl": 1
-                        } if pos == 'G' else None
-                    }
-                ],
-                "career": [
-                    {
-                        "teamId": f"nhl:{team_abbr}",
-                        "teamName": p_data.get('fullTeamName', {}).get('default', team_abbr.upper()),
-                        "from": "2015",
-                        "to": "2027"
-                    }
-                ]
+                "stats": stats,
+                "career": []
             }
 
             p_file = os.path.join(players_dir, f"nhl:p_{p_id}.json")
@@ -360,92 +331,35 @@ def sync_nhl_schedule(output_data_dir):
                 else:
                     finished_in = 'REG'
 
-            # Realistic period score distribution that matches total score
-            home_periods = []
-            away_periods = []
-            if status == 'FINISHED' and home_score is not None and away_score is not None:
-                # Distribute goals across 3 periods
-                p1_h = min(home_score, 1)
-                p2_h = min(home_score - p1_h, 1)
-                p3_h = home_score - p1_h - p2_h
-                home_periods = [p1_h, p2_h, p3_h]
-
-                p1_a = min(away_score, 1)
-                p2_a = min(away_score - p1_a, 1)
-                p3_a = away_score - p1_a - p2_a
-                away_periods = [p1_a, p2_a, p3_a]
-
-                if finished_in in ['OT', 'SO']:
-                    home_periods.append(1 if home_score > away_score else 0)
-                    away_periods.append(1 if away_score > home_score else 0)
-
             match_obj = {
                 "id": game_id,
                 "compId": "NHL",
                 "season": "2026/27",
-                "stage": "regular",
+                "stage": {1: 'preseason', 2: 'regular', 3: 'playoff'}.get(g.get('gameType'), 'regular'),
                 "round": None,
                 "seriesGame": None,
-                "utcDate": g.get('startTimeUTC', f"{date_str}T19:00:00Z"),
+                "utcDate": g['startTimeUTC'],
                 "status": status,
                 "period": period_desc.get('number', 1) if status in ['LIVE', 'FINISHED'] else None,
-                "clock": "20:00" if status == 'FINISHED' else "14:20",
+                "clock": None,
                 "finishedIn": finished_in,
                 "home": {
                     "id": f"nhl:{home_abbr}",
                     "score": home_score,
-                    "periods": home_periods,
-                    "shots": g.get('homeTeam', {}).get('sog', 30)
+                    "periods": [],
+                    "shots": g.get('homeTeam', {}).get('sog')
                 },
                 "away": {
                     "id": f"nhl:{away_abbr}",
                     "score": away_score,
-                    "periods": away_periods,
-                    "shots": g.get('awayTeam', {}).get('sog', 28)
+                    "periods": [],
+                    "shots": g.get('awayTeam', {}).get('sog')
                 },
-                "arena": g.get('venue', {}).get('default', f"{home_abbr.upper()} Arena"),
-                "officials": {
-                    "referees": ["Chris Rooney", "Kelly Sutherland"],
-                    "linesmen": ["Matt MacPherson", "Ryan Daisy"]
-                },
-                "events": [
-                    {
-                        "period": 1,
-                        "time": "08:14",
-                        "type": "GOAL",
-                        "team": "home",
-                        "playerId": f"nhl:p_{home_abbr}_1",
-                        "playerName": f"Игрок ({home_abbr.upper()})",
-                        "assists": [],
-                        "strength": "EV",
-                        "score": "1:0"
-                    }
-                ] if status == 'FINISHED' and home_score and home_score > 0 else [],
-                "lineups": {
-                    "home": {
-                        "goalies": [{"playerId": f"nhl:g_{home_abbr}", "name": "Вратарь 1", "number": 31}],
-                        "lines": [
-                            {"LW": f"nhl:f1_{home_abbr}", "LW_name": "Нападающий 1", "C": f"nhl:c1_{home_abbr}", "C_name": "Центр 1", "RW": f"nhl:f2_{home_abbr}", "RW_name": "Нападающий 2", "LD": f"nhl:d1_{home_abbr}", "LD_name": "Защитник 1", "RD": f"nhl:d2_{home_abbr}", "RD_name": "Защитник 2"}
-                        ]
-                    },
-                    "away": {
-                        "goalies": [{"playerId": f"nhl:g_{away_abbr}", "name": "Вратарь 1", "number": 35}],
-                        "lines": [
-                            {"LW": f"nhl:f1_{away_abbr}", "LW_name": "Нападающий 1", "C": f"nhl:c1_{away_abbr}", "C_name": "Центр 1", "RW": f"nhl:f2_{away_abbr}", "RW_name": "Нападающий 2", "LD": f"nhl:d1_{away_abbr}", "LD_name": "Защитник 1", "RD": f"nhl:d2_{away_abbr}", "RD_name": "Защитник 2"}
-                        ]
-                    }
-                },
-                "stats": {
-                    "shots": [g.get('homeTeam', {}).get('sog', 32), g.get('awayTeam', {}).get('sog', 29)],
-                    "shotsOnGoal": [g.get('homeTeam', {}).get('sog', 30), g.get('awayTeam', {}).get('sog', 28)],
-                    "hits": [22, 19],
-                    "blocks": [14, 11],
-                    "faceoffPct": [53.5, 46.5],
-                    "pim": [6, 8],
-                    "powerPlay": ["1/3", "0/2"],
-                    "takeaways": [6, 4],
-                    "giveaways": [5, 7]
-                },
+                "arena": g.get('venue', {}).get('default'),
+                "officials": {"referees": [], "linesmen": []},
+                "events": [],
+                "lineups": None,
+                "stats": None,
                 "h2h": []
             }
 
@@ -480,3 +394,10 @@ if __name__ == '__main__':
     sync_nhl_schedule(data_dir)
     sync_nhl_leaders(data_dir)
     sync_nhl_star_players(data_dir)
+    # A published snapshot is fresh only after the mandatory NHL feeds succeed.
+    meta_file = os.path.join(data_dir, 'meta.json')
+    with open(meta_file, 'r', encoding='utf-8') as f:
+        meta = json.load(f)
+    meta['updatedAt'] = datetime.now(timezone.utc).isoformat()
+    with open(meta_file, 'w', encoding='utf-8') as f:
+        json.dump(meta, f, ensure_ascii=False, indent=2)

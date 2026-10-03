@@ -2,14 +2,19 @@
  * Hockey365 Custom Element: <site-header>
  */
 
-import { CONFIG, getAssetUrl } from '../core/config.js';
+import { CONFIG } from '../core/config.js';
 import { buildLink } from '../core/router.js';
 import { store } from '../core/store.js';
-import { el, qs } from '../core/dom.js';
+import { el } from '../core/dom.js';
 
 export class SiteHeader extends HTMLElement {
   connectedCallback() {
+    this.unsubscribe = store.subscribe(() => this.render());
     this.render();
+  }
+
+  disconnectedCallback() {
+    this.unsubscribe?.();
   }
 
   render() {
@@ -26,8 +31,9 @@ export class SiteHeader extends HTMLElement {
       { name: 'Настройки', path: '/settings/' }
     ];
 
-    const currentTheme = store.getTheme();
-    const isDark = currentTheme === 'dark';
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    const timezoneLabel = store.getTimezone() === 'local' ? 'Местное время' : store.getTimezone() === 'UTC' ? 'UTC' : 'МСК (UTC+3)';
+    const isHome = currentPath === base || currentPath === base + '/' || currentPath === base + '/index.html';
 
     const header = el('header', { className: 'site-header' },
       el('div', { className: 'app-container' },
@@ -44,20 +50,21 @@ export class SiteHeader extends HTMLElement {
           ),
 
           // Search bar
-          el('div', { className: 'header-search' },
-            el('svg', { className: 'search-icon-svg', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2' },
-              el('circle', { cx: '11', cy: '11', r: '8' }),
-              el('line', { x1: '21', y1: '21', x2: '16.65', y2: '16.65' })
+          el('form', { className: 'header-search', role: 'search', onsubmit: (e) => {
+            e.preventDefault();
+            const query = e.currentTarget.querySelector('input').value.trim();
+            window.location.href = buildLink('/search/', query ? { q: query } : {});
+          } },
+            el('button', { type: 'submit', 'aria-label': 'Искать', title: 'Искать', style: { position: 'absolute', left: '10px', top: '50%', transform: 'translateY(-50%)', padding: '0', display: 'flex', color: 'var(--color-text-muted)' } },
+              el('svg', { width: '17', height: '17', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2', 'aria-hidden': 'true' },
+                el('circle', { cx: '11', cy: '11', r: '8' }),
+                el('line', { x1: '21', y1: '21', x2: '16.65', y2: '16.65' })
+              )
             ),
             el('input', {
               type: 'search',
               placeholder: 'Поиск команд, игроков, лиг...',
-              'aria-label': 'Поиск по сайту',
-              onkeydown: (e) => {
-                if (e.key === 'Enter' && e.target.value.trim()) {
-                  window.location.href = buildLink('/search/', { q: e.target.value.trim() });
-                }
-              }
+              'aria-label': 'Поиск по сайту'
             })
           ),
 
@@ -82,7 +89,7 @@ export class SiteHeader extends HTMLElement {
                 el('circle', { cx: '12', cy: '12', r: '10' }),
                 el('polyline', { points: '12 6 12 12 16 14' })
               ),
-              el('span', {}, 'МСК (UTC+3)')
+              el('span', {}, timezoneLabel)
             ),
 
             // Mobile search icon button
@@ -106,7 +113,6 @@ export class SiteHeader extends HTMLElement {
               onClick: () => {
                 const nextTheme = store.getTheme() === 'dark' ? 'light' : 'dark';
                 store.setTheme(nextTheme);
-                this.render();
               }
             },
               isDark
@@ -134,14 +140,14 @@ export class SiteHeader extends HTMLElement {
         el('div', { className: 'app-container' },
           el('ul', { className: 'nav-list' },
             navLinks.map(link => {
-              const fullPath = (base + link.path).replace(/\/+/g, '/');
-              const isActive = (link.path === '/' && (currentPath === base || currentPath === base + '/' || currentPath === base + '/index.html')) ||
+              const isActive = (link.path === '/' && isHome) ||
                                (link.path !== '/' && currentPath.includes(link.path));
 
               return el('li', { className: 'nav-item' },
                 el('a', {
                   href: buildLink(link.path),
-                  className: isActive ? 'active' : ''
+                  className: isActive ? 'active' : '',
+                  ...(isActive ? { 'aria-current': 'page' } : {})
                 }, link.name)
               );
             })
@@ -152,7 +158,7 @@ export class SiteHeader extends HTMLElement {
 
     // Mobile Bottom Navigation Bar (Stitch app pattern)
     const mobileBottomNav = el('nav', { className: 'mobile-bottom-nav', 'aria-label': 'Мобильная навигация' },
-      el('a', { href: buildLink('/'), className: `mob-nav-item ${(currentPath === base || currentPath === base + '/' || currentPath.endsWith('index.html')) ? 'active' : ''}` },
+      el('a', { href: buildLink('/'), className: `mob-nav-item ${isHome ? 'active' : ''}`, ...(isHome ? { 'aria-current': 'page' } : {}) },
         el('svg', { viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2' },
           el('path', { d: 'M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z' }),
           el('polyline', { points: '9 22 9 12 15 12 15 22' })
@@ -165,9 +171,9 @@ export class SiteHeader extends HTMLElement {
             el('circle', { cx: '12', cy: '12', r: '10' }),
             el('polygon', { points: '10 8 16 12 10 16 10 8' })
           ),
-          el('span', { className: 'mob-live-dot' })
+          el('span', { className: 'mob-live-dot', 'aria-hidden': 'true' })
         ),
-        el('span', {}, 'Live')
+        el('span', {}, 'Матчи')
       ),
       el('a', { href: buildLink('/competitions/'), className: `mob-nav-item ${currentPath.includes('/competition') ? 'active' : ''}` },
         el('svg', { viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2' },

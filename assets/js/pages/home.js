@@ -3,8 +3,8 @@
  */
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
-import { getMatchesByDate, getCompetitions, getNews, getStandings, startLivePolling, getMeta, getMatch } from '../core/api.js';
-import { getTodayISODate } from '../core/format.js';
+import { getMatchesByDate, getCompetitions, getNews, getStandings, getMeta, getMatch } from '../core/api.js';
+import { getTodayISODate, formatDate } from '../core/format.js';
 import { getParam, setParam, buildLink } from '../core/router.js';
 import { createDatepicker } from '../components/datepicker.js';
 import { createMatchRow, KNOWN_TEAMS } from '../components/match-row.js';
@@ -12,7 +12,7 @@ import { getAssetUrl } from '../core/config.js';
 
 let activeDate = getParam('date');
 let activeFilter = 'all'; // 'all', 'live', 'KHL', 'NHL'
-let stopPolling = null;
+let requestNumber = 0;
 
 let cachedCompetitions = [];
 let cachedTeamsMap = { ...KNOWN_TEAMS };
@@ -35,10 +35,10 @@ export async function initHomePage() {
     console.error('Failed to load initial data:', e);
   }
 
-  const availableDates = cachedMeta?.availableDates || [
-    '2026-10-03', '2026-10-04', '2026-10-05', '2026-10-06', '2026-10-07', '2026-10-08', '2026-10-09'
-  ];
-  const defaultDate = cachedMeta?.activeDate || availableDates[0] || '2026-10-03';
+  const availableDates = cachedMeta?.availableDates || [];
+  const defaultDate = cachedMeta?.activeDate || availableDates[0] || getTodayISODate();
+  const notice = qs('#snapshot-notice');
+  if (notice && cachedMeta?.updatedAt) notice.textContent = `Срез данных: ${formatDate(cachedMeta.updatedAt, 'full')}. Матчи не обновляются в реальном времени. КХЛ скрыта до подключения проверенного источника.`;
 
   // Smart date fallback: if no query param, check if today is in available dates, otherwise use current game day
   if (!activeDate) {
@@ -57,6 +57,11 @@ export async function initHomePage() {
     }));
   }
   updateDateRibbon();
+  window.addEventListener('popstate', () => {
+    activeDate = getParam('date') || defaultDate;
+    updateDateRibbon();
+    loadMatchesForDate();
+  });
 
   // Setup Filter Buttons
   const filterBtns = qs('#filter-pills');
@@ -64,8 +69,9 @@ export async function initHomePage() {
     filterBtns.addEventListener('click', (e) => {
       const btn = e.target.closest('.tab-btn');
       if (!btn) return;
-      filterBtns.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      filterBtns.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
       btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
       activeFilter = btn.dataset.filter;
       renderCurrentMatches();
     });
@@ -85,9 +91,10 @@ export async function initHomePage() {
 
     if (filtered.length === 0) {
       if (activeFilter === 'live') {
-        renderEmpty(matchesContainer, 'Сейчас нет матчей в режиме LIVE. Выберите «Все матчи» или другую дату.');
+        renderEmpty(matchesContainer, 'В сохранённом срезе нет матчей со статусом «в игре». Выберите другой фильтр или дату.');
       } else {
-        renderDateEmptyState(activeDate);
+        if (activeFilter === 'all') renderDateEmptyState(activeDate);
+        else renderEmpty(matchesContainer, 'Матчей по выбранному фильтру на эту дату нет.');
       }
       return;
     }
@@ -145,25 +152,26 @@ export async function initHomePage() {
   function loadMatchesForDate() {
     renderLoading(matchesContainer, 4);
 
-    if (stopPolling) stopPolling();
-
-    stopPolling = startLivePolling(activeDate, (err, matches) => {
-      if (err) {
-        renderDateEmptyState(activeDate);
-        if (highlightBannerContainer) highlightBannerContainer.innerHTML = '';
-        return;
-      }
+    const request = ++requestNumber;
+    getMatchesByDate(activeDate).then(matches => {
+      if (request !== requestNumber) return;
       latestMatches = matches || [];
       renderHighlightBanner(highlightBannerContainer, latestMatches);
       renderCurrentMatches();
 
       // Find suitable match for Daily Stats widget (e.g. CKA vs Lokomotiv or first finished)
-      const statsCandidate = latestMatches.find(m => m.id === 'khl:20261003-ska-lok') ||
-                             latestMatches.find(m => m.status === 'FINISHED') ||
-                             latestMatches[0];
+      const statsCandidate = latestMatches.find(m => m.status === 'FINISHED' && m.stats) || latestMatches.find(m => m.stats);
       if (statsCandidate) {
         loadSidebarStats(sidebarStatsContainer, statsCandidate.id);
+      } else {
+        const card = qs('#sidebar-stats-card');
+        if (card) card.style.display = 'none';
       }
+    }).catch(() => {
+      if (request !== requestNumber) return;
+      latestMatches = [];
+      if (highlightBannerContainer) highlightBannerContainer.replaceChildren();
+      renderError(matchesContainer, 'Не удалось загрузить матчи выбранной даты', loadMatchesForDate);
     });
   }
 
@@ -199,12 +207,12 @@ function renderHighlightBanner(container, matches) {
   let badgeText = 'МАТЧ ДНЯ';
   let badgeClass = 'badge-live';
   let statusDetail = '';
-  let actionLabel = 'Смотреть протокол и видео шайб →';
+  let actionLabel = 'Открыть протокол матча →';
 
   if (highlight.status === 'LIVE' || highlight.status === 'INTERMISSION') {
-    badgeText = '🔴 LIVE МАТЧ ДНЯ';
+    badgeText = 'В ИГРЕ НА МОМЕНТ СРЕЗА';
     statusDetail = `${highlight.period}-й период (${highlight.clock || ''})`;
-    actionLabel = 'Смотреть онлайн прямой эфир →';
+    actionLabel = 'Открыть протокол матча →';
   } else if (highlight.status === 'FINISHED') {
     badgeText = highlight.finishedIn ? `МАТЧ ДНЯ (${highlight.finishedIn})` : 'МАТЧ ДНЯ ЗАВЕРШЕН';
     badgeClass = 'badge-finished';
@@ -212,7 +220,7 @@ function renderHighlightBanner(container, matches) {
   } else {
     badgeText = 'ГЛАВНЫЙ МАТЧ ДНЯ';
     badgeClass = 'badge-scheduled';
-    statusDetail = `Начало в ${highlight.clock || '20:00'}`;
+    statusDetail = `Начало в ${formatDate(highlight.utcDate, 'time')}`;
     actionLabel = 'Превью встречи →';
   }
 
@@ -220,26 +228,16 @@ function renderHighlightBanner(container, matches) {
     ? 'vs'
     : `${highlight.home.score} : ${highlight.away.score}${highlight.finishedIn ? ' ' + highlight.finishedIn : ''}`;
 
-  container.innerHTML = `
-    <div class="highlight-banner">
-      <div class="flex flex-col md:flex-row md:items-center justify-between gap-12" style="position: relative; z-index: 2;">
-        <div class="flex items-center gap-12 flex-wrap">
-          <span class="badge ${badgeClass}" style="font-size: 11px; padding: 4px 10px; font-weight: 700; letter-spacing: 0.04em;">
-            ${badgeText}
-          </span>
-          <div style="font-family: var(--font-headline); font-size: 16px; font-weight: 700; color: var(--text-primary);">
-            ${homeInfo.name} <span style="color: var(--primary-container); font-family: var(--font-tabular); margin: 0 4px;">${scoreText}</span> ${awayInfo.name}
-          </div>
-          <span class="text-xs text-muted">(${statusDetail})</span>
-        </div>
-        <div class="flex items-center gap-8">
-          <a href="${buildLink('/match/', { id: highlight.id })}" class="link-accent text-sm" style="display: inline-flex; align-items: center; gap: 4px; font-weight: 600;">
-            ${actionLabel}
-          </a>
-        </div>
-      </div>
-    </div>
-  `;
+  container.replaceChildren(el('div', { className: 'highlight-banner' },
+    el('div', { className: 'flex flex-col md:flex-row md:items-center justify-between gap-12', style: { position: 'relative', zIndex: '2' } },
+      el('div', { className: 'flex items-center gap-12 flex-wrap' },
+        el('span', { className: `badge ${badgeClass}` }, badgeText),
+        el('strong', {}, homeInfo.name, ` ${scoreText} `, awayInfo.name),
+        el('span', { className: 'text-xs text-muted' }, `(${statusDetail})`)
+      ),
+      el('a', { href: buildLink('/match/', { id: highlight.id }), className: 'link-accent text-sm' }, actionLabel)
+    )
+  ));
 }
 
 async function loadSidebarStats(container, matchId) {
@@ -249,7 +247,7 @@ async function loadSidebarStats(container, matchId) {
 
   try {
     const match = await getMatch(matchId);
-    if (!match || !match.stats) {
+    if (!match || !match.stats || !Array.isArray(match.stats.shotsOnGoal)) {
       if (card) card.style.display = 'none';
       return;
     }
@@ -264,65 +262,35 @@ async function loadSidebarStats(container, matchId) {
     }
 
     const s = match.stats;
-    const homeSog = s.sog?.[0] || 0;
-    const awaySog = s.sog?.[1] || 0;
+    const homeSog = s.shotsOnGoal[0];
+    const awaySog = s.shotsOnGoal[1];
     const totalSog = homeSog + awaySog || 1;
     const homeSogPct = Math.round((homeSog / totalSog) * 100);
     const awaySogPct = 100 - homeSogPct;
 
-    const homeFo = s.faceoffPct?.[0] ?? 50;
-    const awayFo = s.faceoffPct?.[1] ?? 50;
+    const homeFo = s.faceoffPct?.[0];
+    const awayFo = s.faceoffPct?.[1];
 
-    const homePP = s.powerPlay?.[0] || '-';
-    const awayPP = s.powerPlay?.[1] || '-';
+    const homePP = s.powerPlay?.[0] ?? '-';
+    const awayPP = s.powerPlay?.[1] ?? '-';
 
-    container.innerHTML = `
-      <div class="flex flex-col gap-16">
-        <!-- Stat 1: SOG -->
-        <div>
-          <div class="flex justify-between text-xs text-muted" style="margin-bottom: 4px; font-weight: 600;">
-            <span class="text-primary text-bold" style="font-family: var(--font-tabular);">${homeSog}</span>
-            <span>Броски в створ</span>
-            <span class="text-primary text-bold" style="font-family: var(--font-tabular);">${awaySog}</span>
-          </div>
-          <div class="stat-bar-track">
-            <div class="stat-bar-fill-home" style="width: ${homeSogPct}%;"></div>
-            <div class="stat-bar-fill-away" style="width: ${awaySogPct}%;"></div>
-          </div>
-        </div>
-
-        <!-- Stat 2: Faceoffs -->
-        <div>
-          <div class="flex justify-between text-xs text-muted" style="margin-bottom: 4px; font-weight: 600;">
-            <span class="text-primary text-bold" style="font-family: var(--font-tabular);">${homeFo}%</span>
-            <span>Вбрасывания</span>
-            <span class="text-primary text-bold" style="font-family: var(--font-tabular);">${awayFo}%</span>
-          </div>
-          <div class="stat-bar-track">
-            <div class="stat-bar-fill-home" style="width: ${homeFo}%;"></div>
-            <div class="stat-bar-fill-away" style="width: ${awayFo}%;"></div>
-          </div>
-        </div>
-
-        <!-- Stat 3: Powerplay -->
-        <div>
-          <div class="flex justify-between text-xs text-muted" style="margin-bottom: 4px; font-weight: 600;">
-            <span class="text-primary text-bold" style="font-family: var(--font-tabular);">${homePP}</span>
-            <span>Реализация большинства</span>
-            <span class="text-primary text-bold" style="font-family: var(--font-tabular);">${awayPP}</span>
-          </div>
-          <div class="stat-bar-track">
-            <div class="stat-bar-fill-home" style="width: 55%;"></div>
-            <div class="stat-bar-fill-away" style="width: 45%;"></div>
-          </div>
-        </div>
-
-        <!-- Full Report Link -->
-        <a href="${buildLink('/match/', { id: match.id, tab: 'stats' })}" class="btn-primary" style="display: block; width: 100%; text-align: center; font-size: 12px; font-weight: 600; text-decoration: none; padding: 8px 12px;">
-          Полный статистический отчёт →
-        </a>
-      </div>
-    `;
+    const statRow = (label, home, away, homeWidth, awayWidth) => el('div', {},
+      el('div', { className: 'flex justify-between text-xs text-muted' },
+        el('span', { className: 'text-primary text-bold' }, home),
+        el('span', {}, label),
+        el('span', { className: 'text-primary text-bold' }, away)
+      ),
+      homeWidth == null ? null : el('div', { className: 'stat-bar-track' },
+        el('div', { className: 'stat-bar-fill-home', style: { width: `${homeWidth}%` } }),
+        el('div', { className: 'stat-bar-fill-away', style: { width: `${awayWidth}%` } })
+      )
+    );
+    container.replaceChildren(el('div', { className: 'flex flex-col gap-16' },
+      statRow('Броски в створ', homeSog, awaySog, homeSogPct, awaySogPct),
+      homeFo != null && awayFo != null ? statRow('Вбрасывания', `${homeFo}%`, `${awayFo}%`, homeFo, awayFo) : null,
+      homePP !== '-' || awayPP !== '-' ? statRow('Реализация большинства', homePP, awayPP) : null,
+      el('a', { href: buildLink('/match/', { id: match.id, tab: 'stats' }), className: 'btn-primary text-xs' }, 'Полный статистический отчёт →')
+    ));
   } catch (err) {
     if (card) card.style.display = 'none';
   }
@@ -334,6 +302,10 @@ async function loadSidebarNews(container) {
     const data = await getNews();
     container.innerHTML = '';
     const items = (data.news || []).slice(0, 5);
+    if (!items.length) {
+      container.appendChild(el('p', { className: 'text-xs text-muted' }, 'Подтверждённых новостей пока нет.'));
+      return;
+    }
     for (const n of items) {
       const item = el('div', { className: 'news-item' },
         el('div', { className: 'news-info' },

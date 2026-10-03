@@ -23,6 +23,11 @@ export async function initSearchPage() {
   }
 
   const initialQuery = getParam('q') || '';
+  window.addEventListener('popstate', () => {
+    const query = getParam('q') || '';
+    if (input) input.value = query;
+    executeSearch(query);
+  });
   if (input) {
     input.value = initialQuery;
     input.focus();
@@ -75,7 +80,7 @@ export async function initSearchPage() {
                 src: getAssetUrl(m.logo),
                 alt: m.title,
                 className: 'team-logo-small',
-                onerror: (e) => { e.target.src = defaultLogo; }
+                onerror: (e) => { if (e.target.src !== defaultLogo) e.target.src = defaultLogo; }
               }) : null,
               el('div', {},
                 el('a', { href: buildLink(m.url), className: 'text-base text-bold link-accent' }, m.title),
