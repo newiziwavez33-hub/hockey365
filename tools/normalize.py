@@ -12,12 +12,27 @@ from datetime import datetime, timezone
 def normalize_all(data_dir):
     print("Normalizing Hockey365 data...")
 
-    # 1. Update meta.json timestamp
+    # 1. Update meta.json timestamp and available dates
     meta_path = os.path.join(data_dir, 'meta.json')
+    by_date_files = glob.glob(os.path.join(data_dir, 'matches', 'by-date', '*.json'))
+    available_dates = sorted([os.path.basename(f).replace('.json', '') for f in by_date_files])
+    date_counts = {}
+    for f in by_date_files:
+        d_name = os.path.basename(f).replace('.json', '')
+        try:
+            with open(f, 'r', encoding='utf-8') as bdf:
+                games = json.load(bdf)
+                date_counts[d_name] = len(games) if isinstance(games, list) else 0
+        except Exception:
+            pass
+
     if os.path.exists(meta_path):
         with open(meta_path, 'r', encoding='utf-8') as f:
             meta = json.load(f)
         meta['updatedAt'] = datetime.now(timezone.utc).isoformat()
+        meta['availableDates'] = available_dates
+        meta['activeDate'] = available_dates[0] if available_dates else '2026-10-03'
+        meta['dateCounts'] = date_counts
         with open(meta_path, 'w', encoding='utf-8') as f:
             json.dump(meta, f, ensure_ascii=False, indent=2)
 

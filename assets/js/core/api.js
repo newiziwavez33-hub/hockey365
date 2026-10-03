@@ -42,6 +42,10 @@ export async function fetchJSON(url, useCache = true) {
   }
 }
 
+export async function getMeta() {
+  return fetchJSON(getDataUrl('meta.json'));
+}
+
 export async function getCompetitions() {
   return fetchJSON(getDataUrl('competitions.json'));
 }

@@ -3,7 +3,7 @@
  */
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
-import { getMatchesByDate, getCompetitions, startLivePolling } from '../core/api.js';
+import { getMatchesByDate, getCompetitions, startLivePolling, getMeta } from '../core/api.js';
 import { getTodayISODate } from '../core/format.js';
 import { createMatchRow } from '../components/match-row.js';
 import { buildLink } from '../core/router.js';
@@ -98,11 +98,21 @@ export async function initOnlinePage() {
     }
   }
 
-  function startPolling() {
+  async function startPolling() {
     renderLoading(container, 4);
-    const today = getTodayISODate();
+    
+    let targetDate = '2026-10-03';
+    try {
+      const meta = await getMeta();
+      const today = getTodayISODate();
+      if (meta?.availableDates?.includes(today)) {
+        targetDate = today;
+      } else if (meta?.activeDate) {
+        targetDate = meta.activeDate;
+      }
+    } catch (e) {}
 
-    stopPolling = startLivePolling(today, (err, matches) => {
+    stopPolling = startLivePolling(targetDate, (err, matches) => {
       lastUpdatedTime = new Date();
       if (err) {
         renderError(container, 'Не удалось получить данные онлайн-матчей', () => startPolling());

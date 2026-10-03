@@ -3,7 +3,7 @@
  */
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
-import { getCompetitions, getStandings, getPlayoffs, getLeaders, getMatchesByDate } from '../core/api.js';
+import { getCompetitions, getStandings, getPlayoffs, getLeaders, getMatchesByDate, getMeta } from '../core/api.js';
 import { getParam, setParam, buildLink } from '../core/router.js';
 import { createStandingsTable } from '../components/standings-table.js';
 import { createPlayoffBracket } from '../components/playoff-bracket.js';
@@ -108,15 +108,28 @@ export async function initCompetitionPage() {
         }
       } else if (activeTab === 'calendar') {
         contentSlot.innerHTML = '';
-        // Load today's matches as preview
-        const matches = await getMatchesByDate(getTodayISODate());
+        let targetDate = getTodayISODate();
+        try {
+          const meta = await getMeta();
+          if (meta?.activeDate && !meta?.availableDates?.includes(targetDate)) {
+            targetDate = meta.activeDate;
+          }
+        } catch (e) {}
+
+        let matches = [];
+        try {
+          matches = await getMatchesByDate(targetDate);
+        } catch (e) {
+          try { matches = await getMatchesByDate('2026-10-03'); } catch (err2) {}
+        }
+
         const compMatches = (matches || []).filter(m => m.compId === compId);
         if (compMatches.length === 0) {
           renderEmpty(contentSlot, 'Матчи на сегодня завершены или не запланированы.');
         } else {
           const list = el('div', { className: 'card' },
             el('div', { className: 'card-header' },
-              el('h3', { className: 'card-title' }, `Матчи дня (${compInfo.name})`)
+              el('h3', { className: 'card-title' }, `Матчи игрового дня (${compInfo.name})`)
             ),
             el('div', { className: 'comp-matches-list' },
               compMatches.map(m => createMatchRow(m))

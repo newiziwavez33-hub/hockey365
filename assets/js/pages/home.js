@@ -3,19 +3,20 @@
  */
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
-import { getMatchesByDate, getCompetitions, getNews, getStandings, startLivePolling } from '../core/api.js';
+import { getMatchesByDate, getCompetitions, getNews, getStandings, startLivePolling, getMeta } from '../core/api.js';
 import { getTodayISODate } from '../core/format.js';
 import { getParam, setParam, buildLink } from '../core/router.js';
 import { createDatepicker } from '../components/datepicker.js';
 import { createMatchRow } from '../components/match-row.js';
 import { getAssetUrl } from '../core/config.js';
 
-let activeDate = getParam('date') || getTodayISODate();
+let activeDate = getParam('date');
 let activeFilter = 'all'; // 'all', 'live', 'KHL', 'NHL'
 let stopPolling = null;
 
 let cachedCompetitions = [];
 let cachedTeamsMap = {};
+let cachedMeta = null;
 
 export async function initHomePage() {
   const datepickerContainer = qs('#datepicker-slot');
@@ -23,11 +24,24 @@ export async function initHomePage() {
   const sidebarNewsContainer = qs('#sidebar-news-slot');
   const sidebarStandingsContainer = qs('#sidebar-standings-slot');
 
-  // Load competitions and teams
+  // Load meta, competitions and teams
   try {
-    cachedCompetitions = await getCompetitions();
+    const [metaRes, compRes] = await Promise.allSettled([getMeta(), getCompetitions()]);
+    if (metaRes.status === 'fulfilled') cachedMeta = metaRes.value;
+    if (compRes.status === 'fulfilled') cachedCompetitions = compRes.value;
   } catch (e) {
-    console.error('Failed to load competitions:', e);
+    console.error('Failed to load initial data:', e);
+  }
+
+  const availableDates = cachedMeta?.availableDates || [
+    '2026-10-03', '2026-10-04', '2026-10-05', '2026-10-06', '2026-10-07', '2026-10-08', '2026-10-09'
+  ];
+  const defaultDate = cachedMeta?.activeDate || availableDates[0] || '2026-10-03';
+
+  // Smart date fallback: if no query param, check if today is in available dates, otherwise use current game day
+  if (!activeDate) {
+    const today = getTodayISODate();
+    activeDate = availableDates.includes(today) ? today : defaultDate;
   }
 
   // Render Datepicker Ribbon
@@ -68,10 +82,11 @@ export async function initHomePage() {
     }
 
     if (filtered.length === 0) {
-      const msg = activeFilter === 'live'
-        ? 'Сейчас нет матчей в режиме LIVE. Выберите другую дату или покажите все матчи.'
-        : `На ${activeDate} матчи не найдены.`;
-      renderEmpty(matchesContainer, msg);
+      if (activeFilter === 'live') {
+        renderEmpty(matchesContainer, 'Сейчас нет матчей в режиме LIVE. Выберите «Все матчи» или другую дату.');
+      } else {
+        renderDateEmptyState(activeDate);
+      }
       return;
     }
 
@@ -101,6 +116,30 @@ export async function initHomePage() {
     }
   }
 
+  function renderDateEmptyState(date) {
+    matchesContainer.innerHTML = '';
+    const dateCounts = cachedMeta?.dateCounts || {};
+    const card = el('div', { className: 'card text-center', style: { padding: 'var(--space-24)' } },
+      el('div', { className: 'text-lg text-bold', style: { marginBottom: 'var(--space-8)' } }, `На дату ${date} матчи не запланированы`),
+      el('p', { className: 'text-sm text-muted', style: { marginBottom: 'var(--space-16)' } }, 'Выберите игровой день с доступными матчами:'),
+      el('div', { className: 'flex flex-wrap gap-8 justify-center' },
+        availableDates.map(d => {
+          const count = dateCounts[d] ? ` (${dateCounts[d]} игр)` : '';
+          return el('button', {
+            className: `btn-primary ${d === activeDate ? 'active' : ''}`,
+            onClick: () => {
+              activeDate = d;
+              setParam('date', activeDate, true);
+              updateDateRibbon();
+              loadMatchesForDate();
+            }
+          }, `${d}${count}`);
+        })
+      )
+    );
+    matchesContainer.appendChild(card);
+  }
+
   function loadMatchesForDate() {
     renderLoading(matchesContainer, 4);
 
@@ -108,7 +147,7 @@ export async function initHomePage() {
 
     stopPolling = startLivePolling(activeDate, (err, matches) => {
       if (err) {
-        renderError(matchesContainer, 'Матчи на эту дату не найдены', () => loadMatchesForDate());
+        renderDateEmptyState(activeDate);
         return;
       }
       latestMatches = matches || [];
