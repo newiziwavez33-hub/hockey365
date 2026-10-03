@@ -63,6 +63,28 @@ export class SiteHeader extends HTMLElement {
 
           // Header Actions
           el('div', { className: 'header-actions' },
+            // Timezone badge
+            el('div', {
+              className: 'tz-badge',
+              style: {
+                display: 'flex',
+                alignItems: 'center',
+                gap: '4px',
+                padding: '4px 8px',
+                borderRadius: '6px',
+                background: 'var(--surface-elevated)',
+                fontSize: '11px',
+                fontWeight: '600',
+                color: 'var(--text-secondary)'
+              }
+            },
+              el('svg', { width: '13', height: '13', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2' },
+                el('circle', { cx: '12', cy: '12', r: '10' }),
+                el('polyline', { points: '12 6 12 12 16 14' })
+              ),
+              el('span', {}, 'МСК (UTC+3)')
+            ),
+
             // Mobile search icon button
             el('a', {
               href: buildLink('/search/'),
@@ -128,8 +150,48 @@ export class SiteHeader extends HTMLElement {
       )
     );
 
+    // Mobile Bottom Navigation Bar (Stitch app pattern)
+    const mobileBottomNav = el('nav', { className: 'mobile-bottom-nav', 'aria-label': 'Мобильная навигация' },
+      el('a', { href: buildLink('/'), className: `mob-nav-item ${(currentPath === base || currentPath === base + '/' || currentPath.endsWith('index.html')) ? 'active' : ''}` },
+        el('svg', { viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2' },
+          el('path', { d: 'M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z' }),
+          el('polyline', { points: '9 22 9 12 15 12 15 22' })
+        ),
+        el('span', {}, 'Главная')
+      ),
+      el('a', { href: buildLink('/online/'), className: `mob-nav-item ${currentPath.includes('/online/') ? 'active' : ''}` },
+        el('div', { className: 'mob-live-badge' },
+          el('svg', { viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2' },
+            el('circle', { cx: '12', cy: '12', r: '10' }),
+            el('polygon', { points: '10 8 16 12 10 16 10 8' })
+          ),
+          el('span', { className: 'mob-live-dot' })
+        ),
+        el('span', {}, 'Live')
+      ),
+      el('a', { href: buildLink('/competitions/'), className: `mob-nav-item ${currentPath.includes('/competition') ? 'active' : ''}` },
+        el('svg', { viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2' },
+          el('polygon', { points: '12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2' })
+        ),
+        el('span', {}, 'Турниры')
+      ),
+      el('a', { href: buildLink('/news/'), className: `mob-nav-item ${currentPath.includes('/news/') ? 'active' : ''}` },
+        el('svg', { viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2' },
+          el('path', { d: 'M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V7m2 13a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2' })
+        ),
+        el('span', {}, 'Новости')
+      ),
+      el('a', { href: buildLink('/favorites/'), className: `mob-nav-item ${currentPath.includes('/favorites/') ? 'active' : ''}` },
+        el('svg', { viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2' },
+          el('polygon', { points: '12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2' })
+        ),
+        el('span', {}, 'Избранное')
+      )
+    );
+
     this.innerHTML = '';
     this.appendChild(header);
+    this.appendChild(mobileBottomNav);
   }
 }
 

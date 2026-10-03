@@ -15,7 +15,7 @@ function computeBasePath() {
 
 export const CONFIG = {
   SITE_NAME: 'Hockey365',
-  VERSION: '1.0.0',
+  VERSION: '1.2.0',
   BASE_PATH: computeBasePath(),
   POLL_INTERVAL_LIVE_MS: 30000, // 30s polling for live matches
   DEFAULT_TIMEZONE: 'Europe/Moscow',

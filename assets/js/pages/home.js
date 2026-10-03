@@ -3,11 +3,11 @@
  */
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
-import { getMatchesByDate, getCompetitions, getNews, getStandings, startLivePolling, getMeta } from '../core/api.js';
+import { getMatchesByDate, getCompetitions, getNews, getStandings, startLivePolling, getMeta, getMatch } from '../core/api.js';
 import { getTodayISODate } from '../core/format.js';
 import { getParam, setParam, buildLink } from '../core/router.js';
 import { createDatepicker } from '../components/datepicker.js';
-import { createMatchRow } from '../components/match-row.js';
+import { createMatchRow, KNOWN_TEAMS } from '../components/match-row.js';
 import { getAssetUrl } from '../core/config.js';
 
 let activeDate = getParam('date');
@@ -15,12 +15,14 @@ let activeFilter = 'all'; // 'all', 'live', 'KHL', 'NHL'
 let stopPolling = null;
 
 let cachedCompetitions = [];
-let cachedTeamsMap = {};
+let cachedTeamsMap = { ...KNOWN_TEAMS };
 let cachedMeta = null;
 
 export async function initHomePage() {
   const datepickerContainer = qs('#datepicker-slot');
+  const highlightBannerContainer = qs('#highlight-banner-slot');
   const matchesContainer = qs('#matches-slot');
+  const sidebarStatsContainer = qs('#sidebar-stats-slot');
   const sidebarNewsContainer = qs('#sidebar-news-slot');
   const sidebarStandingsContainer = qs('#sidebar-standings-slot');
 
@@ -148,10 +150,20 @@ export async function initHomePage() {
     stopPolling = startLivePolling(activeDate, (err, matches) => {
       if (err) {
         renderDateEmptyState(activeDate);
+        if (highlightBannerContainer) highlightBannerContainer.innerHTML = '';
         return;
       }
       latestMatches = matches || [];
+      renderHighlightBanner(highlightBannerContainer, latestMatches);
       renderCurrentMatches();
+
+      // Find suitable match for Daily Stats widget (e.g. CKA vs Lokomotiv or first finished)
+      const statsCandidate = latestMatches.find(m => m.id === 'khl:20261003-ska-lok') ||
+                             latestMatches.find(m => m.status === 'FINISHED') ||
+                             latestMatches[0];
+      if (statsCandidate) {
+        loadSidebarStats(sidebarStatsContainer, statsCandidate.id);
+      }
     });
   }
 
@@ -160,6 +172,160 @@ export async function initHomePage() {
   // Load Sidebar Content
   loadSidebarNews(sidebarNewsContainer);
   loadSidebarStandings(sidebarStandingsContainer);
+}
+
+function renderHighlightBanner(container, matches) {
+  if (!container) return;
+  if (!matches || matches.length === 0) {
+    container.innerHTML = '';
+    return;
+  }
+
+  // Find candidate: 1) LIVE, 2) OT/SO thriller, 3) FINISHED with most goals, 4) first match
+  let highlight = matches.find(m => m.status === 'LIVE' || m.status === 'INTERMISSION');
+  if (!highlight) {
+    highlight = matches.find(m => m.finishedIn === 'OT' || m.finishedIn === 'SO');
+  }
+  if (!highlight) {
+    highlight = matches.find(m => m.status === 'FINISHED');
+  }
+  if (!highlight) {
+    highlight = matches[0];
+  }
+
+  const homeInfo = cachedTeamsMap[highlight.home.id] || { name: highlight.home.id.replace(/^(khl|nhl):/, '').toUpperCase() };
+  const awayInfo = cachedTeamsMap[highlight.away.id] || { name: highlight.away.id.replace(/^(khl|nhl):/, '').toUpperCase() };
+
+  let badgeText = 'МАТЧ ДНЯ';
+  let badgeClass = 'badge-live';
+  let statusDetail = '';
+  let actionLabel = 'Смотреть протокол и видео шайб →';
+
+  if (highlight.status === 'LIVE' || highlight.status === 'INTERMISSION') {
+    badgeText = '🔴 LIVE МАТЧ ДНЯ';
+    statusDetail = `${highlight.period}-й период (${highlight.clock || ''})`;
+    actionLabel = 'Смотреть онлайн прямой эфир →';
+  } else if (highlight.status === 'FINISHED') {
+    badgeText = highlight.finishedIn ? `МАТЧ ДНЯ (${highlight.finishedIn})` : 'МАТЧ ДНЯ ЗАВЕРШЕН';
+    badgeClass = 'badge-finished';
+    statusDetail = highlight.finishedIn === 'OT' ? 'Овертайм' : highlight.finishedIn === 'SO' ? 'Буллиты' : 'Финальная сирена';
+  } else {
+    badgeText = 'ГЛАВНЫЙ МАТЧ ДНЯ';
+    badgeClass = 'badge-scheduled';
+    statusDetail = `Начало в ${highlight.clock || '20:00'}`;
+    actionLabel = 'Превью встречи →';
+  }
+
+  const scoreText = (highlight.status === 'SCHEDULED')
+    ? 'vs'
+    : `${highlight.home.score} : ${highlight.away.score}${highlight.finishedIn ? ' ' + highlight.finishedIn : ''}`;
+
+  container.innerHTML = `
+    <div class="highlight-banner">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-12" style="position: relative; z-index: 2;">
+        <div class="flex items-center gap-12 flex-wrap">
+          <span class="badge ${badgeClass}" style="font-size: 11px; padding: 4px 10px; font-weight: 700; letter-spacing: 0.04em;">
+            ${badgeText}
+          </span>
+          <div style="font-family: var(--font-headline); font-size: 16px; font-weight: 700; color: var(--text-primary);">
+            ${homeInfo.name} <span style="color: var(--primary-container); font-family: var(--font-tabular); margin: 0 4px;">${scoreText}</span> ${awayInfo.name}
+          </div>
+          <span class="text-xs text-muted">(${statusDetail})</span>
+        </div>
+        <div class="flex items-center gap-8">
+          <a href="${buildLink('/match/', { id: highlight.id })}" class="link-accent text-sm" style="display: inline-flex; align-items: center; gap: 4px; font-weight: 600;">
+            ${actionLabel}
+          </a>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+async function loadSidebarStats(container, matchId) {
+  if (!container || !matchId) return;
+  const card = qs('#sidebar-stats-card');
+  const nameSlot = qs('#sidebar-stats-match-name');
+
+  try {
+    const match = await getMatch(matchId);
+    if (!match || !match.stats) {
+      if (card) card.style.display = 'none';
+      return;
+    }
+
+    if (card) card.style.display = 'block';
+
+    const homeInfo = cachedTeamsMap[match.home.id] || { name: match.home.id.replace(/^(khl|nhl):/, '').toUpperCase() };
+    const awayInfo = cachedTeamsMap[match.away.id] || { name: match.away.id.replace(/^(khl|nhl):/, '').toUpperCase() };
+
+    if (nameSlot) {
+      nameSlot.textContent = `${homeInfo.name} vs ${awayInfo.name}`;
+    }
+
+    const s = match.stats;
+    const homeSog = s.sog?.[0] || 0;
+    const awaySog = s.sog?.[1] || 0;
+    const totalSog = homeSog + awaySog || 1;
+    const homeSogPct = Math.round((homeSog / totalSog) * 100);
+    const awaySogPct = 100 - homeSogPct;
+
+    const homeFo = s.faceoffPct?.[0] ?? 50;
+    const awayFo = s.faceoffPct?.[1] ?? 50;
+
+    const homePP = s.powerPlay?.[0] || '-';
+    const awayPP = s.powerPlay?.[1] || '-';
+
+    container.innerHTML = `
+      <div class="flex flex-col gap-16">
+        <!-- Stat 1: SOG -->
+        <div>
+          <div class="flex justify-between text-xs text-muted" style="margin-bottom: 4px; font-weight: 600;">
+            <span class="text-primary text-bold" style="font-family: var(--font-tabular);">${homeSog}</span>
+            <span>Броски в створ</span>
+            <span class="text-primary text-bold" style="font-family: var(--font-tabular);">${awaySog}</span>
+          </div>
+          <div class="stat-bar-track">
+            <div class="stat-bar-fill-home" style="width: ${homeSogPct}%;"></div>
+            <div class="stat-bar-fill-away" style="width: ${awaySogPct}%;"></div>
+          </div>
+        </div>
+
+        <!-- Stat 2: Faceoffs -->
+        <div>
+          <div class="flex justify-between text-xs text-muted" style="margin-bottom: 4px; font-weight: 600;">
+            <span class="text-primary text-bold" style="font-family: var(--font-tabular);">${homeFo}%</span>
+            <span>Вбрасывания</span>
+            <span class="text-primary text-bold" style="font-family: var(--font-tabular);">${awayFo}%</span>
+          </div>
+          <div class="stat-bar-track">
+            <div class="stat-bar-fill-home" style="width: ${homeFo}%;"></div>
+            <div class="stat-bar-fill-away" style="width: ${awayFo}%;"></div>
+          </div>
+        </div>
+
+        <!-- Stat 3: Powerplay -->
+        <div>
+          <div class="flex justify-between text-xs text-muted" style="margin-bottom: 4px; font-weight: 600;">
+            <span class="text-primary text-bold" style="font-family: var(--font-tabular);">${homePP}</span>
+            <span>Реализация большинства</span>
+            <span class="text-primary text-bold" style="font-family: var(--font-tabular);">${awayPP}</span>
+          </div>
+          <div class="stat-bar-track">
+            <div class="stat-bar-fill-home" style="width: 55%;"></div>
+            <div class="stat-bar-fill-away" style="width: 45%;"></div>
+          </div>
+        </div>
+
+        <!-- Full Report Link -->
+        <a href="${buildLink('/match/', { id: match.id, tab: 'stats' })}" class="btn-primary" style="display: block; width: 100%; text-align: center; font-size: 12px; font-weight: 600; text-decoration: none; padding: 8px 12px;">
+          Полный статистический отчёт →
+        </a>
+      </div>
+    `;
+  } catch (err) {
+    if (card) card.style.display = 'none';
+  }
 }
 
 async function loadSidebarNews(container) {

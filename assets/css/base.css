@@ -1,4 +1,7 @@
-/* Hockey365 Base CSS */
+/* Hockey365 Base CSS — Stitch Apex Ice & Sports Pulse */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -21,6 +24,18 @@ body {
   display: flex;
   flex-direction: column;
   -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headline);
+  letter-spacing: -0.015em;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+}
+
+.font-tabular {
+  font-family: var(--font-headline);
+  font-variant-numeric: tabular-nums;
 }
 
 /* Accessibility Skip Link */

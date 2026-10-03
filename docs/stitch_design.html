@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="ru"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-container":"#00a2e6","text-secondary":"#94A3B8","surface-base":"#0B0E14","tertiary-container":"#6bccff","on-tertiary-fixed-variant":"#004c69","inverse-primary":"#00677f","inverse-on-surface":"#2e3037","secondary-fixed-dim":"#89ceff","on-surface":"#e1e2eb","primary-fixed":"#b6ebff","surface-dim":"#10131a","on-secondary-fixed-variant":"#004c6e","error":"#ffb4ab","on-secondary-fixed":"#001e2f","live-red":"#EF4444","surface":"#10131a","on-secondary-container":"#00344e","background":"#10131a","surface-bright":"#363940","on-error":"#690005","on-secondary":"#00344d","surface-container-high":"#272a31","on-primary-fixed":"#001f28","surface-container":"#1d2026","primary-fixed-dim":"#47d6ff","on-primary":"#003543","secondary-fixed":"#c9e6ff","on-error-container":"#ffdad6","surface-container-lowest":"#0b0e14","outline-variant":"#3c494e","on-primary-fixed-variant":"#004e60","on-primary-container":"#00566a","surface-variant":"#32353c","border-glass":"rgba(255, 255, 255, 0.08)","win-green":"#10B981","ice-glow":"rgba(0, 210, 255, 0.2)","primary":"#a5e7ff","secondary":"#89ceff","surface-tint":"#47d6ff","on-surface-variant":"#bbc9cf","tertiary-fixed-dim":"#7bd0ff","on-tertiary-container":"#005575","surface-container-highest":"#32353c","text-muted":"#64748B","tertiary-fixed":"#c4e7ff","outline":"#859399","tertiary":"#b8e3ff","surface-highlight":"#222D3E","surface-elevated":"#1A2230","on-tertiary":"#00354a","live-red-glow":"rgba(239, 68, 68, 0.25)","inverse-surface":"#e1e2eb","on-background":"#e1e2eb","surface-container-low":"#191c22","border-subtle":"rgba(255, 255, 255, 0.05)","on-tertiary-fixed":"#001e2c","error-container":"#93000a","primary-container":"#00d2ff","surface-card":"#141A23","text-primary":"#F8FAFC"},borderRadius:{DEFAULT:"0.125rem",lg:"0.25rem",xl:"0.5rem",full:"0.75rem"},spacing:{margin:"1rem","space-lg":"1rem","margin-md":"1.5rem","space-md":"0.75rem","gutter-lg":"1.5rem",gutter:"1rem","space-xl":"1.5rem","space-xs":"0.25rem","margin-lg":"2.5rem","space-sm":"0.5rem","space-2xl":"2rem"},fontFamily:{"body-md":["Manrope"],"label-sm":["Manrope"],"headline-md":["Space Grotesk"],"body-lg":["Manrope"],"body-sm":["Manrope"],"headline-xl-mobile":["Space Grotesk"],"data-tabular":["Space Grotesk"],"headline-xl":["Space Grotesk"],"score-sub":["Manrope"],"label-md":["Manrope"],"headline-lg":["Space Grotesk"],"score-display":["Space Grotesk"]},fontSize:{"body-md":["14px",{lineHeight:"20px",fontWeight:"400"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.06em",fontWeight:"700"}],"headline-md":["18px",{lineHeight:"24px",fontWeight:"600"}],"body-lg":["16px",{lineHeight:"24px",fontWeight:"400"}],"body-sm":["12px",{lineHeight:"16px",fontWeight:"400"}],"headline-xl-mobile":["24px",{lineHeight:"32px",letterSpacing:"-0.01em",fontWeight:"700"}],"data-tabular":["13px",{lineHeight:"18px",fontWeight:"500"}],"headline-xl":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"700"}],"score-sub":["11px",{lineHeight:"14px",letterSpacing:"0.05em",fontWeight:"600"}],"label-md":["13px",{lineHeight:"18px",letterSpacing:"0.02em",fontWeight:"600"}],"headline-lg":["24px",{lineHeight:"32px",letterSpacing:"-0.01em",fontWeight:"600"}],"score-display":["22px",{lineHeight:"26px",letterSpacing:"0.04em",fontWeight:"700"}]}}}};</script></head><body class="bg-surface-base font-body-md text-body-md text-on-surface antialiased min-h-screen"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-card/90 backdrop-blur-xl shadow-[0_12px_32px_rgba(0,0,0,0.45)]"><div class="h-28 max-w-[1440px] mx-auto px-margin md:px-margin-md lg:px-margin-lg flex flex-col justify-between"><div class="h-14 flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-xl"><a class="flex items-center gap-space-xs group" data-path="matches-live" href="#"><div class="w-9 h-9 rounded-xl bg-gradient-to-br from-primary-container to-secondary flex items-center justify-center shadow-[0_0_16px_rgba(0,210,255,0.35)]"><span class="material-symbols-outlined text-surface-base text-[22px]">sports_hockey</span></div><span class="font-headline-lg text-headline-lg font-bold tracking-tight text-on-surface">HOCKEY<span class="text-primary-container ml-0.5">365</span></span></a><div class="hidden xl:flex items-center w-80 bg-surface-base rounded-xl px-space-md py-1.5 focus-within:ring-1 focus-within:ring-primary-container"><span class="material-symbols-outlined text-text-muted text-[18px] mr-2">search</span><input class="w-full bg-transparent text-body-sm font-body-sm text-on-surface placeholder:text-text-muted focus:outline-none" placeholder="Поиск команд, игроков, матчей или лиг..." type="text"/><kbd class="font-label-sm text-label-sm text-text-muted bg-surface-elevated px-1.5 py-0.5 rounded">Ctrl+K</kbd></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary-container font-headline-md"><a aria-current="page" class="transition-colors text-primary-container font-headline-md" data-path="matches-live" href="#">Матчи / Live</a><a class="text-on-surface-variant hover:text-on-surface font-body-md text-body-md transition-colors" data-path="tournaments-standings" href="#">Турниры &amp; Таблицы</a><a class="text-on-surface-variant hover:text-on-surface font-body-md text-body-md transition-colors" data-path="news" href="#">Новости</a><a class="text-on-surface-variant hover:text-on-surface font-body-md text-body-md transition-colors" data-path="transfers" href="#">Трансферы</a><a class="text-on-surface-variant hover:text-on-surface font-body-md text-body-md transition-colors" data-path="my-feed" href="#">Моя лента</a><a class="text-on-surface-variant hover:text-on-surface font-body-md text-body-md transition-colors" data-path="statistics" href="#">Статистика</a></nav><div class="flex items-center gap-space-sm"><button class="w-8 h-8 rounded-lg bg-surface-elevated hover:bg-surface-highlight flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" title="Звуковые оповещения Live" type="button"><span class="material-symbols-outlined text-[18px]">volume_up</span></button><button class="w-8 h-8 rounded-lg bg-surface-elevated hover:bg-surface-highlight flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" title="Коэффициенты и ставки" type="button"><span class="material-symbols-outlined text-[18px]">query_stats</span></button><div class="hidden sm:flex items-center gap-1 px-2.5 py-1 rounded-lg bg-surface-elevated text-label-sm font-label-sm text-text-secondary"><span class="material-symbols-outlined text-[14px]">schedule</span><span>МСК (UTC+3)</span></div><button class="w-8 h-8 rounded-lg bg-surface-elevated hover:bg-surface-highlight flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" title="Настройки интерфейса" type="button"><span class="material-symbols-outlined text-[18px]">settings</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div><div class="h-14 flex items-center justify-between gap-space-md overflow-x-auto"><div class="flex items-center gap-1.5 flex-nowrap shrink-0"><button class="px-2.5 py-1 rounded-lg bg-surface-base hover:bg-surface-elevated text-center transition-all" type="button"><span class="block font-label-sm text-label-sm text-text-muted">ВТ</span><span class="block font-data-tabular text-data-tabular text-on-surface-variant font-semibold">29</span></button><button class="px-2.5 py-1 rounded-lg bg-surface-base hover:bg-surface-elevated text-center transition-all" type="button"><span class="block font-label-sm text-label-sm text-text-muted">СР</span><span class="block font-data-tabular text-data-tabular text-on-surface-variant font-semibold">30</span></button><button class="px-2.5 py-1 rounded-lg bg-surface-base hover:bg-surface-elevated text-center transition-all" type="button"><span class="block font-label-sm text-label-sm text-text-muted">ЧТ</span><span class="block font-data-tabular text-data-tabular text-on-surface-variant font-semibold">1</span></button><button class="px-3 py-1 rounded-lg bg-primary-container text-surface-base text-center shadow-[0_0_12px_rgba(0,210,255,0.4)]" type="button"><span class="block font-label-sm text-label-sm uppercase font-bold text-surface-base">СЕГОДНЯ</span><span class="block font-data-tabular text-data-tabular font-bold text-surface-base">2</span></button><button class="px-2.5 py-1 rounded-lg bg-surface-base hover:bg-surface-elevated text-center transition-all" type="button"><span class="block font-label-sm text-label-sm text-text-muted">СБ</span><span class="block font-data-tabular text-data-tabular text-on-surface-variant font-semibold">3</span></button><button class="px-2.5 py-1 rounded-lg bg-surface-base hover:bg-surface-elevated text-center transition-all" type="button"><span class="block font-label-sm text-label-sm text-text-muted">ВС</span><span class="block font-data-tabular text-data-tabular text-on-surface-variant font-semibold">4</span></button><button class="px-2.5 py-1 rounded-lg bg-surface-base hover:bg-surface-elevated text-center transition-all" type="button"><span class="block font-label-sm text-label-sm text-text-muted">ПН</span><span class="block font-data-tabular text-data-tabular text-on-surface-variant font-semibold">5</span></button><button class="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-surface-base hover:bg-surface-elevated text-text-secondary hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[16px]">calendar_month</span><span class="font-label-sm text-label-sm uppercase">Календарь</span></button></div><div class="flex items-center gap-1.5 flex-nowrap shrink-0"><button class="px-3 py-1 rounded-full bg-surface-elevated text-primary text-label-sm font-label-sm font-bold" type="button">Все матчи</button><button class="flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-base hover:bg-surface-elevated text-on-surface-variant hover:text-on-surface text-label-sm font-label-sm transition-colors" type="button"><span class="w-2 h-2 rounded-full bg-live-red shadow-[0_0_8px_rgba(239,68,68,0.7)] animate-pulse"></span><span>Только LIVE</span></button><button class="px-3 py-1 rounded-full bg-surface-base hover:bg-surface-elevated text-on-surface-variant hover:text-on-surface text-label-sm font-label-sm transition-colors" type="button">КХЛ</button><button class="px-3 py-1 rounded-full bg-surface-base hover:bg-surface-elevated text-on-surface-variant hover:text-on-surface text-label-sm font-label-sm transition-colors" type="button">НХЛ</button><button class="px-3 py-1 rounded-full bg-surface-base hover:bg-surface-elevated text-on-surface-variant hover:text-on-surface text-label-sm font-label-sm transition-colors" type="button">ВХЛ</button><button class="px-3 py-1 rounded-full bg-surface-base hover:bg-surface-elevated text-on-surface-variant hover:text-on-surface text-label-sm font-label-sm transition-colors" type="button">МХЛ</button></div></div></div></header><main class="w-full pt-28 bg-surface-base max-w-[1440px] mx-auto px-margin md:px-margin-md lg:px-margin-lg"><div class="flex flex-col w-full pb-16">
+<!-- Dynamic Slate Highlights Banner / Breaking Alert -->
+<div class="relative w-full overflow-hidden rounded-xl bg-gradient-to-r from-surface-elevated via-surface-card to-surface-highlight p-space-md sm:p-space-lg mb-space-xl shadow-xl">
+<div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-live-red text-surface-base font-label-sm text-label-sm shadow-[0_0_12px_rgba(239,68,68,0.5)]">
+<span class="w-1.5 h-1.5 rounded-full bg-surface-base animate-ping"></span>
+<span>МАТЧ ДНЯ ЗАВЕРШЕН</span>
+</div>
+<p class="font-headline-md text-headline-md text-text-primary tracking-tight">
+          СКА вырывает победу у «Локомотива» в овертайме: <span class="text-primary-container font-data-tabular">3 : 2 ОТ</span>
+</p>
+</div>
+<div class="flex items-center gap-space-md text-body-sm font-body-sm text-text-secondary">
+<span class="hidden lg:inline text-text-muted">Гол на 63:14 (В. Грицюк)</span>
+<button class="inline-flex items-center gap-1 text-primary-container hover:text-primary font-label-md text-label-md transition-colors" type="button">
+<span>Смотреть обзор и видео шайб</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Primary Asymmetric Grid Layout (12 columns) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg">
+<!-- LEFT / MAIN FIXTURE STREAM (8 cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-2xl min-w-0">
+<!-- Quick Filter Sub-toolbar -->
+<div class="flex flex-wrap items-center justify-between gap-space-md pb-space-xs">
+<div class="flex items-center gap-2 flex-wrap">
+<button class="px-3.5 py-1.5 rounded-lg bg-surface-elevated text-primary-container font-label-md text-label-md shadow-sm" type="button">
+            Все лиги <span class="ml-1 text-text-muted font-normal">(16)</span>
+</button>
+<button class="px-3.5 py-1.5 rounded-lg bg-surface-card hover:bg-surface-elevated text-text-secondary hover:text-on-surface font-label-md text-label-md transition-colors" type="button">
+            НХЛ <span class="ml-1 text-text-muted font-normal">(13)</span>
+</button>
+<button class="px-3.5 py-1.5 rounded-lg bg-surface-card hover:bg-surface-elevated text-text-secondary hover:text-on-surface font-label-md text-label-md transition-colors" type="button">
+            КХЛ <span class="ml-1 text-win-green font-semibold">(3 Завершено)</span>
+</button>
+<button class="px-3.5 py-1.5 rounded-lg bg-surface-card hover:bg-surface-elevated text-text-secondary hover:text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1.5" type="button">
+<span class="w-2 h-2 rounded-full bg-live-red"></span>
+<span>Live</span>
+</button>
+</div>
+<div class="flex items-center gap-1 text-text-muted font-label-sm text-label-sm">
+<span>Сортировка:</span>
+<span class="text-text-primary uppercase ml-1">По времени</span>
+</div>
+</div>
+<!-- SECTION 1: KHL COMPLETED & LIVE MATCHES -->
+<section class="flex flex-col gap-space-md">
+<!-- Tournament Header Banner -->
+<div class="flex items-center justify-between px-space-md py-space-sm bg-surface-card rounded-xl shadow-md">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-surface-highlight flex items-center justify-center font-headline-md text-headline-md text-primary font-bold shadow-inner">
+              К
+            </div>
+<div>
+<div class="flex items-center gap-2">
+<h2 class="font-headline-md text-headline-md text-text-primary tracking-tight">КХЛ</h2>
+<span class="text-label-sm font-label-sm text-text-muted uppercase">Регулярный чемпионат</span>
+</div>
+<span class="text-body-sm font-body-sm text-text-secondary">3 матча за сегодня</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 text-primary-container hover:text-primary font-label-md text-label-md transition-colors" href="#">
+<span>Таблица</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Fixture Cards List -->
+<div class="flex flex-col gap-2.5">
+<!-- KHL MATCH 1: CKA vs Lokomotiv -->
+<div class="group relative flex flex-col p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-md transition-all duration-200">
+<div class="flex items-center justify-between gap-space-md flex-wrap sm:flex-nowrap">
+<!-- Match Status Left -->
+<div class="w-28 shrink-0 flex flex-col">
+<span class="inline-flex items-center gap-1 text-win-green font-label-sm text-label-sm uppercase font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-win-green"></span>
+                  Завершен
+                </span>
+<span class="text-body-sm font-body-sm text-text-muted">Овертайм (ОТ)</span>
+</div>
+<!-- Main Teams & Score Display -->
+<div class="flex-1 grid grid-cols-7 items-center gap-2 w-full">
+<!-- Home Team -->
+<div class="col-span-3 flex items-center justify-end gap-2.5 text-right">
+<span class="font-headline-md text-headline-md text-text-primary font-bold truncate">СКА</span>
+<div class="w-8 h-8 rounded-full bg-surface-highlight flex items-center justify-center shrink-0 text-primary-container font-headline-md font-bold shadow-sm">
+                    ★
+                  </div>
+</div>
+<!-- Score Board Box -->
+<div class="col-span-1 flex flex-col items-center justify-center">
+<div class="px-3 py-1 rounded-lg bg-surface-base shadow-inner flex items-center gap-1.5">
+<span class="font-score-display text-score-display text-text-primary">3</span>
+<span class="text-text-muted font-light">:</span>
+<span class="font-score-display text-score-display text-text-primary">2</span>
+</div>
+<span class="mt-1 px-1.5 py-0.2 rounded bg-surface-highlight text-primary text-[10px] font-label-sm font-bold uppercase">ОТ</span>
+</div>
+<!-- Away Team -->
+<div class="col-span-3 flex items-center justify-start gap-2.5 text-left">
+<div class="w-8 h-8 rounded-full bg-surface-highlight flex items-center justify-center shrink-0 text-text-secondary font-headline-md font-bold shadow-sm">
+                    🚂
+                  </div>
+<span class="font-headline-md text-headline-md text-text-primary font-bold truncate">Локомотив</span>
+</div>
+</div>
+<!-- Action & Details -->
+<div class="shrink-0 flex items-center gap-space-sm pl-2">
+<button class="w-8 h-8 rounded-lg bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">star</span>
+</button>
+<button class="px-2.5 py-1 rounded-lg bg-surface-base hover:bg-surface-highlight text-text-secondary hover:text-text-primary font-label-sm text-label-sm transition-colors" type="button">
+                  Протокол
+                </button>
+</div>
+</div>
+<!-- Detailed Period Breakdown Sub-strip -->
+<div class="mt-space-sm pt-2 flex flex-wrap items-center justify-between gap-2 text-text-muted text-body-sm font-body-sm bg-surface-base/60 px-3 py-1.5 rounded-lg">
+<div class="flex items-center gap-3">
+<span class="text-text-secondary font-label-sm text-label-sm uppercase">Периоды:</span>
+<span class="font-data-tabular text-data-tabular text-text-primary">(1:0, 1:1, 0:1, 1:0)</span>
+</div>
+<div class="text-text-muted text-[12px] truncate max-w-md">
+                Шайбы: Рендулич 14', Плотников 28', Грицюк 64' — Берёзкин 32', Шалунов 51'
+              </div>
+</div>
+</div>
+<!-- KHL MATCH 2: Ak Bars vs CSKA -->
+<div class="group relative flex flex-col p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-md transition-all duration-200">
+<div class="flex items-center justify-between gap-space-md flex-wrap sm:flex-nowrap">
+<div class="w-28 shrink-0 flex flex-col">
+<span class="inline-flex items-center gap-1 text-win-green font-label-sm text-label-sm uppercase font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-win-green"></span>
+                  Завершен
+                </span>
+<span class="text-body-sm font-body-sm text-text-muted">Буллиты (Б)</span>
+</div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2 w-full">
+<div class="col-span-3 flex items-center justify-end gap-2.5 text-right">
+<span class="font-headline-md text-headline-md text-text-primary font-bold truncate">Ак Барс</span>
+<div class="w-8 h-8 rounded-full bg-surface-highlight flex items-center justify-center shrink-0 text-win-green font-headline-md font-bold shadow-sm">
+                    🐆
+                  </div>
+</div>
+<div class="col-span-1 flex flex-col items-center justify-center">
+<div class="px-3 py-1 rounded-lg bg-surface-base shadow-inner flex items-center gap-1.5">
+<span class="font-score-display text-score-display text-text-primary">2</span>
+<span class="text-text-muted font-light">:</span>
+<span class="font-score-display text-score-display text-text-primary">1</span>
+</div>
+<span class="mt-1 px-1.5 py-0.2 rounded bg-surface-highlight text-primary text-[10px] font-label-sm font-bold uppercase">Б</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2.5 text-left">
+<div class="w-8 h-8 rounded-full bg-surface-highlight flex items-center justify-center shrink-0 text-live-red font-headline-md font-bold shadow-sm">
+                    ★
+                  </div>
+<span class="font-headline-md text-headline-md text-text-primary font-bold truncate">ЦСКА</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-space-sm pl-2">
+<button class="w-8 h-8 rounded-lg bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">star</span>
+</button>
+<button class="px-2.5 py-1 rounded-lg bg-surface-base hover:bg-surface-highlight text-text-secondary hover:text-text-primary font-label-sm text-label-sm transition-colors" type="button">
+                  Протокол
+                </button>
+</div>
+</div>
+<div class="mt-space-sm pt-2 flex flex-wrap items-center justify-between gap-2 text-text-muted text-body-sm font-body-sm bg-surface-base/60 px-3 py-1.5 rounded-lg">
+<div class="flex items-center gap-3">
+<span class="text-text-secondary font-label-sm text-label-sm uppercase">Периоды:</span>
+<span class="font-data-tabular text-data-tabular text-text-primary">(1:0, 0:1, 0:0, 0:0, 1:0)</span>
+</div>
+<div class="text-text-muted text-[12px] truncate max-w-md">
+                Победный буллит: Дмитрий Яшкин
+              </div>
+</div>
+</div>
+<!-- KHL MATCH 3: Spartak vs Traktor -->
+<div class="group relative flex flex-col p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-md transition-all duration-200">
+<div class="flex items-center justify-between gap-space-md flex-wrap sm:flex-nowrap">
+<div class="w-28 shrink-0 flex flex-col">
+<span class="inline-flex items-center gap-1 text-win-green font-label-sm text-label-sm uppercase font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-win-green"></span>
+                  Завершен
+                </span>
+<span class="text-body-sm font-body-sm text-text-muted">Основное время</span>
+</div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2 w-full">
+<div class="col-span-3 flex items-center justify-end gap-2.5 text-right">
+<span class="font-headline-md text-headline-md text-text-primary font-bold truncate">Спартак</span>
+<div class="w-8 h-8 rounded-full bg-surface-highlight flex items-center justify-center shrink-0 text-live-red font-headline-md font-bold shadow-sm">
+                    ⚔
+                  </div>
+</div>
+<div class="col-span-1 flex flex-col items-center justify-center">
+<div class="px-3 py-1 rounded-lg bg-surface-base shadow-inner flex items-center gap-1.5">
+<span class="font-score-display text-score-display text-text-primary">4</span>
+<span class="text-text-muted font-light">:</span>
+<span class="font-score-display text-score-display text-text-primary">2</span>
+</div>
+<span class="mt-1 text-[10px] text-text-muted font-label-sm uppercase">ФИНАЛ</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2.5 text-left">
+<div class="w-8 h-8 rounded-full bg-surface-highlight flex items-center justify-center shrink-0 text-text-secondary font-headline-md font-bold shadow-sm">
+                    🚜
+                  </div>
+<span class="font-headline-md text-headline-md text-text-primary font-bold truncate">Трактор</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-space-sm pl-2">
+<button class="w-8 h-8 rounded-lg bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">star</span>
+</button>
+<button class="px-2.5 py-1 rounded-lg bg-surface-base hover:bg-surface-highlight text-text-secondary hover:text-text-primary font-label-sm text-label-sm transition-colors" type="button">
+                  Протокол
+                </button>
+</div>
+</div>
+<div class="mt-space-sm pt-2 flex flex-wrap items-center justify-between gap-2 text-text-muted text-body-sm font-body-sm bg-surface-base/60 px-3 py-1.5 rounded-lg">
+<div class="flex items-center gap-3">
+<span class="text-text-secondary font-label-sm text-label-sm uppercase">Периоды:</span>
+<span class="font-data-tabular text-data-tabular text-text-primary">(2:1, 1:0, 1:1)</span>
+</div>
+<div class="text-text-muted text-[12px] truncate max-w-md">
+                Герой встречи: дубль Николая Голдобина (11', 49')
+              </div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: NHL SCHEDULE SLATE (UPCOMING MATCHES) -->
+<section class="flex flex-col gap-space-md">
+<!-- Tournament Header Banner -->
+<div class="flex items-center justify-between px-space-md py-space-sm bg-surface-card rounded-xl shadow-md">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-surface-highlight flex items-center justify-center font-headline-md text-headline-md text-secondary font-bold shadow-inner">
+              N
+            </div>
+<div>
+<div class="flex items-center gap-2">
+<h2 class="font-headline-md text-headline-md text-text-primary tracking-tight">НХЛ</h2>
+<span class="text-label-sm font-label-sm text-text-muted uppercase">Регулярный сезон 2026/27</span>
+</div>
+<span class="text-body-sm font-body-sm text-text-secondary">13 матчей сегодняшней ночи (МСК)</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-1 text-primary-container hover:text-primary font-label-md text-label-md transition-colors" href="#">
+<span>Таблица</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- NHL Match Fixtures Rows -->
+<div class="flex flex-col gap-2">
+<!-- 02:00 Buffalo vs Chicago -->
+<div class="group flex items-center justify-between p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-sm transition-all duration-150">
+<div class="w-20 shrink-0 font-data-tabular text-data-tabular font-bold text-primary-container">
+              02:00
+            </div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2">
+<div class="col-span-3 flex items-center justify-end gap-2 text-right">
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Баффало Сейбрз</span>
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🦬</span>
+</div>
+<div class="col-span-1 flex justify-center">
+<span class="px-2.5 py-0.5 rounded bg-surface-base font-data-tabular text-data-tabular text-text-muted">- : -</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2 text-left">
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🦅</span>
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Чикаго Блэкхокс</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-2 pl-3">
+<span class="text-label-sm font-label-sm text-text-muted hidden sm:inline">1.95 • 4.10 • 3.20</span>
+<button class="w-7 h-7 rounded bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary" type="button">
+<span class="material-symbols-outlined text-[16px]">star</span>
+</button>
+</div>
+</div>
+<!-- 02:00 Toronto vs Ottawa -->
+<div class="group flex items-center justify-between p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-sm transition-all duration-150">
+<div class="w-20 shrink-0 font-data-tabular text-data-tabular font-bold text-primary-container">
+              02:00
+            </div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2">
+<div class="col-span-3 flex items-center justify-end gap-2 text-right">
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Торонто Мейпл Лифс</span>
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🍁</span>
+</div>
+<div class="col-span-1 flex justify-center">
+<span class="px-2.5 py-0.5 rounded bg-surface-base font-data-tabular text-data-tabular text-text-muted">- : -</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2 text-left">
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🏛</span>
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Оттава Сенаторз</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-2 pl-3">
+<span class="text-label-sm font-label-sm text-text-muted hidden sm:inline">1.82 • 4.30 • 3.65</span>
+<button class="w-7 h-7 rounded bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary" type="button">
+<span class="material-symbols-outlined text-[16px]">star</span>
+</button>
+</div>
+</div>
+<!-- 02:00 Tampa Bay vs Washington -->
+<div class="group flex items-center justify-between p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-sm transition-all duration-150">
+<div class="w-20 shrink-0 font-data-tabular text-data-tabular font-bold text-primary-container">
+              02:00
+            </div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2">
+<div class="col-span-3 flex items-center justify-end gap-2 text-right">
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Тампа-Бэй Лайтнинг</span>
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">⚡</span>
+</div>
+<div class="col-span-1 flex justify-center">
+<span class="px-2.5 py-0.5 rounded bg-surface-base font-data-tabular text-data-tabular text-text-muted">- : -</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2 text-left">
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🦅</span>
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Вашингтон Кэпиталз</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-2 pl-3">
+<span class="text-label-sm font-label-sm text-text-muted hidden sm:inline">2.10 • 4.00 • 2.95</span>
+<button class="w-7 h-7 rounded bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary" type="button">
+<span class="material-symbols-outlined text-[16px]">star</span>
+</button>
+</div>
+</div>
+<!-- 02:00 Philadelphia vs Carolina -->
+<div class="group flex items-center justify-between p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-sm transition-all duration-150">
+<div class="w-20 shrink-0 font-data-tabular text-data-tabular font-bold text-primary-container">
+              02:00
+            </div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2">
+<div class="col-span-3 flex items-center justify-end gap-2 text-right">
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Филадельфия Флайерз</span>
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🟠</span>
+</div>
+<div class="col-span-1 flex justify-center">
+<span class="px-2.5 py-0.5 rounded bg-surface-base font-data-tabular text-data-tabular text-text-muted">- : -</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2 text-left">
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🌪</span>
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Каролина Харрикейнз</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-2 pl-3">
+<span class="text-label-sm font-label-sm text-text-muted hidden sm:inline">3.15 • 4.20 • 1.90</span>
+<button class="w-7 h-7 rounded bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary" type="button">
+<span class="material-symbols-outlined text-[16px]">star</span>
+</button>
+</div>
+</div>
+<!-- 02:00 Pittsburgh vs Montreal -->
+<div class="group flex items-center justify-between p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-sm transition-all duration-150">
+<div class="w-20 shrink-0 font-data-tabular text-data-tabular font-bold text-primary-container">
+              02:00
+            </div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2">
+<div class="col-span-3 flex items-center justify-end gap-2 text-right">
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Питтсбург Пингвинз</span>
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🐧</span>
+</div>
+<div class="col-span-1 flex justify-center">
+<span class="px-2.5 py-0.5 rounded bg-surface-base font-data-tabular text-data-tabular text-text-muted">- : -</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2 text-left">
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🔴</span>
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Монреаль Канадиенс</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-2 pl-3">
+<span class="text-label-sm font-label-sm text-text-muted hidden sm:inline">2.05 • 4.15 • 2.85</span>
+<button class="w-7 h-7 rounded bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary" type="button">
+<span class="material-symbols-outlined text-[16px]">star</span>
+</button>
+</div>
+</div>
+<!-- 02:00 Columbus vs Utah Hockey Club -->
+<div class="group flex items-center justify-between p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-sm transition-all duration-150">
+<div class="w-20 shrink-0 font-data-tabular text-data-tabular font-bold text-primary-container">
+              02:00
+            </div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2">
+<div class="col-span-3 flex items-center justify-end gap-2 text-right">
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Коламбус Блю Джекетс</span>
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">⭐</span>
+</div>
+<div class="col-span-1 flex justify-center">
+<span class="px-2.5 py-0.5 rounded bg-surface-base font-data-tabular text-data-tabular text-text-muted">- : -</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2 text-left">
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🏔</span>
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Юта Хоккей Клаб</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-2 pl-3">
+<span class="text-label-sm font-label-sm text-text-muted hidden sm:inline">2.60 • 4.10 • 2.30</span>
+<button class="w-7 h-7 rounded bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary" type="button">
+<span class="material-symbols-outlined text-[16px]">star</span>
+</button>
+</div>
+</div>
+<!-- 02:00 Edmonton vs Seattle -->
+<div class="group flex items-center justify-between p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-sm transition-all duration-150">
+<div class="w-20 shrink-0 font-data-tabular text-data-tabular font-bold text-primary-container">
+              02:00
+            </div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2">
+<div class="col-span-3 flex items-center justify-end gap-2 text-right">
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Эдмонтон Ойлерз</span>
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🛢</span>
+</div>
+<div class="col-span-1 flex justify-center">
+<span class="px-2.5 py-0.5 rounded bg-surface-base font-data-tabular text-data-tabular text-text-muted">- : -</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2 text-left">
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🦑</span>
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Сиэтл Кракен</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-2 pl-3">
+<span class="text-label-sm font-label-sm text-text-muted hidden sm:inline">1.75 • 4.40 • 3.90</span>
+<button class="w-7 h-7 rounded bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary" type="button">
+<span class="material-symbols-outlined text-[16px]">star</span>
+</button>
+</div>
+</div>
+<!-- 02:30 NY Islanders vs New Jersey -->
+<div class="group flex items-center justify-between p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-sm transition-all duration-150">
+<div class="w-20 shrink-0 font-data-tabular text-data-tabular font-bold text-primary-container">
+              02:30
+            </div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2">
+<div class="col-span-3 flex items-center justify-end gap-2 text-right">
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Нью-Йорк Айлендерс</span>
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🏝</span>
+</div>
+<div class="col-span-1 flex justify-center">
+<span class="px-2.5 py-0.5 rounded bg-surface-base font-data-tabular text-data-tabular text-text-muted">- : -</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2 text-left">
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">😈</span>
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Нью-Джерси Девилз</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-2 pl-3">
+<span class="text-label-sm font-label-sm text-text-muted hidden sm:inline">2.40 • 4.00 • 2.50</span>
+<button class="w-7 h-7 rounded bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary" type="button">
+<span class="material-symbols-outlined text-[16px]">star</span>
+</button>
+</div>
+</div>
+<!-- 03:00 Nashville vs Dallas -->
+<div class="group flex items-center justify-between p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-sm transition-all duration-150">
+<div class="w-20 shrink-0 font-data-tabular text-data-tabular font-bold text-primary-container">
+              03:00
+            </div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2">
+<div class="col-span-3 flex items-center justify-end gap-2 text-right">
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Нэшвилл Предаторз</span>
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🐯</span>
+</div>
+<div class="col-span-1 flex justify-center">
+<span class="px-2.5 py-0.5 rounded bg-surface-base font-data-tabular text-data-tabular text-text-muted">- : -</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2 text-left">
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">⭐</span>
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Даллас Старз</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-2 pl-3">
+<span class="text-label-sm font-label-sm text-text-muted hidden sm:inline">2.45 • 4.05 • 2.45</span>
+<button class="w-7 h-7 rounded bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary" type="button">
+<span class="material-symbols-outlined text-[16px]">star</span>
+</button>
+</div>
+</div>
+<!-- 03:00 Minnesota vs Boston -->
+<div class="group flex items-center justify-between p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-sm transition-all duration-150">
+<div class="w-20 shrink-0 font-data-tabular text-data-tabular font-bold text-primary-container">
+              03:00
+            </div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2">
+<div class="col-span-3 flex items-center justify-end gap-2 text-right">
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Миннесота Уайлд</span>
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🌲</span>
+</div>
+<div class="col-span-1 flex justify-center">
+<span class="px-2.5 py-0.5 rounded bg-surface-base font-data-tabular text-data-tabular text-text-muted">- : -</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2 text-left">
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🐻</span>
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Бостон Брюинз</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-2 pl-3">
+<span class="text-label-sm font-label-sm text-text-muted hidden sm:inline">2.30 • 4.10 • 2.65</span>
+<button class="w-7 h-7 rounded bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary" type="button">
+<span class="material-symbols-outlined text-[16px]">star</span>
+</button>
+</div>
+</div>
+<!-- 04:00 Colorado vs St. Louis -->
+<div class="group flex items-center justify-between p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-sm transition-all duration-150">
+<div class="w-20 shrink-0 font-data-tabular text-data-tabular font-bold text-primary-container">
+              04:00
+            </div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2">
+<div class="col-span-3 flex items-center justify-end gap-2 text-right">
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Колорадо Эвеланш</span>
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🏔</span>
+</div>
+<div class="col-span-1 flex justify-center">
+<span class="px-2.5 py-0.5 rounded bg-surface-base font-data-tabular text-data-tabular text-text-muted">- : -</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2 text-left">
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🎺</span>
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Сент-Луис Блюз</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-2 pl-3">
+<span class="text-label-sm font-label-sm text-text-muted hidden sm:inline">1.85 • 4.30 • 3.50</span>
+<button class="w-7 h-7 rounded bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary" type="button">
+<span class="material-symbols-outlined text-[16px]">star</span>
+</button>
+</div>
+</div>
+<!-- 05:00 Vancouver vs Calgary -->
+<div class="group flex items-center justify-between p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-sm transition-all duration-150">
+<div class="w-20 shrink-0 font-data-tabular text-data-tabular font-bold text-primary-container">
+              05:00
+            </div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2">
+<div class="col-span-3 flex items-center justify-end gap-2 text-right">
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Ванкувер Кэнакс</span>
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🐋</span>
+</div>
+<div class="col-span-1 flex justify-center">
+<span class="px-2.5 py-0.5 rounded bg-surface-base font-data-tabular text-data-tabular text-text-muted">- : -</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2 text-left">
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🔥</span>
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Калгари Флэймз</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-2 pl-3">
+<span class="text-label-sm font-label-sm text-text-muted hidden sm:inline">2.00 • 4.10 • 3.10</span>
+<button class="w-7 h-7 rounded bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary" type="button">
+<span class="material-symbols-outlined text-[16px]">star</span>
+</button>
+</div>
+</div>
+<!-- 05:00 San Jose vs Los Angeles -->
+<div class="group flex items-center justify-between p-space-md bg-surface-card hover:bg-surface-elevated rounded-xl shadow-sm transition-all duration-150">
+<div class="w-20 shrink-0 font-data-tabular text-data-tabular font-bold text-primary-container">
+              05:00
+            </div>
+<div class="flex-1 grid grid-cols-7 items-center gap-2">
+<div class="col-span-3 flex items-center justify-end gap-2 text-right">
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Сан-Хосе Шаркс</span>
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">🦈</span>
+</div>
+<div class="col-span-1 flex justify-center">
+<span class="px-2.5 py-0.5 rounded bg-surface-base font-data-tabular text-data-tabular text-text-muted">- : -</span>
+</div>
+<div class="col-span-3 flex items-center justify-start gap-2 text-left">
+<span class="w-6 h-6 rounded-full bg-surface-highlight flex items-center justify-center text-[11px] text-text-secondary">👑</span>
+<span class="font-body-md text-body-md text-text-primary font-medium truncate">Лос-Анджелес Кингз</span>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-2 pl-3">
+<span class="text-label-sm font-label-sm text-text-muted hidden sm:inline">3.80 • 4.40 • 1.70</span>
+<button class="w-7 h-7 rounded bg-surface-base hover:bg-surface-highlight flex items-center justify-center text-text-muted hover:text-primary" type="button">
+<span class="material-symbols-outlined text-[16px]">star</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- RIGHT RAIL / ANALYTICS & WIDGETS (4 cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-xl">
+<!-- WIDGET 1: KHL STANDINGS LEADERS TABLE -->
+<div class="flex flex-col bg-surface-card rounded-xl p-space-md shadow-md">
+<div class="flex items-center justify-between pb-space-sm mb-space-sm border-b border-border-subtle">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container text-[20px]">leaderboard</span>
+<h3 class="font-headline-md text-headline-md text-text-primary">Лидеры КХЛ</h3>
+</div>
+<a class="inline-flex items-center gap-1 text-primary-container hover:text-primary font-label-md text-label-md transition-colors" href="#">
+<span>Таблица</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+<!-- Standings Table -->
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead>
+<tr class="text-text-muted font-label-sm text-label-sm uppercase">
+<th class="py-2 pl-2 w-8 text-center">№</th>
+<th class="py-2 px-2">Команда</th>
+<th class="py-2 px-2 text-center w-8">И</th>
+<th class="py-2 px-2 text-center w-8">В</th>
+<th class="py-2 px-2 text-center w-8">П</th>
+<th class="py-2 pr-2 text-right w-10 font-bold text-text-primary">О</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-border-subtle font-body-sm text-body-sm">
+<!-- Row 1 Lokomotiv -->
+<tr class="hover:bg-surface-elevated/70 transition-colors">
+<td class="py-2.5 pl-2 text-center">
+<span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-primary-container/20 text-primary-container font-data-tabular font-bold text-[11px]">1</span>
+</td>
+<td class="py-2.5 px-2 flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-win-green"></span>
+<span class="font-semibold text-text-primary truncate">Локомотив</span>
+</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-secondary">13</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-muted">9</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-muted">4</td>
+<td class="py-2.5 pr-2 text-right font-headline-md text-headline-md font-bold text-text-primary">21</td>
+</tr>
+<!-- Row 2 SKA -->
+<tr class="hover:bg-surface-elevated/70 transition-colors">
+<td class="py-2.5 pl-2 text-center">
+<span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-surface-highlight text-text-secondary font-data-tabular font-semibold text-[11px]">2</span>
+</td>
+<td class="py-2.5 px-2 flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-win-green"></span>
+<span class="font-semibold text-text-primary truncate">СКА</span>
+</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-secondary">13</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-muted">9</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-muted">4</td>
+<td class="py-2.5 pr-2 text-right font-headline-md text-headline-md font-bold text-text-primary">19</td>
+</tr>
+<!-- Row 3 Spartak -->
+<tr class="hover:bg-surface-elevated/70 transition-colors">
+<td class="py-2.5 pl-2 text-center">
+<span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-surface-highlight text-text-secondary font-data-tabular font-semibold text-[11px]">3</span>
+</td>
+<td class="py-2.5 px-2 flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-win-green"></span>
+<span class="font-semibold text-text-primary truncate">Спартак</span>
+</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-secondary">13</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-muted">8</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-muted">5</td>
+<td class="py-2.5 pr-2 text-right font-headline-md text-headline-md font-bold text-text-primary">18</td>
+</tr>
+<!-- Row 4 CSKA -->
+<tr class="hover:bg-surface-elevated/70 transition-colors">
+<td class="py-2.5 pl-2 text-center">
+<span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-surface-highlight text-text-secondary font-data-tabular font-semibold text-[11px]">4</span>
+</td>
+<td class="py-2.5 px-2 flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-win-green"></span>
+<span class="font-semibold text-text-primary truncate">ЦСКА</span>
+</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-secondary">13</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-muted">8</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-muted">5</td>
+<td class="py-2.5 pr-2 text-right font-headline-md text-headline-md font-bold text-text-primary">18</td>
+</tr>
+<!-- Row 5 Dynamo Moscow -->
+<tr class="hover:bg-surface-elevated/70 transition-colors">
+<td class="py-2.5 pl-2 text-center">
+<span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-surface-highlight text-text-secondary font-data-tabular font-semibold text-[11px]">5</span>
+</td>
+<td class="py-2.5 px-2 flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-win-green"></span>
+<span class="font-semibold text-text-primary truncate">Динамо Мск</span>
+</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-secondary">13</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-muted">7</td>
+<td class="py-2.5 px-2 text-center font-data-tabular text-text-muted">6</td>
+<td class="py-2.5 pr-2 text-right font-headline-md text-headline-md font-bold text-text-primary">16</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="mt-space-sm pt-2 flex items-center justify-between text-label-sm font-label-sm text-text-muted">
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-win-green"></span>
+<span>Зона плей-офф (Запад)</span>
+</div>
+<a class="hover:text-primary transition-colors" href="#">Восточная конф. →</a>
+</div>
+</div>
+<!-- WIDGET 2: HOCKEY NEWS FEED -->
+<div class="flex flex-col bg-surface-card rounded-xl p-space-md shadow-md">
+<div class="flex items-center justify-between pb-space-sm mb-space-sm border-b border-border-subtle">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container text-[20px]">feed</span>
+<h3 class="font-headline-md text-headline-md text-text-primary">Новости хоккея</h3>
+</div>
+<a class="inline-flex items-center gap-1 text-primary-container hover:text-primary font-label-md text-label-md transition-colors" href="#">
+<span>Все</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+<div class="flex flex-col divide-y divide-border-subtle">
+<!-- News Article 1 -->
+<article class="py-3 group cursor-pointer">
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2 py-0.5 rounded bg-surface-elevated text-primary text-[10px] font-label-sm font-bold uppercase">КХЛ</span>
+<span class="text-text-muted font-body-sm text-[12px]">25 мин назад</span>
+</div>
+<h4 class="font-headline-md text-[15px] leading-snug text-text-primary group-hover:text-primary-container transition-colors">
+              СКА обыграл «Локомотив» в овертайме в матче лидеров Западной конференции
+            </h4>
+<span class="block mt-1 text-text-muted font-body-sm text-[12px]">Пресс-служба КХЛ</span>
+</article>
+<!-- News Article 2 -->
+<article class="py-3 group cursor-pointer">
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2 py-0.5 rounded bg-surface-elevated text-text-secondary text-[10px] font-label-sm font-bold uppercase">КХЛ</span>
+<span class="text-text-muted font-body-sm text-[12px]">1 ч назад</span>
+</div>
+<h4 class="font-headline-md text-[15px] leading-snug text-text-primary group-hover:text-primary-container transition-colors">
+              «Спартак» уверенно победил «Трактор» благодаря дублю Голдобина
+            </h4>
+<span class="block mt-1 text-text-muted font-body-sm text-[12px]">Hockey365 • Аналитика</span>
+</article>
+<!-- News Article 3 -->
+<article class="py-3 group cursor-pointer">
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2 py-0.5 rounded bg-surface-elevated text-secondary text-[10px] font-label-sm font-bold uppercase">НХЛ</span>
+<span class="text-text-muted font-body-sm text-[12px]">2 ч назад</span>
+</div>
+<h4 class="font-headline-md text-[15px] leading-snug text-text-primary group-hover:text-primary-container transition-colors">
+              Регулярный чемпионат НХЛ 2026/27 набирает обороты: результаты первых встреч
+            </h4>
+<span class="block mt-1 text-text-muted font-body-sm text-[12px]">NHL Media Service</span>
+</article>
+<!-- News Article 4 -->
+<article class="py-3 group cursor-pointer">
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2 py-0.5 rounded bg-surface-elevated text-primary text-[10px] font-label-sm font-bold uppercase">Трансферы</span>
+<span class="text-text-muted font-body-sm text-[12px]">3 ч назад</span>
+</div>
+<h4 class="font-headline-md text-[15px] leading-snug text-text-primary group-hover:text-primary-container transition-colors">
+              Трансферные слухи: топовый защитник сборной может перейти в клуб Востока
+            </h4>
+<span class="block mt-1 text-text-muted font-body-sm text-[12px]">Инсайд • Эксклюзив</span>
+</article>
+</div>
+</div>
+<!-- WIDGET 3: MATCH ANALYTICS / SHOTS STATS CARD -->
+<div class="relative overflow-hidden bg-surface-card rounded-xl p-space-md shadow-md">
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">analytics</span>
+<h3 class="font-headline-md text-headline-md text-text-primary">Статистика дня</h3>
+</div>
+<span class="text-label-sm font-label-sm text-text-muted uppercase">СКА vs Локо</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<!-- Stat 1: Shots on Goal -->
+<div>
+<div class="flex justify-between font-label-sm text-label-sm text-text-secondary mb-1">
+<span class="font-semibold text-text-primary">34</span>
+<span>Броски в створ</span>
+<span class="font-semibold text-text-primary">28</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-base flex overflow-hidden">
+<div class="bg-primary-container h-full" style="width: 55%"></div>
+<div class="bg-secondary-fixed-dim h-full" style="width: 45%"></div>
+</div>
+</div>
+<!-- Stat 2: Faceoffs Won -->
+<div>
+<div class="flex justify-between font-label-sm text-label-sm text-text-secondary mb-1">
+<span class="font-semibold text-text-primary">52%</span>
+<span>Вбрасывания</span>
+<span class="font-semibold text-text-primary">48%</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-base flex overflow-hidden">
+<div class="bg-primary-container h-full" style="width: 52%"></div>
+<div class="bg-secondary-fixed-dim h-full" style="width: 48%"></div>
+</div>
+</div>
+<!-- Stat 3: Powerplay Conversion -->
+<div>
+<div class="flex justify-between font-label-sm text-label-sm text-text-secondary mb-1">
+<span class="font-semibold text-text-primary">1 / 4</span>
+<span>Реализация большинства</span>
+<span class="font-semibold text-text-primary">0 / 3</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-base flex overflow-hidden">
+<div class="bg-primary-container h-full" style="width: 60%"></div>
+<div class="bg-secondary-fixed-dim h-full" style="width: 40%"></div>
+</div>
+</div>
+<!-- Quick Link -->
+<button class="w-full mt-2 py-2 rounded-lg bg-surface-elevated hover:bg-surface-highlight text-text-primary font-label-md text-label-md transition-all text-center" type="button">
+            Полный статистический отчёт
+          </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Simple interactive star toggle for favoriting matches
+  document.querySelectorAll('button:has(.material-symbols-outlined)').forEach(btn => {
+    btn.addEventListener('click', function(e) {
+      const icon = this.querySelector('.material-symbols-outlined');
+      if (icon && icon.textContent.trim() === 'star') {
+        const isFilled = icon.getAttribute('style')?.includes('FILL');
+        if (isFilled) {
+          icon.removeAttribute('style');
+          icon.classList.remove('text-primary-container');
+        } else {
+          icon.setAttribute('style', "font-variation-settings: 'FILL' 1;");
+          icon.classList.add('text-primary-container');
+        }
+      }
+    });
+  });
+</script></main><footer class="w-full bg-surface-card mt-space-2xl py-12"><div class="max-w-[1440px] mx-auto px-margin md:px-margin-md lg:px-margin-lg flex flex-col md:flex-row items-center justify-between gap-space-lg text-text-secondary font-body-sm text-body-sm"><div class="flex flex-col items-center md:items-start gap-1 text-center md:text-left"><div class="flex items-center gap-2"><span class="font-headline-md text-headline-md text-on-surface font-bold">HOCKEY<span class="text-primary-container ml-0.5">365</span></span><span class="font-label-sm text-label-sm text-text-muted uppercase">Live Center</span></div><p class="max-w-xl text-text-muted">Hockey365 — Хоккейный портал. Онлайн результаты матчей КХЛ, НХЛ и мировых лиг без задержки. Быстрый и адаптивный сервис.</p></div><div class="flex flex-wrap items-center justify-center gap-space-lg font-label-md text-label-md"><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="about" href="#">О проекте</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="data-sources" href="#">Источники данных</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="privacy-policy" href="#">Политика конфиденциальности</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="api-docs" href="#">API для разработчиков</a><a class="text-on-surface-variant hover:text-primary transition-colors" data-path="github" href="#">GitHub</a></div></div></footer></body></html>

@@ -141,29 +141,35 @@
   background-color: var(--color-bg-surface);
 }
 
-/* --- Date Ribbon (Datepicker) --- */
+/* --- Date Ribbon (Datepicker Stitch Style) --- */
 .date-ribbon {
   display: flex;
   align-items: center;
-  background: var(--color-bg-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  background: var(--surface-card);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-lg);
   margin-bottom: var(--space-16);
   box-shadow: var(--shadow-sm);
   overflow: hidden;
+  padding: 4px;
+  gap: 4px;
 }
 
 .ribbon-arrow {
-  padding: 10px 14px;
-  color: var(--color-text-secondary);
+  padding: 8px 12px;
+  color: var(--text-secondary);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background var(--transition-fast);
+  border-radius: var(--radius-sm);
+  background: var(--surface-base);
+  border: 1px solid var(--border-subtle);
+  transition: all var(--transition-fast);
 }
 .ribbon-arrow:hover {
-  background-color: var(--color-bg-secondary);
-  color: var(--color-text-primary);
+  background-color: var(--surface-elevated);
+  color: var(--primary-container);
+  border-color: var(--border-glass);
 }
 
 .ribbon-days {
@@ -171,49 +177,74 @@
   flex: 1;
   overflow-x: auto;
   scrollbar-width: none;
+  gap: 6px;
+  padding: 2px;
 }
 .ribbon-days::-webkit-scrollbar { display: none; }
 
 .day-btn {
   flex: 1;
-  min-width: 68px;
-  padding: var(--space-8) var(--space-4);
+  min-width: 62px;
+  padding: 6px 4px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2px;
-  border-right: 1px solid var(--color-border-subtle);
-  color: var(--color-text-secondary);
+  border-radius: var(--radius-sm);
+  background: var(--surface-base);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-muted);
   font-size: var(--font-size-xs);
   transition: all var(--transition-fast);
 }
-.day-btn .day-name { text-transform: uppercase; font-size: 10px; font-weight: var(--font-weight-semibold); letter-spacing: 0.5px; }
-.day-btn .day-num { font-size: var(--font-size-sm); font-weight: var(--font-weight-black); }
-.day-btn:hover { background-color: var(--color-bg-surface-hover); }
+.day-btn .day-name {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+}
+.day-btn .day-num {
+  font-size: 14px;
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-secondary);
+}
+.day-btn:hover {
+  background-color: var(--surface-elevated);
+  color: var(--text-primary);
+  border-color: var(--border-glass);
+}
 .day-btn.active {
-  background: linear-gradient(135deg, var(--color-accent-blue), #023e8a);
-  color: #fff;
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+  background: var(--primary-container);
+  color: var(--surface-base);
+  border-color: var(--primary-container);
+  box-shadow: 0 0 14px rgba(0, 210, 255, 0.45);
 }
 .day-btn.active .day-name,
 .day-btn.active .day-num {
-  color: #fff;
+  color: var(--surface-base);
+  font-weight: 800;
 }
 
 .ribbon-calendar-input {
   border: none;
-  background: none;
+  background: var(--surface-base);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
   cursor: pointer;
-  padding: var(--space-10);
-  color: var(--color-text-secondary);
+  padding: var(--space-8);
+  color: var(--text-secondary);
+  font-size: 12px;
 }
 
 /* --- Competition Match Group --- */
 .comp-group {
   margin-bottom: var(--space-16);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  background-color: var(--color-bg-surface);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-lg);
+  background-color: var(--surface-card);
   box-shadow: var(--shadow-sm);
   overflow: hidden;
 }
@@ -222,11 +253,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 14px;
-  background: linear-gradient(90deg, var(--color-bg-secondary), var(--color-bg-surface));
-  border-bottom: 1px solid var(--color-border);
+  padding: 12px 16px;
+  background: linear-gradient(90deg, var(--surface-elevated), var(--surface-card));
+  border-bottom: 1px solid var(--border-glass);
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-bold);
+  font-family: var(--font-headline);
 }
 .comp-header-left {
   display: flex;
@@ -234,43 +266,50 @@
   gap: var(--space-10);
 }
 .comp-emblem {
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
   object-fit: contain;
 }
 
-/* --- Match Row (Soccer365 / Flashscore Style) --- */
+/* --- Match Row (Stitch Apex Ice & Sports Pulse) --- */
 .match-row {
   display: grid;
-  grid-template-columns: 88px 1fr 64px 1fr 34px;
+  grid-template-columns: 96px 1fr 68px 1fr 34px;
+  grid-template-areas:
+    "time home score away star"
+    "periods periods periods periods periods";
   align-items: center;
-  padding: 10px 14px;
-  border-bottom: 1px solid var(--color-border-subtle);
+  padding: 12px 16px;
+  background-color: var(--surface-card);
+  border-bottom: 1px solid var(--border-subtle);
   font-size: var(--font-size-sm);
   transition: all var(--transition-fast);
+  position: relative;
 }
 .match-row:last-child {
   border-bottom: none;
 }
 .match-row:hover {
-  background-color: var(--color-bg-surface-hover);
+  background-color: var(--surface-elevated);
 }
 .match-row.is-live-row {
-  background-color: rgba(255, 51, 75, 0.03);
+  background-color: rgba(239, 68, 68, 0.05);
+  border-left: 3px solid var(--live-red);
 }
 
 .match-time-status {
+  grid-area: time;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 2px;
   font-size: var(--font-size-xs);
-  color: var(--color-text-muted);
+  color: var(--text-muted);
   font-weight: var(--font-weight-medium);
 }
 .match-time-status.is-live {
-  color: var(--color-live);
-  font-weight: var(--font-weight-black);
+  color: var(--live-red);
+  font-weight: var(--font-weight-bold);
 }
 
 .match-team {
@@ -281,10 +320,12 @@
   text-decoration: none;
 }
 .match-team.team-home {
+  grid-area: home;
   justify-content: flex-end;
   text-align: right;
 }
 .match-team.team-away {
+  grid-area: away;
   justify-content: flex-start;
   text-align: left;
 }
@@ -294,12 +335,16 @@
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: var(--font-weight-medium);
-  color: var(--color-text-primary);
+  color: var(--text-primary);
   font-size: var(--font-size-sm);
+  transition: color var(--transition-fast);
+}
+.match-team:hover .match-team-name {
+  color: var(--primary-container);
 }
 .match-team-name.is-winner {
-  font-weight: var(--font-weight-black);
-  color: var(--color-text-primary);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-primary);
 }
 
 .team-logo-small {
@@ -307,47 +352,53 @@
   height: 26px;
   flex-shrink: 0;
   object-fit: contain;
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
 }
 
 .match-score-box {
+  grid-area: score;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-weight: var(--font-weight-black);
-  font-size: var(--font-size-md);
+  font-family: var(--font-headline);
+  font-weight: var(--font-weight-bold);
+  font-size: 16px;
   font-variant-numeric: tabular-nums;
-  color: var(--color-text-primary);
-  min-width: 52px;
-  padding: 3px 6px;
-  background-color: var(--color-bg-secondary);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-xs);
+  color: var(--text-primary);
+  min-width: 58px;
+  padding: 4px 8px;
+  background-color: var(--surface-base);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-sm);
   text-decoration: none;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4);
   transition: all var(--transition-fast);
 }
 .match-score-box:hover {
-  border-color: var(--color-accent-blue);
-  background-color: var(--color-accent-ice);
+  border-color: var(--primary-container);
+  box-shadow: 0 0 10px rgba(0, 210, 255, 0.3);
 }
 .match-score-box.is-live {
-  color: var(--color-live);
-  border-color: var(--color-live);
-  background-color: var(--color-live-bg);
+  color: #fff;
+  border-color: var(--live-red);
+  background-color: var(--live-red);
+  box-shadow: 0 0 12px var(--live-red-glow);
 }
 .match-extra-note {
   font-size: 9px;
-  font-weight: var(--font-weight-black);
-  color: var(--color-accent-blue);
+  font-weight: 800;
+  color: var(--primary-container);
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  margin-top: 1px;
 }
 
 .match-fav-star {
+  grid-area: star;
   display: flex;
   justify-content: center;
-  color: var(--color-border);
+  color: var(--text-muted);
   transition: all var(--transition-fast);
 }
 .match-fav-star:hover,
@@ -356,30 +407,89 @@
   transform: scale(1.15);
 }
 
-/* Period detail badge in row */
 .periods-breakdown {
-  grid-column: 1 / -1;
-  padding: 3px 12px;
+  grid-area: periods;
+  padding: 4px 12px;
   font-size: 11px;
-  color: var(--color-text-muted);
+  color: var(--text-muted);
   text-align: center;
-  background-color: var(--color-bg-secondary);
+  background-color: rgba(11, 14, 20, 0.6);
   border-radius: var(--radius-xs);
-  margin-top: 4px;
+  margin-top: 6px;
+  font-family: var(--font-headline);
+  font-variant-numeric: tabular-nums;
 }
 
-/* Mobile responsive match-row */
-@media (max-width: 560px) {
+/* Tablet & Mobile responsive match-row */
+@media (max-width: 640px) and (min-width: 541px) {
   .match-row {
-    grid-template-columns: 66px 1fr 50px 1fr 24px;
-    padding: var(--space-8) var(--space-8);
+    grid-template-columns: 76px 1fr 54px 1fr 24px;
+    padding: 10px 12px;
+    gap: 6px;
+  }
+  .team-logo-small {
+    width: 22px;
+    height: 22px;
+  }
+  .match-team-name {
+    font-size: 12px;
+  }
+  .match-score-box {
+    min-width: 48px;
+    font-size: 14px;
+    padding: 3px 4px;
+  }
+}
+
+@media (max-width: 540px) {
+  .match-row {
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-areas:
+      "time    time   star"
+      "home    score  away"
+      "periods periods periods";
+    row-gap: 8px;
+    column-gap: 6px;
+    padding: 10px 12px;
+  }
+  .match-time-status {
+    align-items: flex-start;
+  }
+  .match-fav-star {
+    justify-content: flex-end;
+  }
+  .match-team.team-home {
+    justify-content: flex-end;
+    text-align: right;
+  }
+  .match-team.team-away {
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .match-score-box {
+    min-width: 50px;
+  }
+  .match-team-name {
+    font-size: 12px;
+  }
+  .team-logo-small {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (max-width: 360px) {
+  .match-team-name {
+    font-size: 11px;
   }
   .team-logo-small {
     width: 20px;
     height: 20px;
   }
-  .match-team-name {
-    font-size: 12px;
+  .match-score-box {
+    font-size: 13px;
+    min-width: 44px;
+    padding: 2px 4px;
   }
 }
 
@@ -663,12 +773,12 @@
 
 /* --- Footer --- */
 .site-footer {
-  background-color: var(--color-bg-surface);
-  border-top: 1px solid var(--color-border);
+  background-color: var(--surface-card);
+  border-top: 1px solid var(--border-glass);
   padding: var(--space-32) 0;
   margin-top: auto;
   font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
+  color: var(--text-secondary);
 }
 .footer-content {
   display: flex;
@@ -688,5 +798,157 @@
   gap: var(--space-16);
 }
 .footer-links a:hover {
-  color: var(--color-accent-blue);
+  color: var(--primary-container);
+}
+
+/* --- Mobile Bottom Navigation Bar (Stitch App Style) --- */
+.mobile-bottom-nav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: rgba(20, 26, 35, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-top: 1px solid var(--border-glass);
+  box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 var(--space-8);
+}
+
+@media (max-width: 767px) {
+  .mobile-bottom-nav {
+    display: flex;
+  }
+  body {
+    padding-bottom: 68px; /* Offset for sticky bottom nav */
+  }
+}
+
+.mob-nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: var(--text-muted);
+  font-size: 10px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+  text-decoration: none;
+  position: relative;
+}
+.mob-nav-item svg {
+  width: 20px;
+  height: 20px;
+}
+.mob-nav-item:hover,
+.mob-nav-item.active {
+  color: var(--primary-container);
+}
+.mob-nav-item:active {
+  transform: scale(0.92);
+}
+.mob-live-dot {
+  position: absolute;
+  top: 4px;
+  right: 14px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--live-red);
+  box-shadow: 0 0 8px var(--live-red-glow);
+  animation: pulse-live 1.5s infinite;
+}
+
+@keyframes pulse-live {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+  70% { transform: scale(1.1); box-shadow: 0 0 0 6px rgba(239, 68, 68, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+/* --- Highlight Banner (Stitch Apex Style) --- */
+.highlight-banner {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--surface-elevated) 0%, var(--surface-card) 50%, var(--surface-highlight) 100%);
+  border: 1px solid var(--border-glass);
+  padding: 14px 18px;
+  margin-bottom: var(--space-16);
+  box-shadow: var(--shadow-md);
+}
+.highlight-banner-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-12);
+  flex-wrap: wrap;
+}
+.highlight-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  background: var(--live-red);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: 0 0 12px var(--live-red-glow);
+}
+.highlight-badge-pulse {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  animation: pulse-live 1.5s infinite;
+}
+.highlight-title {
+  font-family: var(--font-headline);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.highlight-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--primary-container);
+  font-size: 13px;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+.highlight-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* --- Daily Stats Widget (Stitch Analytics) --- */
+.stat-bar-track {
+  width: 100%;
+  height: 6px;
+  border-radius: var(--radius-full);
+  background-color: var(--surface-base);
+  display: flex;
+  overflow: hidden;
+  margin-top: 4px;
+}
+.stat-bar-fill-home {
+  height: 100%;
+  background-color: var(--primary-container);
+  border-radius: var(--radius-full) 0 0 var(--radius-full);
+}
+.stat-bar-fill-away {
+  height: 100%;
+  background-color: var(--secondary);
+  border-radius: 0 var(--radius-full) var(--radius-full) 0;
 }

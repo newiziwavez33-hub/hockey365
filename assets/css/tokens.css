@@ -34,9 +34,10 @@
   --color-penalty: #f97316;
   --color-penalty-bg: #fff7ed;
 
-  /* Typography */
-  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  /* Typography (Stitch: Space Grotesk + Manrope) */
+  --font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-headline: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Space Grotesk', ui-monospace, SFMono-Regular, "SF Mono", monospace;
   
   --font-size-xs: 0.72rem;   /* 11.5px */
   --font-size-sm: 0.8125rem; /* 13px */
@@ -74,7 +75,8 @@
   --radius-xs: 4px;
   --radius-sm: 6px;
   --radius-md: 10px;
-  --radius-lg: 16px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
   --radius-full: 9999px;
 
   /* Shadows */
@@ -87,44 +89,77 @@
   --transition-normal: 220ms cubic-bezier(0.4, 0, 0.2, 1);
 
   /* Layout */
-  --container-max: 1240px;
+  --container-max: 1380px;
   --header-height: 60px;
 }
 
-/* Dark Theme ("Neon Ice Arena") */
+/* Dark Theme ("Apex Ice & Sports Pulse" from Google Stitch) */
 [data-theme="dark"] {
-  --color-bg-primary: #090d16;
-  --color-bg-surface: #101623;
-  --color-bg-surface-hover: #172033;
-  --color-bg-secondary: #131b2c;
-  --color-bg-tertiary: #1e293b;
+  /* Stitch Foundation Surfaces */
+  --surface-base: #0B0E14;
+  --surface-card: #141A23;
+  --surface-elevated: #1A2230;
+  --surface-highlight: #222D3E;
 
-  --color-border: #1e293d;
-  --color-border-subtle: #151e2f;
-  --color-border-focus: #00b4d8;
+  /* Stitch Brand & Accents */
+  --primary-container: #00D2FF;
+  --primary: #A5E7FF;
+  --secondary: #89CEFF;
+  --secondary-container: #00a2e6;
+  --ice-glow: rgba(0, 210, 255, 0.25);
+  --ice-glow-hover: rgba(0, 210, 255, 0.4);
 
-  --color-text-primary: #f8fafc;
-  --color-text-secondary: #94a3b8;
-  --color-text-muted: #64748b;
-  --color-text-inverse: #090d16;
+  /* Stitch Statuses */
+  --live-red: #EF4444;
+  --live-red-glow: rgba(239, 68, 68, 0.35);
+  --win-green: #10B981;
+  --win-green-glow: rgba(16, 185, 129, 0.25);
+  --warning-amber: #F59E0B;
 
-  --color-accent-blue: #00b4d8;
-  --color-accent-blue-hover: #48cae4;
-  --color-accent-cyan: #90e0ef;
-  --color-accent-ice: #002845;
-  --color-accent-glow: rgba(0, 180, 216, 0.3);
+  /* Stitch Typography Colors */
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --text-inverse: #0B0E14;
 
-  --color-live: #ff334b;
-  --color-live-bg: #2d0e14;
-  --color-live-pulse: rgba(255, 51, 75, 0.5);
-  --color-success: #10b981;
-  --color-success-bg: #064e3b;
-  --color-warning: #f59e0b;
-  --color-warning-bg: #451a03;
+  /* Stitch Borders & Glass */
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --border-subtle: rgba(255, 255, 255, 0.05);
+  --border-focus: #00D2FF;
+
+  /* Mappings to Global Tokens */
+  --color-bg-primary: var(--surface-base);
+  --color-bg-surface: var(--surface-card);
+  --color-bg-surface-hover: var(--surface-elevated);
+  --color-bg-secondary: var(--surface-card);
+  --color-bg-tertiary: var(--surface-elevated);
+
+  --color-border: var(--border-glass);
+  --color-border-subtle: var(--border-subtle);
+  --color-border-focus: var(--border-focus);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-text-inverse: var(--text-inverse);
+
+  --color-accent-blue: var(--primary-container);
+  --color-accent-blue-hover: #38bdf8;
+  --color-accent-cyan: var(--primary);
+  --color-accent-ice: var(--surface-highlight);
+  --color-accent-glow: var(--ice-glow);
+
+  --color-live: var(--live-red);
+  --color-live-bg: rgba(239, 68, 68, 0.15);
+  --color-live-pulse: var(--live-red-glow);
+  --color-success: var(--win-green);
+  --color-success-bg: rgba(16, 185, 129, 0.15);
+  --color-warning: var(--warning-amber);
+  --color-warning-bg: rgba(245, 158, 11, 0.15);
   --color-penalty: #fb923c;
-  --color-penalty-bg: #431407;
+  --color-penalty-bg: rgba(251, 146, 60, 0.15);
 
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
-  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.6);
-  --shadow-lg: 0 16px 32px rgba(0, 0, 0, 0.7);
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.7);
 }
