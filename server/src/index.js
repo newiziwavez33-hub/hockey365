@@ -35,6 +35,9 @@ const sseSubscribers = new Set(); // active SSE stream controllers
 const sseSubscriberDates = new Map();
 const livePollers = new Map();
 const liveFingerprints = new Map();
+const NHL_API_BASE = 'https://api-web.nhle.com/v1';
+const NHL_FETCH_TIMEOUT_MS = 6000;
+const LIVE_GAME_STATES = new Set(['LIVE', 'CRIT']);
 
 // Banned words list for chat moderation (RU/EN basic filter)
 const BANNED_PATTERNS = [
@@ -91,57 +94,155 @@ app.get('/api/meta', (c) => {
 // 2. MATCHES API (NHL Live + KHL Confirmed Schedules)
 // ----------------------------------------------------------------------------
 
-app.get('/api/matches', async (c) => {
-  const date = c.req.query('date') || new Date().toISOString().split('T')[0];
-  const league = c.req.query('league')?.toUpperCase();
+function firstDefined(...values) {
+  return values.find(value => value !== undefined && value !== null) ?? null;
+}
 
-  // Try official NHL API first for real-time freshness
+function matchStatus(gameState, clock) {
+  if (gameState === 'FINAL' || gameState === 'OFF') return 'FINISHED';
+  if (LIVE_GAME_STATES.has(gameState)) {
+    return clock?.inIntermission ? 'INTERMISSION' : 'LIVE';
+  }
+  return 'SCHEDULED';
+}
+
+async function fetchOfficialNhlJSON(endpoint) {
+  const response = await fetch(`${NHL_API_BASE}${endpoint}`, {
+    headers: { 'User-Agent': 'Hockey365-Server/2.0' },
+    signal: AbortSignal.timeout(NHL_FETCH_TIMEOUT_MS)
+  });
+  if (!response.ok) {
+    throw new Error(`NHL API ${response.status} for ${endpoint}`);
+  }
+  return response.json();
+}
+
+function mapNhlScheduleGame(game, fetchedAt) {
+  return {
+    id: `nhl:${game.id}`,
+    compId: 'NHL',
+    season: String(game.season || '20262027'),
+    utcDate: game.startTimeUTC,
+    status: matchStatus(game.gameState, game.clock),
+    period: game.periodDescriptor?.number || null,
+    clock: game.clock?.timeRemaining || null,
+    finishedIn: game.gameOutcome?.lastPeriodType || null,
+    home: {
+      id: `nhl:${game.homeTeam?.abbrev?.toLowerCase()}`,
+      score: game.homeTeam?.score ?? null,
+      shots: game.homeTeam?.sog ?? null
+    },
+    away: {
+      id: `nhl:${game.awayTeam?.abbrev?.toLowerCase()}`,
+      score: game.awayTeam?.score ?? null,
+      shots: game.awayTeam?.sog ?? null
+    },
+    source: {
+      provider: 'NHL Web API',
+      official: true,
+      fetchedAt
+    },
+    verifiedExternalUrl: game.gameCenterLink ? `https://www.nhl.com${game.gameCenterLink}` : null
+  };
+}
+
+async function fetchAuthoritativeLiveData(gameId) {
+  const endpoints = [
+    `/gamecenter/${gameId}/boxscore`,
+    `/gamecenter/${gameId}/play-by-play`
+  ];
+  const [boxscoreResult, playByPlayResult] = await Promise.allSettled(
+    endpoints.map(endpoint => fetchOfficialNhlJSON(endpoint))
+  );
+  const boxscore = boxscoreResult.status === 'fulfilled' ? boxscoreResult.value : null;
+  const playByPlay = playByPlayResult.status === 'fulfilled' ? playByPlayResult.value : null;
+  const successfulEndpoints = [
+    boxscore && `${NHL_API_BASE}${endpoints[0]}`,
+    playByPlay && `${NHL_API_BASE}${endpoints[1]}`
+  ].filter(Boolean);
+  return { boxscore, playByPlay, endpoints: successfulEndpoints };
+}
+
+function mergeAuthoritativeLiveData(match, liveData) {
+  const { boxscore, playByPlay, endpoints = [] } = liveData;
+  if (!boxscore && !playByPlay) return match;
+
+  const boxHome = boxscore?.homeTeam || {};
+  const boxAway = boxscore?.awayTeam || {};
+  const pbpHome = playByPlay?.homeTeam || {};
+  const pbpAway = playByPlay?.awayTeam || {};
+  const authoritativeClock = boxscore?.clock || playByPlay?.clock;
+  const gameState = boxscore?.gameState || playByPlay?.gameState || 'LIVE';
+
+  return {
+    ...match,
+    utcDate: firstDefined(boxscore?.startTimeUTC, playByPlay?.startTimeUTC, match.utcDate),
+    status: matchStatus(gameState, authoritativeClock),
+    period: firstDefined(
+      boxscore?.periodDescriptor?.number,
+      playByPlay?.periodDescriptor?.number,
+      match.period
+    ),
+    finishedIn: firstDefined(
+      boxscore?.gameOutcome?.lastPeriodType,
+      playByPlay?.gameOutcome?.lastPeriodType,
+      match.finishedIn
+    ),
+    clock: firstDefined(
+      boxscore?.clock?.timeRemaining,
+      playByPlay?.clock?.timeRemaining,
+      match.clock
+    ),
+    home: {
+      ...match.home,
+      id: firstDefined(boxHome.abbrev, pbpHome.abbrev)
+        ? `nhl:${String(firstDefined(boxHome.abbrev, pbpHome.abbrev)).toLowerCase()}`
+        : match.home.id,
+      score: firstDefined(boxHome.score, pbpHome.score, match.home.score),
+      shots: firstDefined(boxHome.sog, pbpHome.sog, match.home.shots)
+    },
+    away: {
+      ...match.away,
+      id: firstDefined(boxAway.abbrev, pbpAway.abbrev)
+        ? `nhl:${String(firstDefined(boxAway.abbrev, pbpAway.abbrev)).toLowerCase()}`
+        : match.away.id,
+      score: firstDefined(boxAway.score, pbpAway.score, match.away.score),
+      shots: firstDefined(boxAway.sog, pbpAway.sog, match.away.shots)
+    },
+    source: {
+      ...match.source,
+      endpoints
+    }
+  };
+}
+
+async function fetchOfficialNhlMatches(date) {
+  const data = await fetchOfficialNhlJSON(`/schedule/${encodeURIComponent(date)}`);
+  const games = (data?.gameWeek || [])
+    .filter(day => day?.date === date)
+    .flatMap(day => Array.isArray(day.games) ? day.games : []);
+  const fetchedAt = new Date().toISOString();
+
+  return Promise.all(games.map(async game => {
+    const match = mapNhlScheduleGame(game, fetchedAt);
+    if (!LIVE_GAME_STATES.has(game.gameState)) return match;
+
+    // The schedule is intentionally only a discovery endpoint. During LIVE/CRIT
+    // the score and clock come from the authoritative gamecenter endpoints.
+    const liveData = await fetchAuthoritativeLiveData(game.id);
+    return mergeAuthoritativeLiveData(match, liveData);
+  }));
+}
+
+export async function loadMatchesPayload(date) {
   let nhlMatches = [];
   try {
-    const nhlRes = await fetch(`https://api-web.nhle.com/v1/schedule/${encodeURIComponent(date)}`, {
-      headers: { 'User-Agent': 'Hockey365-Server/2.0' },
-      signal: AbortSignal.timeout(6000)
-    });
-    if (nhlRes.ok) {
-      const data = await nhlRes.json();
-      const games = (data?.gameWeek || [])
-        .filter(d => d?.date === date)
-        .flatMap(d => Array.isArray(d.games) ? d.games : []);
-
-      nhlMatches = games.map(g => ({
-        id: `nhl:${g.id}`,
-        compId: 'NHL',
-        season: String(g.season || '20262027'),
-        utcDate: g.startTimeUTC,
-        status: g.gameState === 'FINAL' || g.gameState === 'OFF' ? 'FINISHED'
-          : ['LIVE', 'CRIT'].includes(g.gameState) ? (g.clock?.inIntermission ? 'INTERMISSION' : 'LIVE')
-          : 'SCHEDULED',
-        period: g.periodDescriptor?.number || null,
-        clock: g.clock?.timeRemaining || null,
-        finishedIn: g.gameOutcome?.lastPeriodType || null,
-        home: {
-          id: `nhl:${g.homeTeam?.abbrev?.toLowerCase()}`,
-          score: g.homeTeam?.score ?? null,
-          shots: g.homeTeam?.sog ?? null
-        },
-        away: {
-          id: `nhl:${g.awayTeam?.abbrev?.toLowerCase()}`,
-          score: g.awayTeam?.score ?? null,
-          shots: g.awayTeam?.sog ?? null
-        },
-        source: {
-          provider: 'NHL Web API',
-          official: true,
-          fetchedAt: new Date().toISOString()
-        },
-        verifiedExternalUrl: g.gameCenterLink ? `https://www.nhl.com${g.gameCenterLink}` : null
-      }));
-    }
+    nhlMatches = await fetchOfficialNhlMatches(date);
   } catch (err) {
     console.warn(`NHL live schedule fetch fallback for ${date}:`, err.message);
   }
 
-  // Fallback to local verified snapshots if live API is unavailable
+  // Fallback to local verified snapshots if the official API is unavailable.
   if (!nhlMatches.length) {
     const fallback = readLocalData(`matches/by-date/${date}.json`);
     if (Array.isArray(fallback)) {
@@ -149,16 +250,24 @@ app.get('/api/matches', async (c) => {
     }
   }
 
-  let results = nhlMatches;
-  if (league) {
-    results = results.filter(m => m.compId === league);
-  }
+  return {
+    date,
+    total: nhlMatches.length,
+    matches: nhlMatches,
+    fetchedAt: new Date().toISOString()
+  };
+}
+
+app.get('/api/matches', async (c) => {
+  const date = c.req.query('date') || new Date().toISOString().split('T')[0];
+  const league = c.req.query('league')?.toUpperCase();
+  const payload = await loadMatchesPayload(date);
+  const results = league ? payload.matches.filter(match => match.compId === league) : payload.matches;
 
   return c.json({
-    date,
+    ...payload,
     total: results.length,
-    matches: results,
-    fetchedAt: new Date().toISOString()
+    matches: results
   });
 });
 
@@ -208,9 +317,17 @@ app.get('/api/live', (c) => {
   const date = c.req.query('date') || new Date().toISOString().split('T')[0];
 
   return streamSSE(c, async (stream) => {
+    let heartbeat;
+    let finish;
+    const disconnected = new Promise(resolve => { finish = resolve; });
+    const cleanup = () => {
+      if (heartbeat) clearInterval(heartbeat);
+      removeSseSubscriber(stream);
+      finish();
+    };
     sseSubscribers.add(stream);
     sseSubscriberDates.set(stream, date);
-    ensureLivePoller(date);
+    stream.onAbort(cleanup);
 
     // The first event contains the current official snapshot so a client does
     // not wait for the next 5-second poll before rendering live scores.
@@ -219,64 +336,79 @@ app.get('/api/live', (c) => {
       data: JSON.stringify({ message: 'Hockey365 Live SSE Stream Connected', date, time: new Date().toISOString() })
     });
     try {
-      const response = await app.request(`/api/matches?date=${encodeURIComponent(date)}`);
-      const payload = await response.json();
+      // Call the loader directly. A nested app.request would run logger and
+      // the whole middleware stack again while the SSE stream is open.
+      const payload = liveMatchesPayload(await loadMatchesPayload(date));
+      liveFingerprints.set(date, fingerprintFor(payload));
       await stream.writeSSE({
         event: 'match_update',
-        data: JSON.stringify({ date, matches: payload.matches || [], fetchedAt: payload.fetchedAt })
+        data: JSON.stringify(payload)
       });
     } catch (error) {
       console.warn(`Initial live snapshot failed for ${date}:`, error.message);
     }
 
+    if (stream.aborted) return;
+    ensureLivePoller(date);
+
     // Keep-alive heartbeat every 15s
-    const heartbeat = setInterval(async () => {
+    heartbeat = setInterval(async () => {
       try {
         await stream.writeSSE({
           event: 'heartbeat',
           data: JSON.stringify({ ping: Date.now() })
         });
       } catch {
-        clearInterval(heartbeat);
-        sseSubscribers.delete(stream);
+        cleanup();
       }
     }, 15000);
-
-    stream.onAbort(() => {
-      clearInterval(heartbeat);
-      sseSubscribers.delete(stream);
-      sseSubscriberDates.delete(stream);
-      stopUnusedLivePoller(date);
-    });
+    heartbeat.unref?.();
+    // Hono closes the stream as soon as this callback returns. Timers alone
+    // do not keep the response open: explicitly await client disconnection.
+    await disconnected;
+    cleanup();
   });
 });
 
-function liveMatchesPayload(payload) {
+export function liveMatchesPayload(payload) {
   return {
     date: payload.date,
-    matches: (payload.matches || []).filter(match => ['LIVE', 'INTERMISSION'].includes(match.status)),
+    // The browser replaces its date list with each match_update. Keep the
+    // complete list here, not just active games, so scheduled/finished games
+    // do not disappear after the first SSE update.
+    matches: Array.isArray(payload.matches) ? payload.matches : [],
     fetchedAt: payload.fetchedAt || new Date().toISOString()
   };
 }
 
 function ensureLivePoller(date) {
   if (livePollers.has(date)) return;
+  let inFlight = false;
   const poll = async () => {
+    if (inFlight) return;
+    inFlight = true;
     try {
-      const response = await app.request(`/api/matches?date=${encodeURIComponent(date)}`);
-      const payload = liveMatchesPayload(await response.json());
-      const fingerprint = JSON.stringify(payload.matches);
+      // Reuse the data loader instead of issuing a nested request through the
+      // Hono app while an SSE response is still open.
+      const payload = liveMatchesPayload(await loadMatchesPayload(date));
+      const fingerprint = fingerprintFor(payload);
       if (fingerprint !== liveFingerprints.get(date)) {
         liveFingerprints.set(date, fingerprint);
         await broadcastLiveUpdate(payload, date);
       }
     } catch (error) {
       console.warn(`Live poll failed for ${date}:`, error.message);
+    } finally {
+      inFlight = false;
     }
   };
   const timer = setInterval(poll, 5000);
+  timer.unref?.();
   livePollers.set(date, timer);
-  poll();
+}
+
+function fingerprintFor(payload) {
+  return JSON.stringify(payload.matches.map(({ source, ...match }) => match));
 }
 
 function stopUnusedLivePoller(date) {
@@ -299,9 +431,16 @@ export async function broadcastLiveUpdate(matchEvent, date = matchEvent?.date) {
         data: payload
       });
     } catch {
-      sseSubscribers.delete(stream);
+      removeSseSubscriber(stream);
     }
   }
+}
+
+function removeSseSubscriber(stream) {
+  const date = sseSubscriberDates.get(stream);
+  sseSubscribers.delete(stream);
+  sseSubscriberDates.delete(stream);
+  if (date) stopUnusedLivePoller(date);
 }
 
 // ----------------------------------------------------------------------------

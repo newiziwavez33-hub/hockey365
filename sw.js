@@ -1,10 +1,10 @@
 /**
- * Hockey365 Service Worker (Offline PWA & Smart Network-First Caching v1.8.0)
+ * Hockey365 Service Worker (Offline PWA & Smart Network-First Caching v1.8.1)
  * Always loads the newest assets over network, falling back to cache if offline.
  * This guarantees the user NEVER needs to press Ctrl+F5 to see updates.
  */
 
-const CACHE_NAME = 'hockey365-v1-8-0';
+const CACHE_NAME = 'hockey365-' + encodeURIComponent(self.registration.scope) + '-v1-8-1';
 const STATIC_ASSETS = [
   './',
   'index.html',
@@ -19,6 +19,7 @@ const STATIC_ASSETS = [
   'assets/js/core/i18n.js',
   'assets/js/core/router.js',
   'assets/js/core/api.js',
+  'assets/js/core/feed-status.js',
   'assets/js/components/site-header.js',
   'assets/js/components/site-footer.js',
   'assets/js/components/match-row.js',
@@ -48,7 +49,7 @@ self.addEventListener('activate', (event) => {
     caches.keys().then((keys) => {
       return Promise.all(
         keys.map((key) => {
-          if (key !== CACHE_NAME) {
+          if (key !== CACHE_NAME && (key.startsWith('hockey365-' + encodeURIComponent(self.registration.scope)) || /^hockey365-v/.test(key))) {
             return caches.delete(key);
           }
         })
@@ -62,6 +63,13 @@ self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
 
   const url = new URL(event.request.url);
+  const scopePath = new URL(self.registration.scope).pathname;
+
+  // Never supply cached official/live API responses after a network outage.
+  // Otherwise an old score could be labelled as freshly obtained from NHL.
+  if (url.origin !== self.location.origin ||
+      url.pathname.startsWith(scopePath + 'api/') ||
+      event.request.cache === 'no-store' || url.searchParams.has('_t')) return;
 
   // Network-First for HTML, Scripts, Styles and JSON data
   // Ensures fresh updates on reload without Ctrl+F5

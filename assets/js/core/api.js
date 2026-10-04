@@ -6,6 +6,7 @@ import { CONFIG, getAssetUrl, getDataUrl } from './config.js';
 
 const memoryCache = new Map();
 const NHL_WEB_API_BASE = 'https://api-web.nhle.com/v1';
+let proxyProbe = null;
 
 export async function fetchJSON(url, useCache = true) {
   if (useCache && memoryCache.has(url)) {
@@ -27,8 +28,6 @@ export async function fetchJSON(url, useCache = true) {
         'Accept': 'application/json'
       }
     });
-    clearTimeout(timeoutId);
-
     if (!response.ok) {
       throw new Error(`HTTP Error ${response.status}: ${response.statusText}`);
     }
@@ -39,9 +38,10 @@ export async function fetchJSON(url, useCache = true) {
     }
     return data;
   } catch (error) {
-    clearTimeout(timeoutId);
     console.error(`Fetch failed for ${url}:`, error);
     throw error;
+  } finally {
+    clearTimeout(timeoutId);
   }
 }
 
@@ -225,6 +225,7 @@ function normalizeNhlGame(payload, sourceUrls, fallbackId = null) {
       provider: 'NHL Web API',
       official: true,
       endpoints: sourceUrls,
+      delivery: sourceUrls.some(url => url.includes('/gamecenter/')) ? 'live' : 'schedule',
       fetchedAt: new Date().toISOString()
     }
   };
@@ -275,13 +276,143 @@ function normalizeNhlGame(payload, sourceUrls, fallbackId = null) {
 }
 
 async function fetchNhlJSON(path, useCache = true) {
+  const proxy = await getNhlProxy();
+  if (proxy) {
+    const separator = proxy.includes('?') ? '&' : '?';
+    try {
+      return await fetchJSON(`${proxy}${separator}path=${encodeURIComponent(path.replace(/^\//, ''))}`, useCache);
+    } catch {
+      // A working bridge may have a transient outage. Keep direct official
+      // access as the next choice, and the explicit snapshot as the last one.
+    }
+  }
   return fetchJSON(`${NHL_WEB_API_BASE}${path}`, useCache);
+}
+
+async function getNhlProxy() {
+  if (!CONFIG.NHL_PROXY_URL) return null;
+  if (!proxyProbe) {
+    proxyProbe = (async () => {
+      const proxy = getAssetUrl(CONFIG.NHL_PROXY_URL);
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 2500);
+      try {
+        const response = await fetch(`${proxy}${proxy.includes('?') ? '&' : '?'}health=1`, {
+          signal: controller.signal, cache: 'no-store'
+        });
+        if (!response.ok) return null;
+        const health = await response.json();
+        return health?.hockey365NhlProxy === true ? proxy : null;
+      } catch {
+        // No PHP on a static host is normal, not a match-data error.
+        return null;
+      } finally {
+        clearTimeout(timer);
+      }
+    })();
+  }
+  return proxyProbe;
+}
+
+function withFeed(matches, feed) {
+  Object.defineProperty(matches, 'feed', { value: feed, configurable: true });
+  return matches;
+}
+
+function snapshotMatch(match, meta) {
+  return { ...match, source: {
+    ...match.source, delivery: 'snapshot',
+    fetchedAt: match.source?.fetchedAt || meta?.updatedAt || null
+  } };
+}
+
+function mergeMatchUpdate(snapshot, authoritative) {
+  return {
+    ...snapshot,
+    ...authoritative,
+    // Keep schedule metadata which is not present in gamecenter while letting
+    // the authoritative feed win for score, status, and event data.
+    home: { ...snapshot.home, ...authoritative.home },
+    away: { ...snapshot.away, ...authoritative.away }
+  };
+}
+
+function isActiveNhlMatch(match) {
+  const startedRecently = match?.status === 'SCHEDULED' &&
+    Date.now() >= Date.parse(match.utcDate) && Date.now() - Date.parse(match.utcDate) < 12 * 3600_000;
+  return match?.compId === 'NHL' &&
+    (match.status === 'LIVE' || match.status === 'INTERMISSION' || startedRecently);
+}
+
+async function getNhlGamecenterMatch(matchNumber, useCache = true) {
+  const boxscorePath = `/gamecenter/${matchNumber}/boxscore`;
+  const playByPlayPath = `/gamecenter/${matchNumber}/play-by-play`;
+  const [boxscore, playByPlay] = await Promise.allSettled([
+    fetchNhlJSON(boxscorePath, useCache),
+    fetchNhlJSON(playByPlayPath, useCache)
+  ]);
+  const boxscoreData = boxscore.status === 'fulfilled' && isRecord(boxscore.value) ? boxscore.value : null;
+  const playByPlayData = playByPlay.status === 'fulfilled' && isRecord(playByPlay.value) ? playByPlay.value : null;
+  const endpoints = [];
+  if (boxscoreData) endpoints.push(`${NHL_WEB_API_BASE}${boxscorePath}`);
+  if (playByPlayData) endpoints.push(`${NHL_WEB_API_BASE}${playByPlayPath}`);
+
+  // Boxscore is authoritative for team/game state; play-by-play supplies the
+  // event stream when both endpoints are available.
+  for (const payload of [boxscoreData, playByPlayData]) {
+    const normalized = normalizeNhlGame(payload, endpoints, `nhl:${matchNumber}`);
+    if (!normalized) continue;
+
+    if (playByPlayData && boxscoreData) {
+      const playEvents = normalizeEvents(playByPlayData, playByPlayData.homeTeam, playByPlayData.awayTeam);
+      if (playEvents.length) normalized.events = playEvents;
+      // Some gamecenter responses publish team scores in play-by-play before
+      // the boxscore catches up. Keep boxscore state authoritative, but use
+      // those official PBP scores when the boxscore omits them.
+      if (!hasNumber(normalized.home.score) && hasNumber(playByPlayData.homeTeam?.score)) {
+        normalized.home.score = playByPlayData.homeTeam.score;
+      }
+      if (!hasNumber(normalized.away.score) && hasNumber(playByPlayData.awayTeam?.score)) {
+        normalized.away.score = playByPlayData.awayTeam.score;
+      }
+    }
+    if (typeof playByPlayData?.clock?.timeRemaining === 'string' && normalized.status === 'LIVE') {
+      normalized.clock = playByPlayData.clock.timeRemaining;
+    }
+    normalized.source.endpoints = endpoints;
+    return normalized;
+  }
+  return null;
+}
+
+async function refreshActiveNhlMatches(matches, useCache = false) {
+  if (!Array.isArray(matches)) return [];
+
+  return Promise.all(matches.map(async match => {
+    if (!isActiveNhlMatch(match)) return match;
+    const matchNumber = /^nhl:(\d+)$/i.exec(match.id || '')?.[1];
+    if (!matchNumber) return match;
+
+    try {
+      const authoritative = await getNhlGamecenterMatch(matchNumber, useCache);
+      return authoritative ? mergeMatchUpdate(match, authoritative)
+        : { ...match, source: { ...match.source, delivery: 'schedule' } };
+    } catch (error) {
+      // Keep the official schedule visible when a gamecenter endpoint is
+      // temporarily unavailable. The next poll can recover the live state.
+      console.warn(`NHL gamecenter refresh failed for ${match.id}:`, error);
+      return { ...match, source: { ...match.source, delivery: 'schedule' } };
+    }
+  }));
 }
 
 async function getStaticMatchesByDate(dateStr) {
   const url = getDataUrl(`matches/by-date/${dateStr}.json`);
   const [matches, meta] = await Promise.all([fetchJSON(url, false), getMeta()]);
-  return (Array.isArray(matches) ? matches : []).filter(match => !meta.unverifiedCompetitions?.includes(match.compId));
+  const verified = (Array.isArray(matches) ? matches : [])
+    .filter(match => !meta.unverifiedCompetitions?.includes(match.compId))
+    .map(match => snapshotMatch(match, meta));
+  return withFeed(verified, { mode: 'snapshot', updatedAt: meta.updatedAt || null });
 }
 
 function unavailable(compId) {
@@ -295,11 +426,24 @@ export async function getCompetitions() {
 export async function getMatchesByDate(dateStr, useCache = true) {
   try {
     const data = await fetchNhlJSON(`/schedule/${encodeURIComponent(dateStr)}`, useCache);
-    const games = (data?.gameWeek || [])
+    if (!Array.isArray(data?.gameWeek)) throw new Error('Invalid NHL schedule response');
+    const games = data.gameWeek
       .filter(day => day?.date === dateStr)
       .flatMap(day => Array.isArray(day.games) ? day.games : []);
-    return games.map(game => normalizeNhlGame(game, [`${NHL_WEB_API_BASE}/schedule/${dateStr}`]))
+    const scheduleMatches = games.map(game => normalizeNhlGame(game, [`${NHL_WEB_API_BASE}/schedule/${dateStr}`]))
       .filter(Boolean);
+    // NHL schedule responses can contain only the fixture and a stale score.
+    // Refresh active games from gamecenter before the list reaches the UI.
+    const matches = await refreshActiveNhlMatches(scheduleMatches, useCache);
+    return withFeed(matches, {
+      // A date contains scheduled fixtures as well as active games. The
+      // presence of at least one authoritative gamecenter response means the
+      // live score is connected even though future fixtures still come from
+      // the schedule endpoint.
+      mode: matches.some(match => match.source?.delivery === 'live') ? 'live'
+        : matches.some(match => match.source?.delivery === 'schedule') ? 'partial' : 'unknown',
+      updatedAt: new Date().toISOString()
+    });
   } catch (officialError) {
     // Browsers may reject the NHL API because of CORS or a transient outage.
     // The published snapshot remains the safe, verified fallback.
@@ -317,37 +461,14 @@ export async function getMatch(matchId, useCache = true) {
 
   const matchNumber = /^nhl:(\d+)$/i.exec(matchId)?.[1];
   if (matchNumber) {
-    const boxscorePath = `/gamecenter/${matchNumber}/boxscore`;
-    const playByPlayPath = `/gamecenter/${matchNumber}/play-by-play`;
-    const [boxscore, playByPlay] = await Promise.allSettled([
-      fetchNhlJSON(boxscorePath, useCache),
-      fetchNhlJSON(playByPlayPath, useCache)
-    ]);
-    const boxscoreData = boxscore.status === 'fulfilled' && isRecord(boxscore.value) ? boxscore.value : null;
-    const playByPlayData = playByPlay.status === 'fulfilled' && isRecord(playByPlay.value) ? playByPlay.value : null;
-    const payload = boxscoreData || playByPlayData;
-    if (payload) {
-      const endpoints = [];
-      if (boxscoreData) endpoints.push(`${NHL_WEB_API_BASE}${boxscorePath}`);
-      if (playByPlayData) endpoints.push(`${NHL_WEB_API_BASE}${playByPlayPath}`);
-      const normalized = normalizeNhlGame(payload, endpoints, `nhl:${matchNumber}`);
-      if (normalized) {
-        // Boxscore has the authoritative team/game state while play-by-play
-        // contributes the event stream when both endpoints are available.
-        if (playByPlayData && boxscoreData) {
-          const playEvents = normalizeEvents(playByPlayData, playByPlayData.homeTeam, playByPlayData.awayTeam);
-          if (playEvents.length) normalized.events = playEvents;
-        }
-        if (playByPlayData?.clock && normalized.status === 'LIVE') {
-          normalized.clock = playByPlayData.clock.timeRemaining;
-        }
-        normalized.source.endpoints = endpoints;
-        return normalized;
-      }
-    }
+    const gamecenterMatch = await getNhlGamecenterMatch(matchNumber, useCache);
+    if (gamecenterMatch) return gamecenterMatch;
   }
 
-  return fetchJSON(getDataUrl(`matches/${matchId}.json`), useCache);
+  const [snapshot, meta] = await Promise.all([
+    fetchJSON(getDataUrl(`matches/${matchId}.json`), useCache), getMeta()
+  ]);
+  return snapshotMatch(snapshot, meta);
 }
 
 export async function getTeam(teamId) {
@@ -499,16 +620,19 @@ export function startLivePolling(dateStr, callback, intervalMs = CONFIG.POLL_INT
   poll();
   timer = setInterval(poll, intervalMs);
 
-  // When the Hono backend is deployed on the same origin, consume its SSE
-  // stream for sub-10-second updates. GitHub Pages has no /api/live endpoint;
-  // the official NHL polling above remains the portable fallback.
-  if (typeof EventSource !== 'undefined') {
+  // When the Hono backend is deployed on the same origin, use its SSE stream
+  // as a low-latency trigger. Its payload is schedule-shaped, so do not pass
+  // it directly to the UI: the normal poll refreshes active NHL games from
+  // authoritative gamecenter endpoints and keeps non-live matches in view.
+  if (CONFIG.LIVE_SSE_URL && typeof EventSource !== 'undefined') {
     try {
-      liveStream = new EventSource(getAssetUrl(`api/live?date=${encodeURIComponent(dateStr)}`));
+      const streamUrl = getAssetUrl(CONFIG.LIVE_SSE_URL);
+      const separator = streamUrl.includes('?') ? '&' : '?';
+      liveStream = new EventSource(`${streamUrl}${separator}date=${encodeURIComponent(dateStr)}`);
       liveStream.addEventListener('match_update', event => {
         try {
           const payload = JSON.parse(event.data);
-          if (!isCancelled && Array.isArray(payload.matches)) callback(null, payload.matches);
+          if (!isCancelled && Array.isArray(payload.matches)) poll();
         } catch (error) {
           console.warn('Invalid live stream payload', error);
         }

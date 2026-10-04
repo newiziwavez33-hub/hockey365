@@ -292,6 +292,143 @@ def sync_nhl_star_players(output_data_dir):
         except Exception as e:
             print(f"Failed to fetch player {p_id}:", e)
 
+
+def _nhl_status(game_state, clock=None, schedule_state=None):
+    raw = str(game_state or '').upper()
+    schedule = str(schedule_state or '').upper()
+    if raw in ('PPD', 'POSTPONED') or schedule == 'PPD':
+        return 'POSTPONED'
+    if raw in ('CAN', 'CNCL', 'CANCELLED'):
+        return 'CANCELLED'
+    if raw in ('FINAL', 'OFF'):
+        return 'FINISHED'
+    if raw in ('LIVE', 'CRIT'):
+        return 'INTERMISSION' if (clock or {}).get('inIntermission') is True else 'LIVE'
+    return 'SCHEDULED'
+
+
+def _nhl_player_id(value):
+    return f"nhl:p_{value}" if value is not None else None
+
+
+def _nhl_event_name_map(play_by_play):
+    names = {}
+    for spot in play_by_play.get('rosterSpots', []):
+        player_id = spot.get('playerId')
+        first = (spot.get('firstName') or {}).get('default', '')
+        last = (spot.get('lastName') or {}).get('default', '')
+        if player_id is not None and (first or last):
+            names[str(player_id)] = ' '.join(part for part in (first, last) if part)
+    return names
+
+
+def _normalize_nhl_events(play_by_play):
+    if not isinstance(play_by_play, dict):
+        return []
+    home_id = play_by_play.get('homeTeam', {}).get('id')
+    away_id = play_by_play.get('awayTeam', {}).get('id')
+    names = _nhl_event_name_map(play_by_play)
+    events = []
+    for play in play_by_play.get('plays', []):
+        kind = str(play.get('typeDescKey', '')).lower()
+        if kind not in ('goal', 'penalty', 'shootout-shot', 'shootout-complete'):
+            continue
+        period = play.get('periodDescriptor', {})
+        details = play.get('details') or {}
+        event_type = 'GOAL' if kind == 'goal' else 'PENALTY' if kind == 'penalty' else 'SHOOTOUT'
+        event = {'type': event_type}
+        if isinstance(period.get('number'), int):
+            event['period'] = period['number']
+        if isinstance(play.get('timeInPeriod'), str):
+            event['time'] = play['timeInPeriod']
+        owner_id = details.get('eventOwnerTeamId')
+        if str(owner_id) == str(home_id):
+            event['team'] = 'home'
+        elif str(owner_id) == str(away_id):
+            event['team'] = 'away'
+
+        player_value = details.get('scoringPlayerId') if event_type == 'GOAL' else details.get('committedByPlayerId')
+        player_id = _nhl_player_id(player_value)
+        if player_id:
+            event['playerId'] = player_id
+            if str(player_value) in names:
+                event['playerName'] = names[str(player_value)]
+        if event_type == 'GOAL':
+            assists = [_nhl_player_id(details.get(key)) for key in ('assist1PlayerId', 'assist2PlayerId')]
+            assists = [value for value in assists if value]
+            if assists:
+                event['assists'] = assists
+            if isinstance(details.get('homeScore'), int) and isinstance(details.get('awayScore'), int):
+                event['score'] = f"{details['homeScore']}-{details['awayScore']}"
+        elif event_type == 'PENALTY':
+            if isinstance(details.get('duration'), int):
+                event['minutes'] = details['duration']
+            if isinstance(details.get('descKey'), str):
+                event['reason'] = details['descKey']
+        if isinstance(play.get('sortOrder'), int):
+            event['order'] = play['sortOrder']
+        events.append(event)
+    return events
+
+
+def _hydrate_nhl_live_match(match_obj, game_id):
+    """Hydrate an active snapshot from official gamecenter endpoints.
+
+    This runs in GitHub Actions, so the static site receives current scores
+    even when a browser cannot call api-web.nhle.com because of CORS.
+    """
+    boxscore = None
+    play_by_play = None
+    boxscore_url = f'https://api-web.nhle.com/v1/gamecenter/{game_id}/boxscore'
+    play_by_play_url = f'https://api-web.nhle.com/v1/gamecenter/{game_id}/play-by-play'
+    try:
+        boxscore = fetch_nhl_url(boxscore_url)
+    except Exception as exc:
+        print(f'  [Live] boxscore {game_id} unavailable: {exc}')
+    try:
+        play_by_play = fetch_nhl_url(play_by_play_url)
+    except Exception as exc:
+        print(f'  [Live] play-by-play {game_id} unavailable: {exc}')
+
+    payload = boxscore or play_by_play
+    if not isinstance(payload, dict):
+        return match_obj
+
+    clock = payload.get('clock') or (play_by_play or {}).get('clock') or {}
+    match_obj['status'] = _nhl_status(payload.get('gameState'), clock, payload.get('gameScheduleState'))
+    period = (payload.get('periodDescriptor') or {}).get('number')
+    if isinstance(period, int):
+        match_obj['period'] = period
+    if isinstance(clock.get('timeRemaining'), str):
+        match_obj['clock'] = clock['timeRemaining']
+
+    home = (boxscore or {}).get('homeTeam') or (play_by_play or {}).get('homeTeam') or {}
+    away = (boxscore or {}).get('awayTeam') or (play_by_play or {}).get('awayTeam') or {}
+    for side, official_team in (('home', home), ('away', away)):
+        if official_team.get('score') is not None:
+            match_obj[side]['score'] = official_team['score']
+        if official_team.get('sog') is not None:
+            match_obj[side]['shots'] = official_team['sog']
+
+    if match_obj['status'] == 'FINISHED':
+        period_type = (payload.get('gameOutcome') or {}).get('lastPeriodType') or (payload.get('periodDescriptor') or {}).get('periodType')
+        match_obj['finishedIn'] = period_type if period_type in ('REG', 'OT', 'SO') else None
+
+    if play_by_play:
+        match_obj['events'] = _normalize_nhl_events(play_by_play)
+    if match_obj['home'].get('shots') is not None and match_obj['away'].get('shots') is not None:
+        match_obj['stats'] = {
+            'shots': [match_obj['home']['shots'], match_obj['away']['shots']],
+            'shotsOnGoal': [match_obj['home']['shots'], match_obj['away']['shots']]
+        }
+    match_obj['source'] = {
+        'provider': 'NHL Web API',
+        'official': True,
+        'endpoints': [url for url, data in ((boxscore_url, boxscore), (play_by_play_url, play_by_play)) if data],
+        'fetchedAt': datetime.now(timezone.utc).isoformat()
+    }
+    return match_obj
+
 def sync_nhl_schedule(output_data_dir):
     url = 'https://api-web.nhle.com/v1/schedule/now'
     data = fetch_nhl_url(url)
@@ -368,6 +505,9 @@ def sync_nhl_schedule(output_data_dir):
                 "stats": None,
                 "h2h": []
             }
+
+            if status in ('LIVE', 'INTERMISSION'):
+                match_obj = _hydrate_nhl_live_match(match_obj, g.get('id'))
 
             # The public schedule exposes an official NHL Gamecenter page, but
             # not a guaranteed playable stream URL. Keep that distinction

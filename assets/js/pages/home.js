@@ -4,7 +4,8 @@
  */
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
-import { getMatchesByDate, getCompetitions, getNews, getStandings, getMeta, getMatch, startLivePolling } from '../core/api.js';
+import { getMatchesByDate, getCompetitions, getNews, getStandings, getMeta, getMatch, getLeaders, getPlayer, startLivePolling } from '../core/api.js';
+import { getFeedStatus, formatFeedStatus } from '../core/feed-status.js';
 import { getTodayISODate, formatDate, formatScore, formatPosition, formatPeriodStatus } from '../core/format.js';
 import { getParam, setParam, buildLink } from '../core/router.js';
 import { createDatepicker } from '../components/datepicker.js';
@@ -43,7 +44,7 @@ export async function initHomePage() {
   const defaultDate = cachedMeta?.activeDate || availableDates[0] || getTodayISODate();
   const notice = qs('#snapshot-notice');
   if (notice && cachedMeta?.updatedAt) {
-    notice.textContent = `Live: официальный NHL Web API, опрос каждые 10с. Срез ${formatDate(cachedMeta.updatedAt, 'full')} используется только как fallback.`;
+    notice.textContent = 'Проверяется подключение к официальному источнику NHL…';
   }
 
   // Smart date fallback
@@ -155,7 +156,7 @@ export async function initHomePage() {
 
     const liveBadge = el('div', { className: 'live-pulse-badge', style: { marginLeft: 'auto' } },
       el('span', { className: 'pulse-dot' }),
-      el('span', {}, 'Live-обновление 10с')
+      el('span', {}, getFeedStatus(latestMatches).mode === 'live' ? 'NHL · опрос 10 с' : 'Счёт: сохранённый срез / проверка')
     );
     subtoolbarChipsContainer.appendChild(liveBadge);
   }
@@ -303,16 +304,17 @@ export async function initHomePage() {
     renderLoading(matchesContainer, 4);
 
     if (stopPolling) stopPolling();
+    latestMatches = [];
 
     stopPolling = startLivePolling(activeDate, (err, matches) => {
       if (err) {
-        latestMatches = [];
-        if (highlightBannerContainer) highlightBannerContainer.replaceChildren();
-        renderError(matchesContainer, 'Не удалось загрузить матчи выбранной даты', loadMatchesForDate);
+        if (notice) notice.textContent = 'Обновление не удалось; ранее полученные данные могут устареть.';
+        if (!latestMatches.length) renderError(matchesContainer, 'Не удалось загрузить матчи выбранной даты', loadMatchesForDate);
         return;
       }
 
       latestMatches = matches || [];
+      if (notice) notice.textContent = formatFeedStatus(latestMatches);
       trackMatchUpdates(latestMatches, cachedTeamsMap);
       renderHeroMatchBanner(highlightBannerContainer, latestMatches);
       updateSubtoolbarChips();
@@ -321,6 +323,8 @@ export async function initHomePage() {
   }
 
   loadMatchesForDate();
+
+  window.addEventListener('pagehide', () => stopPolling?.(), { once: true });
 
   // Load Right Rail Widgets and Featured News
   renderPlayerOfTheWeekWidget(sidebarPotwContainer);

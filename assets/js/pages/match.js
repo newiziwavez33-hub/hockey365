@@ -4,6 +4,7 @@
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
 import { getMatch, getTeam, startMatchPolling } from '../core/api.js';
+import { formatFeedStatus } from '../core/feed-status.js';
 import { getParam, setParam, buildLink } from '../core/router.js';
 import { createTabs } from '../components/tabs.js';
 import { createLinesBoard } from '../components/lines-board.js';
@@ -194,6 +195,9 @@ export async function initMatchPage() {
     );
 
     headerSlot.appendChild(headerCard);
+    headerSlot.appendChild(el('p', {
+      className: 'text-sm text-muted', role: 'status', 'aria-live': 'polite', id: 'match-feed-status'
+    }, formatFeedStatus(match)));
   }
 
   renderMatchHeader();
@@ -248,7 +252,11 @@ export async function initMatchPage() {
   // Real-time live polling for active/scheduled matches
   if (match.status !== 'FINISHED') {
     const stopPolling = startMatchPolling(matchId, (err, updated) => {
-      if (err || !updated) return;
+      if (err || !updated) {
+        const status = qs('#match-feed-status');
+        if (status) status.textContent = 'Обновление не удалось; ранее полученный счёт может устареть.';
+        return;
+      }
 
       const oldHome = Number(match.home?.score ?? 0);
       const oldAway = Number(match.away?.score ?? 0);
@@ -277,7 +285,7 @@ export async function initMatchPage() {
       }
     }, 10000);
 
-    window.addEventListener('beforeunload', () => stopPolling());
+    window.addEventListener('pagehide', () => stopPolling(), { once: true });
   }
 }
 

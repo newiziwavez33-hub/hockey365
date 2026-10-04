@@ -52,6 +52,53 @@ def test_nhl_schedule_keeps_official_gamecenter_as_verified_external_link(tmp_pa
     }
 
 
+def test_nhl_live_schedule_hydrates_score_from_official_gamecenter(tmp_path, monkeypatch):
+    calls = []
+
+    def fetch(url):
+        calls.append(url)
+        if url.endswith('/schedule/now'):
+            return {'gameWeek': [{'date': '2026-10-04', 'games': [{
+                'id': 2026020003, 'gameType': 2, 'gameState': 'LIVE',
+                'startTimeUTC': '2026-10-04T17:00:00Z',
+                'periodDescriptor': {'number': 1, 'periodType': 'REG'},
+                'homeTeam': {'abbrev': 'DET'}, 'awayTeam': {'abbrev': 'WPG'},
+            }]}]}
+        if url.endswith('/boxscore'):
+            return {
+                'gameState': 'LIVE',
+                'periodDescriptor': {'number': 2, 'periodType': 'REG'},
+                'clock': {'timeRemaining': '15:48', 'inIntermission': False},
+                'homeTeam': {'abbrev': 'DET', 'score': 0, 'sog': 14},
+                'awayTeam': {'abbrev': 'WPG', 'score': 2, 'sog': 15},
+            }
+        if url.endswith('/play-by-play'):
+            return {
+                'homeTeam': {'id': 17, 'abbrev': 'DET'},
+                'awayTeam': {'id': 52, 'abbrev': 'WPG'},
+                'plays': [{
+                    'typeDescKey': 'goal',
+                    'periodDescriptor': {'number': 1, 'periodType': 'REG'},
+                    'timeInPeriod': '04:12', 'sortOrder': 10,
+                    'details': {'eventOwnerTeamId': 52, 'scoringPlayerId': 99,
+                                'awayScore': 1, 'homeScore': 0},
+                }],
+            }
+        raise AssertionError(url)
+
+    monkeypatch.setattr(nhl_web, 'fetch_nhl_url', fetch)
+    nhl_web.sync_nhl_schedule(tmp_path)
+    match = json.loads((tmp_path / 'matches' / 'nhl:2026020003.json').read_text())
+    assert match['status'] == 'LIVE'
+    assert match['home']['score'] == 0
+    assert match['away']['score'] == 2
+    assert match['period'] == 2
+    assert match['clock'] == '15:48'
+    assert match['events'][0]['type'] == 'GOAL'
+    assert match['stats']['shotsOnGoal'] == [14, 15]
+    assert any(url.endswith('/boxscore') for url in calls)
+
+
 def test_normalizer_does_not_modify_unverified_scores_or_freshness(tmp_path):
     data = tmp_path / 'data'
     dates = data / 'matches' / 'by-date'

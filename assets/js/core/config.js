@@ -21,7 +21,7 @@ function computeBasePath() {
 
 export const CONFIG = {
   SITE_NAME: 'Hockey365',
-  VERSION: '1.8.0',
+  VERSION: '1.8.1',
   BASE_PATH: computeBasePath(),
   POLL_INTERVAL_LIVE_MS: 10000, // 10s fast polling for real-time live matches
   POLL_INTERVAL_IDLE_MS: 25000, // 25s polling for non-live schedules
@@ -29,6 +29,14 @@ export const CONFIG = {
   SUPPORTED_LEAGUES: ['KHL', 'NHL', 'VHL', 'MHL'],
   API_TIMEOUT_MS: 12000,
   CACHE_TTL_MS: 60000, // 1 min memory cache
+  // Optional, zero-Node same-origin PHP bridge. Static hosting gracefully
+  // ignores it; an HTTPS bridge on another origin can also be configured.
+  NHL_PROXY_URL: 'api/nhl.php',
+  // SSE is opt-in, not an assumed Node endpoint on every static hosting.
+  // Set this to an absolute backend URL (or `api/live` when the Node server
+  // shares the origin) to enable the low-latency trigger; polling remains the
+  // portable default.
+  LIVE_SSE_URL: '',
 };
 
 export function getAssetUrl(relPath) {

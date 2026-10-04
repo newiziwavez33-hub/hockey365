@@ -12,12 +12,13 @@ globalThis.document = {
   }
 };
 
-const { getMatchesByDate, getMatch, getPlayer } = await import('../assets/js/core/api.js');
+const { getMatchesByDate, getMatch, getPlayer, startLivePolling } = await import('../assets/js/core/api.js');
+const { CONFIG } = await import('../assets/js/core/config.js');
 
-function response(data) {
+function response(data, status = 200) {
   return {
-    ok: true,
-    status: 200,
+    ok: status >= 200 && status < 300,
+    status,
     statusText: 'OK',
     async json() { return data; }
   };
@@ -44,8 +45,11 @@ function scheduleGame(overrides = {}) {
 test('date schedule prefers official NHL data and does not invent events', async () => {
   const calls = [];
   globalThis.fetch = async url => {
-    calls.push(String(url));
-    assert.match(String(url), /^https:\/\/api-web\.nhle\.com\/v1\/schedule\/2026-10-04/);
+    const value = String(url);
+    calls.push(value);
+    if (value.includes('/api/nhl.php?health=1')) return response({ error: 'static host' }, 404);
+    if (!value.includes('/schedule/')) throw new Error('gamecenter unavailable');
+    assert.match(value, /^https:\/\/api-web\.nhle\.com\/v1\/schedule\/2026-10-04/);
     return response({
       gameWeek: [
         { date: '2026-10-03', games: [scheduleGame({ id: 1 })] },
@@ -55,7 +59,8 @@ test('date schedule prefers official NHL data and does not invent events', async
   };
 
   const matches = await getMatchesByDate('2026-10-04', false);
-  assert.equal(calls.length, 1);
+  assert.equal(calls.filter(url => url.includes('/schedule/')).length, 1);
+  assert.equal(calls.filter(url => url.includes('/gamecenter/')).length, 2);
   assert.equal(matches.length, 1);
   assert.deepEqual(matches[0].home, { id: 'nhl:buf', score: 2, shots: 18 });
   assert.deepEqual(matches[0].away, { id: 'nhl:chi', score: 1, shots: 14 });
@@ -65,6 +70,132 @@ test('date schedule prefers official NHL data and does not invent events', async
   assert.deepEqual(matches[0].events, []);
   assert.equal(matches[0].source.provider, 'NHL Web API');
   assert.equal(matches[0].source.official, true);
+  assert.equal(matches.feed.mode, 'partial');
+});
+
+test('live list polling replaces stale schedule score/status/events with gamecenter data', async () => {
+  const states = [
+    {
+      gameState: 'LIVE',
+      periodDescriptor: { number: 2, periodType: 'REG' },
+      clock: { timeRemaining: '04:10', inIntermission: false },
+      homeScore: 2,
+      awayScore: 1,
+      plays: [{
+        typeDescKey: 'goal',
+        periodDescriptor: { number: 2, periodType: 'REG' },
+        timeInPeriod: '12:00',
+        sortOrder: 200,
+        details: { eventOwnerTeamId: 7, scoringPlayerId: 8477987, homeScore: 2, awayScore: 1 }
+      }]
+    },
+    {
+      gameState: 'OFF',
+      periodDescriptor: { number: 3, periodType: 'REG' },
+      gameOutcome: { lastPeriodType: 'REG' },
+      homeScore: 3,
+      awayScore: 1,
+      plays: [
+        {
+          typeDescKey: 'goal',
+          periodDescriptor: { number: 2, periodType: 'REG' },
+          timeInPeriod: '12:00',
+          sortOrder: 200,
+          details: { eventOwnerTeamId: 7, scoringPlayerId: 8477987, homeScore: 2, awayScore: 1 }
+        },
+        {
+          typeDescKey: 'goal',
+          periodDescriptor: { number: 3, periodType: 'REG' },
+          timeInPeriod: '18:21',
+          sortOrder: 300,
+          details: { eventOwnerTeamId: 7, scoringPlayerId: 8477987, homeScore: 3, awayScore: 1 }
+        }
+      ]
+    }
+  ];
+  let scheduleCalls = 0;
+  let boxscoreCalls = 0;
+  // The schedule is a fixture/discovery feed here: it has teams and status,
+  // but deliberately no current score or event stream.
+  const sourceGame = scheduleGame({ homeTeam: { id: 7, abbrev: 'BUF' }, awayTeam: { id: 16, abbrev: 'CHI' }, plays: [] });
+  const futureGame = scheduleGame({
+    id: 2026020100,
+    gameState: 'FUT',
+    clock: null,
+    homeTeam: { id: 8, abbrev: 'BOS' },
+    awayTeam: { id: 9, abbrev: 'NYR' }
+  });
+  const eventSources = [];
+
+  class MockEventSource {
+    constructor(url) {
+      this.url = url;
+      this.listeners = new Map();
+      this.closed = false;
+      eventSources.push(this);
+    }
+    addEventListener(name, listener) { this.listeners.set(name, listener); }
+    emit(name, data) { this.listeners.get(name)?.({ data: JSON.stringify(data) }); }
+    close() { this.closed = true; }
+  }
+  globalThis.EventSource = MockEventSource;
+  CONFIG.LIVE_SSE_URL = 'api/live';
+
+  globalThis.fetch = async url => {
+    const value = String(url);
+    if (value.includes('/schedule/')) {
+      scheduleCalls++;
+      return response({ gameWeek: [{ date: '2026-10-04', games: [sourceGame, futureGame] }] });
+    }
+    const isBoxscore = value.includes('/boxscore');
+    const stateIndex = isBoxscore ? boxscoreCalls++ : Math.max(0, boxscoreCalls - 1);
+    const state = states[Math.min(stateIndex, states.length - 1)];
+    return response({
+      id: sourceGame.id,
+      season: 20262027,
+      gameType: 2,
+      startTimeUTC: sourceGame.startTimeUTC,
+      gameState: state.gameState,
+      periodDescriptor: state.periodDescriptor,
+      gameOutcome: state.gameOutcome,
+      clock: state.clock,
+      awayTeam: { id: 16, abbrev: 'CHI', score: state.awayScore, sog: 15 },
+      homeTeam: { id: 7, abbrev: 'BUF', score: state.homeScore, sog: 20 },
+      plays: state.plays
+    });
+  };
+
+  const updates = [];
+  const feedModes = [];
+  const stop = startLivePolling('2026-10-04', (error, matches) => {
+    assert.equal(error, null);
+    updates.push(matches[0]);
+    feedModes.push(matches.feed.mode);
+  }, 60_000);
+  await new Promise(resolve => setTimeout(resolve, 0));
+  assert.equal(scheduleCalls, 1);
+  assert.equal(updates[0].home.score, 2);
+  assert.equal(updates[0].status, 'LIVE');
+  assert.equal(updates[0].events.length, 1);
+  assert.equal(updates[0].source.delivery, 'live');
+
+  eventSources[0].emit('match_update', { matches: [sourceGame] });
+  await new Promise(resolve => setTimeout(resolve, 0));
+  assert.equal(scheduleCalls, 2);
+  assert.equal(updates[1].home.score, 3);
+  assert.equal(updates[1].away.score, 1);
+  assert.equal(updates[1].status, 'FINISHED');
+  assert.equal(updates[1].events.length, 2);
+  assert.equal(updates[1].source.delivery, 'live');
+  assert.equal(feedModes[1], 'live');
+
+  stop();
+  CONFIG.LIVE_SSE_URL = '';
+  assert.equal(eventSources[0].closed, true);
+  const updateCount = updates.length;
+  eventSources[0].emit('match_update', { matches: [sourceGame] });
+  await new Promise(resolve => setTimeout(resolve, 0));
+  assert.equal(updates.length, updateCount);
 });
 
 test('gamecenter combines boxscore with play-by-play and keeps official event fields', async () => {
@@ -156,6 +287,8 @@ test('official network failure falls back to static JSON and keeps KHL hidden', 
 
   const matches = await getMatchesByDate('2099-01-02', false);
   assert.deepEqual(matches.map(match => match.id), ['nhl:static']);
+  assert.equal(matches.feed.mode, 'snapshot');
+  assert.equal(matches[0].source.delivery, 'snapshot');
 });
 
 test('NHL player dossiers use official landing data and official headshots', async () => {

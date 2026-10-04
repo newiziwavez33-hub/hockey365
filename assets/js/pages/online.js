@@ -4,6 +4,7 @@
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
 import { getMatchesByDate, getCompetitions, getMeta, startLivePolling } from '../core/api.js';
+import { formatFeedStatus, getFeedStatus } from '../core/feed-status.js';
 import { getTodayISODate, formatDate } from '../core/format.js';
 import { createMatchRow, KNOWN_TEAMS } from '../components/match-row.js';
 import { trackMatchUpdates } from '../core/live-tracker.js';
@@ -46,7 +47,7 @@ export async function initOnlinePage() {
   const statusBar = el('div', { className: 'live-status-bar' },
     el('div', { className: 'live-countdown-text' },
       el('span', { className: 'live-dot' }),
-      el('span', { id: 'live-ticker-text' }, 'Прямой эфир: обновление каждые 10с')
+      el('span', { id: 'live-ticker-text' }, 'Проверяется источник счёта…')
     ),
     el('button', {
       className: 'live-refresh-btn',
@@ -81,7 +82,8 @@ export async function initOnlinePage() {
       if (pollCountdown <= 0) pollCountdown = 10;
       const ticker = qs('#live-ticker-text');
       if (ticker) {
-        ticker.textContent = `Прямой эфир: следующее обновление через ${pollCountdown}с`;
+        const mode = getFeedStatus(currentMatchesList).mode;
+        ticker.textContent = `${mode === 'live' ? 'NHL API' : 'Сохранённый срез / проверка'}: следующая проверка через ${pollCountdown} с`;
       }
     }, 1000);
   }
@@ -209,24 +211,22 @@ export async function initOnlinePage() {
   async function startLiveCenter() {
     renderLoading(container, 4);
     try {
-      const meta = await getMeta();
       const today = getTodayISODate();
       const urlDate = getParam('date');
-      const targetDate = urlDate || (meta?.availableDates?.includes(today) ? today : meta?.activeDate || meta?.availableDates?.[0]);
-      if (!targetDate) throw new Error('No snapshot dates');
+      // Live must track today's games, not an old activeDate in repository metadata.
+      const targetDate = urlDate || today;
 
       if (stopPolling) stopPolling();
 
       stopPolling = startLivePolling(targetDate, (err, matches) => {
         if (err) {
-          if (updatedStamp) updatedStamp.textContent = 'Ошибка подключения к серверу';
+          if (updatedStamp) updatedStamp.textContent = 'Обновление не удалось; ранее полученный счёт может устареть.';
+          if (!currentMatchesList.length) renderError(container, 'Не удалось получить матчи', startLiveCenter);
           return;
         }
 
-        const now = new Date();
-        const timeStr = now.toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
         if (updatedStamp) {
-          updatedStamp.innerHTML = `Обновлено в ${timeStr} • <span style="color: var(--primary-container);">В реальном времени</span>`;
+          updatedStamp.textContent = formatFeedStatus(matches);
         }
 
         currentMatchesList = matches || [];
@@ -243,4 +243,8 @@ export async function initOnlinePage() {
   }
 
   startLiveCenter();
+  window.addEventListener('pagehide', () => {
+    stopPolling?.();
+    clearInterval(countdownTimer);
+  }, { once: true });
 }
