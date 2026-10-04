@@ -10,7 +10,7 @@
   "nationality": "CAN",
   "number": 29,
   "teamId": "nhl:col",
-  "photo": "/assets/images/players/mackinnon.png",
+  "photo": "https://assets.nhle.com/mugs/nhl/20262027/COL/8477492.png",
   "stats": [
     {
       "season": "2026/27",
@@ -24,5 +24,11 @@
       "shots": 12
     }
   ],
-  "career": []
+  "career": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoint": "https://api-web.nhle.com/v1/player/8477492/landing",
+    "fetchedAt": "2026-10-04T17:37:07.644033+00:00"
+  }
 }

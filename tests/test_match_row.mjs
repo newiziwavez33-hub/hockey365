@@ -39,7 +39,7 @@ globalThis.window = {
   history: { replaceState() {}, pushState() {} }
 };
 
-const { createMatchGridCardStitch } = await import('../assets/js/components/match-row.js');
+const { createMatchGridCardStitch, createMatchRow } = await import('../assets/js/components/match-row.js');
 const { store } = await import('../assets/js/core/store.js');
 
 function fixture(id) {
@@ -126,4 +126,16 @@ test('favorite toggle keeps accessible name and pressed state in sync', () => {
   } finally {
     if (store.isFavorite('matches', match.id) !== original) store.toggleFavorite('matches', match.id);
   }
+});
+
+test('createMatchRow renders full 7-column Stitch row with status, teams, and score', () => {
+  const match = fixture('nhl:2026020027');
+  const row = createMatchRow(match);
+  assert.equal(find(row, 'match-card-stitch') !== null || row.className.includes('match-card-stitch'), true);
+  assert.notEqual(find(row, 'match-col-status'), null);
+  assert.notEqual(find(row, 'match-col-7grid'), null);
+  assert.notEqual(find(row, 'score-pill-box'), null);
+  assert.match(row.textContent, /Коламбус Блю Джекетс/);
+  assert.match(row.textContent, /Юта Хоккей Клаб/);
+  assert.match(row.textContent, /1.*:.*4/);
 });

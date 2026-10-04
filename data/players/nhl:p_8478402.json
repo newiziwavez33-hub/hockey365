@@ -10,7 +10,7 @@
   "nationality": "CAN",
   "number": 97,
   "teamId": "nhl:edm",
-  "photo": "/assets/images/players/mcdavid.png",
+  "photo": "https://assets.nhle.com/mugs/nhl/20262027/EDM/8478402.png",
   "stats": [
     {
       "season": "2026/27",
@@ -24,5 +24,11 @@
       "shots": 7
     }
   ],
-  "career": []
+  "career": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoint": "https://api-web.nhle.com/v1/player/8478402/landing",
+    "fetchedAt": "2026-10-04T17:37:07.644437+00:00"
+  }
 }

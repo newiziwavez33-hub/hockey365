@@ -10,7 +10,7 @@
   "nationality": "USA",
   "number": 34,
   "teamId": "nhl:tor",
-  "photo": "/assets/images/players/matthews.png",
+  "photo": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8479318.png",
   "stats": [
     {
       "season": "2026/27",
@@ -24,5 +24,11 @@
       "shots": 10
     }
   ],
-  "career": []
+  "career": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoint": "https://api-web.nhle.com/v1/player/8479318/landing",
+    "fetchedAt": "2026-10-04T17:37:07.644681+00:00"
+  }
 }

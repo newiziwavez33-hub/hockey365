@@ -12,7 +12,7 @@ globalThis.document = {
   }
 };
 
-const { getMatchesByDate, getMatch } = await import('../assets/js/core/api.js');
+const { getMatchesByDate, getMatch, getPlayer } = await import('../assets/js/core/api.js');
 
 function response(data) {
   return {
@@ -156,4 +156,28 @@ test('official network failure falls back to static JSON and keeps KHL hidden', 
 
   const matches = await getMatchesByDate('2099-01-02', false);
   assert.deepEqual(matches.map(match => match.id), ['nhl:static']);
+});
+
+test('NHL player dossiers use official landing data and official headshots', async () => {
+  globalThis.fetch = async url => {
+    const value = String(url);
+    if (value.includes('/data/meta.json')) return response({ unverifiedCompetitions: ['KHL'] });
+    assert.match(value, /api-web\.nhle\.com\/v1\/player\/8478402\/landing/);
+    return response({
+      playerId: 8478402,
+      firstName: { default: 'Connor' },
+      lastName: { default: 'McDavid' },
+      position: 'C',
+      currentTeamAbbrev: 'EDM',
+      headshot: 'https://assets.nhle.com/mugs/nhl/20262027/EDM/8478402.png',
+      seasonTotals: [{ season: 20262027, leagueAbbrev: 'NHL', gamesPlayed: 7, goals: 7, assists: 7, points: 14 }]
+    });
+  };
+
+  const player = await getPlayer('nhl:p_8478402');
+  assert.equal(player.source.official, true);
+  assert.equal(player.photo, 'https://assets.nhle.com/mugs/nhl/20262027/EDM/8478402.png');
+  assert.deepEqual(player.stats[0], {
+    season: '2026/27', compId: 'NHL', gp: 7, g: 7, a: 7, pts: 14
+  });
 });

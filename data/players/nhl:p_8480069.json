@@ -10,7 +10,7 @@
   "nationality": "CAN",
   "number": 8,
   "teamId": "nhl:col",
-  "photo": "/assets/images/players/makar.png",
+  "photo": "https://assets.nhle.com/mugs/nhl/20262027/COL/8480069.png",
   "stats": [
     {
       "season": "2026/27",
@@ -24,5 +24,11 @@
       "shots": 4
     }
   ],
-  "career": []
+  "career": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoint": "https://api-web.nhle.com/v1/player/8480069/landing",
+    "fetchedAt": "2026-10-04T17:37:07.643594+00:00"
+  }
 }

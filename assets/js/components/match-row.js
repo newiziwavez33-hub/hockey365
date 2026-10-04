@@ -309,14 +309,19 @@ export function createMatchRow(match, teamsMap = {}) {
     statusSubText = extraBadge === 'ОТ' ? 'Овертайм (ОТ)' : extraBadge === 'Б' ? 'Буллиты (Б)' : 'Основное время';
   } else {
     const timeStr = formatPeriodStatus(match);
-    statusIndicatorEl = el('span', { className: 'status-indicator status-scheduled font-tabular' }, timeStr);
-    statusSubText = 'Запланирован';
+    const tz = store.getTimezone();
+    const tzLabel = tz === 'Europe/Moscow' ? ' МСК' : tz === 'UTC' ? ' UTC' : '';
+    statusIndicatorEl = el('span', { className: 'status-indicator status-scheduled font-tabular' }, timeStr ? `${timeStr}${tzLabel}` : '—');
+    statusSubText = tzLabel ? `Запланирован (${tzLabel.trim()})` : 'Запланирован';
   }
 
   const statusCol = el('div', { className: 'match-col-status' },
     statusIndicatorEl,
     el('span', { className: 'status-sub-info' }, statusSubText)
   );
+
+  const homeScoreDisplay = (isScheduled || homeScore === null || homeScore === undefined) ? '-' : homeScore;
+  const awayScoreDisplay = (isScheduled || awayScore === null || awayScore === undefined) ? '-' : awayScore;
 
   const grid7 = el('div', { className: 'match-col-7grid' },
     el('a', {
@@ -342,9 +347,9 @@ export function createMatchRow(match, teamsMap = {}) {
       title: 'Открыть протокол встречи'
     },
       el('div', { className: 'score-pill-box' },
-        el('span', { className: 'score-digit font-tabular' }, isScheduled ? '-' : homeScore),
+        el('span', { className: 'score-digit font-tabular' }, homeScoreDisplay),
         el('span', { className: 'score-separator' }, ':'),
-        el('span', { className: 'score-digit font-tabular' }, isScheduled ? '-' : awayScore)
+        el('span', { className: 'score-digit font-tabular' }, awayScoreDisplay)
       ),
       extraBadge ? el('span', { className: 'score-overtime-pill font-label-sm' }, extraBadge) : null
     ),
@@ -397,7 +402,12 @@ export function createMatchRow(match, teamsMap = {}) {
 
   const card = el('div', {
     className: `match-card-stitch ${isLive ? 'is-live-card' : ''}`,
-    dataset: { matchId: match.id }
+    dataset: { matchId: match.id },
+    style: { cursor: 'pointer' },
+    onClick: (e) => {
+      if (e.target.closest('a') || e.target.closest('button')) return;
+      window.location.href = buildLink('/match/', { id: match.id });
+    }
   }, mainRow);
 
   if (match.home.periods && match.home.periods.length > 0) {
@@ -423,6 +433,17 @@ export function createMatchRow(match, teamsMap = {}) {
       );
       card.appendChild(substrip);
     }
+  } else if (isScheduled && (match.arena || match.broadcast?.name)) {
+    const arenaText = match.arena || '';
+    const broadcastText = match.broadcast?.name ? `Трансляция: ${match.broadcast.name}` : '';
+    const substrip = el('div', { className: 'match-substrip-recessed' },
+      arenaText ? el('div', { className: 'substrip-periods' },
+        el('span', { className: 'substrip-tag' }, 'Арена:'),
+        el('span', { className: 'substrip-scores' }, arenaText)
+      ) : null,
+      broadcastText ? el('div', { className: 'substrip-scorers' }, broadcastText) : null
+    );
+    card.appendChild(substrip);
   }
 
   return card;

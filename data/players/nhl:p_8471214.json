@@ -10,7 +10,7 @@
   "nationality": "RUS",
   "number": 8,
   "teamId": "nhl:wsh",
-  "photo": "/assets/images/players/ovechkin.png",
+  "photo": "https://assets.nhle.com/mugs/nhl/20262027/WSH/8471214.png",
   "stats": [
     {
       "season": "2026/27",
@@ -24,5 +24,11 @@
       "shots": 1
     }
   ],
-  "career": []
+  "career": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoint": "https://api-web.nhle.com/v1/player/8471214/landing",
+    "fetchedAt": "2026-10-04T17:37:07.643386+00:00"
+  }
 }

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Сохранённые матчи КХЛ и НХЛ | Hockey365</title>
-  <meta name="description" content="Результаты и расписание матчей КХЛ и НХЛ из последнего сохранённого среза данных. Не является прямой трансляцией.">
+  <title>Матч-центр хоккея — Онлайн трансляции и результаты | Hockey365</title>
+  <meta name="description" content="Матч-центр хоккея: онлайн трансляции, результаты и расписание матчей НХЛ и КХЛ в реальном времени.">
   <link rel="icon" type="image/svg+xml" href="../assets/logos/comp/KHL.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,18 +29,18 @@
               <circle cx="12" cy="12" r="10"></circle>
               <polyline points="12 6 12 12 16 14"></polyline>
             </svg>
-            Матчи: сохранённый срез
+            Матч-центр хоккея LIVE
           </h1>
           <div class="flex items-center gap-12">
             <span id="live-count-badge" class="badge badge-scheduled">Статус загружается</span>
-            <span id="updated-stamp" class="text-xs text-muted" role="status" aria-live="polite">Загружается время среза</span>
+            <span id="updated-stamp" class="text-xs text-muted" role="status" aria-live="polite">Загружается статус</span>
           </div>
         </div>
 
         <div class="card-body" style="padding: var(--space-8) var(--space-12);">
           <div id="online-filters" class="flex gap-8" role="group" aria-label="Фильтр матчей" style="overflow-x: auto;">
-            <button class="tab-btn active" type="button" aria-pressed="true" data-filter="all">Все</button>
-            <button class="tab-btn" type="button" aria-pressed="false" data-filter="live">В игре на момент среза</button>
+            <button class="tab-btn active" type="button" aria-pressed="true" data-filter="all">Все матчи</button>
+            <button class="tab-btn" type="button" aria-pressed="false" data-filter="live">В прямом эфире</button>
             <button class="tab-btn" type="button" aria-pressed="false" data-filter="KHL">КХЛ</button>
             <button class="tab-btn" type="button" aria-pressed="false" data-filter="NHL">НХЛ</button>
             <button class="tab-btn" type="button" aria-pressed="false" data-filter="finished">Завершённые</button>
@@ -50,7 +50,7 @@
       </div>
 
       <!-- Online Matches Slot -->
-      <section aria-label="Сохранённые матчи">
+      <section aria-label="Матч-центр хоккея">
         <div id="online-matches-slot"></div>
       </section>
 

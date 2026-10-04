@@ -7,7 +7,7 @@ import { getMatchesByDate, getCompetitions, getMeta, startLivePolling } from '..
 import { getTodayISODate, formatDate } from '../core/format.js';
 import { createMatchRow, KNOWN_TEAMS } from '../components/match-row.js';
 import { trackMatchUpdates } from '../core/live-tracker.js';
-import { buildLink } from '../core/router.js';
+import { getParam, buildLink } from '../core/router.js';
 import { getAssetUrl, CONFIG } from '../core/config.js';
 
 let activeFilter = 'all';
@@ -115,33 +115,94 @@ export async function initOnlinePage() {
     }
 
     if (filtered.length === 0) {
-      renderEmpty(container, 'Матчи по выбранному фильтру не найдены.');
+      if (activeFilter === 'KHL') {
+        container.appendChild(el('div', {
+          className: 'stitch-widget-card text-center',
+          style: { padding: '32px 16px', color: 'var(--text-muted)' }
+        },
+          el('div', { className: 'text-base font-bold text-white', style: { marginBottom: '8px' } }, 'Матчи КХЛ временно недоступны'),
+          el('p', { className: 'text-sm' }, 'Ожидается подключение лицензированного поставщика данных КХЛ. Официальные матчи НХЛ доступны в реальном времени.'),
+          el('a', {
+            href: buildLink('/competition/', { id: 'KHL' }),
+            className: 'inline-flex items-center gap-1 text-primary-container hover:text-primary text-sm font-semibold',
+            style: { marginTop: '14px' }
+          },
+            el('span', {}, 'Перейти к турнирной таблице КХЛ'),
+            el('span', { className: 'material-symbols-outlined text-[16px]' }, 'arrow_forward')
+          )
+        ));
+      } else {
+        renderEmpty(container, 'Матчи по выбранному фильтру не найдены.');
+      }
       return;
     }
 
-    // Group by competition
+    // Group by competition (Stitch Design Pattern)
     const grouped = {};
     for (const m of filtered) {
-      if (!grouped[m.compId]) grouped[m.compId] = [];
-      grouped[m.compId].push(m);
+      const compId = m.compId || 'OTHER';
+      if (!grouped[compId]) grouped[compId] = [];
+      grouped[compId].push(m);
     }
 
-    for (const compId of Object.keys(grouped)) {
-      const compInfo = competitions.find(c => c.id === compId) || { name: compId, emblem: '' };
-      const compCard = el('div', { className: 'comp-group' },
-        el('div', { className: 'comp-header' },
-          el('div', { className: 'comp-header-left' },
-            compInfo.emblem ? el('img', { src: getAssetUrl(compInfo.emblem), alt: compInfo.name, className: 'comp-emblem' }) : null,
-            el('a', { href: buildLink('/competition/', { id: compId }), className: 'link-accent' }, compInfo.name)
-          ),
-          el('span', { className: 'text-xs text-muted' }, `${grouped[compId].length} игр`)
+    const competitionOrder = ['KHL', 'NHL', 'VHL', 'MHL'];
+    const compKeys = Object.keys(grouped).sort((a, b) => {
+      const idxA = competitionOrder.indexOf(a);
+      const idxB = competitionOrder.indexOf(b);
+      if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+      if (idxA !== -1) return -1;
+      if (idxB !== -1) return 1;
+      return a.localeCompare(b);
+    });
+
+    for (const compId of compKeys) {
+      const groupMatches = grouped[compId];
+      const compInfo = competitions.find(c => c.id === compId);
+      const compName = compInfo?.name || (compId === 'NHL' ? 'НХЛ' : compId === 'KHL' ? 'КХЛ' : compId);
+      const letter = compId === 'NHL' ? 'N' : compId === 'KHL' ? 'К' : compId.charAt(0).toUpperCase();
+      const stageName = compInfo?.season ? `Регулярный сезон ${compInfo.season}` : 'Регулярный сезон 2026/27';
+
+      const count = groupMatches.length;
+      const mod10 = count % 10;
+      const mod100 = count % 100;
+      const word = (mod10 === 1 && mod100 !== 11) ? 'матч'
+        : ([2, 3, 4].includes(mod10) && ![12, 13, 14].includes(mod100)) ? 'матча'
+        : 'матчей';
+      const liveInGroup = groupMatches.filter(m => m.status === 'LIVE' || m.status === 'INTERMISSION').length;
+      const gamesCountText = liveInGroup > 0
+        ? `${count} ${word} • ${liveInGroup} в прямом эфире`
+        : `${count} ${word} игрового дня (МСК)`;
+
+      const compHeader = el('div', { className: 'comp-header-stitch' },
+        el('div', { className: 'comp-title-group' },
+          el('div', { className: 'comp-letter-box' }, letter),
+          el('div', {},
+            el('div', { className: 'comp-name-line' },
+              el('h2', { className: 'comp-heading' }, compName),
+              el('span', { className: 'comp-badge-stage' }, stageName)
+            ),
+            el('span', { className: 'comp-games-count' }, gamesCountText)
+          )
         ),
-        el('div', { className: 'comp-matches-list' },
-          grouped[compId].map(m => createMatchRow(m, KNOWN_TEAMS))
+        el('a', {
+          href: buildLink('/competition/', { id: compId }),
+          className: 'comp-table-link'
+        },
+          el('span', {}, 'Таблица лиги'),
+          el('span', { className: 'material-symbols-outlined text-[16px]' }, 'chevron_right')
         )
       );
 
-      container.appendChild(compCard);
+      const matchesList = el('div', { className: 'comp-matches-list-stitch' },
+        groupMatches.map(m => createMatchRow(m, KNOWN_TEAMS))
+      );
+
+      const sectionEl = el('div', { className: 'comp-group-stitch' },
+        compHeader,
+        matchesList
+      );
+
+      container.appendChild(sectionEl);
     }
   }
 
@@ -150,7 +211,8 @@ export async function initOnlinePage() {
     try {
       const meta = await getMeta();
       const today = getTodayISODate();
-      const targetDate = meta?.availableDates?.includes(today) ? today : meta?.activeDate || meta?.availableDates?.[0];
+      const urlDate = getParam('date');
+      const targetDate = urlDate || (meta?.availableDates?.includes(today) ? today : meta?.activeDate || meta?.availableDates?.[0]);
       if (!targetDate) throw new Error('No snapshot dates');
 
       if (stopPolling) stopPolling();
@@ -176,7 +238,7 @@ export async function initOnlinePage() {
       startCountdown();
     } catch (e) {
       if (updatedStamp) updatedStamp.textContent = 'Не удалось загрузить данные';
-      renderError(container, 'Не удалось получить сохранённые матчи', startLiveCenter);
+      renderError(container, 'Не удалось получить live-матчи', startLiveCenter);
     }
   }
 

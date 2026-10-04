@@ -5,10 +5,10 @@
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
 import { getMatchesByDate, getCompetitions, getNews, getStandings, getMeta, getMatch, startLivePolling } from '../core/api.js';
-import { getTodayISODate, formatDate, formatScore } from '../core/format.js';
+import { getTodayISODate, formatDate, formatScore, formatPosition } from '../core/format.js';
 import { getParam, setParam, buildLink } from '../core/router.js';
 import { createDatepicker } from '../components/datepicker.js';
-import { createMatchGridCardStitch, KNOWN_TEAMS, getTeamMeta } from '../components/match-row.js';
+import { createMatchRow, createMatchGridCardStitch, KNOWN_TEAMS, getTeamMeta } from '../components/match-row.js';
 import { trackMatchUpdates } from '../core/live-tracker.js';
 import { getAssetUrl } from '../core/config.js';
 import { store } from '../core/store.js';
@@ -43,7 +43,7 @@ export async function initHomePage() {
   const defaultDate = cachedMeta?.activeDate || availableDates[0] || getTodayISODate();
   const notice = qs('#snapshot-notice');
   if (notice && cachedMeta?.updatedAt) {
-    notice.textContent = `Срез данных: ${formatDate(cachedMeta.updatedAt, 'full')}. Матчи не обновляются в реальном времени.`;
+    notice.textContent = `Live: официальный NHL Web API, опрос каждые 10с. Срез ${formatDate(cachedMeta.updatedAt, 'full')} используется только как fallback.`;
   }
 
   // Smart date fallback
@@ -178,7 +178,15 @@ export async function initHomePage() {
           style: { padding: '32px 16px', color: 'var(--text-muted)' }
         },
           el('div', { className: 'text-base font-bold text-white', style: { marginBottom: '8px' } }, 'Матчи КХЛ временно недоступны'),
-          el('p', { className: 'text-sm' }, 'Ожидается подключение лицензированного поставщика данных КХЛ. Официальные матчи НХЛ доступны в реальном времени.')
+          el('p', { className: 'text-sm' }, 'Ожидается подключение лицензированного поставщика данных КХЛ. Официальные матчи НХЛ доступны в реальном времени.'),
+          el('a', {
+            href: buildLink('/competition/', { id: 'KHL' }),
+            className: 'inline-flex items-center gap-1 text-primary-container hover:text-primary text-sm font-semibold',
+            style: { marginTop: '14px' }
+          },
+            el('span', {}, 'Перейти к турнирной таблице КХЛ'),
+            el('span', { className: 'material-symbols-outlined text-[16px]' }, 'arrow_forward')
+          )
         ));
       } else if (latestMatches.length === 0) {
         renderDateEmptyState(activeDate);
@@ -191,12 +199,73 @@ export async function initHomePage() {
       return;
     }
 
-    // Render matches in a 2-column responsive card grid (Stitch Pattern)
-    const gridEl = el('div', { className: 'match-center-cards-grid' },
-      filtered.map(m => createMatchGridCardStitch(m, cachedTeamsMap))
-    );
+    // Group matches by tournament/competition (Stitch Design Pattern)
+    const grouped = {};
+    for (const m of filtered) {
+      const compId = m.compId || 'OTHER';
+      if (!grouped[compId]) grouped[compId] = [];
+      grouped[compId].push(m);
+    }
 
-    matchesContainer.appendChild(gridEl);
+    const competitionOrder = ['KHL', 'NHL', 'VHL', 'MHL'];
+    const compKeys = Object.keys(grouped).sort((a, b) => {
+      const idxA = competitionOrder.indexOf(a);
+      const idxB = competitionOrder.indexOf(b);
+      if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+      if (idxA !== -1) return -1;
+      if (idxB !== -1) return 1;
+      return a.localeCompare(b);
+    });
+
+    for (const compId of compKeys) {
+      const groupMatches = grouped[compId];
+      const compMeta = cachedCompetitions.find(c => c.id === compId);
+      const compName = compMeta?.name || (compId === 'NHL' ? 'НХЛ' : compId === 'KHL' ? 'КХЛ' : compId);
+      const letter = compId === 'NHL' ? 'N' : compId === 'KHL' ? 'К' : compId.charAt(0).toUpperCase();
+      const stageName = compMeta?.season ? `Регулярный сезон ${compMeta.season}` : 'Регулярный сезон 2026/27';
+
+      const count = groupMatches.length;
+      const mod10 = count % 10;
+      const mod100 = count % 100;
+      const word = (mod10 === 1 && mod100 !== 11) ? 'матч'
+        : ([2, 3, 4].includes(mod10) && ![12, 13, 14].includes(mod100)) ? 'матча'
+        : 'матчей';
+      const liveInGroup = groupMatches.filter(m => m.status === 'LIVE' || m.status === 'INTERMISSION').length;
+      const gamesCountText = liveInGroup > 0
+        ? `${count} ${word} • ${liveInGroup} в прямом эфире`
+        : `${count} ${word} игрового дня (МСК)`;
+
+      const compHeader = el('div', { className: 'comp-header-stitch' },
+        el('div', { className: 'comp-title-group' },
+          el('div', { className: 'comp-letter-box' }, letter),
+          el('div', {},
+            el('div', { className: 'comp-name-line' },
+              el('h2', { className: 'comp-heading' }, compName),
+              el('span', { className: 'comp-badge-stage' }, stageName)
+            ),
+            el('span', { className: 'comp-games-count' }, gamesCountText)
+          )
+        ),
+        el('a', {
+          href: buildLink('/competition/', { id: compId }),
+          className: 'comp-table-link'
+        },
+          el('span', {}, 'Таблица лиги'),
+          el('span', { className: 'material-symbols-outlined text-[16px]' }, 'chevron_right')
+        )
+      );
+
+      const matchesList = el('div', { className: 'comp-matches-list-stitch' },
+        groupMatches.map(m => createMatchRow(m, cachedTeamsMap))
+      );
+
+      const sectionEl = el('div', { className: 'comp-group-stitch' },
+        compHeader,
+        matchesList
+      );
+
+      matchesContainer.appendChild(sectionEl);
+    }
   }
 
   function renderDateEmptyState(date) {
@@ -424,76 +493,65 @@ function renderHeroMatchBanner(container, matches) {
 /**
  * WIDGET 1: «ИГРОК НЕДЕЛИ» (Player of the Week) — Matching media_1791115908357.png
  */
-function renderPlayerOfTheWeekWidget(container) {
+async function renderPlayerOfTheWeekWidget(container) {
   if (!container) return;
-  const potwImgUrl = getAssetUrl('assets/images/player_of_the_week.jpg');
-  const spartakLogo = getAssetUrl('assets/logos/teams/spartak.png');
+  try {
+    const leaders = await getLeaders('NHL');
+    const leader = leaders?.categories?.points?.[0];
+    if (!leader?.playerId) throw new Error('Official NHL leader is unavailable');
 
-  const card = el('div', {
-    className: 'player-of-the-week-card',
-    style: {
-      backgroundImage: `linear-gradient(180deg, rgba(11, 14, 20, 0.25) 0%, rgba(11, 14, 20, 0.75) 45%, rgba(11, 14, 20, 0.98) 100%), url('${potwImgUrl}')`
-    }
-  },
-    // Top Row: League Badge & Team Emblem
-    el('div', { className: 'potw-header-row' },
-      el('span', { className: 'potw-header-badge' }, 'ИГРОК НЕДЕЛИ КХЛ'),
-      el('div', { className: 'potw-team-pill' },
-        el('img', { src: spartakLogo, alt: 'Спартак', className: 'potw-team-logo' }),
-        el('span', {}, 'Спартак #87')
-      )
-    ),
+    const player = await getPlayer(leader.playerId);
+    const team = getTeamMeta(player.teamId, cachedTeamsMap);
+    const current = player.stats?.find(stat => stat.season === leaders.season) || player.stats?.[0] || {};
+    const photo = player.photo ? getAssetUrl(player.photo) : '';
+    const stat = (value, label) => el('div', { className: 'potw-stat-col' },
+      el('div', { className: 'potw-stat-val font-tabular' }, value ?? '—'),
+      el('div', { className: 'potw-stat-lbl' }, label)
+    );
 
-    // Content Block
-    el('div', { className: 'potw-content' },
-      el('div', { className: 'potw-label' }, 'ЛИДЕР БОМБАРДИРСКОЙ ГОНКИ'),
-      el('h3', { className: 'potw-player-name' }, 'Николай Голдобин'),
-      el('div', { className: 'potw-player-team' }, 'Правый крайний нападающий • Спартак Москва'),
-
-      // 4 Key Stats Grid
-      el('div', { className: 'potw-stats-grid' },
-        el('div', { className: 'potw-stat-col' },
-          el('div', { className: 'potw-stat-val font-tabular' }, '18'),
-          el('div', { className: 'potw-stat-lbl' }, 'ГОЛЫ')
-        ),
-        el('div', { className: 'potw-stat-col' },
-          el('div', { className: 'potw-stat-val font-tabular' }, '24'),
-          el('div', { className: 'potw-stat-lbl' }, 'ПАСЫ')
-        ),
-        el('div', { className: 'potw-stat-col' },
-          el('div', { className: 'potw-stat-val font-tabular text-cyan' }, '+14'),
-          el('div', { className: 'potw-stat-lbl' }, '+/-')
-        ),
-        el('div', { className: 'potw-stat-col' },
-          el('div', { className: 'potw-stat-val font-tabular text-gold' }, '1.45'),
-          el('div', { className: 'potw-stat-lbl' }, 'ОЧ/ИГР')
+    const card = el('div', {
+      className: 'player-of-the-week-card',
+      style: photo ? {
+        backgroundImage: `linear-gradient(180deg, rgba(11, 14, 20, 0.25) 0%, rgba(11, 14, 20, 0.75) 45%, rgba(11, 14, 20, 0.98) 100%), url('${photo}')`
+      } : {}
+    },
+      el('div', { className: 'potw-header-row' },
+        el('span', { className: 'potw-header-badge' }, 'ЛИДЕР НХЛ ПО ОЧКАМ'),
+        el('div', { className: 'potw-team-pill' },
+          el('span', {}, team.short || player.teamId || 'NHL')
         )
       ),
-
-      // Streak Progress Box
-      el('div', { className: 'potw-streak-box' },
-        el('div', { className: 'potw-streak-labels' },
-          el('span', {}, 'Голевая серия: 5 матчей подряд'),
-          el('span', { className: 'text-cyan font-tabular' }, '8 шайб')
+      el('div', { className: 'potw-content' },
+        el('div', { className: 'potw-label' }, 'ОФИЦИАЛЬНЫЕ ДАННЫЕ NHL'),
+        el('h3', { className: 'potw-player-name' }, player.name),
+        el('div', { className: 'potw-player-team' }, `${formatPosition(player.position)} • ${team.name}`),
+        el('div', { className: 'potw-stats-grid' },
+          stat(current.g, 'ГОЛЫ'),
+          stat(current.a, 'ПАСЫ'),
+          stat(current.pts ?? leader.value, 'ОЧКИ'),
+          stat(current.gp, 'ИГРЫ')
         ),
-        el('div', { className: 'potw-streak-track' },
-          el('div', { className: 'potw-streak-fill', style: { width: '82%' } })
+        el('div', { className: 'potw-streak-box' },
+          el('div', { className: 'potw-streak-labels' },
+            el('span', {}, `Сезон ${leaders.season || 'текущий'}`),
+            el('span', { className: 'text-cyan font-tabular' }, 'NHL Web API')
+          ),
+          el('div', { className: 'potw-record-note' }, 'Без неподтверждённых прогнозов и ручных показателей')
         ),
-        el('div', { className: 'potw-record-note' }, 'Рекорд сезона КХЛ: 9 матчей подряд')
-      ),
-
-      // Link to Real Profile Dossier
-      el('a', {
-        href: buildLink('/player/', { id: 'khl:p_goldobin' }),
-        className: 'potw-full-dossier-btn'
-      },
-        el('span', {}, 'Полное досье и статистика игрока'),
-        el('span', { className: 'material-symbols-outlined text-[16px]' }, 'arrow_forward')
+        el('a', {
+          href: buildLink('/player/', { id: player.id }),
+          className: 'potw-full-dossier-btn'
+        },
+          el('span', {}, 'Открыть официальное досье'),
+          el('span', { className: 'material-symbols-outlined text-[16px]' }, 'arrow_forward')
+        )
       )
-    )
-  );
-
-  container.replaceChildren(card);
+    );
+    container.replaceChildren(card);
+  } catch (error) {
+    console.warn('Official NHL player widget unavailable:', error);
+    container.replaceChildren(el('div', { className: 'text-sm text-muted p-4' }, 'Официальные данные игрока временно недоступны'));
+  }
 }
 
 /**

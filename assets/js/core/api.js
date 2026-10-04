@@ -77,7 +77,7 @@ function officialPlayerId(playerId) {
 
 function seasonLabel(season) {
   const value = String(season ?? '');
-  return /^\d{8}$/.test(value) ? `${value.slice(0, 4)}/${value.slice(4)}` : null;
+  return /^\d{8}$/.test(value) ? `${value.slice(0, 4)}/${value.slice(6)}` : null;
 }
 
 function gameStatus(gameState, clock, scheduleState) {
@@ -355,8 +355,80 @@ export async function getTeam(teamId) {
   return fetchJSON(getDataUrl(`teams/${teamId}.json`));
 }
 
+function normalizeNhlPlayer(payload, playerId) {
+  if (!isRecord(payload) || !payload.playerId) return null;
+  const first = payload.firstName?.default || '';
+  const last = payload.lastName?.default || '';
+  const teamAbbrev = String(payload.currentTeamAbbrev || '').toLowerCase();
+  if (!first && !last) return null;
+
+  const stats = [];
+  for (const row of payload.seasonTotals || []) {
+    const season = seasonLabel(row.season);
+    if (!season || !row.leagueAbbrev) continue;
+    const stat = {
+      season,
+      compId: row.leagueAbbrev === 'NHL' ? 'NHL' : String(row.leagueAbbrev),
+      gp: row.gamesPlayed ?? 0
+    };
+    if (row.goals !== undefined) stat.g = row.goals;
+    if (row.assists !== undefined) stat.a = row.assists;
+    if (row.points !== undefined) stat.pts = row.points;
+    if (row.plusMinus !== undefined) stat.plusMinus = row.plusMinus;
+    if (row.pim !== undefined) stat.pim = row.pim;
+    if (row.shots !== undefined) stat.shots = row.shots;
+    if (row.timeOnIcePerGame) stat.toi = row.timeOnIcePerGame;
+    if (row.wins !== undefined || row.goalsAgainstAverage !== undefined) {
+      stat.gk = {
+        w: row.wins,
+        l: row.losses,
+        otl: row.otLosses,
+        gaa: row.goalsAgainstAverage,
+        svPct: row.savePctg,
+        so: row.shutouts
+      };
+    }
+    stats.push(stat);
+  }
+
+  return {
+    id: `nhl:p_${payload.playerId}`,
+    name: `${first} ${last}`.trim(),
+    nameEn: `${first} ${last}`.trim(),
+    position: payload.position || null,
+    shoots: payload.shootsCatches || null,
+    birthDate: payload.birthDate || null,
+    heightCm: payload.heightInCentimeters ?? null,
+    weightKg: payload.weightInKilograms ?? null,
+    nationality: payload.birthCountry || null,
+    number: payload.sweaterNumber ?? null,
+    teamId: teamAbbrev ? `nhl:${teamAbbrev}` : null,
+    photo: payload.headshot || null,
+    stats,
+    career: [],
+    source: {
+      provider: 'NHL Web API',
+      official: true,
+      endpoint: `${NHL_WEB_API_BASE}/player/${payload.playerId}/landing`,
+      fetchedAt: new Date().toISOString()
+    }
+  };
+}
+
 export async function getPlayer(playerId) {
   if (await isUnverified(playerId.split(':')[0].toUpperCase())) unavailable(playerId);
+  const nhlPlayerId = /^nhl:p_(\d+)$/i.exec(playerId)?.[1];
+  if (nhlPlayerId) {
+    try {
+      const official = normalizeNhlPlayer(
+        await fetchNhlJSON(`/player/${nhlPlayerId}/landing`, false),
+        playerId
+      );
+      if (official) return official;
+    } catch (error) {
+      console.warn(`Official NHL player request failed for ${playerId}; using published snapshot`, error);
+    }
+  }
   return fetchJSON(getDataUrl(`players/${playerId}.json`));
 }
 
@@ -409,6 +481,7 @@ export function startLivePolling(dateStr, callback, intervalMs = CONFIG.POLL_INT
   let isCancelled = false;
   let inFlight = false;
   let timer = null;
+  let liveStream = null;
 
   async function poll() {
     if (isCancelled || inFlight) return;
@@ -426,6 +499,29 @@ export function startLivePolling(dateStr, callback, intervalMs = CONFIG.POLL_INT
   poll();
   timer = setInterval(poll, intervalMs);
 
+  // When the Hono backend is deployed on the same origin, consume its SSE
+  // stream for sub-10-second updates. GitHub Pages has no /api/live endpoint;
+  // the official NHL polling above remains the portable fallback.
+  if (typeof EventSource !== 'undefined') {
+    try {
+      liveStream = new EventSource(`/api/live?date=${encodeURIComponent(dateStr)}`);
+      liveStream.addEventListener('match_update', event => {
+        try {
+          const payload = JSON.parse(event.data);
+          if (!isCancelled && Array.isArray(payload.matches)) callback(null, payload.matches);
+        } catch (error) {
+          console.warn('Invalid live stream payload', error);
+        }
+      });
+      liveStream.onerror = () => {
+        liveStream?.close();
+        liveStream = null;
+      };
+    } catch (error) {
+      console.warn('Live stream unavailable; using official polling', error);
+    }
+  }
+
   function onVisibilityChange() {
     if (document.visibilityState === 'visible' && !isCancelled) {
       poll();
@@ -436,6 +532,8 @@ export function startLivePolling(dateStr, callback, intervalMs = CONFIG.POLL_INT
   const cleanup = () => {
     isCancelled = true;
     clearInterval(timer);
+    liveStream?.close();
+    liveStream = null;
     document.removeEventListener('visibilitychange', onVisibilityChange);
   };
   cleanup.refresh = poll;

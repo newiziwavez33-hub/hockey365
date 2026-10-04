@@ -18,7 +18,7 @@ export class SiteFooter extends HTMLElement {
           el('div', { className: 'footer-info' },
             el('div', { className: 'text-bold text-base' }, 'Hockey365 — Хоккейный портал'),
             el('div', { className: 'text-xs text-muted', style: { marginTop: '4px' } },
-              'Сохранённые матчи, таблицы и результаты. Данные из статических файлов могут устареть; прямого эфира нет.'
+              'Матчи, таблицы и официальные live-протоколы NHL. При недоступности источника показывается проверенный snapshot.'
             )
           ),
           el('div', { className: 'footer-links' },

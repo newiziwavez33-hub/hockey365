@@ -1,6 +1,25 @@
 {
   "news": [
     {
+      "id": "news-6644862",
+      "slug": "roman-rotenberg-poluchil-orden-za-zaslugi-pered-moskovskoj-oblastyu",
+      "title": "Роман Ротенберг получил орден «За заслуги перед Московской областью»",
+      "summary": "Вице-президент Федерации хоккея России, главный тренер сборной «России 25» Роман Ротенберг получил орден «За заслуги перед Московской областью» от губернатора Андрея Воробьёва.",
+      "content": "Вице-президент Федерации хоккея России, главный тренер сборной «России 25» Роман Ротенберг получил орден «За заслуги перед Московской областью» от губернатора Андрея Воробьёва.",
+      "image": "https://img.championat.com/news/big/w/j/roman-rotenberg-poluchil-ord.jpg",
+      "publishedAt": "2026-10-04T17:30:07Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644862-roman-rotenberg-poluchil-orden-za-zaslugi-pered-moskovskoj-oblastyu.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Фото",
+        "Роман Ротенберг"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6644712",
       "slug": "kapitan-ne-dolzhen-uhodit-s-korablya-kogda-on-daleko-ot-berega-larionov-o-larkine",
       "title": "«Капитан не должен уходить с корабля, когда он далеко от берега». Ларионов — о Ларкине",
@@ -724,29 +743,6 @@
       "relatedTeamIds": [
         "khl:amur",
         "khl:avtomobilist"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6644218",
-      "slug": "glavnyj-trener-lokomotiva-kvartalnov-vyskazalsya-o-porazhenii-ot-minskogo-dinamo",
-      "title": "Главный тренер «Локомотива» Квартальнов высказался о поражении от минского «Динамо»",
-      "summary": "Главный тренер «Локомотива» Дмитрий Квартальнов прокомментировал поражение от минского «Динамо» (3:4) в матче регулярного чемпионата Фонбет КХЛ сезона-2026/2027.",
-      "content": "Главный тренер «Локомотива» Дмитрий Квартальнов прокомментировал поражение от минского «Динамо» (3:4) в матче регулярного чемпионата Фонбет КХЛ сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/i/j/glavnyj-trener-lokomotiva-kv.jpg",
-      "publishedAt": "2026-10-04T08:04:10Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6644218-glavnyj-trener-lokomotiva-kvartalnov-vyskazalsya-o-porazhenii-ot-minskogo-dinamo.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Локомотив",
-        "Динамо Минск",
-        "Дмитрий Квартальнов"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-mns",
-        "khl:lokomotiv"
       ],
       "relatedPlayerIds": []
     }

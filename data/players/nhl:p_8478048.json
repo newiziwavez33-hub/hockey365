@@ -10,7 +10,7 @@
   "nationality": "RUS",
   "number": 31,
   "teamId": "nhl:nyr",
-  "photo": "/assets/images/players/shesterkin.png",
+  "photo": "https://assets.nhle.com/mugs/nhl/20262027/NYR/8478048.png",
   "stats": [
     {
       "season": "2026/27",
@@ -18,5 +18,11 @@
       "gp": 2
     }
   ],
-  "career": []
+  "career": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoint": "https://api-web.nhle.com/v1/player/8478048/landing",
+    "fetchedAt": "2026-10-04T17:37:07.644226+00:00"
+  }
 }

@@ -32,6 +32,13 @@ test('GET /api/news returns normalized hockey news', async () => {
   assert.ok(Array.isArray(data.news));
 });
 
+test('KHL player endpoint refuses unverified local dossier data', async () => {
+  const res = await app.request('/api/players/khl:p_goldobin');
+  assert.equal(res.status, 404);
+  const data = await res.json();
+  assert.match(data.error, /no verified provider/i);
+});
+
 test('Chat API handles posting, filtering and rate-limiting', async () => {
   const roomId = 'test_match_room_1';
   const userId = `user_${Date.now()}`;

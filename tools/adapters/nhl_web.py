@@ -276,7 +276,13 @@ def sync_nhl_star_players(output_data_dir):
                 "teamId": f"nhl:{team_abbr}",
                 "photo": p_data.get('headshot'),
                 "stats": stats,
-                "career": []
+                "career": [],
+                "source": {
+                    "provider": "NHL Web API",
+                    "official": True,
+                    "endpoint": url,
+                    "fetchedAt": datetime.now(timezone.utc).isoformat()
+                }
             }
 
             p_file = os.path.join(players_dir, f"nhl:p_{p_id}.json")

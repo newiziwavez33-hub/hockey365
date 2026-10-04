@@ -243,11 +243,11 @@ export class SiteHeader extends HTMLElement {
     const tickerStrip = el('div', { className: 'header-ticker-strip' },
       el('div', { className: 'ticker-left' },
         el('span', { className: 'ticker-pill-live' }, 'LIVE ON-AIR'),
-        el('span', { className: 'ticker-text' }, 'Показаны сохранённые матчи и прямые протоколы реального времени. Смена составов и puck-tracking активны.')
+        el('span', { className: 'ticker-text' }, 'Официальный NHL live-протокол обновляется автоматически; при сбое сети используется проверенный срез.')
       ),
       el('div', { className: 'ticker-right' },
         el('span', { className: 'ticker-live-dot' }, '●'),
-        el('span', {}, 'NHL & KHL Live Feeds • Арена: Москва & Детройт')
+        el('span', {}, 'NHL Web API • КХЛ без подтверждённого live-источника')
       )
     );
 

@@ -32,6 +32,9 @@ app.use('*', cors({
 const chatMessages = new Map(); // roomId -> array of messages
 const chatRateLimits = new Map(); // userId -> lastMessageTimestamp
 const sseSubscribers = new Set(); // active SSE stream controllers
+const sseSubscriberDates = new Map();
+const livePollers = new Map();
+const liveFingerprints = new Map();
 
 // Banned words list for chat moderation (RU/EN basic filter)
 const BANNED_PATTERNS = [
@@ -142,7 +145,7 @@ app.get('/api/matches', async (c) => {
   if (!nhlMatches.length) {
     const fallback = readLocalData(`matches/by-date/${date}.json`);
     if (Array.isArray(fallback)) {
-      nhlMatches = fallback;
+      nhlMatches = fallback.filter(match => match?.compId === 'NHL');
     }
   }
 
@@ -206,12 +209,25 @@ app.get('/api/live', (c) => {
 
   return streamSSE(c, async (stream) => {
     sseSubscribers.add(stream);
+    sseSubscriberDates.set(stream, date);
+    ensureLivePoller(date);
 
-    // Initial greeting / ping event
+    // The first event contains the current official snapshot so a client does
+    // not wait for the next 5-second poll before rendering live scores.
     await stream.writeSSE({
       event: 'connected',
       data: JSON.stringify({ message: 'Hockey365 Live SSE Stream Connected', date, time: new Date().toISOString() })
     });
+    try {
+      const response = await app.request(`/api/matches?date=${encodeURIComponent(date)}`);
+      const payload = await response.json();
+      await stream.writeSSE({
+        event: 'match_update',
+        data: JSON.stringify({ date, matches: payload.matches || [], fetchedAt: payload.fetchedAt })
+      });
+    } catch (error) {
+      console.warn(`Initial live snapshot failed for ${date}:`, error.message);
+    }
 
     // Keep-alive heartbeat every 15s
     const heartbeat = setInterval(async () => {
@@ -229,14 +245,54 @@ app.get('/api/live', (c) => {
     stream.onAbort(() => {
       clearInterval(heartbeat);
       sseSubscribers.delete(stream);
+      sseSubscriberDates.delete(stream);
+      stopUnusedLivePoller(date);
     });
   });
 });
 
+function liveMatchesPayload(payload) {
+  return {
+    date: payload.date,
+    matches: (payload.matches || []).filter(match => ['LIVE', 'INTERMISSION'].includes(match.status)),
+    fetchedAt: payload.fetchedAt || new Date().toISOString()
+  };
+}
+
+function ensureLivePoller(date) {
+  if (livePollers.has(date)) return;
+  const poll = async () => {
+    try {
+      const response = await app.request(`/api/matches?date=${encodeURIComponent(date)}`);
+      const payload = liveMatchesPayload(await response.json());
+      const fingerprint = JSON.stringify(payload.matches);
+      if (fingerprint !== liveFingerprints.get(date)) {
+        liveFingerprints.set(date, fingerprint);
+        await broadcastLiveUpdate(payload, date);
+      }
+    } catch (error) {
+      console.warn(`Live poll failed for ${date}:`, error.message);
+    }
+  };
+  const timer = setInterval(poll, 5000);
+  livePollers.set(date, timer);
+  poll();
+}
+
+function stopUnusedLivePoller(date) {
+  const stillUsed = [...sseSubscriberDates.values()].some(value => value === date);
+  if (stillUsed) return;
+  const timer = livePollers.get(date);
+  if (timer) clearInterval(timer);
+  livePollers.delete(date);
+  liveFingerprints.delete(date);
+}
+
 // Broadcast helper for live match score updates
-export async function broadcastLiveUpdate(matchEvent) {
+export async function broadcastLiveUpdate(matchEvent, date = matchEvent?.date) {
   const payload = JSON.stringify(matchEvent);
   for (const stream of sseSubscribers) {
+    if (date && sseSubscriberDates.get(stream) !== date) continue;
     try {
       await stream.writeSSE({
         event: 'match_update',
@@ -336,8 +392,44 @@ app.get('/api/teams/:id', (c) => {
   return c.json({ error: 'Team not found', id: teamId }, 404);
 });
 
-app.get('/api/players/:id', (c) => {
+app.get('/api/players/:id', async (c) => {
   const playerId = c.req.param('id');
+  const nhlId = /^nhl:p_(\d+)$/i.exec(playerId)?.[1];
+  if (nhlId) {
+    try {
+      const response = await fetch(`https://api-web.nhle.com/v1/player/${nhlId}/landing`, {
+        headers: { 'User-Agent': 'Hockey365-Server/2.0' },
+        signal: AbortSignal.timeout(6000)
+      });
+      if (response.ok) {
+        const official = await response.json();
+        const first = official.firstName?.default || '';
+        const last = official.lastName?.default || '';
+        return c.json({
+          id: `nhl:p_${official.playerId}`,
+          name: `${first} ${last}`.trim(),
+          nameEn: `${first} ${last}`.trim(),
+          position: official.position,
+          shoots: official.shootsCatches || null,
+          birthDate: official.birthDate || null,
+          heightCm: official.heightInCentimeters ?? null,
+          weightKg: official.weightInKilograms ?? null,
+          nationality: official.birthCountry || null,
+          number: official.sweaterNumber ?? null,
+          teamId: official.currentTeamAbbrev ? `nhl:${official.currentTeamAbbrev.toLowerCase()}` : null,
+          photo: official.headshot || null,
+          stats: official.seasonTotals || [],
+          career: [],
+          source: { provider: 'NHL Web API', official: true, fetchedAt: new Date().toISOString() }
+        });
+      }
+    } catch (err) {
+      console.warn(`Official NHL player fetch failed for ${playerId}:`, err.message);
+    }
+  }
+  if (/^khl:/i.test(playerId)) {
+    return c.json({ error: 'KHL player data has no verified provider', id: playerId }, 404);
+  }
   const player = readLocalData(`players/${playerId}.json`);
   if (player) return c.json(player);
   return c.json({ error: 'Player not found', id: playerId }, 404);
