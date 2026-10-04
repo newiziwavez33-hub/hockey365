@@ -6,19 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-04T00:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "FINISHED",
+  "period": 3,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:min",
-    "score": null,
+    "score": 4,
     "periods": [],
     "shots": null
   },
   "away": {
     "id": "nhl:bos",
-    "score": null,
+    "score": 1,
     "periods": [],
     "shots": null
   },

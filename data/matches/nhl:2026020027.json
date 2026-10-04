@@ -6,19 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-03T23:00:00Z",
-  "status": "LIVE",
-  "period": 2,
+  "status": "FINISHED",
+  "period": 3,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:cbj",
-    "score": 0,
+    "score": 1,
     "periods": [],
     "shots": null
   },
   "away": {
     "id": "nhl:uta",
-    "score": 2,
+    "score": 4,
     "periods": [],
     "shots": null
   },

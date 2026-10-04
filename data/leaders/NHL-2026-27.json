@@ -4,34 +4,34 @@
   "categories": {
     "points": [
       {
+        "playerId": "nhl:p_8478402",
+        "playerName": "Connor McDavid",
+        "teamId": "nhl:edm",
+        "value": 9
+      },
+      {
         "playerId": "nhl:p_8480803",
         "playerName": "Evan Bouchard",
         "teamId": "nhl:edm",
         "value": 8
       },
       {
-        "playerId": "nhl:p_8478402",
-        "playerName": "Connor McDavid",
-        "teamId": "nhl:edm",
-        "value": 7
+        "playerId": "nhl:p_8482699",
+        "playerName": "Dylan Guenther",
+        "teamId": "nhl:uta",
+        "value": 5
       },
       {
-        "playerId": "nhl:p_8478403",
-        "playerName": "Jack Eichel",
-        "teamId": "nhl:vgk",
+        "playerId": "nhl:p_8477934",
+        "playerName": "Leon Draisaitl",
+        "teamId": "nhl:edm",
         "value": 5
       },
       {
         "playerId": "nhl:p_8481032",
         "playerName": "Paul Cotter",
         "teamId": "nhl:van",
-        "value": 4
-      },
-      {
-        "playerId": "nhl:p_8481617",
-        "playerName": "Vasily Podkolzin",
-        "teamId": "nhl:edm",
-        "value": 4
+        "value": 5
       }
     ],
     "goals": [
@@ -42,6 +42,18 @@
         "value": 4
       },
       {
+        "playerId": "nhl:p_8482699",
+        "playerName": "Dylan Guenther",
+        "teamId": "nhl:uta",
+        "value": 3
+      },
+      {
+        "playerId": "nhl:p_8477934",
+        "playerName": "Leon Draisaitl",
+        "teamId": "nhl:edm",
+        "value": 3
+      },
+      {
         "playerId": "nhl:p_8481032",
         "playerName": "Paul Cotter",
         "teamId": "nhl:van",
@@ -52,18 +64,6 @@
         "playerName": "Vasily Podkolzin",
         "teamId": "nhl:edm",
         "value": 3
-      },
-      {
-        "playerId": "nhl:p_8482079",
-        "playerName": "Marco Rossi",
-        "teamId": "nhl:van",
-        "value": 3
-      },
-      {
-        "playerId": "nhl:p_8477934",
-        "playerName": "Leon Draisaitl",
-        "teamId": "nhl:edm",
-        "value": 2
       }
     ],
     "assists": [
@@ -71,7 +71,13 @@
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
         "teamId": "nhl:edm",
-        "value": 6
+        "value": 7
+      },
+      {
+        "playerId": "nhl:p_8484801",
+        "playerName": "Macklin Celebrini",
+        "teamId": "nhl:sjs",
+        "value": 5
       },
       {
         "playerId": "nhl:p_8480803",
@@ -86,16 +92,10 @@
         "value": 4
       },
       {
-        "playerId": "nhl:p_8479425",
-        "playerName": "Filip Hronek",
-        "teamId": "nhl:van",
+        "playerId": "nhl:p_8479343",
+        "playerName": "Clayton Keller",
+        "teamId": "nhl:uta",
         "value": 4
-      },
-      {
-        "playerId": "nhl:p_8475745",
-        "playerName": "Charlie Coyle",
-        "teamId": "nhl:cbj",
-        "value": 3
       }
     ],
     "gaa": [
@@ -106,12 +106,6 @@
         "value": 0.0
       },
       {
-        "playerId": "nhl:p_8481668",
-        "playerName": "Arturs Silovs",
-        "teamId": "nhl:pit",
-        "value": 0.0
-      },
-      {
         "playerId": "nhl:p_8478872",
         "playerName": "Karel Vejmelka",
         "teamId": "nhl:uta",
@@ -128,6 +122,12 @@
         "playerName": "Joel Hofer",
         "teamId": "nhl:stl",
         "value": 0.0
+      },
+      {
+        "playerId": "nhl:p_8482657",
+        "playerName": "Sebastian Cossa",
+        "teamId": "nhl:uta",
+        "value": 1.0
       }
     ],
     "svPct": [
@@ -138,12 +138,6 @@
         "value": 1.0
       },
       {
-        "playerId": "nhl:p_8481668",
-        "playerName": "Arturs Silovs",
-        "teamId": "nhl:pit",
-        "value": 1.0
-      },
-      {
         "playerId": "nhl:p_8478872",
         "playerName": "Karel Vejmelka",
         "teamId": "nhl:uta",
@@ -160,6 +154,12 @@
         "playerName": "Joel Hofer",
         "teamId": "nhl:stl",
         "value": 1.0
+      },
+      {
+        "playerId": "nhl:p_8478009",
+        "playerName": "Ilya Sorokin",
+        "teamId": "nhl:nyi",
+        "value": 0.968
       }
     ]
   }

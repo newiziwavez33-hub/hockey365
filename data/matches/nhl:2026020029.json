@@ -6,13 +6,13 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-03T23:30:00Z",
-  "status": "LIVE",
-  "period": 1,
+  "status": "FINISHED",
+  "period": 3,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:nyi",
-    "score": 0,
+    "score": 6,
     "periods": [],
     "shots": null
   },
