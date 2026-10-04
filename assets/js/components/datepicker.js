@@ -1,5 +1,5 @@
 /**
- * Hockey365 Date Ribbon Component
+ * Hockey365 Date Ribbon Component (Google Stitch Design)
  */
 
 import { el } from '../core/dom.js';
@@ -26,18 +26,18 @@ export function createDatepicker(currentDateStr, onDateSelect) {
   }
 
   const dayButtons = days.map(d => {
-    const dayNames = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
+    const dayNames = ['ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'];
     const name = d.isToday ? 'СЕГОДНЯ' : dayNames[d.date.getUTCDay()];
     const num = d.date.getUTCDate();
 
     return el('button', {
       className: `day-btn ${d.isActive ? 'active' : ''}`,
-      'aria-label': d.iso,
+      'aria-label': `${name} ${num}`,
       'aria-pressed': d.isActive ? 'true' : 'false',
       onClick: () => onDateSelect(d.iso)
     },
       el('span', { className: 'day-name' }, name),
-      el('span', { className: 'day-num' }, num)
+      el('span', { className: 'day-num font-tabular' }, num)
     );
   });
 
@@ -49,16 +49,28 @@ export function createDatepicker(currentDateStr, onDateSelect) {
   const prevIso = prevDate.toISOString().slice(0, 10);
   const nextIso = nextDate.toISOString().slice(0, 10);
 
+  // Hidden date input for native picker
+  const dateInput = el('input', {
+    type: 'date',
+    className: 'ribbon-calendar-input',
+    value: selected,
+    'aria-label': 'Выбрать дату в календаре',
+    onChange: (e) => {
+      if (e.target.value) {
+        onDateSelect(e.target.value);
+      }
+    }
+  });
+
   const ribbon = el('div', { className: 'date-ribbon' },
     // Prev arrow
     el('button', {
       className: 'ribbon-arrow',
       'aria-label': 'Предыдущий день',
+      title: 'Предыдущий день',
       onClick: () => onDateSelect(prevIso)
     },
-      el('svg', { width: '16', height: '16', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2' },
-        el('polyline', { points: '15 18 9 12 15 6' })
-      )
+      el('span', { className: 'material-symbols-outlined' }, 'chevron_left')
     ),
 
     // Days container
@@ -68,26 +80,34 @@ export function createDatepicker(currentDateStr, onDateSelect) {
     el('button', {
       className: 'ribbon-arrow',
       'aria-label': 'Следующий день',
+      title: 'Следующий день',
       onClick: () => onDateSelect(nextIso)
     },
-      el('svg', { width: '16', height: '16', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', 'stroke-width': '2' },
-        el('polyline', { points: '9 18 15 12 9 6' })
-      )
+      el('span', { className: 'material-symbols-outlined' }, 'chevron_right')
     ),
 
-    // Calendar input
-    el('input', {
-      type: 'date',
-      className: 'ribbon-calendar-input',
-      value: selected,
-      'aria-label': 'Выбрать дату в календаре',
-      onChange: (e) => {
-        if (e.target.value) {
-          onDateSelect(e.target.value);
+    // Stitch Calendar Trigger Button
+    el('div', { className: 'calendar-trigger-wrap' },
+      el('button', {
+        type: 'button',
+        className: 'calendar-trigger-btn',
+        'aria-label': 'Открыть календарь',
+        onClick: () => {
+          if (typeof dateInput.showPicker === 'function') {
+            dateInput.showPicker();
+          } else {
+            dateInput.focus();
+            dateInput.click();
+          }
         }
-      }
-    })
+      },
+        el('span', { className: 'material-symbols-outlined' }, 'calendar_month'),
+        el('span', { className: 'calendar-text' }, 'Календарь')
+      ),
+      dateInput
+    )
   );
 
   return ribbon;
 }
+

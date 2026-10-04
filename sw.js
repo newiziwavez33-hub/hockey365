@@ -2,7 +2,7 @@
  * Hockey365 Service Worker (Offline PWA & Smart Caching)
  */
 
-const CACHE_NAME = 'hockey365-static-v1';
+const CACHE_NAME = 'hockey365-static-v2';
 const STATIC_ASSETS = [
   './',
   'index.html',

@@ -109,16 +109,31 @@ export async function initHomePage() {
 
     for (const compId of Object.keys(grouped)) {
       const compInfo = cachedCompetitions.find(c => c.id === compId) || { name: compId, emblem: '' };
-      const compCard = el('div', { className: 'comp-group' },
-        el('div', { className: 'comp-header' },
+      const compMatches = grouped[compId];
+      const compLetter = compId === 'KHL' ? 'К' : compId === 'NHL' ? 'N' : compId[0];
+
+      const compCard = el('div', { className: 'comp-group-stitch' },
+        el('div', { className: 'comp-header-stitch' },
           el('div', { className: 'comp-header-left' },
-            compInfo.emblem ? el('img', { src: getAssetUrl(compInfo.emblem), alt: compInfo.name, className: 'comp-emblem' }) : null,
-            el('a', { href: buildLink('/competition/', { id: compId }), className: 'link-accent' }, compInfo.name)
+            el('div', { className: 'comp-badge-box' }, compLetter),
+            el('div', {},
+              el('div', { className: 'flex items-center gap-8' },
+                el('h2', { className: 'comp-title-stitch' }, compInfo.name),
+                el('span', { className: 'comp-sub-badge' }, 'Регулярный сезон')
+              ),
+              el('span', { className: 'comp-matches-count text-xs text-muted' }, `${compMatches.length} матчей в программе дня`)
+            )
           ),
-          el('a', { href: buildLink('/competition/', { id: compId, tab: 'table' }), className: 'text-xs text-muted link-accent' }, 'Таблица →')
+          el('a', {
+            href: buildLink('/competition/', { id: compId, tab: 'table' }),
+            className: 'comp-table-link'
+          },
+            el('span', {}, 'Таблица'),
+            el('span', { className: 'material-symbols-outlined text-[16px]' }, 'arrow_forward')
+          )
         ),
-        el('div', { className: 'comp-matches-list' },
-          grouped[compId].map(m => createMatchRow(m, cachedTeamsMap))
+        el('div', { className: 'comp-matches-list-stitch' },
+          compMatches.map(m => createMatchRow(m, cachedTeamsMap))
         )
       );
 
@@ -129,21 +144,25 @@ export async function initHomePage() {
   function renderDateEmptyState(date) {
     matchesContainer.innerHTML = '';
     const dateCounts = cachedMeta?.dateCounts || {};
-    const card = el('div', { className: 'card text-center', style: { padding: 'var(--space-24)' } },
-      el('div', { className: 'text-lg text-bold', style: { marginBottom: 'var(--space-8)' } }, `На дату ${date} матчи не запланированы`),
+    const card = el('div', { className: 'stitch-widget-card text-center', style: { padding: 'var(--space-32)' } },
+      el('div', { className: 'text-lg font-headline', style: { marginBottom: 'var(--space-8)', color: 'var(--text-primary)' } }, `На дату ${date} матчи не запланированы`),
       el('p', { className: 'text-sm text-muted', style: { marginBottom: 'var(--space-16)' } }, 'Выберите игровой день с доступными матчами:'),
       el('div', { className: 'flex flex-wrap gap-8 justify-center' },
         availableDates.map(d => {
           const count = dateCounts[d] ? ` (${dateCounts[d]} игр)` : '';
           return el('button', {
-            className: `btn-primary ${d === activeDate ? 'active' : ''}`,
+            className: `day-btn ${d === activeDate ? 'active' : ''}`,
+            style: { minWidth: '120px', padding: '8px 12px' },
             onClick: () => {
               activeDate = d;
               setParam('date', activeDate, true);
               updateDateRibbon();
               loadMatchesForDate();
             }
-          }, `${d}${count}`);
+          },
+            el('span', { className: 'day-name' }, 'ИГРОВОЙ ДЕНЬ'),
+            el('span', { className: 'day-num font-tabular' }, `${d}${count}`)
+          );
         })
       )
     );
@@ -209,37 +228,51 @@ function renderHighlightBanner(container, matches) {
   const awayInfo = cachedTeamsMap[highlight.away.id] || { name: highlight.away.id.replace(/^(khl|nhl):/, '').toUpperCase() };
 
   let badgeText = 'МАТЧ ДНЯ';
-  let badgeClass = 'badge-live';
+  let badgeClass = 'banner-badge-live';
   let statusDetail = '';
-  let actionLabel = 'Открыть протокол матча →';
+  let actionLabel = 'Смотреть протокол встречи';
 
   if (highlight.status === 'LIVE' || highlight.status === 'INTERMISSION') {
-    badgeText = 'В ИГРЕ НА МОМЕНТ СРЕЗА';
+    badgeText = '🔴 LIVE МАТЧ В ИГРЕ';
+    badgeClass = 'banner-badge-live';
     statusDetail = `${highlight.period}-й период (${highlight.clock || ''})`;
-    actionLabel = 'Открыть протокол матча →';
+    actionLabel = 'Следить за матчем Live';
   } else if (highlight.status === 'FINISHED') {
     badgeText = highlight.finishedIn ? `МАТЧ ДНЯ (${highlight.finishedIn})` : 'МАТЧ ДНЯ ЗАВЕРШЕН';
-    badgeClass = 'badge-finished';
-    statusDetail = highlight.finishedIn === 'OT' ? 'Овертайм' : highlight.finishedIn === 'SO' ? 'Буллиты' : 'Финальная сирена';
+    badgeClass = 'banner-badge-finished';
+    statusDetail = highlight.finishedIn === 'OT' ? 'Победа в овертайме' : highlight.finishedIn === 'SO' ? 'Победа по буллитам' : 'Основное время';
   } else {
     badgeText = 'ГЛАВНЫЙ МАТЧ ДНЯ';
-    badgeClass = 'badge-scheduled';
+    badgeClass = 'banner-badge-scheduled';
     statusDetail = `Начало в ${formatDate(highlight.utcDate, 'time')}`;
-    actionLabel = 'Превью встречи →';
+    actionLabel = 'Превью встречи';
   }
 
   const scoreText = (highlight.status === 'SCHEDULED')
     ? 'vs'
     : `${highlight.home.score} : ${highlight.away.score}${highlight.finishedIn ? ' ' + highlight.finishedIn : ''}`;
 
-  container.replaceChildren(el('div', { className: 'highlight-banner' },
-    el('div', { className: 'flex flex-col md:flex-row md:items-center justify-between gap-12', style: { position: 'relative', zIndex: '2' } },
-      el('div', { className: 'flex items-center gap-12 flex-wrap' },
-        el('span', { className: `badge ${badgeClass}` }, badgeText),
-        el('strong', {}, homeInfo.name, ` ${scoreText} `, awayInfo.name),
-        el('span', { className: 'text-xs text-muted' }, `(${statusDetail})`)
+  container.replaceChildren(el('div', { className: 'highlight-banner-stitch' },
+    el('div', { className: 'banner-content-row' },
+      el('div', { className: 'banner-left-wrap' },
+        el('div', { className: `banner-badge ${badgeClass}` },
+          badgeClass === 'banner-badge-live' ? el('span', { className: 'live-dot-pulse' }) : null,
+          badgeText
+        ),
+        el('p', { className: 'banner-headline' },
+          `${homeInfo.name} `,
+          highlight.status === 'SCHEDULED' ? 'против ' : '— ',
+          `${awayInfo.name}: `,
+          el('span', { className: 'banner-score font-tabular' }, scoreText)
+        )
       ),
-      el('a', { href: buildLink('/match/', { id: highlight.id }), className: 'link-accent text-sm' }, actionLabel)
+      el('div', { className: 'banner-right-wrap' },
+        el('span', { className: 'banner-status-detail text-muted text-xs' }, statusDetail),
+        el('a', { href: buildLink('/match/', { id: highlight.id }), className: 'banner-action-link' },
+          el('span', {}, actionLabel),
+          el('span', { className: 'material-symbols-outlined text-[16px]' }, 'arrow_forward')
+        )
+      )
     )
   ));
 }
@@ -278,22 +311,26 @@ async function loadSidebarStats(container, matchId) {
     const homePP = s.powerPlay?.[0] ?? '-';
     const awayPP = s.powerPlay?.[1] ?? '-';
 
-    const statRow = (label, home, away, homeWidth, awayWidth) => el('div', {},
-      el('div', { className: 'flex justify-between text-xs text-muted' },
-        el('span', { className: 'text-primary text-bold' }, home),
+    const statRow = (label, home, away, homeWidth, awayWidth) => el('div', { className: 'stat-metric-row' },
+      el('div', { className: 'flex justify-between text-xs text-muted mb-1' },
+        el('span', { className: 'font-bold text-text-primary' }, home),
         el('span', {}, label),
-        el('span', { className: 'text-primary text-bold' }, away)
+        el('span', { className: 'font-bold text-text-primary' }, away)
       ),
       homeWidth == null ? null : el('div', { className: 'stat-bar-track' },
         el('div', { className: 'stat-bar-fill-home', style: { width: `${homeWidth}%` } }),
         el('div', { className: 'stat-bar-fill-away', style: { width: `${awayWidth}%` } })
       )
     );
-    container.replaceChildren(el('div', { className: 'flex flex-col gap-16' },
+
+    container.replaceChildren(el('div', { className: 'flex flex-col gap-12' },
       statRow('Броски в створ', homeSog, awaySog, homeSogPct, awaySogPct),
       homeFo != null && awayFo != null ? statRow('Вбрасывания', `${homeFo}%`, `${awayFo}%`, homeFo, awayFo) : null,
-      homePP !== '-' || awayPP !== '-' ? statRow('Реализация большинства', homePP, awayPP) : null,
-      el('a', { href: buildLink('/match/', { id: match.id, tab: 'stats' }), className: 'btn-primary text-xs' }, 'Полный статистический отчёт →')
+      homePP !== '-' || awayPP !== '-' ? statRow('Реализация большинства', homePP, awayPP, 50, 50) : null,
+      el('a', {
+        href: buildLink('/match/', { id: match.id, tab: 'stats' }),
+        className: 'stat-report-btn'
+      }, 'Полный статистический отчёт')
     ));
   } catch (err) {
     if (card) card.style.display = 'none';
@@ -311,11 +348,13 @@ async function loadSidebarNews(container) {
       return;
     }
     for (const n of items) {
-      const item = el('div', { className: 'news-item' },
-        el('div', { className: 'news-info' },
-          el('a', { href: buildLink('/news/', { id: n.id }), className: 'news-title link-accent' }, n.title),
-          el('div', { className: 'news-meta' }, n.source || 'Hockey365')
-        )
+      const item = el('article', { className: 'news-item-stitch' },
+        el('div', { className: 'flex items-center gap-6 mb-1' },
+          el('span', { className: 'news-badge-cat' }, n.league || 'КХЛ'),
+          el('span', { className: 'text-xs text-muted' }, 'Недавно')
+        ),
+        el('a', { href: buildLink('/news/', { id: n.id }), className: 'news-item-title' }, n.title),
+        el('div', { className: 'news-item-source text-xs text-muted mt-1' }, n.source || 'Hockey365 • Новости')
       );
       container.appendChild(item);
     }
@@ -334,29 +373,54 @@ async function loadSidebarStandings(container) {
     container.innerHTML = '';
     const topRows = firstGroup.rows.slice(0, 5);
 
-    const miniTable = el('table', { className: 'standings-table text-xs' },
+    const miniTable = el('table', { className: 'standings-table-stitch w-full text-left' },
       el('thead', {},
-        el('tr', {},
-          el('th', {}, '№'),
-          el('th', { style: { textAlign: 'left' } }, 'Команда'),
-          el('th', {}, 'И'),
-          el('th', { className: 'col-pts' }, 'О')
+        el('tr', { className: 'text-muted text-xs uppercase' },
+          el('th', { className: 'py-1 text-center w-6' }, '№'),
+          el('th', { className: 'py-1 pl-2' }, 'Команда'),
+          el('th', { className: 'py-1 text-center w-6' }, 'И'),
+          el('th', { className: 'py-1 text-center w-6' }, 'В'),
+          el('th', { className: 'py-1 text-center w-6' }, 'П'),
+          el('th', { className: 'py-1 text-right pr-1 w-8 font-bold' }, 'О')
         )
       ),
-      el('tbody', {},
-        topRows.map(r => el('tr', {},
-          el('td', {}, r.pos),
-          el('td', { style: { textAlign: 'left' } },
-            el('a', { href: buildLink('/team/', { id: r.teamId }), className: 'link-accent' }, r.teamId.replace('khl:', '').toUpperCase())
-          ),
-          el('td', {}, r.gp),
-          el('td', { className: 'col-pts' }, r.pts)
-        ))
+      el('tbody', { className: 'text-xs' },
+        topRows.map((r, idx) => {
+          const isTop = idx === 0;
+          return el('tr', { className: 'hover:bg-surface-elevated transition-colors' },
+            el('td', { className: 'py-2 text-center' },
+              el('span', { className: isTop ? 'pos-badge-1 font-tabular' : 'pos-badge-default font-tabular' }, r.pos)
+            ),
+            el('td', { className: 'py-2 pl-2' },
+              el('div', { className: 'flex items-center gap-6' },
+                el('span', { className: 'playoff-dot' }),
+                el('a', {
+                  href: buildLink('/team/', { id: r.teamId }),
+                  className: 'font-semibold text-text-primary hover:text-primary transition-colors'
+                }, r.teamId.replace('khl:', '').toUpperCase())
+              )
+            ),
+            el('td', { className: 'py-2 text-center text-text-secondary font-tabular' }, r.gp),
+            el('td', { className: 'py-2 text-center text-muted font-tabular' }, r.w),
+            el('td', { className: 'py-2 text-center text-muted font-tabular' }, r.l),
+            el('td', { className: 'py-2 text-right pr-1 font-bold text-text-primary font-headline font-tabular' }, r.pts)
+          );
+        })
       )
     );
 
+    const legend = el('div', { className: 'flex items-center justify-between text-xs text-muted mt-2 pt-2 border-t border-border-subtle' },
+      el('div', { className: 'flex items-center gap-4' },
+        el('span', { className: 'playoff-dot' }),
+        el('span', {}, 'Зона плей-офф')
+      ),
+      el('a', { href: buildLink('/competition/', { id: 'KHL', tab: 'table' }), className: 'text-primary hover:underline' }, 'Вся таблица →')
+    );
+
     container.appendChild(miniTable);
+    container.appendChild(legend);
   } catch (e) {
     container.innerHTML = '<div class="text-xs text-muted">Таблица недоступна</div>';
   }
 }
+

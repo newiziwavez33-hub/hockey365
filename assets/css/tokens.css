@@ -1,62 +1,78 @@
-/* Hockey365 Design Tokens — Ice Cold High-Performance Sports Portal */
+/* Hockey365 Design Tokens — Google Stitch Apex Ice Design System */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
+
 :root {
-  /* Color Palette - Light Theme ("Ice & Steel") */
-  --color-bg-primary: #f0f4f9;
-  --color-bg-surface: #ffffff;
-  --color-bg-surface-hover: #f5f8fc;
-  --color-bg-secondary: #e6edf5;
-  --color-bg-tertiary: #d7e2ee;
-  
-  --color-border: #cbd7e6;
-  --color-border-subtle: #e2eaf3;
-  --color-border-focus: #0077b6;
+  /* Stitch Surfaces (Dark Ice Void default) */
+  --surface-base: #0B0E14;
+  --surface-dim: #10131A;
+  --surface-card: #141A23;
+  --surface-elevated: #1A2230;
+  --surface-highlight: #222D3E;
+  --surface-bright: #363940;
 
-  --color-text-primary: #0b1320;
-  --color-text-secondary: #334155;
-  --color-text-muted: #64748b;
-  --color-text-inverse: #ffffff;
+  /* Stitch Brand & Ice Accents */
+  --primary-container: #00D2FF;
+  --primary: #A5E7FF;
+  --primary-fixed: #B6EBFF;
+  --primary-fixed-dim: #47D6FF;
+  --secondary: #89CEFF;
+  --secondary-container: #00A2E6;
+  --tertiary: #B8E3FF;
+  --tertiary-container: #6BCCFF;
+  --ice-glow: rgba(0, 210, 255, 0.25);
+  --ice-glow-hover: rgba(0, 210, 255, 0.45);
 
-  /* Hockey Brand Accents */
-  --color-accent-blue: #0077b6;
-  --color-accent-blue-hover: #023e8a;
-  --color-accent-cyan: #00b4d8;
-  --color-accent-ice: #caf0f8;
-  --color-accent-glow: rgba(0, 180, 216, 0.2);
+  /* Stitch Statuses */
+  --live-red: #EF4444;
+  --live-red-glow: rgba(239, 68, 68, 0.35);
+  --win-green: #10B981;
+  --win-green-glow: rgba(16, 185, 129, 0.25);
+  --warning-amber: #F59E0B;
+  --color-penalty: #F97316;
 
-  /* Match Statuses */
-  --color-live: #e63946;
-  --color-live-solid: #c52231;
-  --color-live-bg: #fff0f1;
-  --color-live-pulse: rgba(230, 57, 70, 0.45);
-  --color-success: #10b981;
-  --color-success-bg: #ecfdf5;
-  --color-warning: #f59e0b;
-  --color-warning-bg: #fffbeb;
-  --color-penalty: #f97316;
-  --color-penalty-bg: #fff7ed;
+  /* Stitch Typography Colors */
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --text-inverse: #0B0E14;
 
-  /* Shared component aliases: date ribbon, match rows and footer use these
-     in both themes, not only in the dark-theme override. */
-  --surface-base: var(--color-bg-primary);
-  --surface-card: var(--color-bg-surface);
-  --surface-elevated: var(--color-bg-secondary);
-  --surface-highlight: var(--color-bg-tertiary);
-  --primary-container: var(--color-accent-blue-hover);
-  --primary: var(--color-accent-blue-hover);
-  --primary-light: var(--color-accent-blue-hover);
-  --secondary: var(--color-accent-blue);
-  --ice-glow: var(--color-accent-glow);
-  --live-red: #c52231;
-  --live-red-glow: var(--color-live-pulse);
-  --win-green: #087c58;
-  --warning-amber: #b66300;
-  --text-primary: var(--color-text-primary);
-  --text-secondary: var(--color-text-secondary);
-  --text-muted: var(--color-text-muted);
-  --text-inverse: var(--color-text-inverse);
-  --border-glass: var(--color-border);
-  --border-subtle: var(--color-border-subtle);
-  --border-focus: var(--color-border-focus);
+  /* Stitch Borders & Glass */
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --border-subtle: rgba(255, 255, 255, 0.05);
+  --border-focus: #00D2FF;
+
+  /* Mappings to Global CSS Vars */
+  --color-bg-primary: var(--surface-base);
+  --color-bg-surface: var(--surface-card);
+  --color-bg-surface-hover: var(--surface-elevated);
+  --color-bg-secondary: var(--surface-elevated);
+  --color-bg-tertiary: var(--surface-highlight);
+
+  --color-border: var(--border-glass);
+  --color-border-subtle: var(--border-subtle);
+  --color-border-focus: var(--border-focus);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-text-inverse: var(--text-inverse);
+
+  --color-accent-blue: var(--primary-container);
+  --color-accent-blue-hover: #38bdf8;
+  --color-accent-cyan: var(--primary);
+  --color-accent-ice: var(--surface-highlight);
+  --color-accent-glow: var(--ice-glow);
+
+  --color-live: var(--live-red);
+  --color-live-solid: #EF4444;
+  --color-live-bg: rgba(239, 68, 68, 0.15);
+  --color-live-pulse: var(--live-red-glow);
+  --color-success: var(--win-green);
+  --color-success-bg: rgba(16, 185, 129, 0.15);
+  --color-warning: var(--warning-amber);
+  --color-warning-bg: rgba(245, 158, 11, 0.15);
+  --primary-light: var(--primary);
 
   /* Typography (Stitch: Space Grotesk + Manrope) */
   --font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -97,95 +113,63 @@
 
   /* Borders & Radii */
   --radius-xs: 4px;
-  --radius-sm: 6px;
-  --radius-md: 10px;
-  --radius-lg: 14px;
-  --radius-xl: 18px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
   --radius-full: 9999px;
 
-  /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(11, 19, 32, 0.06);
-  --shadow-md: 0 4px 12px rgba(11, 19, 32, 0.08);
-  --shadow-lg: 0 12px 24px rgba(11, 19, 32, 0.12);
+  /* Shadows (Stitch Glass & Elevation) */
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.65);
   
   /* Transitions */
   --transition-fast: 140ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-normal: 220ms cubic-bezier(0.4, 0, 0.2, 1);
 
   /* Layout */
-  --container-max: 1380px;
-  --header-height: 60px;
+  --container-max: 1440px;
+  --header-height: 64px;
 }
 
-/* Dark Theme ("Apex Ice & Sports Pulse" from Google Stitch) */
-[data-theme="dark"] {
-  /* Stitch Foundation Surfaces */
-  --surface-base: #0B0E14;
-  --surface-card: #141A23;
-  --surface-elevated: #1A2230;
-  --surface-highlight: #222D3E;
+/* Light Theme alternative */
+[data-theme="light"] {
+  --surface-base: #F0F4F9;
+  --surface-dim: #E6EDF5;
+  --surface-card: #FFFFFF;
+  --surface-elevated: #F5F8FC;
+  --surface-highlight: #D7E2EE;
+  --surface-bright: #FFFFFF;
 
-  /* Stitch Brand & Accents */
-  --primary-container: #00D2FF;
-  --primary: #A5E7FF;
-  --secondary: #89CEFF;
-  --secondary-container: #00a2e6;
-  --ice-glow: rgba(0, 210, 255, 0.25);
-  --ice-glow-hover: rgba(0, 210, 255, 0.4);
+  --primary-container: #0077B6;
+  --primary: #023E8A;
+  --secondary: #0096C7;
+  --ice-glow: rgba(0, 119, 182, 0.15);
 
-  /* Stitch Statuses */
-  --live-red: #EF4444;
-  --live-red-glow: rgba(239, 68, 68, 0.35);
-  --win-green: #10B981;
-  --win-green-glow: rgba(16, 185, 129, 0.25);
-  --warning-amber: #F59E0B;
+  --text-primary: #0B1320;
+  --text-secondary: #334155;
+  --text-muted: #64748B;
+  --text-inverse: #FFFFFF;
 
-  /* Stitch Typography Colors */
-  --text-primary: #F8FAFC;
-  --text-secondary: #94A3B8;
-  --text-muted: #8393aa;
-  --text-inverse: #0B0E14;
+  --border-glass: #CBD7E6;
+  --border-subtle: #E2EAF3;
+  --border-focus: #0077B6;
 
-  /* Stitch Borders & Glass */
-  --border-glass: rgba(255, 255, 255, 0.08);
-  --border-subtle: rgba(255, 255, 255, 0.05);
-  --border-focus: #00D2FF;
-
-  /* Mappings to Global Tokens */
   --color-bg-primary: var(--surface-base);
   --color-bg-surface: var(--surface-card);
   --color-bg-surface-hover: var(--surface-elevated);
-  --color-bg-secondary: var(--surface-card);
-  --color-bg-tertiary: var(--surface-elevated);
-
+  --color-bg-secondary: var(--surface-elevated);
+  --color-bg-tertiary: var(--surface-highlight);
   --color-border: var(--border-glass);
   --color-border-subtle: var(--border-subtle);
-  --color-border-focus: var(--border-focus);
-
   --color-text-primary: var(--text-primary);
   --color-text-secondary: var(--text-secondary);
   --color-text-muted: var(--text-muted);
   --color-text-inverse: var(--text-inverse);
-
   --color-accent-blue: var(--primary-container);
-  --color-accent-blue-hover: #38bdf8;
-  --color-accent-cyan: var(--primary);
-  --color-accent-ice: var(--surface-highlight);
-  --color-accent-glow: var(--ice-glow);
-
-  --color-live: var(--live-red);
-  --color-live-solid: #b91c2d;
-  --color-live-bg: rgba(239, 68, 68, 0.15);
-  --color-live-pulse: var(--live-red-glow);
-  --color-success: var(--win-green);
-  --color-success-bg: rgba(16, 185, 129, 0.15);
-  --color-warning: var(--warning-amber);
-  --color-warning-bg: rgba(245, 158, 11, 0.15);
-  --color-penalty: #fb923c;
-  --color-penalty-bg: rgba(251, 146, 60, 0.15);
-  --primary-light: var(--primary);
-
-  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.4);
-  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.55);
-  --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.7);
+  --shadow-sm: 0 1px 3px rgba(11, 19, 32, 0.06);
+  --shadow-md: 0 4px 12px rgba(11, 19, 32, 0.08);
+  --shadow-lg: 0 12px 24px rgba(11, 19, 32, 0.12);
 }
+

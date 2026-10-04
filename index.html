@@ -39,33 +39,38 @@
       <!-- Stitch Highlight Banner: Match of the Day -->
       <div id="highlight-banner-slot"></div>
 
-      <!-- Filter Pills -->
-      <div class="card" style="margin-bottom: var(--space-16);">
-        <div class="card-body" style="padding: var(--space-8) var(--space-12);">
-          <div id="filter-pills" class="flex gap-8" role="group" aria-label="Фильтр матчей" style="overflow-x: auto;">
-            <button class="tab-btn active" type="button" aria-pressed="true" data-filter="all">Все матчи</button>
-            <button class="tab-btn" type="button" aria-pressed="false" data-filter="live">В игре на момент среза</button>
-            <button class="tab-btn" type="button" aria-pressed="false" data-filter="KHL">КХЛ</button>
-            <button class="tab-btn" type="button" aria-pressed="false" data-filter="NHL">НХЛ</button>
-          </div>
+      <!-- Filter Pills (Stitch Sub-toolbar) -->
+      <div class="filter-subtoolbar">
+        <div id="filter-pills" class="flex gap-8 items-center flex-wrap" role="group" aria-label="Фильтр матчей">
+          <button class="tab-btn active" type="button" aria-pressed="true" data-filter="all">Все матчи</button>
+          <button class="tab-btn flex items-center gap-6" type="button" aria-pressed="false" data-filter="live">
+            <span class="live-dot-pulse"></span>
+            <span>Только LIVE</span>
+          </button>
+          <button class="tab-btn" type="button" aria-pressed="false" data-filter="KHL">КХЛ</button>
+          <button class="tab-btn" type="button" aria-pressed="false" data-filter="NHL">НХЛ</button>
+        </div>
+        <div class="sort-indicator text-xs text-muted">
+          <span>Сортировка:</span>
+          <span class="text-text-primary uppercase font-bold">По времени</span>
         </div>
       </div>
 
-      <!-- Layout Grid: Main Matches Column + Sidebar -->
+      <!-- Layout Grid: Main Matches Column (8 cols) + Sidebar (4 cols) -->
       <div class="layout-grid">
         <!-- Matches Column -->
         <section aria-label="Матчи дня">
           <div id="matches-slot"></div>
         </section>
 
-        <!-- Sidebar -->
+        <!-- Sidebar (Stitch Right Rail) -->
         <aside aria-label="Новости и таблицы">
           <!-- Stitch Daily Match Stats Widget -->
-          <div class="card" id="sidebar-stats-card" style="margin-bottom: var(--space-16);">
+          <div class="stitch-widget-card" id="sidebar-stats-card">
             <div class="card-header">
               <h2 class="card-title">
-                <span class="material-symbols-outlined" style="font-size: 18px; color: var(--primary-container);">analytics</span>
-                Статистика дня
+                <span class="material-symbols-outlined">analytics</span>
+                <span>Статистика дня</span>
               </h2>
               <span class="text-xs text-muted" id="sidebar-stats-match-name"></span>
             </div>
@@ -73,31 +78,25 @@
           </div>
 
           <!-- Standings Preview Widget -->
-          <div class="card" style="margin-bottom: var(--space-16);">
+          <div class="stitch-widget-card">
             <div class="card-header">
               <h2 class="card-title">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                  <line x1="3" y1="9" x2="21" y2="9"></line>
-                  <line x1="9" y1="21" x2="9" y2="9"></line>
-                </svg>
-                Лидеры КХЛ
+                <span class="material-symbols-outlined">leaderboard</span>
+                <span>Лидеры КХЛ</span>
               </h2>
-              <a href="competition/?id=KHL" class="text-xs text-muted link-accent">Таблица →</a>
+              <a href="competition/?id=KHL&tab=table" class="comp-table-link text-xs">Таблица →</a>
             </div>
             <div class="card-body" id="sidebar-standings-slot"></div>
           </div>
 
           <!-- News Widget -->
-          <div class="card">
+          <div class="stitch-widget-card">
             <div class="card-header">
               <h2 class="card-title">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V7m2 13a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"></path>
-                </svg>
-                Новости хоккея
+                <span class="material-symbols-outlined">feed</span>
+                <span>Новости хоккея</span>
               </h2>
-              <a href="news/" class="text-xs text-muted link-accent">Все →</a>
+              <a href="news/" class="comp-table-link text-xs">Все →</a>
             </div>
             <div class="card-body" id="sidebar-news-slot"></div>
           </div>
