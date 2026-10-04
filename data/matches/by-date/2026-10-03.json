@@ -7,19 +7,19 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-03T23:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
+    "status": "LIVE",
+    "period": 2,
     "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:buf",
-      "score": null,
+      "score": 1,
       "periods": [],
       "shots": null
     },
     "away": {
       "id": "nhl:chi",
-      "score": null,
+      "score": 2,
       "periods": [],
       "shots": null
     },
@@ -41,19 +41,19 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-03T23:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
+    "status": "LIVE",
+    "period": 2,
     "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:tor",
-      "score": null,
+      "score": 0,
       "periods": [],
       "shots": null
     },
     "away": {
       "id": "nhl:ott",
-      "score": null,
+      "score": 1,
       "periods": [],
       "shots": null
     },
@@ -75,19 +75,19 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-03T23:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
+    "status": "LIVE",
+    "period": 2,
     "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:tbl",
-      "score": null,
+      "score": 2,
       "periods": [],
       "shots": null
     },
     "away": {
       "id": "nhl:wsh",
-      "score": null,
+      "score": 0,
       "periods": [],
       "shots": null
     },
@@ -109,19 +109,19 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-03T23:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
+    "status": "LIVE",
+    "period": 2,
     "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:phi",
-      "score": null,
+      "score": 1,
       "periods": [],
       "shots": null
     },
     "away": {
       "id": "nhl:car",
-      "score": null,
+      "score": 1,
       "periods": [],
       "shots": null
     },
@@ -143,19 +143,19 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-03T23:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
+    "status": "LIVE",
+    "period": 1,
     "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:pit",
-      "score": null,
+      "score": 1,
       "periods": [],
       "shots": null
     },
     "away": {
       "id": "nhl:mtl",
-      "score": null,
+      "score": 1,
       "periods": [],
       "shots": null
     },
@@ -177,19 +177,19 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-03T23:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
+    "status": "LIVE",
+    "period": 2,
     "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:cbj",
-      "score": null,
+      "score": 0,
       "periods": [],
       "shots": null
     },
     "away": {
       "id": "nhl:uta",
-      "score": null,
+      "score": 2,
       "periods": [],
       "shots": null
     },
@@ -211,19 +211,19 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-03T23:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
+    "status": "LIVE",
+    "period": 1,
     "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:edm",
-      "score": null,
+      "score": 1,
       "periods": [],
       "shots": null
     },
     "away": {
       "id": "nhl:sea",
-      "score": null,
+      "score": 0,
       "periods": [],
       "shots": null
     },
@@ -245,19 +245,19 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-03T23:30:00Z",
-    "status": "SCHEDULED",
-    "period": null,
+    "status": "LIVE",
+    "period": 1,
     "clock": null,
     "finishedIn": null,
     "home": {
       "id": "nhl:nyi",
-      "score": null,
+      "score": 0,
       "periods": [],
       "shots": null
     },
     "away": {
       "id": "nhl:njd",
-      "score": null,
+      "score": 0,
       "periods": [],
       "shots": null
     },
