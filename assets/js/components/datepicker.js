@@ -1,5 +1,5 @@
 /**
- * Hockey365 Date Ribbon Component (Google Stitch Design)
+ * Hockey365 Date Ribbon Component (Google Stitch Design 100% Fidelity)
  */
 
 import { el } from '../core/dom.js';
@@ -11,9 +11,9 @@ export function createDatepicker(currentDateStr, onDateSelect) {
     ? currentDateStr : getTodayISODate();
   const current = new Date(`${selected}T12:00:00Z`);
 
-  // Generate 7 days centered on current date (-3 to +3)
+  // Generate 7 days centered on current date (-2 to +4 or -3 to +3)
   const days = [];
-  for (let offset = -3; offset <= 3; offset++) {
+  for (let offset = -2; offset <= 4; offset++) {
     const d = new Date(current);
     d.setUTCDate(d.getUTCDate() + offset);
     const iso = d.toISOString().slice(0, 10);
@@ -89,26 +89,7 @@ export function createDatepicker(currentDateStr, onDateSelect) {
       el('span', { className: 'material-symbols-outlined' }, 'chevron_right')
     ),
 
-    // Calendar trigger button
-    el('div', { className: 'stitch-calendar-wrap' },
-      el('button', {
-        type: 'button',
-        className: 'stitch-calendar-btn',
-        'aria-label': 'Открыть календарь',
-        onClick: () => {
-          if (typeof dateInput.showPicker === 'function') {
-            dateInput.showPicker();
-          } else {
-            dateInput.focus();
-            dateInput.click();
-          }
-        }
-      },
-        el('span', { className: 'material-symbols-outlined' }, 'calendar_month'),
-        el('span', { className: 'calendar-text' }, 'Календарь')
-      ),
-      dateInput
-    )
+    dateInput
   );
 
   return ribbon;

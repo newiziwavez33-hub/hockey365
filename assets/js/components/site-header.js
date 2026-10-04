@@ -1,9 +1,10 @@
 /**
  * Hockey365 Custom Element: <site-header>
  * Designed in 100% accordance with Google Stitch UI System
- * Implements 2-tier sticky header (112px / h-28):
- * - Tier 1 (56px): Brand cluster, search with Ctrl+K, 6 nav links, tools & avatar
+ * Implements 2-tier sticky header (112px / h-28) + live alert ticker strip:
+ * - Tier 1 (56px): Brand cluster, search with ⌘K, 6 nav links, tools & avatar
  * - Tier 2 (56px): Datepicker day cards ribbon + league filter pills
+ * - Ticker strip: Live on-air telemetry & arena feed indicator
  */
 
 import { CONFIG } from '../core/config.js';
@@ -57,21 +58,20 @@ export class SiteHeader extends HTMLElement {
     const isHome = currentPath === base || currentPath === base + '/' || currentPath === base + '/index.html';
     const isOnline = currentPath.includes('/online/');
     const isCompetitions = currentPath.includes('/competition') && !currentPath.includes('tab=stats');
+    const isKHL = currentPath.includes('id=KHL') || currentPath.includes('/khl');
+    const isNHL = currentPath.includes('id=NHL') || currentPath.includes('/nhl');
     const isNews = currentPath.includes('/news/');
-    const isTransfers = currentPath.includes('/transfers/');
-    const isFavorites = currentPath.includes('/favorites/');
-    const isStats = currentPath.includes('tab=stats') || window.location.search.includes('tab=stats');
 
     const navLinks = [
-      { name: 'Матчи / Live', path: '/', active: isHome || isOnline },
-      { name: 'Турниры & Таблицы', path: '/competitions/', active: isCompetitions },
-      { name: 'Новости', path: '/news/', active: isNews },
-      { name: 'Трансферы', path: '/transfers/', active: isTransfers },
-      { name: 'Моя лента', path: '/favorites/', active: isFavorites },
-      { name: 'Статистика', path: '/competition/?id=NHL&tab=stats', active: isStats }
+      { name: 'Главная', path: '/', active: isHome && !isOnline },
+      { name: 'Матч-центр / Live', path: '/online/', active: isOnline },
+      { name: 'КХЛ', path: '/competition/?id=KHL', active: isKHL },
+      { name: 'НХЛ', path: '/competition/?id=NHL', active: isNHL },
+      { name: 'Новости & Медиа', path: '/news/', active: isNews },
+      { name: 'Турниры', path: '/competitions/', active: isCompetitions && !isKHL && !isNHL }
     ];
 
-    const timezoneLabel = store.getTimezone() === 'local' ? 'Местное' : store.getTimezone() === 'UTC' ? 'UTC' : 'МСК (UTC+3)';
+    const timezoneLabel = store.getTimezone() === 'local' ? 'Местное' : store.getTimezone() === 'UTC' ? 'UTC' : 'МСК UTC+3';
 
     // Build Tier 1 (56px)
     const tier1 = el('div', { className: 'header-tier-1' },
@@ -87,7 +87,7 @@ export class SiteHeader extends HTMLElement {
           )
         ),
 
-        // Search Bar with Ctrl+K badge
+        // Search Bar with ⌘K badge
         el('form', {
           className: 'header-search-bar',
           role: 'search',
@@ -100,14 +100,14 @@ export class SiteHeader extends HTMLElement {
           el('span', { className: 'material-symbols-outlined search-icon' }, 'search'),
           el('input', {
             type: 'search',
-            placeholder: 'Поиск команд, игроков, матчей или лиг...',
+            placeholder: 'Поиск команд, игроков, лиг...',
             'aria-label': 'Поиск по сайту'
           }),
-          el('kbd', { className: 'search-kbd' }, 'Ctrl+K')
+          el('kbd', { className: 'search-kbd' }, '⌘K')
         )
       ),
 
-      // Center: 6 Nav Links
+      // Center: Nav Links
       el('nav', { className: 'header-nav-links', 'aria-label': 'Основное меню' },
         navLinks.map(link => el('a', {
           href: buildLink(link.path),
@@ -118,6 +118,12 @@ export class SiteHeader extends HTMLElement {
 
       // Right: Header Tools & Avatar
       el('div', { className: 'header-actions' },
+        // Timezone Pill
+        el('div', { className: 'tz-pill-stitch', title: 'Часовой пояс' },
+          el('span', { className: 'material-symbols-outlined' }, 'language'),
+          el('span', {}, timezoneLabel)
+        ),
+
         // Sound Goal Notifications
         el('button', {
           type: 'button',
@@ -132,20 +138,14 @@ export class SiteHeader extends HTMLElement {
           el('span', { className: 'material-symbols-outlined' }, store.isSoundEnabled() ? 'volume_up' : 'volume_off')
         ),
 
-        // Odds & Stats
+        // Notifications Bell
         el('button', {
           type: 'button',
           className: 'icon-btn-stitch',
-          'aria-label': 'Коэффициенты и ставки',
-          title: 'Коэффициенты и ставки'
+          'aria-label': 'Уведомления',
+          title: 'Уведомления матчей'
         },
-          el('span', { className: 'material-symbols-outlined' }, 'query_stats')
-        ),
-
-        // Timezone Pill
-        el('div', { className: 'tz-pill-stitch', title: 'Часовой пояс' },
-          el('span', { className: 'material-symbols-outlined' }, 'schedule'),
-          el('span', {}, timezoneLabel)
+          el('span', { className: 'material-symbols-outlined' }, 'notifications')
         ),
 
         // Interface Settings Button
@@ -203,7 +203,7 @@ export class SiteHeader extends HTMLElement {
         'aria-pressed': activeFilterParam === 'live' ? 'true' : 'false'
       },
         el('span', { className: 'live-pulse-dot' }),
-        el('span', {}, 'Только LIVE')
+        el('span', {}, 'В игре (LIVE)')
       ),
       el('button', {
         type: 'button',
@@ -217,12 +217,6 @@ export class SiteHeader extends HTMLElement {
         dataset: { filter: 'NHL' },
         'aria-pressed': activeFilterParam === 'NHL' ? 'true' : 'false'
       }, 'НХЛ'),
-      el('button', {
-        type: 'button',
-        className: `filter-pill ${activeFilterParam === 'VHL' ? 'active' : ''}`,
-        dataset: { filter: 'VHL' },
-        'aria-pressed': activeFilterParam === 'VHL' ? 'true' : 'false'
-      }, 'ВХЛ'),
       el('button', {
         type: 'button',
         className: `filter-pill ${activeFilterParam === 'MHL' ? 'active' : ''}`,
@@ -245,38 +239,51 @@ export class SiteHeader extends HTMLElement {
       tier2FilterPills
     );
 
+    // Ticker strip underneath Tier 2 (matching Stitch)
+    const tickerStrip = el('div', { className: 'header-ticker-strip' },
+      el('div', { className: 'ticker-left' },
+        el('span', { className: 'ticker-pill-live' }, 'LIVE ON-AIR'),
+        el('span', { className: 'ticker-text' }, 'Показаны сохранённые матчи и прямые протоколы реального времени. Смена составов и puck-tracking активны.')
+      ),
+      el('div', { className: 'ticker-right' },
+        el('span', { className: 'ticker-live-dot' }, '●'),
+        el('span', {}, 'NHL & KHL Live Feeds • Арена: Москва & Детройт')
+      )
+    );
+
     // Header Container
     const header = el('header', { className: 'site-header-stitch' },
       el('div', { className: 'header-container' },
         tier1,
         tier2
-      )
+      ),
+      tickerStrip
     );
 
     // Mobile Bottom Navigation Bar (Stitch pattern)
     const mobileBottomNav = el('nav', { className: 'mobile-bottom-nav', 'aria-label': 'Мобильная навигация' },
       el('a', { href: buildLink('/'), className: `mob-nav-item ${isHome ? 'active' : ''}`, ...(isHome ? { 'aria-current': 'page' } : {}) },
         el('span', { className: 'material-symbols-outlined' }, 'sports_hockey'),
-        el('span', {}, 'Матчи')
+        el('span', {}, 'Главная')
       ),
       el('a', { href: buildLink('/online/'), className: `mob-nav-item ${isOnline ? 'active' : ''}` },
         el('div', { className: 'mob-live-badge' },
           el('span', { className: 'material-symbols-outlined' }, 'sensors'),
           el('span', { className: 'mob-live-dot', 'aria-hidden': 'true' })
         ),
-        el('span', {}, 'Онлайн')
+        el('span', {}, 'Матч-центр')
       ),
-      el('a', { href: buildLink('/competitions/'), className: `mob-nav-item ${isCompetitions ? 'active' : ''}` },
-        el('span', { className: 'material-symbols-outlined' }, 'leaderboard'),
-        el('span', {}, 'Турниры')
+      el('a', { href: buildLink('/competition/?id=KHL'), className: `mob-nav-item ${isKHL ? 'active' : ''}` },
+        el('span', { className: 'material-symbols-outlined' }, 'sports_score'),
+        el('span', {}, 'КХЛ')
+      ),
+      el('a', { href: buildLink('/competition/?id=NHL'), className: `mob-nav-item ${isNHL ? 'active' : ''}` },
+        el('span', { className: 'material-symbols-outlined' }, 'sports_hockey'),
+        el('span', {}, 'НХЛ')
       ),
       el('a', { href: buildLink('/news/'), className: `mob-nav-item ${isNews ? 'active' : ''}` },
         el('span', { className: 'material-symbols-outlined' }, 'feed'),
         el('span', {}, 'Новости')
-      ),
-      el('a', { href: buildLink('/favorites/'), className: `mob-nav-item ${isFavorites ? 'active' : ''}` },
-        el('span', { className: 'material-symbols-outlined' }, 'star'),
-        el('span', {}, 'Избранное')
       )
     );
 

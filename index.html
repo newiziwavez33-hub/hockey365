@@ -10,9 +10,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" type="image/svg+xml" href="assets/logos/comp/KHL.svg">
-  <link rel="stylesheet" href="assets/css/tokens.css">
-  <link rel="stylesheet" href="assets/css/base.css">
-  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/tokens.css?v=1.6.0">
+  <link rel="stylesheet" href="assets/css/base.css?v=1.6.0">
+  <link rel="stylesheet" href="assets/css/components.css?v=1.6.0">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -32,68 +32,70 @@
   <main id="main-content" class="main-content pt-28">
     <div class="app-container">
       
-      <!-- Stitch Highlight Banner: Match of the Day -->
+      <!-- Stitch Highlight Banner: Match of the Day (Detroit vs Winnipeg / Little Caesars Arena) -->
       <div id="highlight-banner-slot"></div>
 
       <!-- 12-Column Responsive Layout Grid (8 cols stream, 4 cols right rail) -->
       <div class="layout-12-grid">
-        <!-- Main Fixture Stream (8 cols) -->
-        <section class="main-fixture-stream" aria-label="Матчи дня">
-          <!-- Quick Filter Sub-toolbar -->
-          <div class="stream-subtoolbar">
-            <div id="subtoolbar-chips" class="subtoolbar-chips"></div>
-            <div class="subtoolbar-sort">
-              <span>Сортировка:</span>
-              <span class="sort-val">По времени</span>
+        <!-- Main Fixture Stream (approx 68% width) -->
+        <section class="main-fixture-stream" aria-label="Матч-центр хоккея">
+          <!-- Match Center Section Header -->
+          <div class="match-center-header">
+            <div class="match-center-title-cluster">
+              <span class="match-center-bar-accent">▌</span>
+              <h2 class="match-center-title">Матч-центр хоккея</h2>
+              <span id="match-center-count" class="match-center-count-pill">7 МАТЧЕЙ</span>
             </div>
+            <div id="subtoolbar-chips" class="subtoolbar-chips"></div>
           </div>
 
-          <!-- Fixture Cards List -->
+          <!-- 2-Column Match Cards Grid -->
           <div id="matches-slot"></div>
+
+          <!-- Hockey News Section (Below Match Grid) -->
+          <section class="home-news-section" aria-label="Новости хоккея">
+            <div class="home-section-header">
+              <div class="section-title-wrap">
+                <span class="material-symbols-outlined text-cyan">feed</span>
+                <h2 class="section-title">Новости хоккея</h2>
+              </div>
+              <a href="news/" class="section-link">
+                <span>Все новости</span>
+                <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+              </a>
+            </div>
+            
+            <a href="news/?id=derby-ska-loko" class="home-featured-news-card">
+              <div class="news-card-thumb" style="background-image: url('assets/images/news_ska_lokomotiv.jpg');"></div>
+              <div class="news-card-content">
+                <div class="news-meta-row">
+                  <span class="news-exclusive-badge">КХЛ ЭКСКЛЮЗИВ</span>
+                  <span class="news-time">18 минут назад • Аналитический разбор</span>
+                </div>
+                <h3 class="news-card-title">Огненное дерби КХЛ: Битва у бортов и решающий бросок в овертайме</h3>
+              </div>
+            </a>
+          </section>
         </section>
 
-        <!-- Right Rail Widgets (4 cols) -->
-        <aside class="sidebar-right-rail" aria-label="Новости, таблицы и статистика">
-          <!-- WIDGET 1: Standings Leaders (Лидеры КХЛ) -->
+        <!-- Right Rail Widgets (approx 32% width) -->
+        <aside class="sidebar-right-rail" aria-label="Игрок недели и турнирные таблицы">
+          <!-- WIDGET 1: Player of the Week -->
+          <div id="sidebar-potw-slot"></div>
+
+          <!-- WIDGET 2: Standings Leaders (Лидеры КХЛ) -->
           <div class="stitch-sidebar-card" id="sidebar-standings-card">
             <div class="sidebar-card-header">
               <div class="header-title-flex">
-                <span class="material-symbols-outlined text-primary-cyan">leaderboard</span>
+                <span class="material-symbols-outlined text-cyan">leaderboard</span>
                 <h3 class="sidebar-title">Лидеры КХЛ</h3>
               </div>
               <a href="competition/?id=KHL&tab=table" class="sidebar-header-link">
                 <span>Таблица</span>
-                <span class="material-symbols-outlined">arrow_forward</span>
+                <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
               </a>
             </div>
             <div class="sidebar-card-body" id="sidebar-standings-slot"></div>
-          </div>
-
-          <!-- WIDGET 2: Hockey News Feed (Новости хоккея) -->
-          <div class="stitch-sidebar-card" id="sidebar-news-card">
-            <div class="sidebar-card-header">
-              <div class="header-title-flex">
-                <span class="material-symbols-outlined text-primary-cyan">feed</span>
-                <h3 class="sidebar-title">Новости хоккея</h3>
-              </div>
-              <a href="news/" class="sidebar-header-link">
-                <span>Все</span>
-                <span class="material-symbols-outlined">arrow_forward</span>
-              </a>
-            </div>
-            <div class="sidebar-card-body news-feed-body" id="sidebar-news-slot"></div>
-          </div>
-
-          <!-- WIDGET 3: Daily Match Analytics (Статистика дня) -->
-          <div class="stitch-sidebar-card" id="sidebar-stats-card">
-            <div class="sidebar-card-header">
-              <div class="header-title-flex">
-                <span class="material-symbols-outlined text-cyan-accent">analytics</span>
-                <h3 class="sidebar-title">Статистика дня</h3>
-              </div>
-              <span class="sidebar-match-label font-label-sm" id="sidebar-stats-match-name">СКА vs Локо</span>
-            </div>
-            <div class="sidebar-card-body stats-body" id="sidebar-stats-slot"></div>
           </div>
         </aside>
       </div>
@@ -109,16 +111,36 @@
   <site-footer></site-footer>
 
   <script type="module">
-    import './assets/js/components/site-header.js';
-    import './assets/js/components/site-footer.js';
-    import { initHomePage } from './assets/js/pages/home.js';
+    import './assets/js/components/site-header.js?v=1.6.0';
+    import './assets/js/components/site-footer.js?v=1.6.0';
+    import { initHomePage } from './assets/js/pages/home.js?v=1.6.0';
 
     initHomePage();
 
-    // Register Service Worker
+    // Smart Service Worker with auto-update reload (No Ctrl+F5 required)
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js').catch(err => console.warn('SW register error', err));
+        navigator.serviceWorker.register('./sw.js?v=1.6.0').then((reg) => {
+          reg.addEventListener('updatefound', () => {
+            const newWorker = reg.installing;
+            if (newWorker) {
+              newWorker.addEventListener('statechange', () => {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  // New update installed; reload immediately so user gets fresh content
+                  window.location.reload();
+                }
+              });
+            }
+          });
+        }).catch(err => console.warn('SW register error', err));
+
+        let refreshing = false;
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (!refreshing) {
+            refreshing = true;
+            window.location.reload();
+          }
+        });
       });
     }
   </script>
