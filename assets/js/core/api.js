@@ -2,7 +2,7 @@
  * Hockey365 API Client (Data Fetching & Live Polling)
  */
 
-import { CONFIG, getDataUrl } from './config.js';
+import { CONFIG, getAssetUrl, getDataUrl } from './config.js';
 
 const memoryCache = new Map();
 const NHL_WEB_API_BASE = 'https://api-web.nhle.com/v1';
@@ -504,7 +504,7 @@ export function startLivePolling(dateStr, callback, intervalMs = CONFIG.POLL_INT
   // the official NHL polling above remains the portable fallback.
   if (typeof EventSource !== 'undefined') {
     try {
-      liveStream = new EventSource(`/api/live?date=${encodeURIComponent(dateStr)}`);
+      liveStream = new EventSource(getAssetUrl(`api/live?date=${encodeURIComponent(dateStr)}`));
       liveStream.addEventListener('match_update', event => {
         try {
           const payload = JSON.parse(event.data);

@@ -5,7 +5,7 @@
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
 import { getMatchesByDate, getCompetitions, getNews, getStandings, getMeta, getMatch, startLivePolling } from '../core/api.js';
-import { getTodayISODate, formatDate, formatScore, formatPosition } from '../core/format.js';
+import { getTodayISODate, formatDate, formatScore, formatPosition, formatPeriodStatus } from '../core/format.js';
 import { getParam, setParam, buildLink } from '../core/router.js';
 import { createDatepicker } from '../components/datepicker.js';
 import { createMatchRow, createMatchGridCardStitch, KNOWN_TEAMS, getTeamMeta } from '../components/match-row.js';

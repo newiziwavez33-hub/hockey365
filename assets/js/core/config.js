@@ -2,13 +2,19 @@
  * Hockey365 Global Configuration
  */
 
-// Dynamically compute base path for GitHub Pages (e.g., /hockey365 or /)
+// Resolve the deployed site directory from this module URL. This works at
+// the domain root and from arbitrary static subdirectories.
 function computeBasePath() {
-  const path = window.location.pathname;
-  // If deployed in a subdirectory like /hockey365/
-  const match = path.match(/^(\/[^\/]+)/);
-  if (match && match[1] && match[1] === '/hockey365') {
-    return '/hockey365';
+  if (typeof window === 'undefined') return '';
+  try {
+    const moduleUrl = new URL(import.meta.url);
+    if (moduleUrl.origin === window.location.origin) {
+      const marker = '/assets/js/';
+      const markerIndex = moduleUrl.pathname.indexOf(marker);
+      if (markerIndex >= 0) return moduleUrl.pathname.slice(0, markerIndex);
+    }
+  } catch {
+    // Use root deployment as the safe fallback.
   }
   return '';
 }
