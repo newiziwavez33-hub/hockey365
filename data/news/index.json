@@ -1,6 +1,79 @@
 {
   "news": [
     {
+      "id": "news-6644928",
+      "slug": "grishin-otreagiroval-na-pobednyj-gol-neftehimika-zabityj-s-narusheniem-chislennogo-sostava",
+      "title": "Гришин отреагировал на победный гол «Нефтехимика», забитый с нарушением численного состава",
+      "summary": "Главный тренер «Нефтехимика» Игорь Гришин прокомментировал победный гол в матче с «Сибирью» (3:2), при котором на площадке находилось шесть хоккеистов нижнекамской команды.",
+      "content": "Главный тренер «Нефтехимика» Игорь Гришин прокомментировал победный гол в матче с «Сибирью» (3:2), при котором на площадке находилось шесть хоккеистов нижнекамской команды.",
+      "image": "https://img.championat.com/news/big/z/m/grishin-otreagiroval-na-pobe.jpg",
+      "publishedAt": "2026-10-04T18:35:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644928-grishin-otreagiroval-na-pobednyj-gol-neftehimika-zabityj-s-narusheniem-chislennogo-sostava.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Сибирь",
+        "Нефтехимик",
+        "Хоккейное судейство",
+        "Игорь Гришин"
+      ],
+      "relatedTeamIds": [
+        "khl:neftekhimik",
+        "khl:sibir"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644916",
+      "slug": "s-shutova-snimali-shlem-fetisov-sledil-iz-vip-lozhi-foto-porazheniya-spartaka-ot-barysa",
+      "title": "С Шутова снимали шлем, Фетисов следил из VIP-ложи. Фото поражения «Спартака» от «Барыса»",
+      "summary": "Сегодня, 4 октября, в Москве на стадионе «Мегаспорт» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Спартак» принимал астанинский «Барыс».",
+      "content": "Сегодня, 4 октября, в Москве на стадионе «Мегаспорт» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Спартак» принимал астанинский «Барыс».",
+      "image": "https://img.championat.com/news/big/z/k/s-shutova-snimali-shlem-fetisov-sledil-iz-vip-lozhi-foto-porazheniya-spartaka-ot-barysa_17911381121071466542.jpg",
+      "publishedAt": "2026-10-04T18:22:11Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644916-s-shutova-snimali-shlem-fetisov-sledil-iz-vip-lozhi-foto-porazheniya-spartaka-ot-barysa.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Фото",
+        "Спартак",
+        "Барыс",
+        "Фоторепортаж",
+        "Вячеслав Фетисов",
+        "Андрей Шутов"
+      ],
+      "relatedTeamIds": [
+        "khl:barys",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644894",
+      "slug": "v-fhr-obyasnili-pochemu-federaciya-dovolna-itogami-vyborov-novogo-prezidenta-iihf",
+      "title": "В ФХР объяснили, почему федерация довольна итогами выборов нового президента ИИХФ",
+      "summary": "Генеральный директор ФХР Дмитрий Курбатов заявил, что в России положительно оценивают избрание Франца Райндля президентом Международной федерации хоккея.",
+      "content": "Генеральный директор ФХР Дмитрий Курбатов заявил, что в России положительно оценивают избрание Франца Райндля президентом Международной федерации хоккея.",
+      "image": "https://img.championat.com/news/big/a/y/v-fhr-obyasnili-pochemu-federaciya-dovolna-itogami-vyborov-novogo-prezidenta-iihf_1791136716865003925.jpg",
+      "publishedAt": "2026-10-04T18:00:06Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644894-v-fhr-obyasnili-pochemu-federaciya-dovolna-itogami-vyborov-novogo-prezidenta-iihf.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Сборная России — Хоккей",
+        "Матч ТВ",
+        "Отстранение России",
+        "ИИХФ",
+        "Дмитрий Курбатов",
+        "Франц Райндль"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6644862",
       "slug": "roman-rotenberg-poluchil-orden-za-zaslugi-pered-moskovskoj-oblastyu",
       "title": "Роман Ротенберг получил орден «За заслуги перед Московской областью»",
@@ -372,7 +445,8 @@
         "КХЛ",
         "Видео",
         "Автомобилист",
-        "Амур"
+        "Амур",
+        "Хоккейное судейство"
       ],
       "relatedTeamIds": [
         "khl:amur",
@@ -677,72 +751,6 @@
         "nhl:van",
         "nhl:vgk",
         "nhl:wpg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6644114",
-      "slug": "kotton-o-perehode-v-cska-snachala-bylo-nemnogo-neprivychno-no-v-celom-vsyo-idyot-neploho",
-      "title": "Коттон — о переходе в ЦСКА: сначала было немного непривычно, но в целом всё идёт неплохо",
-      "summary": "Канадский защитник ЦСКА Алекс Коттон рассказал о своём переходе в армейский клуб и адаптации в команде.",
-      "content": "Канадский защитник ЦСКА Алекс Коттон рассказал о своём переходе в армейский клуб и адаптации в команде.",
-      "image": "https://img.championat.com/news/big/z/o/kotton-o-perehode-v-cska-snachala-bylo-nemnogo-neprivychno-no-v-celom-vsyo-idyot-neploho_179110507317016956.jpg",
-      "publishedAt": "2026-10-04T09:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6644114-kotton-o-perehode-v-cska-snachala-bylo-nemnogo-neprivychno-no-v-celom-vsyo-idyot-neploho.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "ЦСКА"
-      ],
-      "relatedTeamIds": [
-        "khl:cska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6644236",
-      "slug": "glavnyj-trener-torpedo-isakov-ocenil-razgromnuyu-pobedu-nad-sochi",
-      "title": "Главный тренер «Торпедо» Исаков оценил разгромную победу над «Сочи»",
-      "summary": "Главный тренер «Торпедо» Алексей Исаков высказался о разгромной победе над «Сочи» (6:0) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Главный тренер «Торпедо» Алексей Исаков высказался о разгромной победе над «Сочи» (6:0) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/n/p/glavnyj-trener-torpedo-isako.jpg",
-      "publishedAt": "2026-10-04T08:42:47Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6644236-glavnyj-trener-torpedo-isakov-ocenil-razgromnuyu-pobedu-nad-sochi.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Торпедо",
-        "Сочи",
-        "Алексей Исаков"
-      ],
-      "relatedTeamIds": [
-        "khl:sochi",
-        "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6644148",
-      "slug": "avtomobilist-amur-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-14-30-msk",
-      "title": "«Автомобилист» — «Амур»: онлайн-трансляция матча КХЛ начнётся в 14:30 мск",
-      "summary": "Сегодня, 4 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» примет хабаровский «Амур».",
-      "content": "Сегодня, 4 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» примет хабаровский «Амур».",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-04T08:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6644148-avtomobilist-amur-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-14-30-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Автомобилист",
-        "Амур"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:avtomobilist"
       ],
       "relatedPlayerIds": []
     }

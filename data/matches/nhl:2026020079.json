@@ -1,28 +1,28 @@
 {
-  "id": "nhl:2026020066",
+  "id": "nhl:2026020079",
   "compId": "NHL",
   "season": "2026/27",
   "stage": "regular",
   "round": null,
   "seriesGame": null,
-  "utcDate": "2026-10-09T23:00:00Z",
+  "utcDate": "2026-10-10T23:00:00Z",
   "status": "SCHEDULED",
   "period": null,
   "clock": null,
   "finishedIn": null,
   "home": {
-    "id": "nhl:det",
+    "id": "nhl:stl",
     "score": null,
     "periods": [],
     "shots": null
   },
   "away": {
-    "id": "nhl:sea",
+    "id": "nhl:cbj",
     "score": null,
     "periods": [],
     "shots": null
   },
-  "arena": "Little Caesars Arena",
+  "arena": "Enterprise Center",
   "officials": {
     "referees": [],
     "linesmen": []
@@ -35,9 +35,9 @@
     "type": "external",
     "verified": true,
     "provider": "NHL.com",
-    "url": "https://www.nhl.com/gamecenter/sea-vs-det/2026/10/09/2026020066",
+    "url": "https://www.nhl.com/gamecenter/cbj-vs-stl/2026/10/10/2026020079",
     "sourceName": "NHL.com Gamecenter",
-    "sourceUrl": "https://www.nhl.com/gamecenter/sea-vs-det/2026/10/09/2026020066",
-    "verifiedAt": "2026-10-04T18:49:13.810107Z"
+    "sourceUrl": "https://www.nhl.com/gamecenter/cbj-vs-stl/2026/10/10/2026020079",
+    "verifiedAt": "2026-10-04T18:49:13.812202Z"
   }
 }

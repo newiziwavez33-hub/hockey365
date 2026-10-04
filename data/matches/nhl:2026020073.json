@@ -1,28 +1,28 @@
 {
-  "id": "nhl:2026020066",
+  "id": "nhl:2026020073",
   "compId": "NHL",
   "season": "2026/27",
   "stage": "regular",
   "round": null,
   "seriesGame": null,
-  "utcDate": "2026-10-09T23:00:00Z",
+  "utcDate": "2026-10-10T22:00:00Z",
   "status": "SCHEDULED",
   "period": null,
   "clock": null,
   "finishedIn": null,
   "home": {
-    "id": "nhl:det",
+    "id": "nhl:fla",
     "score": null,
     "periods": [],
     "shots": null
   },
   "away": {
-    "id": "nhl:sea",
+    "id": "nhl:min",
     "score": null,
     "periods": [],
     "shots": null
   },
-  "arena": "Little Caesars Arena",
+  "arena": "Amerant Bank Arena",
   "officials": {
     "referees": [],
     "linesmen": []
@@ -35,9 +35,9 @@
     "type": "external",
     "verified": true,
     "provider": "NHL.com",
-    "url": "https://www.nhl.com/gamecenter/sea-vs-det/2026/10/09/2026020066",
+    "url": "https://www.nhl.com/gamecenter/min-vs-fla/2026/10/10/2026020073",
     "sourceName": "NHL.com Gamecenter",
-    "sourceUrl": "https://www.nhl.com/gamecenter/sea-vs-det/2026/10/09/2026020066",
-    "verifiedAt": "2026-10-04T18:49:13.810107Z"
+    "sourceUrl": "https://www.nhl.com/gamecenter/min-vs-fla/2026/10/10/2026020073",
+    "verifiedAt": "2026-10-04T18:49:13.811547Z"
   }
 }
