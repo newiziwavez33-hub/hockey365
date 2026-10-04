@@ -37,6 +37,7 @@ jobs:
       - name: Fetch verified NHL data and rebuild indexes
         run: |
           python3 tools/adapters/nhl_web.py
+          python3 tools/adapters/fetch_news.py
           python3 tools/normalize.py
           python3 tools/validate_data.py
           python3 tools/build_search_index.py

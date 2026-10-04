@@ -1,97 +1,875 @@
 {
   "news": [
     {
-      "id": "news-1",
-      "slug": "ska-lokomotiv-ot-thriller",
-      "title": "СКА обыграл «Локомотив» в овертайме в матче лидеров Западной конференции",
-      "summary": "Дубль Александра Никишина принёс армейцам победу со счётом 3:2. Победная шайба была заброшена на 4-й минуте овертайма.",
-      "content": "В центральном матче игрового дня в Санкт-Петербурге на льду «СКА Арены» сошлись два лидера Западной конференции. Защитник армейцев Александр Никишин оформил голевой дубль, включая победный бросок в овертайме.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-10-03T19:30:00Z",
-      "source": "Пресс-служба КХЛ",
-      "url": null,
+      "id": "news-6644556",
+      "slug": "mnogo-momentov-sozdali-soperniku-glupye-goly-byli-goldobin-o-matche-s-admiralom",
+      "title": "«Много моментов создали сопернику, глупые голы были». Голдобин — о матче с «Адмиралом»",
+      "summary": "Нападающий СКА Николай Голдобин прокомментировал победу над «Адмиралом» (6:5 Б) в матче регулярного чемпионата Фонбет КХЛ сезона-2026/2027.",
+      "content": "Нападающий СКА Николай Голдобин прокомментировал победу над «Адмиралом» (6:5 Б) в матче регулярного чемпионата Фонбет КХЛ сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/h/h/mnogo-momentov-sozdali-soperniku-glupye-goly-byli-goldobin-o-matche-s-admiralom_17911178681311678613.jpg",
+      "publishedAt": "2026-10-04T12:40:24Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644556-mnogo-momentov-sozdali-soperniku-glupye-goly-byli-goldobin-o-matche-s-admiralom.html",
       "tags": [
+        "Хоккей",
         "КХЛ",
+        "Эксклюзив",
         "СКА",
-        "Локомотив",
-        "Овертайм"
+        "Адмирал",
+        "Сергей Плотников",
+        "Николай Голдобин",
+        "Захар Бардаков",
+        "Василий Глотов"
       ],
       "relatedTeamIds": [
-        "khl:ska",
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": [
-        "khl:p_nikishin",
-        "khl:p_gusev"
-      ]
-    },
-    {
-      "id": "news-2",
-      "slug": "spartak-beats-traktor",
-      "title": "«Спартак» уверенно победил «Трактор» благодаря дублю Голдобина",
-      "summary": "Красно-белые забросили четыре шайбы в ворота челябинцев и укрепили позиции в дивизионе Боброва.",
-      "content": "Московский «Спартак» одержал уверенную победу над челябинским «Трактором» со счётом 4:2. Николай Голдобин набрал 3 (2+1) очка.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-03T17:15:00Z",
-      "source": "Hockey365",
-      "url": null,
-      "tags": [
-        "КХЛ",
-        "Спартак",
-        "Трактор"
-      ],
-      "relatedTeamIds": [
-        "khl:spartak",
-        "khl:traktor"
+        "khl:admiral",
+        "khl:ska"
       ],
       "relatedPlayerIds": [
         "khl:p_goldobin"
       ]
     },
     {
-      "id": "news-3",
-      "slug": "nhl-regular-season-kicks-off",
-      "title": "Регулярный чемпионат НХЛ 2026/27 набирает обороты: результаты первых встреч",
-      "summary": "Все 32 клуба Национальной Хоккейной Лиги включились в борьбу за Кубок Стэнли.",
-      "content": "За океаном стартовали матчи регулярного первенства НХЛ. В восточной и западной конференциях лидерство захватили фавориты сезона.",
-      "image": "assets/images/news_nhl_season.jpg",
-      "publishedAt": "2026-10-03T10:00:00Z",
-      "source": "NHL Media",
-      "url": null,
+      "id": "news-6644534",
+      "slug": "v-arbitra-matcha-avtomobilist-amur-popala-shajba-sudyu-unesli-so-lda-na-nosilkah",
+      "title": "В арбитра матча «Автомобилист» — «Амур» попала шайба, судью унесли со льда на носилках",
+      "summary": "В матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027 между екатеринбургским «Автомобилистом» и хабаровским «Амуром» шайба попала в колено линейному арбитру.",
+      "content": "В матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027 между екатеринбургским «Автомобилистом» и хабаровским «Амуром» шайба попала в колено линейному арбитру.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-04T12:25:17Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644534-v-arbitra-matcha-avtomobilist-amur-popala-shajba-sudyu-unesli-so-lda-na-nosilkah.html",
       "tags": [
-        "NHL",
-        "НХЛ",
-        "Кубок Стэнли"
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "Автомобилист",
+        "Амур"
       ],
       "relatedTeamIds": [
-        "nhl:wsh",
-        "nhl:tor",
-        "nhl:edm"
+        "khl:amur",
+        "khl:avtomobilist"
       ],
       "relatedPlayerIds": []
     },
     {
-      "id": "news-4",
-      "slug": "khl-nhl-transfers-overview",
-      "title": "Обмены и ключевые трансферы: как клубы КХЛ и НХЛ усиливают составы",
-      "summary": "В разгар регулярного чемпионата клубы продолжают точечную селекцию и обмены правами на игроков.",
-      "content": "В офисах клубов КХЛ и НХЛ не утихает трансферная активность. Анализируем последние обмены, подписания свободных агентов и перемещения игроков между звеньями.",
-      "image": "assets/images/news_transfers.jpg",
-      "publishedAt": "2026-10-03T08:00:00Z",
-      "source": "Hockey365 • Трансферы",
-      "url": null,
+      "id": "news-6644504",
+      "slug": "napadayuschij-traktora-rolgizer-rasskazal-o-rabote-so-skottom-gordonom",
+      "title": "Нападающий «Трактора» Рольгизер рассказал о работе со Скоттом Гордоном",
+      "summary": "Нападающий «Трактора» Михаил Рольгизер высказался о работе с главным тренером челябинской команды Скоттом Гордоном.",
+      "content": "Нападающий «Трактора» Михаил Рольгизер высказался о работе с главным тренером челябинской команды Скоттом Гордоном.",
+      "image": "https://img.championat.com/news/big/g/a/napadayuschij-traktora-rolgi.jpg",
+      "publishedAt": "2026-10-04T12:19:08Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644504-napadayuschij-traktora-rolgizer-rasskazal-o-rabote-so-skottom-gordonom.html",
       "tags": [
-        "Трансферы",
+        "Хоккей",
         "КХЛ",
-        "НХЛ",
-        "Аналитика"
+        "Трактор",
+        "Скотт Гордон"
       ],
       "relatedTeamIds": [
-        "khl:ska",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644466",
+      "slug": "larionov-o-man-siti-tituly-otbirat-nepravilno-no-hochetsya-chtoby-sport-byl-chische",
+      "title": "Ларионов — о «Ман Сити»: титулы отбирать неправильно. Но хочется, чтобы спорт был чище",
+      "summary": "Главный тренер СКА Игорь Ларионов прокомментировал скандал вокруг «Манчестер Сити».",
+      "content": "Главный тренер СКА Игорь Ларионов прокомментировал скандал вокруг «Манчестер Сити».",
+      "image": "https://img.championat.com/news/big/l/h/larionov-o-man-siti-tituly-o.jpg",
+      "publishedAt": "2026-10-04T11:48:11Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644466-larionov-o-man-siti-tituly-otbirat-nepravilno-no-hochetsya-chtoby-sport-byl-chische.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Футбол",
+        "Англия",
+        "СКА",
+        "Манчестер Сити",
+        "Игорь Ларионов"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644450",
+      "slug": "avtomobilist-amur-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
+      "title": "«Автомобилист» — «Амур»: онлайн-трансляция матча КХЛ началась",
+      "summary": "В эти минуты в Екатеринбурге на стадионе «УГМК-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» принимает хабаровский «Амур».",
+      "content": "В эти минуты в Екатеринбурге на стадионе «УГМК-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» принимает хабаровский «Амур».",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-04T11:30:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644450-avtomobilist-amur-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Автомобилист",
+        "Амур"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:avtomobilist"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644426",
+      "slug": "napadayuschij-traktora-rolgizer-pribavlyaem-s-kazhdym-matchem-i-individualno-i-komandoj",
+      "title": "Нападающий «Трактора» Рольгизер: прибавляем с каждым матчем и индивидуально, и командой",
+      "summary": "Нападающий «Трактора» Михаил Рольгизер прокомментировал старт команды в регулярном чемпионате Фонбет КХЛ сезона-2026/2027.",
+      "content": "Нападающий «Трактора» Михаил Рольгизер прокомментировал старт команды в регулярном чемпионате Фонбет КХЛ сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/m/x/napadayuschij-traktora-rolgizer-pribavlyaem-s-kazhdym-matchem-i-individualno-i-komandoj_17911126101294361362.jpg",
+      "publishedAt": "2026-10-04T11:14:08Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644426-napadayuschij-traktora-rolgizer-pribavlyaem-s-kazhdym-matchem-i-individualno-i-komandoj.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Трактор"
+      ],
+      "relatedTeamIds": [
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644306",
+      "slug": "spartak-barys-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-17-00-msk",
+      "title": "«Спартак» — «Барыс»: онлайн-трансляция матча КХЛ начнётся в 17:00 мск",
+      "summary": "Сегодня, 4 октября, в Москве на стадионе «Мегаспорт» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Спартак» примет астанинский «Барыс».",
+      "content": "Сегодня, 4 октября, в Москве на стадионе «Мегаспорт» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Спартак» примет астанинский «Барыс».",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-04T11:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644306-spartak-barys-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-17-00-msk.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Спартак",
+        "Барыс"
+      ],
+      "relatedTeamIds": [
+        "khl:barys",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644382",
+      "slug": "stemkos-zabil-v-500-matche-nhl-za-kareru-iz-dejstvuyuschih-bolshe-tolko-u-ovechkina-i-krosbi",
+      "title": "Стэмкос забил в 500-м матче в карьере. Из действующих — больше только у Овечкина и Кросби",
+      "summary": "Нападающий «Нэшвилл Предаторз» Стивен Стэмкос достиг редкой отметки в Национальной хоккейной лиге.",
+      "content": "Нападающий «Нэшвилл Предаторз» Стивен Стэмкос достиг редкой отметки в Национальной хоккейной лиге.",
+      "image": "https://img.championat.com/news/big/q/i/stemkos-zabil-v-500-m-matche-v-karere-iz-dejstvuyuschih-bolshe-tolko-u-ovechkina-i-krosbi_1791110735115286990.jpg",
+      "publishedAt": "2026-10-04T10:38:54Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644382-stemkos-zabil-v-500-matche-nhl-za-kareru-iz-dejstvuyuschih-bolshe-tolko-u-ovechkina-i-krosbi.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Питтсбург Пингвинз",
+        "Даллас Старз",
+        "Нэшвилл Предаторз",
+        "Сидни Кросби",
+        "Стивен Стэмкос"
+      ],
+      "relatedTeamIds": [
+        "nhl:dal",
+        "nhl:nsh",
+        "nhl:pit",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6644356",
+      "slug": "kostin-o-bullitah-pered-matchami-khl-oni-umestny-posle-igry-takaya-vishenka-na-torte",
+      "title": "Костин — о буллитах перед матчами КХЛ: они уместны после игры. Такая вишенка на торте",
+      "summary": "Нападающий ЦСКА Клим Костин прокомментировал идею о введении буллитной серии перед матчами Континентальной хоккейной лиги.",
+      "content": "Нападающий ЦСКА Клим Костин прокомментировал идею о введении буллитной серии перед матчами Континентальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/q/y/kostin-o-bullitah-pered-matc.jpg",
+      "publishedAt": "2026-10-04T10:17:20Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644356-kostin-o-bullitah-pered-matchami-khl-oni-umestny-posle-igry-takaya-vishenka-na-torte.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Динамо Москва",
+        "Клим Костин"
+      ],
+      "relatedTeamIds": [
         "khl:cska",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644256",
+      "slug": "kanadskij-zaschitnik-cska-moya-devushka-rossiyanka-tak-chto-uzhe-privyk-k-russkim-blyudam",
+      "title": "Канадский защитник ЦСКА: моя девушка — россиянка, так что уже привык к русским блюдам",
+      "summary": "Канадский защитник ЦСКА Алекс Коттон заявил, что уже привык к русской еде, так как его девушка — россиянка, она постоянно готовит блюда национальной кухни.",
+      "content": "Канадский защитник ЦСКА Алекс Коттон заявил, что уже привык к русской еде, так как его девушка — россиянка, она постоянно готовит блюда национальной кухни.",
+      "image": "https://img.championat.com/news/big/l/z/kanadskij-zaschitnik-cska-moya-devushka-rossiyanka-tak-chto-uzhe-privyk-k-russkim-blyudam_1791104995849012654.jpg",
+      "publishedAt": "2026-10-04T10:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644256-kanadskij-zaschitnik-cska-moya-devushka-rossiyanka-tak-chto-uzhe-privyk-k-russkim-blyudam.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "ЦСКА"
+      ],
+      "relatedTeamIds": [
+        "khl:cska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644336",
+      "slug": "vasilevskij-vyshel-na-pervoe-mesto-sredi-vratarej-po-chislu-pobed-v-600-matchah-v-nhl",
+      "title": "Василевский вышел на первое место среди вратарей по числу побед в 600 матчах НХЛ",
+      "summary": "Российский голкипер «Тампа-Бэй Лайтнинг» Андрей Василевский отразил 20 бросков в матче регулярного чемпионата НХЛ с «Вашингтон Кэпиталз» (3:1) и одержал свою 371-ю победу в 600 играх в регулярках лиги.",
+      "content": "Российский голкипер «Тампа-Бэй Лайтнинг» Андрей Василевский отразил 20 бросков в матче регулярного чемпионата НХЛ с «Вашингтон Кэпиталз» (3:1) и одержал свою 371-ю победу в 600 играх в регулярках лиги.",
+      "image": "https://img.championat.com/news/big/u/g/vasilevskij-vyshel-na-pervoe-mesto-sredi-vratarej-po-chislu-pobed-v-600-matchah-nhl_17911080721506571784.jpg",
+      "publishedAt": "2026-10-04T09:54:18Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644336-vasilevskij-vyshel-na-pervoe-mesto-sredi-vratarej-po-chislu-pobed-v-600-matchah-v-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Тампа-Бэй Лайтнинг",
+        "Торонто Мэйпл Лифс",
+        "Сергей Бобровский",
+        "Андрей Василевский",
+        "Коннор Хеллебайк"
+      ],
+      "relatedTeamIds": [
+        "nhl:fla",
+        "nhl:tbl",
+        "nhl:tor",
+        "nhl:wpg",
         "nhl:wsh"
       ],
       "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644316",
+      "slug": "sotishvili-o-pobede-nad-lokomotivom-my-bilis-drug-za-druga-s-pervyh-minut",
+      "title": "Сотишвили — о победе над «Локомотивом»: мы бились друг за друга с первых минут",
+      "summary": "Нападающий минского «Динамо» Даниил Сотишвили прокомментировал победу над «Локомотивом» (4:3) и высказался о своих заброшенных шайбах.",
+      "content": "Нападающий минского «Динамо» Даниил Сотишвили прокомментировал победу над «Локомотивом» (4:3) и высказался о своих заброшенных шайбах.",
+      "image": "https://img.championat.com/news/big/o/s/sotishvili-o-pobede-nad-loko.jpg",
+      "publishedAt": "2026-10-04T09:33:21Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644316-sotishvili-o-pobede-nad-lokomotivom-my-bilis-drug-za-druga-s-pervyh-minut.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Локомотив",
+        "Динамо Минск",
+        "Даниил Сотишвили"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:lokomotiv"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644280",
+      "slug": "glavnyj-trener-sochi-mironov-gusev-dolzhen-vesti-komandu-vperyod-k-pobedam-byt-liderom",
+      "title": "Главный тренер «Сочи» Миронов: Гусев должен вести команду вперёд к победам, быть лидером",
+      "summary": "Главный тренер «Сочи» Андрей Миронов прокомментировал поражение от «Торпедо» (0:6) и высказался о роли нападающего Никиты Гусева в команде.",
+      "content": "Главный тренер «Сочи» Андрей Миронов прокомментировал поражение от «Торпедо» (0:6) и высказался о роли нападающего Никиты Гусева в команде.",
+      "image": "https://img.championat.com/news/big/i/j/glavnyj-trener-sochi-mironov-gusev-dolzhen-vesti-komandu-vperyod-k-pobedam-byt-liderom_1791105136343441675.jpg",
+      "publishedAt": "2026-10-04T09:12:19Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644280-glavnyj-trener-sochi-mironov-gusev-dolzhen-vesti-komandu-vperyod-k-pobedam-byt-liderom.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Торпедо",
+        "Сочи",
+        "Никита Гусев",
+        "Андрей Миронов — тренер"
+      ],
+      "relatedTeamIds": [
+        "khl:sochi",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": [
+        "khl:p_gusev"
+      ]
+    },
+    {
+      "id": "news-6644198",
+      "slug": "raspisanie-matchej-nhl-v-noch-s-4-oktyabrya-na-5-oktyabrya-2026-goda",
+      "title": "Расписание матчей НХЛ в ночь с 4 октября на 5 октября 2026 года",
+      "summary": "Сегодня, 4 октября, и в ночь на 5 октября пройдут очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "content": "Сегодня, 4 октября, и в ночь на 5 октября пройдут очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-10-04T09:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644198-raspisanie-matchej-nhl-v-noch-s-4-oktyabrya-na-5-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Нью-Йорк Рейнджерс",
+        "Флорида Пантерз",
+        "Вегас Голден Найтс",
+        "Ванкувер Кэнакс",
+        "Детройт Ред Уингз",
+        "Виннипег Джетс",
+        "Калгари Флэймз",
+        "Анахайм Дакс",
+        "Сиэтл Кракен",
+        "Юта Маммот"
+      ],
+      "relatedTeamIds": [
+        "nhl:ana",
+        "nhl:cgy",
+        "nhl:det",
+        "nhl:fla",
+        "nhl:nyr",
+        "nhl:sea",
+        "nhl:uta",
+        "nhl:van",
+        "nhl:vgk",
+        "nhl:wpg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644114",
+      "slug": "kotton-o-perehode-v-cska-snachala-bylo-nemnogo-neprivychno-no-v-celom-vsyo-idyot-neploho",
+      "title": "Коттон — о переходе в ЦСКА: сначала было немного непривычно, но в целом всё идёт неплохо",
+      "summary": "Канадский защитник ЦСКА Алекс Коттон рассказал о своём переходе в армейский клуб и адаптации в команде.",
+      "content": "Канадский защитник ЦСКА Алекс Коттон рассказал о своём переходе в армейский клуб и адаптации в команде.",
+      "image": "https://img.championat.com/news/big/z/o/kotton-o-perehode-v-cska-snachala-bylo-nemnogo-neprivychno-no-v-celom-vsyo-idyot-neploho_179110507317016956.jpg",
+      "publishedAt": "2026-10-04T09:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644114-kotton-o-perehode-v-cska-snachala-bylo-nemnogo-neprivychno-no-v-celom-vsyo-idyot-neploho.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "ЦСКА"
+      ],
+      "relatedTeamIds": [
+        "khl:cska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644236",
+      "slug": "glavnyj-trener-torpedo-isakov-ocenil-razgromnuyu-pobedu-nad-sochi",
+      "title": "Главный тренер «Торпедо» Исаков оценил разгромную победу над «Сочи»",
+      "summary": "Главный тренер «Торпедо» Алексей Исаков высказался о разгромной победе над «Сочи» (6:0) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Главный тренер «Торпедо» Алексей Исаков высказался о разгромной победе над «Сочи» (6:0) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/n/p/glavnyj-trener-torpedo-isako.jpg",
+      "publishedAt": "2026-10-04T08:42:47Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644236-glavnyj-trener-torpedo-isakov-ocenil-razgromnuyu-pobedu-nad-sochi.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Торпедо",
+        "Сочи",
+        "Алексей Исаков"
+      ],
+      "relatedTeamIds": [
+        "khl:sochi",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644148",
+      "slug": "avtomobilist-amur-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-14-30-msk",
+      "title": "«Автомобилист» — «Амур»: онлайн-трансляция матча КХЛ начнётся в 14:30 мск",
+      "summary": "Сегодня, 4 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» примет хабаровский «Амур».",
+      "content": "Сегодня, 4 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» примет хабаровский «Амур».",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-04T08:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644148-avtomobilist-amur-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-14-30-msk.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Автомобилист",
+        "Амур"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:avtomobilist"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644218",
+      "slug": "glavnyj-trener-lokomotiva-kvartalnov-vyskazalsya-o-porazhenii-ot-minskogo-dinamo",
+      "title": "Главный тренер «Локомотива» Квартальнов высказался о поражении от минского «Динамо»",
+      "summary": "Главный тренер «Локомотива» Дмитрий Квартальнов прокомментировал поражение от минского «Динамо» (3:4) в матче регулярного чемпионата Фонбет КХЛ сезона-2026/2027.",
+      "content": "Главный тренер «Локомотива» Дмитрий Квартальнов прокомментировал поражение от минского «Динамо» (3:4) в матче регулярного чемпионата Фонбет КХЛ сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/i/j/glavnyj-trener-lokomotiva-kv.jpg",
+      "publishedAt": "2026-10-04T08:04:10Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644218-glavnyj-trener-lokomotiva-kvartalnov-vyskazalsya-o-porazhenii-ot-minskogo-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Локомотив",
+        "Динамо Минск",
+        "Дмитрий Квартальнов"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:lokomotiv"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644062",
+      "slug": "legioner-cska-prokommentiroval-emocionalnuyu-pobedu-v-moskovskom-derbi-s-dinamo",
+      "title": "Легионер ЦСКА прокомментировал эмоциональную победу в московском дерби с «Динамо»",
+      "summary": "Канадский защитник ЦСКА Алекс Коттон высказался о победе над московским «Динамо» (4:3 Б) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Канадский защитник ЦСКА Алекс Коттон высказался о победе над московским «Динамо» (4:3 Б) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/q/f/legioner-cska-prokommentirov.jpg",
+      "publishedAt": "2026-10-04T08:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644062-legioner-cska-prokommentiroval-emocionalnuyu-pobedu-v-moskovskom-derbi-s-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "ЦСКА",
+        "Динамо Москва"
+      ],
+      "relatedTeamIds": [
+        "khl:cska",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644182",
+      "slug": "malkin-vyshel-na-chistoe-22-e-mesto-v-spiske-luchshih-bombardirov-v-istorii-nhl",
+      "title": "Малкин вышел на чистое 22-е место в списке лучших бомбардиров в истории НХЛ",
+      "summary": "Российский нападающий «Питтсбург Пингвинз» Евгений Малкин забросил шайбу и сделал две результативные передачи в матче регулярного чемпионата НХЛ с «Монреаль Канадиенс» (6:5 ОТ).",
+      "content": "Российский нападающий «Питтсбург Пингвинз» Евгений Малкин забросил шайбу и сделал две результативные передачи в матче регулярного чемпионата НХЛ с «Монреаль Канадиенс» (6:5 ОТ).",
+      "image": "https://img.championat.com/news/big/k/u/malkin-vyshel-na-chistoe-22-e-mesto-v-spiske-luchshih-bombardirov-v-istorii-nhl_1791099371854371692.jpg",
+      "publishedAt": "2026-10-04T07:36:14Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644182-malkin-vyshel-na-chistoe-22-e-mesto-v-spiske-luchshih-bombardirov-v-istorii-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Питтсбург Пингвинз",
+        "Монреаль Канадиенс",
+        "Евгений Малкин",
+        "Чикаго Блэкхоукс",
+        "Патрик Кейн",
+        "Адам Оутс"
+      ],
+      "relatedTeamIds": [
+        "nhl:chi",
+        "nhl:mtl",
+        "nhl:pit"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644154",
+      "slug": "rossijskij-vratar-ajlenders-sorokin-priznan-pervoj-zvezdoj-dnya-v-nhl",
+      "title": "Российский вратарь «Айлендерс» Сорокин признан первой звездой дня в НХЛ",
+      "summary": "Российский вратарь «Нью-Йорк Айлендерс» Илья Сорокин признан первой звездой игрового дня в Национальной хоккейной лиге.",
+      "content": "Российский вратарь «Нью-Йорк Айлендерс» Илья Сорокин признан первой звездой игрового дня в Национальной хоккейной лиге.",
+      "image": "https://img.championat.com/news/big/k/e/rossijskij-vratar-ajlenders-sorokin-priznan-pervoj-zvezdoj-dnya-v-nhl_17910981452116039713.jpg",
+      "publishedAt": "2026-10-04T07:15:50Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644154-rossijskij-vratar-ajlenders-sorokin-priznan-pervoj-zvezdoj-dnya-v-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Питтсбург Пингвинз",
+        "Каролина Харрикейнз",
+        "Монреаль Канадиенс",
+        "Филадельфия Флайерз",
+        "Нью-Йорк Айлендерс",
+        "Нью-Джерси Дэвилз",
+        "Илья Сорокин",
+        "Себастьян Ахо"
+      ],
+      "relatedTeamIds": [
+        "nhl:car",
+        "nhl:mtl",
+        "nhl:njd",
+        "nhl:nyi",
+        "nhl:phi",
+        "nhl:pit"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644124",
+      "slug": "krosbi-vyshel-na-sedmoe-mesto-po-chislu-peredach-za-kareru-v-nhl-i-sravnyalsya-s-torntonom",
+      "title": "Кросби вышел на седьмое место по числу передач за карьеру в НХЛ и сравнялся с Торнтоном",
+      "summary": "Капитан «Питтсбург Пингвинз» Сидни Кросби отметился результативной передачей в матче регулярного чемпионата НХЛ с «Монреаль Канадиенс» (6:5 ОТ).",
+      "content": "Капитан «Питтсбург Пингвинз» Сидни Кросби отметился результативной передачей в матче регулярного чемпионата НХЛ с «Монреаль Канадиенс» (6:5 ОТ).",
+      "image": "https://img.championat.com/news/big/d/d/krosbi-vyshel-na-sedmoe-mesto-po-chislu-peredach-za-kareru-v-nhl-i-sravnyalsya-s-torntonom_17910974001422320695.jpg",
+      "publishedAt": "2026-10-04T07:03:29Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644124-krosbi-vyshel-na-sedmoe-mesto-po-chislu-peredach-za-kareru-v-nhl-i-sravnyalsya-s-torntonom.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Питтсбург Пингвинз",
+        "Монреаль Канадиенс",
+        "Сидни Кросби",
+        "Яромир Ягр",
+        "Уэйн Гретцки",
+        "Джо Торнтон",
+        "Марк Мессье",
+        "Рон Фрэнсис",
+        "Рэй Бурк",
+        "Пол Коффи"
+      ],
+      "relatedTeamIds": [
+        "nhl:mtl",
+        "nhl:pit"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644078",
+      "slug": "makdevid-stal-pervym-igrokom-za-vosem-let-s-semyu-assistami-v-pervyh-tryoh-matchah-sezona",
+      "title": "Макдэвид стал первым игроком за восемь лет с семью ассистами в первых трёх матчах сезона",
+      "summary": "Нападающий «Эдмонтон Ойлерз» Коннор Макдэвид забросил одну шайбу и сделал результативную передачу в матче регулярного чемпионата НХЛ с «Сиэтл Кракен» (3:1), став первым игроком за последние восемь лет, которому удалос...",
+      "content": "Нападающий «Эдмонтон Ойлерз» Коннор Макдэвид забросил одну шайбу и сделал результативную передачу в матче регулярного чемпионата НХЛ с «Сиэтл Кракен» (3:1), став первым игроком за последние восемь лет, которому удалось оформить семь или более ассистов в первых трёх играх сезона НХЛ.",
+      "image": "https://img.championat.com/news/big/g/z/makdevid-stal-pervym-igrokom-za-vosem-let-s-semyu-assistami-v-pervyh-tryoh-matchah-sezona_1791096137722915019.jpg",
+      "publishedAt": "2026-10-04T06:42:18Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644078-makdevid-stal-pervym-igrokom-za-vosem-let-s-semyu-assistami-v-pervyh-tryoh-matchah-sezona.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Эдмонтон Ойлерз",
+        "Бостон Брюинз",
+        "Евгений Кузнецов — хоккей",
+        "Коннор Макдэвид",
+        "Сиэтл Кракен",
+        "Брэд Маршан"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:edm",
+        "nhl:sea",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478402"
+      ]
+    },
+    {
+      "id": "news-6644052",
+      "slug": "spartak-barys-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-4-oktyabrya-2026",
+      "title": "«Спартак» — «Барыс»: во сколько начало матча КХЛ, где смотреть трансляцию",
+      "summary": "Сегодня, 4 октября, в Москве на стадионе «Мегаспорт» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Спартак» примет астанинский «Барыс».",
+      "content": "Сегодня, 4 октября, в Москве на стадионе «Мегаспорт» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Спартак» примет астанинский «Барыс».",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-04T06:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644052-spartak-barys-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-4-oktyabrya-2026.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Спартак",
+        "Барыс"
+      ],
+      "relatedTeamIds": [
+        "khl:barys",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644048",
+      "slug": "4-oktyabrya-glavnye-novosti-sporta-tennis-wta-hokkej-nhl-ufc-futbol-liga-nacij",
+      "title": "Соболенко проиграла в Пекине, «Вашингтон» с Овечкиным уступил «Тампе». Главное к утру",
+      "summary": "Поражение второй ракетки мира белорусской теннисистки Арины Соболенко в третьем круге «тысячника» в Пекине, поражение «Вашингтон Кэпиталз» с российским форвардом Александром Овечкиным в матче НХЛ с «Тампа-Бэй Лайтнинг...",
+      "content": "Поражение второй ракетки мира белорусской теннисистки Арины Соболенко в третьем круге «тысячника» в Пекине, поражение «Вашингтон Кэпиталз» с российским форвардом Александром Овечкиным в матче НХЛ с «Тампа-Бэй Лайтнинг», победа российского бойца Романа Копылова в бою с камерунцем Атебу Готье нокаутом в первом раунде а UFC 332.",
+      "image": "https://img.championat.com/news/big/q/q/sobolenko-proigrala-v-pekine-vashington-s-ovechkinym-ustupil-tampe-glavnoe-k-utru_17910951422073187119.jpg",
+      "publishedAt": "2026-10-04T06:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/tennis/news-6644048-4-oktyabrya-glavnye-novosti-sporta-tennis-wta-hokkej-nhl-ufc-futbol-liga-nacij.html",
+      "tags": [
+        "Теннис",
+        "Футбол",
+        "Лига наций УЕФА",
+        "Хоккей",
+        "НХЛ",
+        "Бокс/ММА",
+        "UFC",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Тампа-Бэй Лайтнинг",
+        "Сборная Испании — Футбол",
+        "Питтсбург Пингвинз",
+        "WTA",
+        "Бостон Брюинз",
+        "Арина Соболенко",
+        "Монреаль Канадиенс",
+        "Евгений Малкин",
+        "Миннесота Уайлд",
+        "Никита Кучеров",
+        "Артемий Панарин",
+        "Сан-Хосе Шаркс",
+        "Лос-Анджелес Кингз",
+        "Кирилл Капризов",
+        "Андрей Василевский",
+        "Сборная Чехии — Футбол",
+        "Ламин Ямаль",
+        "Лига наций — Футбол",
+        "Роман Копылов",
+        "Максим Шабанов",
+        "Игорь Чернышов — хоккей",
+        "Андрей Пуляев",
+        "Атеба Готье",
+        "Ван Цун",
+        "Наталия Силва"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:lak",
+        "nhl:min",
+        "nhl:mtl",
+        "nhl:nyr",
+        "nhl:pit",
+        "nhl:sjs",
+        "nhl:tbl",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214",
+        "nhl:p_8476453",
+        "nhl:p_8478550"
+      ]
+    },
+    {
+      "id": "news-6644040",
+      "slug": "avtomobilist-amur-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-4-oktyabrya-2026",
+      "title": "«Автомобилист» — «Амур»: во сколько начало матча КХЛ, где смотреть трансляцию",
+      "summary": "Сегодня, 4 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» примет хабаровский «Амур».",
+      "content": "Сегодня, 4 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» примет хабаровский «Амур».",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-04T06:10:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644040-avtomobilist-amur-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-4-oktyabrya-2026.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Автомобилист",
+        "Амур"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:avtomobilist"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644038",
+      "slug": "raspisanie-matchej-mhl-na-4-oktyabrya-2026-goda",
+      "title": "Расписание матчей МХЛ на 4 октября 2026 года",
+      "summary": "Сегодня, 4 октября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 4 октября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-04T06:00:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644038-raspisanie-matchej-mhl-na-4-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Спартак",
+        "МХК Локо",
+        "МХК Стальные Лисы",
+        "МХК Чайка",
+        "МХК Ирбис Казань",
+        "МХК Сахалинские Акулы"
+      ],
+      "relatedTeamIds": [
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644034",
+      "slug": "raspisanie-matchej-vhl-na-4-oktyabrya-2026-goda",
+      "title": "Расписание матчей ВХЛ на 4 октября 2026 года",
+      "summary": "Сегодня, 4 октября, пройдут два матча OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 4 октября, пройдут два матча OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-10-04T05:40:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644034-raspisanie-matchej-vhl-na-4-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Нефтяник Альметьевск",
+        "Барс",
+        "Челмет",
+        "Горняк"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644028",
+      "slug": "raspisanie-matchej-khl-na-4-oktyabrya-2026-goda",
+      "title": "Расписание матчей КХЛ на 4 октября 2026 года",
+      "summary": "Сегодня, 4 октября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 4 октября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-04T05:20:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644028-raspisanie-matchej-khl-na-4-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Спартак",
+        "Сибирь",
+        "Автомобилист",
+        "Барыс",
+        "Нефтехимик",
+        "Амур"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:avtomobilist",
+        "khl:barys",
+        "khl:neftekhimik",
+        "khl:sibir",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644022",
+      "slug": "rezultaty-matchej-nhl-na-4-oktyabrya-2026-goda",
+      "title": "Результаты матчей НХЛ на 4 октября 2026 года",
+      "summary": "В ночь на 4 октября, прошли очередные матчи регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027.",
+      "content": "В ночь на 4 октября, прошли очередные матчи регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027.",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-10-04T05:13:41Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644022-rezultaty-matchej-nhl-na-4-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Тампа-Бэй Лайтнинг",
+        "Питтсбург Пингвинз",
+        "Эдмонтон Ойлерз",
+        "Торонто Мэйпл Лифс",
+        "Колорадо Эвеланш",
+        "Каролина Харрикейнз",
+        "Бостон Брюинз",
+        "Монреаль Канадиенс",
+        "Коламбус Блю Джекетс",
+        "Миннесота Уайлд",
+        "Филадельфия Флайерз",
+        "Сент-Луис Блюз",
+        "Даллас Старз",
+        "Нью-Йорк Айлендерс",
+        "Чикаго Блэкхоукс",
+        "Нью-Джерси Дэвилз",
+        "Ванкувер Кэнакс",
+        "Сан-Хосе Шаркс",
+        "Лос-Анджелес Кингз",
+        "Оттава Сенаторз",
+        "Нэшвилл Предаторз",
+        "Калгари Флэймз",
+        "Баффало Сэйбрз",
+        "Сиэтл Кракен",
+        "Юта Маммот"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:buf",
+        "nhl:car",
+        "nhl:cbj",
+        "nhl:cgy",
+        "nhl:chi",
+        "nhl:col",
+        "nhl:dal",
+        "nhl:edm",
+        "nhl:lak",
+        "nhl:min",
+        "nhl:mtl",
+        "nhl:njd",
+        "nhl:nsh",
+        "nhl:nyi",
+        "nhl:ott",
+        "nhl:phi",
+        "nhl:pit",
+        "nhl:sea",
+        "nhl:sjs",
+        "nhl:stl",
+        "nhl:tbl",
+        "nhl:tor",
+        "nhl:uta",
+        "nhl:van",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644016",
+      "slug": "san-hose-sharks-los-andzheles-kingz-rezultat-matcha-4-oktyabrya-2026-schet-5-4-ot-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "Гол и передача Панарина не помогли «Лос-Анджелесу» одолеть «Сан-Хосе». У Чернышова — 2+1",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Сан-Хосе Шаркс» и «Лос-Анджелес Кингз», который прошёл на стадионе «Эс-Эй-Пи-центр» в американском Сан-Хосе.",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Сан-Хосе Шаркс» и «Лос-Анджелес Кингз», который прошёл на стадионе «Эс-Эй-Пи-центр» в американском Сан-Хосе.",
+      "image": "https://img.championat.com/news/big/d/i/gol-i-peredacha-panarina-ne-pomogli-los-andzhelesu-odolet-san-hose-u-chernyshova-2-1_17910901451165816131.jpg",
+      "publishedAt": "2026-10-04T05:02:26Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644016-san-hose-sharks-los-andzheles-kingz-rezultat-matcha-4-oktyabrya-2026-schet-5-4-ot-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Артемий Панарин",
+        "Сан-Хосе Шаркс",
+        "Лос-Анджелес Кингз",
+        "Дмитрий Орлов",
+        "Ярослав Аскаров",
+        "Адриан Кемпе",
+        "Игорь Чернышов — хоккей",
+        "Тайлер Тоффоли",
+        "Эрик Хаула",
+        "Куинтон Байфилд"
+      ],
+      "relatedTeamIds": [
+        "nhl:lak",
+        "nhl:nyr",
+        "nhl:sjs"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478550"
+      ]
     }
   ]
 }

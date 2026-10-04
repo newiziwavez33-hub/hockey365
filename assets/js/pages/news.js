@@ -21,7 +21,7 @@ export async function initNewsPage() {
 
     if (newsId) {
       // Single Article View
-      const article = newsList.find(n => n.id === newsId);
+      const article = newsList.find(n => n.id === newsId || n.slug === newsId);
       if (!article) {
         renderError(container, 'Новость не найдена');
         return;
@@ -43,13 +43,23 @@ export async function initNewsPage() {
             el('span', {}, `Источник: ${article.source || 'Hockey365'}`),
             el('span', {}, formatDate(article.publishedAt, 'full'))
           ),
-          el('p', { className: 'text-base', style: { lineHeight: '1.7', fontWeight: '500' } }, article.summary),
-          el('p', { className: 'text-base', style: { lineHeight: '1.7' } }, article.content),
-          article.tags && article.tags.length > 0 ? el('div', { className: 'flex gap-6 flex-wrap', style: { marginTop: '12px' } },
+          article.summary ? el('p', { className: 'text-base', style: { lineHeight: '1.7', fontWeight: '500' } }, article.summary) : null,
+          (article.content && article.content !== article.summary) ? el('p', { className: 'text-base', style: { lineHeight: '1.7' } }, article.content) : null,
+          (article.relatedTeamIds && article.relatedTeamIds.length > 0) ? el('div', { className: 'flex gap-6 flex-wrap items-center', style: { marginTop: '8px' } },
+            el('span', { className: 'text-xs text-muted' }, 'Команды:'),
+            article.relatedTeamIds.map(tId => el('a', { href: buildLink('/team/', { id: tId }), className: 'badge badge-filter text-xs' }, tId.replace('khl:', '').replace('nhl:', '').toUpperCase()))
+          ) : null,
+          (article.tags && article.tags.length > 0) ? el('div', { className: 'flex gap-6 flex-wrap', style: { marginTop: '8px' } },
             article.tags.map(t => el('span', { className: 'badge badge-scheduled' }, `#${t}`))
           ) : null,
-          el('div', { style: { marginTop: '16px' } },
-            el('a', { href: buildLink('/news/'), className: 'btn-primary text-xs' }, '← Ко всем новостям')
+          el('div', { className: 'flex items-center gap-12 flex-wrap', style: { marginTop: '16px' } },
+            el('a', { href: buildLink('/news/'), className: 'btn-primary text-xs' }, '← Ко всем новостям'),
+            article.url ? el('a', {
+              href: article.url,
+              target: '_blank',
+              rel: 'noopener noreferrer',
+              className: 'btn-glass text-xs'
+            }, 'Оригинал на Чемпионате ↗') : null
           )
         )
       );

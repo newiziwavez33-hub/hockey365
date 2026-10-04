@@ -228,9 +228,10 @@ export async function initHomePage() {
 
   loadMatchesForDate();
 
-  // Load Right Rail Widgets
+  // Load Right Rail Widgets and Featured News
   renderPlayerOfTheWeekWidget(sidebarPotwContainer);
   loadSidebarStandings(sidebarStandingsContainer);
+  loadHomeFeaturedNews();
 }
 
 /**
@@ -307,8 +308,19 @@ function renderHeroMatchBanner(container, matches) {
       el('div', { className: 'hero-team-block hero-team-home' },
         el('div', {
           className: 'hero-team-emblem',
-          style: { backgroundColor: homeTeam.color || '#CE1126' }
-        }, homeTeam.short || 'DRW'),
+          style: { backgroundColor: homeTeam.color || 'var(--surface-highlight)' }
+        },
+          el('img', {
+            src: getAssetUrl(homeTeam.logo),
+            alt: homeTeam.name,
+            className: 'hero-team-logo-img',
+            loading: 'lazy',
+            onerror: (e) => {
+              e.target.style.display = 'none';
+              e.target.parentElement.textContent = homeTeam.short || 'ТМ';
+            }
+          })
+        ),
         el('div', { className: 'hero-team-details' },
           el('h2', { className: 'hero-team-name' }, homeTeam.name),
           el('span', { className: 'hero-team-sub' }, homeRecord)
@@ -344,8 +356,19 @@ function renderHeroMatchBanner(container, matches) {
         ),
         el('div', {
           className: 'hero-team-emblem',
-          style: { backgroundColor: awayTeam.color || '#041E42' }
-        }, awayTeam.short || 'WPG')
+          style: { backgroundColor: awayTeam.color || 'var(--surface-highlight)' }
+        },
+          el('img', {
+            src: getAssetUrl(awayTeam.logo),
+            alt: awayTeam.name,
+            className: 'hero-team-logo-img',
+            loading: 'lazy',
+            onerror: (e) => {
+              e.target.style.display = 'none';
+              e.target.parentElement.textContent = awayTeam.short || 'ТМ';
+            }
+          })
+        )
       )
     ),
 
@@ -476,13 +499,21 @@ async function loadSidebarStandings(container) {
           const rank = idx + 1;
           const isTop2 = rank <= 2;
           const pts = row.pts !== undefined ? row.pts : (row.points || 0);
+          const team = getTeamMeta(row.teamId, cachedTeamsMap);
 
           return el('tr', {},
             el('td', { className: 'rank-td font-tabular' }, rank),
             el('td', { className: 'team-td' },
               el('a', { href: buildLink('/team/', { id: row.teamId }), className: 'team-standings-link' },
                 el('span', { className: `playoff-dot ${isTop2 ? 'cyan-dot' : ''}` }, '●'),
-                el('span', { className: 'team-table-name truncate' }, row.teamName || row.teamId)
+                el('img', {
+                  src: getAssetUrl(team.logo),
+                  alt: team.name,
+                  className: 'table-team-logo',
+                  loading: 'lazy',
+                  onerror: (e) => { e.target.style.display = 'none'; }
+                }),
+                el('span', { className: 'team-table-name truncate' }, team.name || row.teamName || row.teamId)
               )
             ),
             el('td', { className: 'text-center font-tabular text-muted' }, row.gp || 0),
@@ -499,3 +530,38 @@ async function loadSidebarStandings(container) {
     container.innerHTML = '<div class="text-sm text-muted p-4">Таблица временно недоступна</div>';
   }
 }
+
+/**
+ * Hydrates the featured news card on the home page with the latest verified news article
+ */
+async function loadHomeFeaturedNews() {
+  const card = qs('.home-featured-news-card');
+  if (!card) return;
+  try {
+    const data = await getNews();
+    const articles = data.news || [];
+    if (!articles.length) return;
+    const latest = articles[0];
+
+    card.href = buildLink('/news/', { id: latest.id });
+    const thumb = card.querySelector('.news-card-thumb');
+    if (thumb && latest.image) {
+      thumb.style.backgroundImage = `url('${getAssetUrl(latest.image)}')`;
+    }
+    const badge = card.querySelector('.news-exclusive-badge');
+    if (badge) {
+      badge.textContent = latest.tags?.[0] || 'ХОККЕЙ';
+    }
+    const timeEl = card.querySelector('.news-time');
+    if (timeEl) {
+      timeEl.textContent = `${formatDate(latest.publishedAt, 'dayMonth')} • ${latest.source || 'Чемпионат'}`;
+    }
+    const titleEl = card.querySelector('.news-card-title');
+    if (titleEl) {
+      titleEl.textContent = latest.title;
+    }
+  } catch (e) {
+    console.warn('Failed to load home featured news:', e);
+  }
+}
+

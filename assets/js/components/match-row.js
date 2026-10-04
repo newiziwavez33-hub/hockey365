@@ -75,8 +75,17 @@ export const KNOWN_TEAMS = {
 
 export function getTeamMeta(teamId, teamsMap = {}) {
   const raw = teamId || '';
-  if (teamsMap[raw]) return teamsMap[raw];
-  if (KNOWN_TEAMS[raw]) return KNOWN_TEAMS[raw];
+  const known = KNOWN_TEAMS[raw] || null;
+  const mapped = teamsMap[raw] || null;
+  if (mapped) {
+    return {
+      name: mapped.name || (known ? known.name : raw),
+      short: mapped.short || (known ? known.short : raw.replace(/^(khl|nhl):/, '').slice(0, 3).toUpperCase()),
+      color: mapped.color || (mapped.colors && mapped.colors[0]) || (known ? known.color : '#00D2FF'),
+      logo: mapped.logo || (known ? known.logo : '/assets/logos/teams/placeholder.svg')
+    };
+  }
+  if (known) return known;
   const short = raw.replace(/^(khl|nhl):/, '').slice(0, 3).toUpperCase();
   return {
     name: raw.replace(/^(khl|nhl):/, '').toUpperCase(),
@@ -188,10 +197,18 @@ export function createMatchGridCardStitch(match, teamsMap = {}) {
         onClick: (e) => e.stopPropagation()
       },
         el('div', { className: 'team-left-info' },
-          el('span', {
-            className: 'team-abbr-badge',
-            style: { backgroundColor: homeTeam.color || '#D31145' }
-          }, homeTeam.short || 'ТМ'),
+          el('div', { className: 'team-emblem-badge', style: { backgroundColor: homeTeam.color || 'var(--surface-highlight)' } },
+            el('img', {
+              src: getAssetUrl(homeTeam.logo),
+              alt: homeTeam.name,
+              className: 'team-logo-img',
+              loading: 'lazy',
+              onerror: (e) => {
+                e.target.style.display = 'none';
+                e.target.parentElement.textContent = homeTeam.short || 'ТМ';
+              }
+            })
+          ),
           el('span', { className: `team-full-name ${homeWon ? 'winner' : ''}` }, homeTeam.name)
         ),
         el('span', { className: `team-score-num font-tabular ${homeWon ? 'winner' : ''}` },
@@ -206,10 +223,18 @@ export function createMatchGridCardStitch(match, teamsMap = {}) {
         onClick: (e) => e.stopPropagation()
       },
         el('div', { className: 'team-left-info' },
-          el('span', {
-            className: 'team-abbr-badge',
-            style: { backgroundColor: awayTeam.color || '#002D62' }
-          }, awayTeam.short || 'ТМ'),
+          el('div', { className: 'team-emblem-badge', style: { backgroundColor: awayTeam.color || 'var(--surface-highlight)' } },
+            el('img', {
+              src: getAssetUrl(awayTeam.logo),
+              alt: awayTeam.name,
+              className: 'team-logo-img',
+              loading: 'lazy',
+              onerror: (e) => {
+                e.target.style.display = 'none';
+                e.target.parentElement.textContent = awayTeam.short || 'ТМ';
+              }
+            })
+          ),
           el('span', { className: `team-full-name ${awayWon ? 'winner' : ''}` }, awayTeam.name)
         ),
         el('span', { className: `team-score-num font-tabular ${awayWon ? 'winner' : ''}` },

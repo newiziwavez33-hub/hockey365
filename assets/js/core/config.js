@@ -26,6 +26,10 @@ export const CONFIG = {
 };
 
 export function getAssetUrl(relPath) {
+  if (!relPath) return '';
+  if (relPath.startsWith('http://') || relPath.startsWith('https://') || relPath.startsWith('data:')) {
+    return relPath;
+  }
   const cleanRel = relPath.startsWith('/') ? relPath.slice(1) : relPath;
   const base = CONFIG.BASE_PATH ? CONFIG.BASE_PATH + '/' : '/';
   return base + cleanRel;

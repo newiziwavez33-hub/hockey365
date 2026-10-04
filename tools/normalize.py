@@ -2,12 +2,29 @@
 
 import json
 import os
+import sys
 import glob
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+# Ensure project root is available in module search path
+_PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if _PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, _PROJECT_ROOT)
+
 def normalize_all(data_dir):
     print("Normalizing Hockey365 data...")
+
+    # Sync live news if full project structure exists
+    try:
+        root_dir = os.path.abspath(os.path.join(data_dir, '..'))
+        if root_dir not in sys.path:
+            sys.path.insert(0, root_dir)
+        from tools.adapters.fetch_news import sync_news
+        if os.path.exists(os.path.join(root_dir, 'schemas', 'news.schema.json')) or os.path.exists(os.path.join(data_dir, 'news')):
+            sync_news(data_dir)
+    except Exception as exc:
+        print(f"News sync skipped during normalize: {exc}")
 
     # Indexing existing files is not a data refresh. Never advance updatedAt here.
     meta_path = os.path.join(data_dir, 'meta.json')

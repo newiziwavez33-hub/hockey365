@@ -45,6 +45,18 @@ def generate_sitemap(root_dir):
             "changefreq": "daily"
         })
 
+    # Add news articles
+    news_file = os.path.join(data_dir, 'news', 'index.json')
+    if os.path.exists(news_file):
+        with open(news_file, 'r', encoding='utf-8') as f:
+            news_data = json.load(f)
+        for n in news_data.get('news', []):
+            urls.append({
+                "loc": f"{SITE_URL}/news/?id={n['id']}",
+                "priority": "0.6",
+                "changefreq": "daily"
+            })
+
     # Generate sitemap.xml
     sitemap_lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',

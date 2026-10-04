@@ -101,10 +101,11 @@ export async function getLeaders(compId, season = '2026/27') {
 }
 
 export async function getNews() {
-  const [data, meta] = await Promise.all([fetchJSON(getDataUrl('news/index.json')), getMeta()]);
-  return { ...data, news: (data.news || []).filter(item =>
-    /^https:\/\//.test(item.url || '') &&
-    !meta.unverifiedCompetitions?.some(comp => item.tags?.includes(comp) || item.relatedTeamIds?.some(id => id.toUpperCase().startsWith(`${comp}:`)))) };
+  const data = await fetchJSON(getDataUrl('news/index.json'));
+  return {
+    ...data,
+    news: (data.news || []).filter(item => /^https?:\/\//.test(item.url || ''))
+  };
 }
 
 export async function getTransfers(season = '2026-2027') {
