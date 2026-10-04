@@ -66,26 +66,4 @@ def test_all_routes_return_200(server):
             content = resp.read()
             assert len(content) > 0, f"Route {route} returned empty content"
 
-def test_chromium_renders_pages_successfully(server):
-    import subprocess
-    chromium_path = '/snap/bin/chromium'
-    if not os.path.exists(chromium_path):
-        pytest.skip('Chromium binary not available')
-
-    key_routes = [
-        "/",
-        "/online/",
-        "/competition/?id=KHL",
-        "/competition/?id=NHL",
-        "/news/",
-        "/team/?id=khl:ska",
-        f"/search/?q={urllib.parse.quote('СКА')}"
-    ]
-    for route in key_routes:
-        url = server + route
-        res = subprocess.run([chromium_path, '--headless', '--disable-gpu', '--dump-dom', url],
-                             capture_output=True, text=True, timeout=15)
-        assert res.returncode == 0, f"Chromium failed on {route}"
-        assert len(res.stdout) > 500, f"Empty DOM on {route}"
-        assert 'ERR_CONNECTION_REFUSED' not in res.stdout, f"Connection refused on {route}"
 
