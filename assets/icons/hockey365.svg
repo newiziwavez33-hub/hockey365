@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Hockey365</title>
+  <desc id="desc">Official Material Symbols sports hockey mark used by the Stitch header</desc>
+  <defs>
+    <linearGradient id="ice" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00D2FF"/>
+      <stop offset="1" stop-color="#89CEFF"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#ice)"/>
+  <!-- Path from the official Material Symbols sports_hockey glyph. -->
+  <path fill="#0B0E14" transform="translate(12.44 51.55) scale(.0407407)" d="M80-160v-120q0-17 11.5-28.5T120-320h40v160H80Zm120 0v-160h160l34-78 64 140-34 76q-5 11-15 16.5t-21 5.5H200Zm600 0v-160h40q17 0 28.5 11.5T880-280v120h-80Zm-40 0H572q-11 0-21-5.5T536-182L254-800h134l92 208 92-208h134L544-446l56 126h160v160Z"/>
+</svg>

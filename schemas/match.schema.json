@@ -36,6 +36,22 @@
       }
     },
     "arena": { "type": ["string", "null"] },
+    "source": {
+      "description": "Provenance and feed verification metadata. A verified feed does not imply that redistribution rights or terms have been granted.",
+      "type": "object",
+      "properties": {
+        "provider": { "type": "string" },
+        "official": { "type": "boolean" },
+        "verified": { "type": "boolean" },
+        "licenseConfirmed": { "type": "boolean" },
+        "endpoint": { "type": "string", "format": "uri" },
+        "endpoints": { "type": "array", "items": { "type": "string", "format": "uri" } },
+        "stageId": { "type": ["integer", "null"] },
+        "eventId": { "type": ["integer", "string", "null"] },
+        "matchId": { "type": "string" },
+        "fetchedAt": { "type": "string" }
+      }
+    },
     "broadcast": {
       "description": "Optional manually verified rights-holder viewing option for this specific match. Never populate from unverified listings or guessed links.",
       "type": ["object", "null"],

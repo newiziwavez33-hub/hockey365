@@ -12,11 +12,25 @@ export function getFeedStatus(value) {
 
 export function formatFeedStatus(value) {
   const feed = getFeedStatus(value);
-  const date = new Date(feed.updatedAt || NaN);
-  const timestamp = Number.isNaN(date.getTime()) ? 'время источника неизвестно'
-    : date.toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' }) + ' МСК';
-  if (feed.mode === 'live') return `Официальный NHL API · получено ${timestamp} · опрос 10 с`;
+  if (feed.feeds) {
+    return Object.entries(feed.feeds).map(([league, info]) => {
+      const stamp = formatTimestamp(info.updatedAt);
+      const label = info.mode === 'live' ? 'официальный API · опрос 10 с'
+        : info.mode === 'partial' ? 'расписание · live-протокол недоступен'
+          : info.mode === 'snapshot' ? 'сохранённый срез (не LIVE)' : 'источник недоступен';
+      return `${league}: ${label} · ${stamp}`;
+    }).join(' | ');
+  }
+  const provider = Array.isArray(value) ? 'официальный источник' : value?.source?.provider || 'официальный источник';
+  const timestamp = formatTimestamp(feed.updatedAt);
+  if (feed.mode === 'live') return `${provider} · получено ${timestamp} · опрос 10 с`;
   if (feed.mode === 'partial') return `Официальное расписание · live-протокол недоступен · ${timestamp}`;
   if (feed.mode === 'snapshot') return `Сохранённый срез · ${timestamp}. LIVE не подключён: сеть, CORS или прокси недоступны.`;
   return 'Актуальность счёта не подтверждена; ожидается проверка источника.';
+}
+
+function formatTimestamp(value) {
+  const date = new Date(value || NaN);
+  return Number.isNaN(date.getTime()) ? 'время источника неизвестно'
+    : date.toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' }) + ' МСК';
 }

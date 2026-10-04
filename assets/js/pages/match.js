@@ -12,10 +12,11 @@ import { createRinkSvg } from '../components/rink-svg.js';
 import { getAssetUrl } from '../core/config.js';
 import { formatScore, formatPeriodStatus, formatDate } from '../core/format.js';
 import { store } from '../core/store.js';
-import { availablePlayerIds, playerName } from '../core/profile-links.js';
+import { availablePlayerIds } from '../core/profile-links.js';
+import { createEventAssists, createEventPlayer } from '../components/event-player.js';
 import { playGoalHorn } from '../core/sound.js';
 import { showGoalToast } from '../core/live-tracker.js';
-import { KNOWN_TEAMS, getTeamMeta } from '../components/match-row.js';
+import { KNOWN_TEAMS, getTeamMeta, matchTeamsMap } from '../components/match-row.js';
 
 function storeTimezoneLabel() {
   const timezone = store.getTimezone();
@@ -24,6 +25,8 @@ function storeTimezoneLabel() {
 
 export async function initMatchPage() {
   const matchId = getParam('id');
+  const eventParam = getParam('event');
+  const eventHint = /^[1-9]\d{0,11}$/.test(eventParam || '') ? eventParam : null;
   let activeTab = getParam('tab') || 'events';
   if (!['events', 'lineups', 'stats', 'rink', 'info', 'video'].includes(activeTab)) activeTab = 'events';
 
@@ -44,16 +47,16 @@ export async function initMatchPage() {
   let awayTeam = null;
 
   try {
-    match = await getMatch(matchId);
+    match = await getMatch(matchId, true, eventHint);
     try {
       homeTeam = await getTeam(match.home.id);
     } catch {
-      homeTeam = getTeamMeta(match.home.id);
+      homeTeam = getTeamMeta(match.home.id, matchTeamsMap(match));
     }
     try {
       awayTeam = await getTeam(match.away.id);
     } catch {
-      awayTeam = getTeamMeta(match.away.id);
+      awayTeam = getTeamMeta(match.away.id, matchTeamsMap(match));
     }
     const homeMeta = getTeamMeta(match.home.id);
     const awayMeta = getTeamMeta(match.away.id);
@@ -233,7 +236,7 @@ export async function initMatchPage() {
     contentSlot.setAttribute('aria-labelledby', `tab-btn-${activeTab}`);
 
     if (activeTab === 'events') {
-      renderEventsTab(contentSlot, match, available, switchTab);
+      renderEventsTab(contentSlot, match, available, switchTab, defaultLogo);
     } else if (activeTab === 'lineups') {
       renderLineupsTab(contentSlot, match, homeTeam, awayTeam, available);
     } else if (activeTab === 'stats') {
@@ -283,7 +286,7 @@ export async function initMatchPage() {
       if (activeTab !== 'video' || JSON.stringify(normalizeBroadcast(match.broadcast)) !== previousBroadcast) {
         renderTabBody();
       }
-    }, 10000);
+    }, 10000, match.source?.eventId || eventHint);
 
     window.addEventListener('pagehide', () => stopPolling(), { once: true });
   }
@@ -428,7 +431,7 @@ function renderPeriodBreakdownTable(match, homeTeam, awayTeam) {
   );
 }
 
-function renderEventsTab(container, match, available, switchTab = null) {
+export function renderEventsTab(container, match, available, switchTab = null, defaultLogo = getAssetUrl('assets/logos/teams/placeholder.svg')) {
   if (!match.events || match.events.length === 0) {
     const timeStr = match.utcDate
       ? formatDate(match.utcDate, 'full')
@@ -545,28 +548,38 @@ function renderEventsTab(container, match, available, switchTab = null) {
             typeLabel = 'БУЛЛИТ';
           }
 
+          const eventTeamId = ev.team === 'home' ? match.home?.id : ev.team === 'away' ? match.away?.id : null;
+          const eventTeam = eventTeamId ? getTeamMeta(eventTeamId) : null;
+          const eventTeamLogo = eventTeam?.logo ? getAssetUrl(eventTeam.logo) : defaultLogo;
+
           return el('div', {
-            className: 'flex items-center justify-between gap-12',
+            className: 'match-event-row flex items-center justify-between gap-12',
             style: { padding: '8px 0', borderBottom: '1px solid var(--color-border-subtle)' }
           },
-            el('div', { className: 'flex items-center gap-12' },
-              el('span', { className: 'text-xs text-muted text-bold', style: { width: '45px' } },
+            el('div', { className: 'match-event-main flex items-center gap-12' },
+              el('span', { className: 'match-event-time text-xs text-muted text-bold', style: { width: '45px' } },
                 ev.period ? `${ev.period}п ${ev.time || ''}` : ev.time || ''
               ),
-              el('span', { className: `badge ${typeBadgeClass}` }, typeLabel),
-              el('div', {},
+              el('span', { className: `match-event-badge badge ${typeBadgeClass}` }, typeLabel),
+              el('div', { className: 'match-event-details' },
                 el('div', { className: 'text-sm text-bold' },
-                  playerName(ev.playerId, ev.playerName, available),
+                  createEventPlayer({ playerId: ev.playerId, name: ev.playerName, available }),
                   ev.score ? ` — ${ev.score}` : ''
                 ),
-                ev.assists && ev.assists.length > 0 ? el('div', { className: 'text-xs text-muted' },
-                  `Передачи: ${ev.assists.join(', ')}`
-                ) : null,
+                createEventAssists(ev.assists, available),
                 ev.reason ? el('div', { className: 'text-xs text-muted' }, `Причина: ${ev.reason}`) : null
               )
             ),
-            el('div', { className: 'text-xs text-secondary text-bold' },
-              ev.team ? ev.team.toUpperCase() : ''
+            el('div', { className: 'match-event-team text-xs text-secondary text-bold' },
+              eventTeam ? el('img', {
+                src: eventTeamLogo,
+                alt: '',
+                className: 'match-event-team-logo',
+                loading: 'lazy',
+                'aria-hidden': 'true',
+                onerror: (e) => { e.currentTarget.src = defaultLogo; }
+              }) : null,
+              eventTeam?.short || (ev.team ? ev.team.toUpperCase() : '')
             )
           );
         })

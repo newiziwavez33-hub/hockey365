@@ -6,7 +6,7 @@
  */
 
 import { el } from '../core/dom.js';
-import { buildLink } from '../core/router.js';
+import { buildLink, buildMatchLink } from '../core/router.js';
 import { store } from '../core/store.js';
 import { formatDate, formatPeriodStatus, formatPeriodBreakdown } from '../core/format.js';
 import { getAssetUrl } from '../core/config.js';
@@ -95,10 +95,21 @@ export function getTeamMeta(teamId, teamsMap = {}) {
   };
 }
 
+export function matchTeamsMap(match, teamsMap = {}) {
+  if (match.source?.provider !== 'KHL mobile backend' || match.source?.verifiedMatches !== true) return teamsMap;
+  const map = { ...teamsMap };
+  for (const side of [match.home, match.away]) {
+    if (side?.name) map[side.id] = { ...getTeamMeta(side.id, teamsMap), name: side.name,
+      short: side.short || side.name, logo: side.logo || getTeamMeta(side.id, teamsMap).logo };
+  }
+  return map;
+}
+
 /**
  * 2-COLUMN GRID MATCH CARD (Matches Stitch Screenshot media_1791115908357.png)
  */
 export function createMatchGridCardStitch(match, teamsMap = {}) {
+  teamsMap = matchTeamsMap(match, teamsMap);
   const homeTeam = getTeamMeta(match.home.id, teamsMap);
   const awayTeam = getTeamMeta(match.away.id, teamsMap);
 
@@ -255,7 +266,7 @@ export function createMatchGridCardStitch(match, teamsMap = {}) {
     el('div', { className: 'card-bottom-row' },
       el('span', { className: 'card-bottom-note truncate' }, bottomNote),
       el('a', {
-        href: buildLink('/match/', { id: match.id }),
+        href: buildMatchLink(match),
         className: 'card-action-link'
       },
         el('span', {}, actionLabel),
@@ -271,6 +282,7 @@ export function createMatchGridCardStitch(match, teamsMap = {}) {
  * 7-COLUMN ROW LAYOUT (For standalone match tables & competitions)
  */
 export function createMatchRow(match, teamsMap = {}) {
+  teamsMap = matchTeamsMap(match, teamsMap);
   const defaultLogo = getAssetUrl('assets/logos/teams/placeholder.svg');
   const homeTeam = getTeamMeta(match.home.id, teamsMap);
   const awayTeam = getTeamMeta(match.away.id, teamsMap);
@@ -342,7 +354,7 @@ export function createMatchRow(match, teamsMap = {}) {
     ),
 
     el('a', {
-      href: buildLink('/match/', { id: match.id }),
+      href: buildMatchLink(match),
       className: 'match-score-center',
       title: 'Открыть протокол встречи'
     },
@@ -389,7 +401,7 @@ export function createMatchRow(match, teamsMap = {}) {
       el('span', { className: 'material-symbols-outlined' }, 'star')
     ),
     el('a', {
-      href: buildLink('/match/', { id: match.id }),
+      href: buildMatchLink(match),
       className: 'protocol-action-btn'
     }, 'Протокол')
   );
@@ -406,7 +418,7 @@ export function createMatchRow(match, teamsMap = {}) {
     style: { cursor: 'pointer' },
     onClick: (e) => {
       if (e.target.closest('a') || e.target.closest('button')) return;
-      window.location.href = buildLink('/match/', { id: match.id });
+      window.location.href = buildMatchLink(match);
     }
   }, mainRow);
 
@@ -427,7 +439,7 @@ export function createMatchRow(match, teamsMap = {}) {
       const substrip = el('div', { className: 'match-substrip-recessed' },
         el('div', { className: 'substrip-periods' },
           el('span', { className: 'substrip-tag' }, 'Периоды:'),
-          el('span', { className: 'substrip-scores font-tabular' }, `(${breakdown})`)
+          el('span', { className: 'substrip-scores font-tabular' }, breakdown)
         ),
         scorerText ? el('div', { className: 'substrip-scorers' }, scorerText) : null
       );

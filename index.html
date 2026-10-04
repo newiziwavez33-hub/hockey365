@@ -9,10 +9,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="icon" type="image/svg+xml" href="assets/logos/comp/KHL.svg">
-  <link rel="stylesheet" href="assets/css/tokens.css?v=1.8.1">
-  <link rel="stylesheet" href="assets/css/base.css?v=1.8.1">
-  <link rel="stylesheet" href="assets/css/components.css?v=1.8.1">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/hockey365.svg?v=1.8.2">
+  <link rel="stylesheet" href="assets/css/tokens.css?v=1.8.2">
+  <link rel="stylesheet" href="assets/css/base.css?v=1.8.2">
+  <link rel="stylesheet" href="assets/css/components.css?v=1.8.2">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -102,16 +102,16 @@
   <site-footer></site-footer>
 
   <script type="module">
-    import './assets/js/components/site-header.js?v=1.8.1';
-    import './assets/js/components/site-footer.js?v=1.8.1';
-    import { initHomePage } from './assets/js/pages/home.js?v=1.8.1';
+    import './assets/js/components/site-header.js?v=1.8.2';
+    import './assets/js/components/site-footer.js?v=1.8.2';
+    import { initHomePage } from './assets/js/pages/home.js?v=1.8.2';
 
     initHomePage();
 
     // Smart Service Worker with auto-update reload (No Ctrl+F5 required)
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js?v=1.8.1').then((reg) => {
+        navigator.serviceWorker.register('./sw.js?v=1.8.2').then((reg) => {
           reg.addEventListener('updatefound', () => {
             const newWorker = reg.installing;
             if (newWorker) {

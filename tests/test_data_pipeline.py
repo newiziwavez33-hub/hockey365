@@ -114,8 +114,9 @@ def test_normalizer_does_not_modify_unverified_scores_or_freshness(tmp_path):
     assert meta['dateCounts'] == {'2026-10-04': 1}
 
 
-def test_khl_example_generator_cannot_publish_fiction(tmp_path):
-    with pytest.raises(RuntimeError, match='no verified data provider'):
+def test_khl_sync_cannot_publish_from_invalid_feed(tmp_path, monkeypatch):
+    monkeypatch.setattr(khl_aggregator, 'fetch_khl_url', lambda url: {})
+    with pytest.raises(khl_aggregator.KHLFeedError, match='current_stage_id'):
         khl_aggregator.sync_khl_data(tmp_path)
     assert list(tmp_path.iterdir()) == []
 

@@ -3,10 +3,34 @@
  */
 
 import { CONFIG, getAssetUrl, getDataUrl } from './config.js';
+import { getKhlKnownEventId, getKhlMatch, getKhlMatchesByDate, getKhlTeam } from './khl-feed.js';
 
 const memoryCache = new Map();
 const NHL_WEB_API_BASE = 'https://api-web.nhle.com/v1';
 let proxyProbe = null;
+let khlProxyProbe = null;
+
+async function fetchKhlJSON(url, useCache) {
+  if (CONFIG.KHL_PROXY_URL && !khlProxyProbe) {
+    khlProxyProbe = (async () => {
+      const proxy = getAssetUrl(CONFIG.KHL_PROXY_URL);
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 2500);
+      try {
+        const response = await fetch(`${proxy}?health=1`, { signal: controller.signal, cache: 'no-store' });
+        return response.ok && (await response.json())?.hockey365KhlProxy === true ? proxy : null;
+      } catch { return null; }
+      finally { clearTimeout(timer); }
+    })();
+  }
+  const proxy = await khlProxyProbe;
+  if (proxy) {
+    const path = url.split('/api/khl_mobile/')[1];
+    try { return await fetchJSON(`${proxy}?path=${encodeURIComponent(path)}`, useCache); }
+    catch { /* The direct endpoint or validated snapshot may still work. */ }
+  }
+  return fetchJSON(url, useCache);
+}
 
 export async function fetchJSON(url, useCache = true) {
   if (useCache && memoryCache.has(url)) {
@@ -326,6 +350,13 @@ function snapshotMatch(match, meta) {
   } };
 }
 
+function isVerifiedKhlMatch(match) {
+  return match?.compId === 'KHL' &&
+    match.source?.provider === 'KHL mobile backend' &&
+    match.source?.verified === true &&
+    match.source?.verifiedMatches === true;
+}
+
 function mergeMatchUpdate(snapshot, authoritative) {
   return {
     ...snapshot,
@@ -409,8 +440,14 @@ async function refreshActiveNhlMatches(matches, useCache = false) {
 async function getStaticMatchesByDate(dateStr) {
   const url = getDataUrl(`matches/by-date/${dateStr}.json`);
   const [matches, meta] = await Promise.all([fetchJSON(url, false), getMeta()]);
-  const verified = (Array.isArray(matches) ? matches : [])
-    .filter(match => !meta.unverifiedCompetitions?.includes(match.compId))
+  if (!Array.isArray(matches)) throw new Error('Invalid match snapshot');
+  const verified = matches
+    // KHL remains globally blocked for legacy standings, players and teams.
+    // Only newly ingested match records carrying the feed provenance may pass
+    // through this narrow match-only exception.
+    .filter(match => String(match.compId).toUpperCase() === 'KHL' || /^khl:/i.test(match.id || '')
+      ? isVerifiedKhlMatch(match)
+      : !meta.unverifiedCompetitions?.includes(match.compId))
     .map(match => snapshotMatch(match, meta));
   return withFeed(verified, { mode: 'snapshot', updatedAt: meta.updatedAt || null });
 }
@@ -424,7 +461,10 @@ export async function getCompetitions() {
 }
 
 export async function getMatchesByDate(dateStr, useCache = true) {
-  try {
+  let snapshotPromise;
+  const snapshot = () => snapshotPromise ||= getStaticMatchesByDate(dateStr);
+  const loadNhl = async () => {
+    try {
     const data = await fetchNhlJSON(`/schedule/${encodeURIComponent(dateStr)}`, useCache);
     if (!Array.isArray(data?.gameWeek)) throw new Error('Invalid NHL schedule response');
     const games = data.gameWeek
@@ -435,35 +475,85 @@ export async function getMatchesByDate(dateStr, useCache = true) {
     // NHL schedule responses can contain only the fixture and a stale score.
     // Refresh active games from gamecenter before the list reaches the UI.
     const matches = await refreshActiveNhlMatches(scheduleMatches, useCache);
-    return withFeed(matches, {
-      // A date contains scheduled fixtures as well as active games. The
-      // presence of at least one authoritative gamecenter response means the
-      // live score is connected even though future fixtures still come from
-      // the schedule endpoint.
-      mode: matches.some(match => match.source?.delivery === 'live') ? 'live'
-        : matches.some(match => match.source?.delivery === 'schedule') ? 'partial' : 'unknown',
-      updatedAt: new Date().toISOString()
-    });
-  } catch (officialError) {
-    // Browsers may reject the NHL API because of CORS or a transient outage.
-    // The published snapshot remains the safe, verified fallback.
-    try {
-      return await getStaticMatchesByDate(dateStr);
-    } catch (fallbackError) {
-      fallbackError.cause = officialError;
-      throw fallbackError;
+      return { matches, mode: matches.some(isActiveNhlMatch) &&
+        matches.some(match => isActiveNhlMatch(match) && match.source.delivery !== 'live') ? 'partial' : 'live' };
+    } catch (error) {
+      return { matches: (await snapshot()).filter(match => match.compId === 'NHL'), mode: 'snapshot' };
     }
-  }
+  };
+  const loadKhl = async () => {
+    try {
+      return { matches: await getKhlMatchesByDate(dateStr, fetchKhlJSON), mode: 'live' };
+    } catch (error) {
+      return { matches: (await snapshot()).filter(isVerifiedKhlMatch), mode: 'snapshot' };
+    }
+  };
+  // League outages are independent: a NHL CORS rejection cannot hide a
+  // working KHL feed (or vice versa). Never turn API failures into fake 0:0.
+  const results = await Promise.allSettled([loadNhl(), loadKhl()]);
+  if (results.every(result => result.status === 'rejected')) throw results[0].reason;
+  const matches = results.flatMap(result => result.status === 'fulfilled' ? result.value.matches : []);
+  matches.sort((left, right) => String(left.utcDate || '').localeCompare(String(right.utcDate || '')));
+  const feeds = Object.fromEntries(results.map((result, index) => {
+    const league = index === 0 ? 'NHL' : 'KHL';
+    return [league, result.status === 'fulfilled' ? {
+      mode: result.value.mode,
+      updatedAt: result.value.matches.map(match => match.source?.fetchedAt).filter(Boolean).sort().at(-1) || null
+    } : { mode: 'unavailable', updatedAt: null }];
+  }));
+  const modes = Object.values(feeds).map(feed => feed.mode);
+  const mode = modes.every(value => value === 'live') ? 'live'
+    : modes.every(value => value === 'snapshot' || value === 'unavailable') ? 'snapshot'
+      : modes.includes('snapshot') || modes.includes('unavailable') ? 'mixed' : 'partial';
+  return withFeed(matches, { mode, feeds });
 }
 
-export async function getMatch(matchId, useCache = true) {
-  if (await isUnverified(matchId.split(':')[0].toUpperCase())) unavailable(matchId);
+export async function getMatch(matchId, useCache = true, eventHint = null) {
+  const competition = matchId.split(':')[0].toUpperCase();
+
+  if (competition === 'KHL') {
+    const number = /^khl:(\d+)$/i.exec(matchId)?.[1];
+    if (!number || !Number.isSafeInteger(Number(number)) || Number(number) <= 0) unavailable(matchId);
+    const numericHint = (typeof eventHint === 'string' || typeof eventHint === 'number') &&
+      /^[1-9]\d{0,11}$/.test(String(eventHint)) && Number.isSafeInteger(Number(eventHint))
+      ? String(eventHint) : null;
+    const knownHint = getKhlKnownEventId(number);
+    let snapshot = null;
+    let snapshotAttempted = false;
+    const readSnapshot = async () => {
+      if (snapshotAttempted) return snapshot;
+      snapshotAttempted = true;
+      try {
+        const candidate = await fetchJSON(getDataUrl(`matches/${matchId}.json`), useCache);
+        if (candidate?.id === `khl:${number}` && isVerifiedKhlMatch(candidate) &&
+            (candidate.source.matchId == null || String(candidate.source.matchId) === number)) snapshot = candidate;
+      } catch { /* A live fixture need not have a published snapshot. */ }
+      return snapshot;
+    };
+    // Only use a published snapshot to discover a possible event id when the
+    // URL has none; the API response must still independently prove the match.
+    if (!numericHint && !knownHint) {
+      await readSnapshot();
+    }
+    try {
+      const authoritative = await getKhlMatch(number, fetchKhlJSON, numericHint || knownHint || snapshot?.source?.eventId);
+      if (authoritative) return authoritative;
+    } catch {
+      // Only an explicitly verified published snapshot may outlive an outage.
+    }
+    if (await readSnapshot()) return snapshotMatch(snapshot, await getMeta().catch(() => null));
+    unavailable(matchId);
+  }
+
+  const blocked = await isUnverified(competition);
 
   const matchNumber = /^nhl:(\d+)$/i.exec(matchId)?.[1];
   if (matchNumber) {
     const gamecenterMatch = await getNhlGamecenterMatch(matchNumber, useCache);
     if (gamecenterMatch) return gamecenterMatch;
   }
+
+  if (blocked) unavailable(matchId);
 
   const [snapshot, meta] = await Promise.all([
     fetchJSON(getDataUrl(`matches/${matchId}.json`), useCache), getMeta()
@@ -472,6 +562,7 @@ export async function getMatch(matchId, useCache = true) {
 }
 
 export async function getTeam(teamId) {
+  if (/^khl:/i.test(teamId)) return getKhlTeam(teamId.toLowerCase(), fetchKhlJSON);
   if (await isUnverified(teamId.split(':')[0].toUpperCase())) unavailable(teamId);
   return fetchJSON(getDataUrl(`teams/${teamId}.json`));
 }
@@ -667,7 +758,7 @@ export function startLivePolling(dateStr, callback, intervalMs = CONFIG.POLL_INT
 /**
  * Live polling helper for a single active match
  */
-export function startMatchPolling(matchId, callback, intervalMs = CONFIG.POLL_INTERVAL_LIVE_MS) {
+export function startMatchPolling(matchId, callback, intervalMs = CONFIG.POLL_INTERVAL_LIVE_MS, eventHint = null) {
   let isCancelled = false;
   let inFlight = false;
   let timer = null;
@@ -676,7 +767,10 @@ export function startMatchPolling(matchId, callback, intervalMs = CONFIG.POLL_IN
     if (isCancelled || inFlight) return;
     inFlight = true;
     try {
-      const data = await getMatch(matchId, false);
+      const data = await getMatch(matchId, false, eventHint);
+      if (data?.compId === 'KHL' && data.source?.delivery === 'live' && data.source?.eventId) {
+        eventHint = data.source.eventId;
+      }
       if (!isCancelled) callback(null, data);
     } catch (err) {
       if (!isCancelled) callback(err, null);

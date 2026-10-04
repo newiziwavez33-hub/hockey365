@@ -70,7 +70,7 @@ test('date schedule prefers official NHL data and does not invent events', async
   assert.deepEqual(matches[0].events, []);
   assert.equal(matches[0].source.provider, 'NHL Web API');
   assert.equal(matches[0].source.official, true);
-  assert.equal(matches.feed.mode, 'partial');
+  assert.equal(matches.feed.feeds.NHL.mode, 'partial');
 });
 
 test('live list polling replaces stale schedule score/status/events with gamecenter data', async () => {
@@ -170,7 +170,7 @@ test('live list polling replaces stale schedule score/status/events with gamecen
   const stop = startLivePolling('2026-10-04', (error, matches) => {
     assert.equal(error, null);
     updates.push(matches[0]);
-    feedModes.push(matches.feed.mode);
+    feedModes.push(matches.feed.feeds.NHL.mode);
   }, 60_000);
   await new Promise(resolve => setTimeout(resolve, 0));
   assert.equal(scheduleCalls, 1);
@@ -279,6 +279,10 @@ test('official network failure falls back to static JSON and keeps KHL hidden', 
       if (path.endsWith('/meta.json')) return response({ unverifiedCompetitions: ['KHL'] });
       if (path.endsWith('/by-date/2099-01-02.json')) return response([
         { id: 'khl:demo', compId: 'KHL' },
+        {
+          id: 'khl:verified', compId: 'KHL',
+          source: { provider: 'KHL mobile backend', verified: true, verifiedMatches: true }
+        },
         { id: 'nhl:static', compId: 'NHL' }
       ]);
     }
@@ -286,7 +290,7 @@ test('official network failure falls back to static JSON and keeps KHL hidden', 
   };
 
   const matches = await getMatchesByDate('2099-01-02', false);
-  assert.deepEqual(matches.map(match => match.id), ['nhl:static']);
+  assert.deepEqual(matches.map(match => match.id).sort(), ['khl:verified', 'nhl:static']);
   assert.equal(matches.feed.mode, 'snapshot');
   assert.equal(matches[0].source.delivery, 'snapshot');
 });

@@ -37,6 +37,9 @@ jobs:
       - name: Fetch verified NHL data and rebuild indexes
         run: |
           python3 tools/adapters/nhl_web.py
+          # KHL is published only when its complete public feed validates.
+          # A temporary KHL outage must not block the verified NHL snapshot.
+          python3 tools/adapters/khl_aggregator.py || echo "KHL feed unavailable; KHL remains hidden"
           python3 tools/adapters/fetch_news.py
           python3 tools/normalize.py
           python3 tools/validate_data.py
@@ -73,4 +76,3 @@ jobs:
         if: steps.commit_step.outputs.has_changes == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
-

@@ -46,3 +46,18 @@ export function buildLink(path, params = {}) {
   }
   return targetUrl.pathname + targetUrl.search;
 }
+
+/** A mobile event id is a navigation hint, never proof of a match. */
+export function buildMatchLink(match) {
+  const id = match?.id;
+  const source = match?.source;
+  const matchNumber = /^khl:([1-9]\d*)$/.exec(id || '')?.[1];
+  const event = source?.eventId;
+  const validEvent = (typeof event === 'string' && /^[1-9]\d{0,11}$/.test(event)) ||
+    (typeof event === 'number' && Number.isSafeInteger(event) && event > 0 && event <= 999999999999);
+  const verified = match?.compId === 'KHL' && matchNumber &&
+    source?.provider === 'KHL mobile backend' && source?.verified === true &&
+    source?.verifiedMatches === true &&
+    (source.matchId == null || String(source.matchId) === matchNumber);
+  return buildLink('/match/', { id, ...(verified && validEvent ? { event: String(event) } : {}) });
+}

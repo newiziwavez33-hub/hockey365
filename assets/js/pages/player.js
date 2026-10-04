@@ -42,7 +42,7 @@ export async function initPlayerPage() {
   const profileCard = el('div', { className: 'player-hero-card' },
     el('div', { className: 'player-hero-flex' },
       // Left Cluster: Portrait + Identity
-      el('div', { className: 'flex items-center gap-20' },
+      el('div', { className: 'player-identity-cluster flex items-center gap-20' },
         el('div', { className: 'player-portrait-halo' },
           player.photo
             ? el('img', {

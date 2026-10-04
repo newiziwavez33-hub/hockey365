@@ -1,0 +1,55 @@
+{
+  "id": "khl:902107",
+  "compId": "KHL",
+  "season": "2026/27",
+  "stage": "regular",
+  "round": null,
+  "seriesGame": null,
+  "utcDate": "2026-10-06T14:00:00Z",
+  "status": "SCHEDULED",
+  "period": null,
+  "clock": null,
+  "finishedIn": null,
+  "home": {
+    "id": "khl:avtomobilist",
+    "name": "Автомобилист",
+    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/56/original/avtomobilist__200x200.png",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "away": {
+    "id": "khl:avangard",
+    "name": "Авангард",
+    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/10/original/Avangard_2026_500x500_NEW.png",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "arena": null,
+  "officials": {
+    "referees": [],
+    "linesmen": []
+  },
+  "events": [],
+  "lineups": null,
+  "stats": null,
+  "h2h": [],
+  "source": {
+    "provider": "KHL mobile backend",
+    "official": true,
+    "verified": true,
+    "verifiedMatches": true,
+    "licenseConfirmed": false,
+    "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+    "endpoints": [
+      "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
+      "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+      "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
+    ],
+    "stageId": 407,
+    "eventId": 3000575,
+    "matchId": "902107",
+    "fetchedAt": "2026-10-04T21:42:16.913243Z"
+  }
+}

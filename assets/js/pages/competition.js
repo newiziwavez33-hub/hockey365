@@ -42,6 +42,7 @@ export async function initCompetitionPage() {
   }
   const meta = await getMeta().catch(() => null);
   const unavailableSource = meta?.unverifiedCompetitions?.includes(compId);
+  if (compId === 'KHL' && !getParam('tab')) activeTab = 'calendar';
   if (!compInfo.seasons?.includes(activeSeason)) activeSeason = compInfo.currentSeason;
 
   // Render Comp Header
@@ -61,7 +62,9 @@ export async function initCompetitionPage() {
     )
   );
   if (unavailableSource) titleSlot.appendChild(el('p', { className: 'card text-muted', style: { padding: '12px' } },
-    'Результаты и статистика этой лиги скрыты: проверенный источник данных пока не подключён.'));
+    compId === 'KHL'
+      ? 'Календарь и счёт подключены к мобильному API КХЛ. Турнирные таблицы, составы и статистика игроков пока не подтверждены и скрыты.'
+      : 'Результаты и статистика этой лиги скрыты: проверенный источник данных пока не подключён.'));
 
   const tabsConfig = [
     { id: 'table', label: 'Таблицы' },
@@ -141,10 +144,6 @@ export async function initCompetitionPage() {
           loadTabContent();
         }));
         contentSlot.appendChild(dateSlot);
-        if (!dates.includes(targetDate)) {
-          contentSlot.appendChild(el('p', { className: 'card text-muted' }, `За ${targetDate} сохранённого игрового дня нет. Доступные даты: ${dates.join(', ') || 'не указаны'}.`));
-          return;
-        }
         const matches = await getMatchesByDate(targetDate);
         if (request !== tabRequest) return;
 

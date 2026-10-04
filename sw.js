@@ -1,10 +1,10 @@
 /**
- * Hockey365 Service Worker (Offline PWA & Smart Network-First Caching v1.8.1)
+ * Hockey365 Service Worker (Offline PWA & Smart Network-First Caching v1.8.2)
  * Always loads the newest assets over network, falling back to cache if offline.
  * This guarantees the user NEVER needs to press Ctrl+F5 to see updates.
  */
 
-const CACHE_NAME = 'hockey365-' + encodeURIComponent(self.registration.scope) + '-v1-8-1';
+const CACHE_NAME = 'hockey365-' + encodeURIComponent(self.registration.scope) + '-v1-8-2';
 const STATIC_ASSETS = [
   './',
   'index.html',
@@ -12,6 +12,8 @@ const STATIC_ASSETS = [
   'assets/css/tokens.css',
   'assets/css/base.css',
   'assets/css/components.css',
+  'assets/css/event-player.css',
+  'assets/icons/hockey365.svg',
   'assets/js/core/config.js',
   'assets/js/core/dom.js',
   'assets/js/core/store.js',
@@ -20,6 +22,9 @@ const STATIC_ASSETS = [
   'assets/js/core/router.js',
   'assets/js/core/api.js',
   'assets/js/core/feed-status.js',
+  'assets/js/core/khl-feed.js',
+  'assets/js/core/profile-links.js',
+  'assets/js/components/event-player.js',
   'assets/js/components/site-header.js',
   'assets/js/components/site-footer.js',
   'assets/js/components/match-row.js',

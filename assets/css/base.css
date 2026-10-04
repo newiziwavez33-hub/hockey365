@@ -208,7 +208,16 @@ table {
 .gap-8 { gap: var(--space-8); }
 .gap-12 { gap: var(--space-12); }
 .gap-16 { gap: var(--space-16); }
+.gap-20 { gap: var(--space-20); }
+.flex-1 { flex: 1 1 0%; }
+.min-w-0 { min-width: 0; }
 .flex-wrap { flex-wrap: wrap; }
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 
 /* Badges */
 .badge {

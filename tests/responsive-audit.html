@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hockey365 — проверка адаптивности</title>
+<style>
+  body{margin:16px;font:14px system-ui;background:#10131a;color:#e2e8f0}
+  button{padding:10px;margin:4px;cursor:pointer} button:disabled{opacity:.5;cursor:not-allowed}
+  table{border-collapse:collapse;width:100%}
+  td,th{padding:8px;border:1px solid #3c494e;text-align:left;overflow-wrap:anywhere}
+  #preview{overflow:auto;width:100%;min-height:32px;border:1px solid #3c494e}
+  iframe{border:0;display:block;height:900px}
+  /* The measuring iframe must be laid out, but must not crowd the results UI. */
+  #workbench{position:absolute;left:-10000px;top:0;pointer-events:none;opacity:0}
+  .fail{color:#ffb4ab} .pass{color:#6ee7b7} .warn{color:#fbbf24}
+</style>
+<h1>Проверка адаптивности Hockey365</h1>
+<p>Откройте через локальный HTTP-сервер. Измеряется фактическая ширина документа iframe (с поправкой на вертикальный scrollbar); горизонтальная прокрутка таблиц, вкладок и календаря внутри блоков допустима.</p>
+<button id="run" type="button">Проверить 15 страниц × 4 ширины</button>
+<button id="stop" type="button" disabled>Остановить</button>
+<p id="status" role="status">Готов к запуску</p>
+<p id="selection">Нажмите «Просмотр» в строке результата для проверки страницы вручную.</p>
+<div id="preview"></div>
+<div id="workbench" aria-hidden="true"></div>
+<table><thead><tr><th>Страница</th><th>Цель / фактическая ширина</th><th>Документ</th><th>Выход за viewport</th><th>Изображения</th><th>Состояние</th><th>Проверить</th></tr></thead><tbody id="results"></tbody></table>
+<script type="module">
+let pages = ['../', '../404.html', '../about/', '../privacy/',
+  '../online/?date=2026-10-04', '../competition/?id=NHL', '../competitions/',
+  '../favorites/', '../match/?id=nhl%3A2026020035', '../news/',
+  '../player/?id=nhl%3Ap_8478402', '../search/?q=Детройт', '../settings/',
+  '../team/?id=nhl%3Adet', '../transfers/'];
+if (new URLSearchParams(location.search).has('extended')) {
+  pages = ['../competition/?id=KHL&tab=calendar&date=2026-10-04',
+    '../competition/?id=KHL&tab=table', '../competition/?id=NHL&tab=leaders',
+    '../competition/?id=NHL&tab=playoff', '../team/?id=khl%3Acska',
+    '../team/?id=nhl%3Adet&tab=roster', '../team/?id=nhl%3Adet&tab=about',
+    '../match/?id=khl%3A902099',
+    ...['lineups','stats','rink','info','video'].map(tab => '../match/?id=nhl%3A2026020035&tab='+tab)];
+}
+const widths = [320,375,768,1440];
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const status = document.querySelector('#status');
+const results = document.querySelector('#results');
+const preview = document.querySelector('#preview');
+const workbench = document.querySelector('#workbench');
+const run = document.querySelector('#run');
+const stop = document.querySelector('#stop');
+const selection = document.querySelector('#selection');
+const contentSlots = {
+  '/online/': '#online-matches-slot', '/competition/': '[id^="tab-pane-"]',
+  '/competitions/': '#competitions-grid', '/favorites/': '#favorites-slot',
+  '/match/': '#match-header-slot', '/news/': '#news-feed-slot',
+  '/player/': '#player-profile-slot', '/search/': '#search-status-slot',
+  '/team/': '#team-header-slot', '/transfers/': '#transfers-slot'
+};
+let running = false, cancelled = false;
+let passed = 0, failed = 0, incomplete = 0, imageFailures = 0;
+const timeout = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+function frameFor(page, width) {
+  const frame = document.createElement('iframe');
+  frame.title = page;
+  frame.style.width = width + 'px';
+  return frame;
+}
+
+// Root clientWidth is the measurable content viewport; a vertical scrollbar
+// occupies 8px in the current iframe, but don't hard-code that across browsers.
+async function setViewport(frame, target) {
+  const doc = frame.contentDocument;
+  if (!doc?.documentElement || !frame.contentWindow) return 0;
+  for (let attempt = 0; attempt < 4; attempt++) {
+    const actual = doc.documentElement.clientWidth;
+    if (actual === target) return actual;
+    frame.style.width = Math.max(1, frame.getBoundingClientRect().width + target - actual) + 'px';
+    await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+  }
+  return doc.documentElement.clientWidth;
+}
+
+function visible(node, win) {
+  if (node.closest('[hidden], [aria-hidden="true"]')) return false;
+  const style = win.getComputedStyle(node);
+  return style.display !== 'none' && style.visibility === 'visible' && Number(style.opacity) !== 0
+    && node.getClientRects().length > 0;
+}
+
+function scrollAreaContains(node, viewport, win) {
+  for (let parent = node.parentElement; parent && parent !== node.ownerDocument.body; parent = parent.parentElement) {
+    const style = win.getComputedStyle(parent);
+    if (!['auto', 'scroll'].includes(style.overflowX)) continue;
+    const box = parent.getBoundingClientRect();
+    // A table/tab may scroll inside its container, but the container itself
+    // must remain on-screen. overflow:hidden (including body) is NOT exempt.
+    if (box.left >= -2 && box.right <= viewport + 2) return true;
+  }
+  return false;
+}
+
+function overflowNodes(doc, viewport, win) {
+  const candidates = doc.querySelectorAll('body main, body main *, body header, body header *, body nav, body nav *, body footer, body footer *, body site-header, body site-header *, body site-footer, body site-footer *');
+  const overflowing = [];
+  for (const node of candidates) {
+    if (!visible(node, win) || node.matches('.skip-link:not(:focus)')) continue;
+    const rect = node.getBoundingClientRect();
+    if (rect.width < 1 || rect.height < 1 || (rect.left >= -2 && rect.right <= viewport + 2)) continue;
+    if (!scrollAreaContains(node, viewport, win)) overflowing.push(node);
+  }
+  return overflowing;
+}
+
+function imageLabel(image) {
+  return image.currentSrc || image.src || image.alt || '(без src)';
+}
+
+function pageReady(doc, page) {
+  const pathname = new URL(page, location.href).pathname;
+  const slot = pathname === new URL('../', location.href).pathname ? '#matches-slot'
+    : Object.entries(contentSlots).find(([suffix]) => pathname.endsWith(suffix))?.[1];
+  const header = doc.querySelector('site-header');
+  return doc.readyState === 'complete' && !doc.querySelector('.skeleton')
+    && header?.querySelector('.brand-link')
+    && (!slot || doc.querySelector(slot)?.childNodes.length);
+}
+
+async function awaitImages(doc, maxWait = 5000) {
+  // Lazy/offscreen avatars must be requested too; this is an audit-only iframe.
+  let images = [...doc.images];
+  for (const image of images) image.loading = 'eager';
+  const deadline = Date.now() + maxWait;
+  while (Date.now() < deadline) {
+    images = [...doc.images];
+    for (const image of images) image.loading = 'eager';
+    if (images.every(image => image.complete)) break;
+    await sleep(100);
+  }
+  return {
+    broken: images.filter(image => image.complete && image.naturalWidth === 0).map(imageLabel),
+    pending: images.filter(image => !image.complete).map(imageLabel)
+  };
+}
+
+function addResult(page, target, actual, documentWidth, oversized, images, state) {
+  const row = document.createElement('tr');
+  row.className = state.startsWith('PASS') ? (images.broken.length ? 'warn' : 'pass') : state === 'FAIL' ? 'fail' : 'warn';
+  const details = oversized.slice(0, 8).map(node => node.id ? '#'+node.id : node.tagName.toLowerCase()+'.'+String(node.className || '').trim().replace(/\s+/g, '.'));
+  const imageText = `${images.broken.length} ошибок, ${images.pending.length} ожидание`;
+  for (const value of [page, `${target}px / ${actual || '—'}px`, documentWidth ? documentWidth+'px' : '—',
+    oversized.length ? `${oversized.length}: ${details.join('; ')}`
+      : actual && documentWidth > actual + 2 ? `Документ: +${documentWidth - actual}px` : 'OK', imageText, state]) {
+    const cell = document.createElement('td'); cell.textContent = value; row.appendChild(cell);
+  }
+  row.cells[4].title = [...images.broken.map(url => 'Ошибка: '+url), ...images.pending.map(url => 'Таймаут: '+url)].join('\n');
+  const cell = document.createElement('td');
+  const button = document.createElement('button');
+  button.textContent = 'Просмотр'; button.type = 'button'; button.disabled = running;
+  button.dataset.page = page; button.dataset.width = target;
+  cell.appendChild(button); row.appendChild(cell); results.appendChild(row);
+  status.textContent = `Проверено ${results.children.length}/${pages.length*widths.length}: PASS ${passed}, FAIL ${failed}, не готово ${incomplete}, ошибки изображений ${imageFailures}`;
+}
+
+async function showPreview(page, width) {
+  const frame = frameFor(page, width + 8);
+  const loaded = new Promise(resolve => frame.addEventListener('load', () => resolve(true), {once:true}));
+  frame.src = page;
+  preview.replaceChildren(frame);
+  selection.textContent = `Просмотр: ${page}, цель ${width}px (загрузка…)`;
+  const ok = await Promise.race([loaded, timeout(15000, false)]);
+  if (preview.firstChild !== frame) return;
+  const doc = ok ? frame.contentDocument : null;
+  if (doc?.body) {
+    const deadline = Date.now() + 12000;
+    while (preview.firstChild === frame && Date.now() < deadline && !pageReady(doc, page)) await sleep(200);
+    if (preview.firstChild !== frame) return;
+    await awaitImages(doc);
+  }
+  if (preview.firstChild !== frame) return;
+  const actual = doc?.body ? await setViewport(frame, width) : 0;
+  if (preview.firstChild !== frame) return;
+  selection.textContent = `Просмотр: ${page}, цель ${width}px, фактически ${actual || 'не загружено'}px; рамку можно прокручивать.`;
+}
+
+results.addEventListener('click', event => {
+  const button = event.target.closest('button[data-page]');
+  if (button && !running) showPreview(button.dataset.page, Number(button.dataset.width));
+});
+stop.addEventListener('click', () => { cancelled = true; stop.disabled = true; status.textContent = 'Останавливается после текущего измерения…'; });
+document.querySelector('#run').textContent=`Проверить ${pages.length} сценариев × ${widths.length} ширины`;
+run.addEventListener('click', async () => {
+  if (running) return;
+  running = true; cancelled = false; run.disabled = true; stop.disabled = false;
+  passed = 0; failed = 0; incomplete = 0; imageFailures = 0;
+  results.replaceChildren();
+  preview.replaceChildren(); selection.textContent = 'Идёт проверка. После запуска выберите строку для просмотра.';
+  let runtimeError = null;
+  try {
+    for (const page of pages) {
+      if (cancelled) break;
+       const frame = frameFor(page, 1448);
+       const loaded = new Promise(resolve => frame.addEventListener('load', () => resolve(true), {once:true}));
+       frame.src = page;
+       workbench.replaceChildren(frame);
+      const didLoad = await Promise.race([loaded, timeout(15000, false)]);
+      const doc = didLoad ? frame.contentDocument : null;
+      const expected = new URL(page, location.href);
+      const samePage = doc && doc.URL.split('#')[0] === expected.href.split('#')[0];
+      const shell = doc?.querySelector('main, site-header');
+      const wrongPage = doc?.title.includes('(404)') && !expected.pathname.endsWith('/404.html');
+      let ready = false;
+      if (didLoad && samePage && shell && doc.body && !wrongPage) {
+        const deadline = Date.now() + 12000;
+        while (!cancelled && Date.now() < deadline) {
+          if (pageReady(doc, page) || doc.querySelector('main .state-message')) { ready = true; break; }
+          await sleep(200);
+        }
+      }
+      if (ready) await Promise.race([doc.fonts?.ready || Promise.resolve(), timeout(4000)]);
+      for (const width of widths) {
+        if (cancelled) break;
+        if (didLoad && doc?.body) await setViewport(frame, width);
+        const images = ready ? await awaitImages(doc) : {broken: [], pending: []};
+        if (cancelled) break;
+        // Images can change page height and toggle the vertical scrollbar.
+        const actual = didLoad && doc?.body ? await setViewport(frame, width) : 0;
+        const documentWidth = actual ? Math.max(doc.documentElement.scrollWidth, doc.body.scrollWidth) : 0;
+        const oversized = ready && actual ? overflowNodes(doc, actual, frame.contentWindow) : [];
+        let state;
+        if (!didLoad || !samePage || !shell || !doc?.body || wrongPage) state = 'ERROR: загрузка страницы';
+        else if (!ready) state = 'LOADING: таймаут контента';
+        else if (doc.querySelector('main .state-message')) state = 'ERROR: данные страницы';
+        else if (actual !== width) state = 'ERROR: ширина viewport';
+        else if (images.pending.length) state = 'LOADING: изображения';
+        else if (oversized.length || documentWidth > actual + 2) state = 'FAIL';
+        else state = images.broken.length ? 'PASS layout / IMG FAIL' : 'PASS';
+        if (state.startsWith('PASS')) passed++;
+        else if (state === 'FAIL') failed++;
+        else incomplete++;
+        imageFailures += images.broken.length;
+        addResult(page, width, actual, documentWidth, oversized, images, state);
+      }
+      workbench.replaceChildren();
+    }
+  } catch (error) {
+    runtimeError = error;
+    console.error('Ошибка аудита:', error);
+  } finally {
+    workbench.replaceChildren();
+    running = false; run.disabled = false; stop.disabled = true;
+    results.querySelectorAll('button[data-page]').forEach(button => button.disabled = false);
+    status.textContent=`${runtimeError ? 'Ошибка аудита: ' + runtimeError.message : cancelled ? 'Остановлено' : 'Завершено'}: PASS ${passed}, FAIL ${failed}, не готово ${incomplete}, ошибки изображений ${imageFailures}. Проверено ${results.children.length}/${pages.length*widths.length}.`;
+  }
+});
+</script>
+</html>

@@ -7,9 +7,9 @@ import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js'
 import { getMatchesByDate, getCompetitions, getNews, getStandings, getMeta, getMatch, getLeaders, getPlayer, startLivePolling } from '../core/api.js';
 import { getFeedStatus, formatFeedStatus } from '../core/feed-status.js';
 import { getTodayISODate, formatDate, formatScore, formatPosition, formatPeriodStatus } from '../core/format.js';
-import { getParam, setParam, buildLink } from '../core/router.js';
+import { getParam, setParam, buildLink, buildMatchLink } from '../core/router.js';
 import { createDatepicker } from '../components/datepicker.js';
-import { createMatchRow, createMatchGridCardStitch, KNOWN_TEAMS, getTeamMeta } from '../components/match-row.js';
+import { createMatchRow, createMatchGridCardStitch, KNOWN_TEAMS, getTeamMeta, matchTeamsMap } from '../components/match-row.js';
 import { trackMatchUpdates } from '../core/live-tracker.js';
 import { getAssetUrl } from '../core/config.js';
 import { store } from '../core/store.js';
@@ -41,7 +41,7 @@ export async function initHomePage() {
   }
 
   const availableDates = cachedMeta?.availableDates || [];
-  const defaultDate = cachedMeta?.activeDate || availableDates[0] || getTodayISODate();
+  const defaultDate = getTodayISODate();
   const notice = qs('#snapshot-notice');
   if (notice && cachedMeta?.updatedAt) {
     notice.textContent = 'Проверяется подключение к официальному источнику NHL…';
@@ -50,7 +50,7 @@ export async function initHomePage() {
   // Smart date fallback
   if (!activeDate) {
     const today = getTodayISODate();
-    activeDate = availableDates.includes(today) ? today : defaultDate;
+    activeDate = today;
   }
 
   // Render Datepicker Ribbon into Header Tier 2
@@ -156,7 +156,7 @@ export async function initHomePage() {
 
     const liveBadge = el('div', { className: 'live-pulse-badge', style: { marginLeft: 'auto' } },
       el('span', { className: 'pulse-dot' }),
-      el('span', {}, getFeedStatus(latestMatches).mode === 'live' ? 'NHL · опрос 10 с' : 'Счёт: сохранённый срез / проверка')
+      el('span', {}, getFeedStatus(latestMatches).mode === 'live' ? 'НХЛ · КХЛ · опрос 10 с' : 'Источник: частичный / сохранённый срез')
     );
     subtoolbarChipsContainer.appendChild(liveBadge);
   }
@@ -178,8 +178,8 @@ export async function initHomePage() {
           className: 'stitch-widget-card text-center',
           style: { padding: '32px 16px', color: 'var(--text-muted)' }
         },
-          el('div', { className: 'text-base font-bold text-white', style: { marginBottom: '8px' } }, 'Матчи КХЛ временно недоступны'),
-          el('p', { className: 'text-sm' }, 'Ожидается подключение лицензированного поставщика данных КХЛ. Официальные матчи НХЛ доступны в реальном времени.'),
+          el('div', { className: 'text-base font-bold text-white', style: { marginBottom: '8px' } }, 'Нет подтверждённых матчей КХЛ за эту дату'),
+          el('p', { className: 'text-sm' }, 'Расписание и счёт проверяются в мобильном API КХЛ. При сбое используются только подтверждённые срезы.'),
           el('a', {
             href: buildLink('/competition/', { id: 'KHL' }),
             className: 'inline-flex items-center gap-1 text-primary-container hover:text-primary text-sm font-semibold',
@@ -349,8 +349,9 @@ function renderHeroMatchBanner(container, matches) {
     || matches.find(m => m.status === 'SCHEDULED')
     || matches[0];
 
-  const homeTeam = getTeamMeta(highlight.home.id, cachedTeamsMap);
-  const awayTeam = getTeamMeta(highlight.away.id, cachedTeamsMap);
+  const teams = matchTeamsMap(highlight, cachedTeamsMap);
+  const homeTeam = getTeamMeta(highlight.home.id, teams);
+  const awayTeam = getTeamMeta(highlight.away.id, teams);
 
   const isLive = highlight.status === 'LIVE' || highlight.status === 'INTERMISSION';
   const isFinished = highlight.status === 'FINISHED';
@@ -362,7 +363,7 @@ function renderHeroMatchBanner(container, matches) {
   const awayRecord = 'Сезонная форма не опубликована';
 
   const heroImgUrl = getAssetUrl('assets/images/hero_banner.jpg');
-  const matchUrl = buildLink('/match/', { id: highlight.id });
+  const matchUrl = buildMatchLink(highlight);
 
   let timeDigits = '—';
   let timeSub = 'ВРЕМЯ НЕ УКАЗАНО';

@@ -7,7 +7,7 @@
  * - Ticker strip: Live on-air telemetry & arena feed indicator
  */
 
-import { CONFIG } from '../core/config.js';
+import { CONFIG, getAssetUrl } from '../core/config.js';
 import { buildLink, getParam, setParam } from '../core/router.js';
 import { store } from '../core/store.js';
 import { el } from '../core/dom.js';
@@ -58,8 +58,8 @@ export class SiteHeader extends HTMLElement {
     const isHome = currentPath === base || currentPath === base + '/' || currentPath === base + '/index.html';
     const isOnline = currentPath.includes('/online/');
     const isCompetitions = currentPath.includes('/competition') && !currentPath.includes('tab=stats');
-    const isKHL = currentPath.includes('id=KHL') || currentPath.includes('/khl');
-    const isNHL = currentPath.includes('id=NHL') || currentPath.includes('/nhl');
+    const isKHL = isCompetitions && getParam('id') === 'KHL';
+    const isNHL = isCompetitions && getParam('id') === 'NHL';
     const isNews = currentPath.includes('/news/');
 
     const navLinks = [
@@ -79,7 +79,11 @@ export class SiteHeader extends HTMLElement {
       el('div', { className: 'header-brand-cluster' },
         el('a', { href: buildLink('/'), className: 'brand-link', 'aria-label': 'Hockey365 Главная' },
           el('div', { className: 'brand-badge-icon' },
-            el('span', { className: 'material-symbols-outlined' }, 'sports_hockey')
+            el('img', {
+              src: getAssetUrl('assets/icons/hockey365.svg'),
+              alt: '',
+              'aria-hidden': 'true'
+            })
           ),
           el('span', { className: 'brand-title' },
             'HOCKEY',
@@ -243,11 +247,11 @@ export class SiteHeader extends HTMLElement {
     const tickerStrip = el('div', { className: 'header-ticker-strip' },
       el('div', { className: 'ticker-left' },
         el('span', { className: 'ticker-pill-live' }, 'LIVE ON-AIR'),
-        el('span', { className: 'ticker-text' }, 'Официальный NHL live-протокол обновляется автоматически; при сбое сети используется проверенный срез.')
+        el('span', { className: 'ticker-text' }, 'Счёт НХЛ и КХЛ обновляется из источников; статус подключения указан в матч-центре.')
       ),
       el('div', { className: 'ticker-right' },
         el('span', { className: 'ticker-live-dot' }, '●'),
-        el('span', {}, 'NHL Web API • КХЛ без подтверждённого live-источника')
+        el('span', {}, 'NHL Web API • KHL mobile API')
       )
     );
 

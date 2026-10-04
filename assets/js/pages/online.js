@@ -83,7 +83,7 @@ export async function initOnlinePage() {
       const ticker = qs('#live-ticker-text');
       if (ticker) {
         const mode = getFeedStatus(currentMatchesList).mode;
-        ticker.textContent = `${mode === 'live' ? 'NHL API' : 'Сохранённый срез / проверка'}: следующая проверка через ${pollCountdown} с`;
+        ticker.textContent = `${mode === 'live' ? 'НХЛ · КХЛ API' : 'Частичный источник / срез'}: следующая проверка через ${pollCountdown} с`;
       }
     }, 1000);
   }
@@ -122,8 +122,8 @@ export async function initOnlinePage() {
           className: 'stitch-widget-card text-center',
           style: { padding: '32px 16px', color: 'var(--text-muted)' }
         },
-          el('div', { className: 'text-base font-bold text-white', style: { marginBottom: '8px' } }, 'Матчи КХЛ временно недоступны'),
-          el('p', { className: 'text-sm' }, 'Ожидается подключение лицензированного поставщика данных КХЛ. Официальные матчи НХЛ доступны в реальном времени.'),
+          el('div', { className: 'text-base font-bold text-white', style: { marginBottom: '8px' } }, 'Нет подтверждённых матчей КХЛ за эту дату'),
+          el('p', { className: 'text-sm' }, 'Расписание и счёт проверяются в мобильном API КХЛ. При сбое используются только подтверждённые срезы.'),
           el('a', {
             href: buildLink('/competition/', { id: 'KHL' }),
             className: 'inline-flex items-center gap-1 text-primary-container hover:text-primary text-sm font-semibold',

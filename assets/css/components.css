@@ -83,6 +83,12 @@
   font-size: 22px;
   font-weight: 700;
 }
+.brand-badge-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: inherit;
+}
 
 .brand-title {
   font-family: var(--font-headline);
@@ -1396,6 +1402,15 @@
   text-align: left;
   font-weight: var(--font-weight-semibold);
   min-width: 150px;
+}
+.standings-table .team-logo-small {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: var(--space-8);
+  flex-shrink: 0;
 }
 .standings-table .col-team img {
   display: inline-block;
@@ -3568,4 +3583,196 @@
   width: 16px;
   height: 16px;
   object-fit: contain;
+}
+
+/* Narrow-screen safeguards for the shared Stitch shell and match UI. */
+@media (max-width: 767px) {
+  .header-container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .header-tier-1 {
+    gap: 8px;
+  }
+
+  .header-brand-cluster,
+  .brand-link {
+    gap: 6px;
+    min-width: 0;
+  }
+
+  .brand-badge-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+  }
+
+  .brand-title {
+    min-width: 0;
+    font-size: 18px;
+    white-space: nowrap;
+  }
+
+  .header-actions {
+    gap: 4px;
+  }
+
+  .icon-btn-stitch,
+  .user-avatar-stitch {
+    width: 28px;
+    height: 28px;
+  }
+
+  .icon-btn-stitch .material-symbols-outlined,
+  .user-avatar-stitch .material-symbols-outlined {
+    font-size: 16px;
+  }
+
+  .match-col-7grid {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    flex: 0 0 100%;
+  }
+
+  .match-team-block.team-home,
+  .match-team-block.team-away,
+  .match-score-center {
+    grid-column: auto;
+  }
+
+  .match-team-block.team-home { grid-column: 1; }
+  .match-score-center { grid-column: 2; }
+  .match-team-block.team-away { grid-column: 3; }
+
+  .match-team-block {
+    min-width: 0;
+    gap: 6px;
+  }
+
+  .match-team-name {
+    min-width: 0;
+    white-space: nowrap;
+    line-height: 1.25;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .match-col-actions {
+    margin-left: auto;
+  }
+
+  .player-hero-card {
+    padding: 24px 16px;
+  }
+
+  .player-identity-cluster {
+    flex: 1 1 260px;
+    min-width: 0;
+  }
+
+  .player-main-name {
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 359px) {
+  .header-container {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .header-brand-cluster,
+  .brand-link {
+    gap: 4px;
+  }
+
+  .brand-badge-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .brand-title {
+    font-size: 17px;
+  }
+
+  .header-actions {
+    gap: 3px;
+  }
+
+  .icon-btn-stitch,
+  .user-avatar-stitch {
+    width: 26px;
+    height: 26px;
+  }
+
+  .match-team-name {
+    font-size: 12px;
+  }
+}
+
+/* Event rows keep the time, badge, player and team readable at phone widths. */
+.match-event-row {
+  min-width: 0;
+}
+.match-event-main,
+.match-event-details,
+.match-event-team {
+  min-width: 0;
+}
+.match-event-main {
+  flex: 1 1 auto;
+}
+.match-event-details {
+  overflow-wrap: anywhere;
+}
+.match-event-team {
+  flex: 0 0 auto;
+  text-align: right;
+  overflow-wrap: anywhere;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.match-event-team-logo {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  flex: 0 0 18px;
+}
+
+@media (max-width: 359px) {
+  .match-event-row {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .match-event-main {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .match-event-team {
+    align-self: flex-end;
+  }
+}
+
+/* The ticker's source note is intentionally secondary on phone widths. Keep
+   the live label readable instead of letting the non-wrapping API note clip
+   the fixed header outside the viewport. */
+@media (max-width: 480px) {
+  .header-ticker-strip {
+    padding: 0 12px;
+    overflow: hidden;
+  }
+
+  .ticker-left {
+    width: 100%;
+  }
+
+  .ticker-right {
+    display: none;
+  }
 }
