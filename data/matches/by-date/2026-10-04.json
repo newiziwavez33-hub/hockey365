@@ -26,7 +26,7 @@
     "away": {
       "id": "khl:sibir",
       "name": "Сибирь",
-      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/24/original/sibir_rus__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/24/original/sibir_rus__200x200.png",
       "score": 2,
       "periods": [
         1,
@@ -59,7 +59,7 @@
       "stageId": 407,
       "eventId": 3000543,
       "matchId": "902099",
-      "fetchedAt": "2026-10-04T21:42:16.913243Z"
+      "fetchedAt": "2026-10-04T21:59:50.158013Z"
     }
   },
   {
@@ -122,7 +122,7 @@
       "stageId": 407,
       "eventId": 3000551,
       "matchId": "902101",
-      "fetchedAt": "2026-10-04T21:42:16.913243Z"
+      "fetchedAt": "2026-10-04T21:59:50.158013Z"
     }
   },
   {
@@ -148,7 +148,7 @@
     "away": {
       "id": "khl:barys",
       "name": "Барыс",
-      "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/46/original/barys_2022_head_only__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/46/original/barys_2022_head_only__200x200.png",
       "score": 4,
       "periods": [],
       "shots": null
@@ -177,7 +177,7 @@
       "stageId": 407,
       "eventId": 3000547,
       "matchId": "902100",
-      "fetchedAt": "2026-10-04T21:42:16.913243Z"
+      "fetchedAt": "2026-10-04T21:59:50.158013Z"
     }
   },
   {
@@ -188,159 +188,30 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-04T17:00:00Z",
-    "status": "LIVE",
-    "period": 2,
-    "clock": "09:48",
-    "finishedIn": null,
+    "status": "FINISHED",
+    "period": 3,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:det",
-      "score": 0,
+      "score": 2,
       "periods": [],
-      "shots": 17
+      "shots": null
     },
     "away": {
       "id": "nhl:wpg",
       "score": 3,
       "periods": [],
-      "shots": 18
+      "shots": null
     },
     "arena": "Little Caesars Arena",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "09:26",
-        "team": "away",
-        "playerId": "nhl:p_8480014",
-        "playerName": "Gabriel Vilardi",
-        "minutes": 2,
-        "reason": "tripping",
-        "order": 145
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "12:10",
-        "team": "home",
-        "playerId": "nhl:p_8478434",
-        "playerName": "Keegan Kolesar",
-        "minutes": 2,
-        "reason": "unsportsmanlike-conduct",
-        "order": 177
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "12:10",
-        "team": "away",
-        "playerId": "nhl:p_8482459",
-        "playerName": "Tyrel Bauer",
-        "minutes": 5,
-        "reason": "fighting",
-        "order": 179
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "12:10",
-        "team": "home",
-        "playerId": "nhl:p_8478434",
-        "playerName": "Keegan Kolesar",
-        "minutes": 5,
-        "reason": "fighting",
-        "order": 181
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "13:04",
-        "team": "away",
-        "playerId": "nhl:p_8482149",
-        "playerName": "Cole Perfetti",
-        "assists": [
-          "nhl:p_8478398",
-          "nhl:p_8477504"
-        ],
-        "score": "0-1",
-        "order": 195
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "13:04",
-        "team": "home",
-        "playerId": "nhl:p_8477456",
-        "playerName": "J.T. Compher",
-        "minutes": 2,
-        "reason": "abuse-of-officials",
-        "order": 196
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "14:36",
-        "team": "away",
-        "playerId": "nhl:p_8478398",
-        "playerName": "Kyle Connor",
-        "assists": [
-          "nhl:p_8480014",
-          "nhl:p_8482149"
-        ],
-        "score": "0-2",
-        "order": 213
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "19:25",
-        "team": "away",
-        "playerId": "nhl:p_8476480",
-        "playerName": "Vladislav Namestnikov",
-        "minutes": 2,
-        "reason": "cross-checking",
-        "order": 285
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "05:02",
-        "team": "home",
-        "playerId": "nhl:p_8482078",
-        "playerName": "Lucas Raymond",
-        "minutes": 2,
-        "reason": "holding-the-stick",
-        "order": 356
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "05:41",
-        "team": "away",
-        "playerId": "nhl:p_8478398",
-        "playerName": "Kyle Connor",
-        "assists": [
-          "nhl:p_8477504",
-          "nhl:p_8482149"
-        ],
-        "score": "0-3",
-        "order": 364
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        17,
-        18
-      ],
-      "shotsOnGoal": [
-        17,
-        18
-      ]
-    },
+    "stats": null,
     "h2h": [],
     "broadcast": {
       "type": "external",
@@ -349,16 +220,7 @@
       "url": "https://www.nhl.com/gamecenter/wpg-vs-det/2026/10/04/2026020035",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/wpg-vs-det/2026/10/04/2026020035",
-      "verifiedAt": "2026-10-04T00:00:00Z"
-    },
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020035/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020035/play-by-play"
-      ],
-      "fetchedAt": "2026-10-04T18:23:32.918356+00:00"
+      "verifiedAt": "2026-10-04T21:59:48.481163Z"
     }
   },
   {
@@ -401,7 +263,7 @@
       "url": "https://www.nhl.com/gamecenter/uta-vs-nyr/2026/10/04/2026020036",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/uta-vs-nyr/2026/10/04/2026020036",
-      "verifiedAt": "2026-10-04T18:49:13.802603Z"
+      "verifiedAt": "2026-10-04T21:59:48.481428Z"
     }
   },
   {
@@ -444,7 +306,7 @@
       "url": "https://www.nhl.com/gamecenter/fla-vs-ana/2026/10/04/2026020037",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/fla-vs-ana/2026/10/04/2026020037",
-      "verifiedAt": "2026-10-04T18:49:13.802769Z"
+      "verifiedAt": "2026-10-04T21:59:48.481583Z"
     }
   },
   {
@@ -487,7 +349,7 @@
       "url": "https://www.nhl.com/gamecenter/cgy-vs-sea/2026/10/04/2026020038",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/cgy-vs-sea/2026/10/04/2026020038",
-      "verifiedAt": "2026-10-04T18:49:13.802944Z"
+      "verifiedAt": "2026-10-04T21:59:48.481719Z"
     }
   },
   {
@@ -530,7 +392,7 @@
       "url": "https://www.nhl.com/gamecenter/vgk-vs-van/2026/10/04/2026020039",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/vgk-vs-van/2026/10/04/2026020039",
-      "verifiedAt": "2026-10-04T18:49:13.803115Z"
+      "verifiedAt": "2026-10-04T21:59:48.481855Z"
     }
   }
 ]

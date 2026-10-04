@@ -22,15 +22,15 @@
         "value": 5
       },
       {
-        "playerId": "nhl:p_8477934",
-        "playerName": "Leon Draisaitl",
-        "teamId": "nhl:edm",
+        "playerId": "nhl:p_8478398",
+        "playerName": "Kyle Connor",
+        "teamId": "nhl:wpg",
         "value": 5
       },
       {
-        "playerId": "nhl:p_8481032",
-        "playerName": "Paul Cotter",
-        "teamId": "nhl:van",
+        "playerId": "nhl:p_8477934",
+        "playerName": "Leon Draisaitl",
+        "teamId": "nhl:edm",
         "value": 5
       }
     ],
@@ -48,6 +48,12 @@
         "value": 3
       },
       {
+        "playerId": "nhl:p_8478398",
+        "playerName": "Kyle Connor",
+        "teamId": "nhl:wpg",
+        "value": 3
+      },
+      {
         "playerId": "nhl:p_8477934",
         "playerName": "Leon Draisaitl",
         "teamId": "nhl:edm",
@@ -57,12 +63,6 @@
         "playerId": "nhl:p_8481032",
         "playerName": "Paul Cotter",
         "teamId": "nhl:van",
-        "value": 3
-      },
-      {
-        "playerId": "nhl:p_8481617",
-        "playerName": "Vasily Podkolzin",
-        "teamId": "nhl:edm",
         "value": 3
       }
     ],
