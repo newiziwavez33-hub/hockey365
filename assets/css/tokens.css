@@ -2,8 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
 
-:root {
-  /* Stitch Surfaces (Dark Ice Void default) */
+:root,
+html,
+body,
+[data-theme="dark"] {
+  /* Stitch Surfaces (Dark Ice Void default & exclusive) */
   --surface-base: #0B0E14;
   --surface-dim: #10131A;
   --surface-card: #141A23;
@@ -18,8 +21,11 @@
   --primary-fixed-dim: #47D6FF;
   --secondary: #89CEFF;
   --secondary-container: #00A2E6;
+  --secondary-fixed: #C9E6FF;
+  --secondary-fixed-dim: #89CEFF;
   --tertiary: #B8E3FF;
   --tertiary-container: #6BCCFF;
+  --tertiary-fixed: #C4E7FF;
   --ice-glow: rgba(0, 210, 255, 0.25);
   --ice-glow-hover: rgba(0, 210, 255, 0.45);
 
@@ -36,6 +42,9 @@
   --text-secondary: #94A3B8;
   --text-muted: #64748B;
   --text-inverse: #0B0E14;
+  --on-surface: #E1E2EB;
+  --on-surface-variant: #BBC9CF;
+  --on-primary: #003543;
 
   /* Stitch Borders & Glass */
   --border-glass: rgba(255, 255, 255, 0.08);
@@ -130,46 +139,6 @@
 
   /* Layout */
   --container-max: 1440px;
-  --header-height: 64px;
+  --header-height: 112px;
+  --header-tier-height: 56px;
 }
-
-/* Light Theme alternative */
-[data-theme="light"] {
-  --surface-base: #F0F4F9;
-  --surface-dim: #E6EDF5;
-  --surface-card: #FFFFFF;
-  --surface-elevated: #F5F8FC;
-  --surface-highlight: #D7E2EE;
-  --surface-bright: #FFFFFF;
-
-  --primary-container: #0077B6;
-  --primary: #023E8A;
-  --secondary: #0096C7;
-  --ice-glow: rgba(0, 119, 182, 0.15);
-
-  --text-primary: #0B1320;
-  --text-secondary: #334155;
-  --text-muted: #64748B;
-  --text-inverse: #FFFFFF;
-
-  --border-glass: #CBD7E6;
-  --border-subtle: #E2EAF3;
-  --border-focus: #0077B6;
-
-  --color-bg-primary: var(--surface-base);
-  --color-bg-surface: var(--surface-card);
-  --color-bg-surface-hover: var(--surface-elevated);
-  --color-bg-secondary: var(--surface-elevated);
-  --color-bg-tertiary: var(--surface-highlight);
-  --color-border: var(--border-glass);
-  --color-border-subtle: var(--border-subtle);
-  --color-text-primary: var(--text-primary);
-  --color-text-secondary: var(--text-secondary);
-  --color-text-muted: var(--text-muted);
-  --color-text-inverse: var(--text-inverse);
-  --color-accent-blue: var(--primary-container);
-  --shadow-sm: 0 1px 3px rgba(11, 19, 32, 0.06);
-  --shadow-md: 0 4px 12px rgba(11, 19, 32, 0.08);
-  --shadow-lg: 0 12px 24px rgba(11, 19, 32, 0.12);
-}
-

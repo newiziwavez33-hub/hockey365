@@ -24,83 +24,83 @@
 }
 </script>
 </head>
-<body>
+<body class="bg-surface-base antialiased min-h-screen">
   <a href="#main-content" class="skip-link">Перейти к основному контенту</a>
 
   <site-header></site-header>
 
-  <main id="main-content" class="main-content">
+  <main id="main-content" class="main-content pt-28">
     <div class="app-container">
       
-      <!-- Datepicker Ribbon -->
-      <div id="datepicker-slot"></div>
-      <p id="snapshot-notice" class="text-xs text-muted" role="status" aria-live="polite">Показаны сохранённые матчи; прямой трансляции нет.</p>
-
       <!-- Stitch Highlight Banner: Match of the Day -->
       <div id="highlight-banner-slot"></div>
 
-      <!-- Filter Pills (Stitch Sub-toolbar) -->
-      <div class="filter-subtoolbar">
-        <div id="filter-pills" class="flex gap-8 items-center flex-wrap" role="group" aria-label="Фильтр матчей">
-          <button class="tab-btn active" type="button" aria-pressed="true" data-filter="all">Все матчи</button>
-          <button class="tab-btn flex items-center gap-6" type="button" aria-pressed="false" data-filter="live">
-            <span class="live-dot-pulse"></span>
-            <span>Только LIVE</span>
-          </button>
-          <button class="tab-btn" type="button" aria-pressed="false" data-filter="KHL">КХЛ</button>
-          <button class="tab-btn" type="button" aria-pressed="false" data-filter="NHL">НХЛ</button>
-        </div>
-        <div class="sort-indicator text-xs text-muted">
-          <span>Сортировка:</span>
-          <span class="text-text-primary uppercase font-bold">По времени</span>
-        </div>
-      </div>
+      <!-- 12-Column Responsive Layout Grid (8 cols stream, 4 cols right rail) -->
+      <div class="layout-12-grid">
+        <!-- Main Fixture Stream (8 cols) -->
+        <section class="main-fixture-stream" aria-label="Матчи дня">
+          <!-- Quick Filter Sub-toolbar -->
+          <div class="stream-subtoolbar">
+            <div id="subtoolbar-chips" class="subtoolbar-chips"></div>
+            <div class="subtoolbar-sort">
+              <span>Сортировка:</span>
+              <span class="sort-val">По времени</span>
+            </div>
+          </div>
 
-      <!-- Layout Grid: Main Matches Column (8 cols) + Sidebar (4 cols) -->
-      <div class="layout-grid">
-        <!-- Matches Column -->
-        <section aria-label="Матчи дня">
+          <!-- Fixture Cards List -->
           <div id="matches-slot"></div>
         </section>
 
-        <!-- Sidebar (Stitch Right Rail) -->
-        <aside aria-label="Новости и таблицы">
-          <!-- Stitch Daily Match Stats Widget -->
-          <div class="stitch-widget-card" id="sidebar-stats-card">
-            <div class="card-header">
-              <h2 class="card-title">
-                <span class="material-symbols-outlined">analytics</span>
-                <span>Статистика дня</span>
-              </h2>
-              <span class="text-xs text-muted" id="sidebar-stats-match-name"></span>
+        <!-- Right Rail Widgets (4 cols) -->
+        <aside class="sidebar-right-rail" aria-label="Новости, таблицы и статистика">
+          <!-- WIDGET 1: Standings Leaders (Лидеры КХЛ) -->
+          <div class="stitch-sidebar-card" id="sidebar-standings-card">
+            <div class="sidebar-card-header">
+              <div class="header-title-flex">
+                <span class="material-symbols-outlined text-primary-cyan">leaderboard</span>
+                <h3 class="sidebar-title">Лидеры КХЛ</h3>
+              </div>
+              <a href="competition/?id=KHL&tab=table" class="sidebar-header-link">
+                <span>Таблица</span>
+                <span class="material-symbols-outlined">arrow_forward</span>
+              </a>
             </div>
-            <div class="card-body" id="sidebar-stats-slot"></div>
+            <div class="sidebar-card-body" id="sidebar-standings-slot"></div>
           </div>
 
-          <!-- Standings Preview Widget -->
-          <div class="stitch-widget-card">
-            <div class="card-header">
-              <h2 class="card-title">
-                <span class="material-symbols-outlined">leaderboard</span>
-                <span>Лидеры КХЛ</span>
-              </h2>
-              <a href="competition/?id=KHL&tab=table" class="comp-table-link text-xs">Таблица →</a>
+          <!-- WIDGET 2: Hockey News Feed (Новости хоккея) -->
+          <div class="stitch-sidebar-card" id="sidebar-news-card">
+            <div class="sidebar-card-header">
+              <div class="header-title-flex">
+                <span class="material-symbols-outlined text-primary-cyan">feed</span>
+                <h3 class="sidebar-title">Новости хоккея</h3>
+              </div>
+              <a href="news/" class="sidebar-header-link">
+                <span>Все</span>
+                <span class="material-symbols-outlined">arrow_forward</span>
+              </a>
             </div>
-            <div class="card-body" id="sidebar-standings-slot"></div>
+            <div class="sidebar-card-body news-feed-body" id="sidebar-news-slot"></div>
           </div>
 
-          <!-- News Widget -->
-          <div class="stitch-widget-card">
-            <div class="card-header">
-              <h2 class="card-title">
-                <span class="material-symbols-outlined">feed</span>
-                <span>Новости хоккея</span>
-              </h2>
-              <a href="news/" class="comp-table-link text-xs">Все →</a>
+          <!-- WIDGET 3: Daily Match Analytics (Статистика дня) -->
+          <div class="stitch-sidebar-card" id="sidebar-stats-card">
+            <div class="sidebar-card-header">
+              <div class="header-title-flex">
+                <span class="material-symbols-outlined text-cyan-accent">analytics</span>
+                <h3 class="sidebar-title">Статистика дня</h3>
+              </div>
+              <span class="sidebar-match-label font-label-sm" id="sidebar-stats-match-name">СКА vs Локо</span>
             </div>
-            <div class="card-body" id="sidebar-news-slot"></div>
+            <div class="sidebar-card-body stats-body" id="sidebar-stats-slot"></div>
           </div>
         </aside>
+      </div>
+
+      <!-- Subtle Footer Disclaimer Line -->
+      <div class="snapshot-footer-line">
+        <span id="snapshot-notice" role="status" aria-live="polite">Показаны сохранённые матчи; прямой трансляции нет.</span>
       </div>
 
     </div>

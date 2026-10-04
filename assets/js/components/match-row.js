@@ -1,11 +1,13 @@
 /**
- * Hockey365 Match Row Component (High-Density Soccer365 / Flashscore Style)
+ * Hockey365 Match Row Component — Google Stitch Design System
+ * Features exact 7-column grid layout, status column, score pill, action buttons,
+ * and recessed period breakdown sub-strip.
  */
 
 import { el } from '../core/dom.js';
 import { buildLink } from '../core/router.js';
 import { store } from '../core/store.js';
-import { formatPeriodStatus, formatScore, formatPeriodBreakdown } from '../core/format.js';
+import { formatPeriodStatus, formatPeriodBreakdown } from '../core/format.js';
 import { getAssetUrl } from '../core/config.js';
 
 // Pre-cached authentic names and logos for instant synchronous rendering
@@ -100,151 +102,154 @@ export function createMatchRow(match, teamsMap = {}) {
   const awayWon = isFinished && awayScore > homeScore;
 
   // Extra note: OT or SO (буллиты)
-  let extraNote = '';
-  if (match.finishedIn === 'OT') extraNote = 'ОТ';
-  else if (match.finishedIn === 'SO') extraNote = 'Б';
+  let extraBadge = '';
+  if (match.finishedIn === 'OT') extraBadge = 'ОТ';
+  else if (match.finishedIn === 'SO') extraBadge = 'Б';
+  else if (isFinished && !extraBadge) extraBadge = '';
 
   const homeLogoSrc = homeTeam.logo ? getAssetUrl(homeTeam.logo) : defaultLogo;
   const awayLogoSrc = awayTeam.logo ? getAssetUrl(awayTeam.logo) : defaultLogo;
 
-  // Status block content
-  let statusBadgeEl = null;
+  // 1. Status Column (112px)
+  let statusIndicatorEl = null;
   let statusSubText = '';
 
   if (isLive) {
-    statusBadgeEl = el('span', { className: 'stitch-status-live' },
-      el('span', { className: 'live-dot-pulse' }),
+    statusIndicatorEl = el('span', { className: 'status-indicator status-live' },
+      el('span', { className: 'indicator-dot' }),
       'LIVE'
     );
     statusSubText = match.clock ? `${match.period}-й (${match.clock})` : `${match.period}-й период`;
   } else if (isFinished) {
-    statusBadgeEl = el('span', { className: 'stitch-status-finished' },
-      el('span', { className: 'finished-dot' }),
+    statusIndicatorEl = el('span', { className: 'status-indicator status-finished' },
+      el('span', { className: 'indicator-dot' }),
       'Завершен'
     );
-    statusSubText = extraNote === 'ОТ' ? 'Овертайм (ОТ)' : extraNote === 'Б' ? 'Буллиты (Б)' : 'Основное время';
+    statusSubText = extraBadge === 'ОТ' ? 'Овертайм (ОТ)' : extraBadge === 'Б' ? 'Буллиты (Б)' : 'Основное время';
   } else {
     const timeStr = formatPeriodStatus(match);
-    statusBadgeEl = el('span', { className: 'stitch-status-time font-tabular' }, timeStr);
+    statusIndicatorEl = el('span', { className: 'status-indicator status-scheduled font-tabular' }, timeStr);
     statusSubText = 'Запланирован';
   }
 
-  const row = el('div', {
-    className: `match-row-stitch ${isLive ? 'is-live-card' : ''}`,
-    dataset: { matchId: match.id }
-  },
-    // Top Row: Status, Teams & Score, Actions
-    el('div', { className: 'match-main-line' },
-      // Left: Status Column
-      el('div', { className: 'match-col-status' },
-        statusBadgeEl,
-        el('span', { className: 'match-status-sub' }, statusSubText)
-      ),
+  const statusCol = el('div', { className: 'match-col-status' },
+    statusIndicatorEl,
+    el('span', { className: 'status-sub-info' }, statusSubText)
+  );
 
-      // Center: Teams & Scoreboard
-      el('div', { className: 'match-col-teams' },
-        // Home Team
-        el('a', {
-          href: buildLink('/team/', { id: match.home.id }),
-          className: 'match-team-stitch team-home',
-          onClick: (e) => e.stopPropagation()
-        },
-          el('span', { className: `team-name-stitch ${homeWon ? 'winner-bold' : ''}` }, homeTeam.name),
-          el('div', { className: 'team-logo-wrap' },
-            el('img', {
-              src: homeLogoSrc,
-              alt: homeTeam.name,
-              className: 'team-logo-stitch',
-              loading: 'lazy',
-              onerror: (e) => { e.target.src = defaultLogo; }
-            })
-          )
-        ),
-
-        // Scoreboard Box
-        el('a', {
-          href: buildLink('/match/', { id: match.id }),
-          className: 'match-score-stitch',
-          title: 'Открыть протокол встречи'
-        },
-          el('div', { className: 'score-pill' },
-            el('span', { className: 'score-val font-tabular' }, isScheduled ? '-' : homeScore),
-            el('span', { className: 'score-sep' }, ':'),
-            el('span', { className: 'score-val font-tabular' }, isScheduled ? '-' : awayScore)
-          ),
-          extraNote ? el('span', { className: 'score-extra-badge' }, extraNote) : null
-        ),
-
-        // Away Team
-        el('a', {
-          href: buildLink('/team/', { id: match.away.id }),
-          className: 'match-team-stitch team-away',
-          onClick: (e) => e.stopPropagation()
-        },
-          el('div', { className: 'team-logo-wrap' },
-            el('img', {
-              src: awayLogoSrc,
-              alt: awayTeam.name,
-              className: 'team-logo-stitch',
-              loading: 'lazy',
-              onerror: (e) => { e.target.src = defaultLogo; }
-            })
-          ),
-          el('span', { className: `team-name-stitch ${awayWon ? 'winner-bold' : ''}` }, awayTeam.name)
-        )
-      ),
-
-      // Right: Actions (Favorite Star + Protocol Button)
-      el('div', { className: 'match-col-actions' },
-        el('button', {
-          className: `fav-star-btn ${isFav ? 'is-fav' : ''}`,
-          'aria-label': isFav ? 'Удалить из избранного' : 'Добавить в избранное',
-          'aria-pressed': isFav ? 'true' : 'false',
-          title: isFav ? 'В избранном' : 'Добавить в избранное',
-          onClick: (e) => {
-            e.stopPropagation();
-            const active = store.toggleFavorite('matches', match.id);
-            if (active) {
-              e.currentTarget.classList.add('is-fav');
-            } else {
-              e.currentTarget.classList.remove('is-fav');
-            }
-            e.currentTarget.setAttribute('aria-pressed', String(active));
-          }
-        },
-          el('span', { className: 'material-symbols-outlined' }, 'star')
-        ),
-        el('a', {
-          href: buildLink('/match/', { id: match.id }),
-          className: 'protocol-btn-stitch'
-        }, 'Протокол')
+  // 2. Center 7-Column Grid
+  const grid7 = el('div', { className: 'match-col-7grid' },
+    // Home Team (col-span-3, right-aligned)
+    el('a', {
+      href: buildLink('/team/', { id: match.home.id }),
+      className: 'match-team-block team-home',
+      onClick: (e) => e.stopPropagation()
+    },
+      el('span', { className: `match-team-name ${homeWon ? 'winner' : ''}` }, homeTeam.name),
+      el('div', { className: 'team-emblem-circle' },
+        el('img', {
+          src: homeLogoSrc,
+          alt: homeTeam.name,
+          className: 'team-emblem-img',
+          loading: 'lazy',
+          onerror: (e) => { e.target.src = defaultLogo; }
+        })
       )
+    ),
+
+    // Score Box Center (col-span-1, centered)
+    el('a', {
+      href: buildLink('/match/', { id: match.id }),
+      className: 'match-score-center',
+      title: 'Открыть протокол встречи'
+    },
+      el('div', { className: 'score-pill-box' },
+        el('span', { className: 'score-digit font-tabular' }, isScheduled ? '-' : homeScore),
+        el('span', { className: 'score-separator' }, ':'),
+        el('span', { className: 'score-digit font-tabular' }, isScheduled ? '-' : awayScore)
+      ),
+      extraBadge ? el('span', { className: 'score-overtime-pill font-label-sm' }, extraBadge) : null
+    ),
+
+    // Away Team (col-span-3, left-aligned)
+    el('a', {
+      href: buildLink('/team/', { id: match.away.id }),
+      className: 'match-team-block team-away',
+      onClick: (e) => e.stopPropagation()
+    },
+      el('div', { className: 'team-emblem-circle' },
+        el('img', {
+          src: awayLogoSrc,
+          alt: awayTeam.name,
+          className: 'team-emblem-img',
+          loading: 'lazy',
+          onerror: (e) => { e.target.src = defaultLogo; }
+        })
+      ),
+      el('span', { className: `match-team-name ${awayWon ? 'winner' : ''}` }, awayTeam.name)
     )
   );
 
-  // Bottom Sub-strip: Period Breakdown and Key Scorers
+  // 3. Actions Column Right
+  const actionsCol = el('div', { className: 'match-col-actions' },
+    el('button', {
+      type: 'button',
+      className: `fav-action-btn ${isFav ? 'is-fav' : ''}`,
+      'aria-label': isFav ? 'Удалить из избранного' : 'Добавить в избранное',
+      'aria-pressed': isFav ? 'true' : 'false',
+      title: isFav ? 'В избранном' : 'Добавить в избранное',
+      onClick: (e) => {
+        e.stopPropagation();
+        const active = store.toggleFavorite('matches', match.id);
+        e.currentTarget.classList.toggle('is-fav', active);
+        e.currentTarget.setAttribute('aria-pressed', String(active));
+      }
+    },
+      el('span', { className: 'material-symbols-outlined' }, 'star')
+    ),
+    el('a', {
+      href: buildLink('/match/', { id: match.id }),
+      className: 'protocol-action-btn'
+    }, 'Протокол')
+  );
+
+  // Main Card Row
+  const mainRow = el('div', { className: 'match-card-main-row' },
+    statusCol,
+    grid7,
+    actionsCol
+  );
+
+  const card = el('div', {
+    className: `match-card-stitch ${isLive ? 'is-live-card' : ''}`,
+    dataset: { matchId: match.id }
+  }, mainRow);
+
+  // 4. Period Breakdown Sub-strip
   if (match.home.periods && match.home.periods.length > 0) {
     const breakdown = formatPeriodBreakdown(match.home.periods, match.away.periods);
     if (breakdown) {
-      // Find goal events if available
-      let keyEventText = '';
+      let scorerText = '';
       if (Array.isArray(match.events) && match.events.length > 0) {
-        const goalEvents = match.events.filter(ev => ev.type === 'GOAL').slice(-2);
+        const goalEvents = match.events.filter(ev => ev.type === 'GOAL');
         if (goalEvents.length > 0) {
-          keyEventText = 'Голы: ' + goalEvents.map(g => `${g.player} ${g.minute || ''}'`).join(', ');
+          scorerText = 'Шайбы: ' + goalEvents.slice(0, 4).map(g => `${g.player} ${g.minute || ''}'`).join(', ');
         }
       }
+      if (!scorerText && match.finishedIn === 'SO') {
+        scorerText = 'Победный буллит';
+      }
 
-      const substrip = el('div', { className: 'match-substrip-stitch' },
-        el('div', { className: 'substrip-left' },
-          el('span', { className: 'substrip-label' }, 'Периоды:'),
-          el('span', { className: 'substrip-breakdown font-tabular' }, `(${breakdown})`)
+      const substrip = el('div', { className: 'match-substrip-recessed' },
+        el('div', { className: 'substrip-periods' },
+          el('span', { className: 'substrip-tag' }, 'Периоды:'),
+          el('span', { className: 'substrip-scores font-tabular' }, `(${breakdown})`)
         ),
-        keyEventText ? el('div', { className: 'substrip-summary' }, keyEventText) : null
+        scorerText ? el('div', { className: 'substrip-scorers' }, scorerText) : null
       );
-      row.appendChild(substrip);
+      card.appendChild(substrip);
     }
   }
 
-  return row;
+  return card;
 }

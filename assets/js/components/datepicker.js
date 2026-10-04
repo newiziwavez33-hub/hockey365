@@ -25,22 +25,6 @@ export function createDatepicker(currentDateStr, onDateSelect) {
     });
   }
 
-  const dayButtons = days.map(d => {
-    const dayNames = ['ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'];
-    const name = d.isToday ? 'СЕГОДНЯ' : dayNames[d.date.getUTCDay()];
-    const num = d.date.getUTCDate();
-
-    return el('button', {
-      className: `day-btn ${d.isActive ? 'active' : ''}`,
-      'aria-label': `${name} ${num}`,
-      'aria-pressed': d.isActive ? 'true' : 'false',
-      onClick: () => onDateSelect(d.iso)
-    },
-      el('span', { className: 'day-name' }, name),
-      el('span', { className: 'day-num font-tabular' }, num)
-    );
-  });
-
   const prevDate = new Date(current);
   prevDate.setUTCDate(prevDate.getUTCDate() - 1);
   const nextDate = new Date(current);
@@ -62,10 +46,28 @@ export function createDatepicker(currentDateStr, onDateSelect) {
     }
   });
 
-  const ribbon = el('div', { className: 'date-ribbon' },
+  const dayButtons = days.map(d => {
+    const dayNames = ['ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'];
+    const name = d.isToday ? 'СЕГОДНЯ' : dayNames[d.date.getUTCDay()];
+    const num = d.date.getUTCDate();
+
+    return el('button', {
+      type: 'button',
+      className: `stitch-day-card ${d.isActive ? 'active' : ''}`,
+      'aria-label': `${name} ${num}`,
+      'aria-pressed': d.isActive ? 'true' : 'false',
+      onClick: () => onDateSelect(d.iso)
+    },
+      el('span', { className: 'stitch-day-label' }, name),
+      el('span', { className: 'stitch-day-num font-tabular' }, num)
+    );
+  });
+
+  const ribbon = el('div', { className: 'stitch-datepicker-ribbon' },
     // Prev arrow
     el('button', {
-      className: 'ribbon-arrow',
+      type: 'button',
+      className: 'stitch-ribbon-arrow',
       'aria-label': 'Предыдущий день',
       title: 'Предыдущий день',
       onClick: () => onDateSelect(prevIso)
@@ -74,11 +76,12 @@ export function createDatepicker(currentDateStr, onDateSelect) {
     ),
 
     // Days container
-    el('div', { className: 'ribbon-days' }, dayButtons),
+    el('div', { className: 'stitch-ribbon-days' }, dayButtons),
 
     // Next arrow
     el('button', {
-      className: 'ribbon-arrow',
+      type: 'button',
+      className: 'stitch-ribbon-arrow',
       'aria-label': 'Следующий день',
       title: 'Следующий день',
       onClick: () => onDateSelect(nextIso)
@@ -86,11 +89,11 @@ export function createDatepicker(currentDateStr, onDateSelect) {
       el('span', { className: 'material-symbols-outlined' }, 'chevron_right')
     ),
 
-    // Stitch Calendar Trigger Button
-    el('div', { className: 'calendar-trigger-wrap' },
+    // Calendar trigger button
+    el('div', { className: 'stitch-calendar-wrap' },
       el('button', {
         type: 'button',
-        className: 'calendar-trigger-btn',
+        className: 'stitch-calendar-btn',
         'aria-label': 'Открыть календарь',
         onClick: () => {
           if (typeof dateInput.showPicker === 'function') {
@@ -110,4 +113,3 @@ export function createDatepicker(currentDateStr, onDateSelect) {
 
   return ribbon;
 }
-

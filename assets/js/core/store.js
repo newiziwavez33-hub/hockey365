@@ -1,5 +1,6 @@
 /**
  * Hockey365 Local Store & User Preferences
+ * Enforces Dark Ice Void theme permanently in accordance with Stitch Design System.
  */
 
 const STORAGE_KEY = 'hockey365_user_store_v1';
@@ -27,7 +28,7 @@ function normalizeState(value) {
       : [...defaultState.favorites[key]];
   }
   return {
-    theme: ['dark', 'light', 'auto'].includes(value.theme) ? value.theme : defaultState.theme,
+    theme: 'dark', // Permanently dark
     timezone: ['Europe/Moscow', 'UTC', 'local'].includes(value.timezone) ? value.timezone : defaultState.timezone,
     favorites: validFavorites,
     customApiKey: typeof value.customApiKey === 'string' ? value.customApiKey : '',
@@ -40,17 +41,21 @@ class Store {
   constructor() {
     this.state = this._load();
     this.listeners = new Set();
-    this.applyTheme(this.state.theme);
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-      if (this.state.theme === 'auto') this.applyTheme('auto');
-    });
+    // Enforce dark theme immediately and permanently
+    this.applyTheme('dark');
   }
 
   _load() {
     try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) {
-        return normalizeState(JSON.parse(saved)) || normalizeState(defaultState);
+      if (typeof localStorage !== 'undefined') {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (saved) {
+          const parsed = normalizeState(JSON.parse(saved));
+          if (parsed) {
+            parsed.theme = 'dark'; // Clean up any stale light preference
+            return parsed;
+          }
+        }
       }
     } catch (e) {
       console.warn('Failed to load store from localStorage', e);
@@ -60,7 +65,10 @@ class Store {
 
   _save() {
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(this.state));
+      this.state.theme = 'dark';
+      if (typeof localStorage !== 'undefined') {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(this.state));
+      }
     } catch (e) {
       console.warn('Failed to save store to localStorage', e);
     }
@@ -83,22 +91,21 @@ class Store {
   }
 
   getTheme() {
-    return this.state.theme;
+    return 'dark';
   }
 
   setTheme(theme) {
-    this.state.theme = theme;
-    this.applyTheme(theme);
+    // Theme is permanently locked to dark
+    this.state.theme = 'dark';
+    this.applyTheme('dark');
     this._save();
   }
 
   applyTheme(theme) {
-    const root = document.documentElement;
-    if (theme === 'auto') {
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      root.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
-    } else {
-      root.setAttribute('data-theme', theme);
+    if (typeof document !== 'undefined') {
+      const root = document.documentElement;
+      root.setAttribute('data-theme', 'dark');
+      root.classList.add('dark');
     }
   }
 
@@ -146,24 +153,18 @@ class Store {
   }
 
   exportData() {
-    // Legacy API keys are local-only and are not used by the static site.
     return JSON.stringify({ ...this.state, customApiKey: '' }, null, 2);
   }
 
   importData(jsonString) {
     try {
       const raw = JSON.parse(jsonString);
-      if (!raw || typeof raw !== 'object' || Array.isArray(raw) ||
-          !['theme', 'timezone', 'favorites'].some(key => Object.hasOwn(raw, key)) ||
-          (raw.theme !== undefined && !['dark', 'light', 'auto'].includes(raw.theme)) ||
-          (raw.timezone !== undefined && !['Europe/Moscow', 'UTC', 'local'].includes(raw.timezone)) ||
-          (raw.favorites !== undefined && (!raw.favorites || typeof raw.favorites !== 'object' || Array.isArray(raw.favorites) ||
-            ['teams', 'leagues', 'matches'].some(key => raw.favorites[key] !== undefined &&
-              (!Array.isArray(raw.favorites[key]) || raw.favorites[key].some(id => typeof id !== 'string')))))) return false;
+      if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return false;
       const parsed = normalizeState(raw);
       if (!parsed) return false;
+      parsed.theme = 'dark';
       this.state = parsed;
-      this.applyTheme(this.state.theme);
+      this.applyTheme('dark');
       this._save();
       return true;
     } catch (e) {

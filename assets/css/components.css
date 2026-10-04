@@ -1,35 +1,61 @@
 /* Hockey365 Components CSS — Google Stitch Design System */
 
-/* --- Sticky Modern Site Header (Google Stitch) --- */
+/* ==========================================================================
+   1. STICKY 2-TIER SITE HEADER (Google Stitch 112px / h-28)
+   ========================================================================== */
+
+.site-header-stitch,
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 1000;
-  background-color: rgba(20, 26, 35, 0.92);
+  left: 0;
+  right: 0;
+  height: 112px;
+  background-color: rgba(20, 26, 35, 0.94);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border-glass);
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  z-index: 1000;
 }
 
-.header-top {
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-tier-1,
+.header-tier-2 {
+  height: 56px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: var(--header-height);
-  gap: var(--space-16);
+  gap: 16px;
   min-width: 0;
 }
 
-.header-left-cluster {
+.header-tier-2 {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.header-tier-2::-webkit-scrollbar {
+  display: none;
+}
+
+/* Brand cluster */
+.header-brand-cluster {
   display: flex;
   align-items: center;
   gap: 20px;
   min-width: 0;
 }
 
-/* Brand Link (Stitch Cyan Ice Glow) */
-.brand-link-stitch,
 .brand-link {
   display: flex;
   align-items: center;
@@ -37,7 +63,6 @@
   text-decoration: none;
   flex-shrink: 0;
 }
-.brand-link-stitch:hover,
 .brand-link:hover {
   text-decoration: none;
 }
@@ -45,7 +70,7 @@
 .brand-badge-icon {
   width: 36px;
   height: 36px;
-  border-radius: 10px;
+  border-radius: 12px;
   background: linear-gradient(135deg, var(--primary-container), var(--secondary));
   display: flex;
   align-items: center;
@@ -73,13 +98,11 @@
   margin-left: 2px;
 }
 
-/* Search Bar (Stitch with Ctrl+K badge) */
-.header-search-stitch,
-.header-search {
-  position: relative;
+/* Search Bar with Ctrl+K */
+.header-search-bar {
   display: none;
   align-items: center;
-  width: 340px;
+  width: 320px;
   background-color: var(--surface-base);
   border: 1px solid var(--border-glass);
   border-radius: 12px;
@@ -87,25 +110,22 @@
   transition: all var(--transition-fast);
 }
 @media (min-width: 1024px) {
-  .header-search-stitch,
-  .header-search { display: flex; }
+  .header-search-bar { display: flex; }
 }
 
-.header-search-stitch:focus-within,
-.header-search:focus-within {
+.header-search-bar:focus-within {
   border-color: var(--primary-container);
   box-shadow: 0 0 0 2px var(--ice-glow);
 }
 
-.header-search-stitch .search-icon {
+.header-search-bar .search-icon {
   color: var(--text-muted);
   font-size: 18px;
   margin-right: 8px;
   flex-shrink: 0;
 }
 
-.header-search-stitch input,
-.header-search input {
+.header-search-bar input {
   width: 100%;
   background: transparent;
   border: none;
@@ -114,8 +134,7 @@
   color: var(--text-primary);
   padding: 0;
 }
-.header-search-stitch input::placeholder,
-.header-search input::placeholder {
+.header-search-bar input::placeholder {
   color: var(--text-muted);
 }
 
@@ -130,43 +149,34 @@
   flex-shrink: 0;
 }
 
-/* Navigation Links (Stitch Header Nav) */
-.header-nav-stitch,
-.nav-list {
+/* 6 Nav links */
+.header-nav-links {
   display: none;
   align-items: center;
-  gap: 18px;
+  gap: 20px;
 }
-@media (min-width: 900px) {
-  .header-nav-stitch,
-  .nav-list { display: flex; }
+@media (min-width: 1024px) {
+  .header-nav-links { display: flex; }
 }
 
-.nav-link-stitch,
-.nav-item a {
+.nav-link {
   font-family: var(--font-family);
   font-size: 14px;
   font-weight: 500;
-  color: var(--text-secondary);
-  padding: 6px 2px;
-  border-bottom: 2px solid transparent;
-  transition: all var(--transition-fast);
+  color: var(--on-surface-variant);
+  transition: color var(--transition-fast);
   text-decoration: none;
   white-space: nowrap;
 }
-.nav-link-stitch:hover,
-.nav-item a:hover {
+.nav-link:hover {
   color: var(--text-primary);
 }
-.nav-link-stitch.active,
-.nav-item a.active {
+.nav-link.active {
   color: var(--primary-container);
   font-weight: 700;
-  border-bottom-color: var(--primary-container);
 }
 
-/* Header Actions Cluster */
-.header-actions-stitch,
+/* Header Tools & Actions */
 .header-actions {
   display: flex;
   align-items: center;
@@ -174,24 +184,22 @@
   flex-shrink: 0;
 }
 
-.icon-btn-stitch,
-.icon-btn {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
+.icon-btn-stitch {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
   background-color: var(--surface-elevated);
   border: 1px solid var(--border-subtle);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text-secondary);
+  color: var(--on-surface-variant);
   transition: all var(--transition-fast);
   cursor: pointer;
   text-decoration: none;
   flex-shrink: 0;
 }
-.icon-btn-stitch:hover,
-.icon-btn:hover {
+.icon-btn-stitch:hover {
   background-color: var(--surface-highlight);
   color: var(--text-primary);
   border-color: var(--border-glass);
@@ -208,7 +216,7 @@
   display: none;
   align-items: center;
   gap: 4px;
-  padding: 5px 10px;
+  padding: 4px 10px;
   border-radius: 8px;
   background-color: var(--surface-elevated);
   border: 1px solid var(--border-subtle);
@@ -225,129 +233,142 @@
   color: var(--text-muted);
 }
 
-
-/* --- Date Ribbon (Datepicker Stitch Style) --- */
-.date-ribbon {
-  display: flex;
-  align-items: center;
-  background: var(--surface-card);
-  border: 1px solid var(--border-glass);
-  border-radius: var(--radius-lg);
-  margin-bottom: var(--space-16);
-  box-shadow: var(--shadow-sm);
-  overflow: hidden;
-  padding: 4px;
-  gap: 4px;
-}
-
-.ribbon-arrow {
-  padding: 8px 12px;
-  color: var(--text-secondary);
+.user-avatar-stitch {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--primary);
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: var(--radius-sm);
-  background: var(--surface-base);
+  flex-shrink: 0;
+}
+.user-avatar-stitch .material-symbols-outlined {
+  color: var(--on-primary);
+  font-size: 18px;
+}
+
+/* ==========================================================================
+   2. TIER 2: DATEPICKER RIBBON & FILTER PILLS
+   ========================================================================== */
+
+.tier2-datepicker-wrap {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.stitch-datepicker-ribbon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+
+.stitch-ribbon-arrow {
+  width: 28px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: var(--surface-base);
   border: 1px solid var(--border-subtle);
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
   transition: all var(--transition-fast);
   flex-shrink: 0;
 }
-.ribbon-arrow:hover {
+.stitch-ribbon-arrow:hover {
   background-color: var(--surface-elevated);
-  color: var(--primary-container);
-  border-color: var(--border-glass);
+  color: var(--text-primary);
+}
+.stitch-ribbon-arrow .material-symbols-outlined {
+  font-size: 18px;
 }
 
-.ribbon-days {
+.stitch-ribbon-days {
   display: flex;
-  flex: 1;
-  overflow-x: auto;
-  scrollbar-width: none;
+  align-items: center;
   gap: 6px;
-  padding: 2px;
-  min-width: 0;
 }
-.ribbon-days::-webkit-scrollbar { display: none; }
 
-.day-btn {
-  flex: 1;
-  min-width: 62px;
-  padding: 6px 4px;
+.stitch-day-card {
+  padding: 4px 10px;
+  border-radius: 8px;
+  background-color: var(--surface-base);
+  border: 1px solid transparent;
+  text-align: center;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  min-width: 44px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
-  border-radius: var(--radius-sm);
-  background: var(--surface-base);
-  border: 1px solid var(--border-subtle);
-  color: var(--text-secondary);
-  font-size: var(--font-size-xs);
-  transition: all var(--transition-fast);
+  justify-content: center;
 }
-.day-btn .day-name {
-  text-transform: uppercase;
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  color: var(--text-secondary);
-}
-.day-btn .day-num {
-  font-size: 14px;
-  font-family: var(--font-headline);
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
-  color: var(--text-secondary);
-}
-.day-btn:hover {
+.stitch-day-card:hover {
   background-color: var(--surface-elevated);
-  color: var(--text-primary);
-  border-color: var(--border-glass);
 }
-.day-btn.active {
-  background: var(--primary-container);
+.stitch-day-card.active {
+  background-color: var(--primary-container);
   color: var(--surface-base);
-  border-color: var(--primary-container);
-  box-shadow: 0 0 14px rgba(0, 210, 255, 0.45);
+  box-shadow: 0 0 12px rgba(0, 210, 255, 0.4);
+  border-color: transparent;
 }
-.day-btn.active .day-name,
-.day-btn.active .day-num {
+
+.stitch-day-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+.stitch-day-card.active .stitch-day-label {
   color: var(--surface-base);
   font-weight: 800;
 }
 
-.calendar-trigger-wrap {
+.stitch-day-num {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--on-surface-variant);
+}
+.stitch-day-card.active .stitch-day-num {
+  color: var(--surface-base);
+  font-weight: 800;
+}
+
+.stitch-calendar-wrap {
   position: relative;
   display: flex;
   align-items: center;
-  flex-shrink: 0;
 }
 
-.calendar-trigger-btn {
+.stitch-calendar-btn {
   display: flex;
   align-items: center;
   gap: 4px;
   padding: 6px 10px;
-  border-radius: var(--radius-sm);
+  border-radius: 8px;
   background-color: var(--surface-base);
   border: 1px solid var(--border-subtle);
   color: var(--text-secondary);
-  font-size: 11px;
-  font-weight: 600;
   cursor: pointer;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
   transition: all var(--transition-fast);
 }
-.calendar-trigger-btn:hover {
+.stitch-calendar-btn:hover {
   background-color: var(--surface-elevated);
   color: var(--text-primary);
-  border-color: var(--border-glass);
 }
-.calendar-trigger-btn .material-symbols-outlined {
+.stitch-calendar-btn .material-symbols-outlined {
   font-size: 16px;
   color: var(--primary-container);
-}
-.calendar-text {
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
 }
 
 .ribbon-calendar-input {
@@ -358,73 +379,358 @@
   pointer-events: none;
 }
 
-/* --- Competition Match Group (Google Stitch) --- */
-.comp-group-stitch,
-.comp-group {
-  margin-bottom: var(--space-20);
-  border: 1px solid var(--border-glass);
-  border-radius: var(--radius-lg);
-  background-color: var(--surface-card);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
-  overflow: hidden;
+/* Filter pills in Tier 2 */
+.tier2-filter-pills {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
 }
 
-.comp-header-stitch,
-.comp-header {
+.filter-pill {
+  padding: 4px 12px;
+  border-radius: 9999px;
+  background-color: var(--surface-base);
+  border: 1px solid transparent;
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+.filter-pill:hover {
+  background-color: var(--surface-elevated);
+  color: var(--text-primary);
+}
+.filter-pill.active {
+  background-color: var(--surface-elevated);
+  color: var(--primary-container);
+  border-color: rgba(0, 210, 255, 0.25);
+  box-shadow: 0 0 10px rgba(0, 210, 255, 0.2);
+}
+.filter-pill.pill-live {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.live-pulse-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--live-red);
+  box-shadow: 0 0 8px rgba(239, 68, 68, 0.8);
+  animation: pulse-live 1.5s infinite;
+}
+
+/* ==========================================================================
+   3. 12-COLUMN RESPONSIVE LAYOUT GRID
+   ========================================================================== */
+
+.layout-12-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+.main-fixture-stream {
+  grid-column: span 8;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+
+.sidebar-right-rail {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+
+@media (max-width: 1024px) {
+  .main-fixture-stream {
+    grid-column: span 12;
+  }
+  .sidebar-right-rail {
+    grid-column: span 12;
+  }
+}
+
+/* ==========================================================================
+   4. QUICK FILTER SUB-TOOLBAR
+   ========================================================================== */
+
+.stream-subtoolbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 18px;
-  background: linear-gradient(90deg, var(--surface-elevated), var(--surface-card));
-  border-bottom: 1px solid var(--border-glass);
-  font-size: var(--font-size-sm);
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-bottom: 4px;
 }
 
-.comp-header-left {
+.subtoolbar-chips {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.subtool-chip {
+  padding: 6px 14px;
+  border-radius: 8px;
+  background-color: var(--surface-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.subtool-chip:hover {
+  background-color: var(--surface-elevated);
+  color: var(--text-primary);
+  border-color: var(--border-glass);
+}
+.subtool-chip.active {
+  background-color: var(--surface-elevated);
+  color: var(--primary-container);
+  border-color: rgba(0, 210, 255, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.subtool-chip.chip-live {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.subtool-chip.chip-live .live-dot-sm {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--live-red);
+}
+
+.chip-count {
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 2px;
+}
+
+.subtoolbar-sort {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.subtoolbar-sort .sort-val {
+  color: var(--text-primary);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   5. HIGHLIGHT BANNER (Match of the Day Hero Slate)
+   ========================================================================== */
+
+.highlight-banner-stitch {
+  position: relative;
+  width: 100%;
+  min-height: 68px;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  padding: 16px 24px;
+  background: linear-gradient(90deg, rgba(26, 34, 48, 0.94) 0%, rgba(20, 26, 35, 0.88) 50%, rgba(34, 45, 62, 0.94) 100%),
+              url('../images/hero_banner.jpg') center 35% / cover no-repeat;
+  border: 1px solid var(--border-glass);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.55);
+}
+
+.highlight-banner-inner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.banner-left-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.banner-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+.banner-status-badge.banner-status-live {
+  background-color: var(--live-red);
+  color: var(--surface-base);
+  box-shadow: 0 0 14px rgba(239, 68, 68, 0.5);
+}
+.banner-status-badge.banner-status-finished {
+  background-color: var(--win-green);
+  color: var(--surface-base);
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.4);
+}
+.banner-status-badge.banner-status-scheduled {
+  background-color: var(--surface-elevated);
+  border: 1px solid rgba(0, 210, 255, 0.3);
+  color: var(--primary-container);
+}
+
+.status-dot-pulse {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: currentColor;
+  animation: pulse-live 1.5s infinite;
+}
+
+.banner-headline {
+  font-family: var(--font-headline);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+.banner-team {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+.banner-separator {
+  color: var(--text-muted);
+}
+.banner-score-highlight {
+  color: var(--primary-container);
+  font-weight: 700;
+  margin-left: 4px;
+}
+
+.banner-right-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.banner-context-info {
+  color: var(--text-muted);
+  font-size: 12px;
+}
+@media (max-width: 900px) {
+  .banner-context-info { display: none; }
+}
+
+.banner-cta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--primary-container);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+.banner-cta-link:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   6. TOURNAMENT HEADERS & GROUPS
+   ========================================================================== */
+
+.comp-group-stitch {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.comp-header-stitch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background-color: var(--surface-card);
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.comp-title-group {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-.comp-badge-box {
+.comp-letter-box {
   width: 32px;
   height: 32px;
   border-radius: 8px;
   background-color: var(--surface-highlight);
-  color: var(--primary);
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: var(--font-headline);
-  font-weight: 700;
   font-size: 16px;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 210, 255, 0.2);
-  flex-shrink: 0;
+  font-weight: 700;
+  color: var(--primary);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
-.comp-title-stitch {
+.comp-name-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.comp-heading {
   font-family: var(--font-headline);
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--text-primary);
   margin: 0;
 }
 
-.comp-sub-badge {
-  font-size: 10px;
-  font-weight: 700;
+.comp-badge-stage {
+  font-size: 11px;
+  font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
   color: var(--text-muted);
-  background: var(--surface-highlight);
-  padding: 2px 6px;
-  border-radius: 4px;
 }
 
-.comp-matches-count {
-  display: block;
-  font-size: 11px;
+.comp-games-count {
+  font-size: 12px;
   color: var(--text-secondary);
-  margin-top: 2px;
 }
 
 .comp-table-link {
@@ -435,151 +741,117 @@
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
-  transition: all var(--transition-fast);
+  transition: color var(--transition-fast);
 }
 .comp-table-link:hover {
   color: var(--primary);
-  text-decoration: underline;
 }
 
-.comp-matches-list-stitch,
-.comp-matches-list {
-  padding: 10px;
+.comp-matches-list-stitch {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
-/* --- Match Row (Google Stitch Fixture Card) --- */
-.match-row-stitch,
-.match-row {
+/* ==========================================================================
+   7. MATCH CARDS: 7-COLUMN GRID LAYOUT
+   ========================================================================== */
+
+.match-card-stitch {
   display: flex;
   flex-direction: column;
-  padding: 12px 16px;
+  padding: 16px;
   background-color: var(--surface-card);
-  border: 1px solid var(--border-subtle);
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  transition: all 180ms cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--border-subtle);
+  transition: all 180ms ease;
+  margin-bottom: 2px;
 }
-.match-row-stitch:hover,
-.match-row:hover {
+.match-card-stitch:hover {
   background-color: var(--surface-elevated);
   border-color: var(--border-glass);
-  transform: translateY(-1px);
 }
 
-.match-row-stitch.is-live-card,
-.match-row.is-live-row {
+.match-card-stitch.is-live-card {
   background-color: rgba(239, 68, 68, 0.08);
   border-color: rgba(239, 68, 68, 0.4);
   box-shadow: 0 0 16px rgba(239, 68, 68, 0.15);
 }
 
-.match-main-line {
+.match-card-main-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 16px;
   width: 100%;
 }
 
-/* Status Column */
-.match-col-status,
-.match-time-status {
-  width: 110px;
+/* Status Column (112px) */
+.match-col-status {
+  width: 112px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 2px;
 }
-
-.stitch-status-live {
+.status-indicator {
   display: inline-flex;
   align-items: center;
   gap: 5px;
   font-size: 11px;
   font-weight: 700;
-  color: var(--live-red);
   text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
-
-.stitch-status-finished {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 11px;
-  font-weight: 700;
-  color: var(--win-green);
-  text-transform: uppercase;
-}
-
-.stitch-status-time {
+.status-indicator.status-finished { color: var(--win-green); }
+.status-indicator.status-live { color: var(--live-red); }
+.status-indicator.status-scheduled {
+  color: var(--primary-container);
   font-family: var(--font-headline);
   font-size: 15px;
   font-weight: 700;
-  color: var(--primary-container);
 }
-
-.live-dot-pulse {
+.indicator-dot {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: var(--live-red);
-  box-shadow: 0 0 8px rgba(239, 68, 68, 0.8);
-  animation: live-pulse-anim 1.5s infinite;
+  background-color: currentColor;
 }
-
-.finished-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: var(--win-green);
-}
-
-@keyframes live-pulse-anim {
-  0% { transform: scale(0.95); opacity: 0.8; }
-  50% { transform: scale(1.4); opacity: 1; }
-  100% { transform: scale(0.95); opacity: 0.8; }
-}
-
-.match-status-sub {
+.status-sub-info {
   font-size: 11px;
   color: var(--text-muted);
 }
 
-/* Teams & Scoreboard Column */
-.match-col-teams {
+/* 7-Column Grid Center */
+.match-col-7grid {
   flex: 1;
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   align-items: center;
-  gap: 12px;
+  gap: 8px;
   min-width: 0;
 }
 
-.match-team-stitch,
-.match-team {
+.match-team-block {
   display: flex;
   align-items: center;
   gap: 10px;
-  min-width: 0;
   text-decoration: none;
+  min-width: 0;
 }
-.match-team-stitch.team-home,
-.match-team.team-home {
+.match-team-block.team-home {
+  grid-column: span 3;
   justify-content: flex-end;
   text-align: right;
 }
-.match-team-stitch.team-away,
-.match-team.team-away {
+.match-team-block.team-away {
+  grid-column: span 3;
   justify-content: flex-start;
   text-align: left;
 }
 
-.team-name-stitch,
 .match-team-name {
   font-family: var(--font-headline);
   font-size: 15px;
@@ -590,17 +862,15 @@
   text-overflow: ellipsis;
   transition: color var(--transition-fast);
 }
-.match-team-stitch:hover .team-name-stitch,
-.match-team:hover .match-team-name {
+.match-team-block:hover .match-team-name {
   color: var(--primary-container);
 }
-.team-name-stitch.winner-bold,
-.match-team-name.is-winner {
+.match-team-name.winner {
   font-weight: 700;
-  color: var(--text-primary);
+  color: #fff;
 }
 
-.team-logo-wrap {
+.team-emblem-circle {
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -609,60 +879,51 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
 }
-
-.team-logo-stitch,
-.team-logo-small {
+.team-emblem-img {
   width: 22px;
   height: 22px;
   object-fit: contain;
-  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.4));
 }
 
-/* Score Box (Stitch Score Pill) */
-.match-score-stitch,
-.match-score-box {
+/* Score Pill Center Box */
+.match-score-center {
+  grid-column: span 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  min-width: 64px;
 }
-
-.score-pill {
-  padding: 4px 14px;
+.score-pill-box {
+  padding: 3px 12px;
   border-radius: 8px;
   background-color: var(--surface-base);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
   border: 1px solid var(--border-glass);
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 5px;
   transition: all var(--transition-fast);
 }
-.match-score-stitch:hover .score-pill,
-.match-score-box:hover {
+.match-score-center:hover .score-pill-box {
   border-color: var(--primary-container);
   box-shadow: 0 0 10px rgba(0, 210, 255, 0.35);
 }
 
-.score-val {
+.score-digit {
   font-family: var(--font-headline);
   font-size: 20px;
   font-weight: 700;
   color: var(--text-primary);
   letter-spacing: 0.02em;
 }
-
-.score-sep {
+.score-separator {
   color: var(--text-muted);
   font-weight: 300;
 }
-
-.score-extra-badge,
-.match-extra-note {
+.score-overtime-pill {
   margin-top: 3px;
   padding: 1px 6px;
   border-radius: 4px;
@@ -671,19 +932,16 @@
   font-size: 9px;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
 }
 
-/* Actions Column */
+/* Actions Right */
 .match-col-actions {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   flex-shrink: 0;
 }
-
-.fav-star-btn,
-.match-fav-star {
+.fav-action-btn {
   width: 32px;
   height: 32px;
   border-radius: 8px;
@@ -693,24 +951,22 @@
   align-items: center;
   justify-content: center;
   color: var(--text-muted);
-  transition: all var(--transition-fast);
   cursor: pointer;
+  transition: all 140ms ease;
 }
-.fav-star-btn:hover,
-.match-fav-star:hover {
+.fav-action-btn:hover {
   background-color: var(--surface-highlight);
   color: var(--primary-container);
 }
-.fav-star-btn.is-fav,
-.match-fav-star.active {
+.fav-action-btn.is-fav {
   color: var(--primary-container);
   background-color: rgba(0, 210, 255, 0.1);
   border-color: var(--primary-container);
   font-variation-settings: 'FILL' 1;
 }
 
-.protocol-btn-stitch {
-  padding: 6px 12px;
+.protocol-action-btn {
+  padding: 5px 12px;
   border-radius: 8px;
   background-color: var(--surface-base);
   border: 1px solid var(--border-subtle);
@@ -718,20 +974,20 @@
   font-size: 11px;
   font-weight: 600;
   text-decoration: none;
-  transition: all var(--transition-fast);
+  transition: all 140ms ease;
+  white-space: nowrap;
 }
-.protocol-btn-stitch:hover {
+.protocol-action-btn:hover {
   background-color: var(--surface-highlight);
   color: var(--text-primary);
-  border-color: var(--border-glass);
 }
 
-/* Sub-strip: Periods & Scorers */
-.match-substrip-stitch,
-.periods-breakdown {
-  margin-top: 8px;
-  padding-top: 8px;
-  border-top: 1px solid var(--border-subtle);
+/* Period Breakdown Sub-strip */
+.match-substrip-recessed {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: rgba(11, 14, 20, 0.6);
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -740,145 +996,32 @@
   font-size: 12px;
   color: var(--text-muted);
 }
-.substrip-left {
+.substrip-periods {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
 }
-.substrip-label {
+.substrip-tag {
   color: var(--text-secondary);
   font-size: 11px;
+  font-weight: 700;
   text-transform: uppercase;
+}
+.substrip-scores {
+  color: var(--text-primary);
   font-weight: 600;
 }
-.substrip-breakdown {
-  color: var(--text-primary);
-}
-.substrip-summary {
-  color: var(--text-muted);
+.substrip-scorers {
   font-size: 11px;
+  color: var(--text-muted);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 420px;
+  max-width: 440px;
 }
 
-.highlight-banner-stitch,
-.highlight-banner {
-  position: relative;
-  width: 100%;
-  border-radius: 14px;
-  background-color: var(--surface-card);
-  background-size: cover;
-  background-position: center 35%;
-  background-repeat: no-repeat;
-  border: 1px solid var(--border-glass);
-  padding: 18px 22px;
-  margin-bottom: var(--space-20);
-  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.55);
-}
-
-.banner-teams-logos {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: rgba(11, 14, 20, 0.7);
-  padding: 3px 8px;
-  border-radius: 9999px;
-  border: 1px solid var(--border-glass);
-  flex-shrink: 0;
-}
-.banner-team-logo {
-  width: 22px;
-  height: 22px;
-  object-fit: contain;
-}
-
-.banner-content-row {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 12px;
-}
-@media (min-width: 768px) {
-  .banner-content-row {
-    flex-direction: row;
-    align-items: center;
-  }
-}
-
-.banner-left-wrap {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  flex-wrap: wrap;
-}
-
-.banner-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 10px;
-  border-radius: 9999px;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-.banner-badge.banner-badge-live,
-.banner-badge.badge-live {
-  background-color: var(--live-red);
-  color: #fff;
-  box-shadow: 0 0 14px rgba(239, 68, 68, 0.6);
-}
-.banner-badge.banner-badge-finished,
-.banner-badge.badge-finished {
-  background-color: var(--win-green);
-  color: var(--surface-base);
-}
-.banner-badge.banner-badge-scheduled,
-.banner-badge.badge-scheduled {
-  background-color: var(--surface-highlight);
-  color: var(--primary);
-  border: 1px solid var(--border-glass);
-}
-
-.banner-headline {
-  font-family: var(--font-headline);
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--text-primary);
-  margin: 0;
-}
-.banner-score {
-  color: var(--primary-container);
-  font-weight: 700;
-  font-size: 18px;
-}
-
-.banner-right-wrap {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-.banner-action-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  color: var(--primary-container);
-  font-size: 13px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all var(--transition-fast);
-}
-.banner-action-link:hover {
-  color: var(--primary);
-  text-decoration: underline;
-}
-
-/* Tablet & Mobile responsive for match-row */
-@media (max-width: 640px) {
-  .match-main-line {
+@media (max-width: 768px) {
+  .match-card-main-row {
     flex-wrap: wrap;
   }
   .match-col-status {
@@ -887,27 +1030,331 @@
     align-items: center;
     gap: 8px;
   }
-  .match-col-teams {
+  .match-col-7grid {
     order: 3;
     width: 100%;
-    margin-top: 6px;
+    margin-top: 8px;
   }
-  .team-name-stitch {
+  .match-team-name {
     font-size: 13px;
   }
-  .score-val {
+  .score-digit {
     font-size: 17px;
   }
 }
 
+/* ==========================================================================
+   8. RIGHT-RAIL WIDGETS
+   ========================================================================== */
 
-/* --- Standings Table --- */
+.stitch-sidebar-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--surface-card);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--border-subtle);
+}
+
+.sidebar-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.header-title-flex {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sidebar-title {
+  font-family: var(--font-headline);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.sidebar-header-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--primary-container);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+.sidebar-header-link:hover {
+  color: var(--primary);
+}
+
+.sidebar-match-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.text-primary-cyan {
+  color: var(--primary-container);
+}
+.text-cyan-accent {
+  color: var(--secondary);
+}
+
+/* Standings Mini-Table */
+.standings-mini-table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+.standings-mini-table th {
+  padding: 6px 8px;
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.standings-row {
+  transition: background-color var(--transition-fast);
+}
+.standings-row:hover {
+  background-color: var(--surface-elevated);
+}
+.standings-row td {
+  padding: 8px;
+  font-size: 12px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.rank-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--surface-highlight);
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 600;
+}
+.rank-badge.rank-1 {
+  background-color: rgba(0, 210, 255, 0.2);
+  color: var(--primary-container);
+  font-weight: 700;
+  box-shadow: 0 0 8px rgba(0, 210, 255, 0.3);
+}
+
+.playoff-green-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--win-green);
+  margin-right: 6px;
+  flex-shrink: 0;
+}
+
+.standings-team-name {
+  font-weight: 600;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+.standings-team-name:hover {
+  color: var(--primary-container);
+}
+
+.bold-pts {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.standings-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.playoff-legend {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.conf-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+.conf-link:hover {
+  color: var(--primary-container);
+}
+
+/* News Feed Widget */
+.news-feed-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-feed-item {
+  padding: 12px 0;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.news-feed-item:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.news-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+}
+
+.news-cat-pill {
+  padding: 2px 8px;
+  border-radius: 4px;
+  background-color: var(--surface-elevated);
+  color: var(--primary);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.news-time-ago {
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.news-feed-headline {
+  font-family: var(--font-headline);
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+.news-feed-headline:hover {
+  color: var(--primary-container);
+}
+
+.news-feed-source {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* Daily Stats Widget */
+.stats-body {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.stat-metric-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat-labels-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.stat-val {
+  font-weight: 700;
+  color: var(--text-primary);
+  font-size: 13px;
+}
+
+.stat-title {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.stat-dual-track {
+  width: 100%;
+  height: 8px;
+  border-radius: 9999px;
+  background-color: var(--surface-base);
+  display: flex;
+  overflow: hidden;
+}
+
+.stat-fill-left {
+  height: 100%;
+  background-color: var(--primary-container);
+  transition: width 0.4s ease;
+}
+
+.stat-fill-right {
+  height: 100%;
+  background-color: var(--secondary-fixed-dim);
+  transition: width 0.4s ease;
+}
+
+.stat-full-report-btn {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: var(--surface-elevated);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  margin-top: 6px;
+  display: block;
+}
+.stat-full-report-btn:hover {
+  background-color: var(--surface-highlight);
+  border-color: var(--border-glass);
+}
+
+/* Footer disclaimer line */
+.snapshot-footer-line {
+  padding: 28px 0 8px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* ==========================================================================
+   9. STANDINGS TABLE & COMPETITION PAGES
+   ========================================================================== */
+
 .standings-table-wrap {
   width: 100%;
   overflow-x: auto;
   overscroll-behavior-inline: contain;
   scrollbar-width: thin;
-  scrollbar-color: var(--color-text-muted) transparent;
+  scrollbar-color: var(--text-muted) transparent;
 }
 
 .standings-table-wrap > .standings-table {
@@ -993,7 +1440,10 @@
 .form-pill.l { background-color: #bd2734; }
 .form-pill.o { background-color: var(--color-warning); color: #000; }
 
-/* --- Playoff Bracket --- */
+/* ==========================================================================
+   10. PLAYOFF BRACKET
+   ========================================================================== */
+
 .playoff-container {
   display: flex;
   gap: var(--space-24);
@@ -1047,7 +1497,10 @@
   border: 1px solid var(--color-border);
 }
 
-/* --- Hockey Lines Board (Пятёрки звеньев) --- */
+/* ==========================================================================
+   11. HOCKEY LINES BOARD & RINK
+   ========================================================================== */
+
 .lines-board {
   display: flex;
   flex-direction: column;
@@ -1100,7 +1553,7 @@
   margin-right: 4px;
 }
 
-/* --- Rink SVG (Mini Ice Surface) --- */
+/* Rink SVG */
 .rink-view-card {
   background: radial-gradient(circle at center, #0f2747 0%, #081426 100%);
   border-radius: var(--radius-md);
@@ -1117,44 +1570,17 @@
   filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.5));
 }
 
-/* --- Stat Comparison Bar --- */
-.stat-row {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  margin-bottom: 14px;
-  font-size: var(--font-size-xs);
-}
-.stat-labels {
-  display: flex;
-  justify-content: space-between;
-  font-weight: var(--font-weight-bold);
-  font-variant-numeric: tabular-nums;
-}
-.stat-bar-track {
-  height: 9px;
-  background-color: var(--color-bg-tertiary);
-  border-radius: var(--radius-full);
-  display: flex;
-  overflow: hidden;
-}
-.stat-fill-home {
-  background: linear-gradient(90deg, #0077b6, #00b4d8);
-  height: 100%;
-}
-.stat-fill-away {
-  background: linear-gradient(90deg, #48cae4, #90e0ef);
-  height: 100%;
-}
+/* ==========================================================================
+   12. TABS & PERIOD TABLES & BUTTONS
+   ========================================================================== */
 
-/* --- Tabs --- */
 .tabs-nav {
   display: flex;
   border-bottom: 2px solid var(--color-border);
   margin-bottom: var(--space-16);
   overflow-x: auto;
   scrollbar-width: thin;
-  scrollbar-color: var(--color-text-muted) transparent;
+  scrollbar-color: var(--text-muted) transparent;
 }
 .tab-btn {
   padding: 10px 18px;
@@ -1165,6 +1591,7 @@
   margin-bottom: -2px;
   white-space: nowrap;
   transition: all var(--transition-fast);
+  cursor: pointer;
 }
 .tab-btn:hover {
   color: var(--color-accent-blue);
@@ -1175,7 +1602,6 @@
   border-bottom-color: var(--color-accent-blue);
 }
 
-/* --- Period Score Breakdown Table --- */
 .period-table {
   width: 100%;
   font-size: var(--font-size-xs);
@@ -1196,7 +1622,6 @@
   color: var(--color-text-secondary);
 }
 
-/* Keep button styling consistent for links and native buttons across pages. */
 .btn-primary {
   display: inline-flex;
   align-items: center;
@@ -1212,14 +1637,11 @@
   text-align: center;
 }
 .btn-primary:hover { background: var(--color-accent-blue); }
-[data-theme="dark"] .btn-primary {
-  background: var(--color-accent-blue);
-  border-color: var(--color-accent-blue);
-  color: var(--color-text-inverse);
-}
-[data-theme="dark"] .btn-primary:hover { background: var(--color-accent-blue-hover); }
 
-/* --- Footer --- */
+/* ==========================================================================
+   13. FOOTER & MOBILE BOTTOM NAV
+   ========================================================================== */
+
 .site-footer {
   background-color: var(--surface-card);
   border-top: 1px solid var(--border-glass);
@@ -1249,7 +1671,6 @@
   color: var(--primary-container);
 }
 
-/* --- Mobile Bottom Navigation Bar (Stitch App Style) --- */
 .mobile-bottom-nav {
   display: none;
   position: fixed;
@@ -1257,11 +1678,11 @@
   left: 0;
   right: 0;
   height: 60px;
-  background-color: var(--color-bg-surface);
+  background-color: rgba(20, 26, 35, 0.95);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border-top: 1px solid var(--color-border);
-  box-shadow: var(--shadow-md);
+  border-top: 1px solid var(--border-glass);
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.4);
   z-index: 1000;
   align-items: center;
   justify-content: space-around;
@@ -1284,7 +1705,7 @@
   align-items: center;
   justify-content: center;
   gap: 2px;
-  color: var(--color-text-secondary);
+  color: var(--text-secondary);
   font-size: 11px;
   font-weight: 600;
   padding: 6px 4px;
@@ -1296,24 +1717,31 @@
   text-decoration: none;
   position: relative;
 }
-.mob-nav-item svg {
-  width: 20px;
-  height: 20px;
+.mob-nav-item .material-symbols-outlined {
+  font-size: 20px;
 }
 .mob-nav-item:hover,
 .mob-nav-item.active {
   color: var(--primary-container);
 }
 .mob-nav-item.active {
-  background-color: var(--color-bg-surface-hover);
+  background-color: var(--surface-elevated);
 }
 .mob-nav-item:active {
   transform: scale(0.92);
 }
+
+.mob-live-badge {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .mob-live-dot {
   position: absolute;
-  top: 4px;
-  right: 14px;
+  top: 0;
+  right: -2px;
   width: 7px;
   height: 7px;
   border-radius: 50%;
@@ -1322,116 +1750,13 @@
   animation: pulse-live 1.5s infinite;
 }
 
-@keyframes pulse-live {
-  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
-  70% { transform: scale(1.1); box-shadow: 0 0 0 6px rgba(239, 68, 68, 0); }
-  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
-}
+/* ==========================================================================
+   14. TOASTS & REAL-TIME ALERTS
+   ========================================================================== */
 
-/* --- Highlight Banner (Stitch Apex Style) --- */
-.highlight-banner {
-  position: relative;
-  overflow: hidden;
-  border-radius: var(--radius-lg);
-  background: linear-gradient(135deg, var(--surface-elevated) 0%, var(--surface-card) 50%, var(--surface-highlight) 100%);
-  border: 1px solid var(--border-glass);
-  padding: 14px 18px;
-  margin-bottom: var(--space-16);
-  box-shadow: var(--shadow-md);
-}
-.highlight-banner-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-12);
-  flex-wrap: wrap;
-}
-.highlight-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 10px;
-  border-radius: var(--radius-full);
-  background: var(--color-live-solid);
-  color: #fff;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  box-shadow: 0 0 12px var(--live-red-glow);
-}
-.highlight-badge-pulse {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #fff;
-  animation: pulse-live 1.5s infinite;
-}
-.highlight-title {
-  font-family: var(--font-headline);
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--text-primary);
-}
-.highlight-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  color: var(--primary-container);
-  font-size: 13px;
-  font-weight: 600;
-  transition: all var(--transition-fast);
-}
-.highlight-link:hover {
-  color: var(--color-accent-blue-hover);
-  text-decoration: none;
-}
-
-/* --- Daily Stats Widget (Stitch Analytics) --- */
-.stat-bar-track {
-  width: 100%;
-  height: 6px;
-  border-radius: var(--radius-full);
-  background-color: var(--surface-base);
-  display: flex;
-  overflow: hidden;
-  margin-top: 4px;
-}
-.stat-bar-fill-home {
-  height: 100%;
-  background-color: var(--primary-container);
-  border-radius: var(--radius-full) 0 0 var(--radius-full);
-}
-.stat-bar-fill-away {
-  height: 100%;
-  background-color: var(--secondary);
-  border-radius: 0 var(--radius-full) var(--radius-full) 0;
-}
-
-/* --- Real-Time Goal Flash Animation --- */
-@keyframes goal-flash-anim {
-  0% {
-    background-color: rgba(239, 68, 68, 0.35);
-    box-shadow: inset 0 0 16px rgba(239, 68, 68, 0.6);
-  }
-  50% {
-    background-color: rgba(0, 210, 255, 0.25);
-    box-shadow: inset 0 0 20px rgba(0, 210, 255, 0.5);
-  }
-  100% {
-    background-color: transparent;
-    box-shadow: none;
-  }
-}
-
-.match-row.goal-flash {
-  animation: goal-flash-anim 3s ease-out;
-}
-
-/* --- Floating Goal Toast Notifications --- */
 .goal-toast-container {
   position: fixed;
-  top: 76px;
+  top: 120px;
   right: 16px;
   z-index: 9999;
   display: flex;
@@ -1454,7 +1779,7 @@
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--live-red);
   box-shadow: 0 8px 30px rgba(239, 68, 68, 0.35);
-  color: var(--color-text-primary);
+  color: var(--text-primary);
   transform: translateX(0);
   transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
   animation: slide-in-toast 0.4s ease-out;
@@ -1498,15 +1823,15 @@
   font-family: var(--font-headline);
   font-weight: 700;
   font-size: 14px;
-  color: var(--color-text-primary);
+  color: var(--text-primary);
 }
 
 .goal-toast-sub {
   font-size: 11px;
-  color: var(--color-text-secondary);
+  color: var(--text-secondary);
 }
 
-/* --- Real-Time Live Status Bar & Countdown --- */
+/* Real-Time Live Status Bar & Countdown */
 .live-status-bar {
   display: flex;
   align-items: center;
@@ -1523,7 +1848,7 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  color: var(--color-text-secondary);
+  color: var(--text-secondary);
   font-family: var(--font-headline);
   font-variant-numeric: tabular-nums;
 }
@@ -1542,7 +1867,6 @@
   cursor: pointer;
   transition: all var(--transition-fast);
 }
-
 .live-refresh-btn:hover {
   background: var(--primary-container);
   color: var(--surface-base);
@@ -1557,160 +1881,7 @@
   to { transform: rotate(360deg); }
 }
 
-/* --- Google Stitch Widgets & Cards --- */
-.stitch-widget-card,
-.card {
-  background-color: var(--surface-card);
-  border: 1px solid var(--border-glass);
-  border-radius: 14px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
-  overflow: hidden;
-  margin-bottom: var(--space-20);
-}
-
-.stitch-widget-card .card-header,
-.card .card-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 14px 18px;
-  border-bottom: 1px solid var(--border-subtle);
-  background: linear-gradient(90deg, var(--surface-elevated), var(--surface-card));
-}
-
-.stitch-widget-card .card-title,
-.card .card-title {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-family: var(--font-headline);
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--text-primary);
-  margin: 0;
-}
-.stitch-widget-card .card-title .material-symbols-outlined,
-.card .card-title .material-symbols-outlined {
-  font-size: 20px;
-  color: var(--primary-container);
-}
-
-.stitch-widget-card .card-body,
-.card .card-body {
-  padding: 14px 18px;
-}
-
-/* Standings Mini-Table Stitch */
-.standings-table-stitch {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.pos-badge-1 {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: rgba(0, 210, 255, 0.2);
-  color: var(--primary-container);
-  font-weight: 700;
-  font-size: 11px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.pos-badge-default {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: var(--surface-highlight);
-  color: var(--text-secondary);
-  font-weight: 600;
-  font-size: 11px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.playoff-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: var(--win-green);
-  display: inline-block;
-  flex-shrink: 0;
-}
-
-/* Stitch News Items */
-.news-item-stitch {
-  padding: 12px 0;
-  border-bottom: 1px solid var(--border-subtle);
-  display: flex;
-  gap: 12px;
-  align-items: flex-start;
-}
-.news-item-stitch:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.news-item-thumb-wrap {
-  width: 88px;
-  height: 58px;
-  border-radius: 8px;
-  overflow: hidden;
-  flex-shrink: 0;
-  border: 1px solid var(--border-glass);
-  background-color: var(--surface-base);
-  display: block;
-}
-.news-item-thumb {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform var(--transition-normal);
-  display: block;
-}
-.news-item-stitch:hover .news-item-thumb {
-  transform: scale(1.08);
-}
-.news-item-content {
-  flex: 1;
-  min-width: 0;
-}
-
-.news-badge-cat {
-  display: inline-block;
-  padding: 2px 6px;
-  border-radius: 4px;
-  background-color: var(--surface-elevated);
-  color: var(--primary);
-  font-size: 10px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.news-item-title {
-  font-family: var(--font-headline);
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.35;
-  color: var(--text-primary);
-  margin-top: 4px;
-  display: block;
-  text-decoration: none;
-  transition: color var(--transition-fast);
-}
-.news-item-title:hover {
-  color: var(--primary-container);
-}
-
-.news-item-source {
-  font-size: 11px;
-  color: var(--text-muted);
-}
-
-/* News Page Specific */
+/* News Article Hero */
 .news-article-hero-wrap {
   width: 100%;
   max-height: 420px;
@@ -1729,7 +1900,7 @@
   display: flex;
   gap: 16px;
   padding: 16px 0;
-  border-bottom: 1px solid var(--color-border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
   align-items: flex-start;
 }
 .news-list-thumb-wrap {
@@ -1761,55 +1932,3 @@
     height: 160px;
   }
 }
-
-/* Stats Progress Bars */
-.stat-metric-row {
-  display: flex;
-  flex-direction: column;
-}
-
-.stat-bar-track {
-  width: 100%;
-  height: 8px;
-  border-radius: 9999px;
-  background-color: var(--surface-base);
-  display: flex;
-  overflow: hidden;
-  margin-top: 4px;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
-}
-
-.stat-bar-fill-home {
-  background-color: var(--primary-container);
-  height: 100%;
-  transition: width 0.4s ease;
-}
-
-.stat-bar-fill-away {
-  background-color: var(--secondary);
-  height: 100%;
-  transition: width 0.4s ease;
-}
-
-.stat-report-btn {
-  display: block;
-  width: 100%;
-  padding: 9px 12px;
-  margin-top: 8px;
-  border-radius: 8px;
-  background-color: var(--surface-elevated);
-  border: 1px solid var(--border-subtle);
-  color: var(--text-primary);
-  font-size: 12px;
-  font-weight: 600;
-  text-align: center;
-  text-decoration: none;
-  transition: all var(--transition-fast);
-}
-.stat-report-btn:hover {
-  background-color: var(--surface-highlight);
-  color: var(--primary-container);
-  border-color: var(--border-glass);
-}
-
-
