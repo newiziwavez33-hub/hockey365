@@ -42,7 +42,15 @@ export async function initTeamPage() {
 
   // Render Team Header
   headerSlot.innerHTML = '';
-  const headerCard = el('div', { className: 'card' },
+  const arenaBg = getAssetUrl('assets/images/hero_banner.jpg');
+  const headerCard = el('div', {
+    className: 'card overflow-hidden',
+    style: {
+      backgroundImage: `linear-gradient(180deg, rgba(20, 26, 35, 0.9) 0%, rgba(11, 14, 20, 0.97) 100%), url('${arenaBg}')`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center 30%'
+    }
+  },
     el('div', { className: 'card-body flex items-center justify-between flex-wrap gap-16' },
       el('div', { className: 'flex items-center gap-16' },
         el('img', {

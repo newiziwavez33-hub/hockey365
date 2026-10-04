@@ -6,6 +6,7 @@ import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js'
 import { getNews } from '../core/api.js';
 import { getParam, buildLink } from '../core/router.js';
 import { formatDate } from '../core/format.js';
+import { getAssetUrl } from '../core/config.js';
 
 export async function initNewsPage() {
   const newsId = getParam('id');
@@ -26,7 +27,14 @@ export async function initNewsPage() {
         return;
       }
 
-      const card = el('div', { className: 'card' },
+      const card = el('div', { className: 'card overflow-hidden' },
+        article.image ? el('div', { className: 'news-article-hero-wrap' },
+          el('img', {
+            src: getAssetUrl(article.image),
+            alt: article.title,
+            className: 'news-article-hero-img'
+          })
+        ) : null,
         el('div', { className: 'card-header' },
           el('h1', { className: 'card-title' }, article.title)
         ),
@@ -62,14 +70,24 @@ export async function initNewsPage() {
       ),
       el('div', { className: 'card-body flex-col gap-16' },
         newsList.map(n => el('div', {
-          className: 'news-item flex-col gap-6',
-          style: { padding: '12px 0', borderBottom: '1px solid var(--color-border-subtle)' }
+          className: 'news-list-card flex gap-16 items-start'
         },
-          el('a', { href: buildLink('/news/', { id: n.id }), className: 'text-lg text-bold link-accent' }, n.title),
-          el('p', { className: 'text-sm text-secondary' }, n.summary),
-          el('div', { className: 'flex items-center justify-between text-xs text-muted' },
-            el('span', {}, n.source || 'Пресс-служба'),
-            el('span', {}, formatDate(n.publishedAt, 'dayMonth'))
+          n.image ? el('a', { href: buildLink('/news/', { id: n.id }), className: 'news-list-thumb-wrap shrink-0' },
+            el('img', {
+              src: getAssetUrl(n.image),
+              alt: n.title,
+              className: 'news-list-thumb',
+              loading: 'lazy'
+            })
+          ) : null,
+          el('div', { className: 'flex-col gap-6 flex-1' },
+            el('div', { className: 'flex items-center gap-8 mb-1' },
+              el('span', { className: 'badge badge-scheduled text-xs' }, n.tags?.[0] || 'Хоккей'),
+              el('span', { className: 'text-xs text-muted' }, formatDate(n.publishedAt, 'dayMonth'))
+            ),
+            el('a', { href: buildLink('/news/', { id: n.id }), className: 'text-lg text-bold link-accent' }, n.title),
+            el('p', { className: 'text-sm text-secondary' }, n.summary),
+            el('div', { className: 'text-xs text-muted' }, n.source || 'Пресс-служба')
           )
         ))
       )

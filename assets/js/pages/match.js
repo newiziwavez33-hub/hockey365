@@ -57,7 +57,15 @@ export async function initMatchPage() {
 
   function renderMatchHeader() {
     headerSlot.innerHTML = '';
-    const headerCard = el('div', { className: 'card' },
+    const arenaBg = getAssetUrl('assets/images/hero_banner.jpg');
+    const headerCard = el('div', {
+      className: 'card overflow-hidden',
+      style: {
+        backgroundImage: `linear-gradient(180deg, rgba(20, 26, 35, 0.9) 0%, rgba(11, 14, 20, 0.97) 100%), url('${arenaBg}')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center 35%'
+      }
+    },
       // Meta bar
       el('div', { className: 'card-header' },
         el('span', { className: 'text-xs text-muted' },

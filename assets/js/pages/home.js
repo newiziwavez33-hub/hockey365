@@ -252,23 +252,49 @@ function renderHighlightBanner(container, matches) {
     ? 'vs'
     : `${highlight.home.score} : ${highlight.away.score}${highlight.finishedIn ? ' ' + highlight.finishedIn : ''}`;
 
-  container.replaceChildren(el('div', { className: 'highlight-banner-stitch' },
+  const heroImgUrl = getAssetUrl('assets/images/hero_banner.jpg');
+  const defaultLogo = getAssetUrl('assets/logos/teams/placeholder.svg');
+
+  container.replaceChildren(el('div', {
+    className: 'highlight-banner-stitch',
+    style: {
+      backgroundImage: `linear-gradient(90deg, rgba(11, 14, 20, 0.94) 0%, rgba(20, 26, 35, 0.84) 55%, rgba(11, 14, 20, 0.72) 100%), url('${heroImgUrl}')`
+    }
+  },
     el('div', { className: 'banner-content-row' },
       el('div', { className: 'banner-left-wrap' },
         el('div', { className: `banner-badge ${badgeClass}` },
           badgeClass === 'banner-badge-live' ? el('span', { className: 'live-dot-pulse' }) : null,
           badgeText
         ),
-        el('p', { className: 'banner-headline' },
-          `${homeInfo.name} `,
-          highlight.status === 'SCHEDULED' ? 'против ' : '— ',
-          `${awayInfo.name}: `,
-          el('span', { className: 'banner-score font-tabular' }, scoreText)
+        el('div', { className: 'flex items-center gap-12' },
+          el('div', { className: 'banner-teams-logos flex items-center' },
+            el('img', {
+              src: homeInfo.logo ? getAssetUrl(homeInfo.logo) : defaultLogo,
+              alt: homeInfo.name,
+              className: 'banner-team-logo',
+              onerror: (e) => { e.target.src = defaultLogo; }
+            }),
+            el('span', { className: 'text-xs text-muted mx-1' }, 'vs'),
+            el('img', {
+              src: awayInfo.logo ? getAssetUrl(awayInfo.logo) : defaultLogo,
+              alt: awayInfo.name,
+              className: 'banner-team-logo',
+              onerror: (e) => { e.target.src = defaultLogo; }
+            })
+          ),
+          el('p', { className: 'banner-headline' },
+            `${homeInfo.name} `,
+            highlight.status === 'SCHEDULED' ? 'против ' : '— ',
+            `${awayInfo.name}: `,
+            el('span', { className: 'banner-score font-tabular' }, scoreText)
+          )
         )
       ),
       el('div', { className: 'banner-right-wrap' },
         el('span', { className: 'banner-status-detail text-muted text-xs' }, statusDetail),
         el('a', { href: buildLink('/match/', { id: highlight.id }), className: 'banner-action-link' },
+          el('span', { className: 'material-symbols-outlined text-[16px]' }, 'play_circle'),
           el('span', {}, actionLabel),
           el('span', { className: 'material-symbols-outlined text-[16px]' }, 'arrow_forward')
         )
@@ -349,12 +375,23 @@ async function loadSidebarNews(container) {
     }
     for (const n of items) {
       const item = el('article', { className: 'news-item-stitch' },
-        el('div', { className: 'flex items-center gap-6 mb-1' },
-          el('span', { className: 'news-badge-cat' }, n.league || 'КХЛ'),
-          el('span', { className: 'text-xs text-muted' }, 'Недавно')
-        ),
-        el('a', { href: buildLink('/news/', { id: n.id }), className: 'news-item-title' }, n.title),
-        el('div', { className: 'news-item-source text-xs text-muted mt-1' }, n.source || 'Hockey365 • Новости')
+        n.image ? el('a', { href: buildLink('/news/', { id: n.id }), className: 'news-item-thumb-wrap' },
+          el('img', {
+            src: getAssetUrl(n.image),
+            alt: n.title,
+            className: 'news-item-thumb',
+            loading: 'lazy',
+            onerror: (e) => { e.target.closest('.news-item-thumb-wrap')?.remove(); }
+          })
+        ) : null,
+        el('div', { className: 'news-item-content' },
+          el('div', { className: 'flex items-center gap-6 mb-1' },
+            el('span', { className: 'news-badge-cat' }, n.tags?.[0] || 'КХЛ'),
+            el('span', { className: 'text-xs text-muted' }, formatDate(n.publishedAt, 'timeAgo'))
+          ),
+          el('a', { href: buildLink('/news/', { id: n.id }), className: 'news-item-title' }, n.title),
+          el('div', { className: 'news-item-source text-xs text-muted mt-1' }, n.source || 'Hockey365 • Новости')
+        )
       );
       container.appendChild(item);
     }
