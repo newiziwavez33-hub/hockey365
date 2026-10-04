@@ -85,12 +85,12 @@ function gameStatus(gameState, clock, scheduleState) {
   if (['PPD', 'POSTPONED'].includes(raw) || String(scheduleState || '').toUpperCase() === 'PPD') {
     return 'POSTPONED';
   }
-  if (['CAN', 'CANCELLED'].includes(raw)) return 'CANCELLED';
+  if (['CAN', 'CNCL', 'CANCELLED'].includes(raw)) return 'CANCELLED';
   if (['FINAL', 'OFF'].includes(raw)) return 'FINISHED';
   if (['LIVE', 'CRIT'].includes(raw)) {
     return clock?.inIntermission === true ? 'INTERMISSION' : 'LIVE';
   }
-  if (['FUT', 'PRE', 'TBD'].includes(raw)) return 'SCHEDULED';
+  if (['FUT', 'PRE', 'TBD', 'SCHEDULED'].includes(raw)) return 'SCHEDULED';
   return null;
 }
 

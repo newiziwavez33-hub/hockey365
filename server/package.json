@@ -1,0 +1,16 @@
+{
+  "name": "hockey365-server",
+  "version": "2.0.0",
+  "description": "Hockey365 High-Performance Live Backend API (Hono + SSE + Realtime)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "hono": "^4.6.12"
+  }
+}
