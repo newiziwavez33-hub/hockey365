@@ -31,7 +31,16 @@
     "events": [],
     "lineups": null,
     "stats": null,
-    "h2h": []
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/pit-vs-wsh/2026/10/07/2026020053",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/pit-vs-wsh/2026/10/07/2026020053",
+      "verifiedAt": "2026-10-04T00:00:00Z"
+    }
   },
   {
     "id": "nhl:2026020054",
@@ -65,7 +74,16 @@
     "events": [],
     "lineups": null,
     "stats": null,
-    "h2h": []
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/col-vs-wpg/2026/10/07/2026020054",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/col-vs-wpg/2026/10/07/2026020054",
+      "verifiedAt": "2026-10-04T00:00:00Z"
+    }
   },
   {
     "id": "nhl:2026020055",
@@ -99,6 +117,15 @@
     "events": [],
     "lineups": null,
     "stats": null,
-    "h2h": []
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/edm-vs-ana/2026/10/07/2026020055",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/edm-vs-ana/2026/10/07/2026020055",
+      "verifiedAt": "2026-10-04T00:00:00Z"
+    }
   }
 ]

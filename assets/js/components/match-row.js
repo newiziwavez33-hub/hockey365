@@ -8,7 +8,7 @@
 import { el } from '../core/dom.js';
 import { buildLink } from '../core/router.js';
 import { store } from '../core/store.js';
-import { formatPeriodStatus, formatPeriodBreakdown } from '../core/format.js';
+import { formatDate, formatPeriodStatus, formatPeriodBreakdown } from '../core/format.js';
 import { getAssetUrl } from '../core/config.js';
 
 // Pre-cached authentic names, short tags, and colors for instant synchronous rendering
@@ -116,19 +116,35 @@ export function createMatchGridCardStitch(match, teamsMap = {}) {
   let statusText = '';
   let statusClass = 'scheduled';
   let sogBadgeText = '';
+  const showScore = isLive || isFinished;
+  const shotsOnGoal = match.stats?.shotsOnGoal;
+  const shots = Array.isArray(shotsOnGoal) && shotsOnGoal.length === 2 ? shotsOnGoal
+    : [match.home.shots, match.away.shots];
+  if (showScore && shots.every(value => Number.isInteger(value) && value >= 0)) {
+    sogBadgeText = `${Array.isArray(shotsOnGoal) && shots === shotsOnGoal ? 'БРОСКИ В СТВОР' : 'БРОСКИ'} ${shots[0]} - ${shots[1]}`;
+  }
+  const competition = match.compId ? `  ${match.compId}` : '';
 
-  if (isLive) {
+  if (match.status === 'LIVE') {
     statusClass = 'live';
-    statusText = `3-Й ПЕРИОД • ${match.clock || '14:32'}  ${match.compId || 'КХЛ'}`;
-    sogBadgeText = 'БРОСКИ 28 - 31';
+    const period = match.period === 4 ? 'ОВЕРТАЙМ' : match.period === 5 ? 'БУЛЛИТЫ'
+      : Number.isInteger(match.period) && match.period >= 1 && match.period <= 3 ? `${match.period}-Й ПЕРИОД` : 'МАТЧ ИДЕТ';
+    statusText = `${period}${match.clock ? ` • ${match.clock}` : ''}${competition}`;
+  } else if (match.status === 'INTERMISSION') {
+    statusClass = 'live';
+    statusText = `ПЕРЕРЫВ${competition}`;
   } else if (isFinished) {
     statusClass = 'finished';
     const note = match.finishedIn === 'OT' ? ' (ОТ)' : match.finishedIn === 'SO' ? ' (Б)' : '';
-    statusText = `ФИНАЛ${note}  ${match.compId || 'КХЛ'}`;
+    statusText = `ФИНАЛ${note}${competition}`;
+  } else if (isScheduled) {
+    const timezone = store.getTimezone();
+    const zoneLabel = timezone === 'Europe/Moscow' ? 'МСК' : timezone === 'UTC' ? 'UTC' : 'местн.';
+    statusText = match.utcDate && formatDate(match.utcDate, 'time')
+      ? `${formatDate(match.utcDate, 'dayMonth')} • ${formatDate(match.utcDate, 'time')} ${zoneLabel}${competition}`
+      : `ВРЕМЯ НЕ УКАЗАНО${competition}`;
   } else {
-    statusClass = 'scheduled';
-    const time = match.utcDate ? new Date(match.utcDate).toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Moscow' }) : '20:00';
-    statusText = `СЕГОДНЯ • ${time} МСК  ${match.compId || 'НХЛ'}`;
+    statusText = `${match.status === 'POSTPONED' ? 'ПЕРЕНЕСЕН' : match.status === 'CANCELLED' ? 'ОТМЕНЕН' : 'СТАТУС НЕИЗВЕСТЕН'}${competition}`;
   }
 
   // Bottom Row details
@@ -138,29 +154,18 @@ export function createMatchGridCardStitch(match, teamsMap = {}) {
   if (isFinished) {
     if (match.home.periods && match.home.periods.length > 0) {
       const breakdown = formatPeriodBreakdown(match.home.periods, match.away.periods);
-      bottomNote = `Периоды: (${breakdown})`;
+      bottomNote = breakdown ? `Периоды: ${breakdown}` : 'Матч завершен';
     } else {
       bottomNote = 'Матч завершен';
     }
     actionLabel = 'Протокол';
   } else if (isLive) {
-    bottomNote = 'Идет прямой репортаж со льда';
+    bottomNote = match.status === 'INTERMISSION' ? 'Перерыв' : 'Матч идет';
     actionLabel = 'Онлайн протокол';
   } else {
-    // Scheduled context notes
-    if (match.home.id.includes('nyr') || match.away.id.includes('nyr')) {
-      bottomNote = 'Шестеркин vs Ингрэм';
-      actionLabel = 'Статистика вратарей 🥅';
-    } else if (match.home.id.includes('ana') || match.away.id.includes('fla')) {
-      bottomNote = 'Бобровский заявлен в старте';
-      actionLabel = 'Составы на игру 👥';
-    } else if (match.home.id.includes('van') || match.away.id.includes('vgk')) {
-      bottomNote = 'Куинн Хьюз vs Джек Айкел';
-      actionLabel = 'Дуэль лидеров ⚔';
-    } else {
-      bottomNote = 'Арена готова к игре';
-      actionLabel = 'Личные встречи 📈';
-    }
+    bottomNote = isScheduled ? 'Матч запланирован' : match.status === 'POSTPONED' ? 'Матч перенесен'
+      : match.status === 'CANCELLED' ? 'Матч отменен' : 'Информация о матче';
+    actionLabel = 'Информация о матче';
   }
 
   const card = el('div', {
@@ -171,7 +176,7 @@ export function createMatchGridCardStitch(match, teamsMap = {}) {
     el('div', { className: 'card-meta-row' },
       el('div', { className: 'card-meta-left' },
         el('div', { className: `card-status-badge badge-${statusClass}` },
-          isLive ? el('span', { className: 'badge-pulse-dot' }) : null,
+          match.status === 'LIVE' ? el('span', { className: 'badge-pulse-dot' }) : null,
           el('span', {}, statusText)
         ),
         sogBadgeText ? el('span', { className: 'card-sog-pill' }, sogBadgeText) : null
@@ -179,11 +184,14 @@ export function createMatchGridCardStitch(match, teamsMap = {}) {
       el('button', {
         type: 'button',
         className: `card-star-btn ${isFav ? 'active' : ''}`,
-        'aria-label': isFav ? 'В избранном' : 'Добавить в избранное',
+        'aria-label': isFav ? 'Удалить из избранного' : 'Добавить в избранное',
+        'aria-pressed': String(isFav),
         onClick: (e) => {
           e.stopPropagation();
           const active = store.toggleFavorite('matches', match.id);
           e.currentTarget.classList.toggle('active', active);
+          e.currentTarget.setAttribute('aria-label', active ? 'Удалить из избранного' : 'Добавить в избранное');
+          e.currentTarget.setAttribute('aria-pressed', String(active));
         }
       }, el('span', { className: 'material-symbols-outlined' }, 'star'))
     ),
@@ -212,7 +220,7 @@ export function createMatchGridCardStitch(match, teamsMap = {}) {
           el('span', { className: `team-full-name ${homeWon ? 'winner' : ''}` }, homeTeam.name)
         ),
         el('span', { className: `team-score-num font-tabular ${homeWon ? 'winner' : ''}` },
-          isScheduled ? '-' : homeScore
+          !showScore || homeScore === null || homeScore === undefined ? '-' : homeScore
         )
       ),
 
@@ -238,7 +246,7 @@ export function createMatchGridCardStitch(match, teamsMap = {}) {
           el('span', { className: `team-full-name ${awayWon ? 'winner' : ''}` }, awayTeam.name)
         ),
         el('span', { className: `team-score-num font-tabular ${awayWon ? 'winner' : ''}` },
-          isScheduled ? '-' : awayScore
+          !showScore || awayScore === null || awayScore === undefined ? '-' : awayScore
         )
       )
     ),

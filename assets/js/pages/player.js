@@ -38,50 +38,70 @@ export async function initPlayerPage() {
 
   container.innerHTML = '';
 
-  // 1. Player Profile Header Card
-  const profileCard = el('div', { className: 'card' },
-    el('div', { className: 'card-body flex items-center justify-between flex-wrap gap-16' },
-      el('div', { className: 'flex items-center gap-16' },
-        el('div', {
-          className: 'flex items-center justify-center text-xl text-bold',
-          style: {
-            width: '64px',
-            height: '64px',
-            borderRadius: 'var(--radius-full)',
-            backgroundColor: 'var(--color-bg-secondary)',
-            color: 'var(--color-accent-blue)',
-            border: '2px solid var(--color-border)'
-          }
-        }, `#${player.number || '?'}`),
-        el('div', {},
-          el('h1', { className: 'text-2xl text-bold' }, player.name),
-          el('div', { className: 'text-sm text-muted' },
-            `${player.nameEn || ''} • ${formatPosition(player.position)}`
-          ),
-          team ? el('div', { className: 'text-xs text-secondary', style: { marginTop: '4px' } },
-            'Клуб: ',
-            el('a', { href: buildLink('/team/', { id: team.id }), className: 'link-accent' }, team.name)
-          ) : null
+  // 1. Player Profile Hero Card
+  const profileCard = el('div', { className: 'player-hero-card' },
+    el('div', { className: 'player-hero-flex' },
+      // Left Cluster: Portrait + Identity
+      el('div', { className: 'flex items-center gap-20' },
+        el('div', { className: 'player-portrait-halo' },
+          player.photo
+            ? el('img', {
+                src: getAssetUrl(player.photo),
+                alt: player.name,
+                className: 'player-headshot-img',
+                loading: 'eager',
+                onError: (e) => {
+                  e.target.style.display = 'none';
+                  if (e.target.nextElementSibling) {
+                    e.target.nextElementSibling.style.display = 'flex';
+                  }
+                }
+              })
+            : null,
+          el('div', {
+            className: 'player-jersey-fallback',
+            style: { display: player.photo ? 'none' : 'flex' }
+          },
+            el('span', { className: 'player-jersey-number font-tabular' }, `#${player.number || '?'}`),
+            el('span', { className: 'player-jersey-sub' }, formatPosition(player.position))
+          )
+        ),
+        el('div', { className: 'player-title-cluster' },
+          el('h1', { className: 'player-main-name' }, player.name),
+          el('div', { className: 'player-meta-line' },
+            player.nameEn ? el('span', {}, player.nameEn) : null,
+            el('span', { className: 'text-muted' }, '•'),
+            el('span', { className: 'font-tabular' }, `#${player.number || '?'}`),
+            el('span', { className: 'text-muted' }, '•'),
+            el('span', {}, formatPosition(player.position)),
+            team ? el('a', {
+              href: buildLink('/team/', { id: team.id }),
+              className: 'player-club-badge'
+            },
+              team.logo ? el('img', { src: getAssetUrl(team.logo), alt: team.name, className: 'player-club-logo' }) : null,
+              el('span', {}, team.name)
+            ) : null
+          )
         )
       ),
 
-      // Physical / Bio Data
-      el('div', { className: 'flex gap-16 text-xs text-secondary' },
-        el('div', {},
-          el('div', { className: 'text-muted' }, 'Хват'),
-          el('div', { className: 'text-bold' }, player.shoots === 'L' ? 'Левый' : player.shoots === 'R' ? 'Правый' : '-')
+      // Right Cluster: Vitals Grid
+      el('div', { className: 'player-vitals-grid' },
+        el('div', { className: 'vital-box' },
+          el('div', { className: 'vital-lbl' }, 'Хват'),
+          el('div', { className: 'vital-val' }, player.shoots === 'L' ? 'Левый' : player.shoots === 'R' ? 'Правый' : '—')
         ),
-        el('div', {},
-          el('div', { className: 'text-muted' }, 'Рост / Вес'),
-          el('div', { className: 'text-bold' }, `${player.heightCm || '-'} см / ${player.weightKg || '-'} кг`)
+        el('div', { className: 'vital-box' },
+          el('div', { className: 'vital-lbl' }, 'Рост / Вес'),
+          el('div', { className: 'vital-val font-tabular' }, `${player.heightCm || '-'} см / ${player.weightKg || '-'} кг`)
         ),
-        el('div', {},
-          el('div', { className: 'text-muted' }, 'Дата рожд.'),
-          el('div', { className: 'text-bold' }, player.birthDate || '-')
+        el('div', { className: 'vital-box' },
+          el('div', { className: 'vital-lbl' }, 'Дата рожд.'),
+          el('div', { className: 'vital-val font-tabular' }, player.birthDate || '—')
         ),
-        el('div', {},
-          el('div', { className: 'text-muted' }, 'Гражданство'),
-          el('div', { className: 'text-bold' }, player.nationality || '—')
+        el('div', { className: 'vital-box' },
+          el('div', { className: 'vital-lbl' }, 'Гражданство'),
+          el('div', { className: 'vital-val' }, player.nationality || '—')
         )
       )
     )
@@ -148,7 +168,8 @@ function renderStatsTable(player, isGoalie) {
       el('tbody', {},
         stats.map(s => {
           const gk = s.gk || {};
-          return el('tr', {},
+          const isCurrent = s.season === '2026/27';
+          return el('tr', { className: isCurrent ? 'current-season-row' : '' },
             el('td', { style: { fontWeight: 'bold' } }, s.season),
             el('td', {}, s.compId),
             el('td', {}, s.gp),
@@ -182,18 +203,21 @@ function renderStatsTable(player, isGoalie) {
       )
     ),
     el('tbody', {},
-      stats.map(s => el('tr', {},
-        el('td', { style: { fontWeight: 'bold' } }, s.season),
-        el('td', {}, s.compId),
-        el('td', {}, s.gp),
-        el('td', {}, s.g ?? 0),
-        el('td', {}, s.a ?? 0),
-        el('td', { className: 'col-pts' }, s.pts ?? ((s.g || 0) + (s.a || 0))),
-        el('td', {}, (s.plusMinus > 0 ? `+${s.plusMinus}` : s.plusMinus) ?? 0),
-        el('td', {}, s.pim ?? 0),
-        el('td', {}, s.shots ?? '-'),
-        el('td', {}, s.toi || '-')
-      ))
+      stats.map(s => {
+        const isCurrent = s.season === '2026/27';
+        return el('tr', { className: isCurrent ? 'current-season-row' : '' },
+          el('td', { style: { fontWeight: 'bold' } }, s.season),
+          el('td', {}, s.compId),
+          el('td', {}, s.gp),
+          el('td', {}, s.g ?? 0),
+          el('td', {}, s.a ?? 0),
+          el('td', { className: 'col-pts' }, s.pts ?? ((s.g || 0) + (s.a || 0))),
+          el('td', {}, (s.plusMinus > 0 ? `+${s.plusMinus}` : s.plusMinus) ?? 0),
+          el('td', {}, s.pim ?? 0),
+          el('td', {}, s.shots ?? '-'),
+          el('td', {}, s.toi || '-')
+        );
+      })
     )
   );
 }

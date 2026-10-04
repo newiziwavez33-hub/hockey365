@@ -36,6 +36,32 @@
       }
     },
     "arena": { "type": ["string", "null"] },
+    "broadcast": {
+      "description": "Optional manually verified rights-holder viewing option for this specific match. Never populate from unverified listings or guessed links.",
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["type", "verified", "provider", "url", "sourceName", "sourceUrl", "verifiedAt"],
+      "properties": {
+        "type": { "enum": ["embed", "external"] },
+        "verified": { "const": true },
+        "provider": { "type": "string", "minLength": 1, "maxLength": 100 },
+        "url": { "type": "string", "pattern": "^https://[A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)+(?:[/?][^\\s\\\\#]*)?$" },
+        "sourceName": { "type": "string", "minLength": 1, "maxLength": 120 },
+        "sourceUrl": { "type": "string", "pattern": "^https://[A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)+(?:[/?][^\\s\\\\#]*)?$" },
+        "verifiedAt": { "type": "string", "format": "date-time", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "embed" } } },
+          "then": {
+            "properties": {
+              "provider": { "const": "YouTube" },
+              "url": { "pattern": "^https://www\\.youtube-nocookie\\.com/embed/[A-Za-z0-9_-]{11}$" }
+            }
+          }
+        }
+      ]
+    },
     "officials": {
       "type": "object",
       "properties": {

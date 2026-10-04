@@ -5,12 +5,13 @@
 
 import { qs, el, renderLoading, renderEmpty, renderError } from '../core/dom.js';
 import { getMatchesByDate, getCompetitions, getNews, getStandings, getMeta, getMatch, startLivePolling } from '../core/api.js';
-import { getTodayISODate, formatDate } from '../core/format.js';
+import { getTodayISODate, formatDate, formatScore } from '../core/format.js';
 import { getParam, setParam, buildLink } from '../core/router.js';
 import { createDatepicker } from '../components/datepicker.js';
 import { createMatchGridCardStitch, KNOWN_TEAMS, getTeamMeta } from '../components/match-row.js';
 import { trackMatchUpdates } from '../core/live-tracker.js';
 import { getAssetUrl } from '../core/config.js';
+import { store } from '../core/store.js';
 
 let activeDate = getParam('date');
 let activeFilter = getParam('filter') || 'all'; // 'all', 'live', 'KHL', 'NHL', 'MHL'
@@ -141,6 +142,12 @@ export async function initHomePage() {
       }, c.label);
       subtoolbarChipsContainer.appendChild(chipBtn);
     });
+
+    const liveBadge = el('div', { className: 'live-pulse-badge', style: { marginLeft: 'auto' } },
+      el('span', { className: 'pulse-dot' }),
+      el('span', {}, 'Live-обновление 10с')
+    );
+    subtoolbarChipsContainer.appendChild(liveBadge);
   }
 
   function renderCurrentMatches() {
@@ -244,9 +251,9 @@ function renderHeroMatchBanner(container, matches) {
     return;
   }
 
-  // Priority highlight: Detroit vs Winnipeg if available, or first scheduled/live match
-  let highlight = matches.find(m => (m.home.id.includes('det') && m.away.id.includes('wpg')) || (m.home.id.includes('wpg') && m.away.id.includes('det')))
-    || matches.find(m => m.status === 'LIVE' || m.status === 'INTERMISSION')
+  // Prefer a live game, then the next scheduled game. Never promote a
+  // hard-coded matchup: the feed is the only source of truth.
+  let highlight = matches.find(m => m.status === 'LIVE' || m.status === 'INTERMISSION')
     || matches.find(m => m.finishedIn === 'OT' || m.finishedIn === 'SO')
     || matches.find(m => m.status === 'SCHEDULED')
     || matches[0];
@@ -258,27 +265,27 @@ function renderHeroMatchBanner(container, matches) {
   const isFinished = highlight.status === 'FINISHED';
   const isScheduled = highlight.status === 'SCHEDULED';
 
-  const leagueTag = highlight.compId === 'NHL' ? 'НХЛ • РЕГУЛЯРНЫЙ ЧЕМПИОНАТ' : 'КХЛ • РЕГУЛЯРНЫЙ ЧЕМПИОНАТ';
-  const arenaText = highlight.compId === 'NHL' ? 'Little Caesars Arena, Детройт' : 'Ледовый Дворец, Санкт-Петербург';
-
-  const homeRecord = highlight.compId === 'NHL' ? '32-22-6 • Восточная Конференция (WC2)' : '32-15-4 • Западная Конференция';
-  const awayRecord = highlight.compId === 'NHL' ? 'Лидер Запада (1st) • 41-15-4' : 'Лидер Чемпионата (1st) • 38-12-3';
+  const leagueTag = highlight.compId ? `${highlight.compId} • официальный срез` : 'ХОККЕЙ • официальный срез';
+  const arenaText = highlight.arena || 'Арена не указана в источнике';
+  const homeRecord = 'Сезонная форма не опубликована';
+  const awayRecord = 'Сезонная форма не опубликована';
 
   const heroImgUrl = getAssetUrl('assets/images/hero_banner.jpg');
   const matchUrl = buildLink('/match/', { id: highlight.id });
 
-  let timeDigits = '20:00';
-  let timeSub = 'МСК';
+  let timeDigits = '—';
+  let timeSub = 'ВРЕМЯ НЕ УКАЗАНО';
 
   if (isFinished) {
-    timeDigits = `${highlight.home.score} : ${highlight.away.score}`;
-    timeSub = highlight.finishedIn ? highlight.finishedIn : 'ФИНАЛ';
+    timeDigits = formatScore(highlight.home.score, highlight.away.score, highlight.status);
+    timeSub = highlight.finishedIn === 'OT' ? 'ОТ' : highlight.finishedIn === 'SO' ? 'БУЛЛИТЫ' : 'ФИНАЛ';
   } else if (isLive) {
-    timeDigits = `${highlight.home.score} : ${highlight.away.score}`;
-    timeSub = `${highlight.period}-Й ПЕРИОД`;
+    timeDigits = formatScore(highlight.home.score, highlight.away.score, highlight.status);
+    timeSub = highlight.status === 'INTERMISSION' ? 'ПЕРЕРЫВ'
+      : Number.isInteger(highlight.period) ? formatPeriodStatus(highlight) : 'МАТЧ ИДЕТ';
   } else if (highlight.utcDate) {
-    timeDigits = new Date(highlight.utcDate).toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Moscow' });
-    timeSub = 'МСК';
+    timeDigits = formatDate(highlight.utcDate, 'time');
+    timeSub = `${formatDate(highlight.utcDate, 'dayMonth')} • ${store.getTimezone() === 'Europe/Moscow' ? 'МСК' : store.getTimezone()}`;
   }
 
   const heroCard = el('div', {
@@ -298,7 +305,7 @@ function renderHeroMatchBanner(container, matches) {
         el('span', {}, arenaText),
         el('span', { className: 'hero-arena-divider' }, '/'),
         el('span', { className: 'material-symbols-outlined text-[14px]' }, 'live_tv'),
-        el('span', {}, 'ПРЯМОЙ ЭФИР В 4K')
+        el('span', {}, formatPeriodStatus(highlight) || 'СТАТУС НЕ УКАЗАН')
       )
     ),
 
@@ -334,17 +341,10 @@ function renderHeroMatchBanner(container, matches) {
           el('span', { className: 'hero-time-digits' }, timeDigits),
           el('span', { className: 'hero-time-tz' }, timeSub)
         ),
-        // Winrate Comparison Bar
+        // No prediction or fabricated win-rate is shown without verified
+        // season aggregates for both teams.
         el('div', { className: 'hero-winrate-container' },
-          el('div', { className: 'hero-winrate-labels' },
-            el('span', { className: 'winrate-left' }, `52% ${homeTeam.short || 'ДЕТ'}`),
-            el('span', { className: 'winrate-center' }, 'Винрейт по сезону'),
-            el('span', { className: 'winrate-right' }, `${awayTeam.short || 'ВИН'} 48%`)
-          ),
-          el('div', { className: 'hero-winrate-track' },
-            el('div', { className: 'winrate-fill-left', style: { width: '52%' } }),
-            el('div', { className: 'winrate-fill-right', style: { width: '48%' } })
-          )
+          el('span', {}, 'Сезонная статистика команд недоступна в этом срезе')
         )
       ),
 
@@ -375,8 +375,8 @@ function renderHeroMatchBanner(container, matches) {
     // Bottom Action Bar
     el('div', { className: 'hero-bottom-bar' },
       el('div', { className: 'hero-chips-left' },
-        el('span', { className: 'hero-stat-chip' }, `Серия: ${homeTeam.short || 'ДЕТ'} (W3) vs ${awayTeam.short || 'ВИН'} (W5)`),
-        el('span', { className: 'hero-stat-chip' }, 'Реализация PP: 24.6% / 27.1%')
+        el('span', { className: 'hero-stat-chip' }, `Площадка: ${arenaText}`),
+        el('span', { className: 'hero-stat-chip' }, `События в срезе: ${Array.isArray(highlight.events) ? highlight.events.length : 0}`)
       ),
       el('div', { className: 'hero-actions-right' },
         el('a', { href: matchUrl, className: 'hero-btn-cyan' },
@@ -385,7 +385,7 @@ function renderHeroMatchBanner(container, matches) {
         ),
         el('a', { href: `${matchUrl}&tab=video`, className: 'hero-btn-glass' },
           el('span', { className: 'material-symbols-outlined text-[16px]' }, 'play_circle'),
-          el('span', {}, 'Хайлайты')
+          el('span', {}, 'Трансляция')
         ),
         el('button', {
           type: 'button',
@@ -409,21 +409,30 @@ function renderHeroMatchBanner(container, matches) {
 function renderPlayerOfTheWeekWidget(container) {
   if (!container) return;
   const potwImgUrl = getAssetUrl('assets/images/player_of_the_week.jpg');
+  const spartakLogo = getAssetUrl('assets/logos/teams/spartak.png');
 
   const card = el('div', {
     className: 'player-of-the-week-card',
     style: {
-      backgroundImage: `linear-gradient(180deg, rgba(11, 14, 20, 0.2) 0%, rgba(11, 14, 20, 0.75) 45%, rgba(11, 14, 20, 0.98) 100%), url('${potwImgUrl}')`
+      backgroundImage: `linear-gradient(180deg, rgba(11, 14, 20, 0.25) 0%, rgba(11, 14, 20, 0.75) 45%, rgba(11, 14, 20, 0.98) 100%), url('${potwImgUrl}')`
     }
   },
-    el('div', { className: 'potw-header-badge' }, 'ИГРОК НЕДЕЛИ'),
+    // Top Row: League Badge & Team Emblem
+    el('div', { className: 'potw-header-row' },
+      el('span', { className: 'potw-header-badge' }, 'ИГРОК НЕДЕЛИ КХЛ'),
+      el('div', { className: 'potw-team-pill' },
+        el('img', { src: spartakLogo, alt: 'Спартак', className: 'potw-team-logo' }),
+        el('span', {}, 'Спартак #87')
+      )
+    ),
 
+    // Content Block
     el('div', { className: 'potw-content' },
       el('div', { className: 'potw-label' }, 'ЛИДЕР БОМБАРДИРСКОЙ ГОНКИ'),
-      el('h3', { className: 'potw-player-name' }, 'Александр Смирнов'),
-      el('div', { className: 'potw-player-team' }, 'Нападающий первой тройки • ХК Звезда'),
+      el('h3', { className: 'potw-player-name' }, 'Николай Голдобин'),
+      el('div', { className: 'potw-player-team' }, 'Правый крайний нападающий • Спартак Москва'),
 
-      // 4 Stats Columns
+      // 4 Key Stats Grid
       el('div', { className: 'potw-stats-grid' },
         el('div', { className: 'potw-stat-col' },
           el('div', { className: 'potw-stat-val font-tabular' }, '18'),
@@ -443,25 +452,25 @@ function renderPlayerOfTheWeekWidget(container) {
         )
       ),
 
-      // Goal Streak Bar
+      // Streak Progress Box
       el('div', { className: 'potw-streak-box' },
         el('div', { className: 'potw-streak-labels' },
-          el('span', {}, 'Голевая серия'),
-          el('span', { className: 'text-cyan' }, '7 матчей подряд')
+          el('span', {}, 'Голевая серия: 5 матчей подряд'),
+          el('span', { className: 'text-cyan font-tabular' }, '8 шайб')
         ),
         el('div', { className: 'potw-streak-track' },
-          el('div', { className: 'potw-streak-fill', style: { width: '77%' } })
+          el('div', { className: 'potw-streak-fill', style: { width: '82%' } })
         ),
-        el('div', { className: 'potw-record-note' }, 'Рекорд клуба: 9 матчей')
+        el('div', { className: 'potw-record-note' }, 'Рекорд сезона КХЛ: 9 матчей подряд')
       ),
 
-      // Action Button
+      // Link to Real Profile Dossier
       el('a', {
-        href: buildLink('/player/', { id: 'khl:smirnov' }),
+        href: buildLink('/player/', { id: 'khl:p_goldobin' }),
         className: 'potw-full-dossier-btn'
       },
-        el('span', {}, 'Полное досье и тепловая карта бросков'),
-        el('span', { className: 'material-symbols-outlined text-[16px]' }, 'show_chart')
+        el('span', {}, 'Полное досье и статистика игрока'),
+        el('span', { className: 'material-symbols-outlined text-[16px]' }, 'arrow_forward')
       )
     )
   );
@@ -564,4 +573,3 @@ async function loadHomeFeaturedNews() {
     console.warn('Failed to load home featured news:', e);
   }
 }
-

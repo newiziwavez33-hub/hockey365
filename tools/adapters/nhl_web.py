@@ -363,6 +363,23 @@ def sync_nhl_schedule(output_data_dir):
                 "h2h": []
             }
 
+            # The public schedule exposes an official NHL Gamecenter page, but
+            # not a guaranteed playable stream URL. Keep that distinction
+            # explicit: the client can take the user to the rights-holder page
+            # without pretending that every market has the same video rights.
+            game_center_path = g.get('gameCenterLink')
+            if isinstance(game_center_path, str) and game_center_path.startswith('/gamecenter/'):
+                game_center_url = f"https://www.nhl.com{game_center_path}"
+                match_obj["broadcast"] = {
+                    "type": "external",
+                    "verified": True,
+                    "provider": "NHL.com",
+                    "url": game_center_url,
+                    "sourceName": "NHL.com Gamecenter",
+                    "sourceUrl": game_center_url,
+                    "verifiedAt": datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
+                }
+
             single_match_file = os.path.join(matches_dir, f"{game_id}.json")
             with open(single_match_file, 'w', encoding='utf-8') as mf:
                 json.dump(match_obj, mf, ensure_ascii=False, indent=2)

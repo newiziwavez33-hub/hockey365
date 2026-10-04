@@ -30,6 +30,28 @@ def test_nhl_schedule_does_not_invent_boxscore_or_roster(tmp_path, monkeypatch):
     assert match['clock'] is None
 
 
+def test_nhl_schedule_keeps_official_gamecenter_as_verified_external_link(tmp_path, monkeypatch):
+    monkeypatch.setattr(nhl_web, 'fetch_nhl_url', lambda url: {
+        'gameWeek': [{'date': '2026-10-04', 'games': [{
+            'id': 2026020002, 'gameType': 2, 'gameState': 'FUT',
+            'startTimeUTC': '2026-10-04T23:00:00Z',
+            'gameCenterLink': '/gamecenter/bos-vs-nyr/2026/10/04/2026020002',
+            'homeTeam': {'abbrev': 'NYR'}, 'awayTeam': {'abbrev': 'BOS'},
+        }]}]
+    })
+    nhl_web.sync_nhl_schedule(tmp_path)
+    match = json.loads((tmp_path / 'matches' / 'nhl:2026020002.json').read_text())
+    assert match['broadcast'] == {
+        'type': 'external',
+        'verified': True,
+        'provider': 'NHL.com',
+        'url': 'https://www.nhl.com/gamecenter/bos-vs-nyr/2026/10/04/2026020002',
+        'sourceName': 'NHL.com Gamecenter',
+        'sourceUrl': 'https://www.nhl.com/gamecenter/bos-vs-nyr/2026/10/04/2026020002',
+        'verifiedAt': match['broadcast']['verifiedAt'],
+    }
+
+
 def test_normalizer_does_not_modify_unverified_scores_or_freshness(tmp_path):
     data = tmp_path / 'data'
     dates = data / 'matches' / 'by-date'

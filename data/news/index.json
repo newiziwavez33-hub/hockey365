@@ -1,6 +1,77 @@
 {
   "news": [
     {
+      "id": "news-6644712",
+      "slug": "kapitan-ne-dolzhen-uhodit-s-korablya-kogda-on-daleko-ot-berega-larionov-o-larkine",
+      "title": "«Капитан не должен уходить с корабля, когда он далеко от берега». Ларионов – о Ларкине",
+      "summary": "Трёхкратный обладатель Кубка Стэнли в составе «Детройт Ред Уингз», главный тренер СКА Игорь Ларионов оценил желание Дилана Ларкина покинуть американский клуб.",
+      "content": "Трёхкратный обладатель Кубка Стэнли в составе «Детройт Ред Уингз», главный тренер СКА Игорь Ларионов оценил желание Дилана Ларкина покинуть американский клуб.",
+      "image": "https://img.championat.com/news/big/n/l/kapitan-ne-dolzhen-uhodit-s-korablya-kogda-on-daleko-ot-berega-larionov-o-larkine_17911251161368877268.jpg",
+      "publishedAt": "2026-10-04T17:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644712-kapitan-ne-dolzhen-uhodit-s-korablya-kogda-on-daleko-ot-berega-larionov-o-larkine.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "НХЛ",
+        "Эксклюзив",
+        "СКА",
+        "Детройт Ред Уингз",
+        "Игорь Ларионов",
+        "Дилан Ларкин"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "nhl:det"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644790",
+      "slug": "spartak-barys-rezultat-matcha-4-oktyabrya-2026-goda-schet-3-4-b-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "«Спартак» упустил победу в концовке встречи с «Барысом» и проиграл шестой матч подряд",
+      "summary": "Сегодня, 4 октября, в Москве на стадионе «Мегаспорт» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Спартак» принимал астанинский «Барыс».",
+      "content": "Сегодня, 4 октября, в Москве на стадионе «Мегаспорт» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Спартак» принимал астанинский «Барыс».",
+      "image": "https://img.championat.com/news/big/y/n/spartak-upustil-pobedu-v-koncovke-vstrechi-s-barysom-i-proigral-shestoj-match-podryad_1791131819850747973.jpg",
+      "publishedAt": "2026-10-04T16:36:59Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644790-spartak-barys-rezultat-matcha-4-oktyabrya-2026-goda-schet-3-4-b-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Спартак",
+        "Барыс"
+      ],
+      "relatedTeamIds": [
+        "khl:barys",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6644744",
+      "slug": "igor-grishin-ocenil-pobedu-neftehimika-v-matche-s-sibiryu",
+      "title": "Игорь Гришин оценил победу «Нефтехимика» в матче с «Сибирью»",
+      "summary": "Главный тренер «Нефтехимика» Игорь Гришин прокомментировал победу в домашнем матче с «Сибирью» (3:2) и отметил выбор музыки при голах нижнекамской команды.",
+      "content": "Главный тренер «Нефтехимика» Игорь Гришин прокомментировал победу в домашнем матче с «Сибирью» (3:2) и отметил выбор музыки при голах нижнекамской команды.",
+      "image": "https://img.championat.com/news/big/w/o/igor-grishin-ocenil-pobedu-n.jpg",
+      "publishedAt": "2026-10-04T15:55:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644744-igor-grishin-ocenil-pobedu-neftehimika-v-matche-s-sibiryu.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Сибирь",
+        "Нефтехимик",
+        "Игорь Гришин"
+      ],
+      "relatedTeamIds": [
+        "khl:neftekhimik",
+        "khl:sibir"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6644736",
       "slug": "zabili-na-odin-gol-menshe-i-proigrali-glavnyj-trener-sibiri-o-2-3-s-neftehimikom",
       "title": "«Забили на один гол меньше и проиграли». Главный тренер «Сибири» — о 2:3 с «Нефтехимиком»",
@@ -676,88 +747,6 @@
       "relatedTeamIds": [
         "khl:dynamo-mns",
         "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6644062",
-      "slug": "legioner-cska-prokommentiroval-emocionalnuyu-pobedu-v-moskovskom-derbi-s-dinamo",
-      "title": "Легионер ЦСКА прокомментировал эмоциональную победу в московском дерби с «Динамо»",
-      "summary": "Канадский защитник ЦСКА Алекс Коттон высказался о победе над московским «Динамо» (4:3 Б) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Канадский защитник ЦСКА Алекс Коттон высказался о победе над московским «Динамо» (4:3 Б) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/q/f/legioner-cska-prokommentirov.jpg",
-      "publishedAt": "2026-10-04T08:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6644062-legioner-cska-prokommentiroval-emocionalnuyu-pobedu-v-moskovskom-derbi-s-dinamo.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "ЦСКА",
-        "Динамо Москва"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6644182",
-      "slug": "malkin-vyshel-na-chistoe-22-e-mesto-v-spiske-luchshih-bombardirov-v-istorii-nhl",
-      "title": "Малкин вышел на чистое 22-е место в списке лучших бомбардиров в истории НХЛ",
-      "summary": "Российский нападающий «Питтсбург Пингвинз» Евгений Малкин забросил шайбу и сделал две результативные передачи в матче регулярного чемпионата НХЛ с «Монреаль Канадиенс» (6:5 ОТ).",
-      "content": "Российский нападающий «Питтсбург Пингвинз» Евгений Малкин забросил шайбу и сделал две результативные передачи в матче регулярного чемпионата НХЛ с «Монреаль Канадиенс» (6:5 ОТ).",
-      "image": "https://img.championat.com/news/big/k/u/malkin-vyshel-na-chistoe-22-e-mesto-v-spiske-luchshih-bombardirov-v-istorii-nhl_1791099371854371692.jpg",
-      "publishedAt": "2026-10-04T07:36:14Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6644182-malkin-vyshel-na-chistoe-22-e-mesto-v-spiske-luchshih-bombardirov-v-istorii-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Питтсбург Пингвинз",
-        "Монреаль Канадиенс",
-        "Евгений Малкин",
-        "Чикаго Блэкхоукс",
-        "Патрик Кейн",
-        "Адам Оутс"
-      ],
-      "relatedTeamIds": [
-        "nhl:chi",
-        "nhl:mtl",
-        "nhl:pit"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6644154",
-      "slug": "rossijskij-vratar-ajlenders-sorokin-priznan-pervoj-zvezdoj-dnya-v-nhl",
-      "title": "Российский вратарь «Айлендерс» Сорокин признан первой звездой дня в НХЛ",
-      "summary": "Российский вратарь «Нью-Йорк Айлендерс» Илья Сорокин признан первой звездой игрового дня в Национальной хоккейной лиге.",
-      "content": "Российский вратарь «Нью-Йорк Айлендерс» Илья Сорокин признан первой звездой игрового дня в Национальной хоккейной лиге.",
-      "image": "https://img.championat.com/news/big/k/e/rossijskij-vratar-ajlenders-sorokin-priznan-pervoj-zvezdoj-dnya-v-nhl_17910981452116039713.jpg",
-      "publishedAt": "2026-10-04T07:15:50Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6644154-rossijskij-vratar-ajlenders-sorokin-priznan-pervoj-zvezdoj-dnya-v-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Питтсбург Пингвинз",
-        "Каролина Харрикейнз",
-        "Монреаль Канадиенс",
-        "Филадельфия Флайерз",
-        "Нью-Йорк Айлендерс",
-        "Нью-Джерси Дэвилз",
-        "Илья Сорокин",
-        "Себастьян Ахо"
-      ],
-      "relatedTeamIds": [
-        "nhl:car",
-        "nhl:mtl",
-        "nhl:njd",
-        "nhl:nyi",
-        "nhl:phi",
-        "nhl:pit"
       ],
       "relatedPlayerIds": []
     }

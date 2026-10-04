@@ -10,15 +10,21 @@ import { createLinesBoard } from '../components/lines-board.js';
 import { createRinkSvg } from '../components/rink-svg.js';
 import { getAssetUrl } from '../core/config.js';
 import { formatScore, formatPeriodStatus, formatDate } from '../core/format.js';
+import { store } from '../core/store.js';
 import { availablePlayerIds, playerName } from '../core/profile-links.js';
 import { playGoalHorn } from '../core/sound.js';
 import { showGoalToast } from '../core/live-tracker.js';
 import { KNOWN_TEAMS, getTeamMeta } from '../components/match-row.js';
 
+function storeTimezoneLabel() {
+  const timezone = store.getTimezone();
+  return timezone === 'Europe/Moscow' ? 'МСК' : timezone === 'UTC' ? 'UTC' : 'местное время';
+}
+
 export async function initMatchPage() {
   const matchId = getParam('id');
   let activeTab = getParam('tab') || 'events';
-  if (!['events', 'lineups', 'stats', 'rink', 'info'].includes(activeTab)) activeTab = 'events';
+  if (!['events', 'lineups', 'stats', 'rink', 'info', 'video'].includes(activeTab)) activeTab = 'events';
 
   const headerSlot = qs('#match-header-slot');
   const tabsSlot = qs('#match-tabs-slot');
@@ -89,18 +95,18 @@ export async function initMatchPage() {
     } else {
       statusClass = 'status-scheduled';
       const timeStr = match.utcDate
-        ? new Date(match.utcDate).toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Moscow' })
-        : '20:00';
-      statusLabel = `НАЧАЛО В ${timeStr} МСК`;
+        ? formatDate(match.utcDate, 'time')
+        : 'ВРЕМЯ НЕ УКАЗАНО';
+      statusLabel = timeStr === 'ВРЕМЯ НЕ УКАЗАНО' ? timeStr : `НАЧАЛО В ${timeStr} ${storeTimezoneLabel()}`;
     }
 
-    const arenaName = match.arena || (match.compId === 'NHL' ? 'Little Caesars Arena, Детройт' : 'Ледовая Арена');
+    const arenaName = match.arena || 'Арена не указана в источнике';
 
     // Center display
     const centerLabel = isScheduled ? 'СТАРТОВОЕ ВБРАСЫВАНИЕ' : (isLive ? 'ТЕКУЩИЙ СЧЕТ' : 'ИТОГОВЫЙ СЧЕТ');
-    const homeScoreVal = isScheduled ? '-' : (match.home.score ?? 0);
-    const awayScoreVal = isScheduled ? '-' : (match.away.score ?? 0);
-    const dateSubText = match.utcDate ? `${formatDate(match.utcDate, 'full')} • ${new Date(match.utcDate).toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Moscow' })} МСК` : 'Сегодня • 20:00 МСК';
+    const homeScoreVal = isScheduled ? '-' : (match.home.score ?? '-');
+    const awayScoreVal = isScheduled ? '-' : (match.away.score ?? '-');
+    const dateSubText = match.utcDate ? formatDate(match.utcDate, 'full') : 'Дата и время не указаны';
 
     // Subtitles (e.g. "Detroit • Red Wings" or city)
     const homeSub = homeTeam.nameEn || homeTeam.city || (homeTeam.short || '');
@@ -198,6 +204,7 @@ export async function initMatchPage() {
     { id: 'lineups', label: 'Составы (Пятёрки)' },
     { id: 'stats', label: 'Статистика матча' },
     { id: 'rink', label: 'Площадка' },
+    { id: 'video', label: 'Трансляция' },
     { id: 'info', label: 'Судьи и арена' }
   ];
 
@@ -229,6 +236,8 @@ export async function initMatchPage() {
       renderStatsTab(contentSlot, match, homeTeam, awayTeam);
     } else if (activeTab === 'rink') {
       contentSlot.appendChild(createRinkSvg(match.events || []));
+    } else if (activeTab === 'video') {
+      renderVideoTab(contentSlot, match);
     } else if (activeTab === 'info') {
       renderInfoTab(contentSlot, match);
     }
@@ -258,13 +267,106 @@ export async function initMatchPage() {
         });
       }
 
+      const previousBroadcast = JSON.stringify(normalizeBroadcast(match.broadcast));
       match = updated;
       renderMatchHeader();
-      renderTabBody();
+      // Do not tear down an active player on each score update. If the
+      // broadcast is withdrawn or changed, tear it down and require a new click.
+      if (activeTab !== 'video' || JSON.stringify(normalizeBroadcast(match.broadcast)) !== previousBroadcast) {
+        renderTabBody();
+      }
     }, 10000);
 
     window.addEventListener('beforeunload', () => stopPolling());
   }
+}
+
+// Data is static/editorial, but a browser must not trust it merely because it
+// passed a build-time schema check. In particular never put arbitrary URLs in
+// an iframe, and never interpret an unverified URL as a viewing option.
+function safeHttpsUrl(value) {
+  if (typeof value !== 'string' || !/^https:\/\//i.test(value) || /[\s\\]/.test(value)) return null;
+  try {
+    const url = new URL(value);
+    if (url.protocol !== 'https:' || url.username || url.password || url.port || url.hash ||
+        !/^[A-Za-z0-9.-]+$/.test(url.hostname) || !url.hostname.includes('.') ||
+        url.hostname.endsWith('.') || /^(?:localhost|\d+(?:\.\d+){3})$/i.test(url.hostname)) return null;
+    return url;
+  } catch {
+    return null;
+  }
+}
+
+export function normalizeBroadcast(broadcast) {
+  if (!broadcast || typeof broadcast !== 'object' || Array.isArray(broadcast) ||
+      broadcast.verified !== true || !['embed', 'external'].includes(broadcast.type) ||
+      typeof broadcast.provider !== 'string' || !broadcast.provider.trim() ||
+      typeof broadcast.sourceName !== 'string' || !broadcast.sourceName.trim() ||
+      typeof broadcast.verifiedAt !== 'string' ||
+      !/^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d(?:\.\d+)?(?:Z|[+-]\d\d:\d\d)$/.test(broadcast.verifiedAt) ||
+      Number.isNaN(Date.parse(broadcast.verifiedAt))) return null;
+
+  const url = safeHttpsUrl(broadcast.url);
+  const sourceUrl = safeHttpsUrl(broadcast.sourceUrl);
+  if (!url || !sourceUrl) return null;
+  if (broadcast.type === 'embed' &&
+      (broadcast.provider !== 'YouTube' || url.hostname !== 'www.youtube-nocookie.com' ||
+       !/^\/embed\/[A-Za-z0-9_-]{11}$/.test(url.pathname) || url.search)) return null;
+
+  return {
+    type: broadcast.type,
+    provider: broadcast.provider.trim(),
+    url: url.href,
+    sourceName: broadcast.sourceName.trim(),
+    sourceUrl: sourceUrl.href,
+    verifiedAt: broadcast.verifiedAt
+  };
+}
+
+export function renderVideoTab(container, match) {
+  const broadcast = normalizeBroadcast(match?.broadcast);
+  const card = el('section', { className: 'match-broadcast card', 'aria-labelledby': 'broadcast-heading' },
+    el('h2', { id: 'broadcast-heading', className: 'match-broadcast-title' }, 'Трансляция матча')
+  );
+  container.appendChild(card);
+
+  if (!broadcast) {
+    card.appendChild(el('p', { className: 'match-broadcast-empty', role: 'status' },
+      'Подтверждённая официальная трансляция этого матча недоступна. Ссылку на просмотр мы не публикуем без проверки источника.'));
+    return;
+  }
+
+  card.appendChild(el('p', { className: 'match-broadcast-notice' },
+    'Просмотр может быть недоступен в вашем регионе или требовать подписку у правообладателя. Доступность и условия определяет вещатель. Автовоспроизведение отключено.'));
+  card.appendChild(el('p', { className: 'match-broadcast-source' },
+    'Источник: ',
+    el('a', { href: broadcast.sourceUrl, target: '_blank', rel: 'noopener noreferrer' }, broadcast.sourceName),
+    ` · Проверено: ${new Date(broadcast.verifiedAt).toLocaleDateString('ru-RU')}`
+  ));
+
+  if (broadcast.type === 'external') {
+    card.appendChild(el('a', {
+      href: broadcast.url, target: '_blank', rel: 'noopener noreferrer', className: 'match-broadcast-action'
+    }, `Открыть официальный матч-центр ${broadcast.provider} — откроется в новой вкладке`));
+    return;
+  }
+
+  const player = el('div', { className: 'match-broadcast-player' });
+  const button = el('button', {
+    type: 'button', className: 'match-broadcast-action',
+    onClick: () => {
+      // The third-party iframe is not even created before explicit consent.
+      button.remove();
+      player.appendChild(el('iframe', {
+        src: broadcast.url, title: `Официальная трансляция матча — ${broadcast.provider}`,
+        loading: 'lazy', referrerpolicy: 'strict-origin-when-cross-origin',
+        sandbox: 'allow-scripts allow-same-origin allow-presentation',
+        allow: 'encrypted-media; picture-in-picture; fullscreen', allowfullscreen: ''
+      }));
+    }
+  }, `Загрузить проигрыватель ${broadcast.provider}`);
+  card.appendChild(button);
+  card.appendChild(player);
 }
 
 function renderPeriodBreakdownTable(match, homeTeam, awayTeam) {
@@ -321,10 +423,21 @@ function renderPeriodBreakdownTable(match, homeTeam, awayTeam) {
 function renderEventsTab(container, match, available, switchTab = null) {
   if (!match.events || match.events.length === 0) {
     const timeStr = match.utcDate
-      ? new Date(match.utcDate).toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Moscow' })
-      : '20:00';
-    const arenaStr = match.arena || (match.compId === 'NHL' ? 'Little Caesars Arena, Детройт' : 'Ледовая Арена');
-    const compName = match.compId || 'КХЛ / НХЛ';
+      ? formatDate(match.utcDate, 'full')
+      : 'Дата и время не указаны';
+    const arenaStr = match.arena || 'Арена не указана в источнике';
+    const officials = match.officials || {};
+    const officialNames = [...(officials.referees || []), ...(officials.linesmen || [])].filter(Boolean);
+    const isScheduled = match.status === 'SCHEDULED';
+    const isLive = match.status === 'LIVE' || match.status === 'INTERMISSION';
+    const emptyTitle = isScheduled ? `Матч начнётся: ${timeStr}`
+      : isLive ? 'События матча загружаются'
+      : 'События матча не опубликованы';
+    const emptyDescription = isScheduled
+      ? 'Хроника появится после стартового свистка. Данные берутся из опубликованного протокола матча.'
+      : isLive
+        ? 'Официальный поставщик ещё не опубликовал события. Следите за обновлением счёта и вернитесь позже.'
+        : 'Для этого матча в опубликованном срезе нет подтверждённой хроники.';
 
     const hub = el('div', { className: 'prematch-hub-card' },
       // Glowing Ice Icon Ring
@@ -336,14 +449,10 @@ function renderEventsTab(container, match, available, switchTab = null) {
       el('div', { className: 'prematch-header-block' },
         el('div', { className: 'prematch-live-tag' },
           el('span', { className: 'prematch-pulse-dot' }),
-          el('span', {}, 'ОЖИДАНИЕ СТАРТОВОГО ВБРАСЫВАНИЯ')
+          el('span', {}, isScheduled ? 'ОЖИДАНИЕ СТАРТОВОГО ВБРАСЫВАНИЯ' : 'ХРОНИКА НЕДОСТУПНА')
         ),
-        el('h3', { className: 'prematch-title' }, `Матч начнется в ${timeStr} по московскому времени`),
-        el('p', { className: 'prematch-description' },
-          'События появятся здесь в реальном времени сразу после стартового свистка. Арена ',
-          el('span', { className: 'highlight-text' }, arenaStr),
-          ' готова к игре, команды завершают разминку на льду.'
-        )
+        el('h3', { className: 'prematch-title' }, emptyTitle),
+        el('p', { className: 'prematch-description' }, emptyDescription)
       ),
 
       // Contextual Pre-Match Badges Grid
@@ -359,14 +468,14 @@ function renderEventsTab(container, match, available, switchTab = null) {
           el('span', { className: 'material-symbols-outlined' }, 'gavel'),
           el('div', { className: 'detail-texts' },
             el('span', { className: 'detail-label' }, 'Судейская бригада'),
-            el('span', { className: 'detail-value' }, `Назначена • Официальный протокол ${compName}`)
+            el('span', { className: 'detail-value' }, officialNames.length ? officialNames.join(', ') : 'Не указана в источнике')
           )
         ),
         el('div', { className: 'prematch-detail-box' },
           el('span', { className: 'material-symbols-outlined' }, 'sensors'),
           el('div', { className: 'detail-texts' },
             el('span', { className: 'detail-label' }, 'Телеметрия матча'),
-            el('span', { className: 'detail-value text-cyan' }, 'Live-трекинг бросков активен')
+            el('span', { className: 'detail-value text-cyan' }, match.stats ? 'Статистика опубликована' : 'Статистика не опубликована')
           )
         )
       ),

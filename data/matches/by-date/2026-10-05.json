@@ -31,7 +31,16 @@
     "events": [],
     "lineups": null,
     "stats": null,
-    "h2h": []
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/phi-vs-tbl/2026/10/05/2026020040",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/phi-vs-tbl/2026/10/05/2026020040",
+      "verifiedAt": "2026-10-04T00:00:00Z"
+    }
   },
   {
     "id": "nhl:2026020041",
@@ -65,7 +74,16 @@
     "events": [],
     "lineups": null,
     "stats": null,
-    "h2h": []
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/ott-vs-bos/2026/10/05/2026020041",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/ott-vs-bos/2026/10/05/2026020041",
+      "verifiedAt": "2026-10-04T00:00:00Z"
+    }
   },
   {
     "id": "nhl:2026020042",
@@ -99,7 +117,16 @@
     "events": [],
     "lineups": null,
     "stats": null,
-    "h2h": []
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/wpg-vs-pit/2026/10/05/2026020042",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/wpg-vs-pit/2026/10/05/2026020042",
+      "verifiedAt": "2026-10-04T00:00:00Z"
+    }
   },
   {
     "id": "nhl:2026020043",
@@ -133,6 +160,15 @@
     "events": [],
     "lineups": null,
     "stats": null,
-    "h2h": []
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/sjs-vs-dal/2026/10/05/2026020043",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/sjs-vs-dal/2026/10/05/2026020043",
+      "verifiedAt": "2026-10-04T00:00:00Z"
+    }
   }
 ]
