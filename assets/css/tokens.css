@@ -38,18 +38,24 @@ body,
   --color-penalty: #F97316;
 
   /* Stitch Typography Colors */
-  --text-primary: #F8FAFC;
-  --text-secondary: #94A3B8;
-  --text-muted: #64748B;
+  --text-primary: #FFFFFF;
+  --text-primary-soft: #F8FAFC;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  --text-dim: #64748B;
   --text-inverse: #0B0E14;
   --on-surface: #E1E2EB;
   --on-surface-variant: #BBC9CF;
   --on-primary: #003543;
 
   /* Stitch Borders & Glass */
-  --border-glass: rgba(255, 255, 255, 0.08);
-  --border-subtle: rgba(255, 255, 255, 0.05);
+  --border-glass: rgba(255, 255, 255, 0.10);
+  --border-glass-bright: rgba(255, 255, 255, 0.18);
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-cyan-glow: rgba(0, 210, 255, 0.40);
   --border-focus: #00D2FF;
+  --shadow-dock: 0 8px 32px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  --primary-glow: rgba(0, 210, 255, 0.35);
 
   /* Mappings to Global CSS Vars */
   --color-bg-primary: var(--surface-base);

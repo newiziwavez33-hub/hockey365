@@ -1,10 +1,10 @@
 /**
- * Hockey365 Service Worker (Offline PWA & Smart Network-First Caching v1.6.0)
+ * Hockey365 Service Worker (Offline PWA & Smart Network-First Caching v1.7.0)
  * Always loads the newest assets over network, falling back to cache if offline.
  * This guarantees the user NEVER needs to press Ctrl+F5 to see updates.
  */
 
-const CACHE_NAME = 'hockey365-v1-6-0';
+const CACHE_NAME = 'hockey365-v1-7-0';
 const STATIC_ASSETS = [
   './',
   'index.html',

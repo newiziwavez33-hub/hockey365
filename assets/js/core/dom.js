@@ -95,10 +95,34 @@ export function renderError(container, message = 'Не удалось загру
   container.appendChild(errorBox);
 }
 
-export function renderEmpty(container, message = 'Матчи не найдены') {
+export function renderEmpty(container, message = 'Данные отсутствуют', options = {}) {
   clearChildren(container);
-  const emptyBox = el('div', { className: 'state-message card' },
-    el('div', { className: 'text-muted' }, escapeHTML(message))
+
+  const iconName = options.icon || 'sports_hockey';
+  const titleText = options.title || 'Пока здесь пусто';
+  const ctaText = options.ctaText || null;
+  const ctaAction = options.ctaAction || null;
+
+  const emptyCard = el('div', { className: 'stitch-empty-showcase-card' },
+    // Ambient Icon Orb
+    el('div', { className: 'empty-showcase-orb' },
+      el('span', { className: 'material-symbols-outlined' }, iconName)
+    ),
+
+    // Heading & Message
+    el('h3', { className: 'empty-showcase-title' }, titleText),
+    el('p', { className: 'empty-showcase-desc' }, message),
+
+    // Optional CTA Button
+    ctaText ? el('button', {
+      type: 'button',
+      className: 'empty-showcase-cta-btn',
+      onClick: ctaAction
+    },
+      el('span', {}, ctaText),
+      el('span', { className: 'material-symbols-outlined text-[16px]' }, 'arrow_forward')
+    ) : null
   );
-  container.appendChild(emptyBox);
+
+  container.appendChild(emptyCard);
 }

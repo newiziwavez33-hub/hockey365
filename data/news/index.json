@@ -1,6 +1,31 @@
 {
   "news": [
     {
+      "id": "news-6644564",
+      "slug": "inogda-na-menya-rugaetsya-no-ya-prislushivayus-goldobin-ob-igre-s-plotnikovym",
+      "title": "«Иногда на меня ругается, но я прислушиваюсь». Голдобин — об игре с Плотниковым",
+      "summary": "Нападающий СКА Николай Голдобин высказался об игре с форвардом армейцев Сергеем Плотниковым.",
+      "content": "Нападающий СКА Николай Голдобин высказался об игре с форвардом армейцев Сергеем Плотниковым.",
+      "image": "https://img.championat.com/news/big/k/x/inogda-na-menya-rugaetsya-no-ya-prislushivayus-goldobin-ob-igre-s-plotnikovym_17911189041272391546.jpg",
+      "publishedAt": "2026-10-04T13:00:06Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6644564-inogda-na-menya-rugaetsya-no-ya-prislushivayus-goldobin-ob-igre-s-plotnikovym.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "СКА",
+        "Сергей Плотников",
+        "Николай Голдобин"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": [
+        "khl:p_goldobin"
+      ]
+    },
+    {
       "id": "news-6644556",
       "slug": "mnogo-momentov-sozdali-soperniku-glupye-goly-byli-goldobin-o-matche-s-admiralom",
       "title": "«Много моментов создали сопернику, глупые голы были». Голдобин — о матче с «Адмиралом»",
@@ -836,40 +861,6 @@
         "nhl:wsh"
       ],
       "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6644016",
-      "slug": "san-hose-sharks-los-andzheles-kingz-rezultat-matcha-4-oktyabrya-2026-schet-5-4-ot-regulyarnyj-chempionat-nhl-2026-2027",
-      "title": "Гол и передача Панарина не помогли «Лос-Анджелесу» одолеть «Сан-Хосе». У Чернышова — 2+1",
-      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Сан-Хосе Шаркс» и «Лос-Анджелес Кингз», который прошёл на стадионе «Эс-Эй-Пи-центр» в американском Сан-Хосе.",
-      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Сан-Хосе Шаркс» и «Лос-Анджелес Кингз», который прошёл на стадионе «Эс-Эй-Пи-центр» в американском Сан-Хосе.",
-      "image": "https://img.championat.com/news/big/d/i/gol-i-peredacha-panarina-ne-pomogli-los-andzhelesu-odolet-san-hose-u-chernyshova-2-1_17910901451165816131.jpg",
-      "publishedAt": "2026-10-04T05:02:26Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6644016-san-hose-sharks-los-andzheles-kingz-rezultat-matcha-4-oktyabrya-2026-schet-5-4-ot-regulyarnyj-chempionat-nhl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Видео",
-        "Артемий Панарин",
-        "Сан-Хосе Шаркс",
-        "Лос-Анджелес Кингз",
-        "Дмитрий Орлов",
-        "Ярослав Аскаров",
-        "Адриан Кемпе",
-        "Игорь Чернышов — хоккей",
-        "Тайлер Тоффоли",
-        "Эрик Хаула",
-        "Куинтон Байфилд"
-      ],
-      "relatedTeamIds": [
-        "nhl:lak",
-        "nhl:nyr",
-        "nhl:sjs"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8478550"
-      ]
     }
   ]
 }

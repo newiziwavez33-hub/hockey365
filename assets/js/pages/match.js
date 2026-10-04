@@ -13,6 +13,7 @@ import { formatScore, formatPeriodStatus, formatDate } from '../core/format.js';
 import { availablePlayerIds, playerName } from '../core/profile-links.js';
 import { playGoalHorn } from '../core/sound.js';
 import { showGoalToast } from '../core/live-tracker.js';
+import { KNOWN_TEAMS, getTeamMeta } from '../components/match-row.js';
 
 export async function initMatchPage() {
   const matchId = getParam('id');
@@ -40,13 +41,21 @@ export async function initMatchPage() {
     try {
       homeTeam = await getTeam(match.home.id);
     } catch {
-      homeTeam = { name: match.home.id, short: match.home.id, logo: '' };
+      homeTeam = getTeamMeta(match.home.id);
     }
     try {
       awayTeam = await getTeam(match.away.id);
     } catch {
-      awayTeam = { name: match.away.id, short: match.away.id, logo: '' };
+      awayTeam = getTeamMeta(match.away.id);
     }
+    const homeMeta = getTeamMeta(match.home.id);
+    const awayMeta = getTeamMeta(match.away.id);
+    if (!homeTeam.logo) homeTeam.logo = homeMeta.logo;
+    if (!awayTeam.logo) awayTeam.logo = awayMeta.logo;
+    if (!homeTeam.name || homeTeam.name === match.home.id) homeTeam.name = homeMeta.name;
+    if (!awayTeam.name || awayTeam.name === match.away.id) awayTeam.name = awayMeta.name;
+    if (!homeTeam.short) homeTeam.short = homeMeta.short;
+    if (!awayTeam.short) awayTeam.short = awayMeta.short;
   } catch (err) {
     renderError(contentSlot, 'Не удалось загрузить данные матча');
     return;
@@ -58,70 +67,126 @@ export async function initMatchPage() {
   function renderMatchHeader() {
     headerSlot.innerHTML = '';
     const arenaBg = getAssetUrl('assets/images/hero_banner.jpg');
+    const isLive = match.status === 'LIVE' || match.status === 'INTERMISSION';
+    const isFinished = match.status === 'FINISHED';
+    const isScheduled = match.status === 'SCHEDULED';
+
+    // Comp badge text
+    const compText = match.compId === 'NHL' ? 'НХЛ • РЕГУЛЯРНЫЙ СЕЗОН' :
+                     match.compId === 'KHL' ? 'КХЛ • РЕГУЛЯРНЫЙ ЧЕМПИОНАТ' :
+                     `${match.compId || 'ХОККЕЙ'} • РЕГУЛЯРНЫЙ СЕЗОН`;
+
+    // Status Pill
+    let statusClass = 'status-scheduled';
+    let statusLabel = '';
+    if (isLive) {
+      statusClass = 'status-live';
+      statusLabel = formatPeriodStatus(match);
+    } else if (isFinished) {
+      statusClass = 'status-finished';
+      const note = match.finishedIn === 'OT' ? ' (ОТ)' : match.finishedIn === 'SO' ? ' (Б)' : '';
+      statusLabel = `МАТЧ ЗАВЕРШЕН${note}`;
+    } else {
+      statusClass = 'status-scheduled';
+      const timeStr = match.utcDate
+        ? new Date(match.utcDate).toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Moscow' })
+        : '20:00';
+      statusLabel = `НАЧАЛО В ${timeStr} МСК`;
+    }
+
+    const arenaName = match.arena || (match.compId === 'NHL' ? 'Little Caesars Arena, Детройт' : 'Ледовая Арена');
+
+    // Center display
+    const centerLabel = isScheduled ? 'СТАРТОВОЕ ВБРАСЫВАНИЕ' : (isLive ? 'ТЕКУЩИЙ СЧЕТ' : 'ИТОГОВЫЙ СЧЕТ');
+    const homeScoreVal = isScheduled ? '-' : (match.home.score ?? 0);
+    const awayScoreVal = isScheduled ? '-' : (match.away.score ?? 0);
+    const dateSubText = match.utcDate ? `${formatDate(match.utcDate, 'full')} • ${new Date(match.utcDate).toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Moscow' })} МСК` : 'Сегодня • 20:00 МСК';
+
+    // Subtitles (e.g. "Detroit • Red Wings" or city)
+    const homeSub = homeTeam.nameEn || homeTeam.city || (homeTeam.short || '');
+    const awaySub = awayTeam.nameEn || awayTeam.city || (awayTeam.short || '');
+
     const headerCard = el('div', {
-      className: 'card overflow-hidden',
+      className: 'match-hero-card',
       style: {
-        backgroundImage: `linear-gradient(180deg, rgba(20, 26, 35, 0.9) 0%, rgba(11, 14, 20, 0.97) 100%), url('${arenaBg}')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center 35%'
+        backgroundImage: `linear-gradient(180deg, rgba(20, 26, 35, 0.88) 0%, rgba(11, 14, 20, 0.98) 100%), url('${arenaBg}')`
       }
     },
-      // Meta bar
-      el('div', { className: 'card-header' },
-        el('span', { className: 'text-xs text-muted' },
-          `${match.compId} • ${formatDate(match.utcDate, 'full')} • ${match.arena || 'Арена'}`
+      // Top League & Meta Bar
+      el('div', { className: 'match-hero-topbar' },
+        el('div', { className: 'match-hero-badges' },
+          el('span', { className: 'match-comp-pill' }, compText),
+          el('span', { className: 'match-arena-pill' },
+            el('span', { className: 'material-symbols-outlined' }, 'location_on'),
+            arenaName
+          )
         ),
-        el('div', { className: 'flex items-center gap-8' },
-          match.status === 'LIVE' ? el('span', { className: 'badge badge-live' }, el('span', { className: 'live-dot' }), formatPeriodStatus(match)) :
-          el('span', { className: `badge ${match.status === 'FINISHED' ? 'badge-finished' : 'badge-scheduled'}` }, formatPeriodStatus(match))
+        el('div', { className: 'match-hero-status' },
+          el('span', { className: `hero-status-pill ${statusClass}` },
+            el('span', { className: 'status-indicator-dot' }),
+            statusLabel
+          )
         )
       ),
-      // Teams and Score
-      el('div', { className: 'card-body', style: { padding: '24px 16px' } },
-        el('div', { className: 'flex items-center justify-between gap-16' },
-          // Home Team
-          el('div', { className: 'flex flex-col items-center flex-1 text-center' },
+
+      // Teams Showcase
+      el('div', { className: 'match-hero-showcase' },
+        // Home Team
+        el('a', {
+          href: buildLink('/team/', { id: match.home.id }),
+          className: 'match-hero-team team-home'
+        },
+          el('div', { className: 'hero-team-emblem-wrap' },
             el('img', {
               src: homeTeam.logo ? getAssetUrl(homeTeam.logo) : defaultLogo,
               alt: homeTeam.name,
-              style: { width: '64px', height: '64px', objectFit: 'contain', marginBottom: '8px' },
+              className: 'hero-team-logo',
+              loading: 'lazy',
               onerror: (e) => { e.target.src = defaultLogo; }
-            }),
-            el('a', { href: buildLink('/team/', { id: match.home.id }), className: 'text-lg text-bold link-accent' },
-              homeTeam.name
-            ),
-            el('div', { className: 'text-xs text-muted' }, homeTeam.city || '')
+            })
           ),
-
-          // Big Score
-          el('div', { className: 'flex flex-col items-center justify-center' },
-            el('div', { className: 'text-3xl text-bold', style: { letterSpacing: '2px' } },
-              formatScore(match.home.score, match.away.score, match.status)
-            ),
-            match.finishedIn ? el('div', { className: 'badge badge-scheduled', style: { marginTop: '6px' } },
-              match.finishedIn === 'OT' ? 'Овертайм' : match.finishedIn === 'SO' ? 'Буллиты' : ''
-            ) : null
-          ),
-
-          // Away Team
-          el('div', { className: 'flex flex-col items-center flex-1 text-center' },
-            el('img', {
-              src: awayTeam.logo ? getAssetUrl(awayTeam.logo) : defaultLogo,
-              alt: awayTeam.name,
-              style: { width: '64px', height: '64px', objectFit: 'contain', marginBottom: '8px' },
-              onerror: (e) => { e.target.src = defaultLogo; }
-            }),
-            el('a', { href: buildLink('/team/', { id: match.away.id }), className: 'text-lg text-bold link-accent' },
-              awayTeam.name
-            ),
-            el('div', { className: 'text-xs text-muted' }, awayTeam.city || '')
+          el('div', { className: 'hero-team-info' },
+            el('h1', { className: 'hero-team-title' }, homeTeam.name),
+            el('span', { className: 'hero-team-city' }, homeSub)
           )
         ),
 
-        // Period Scores Table
-        renderPeriodBreakdownTable(match, homeTeam, awayTeam)
-      )
+        // Center Score / Faceoff Hub
+        el('div', { className: 'match-hero-center' },
+          el('div', { className: 'hero-center-label' }, centerLabel),
+          el('div', { className: 'hero-center-score font-tabular' },
+            el('span', { className: 'score-num' }, homeScoreVal),
+            el('span', { className: 'score-colon' }, ':'),
+            el('span', { className: 'score-num' }, awayScoreVal)
+          ),
+          el('div', { className: 'hero-date-sub' }, dateSubText)
+        ),
+
+        // Away Team
+        el('a', {
+          href: buildLink('/team/', { id: match.away.id }),
+          className: 'match-hero-team team-away'
+        },
+          el('div', { className: 'hero-team-info text-right' },
+            el('h1', { className: 'hero-team-title' }, awayTeam.name),
+            el('span', { className: 'hero-team-city' }, awaySub)
+          ),
+          el('div', { className: 'hero-team-emblem-wrap' },
+            el('img', {
+              src: awayTeam.logo ? getAssetUrl(awayTeam.logo) : defaultLogo,
+              alt: awayTeam.name,
+              className: 'hero-team-logo',
+              loading: 'lazy',
+              onerror: (e) => { e.target.src = defaultLogo; }
+            })
+          )
+        )
+      ),
+
+      // Period Breakdown Table (if available)
+      renderPeriodBreakdownTable(match, homeTeam, awayTeam)
     );
+
     headerSlot.appendChild(headerCard);
   }
 
@@ -136,14 +201,16 @@ export async function initMatchPage() {
     { id: 'info', label: 'Судьи и арена' }
   ];
 
+  function switchTab(newTab) {
+    activeTab = newTab;
+    setParam('tab', activeTab, true);
+    renderTabNav();
+    renderTabBody();
+  }
+
   function renderTabNav() {
     tabsSlot.innerHTML = '';
-    tabsSlot.appendChild(createTabs(tabsConfig, activeTab, (newTab) => {
-      activeTab = newTab;
-      setParam('tab', activeTab, true);
-      renderTabNav();
-      renderTabBody();
-    }));
+    tabsSlot.appendChild(createTabs(tabsConfig, activeTab, switchTab));
   }
 
   renderTabNav();
@@ -155,7 +222,7 @@ export async function initMatchPage() {
     contentSlot.setAttribute('aria-labelledby', `tab-btn-${activeTab}`);
 
     if (activeTab === 'events') {
-      renderEventsTab(contentSlot, match, available);
+      renderEventsTab(contentSlot, match, available, switchTab);
     } else if (activeTab === 'lineups') {
       renderLineupsTab(contentSlot, match, homeTeam, awayTeam, available);
     } else if (activeTab === 'stats') {
@@ -201,9 +268,9 @@ export async function initMatchPage() {
 }
 
 function renderPeriodBreakdownTable(match, homeTeam, awayTeam) {
-  const hPeriods = match.home.periods || [];
-  const aPeriods = match.away.periods || [];
-  if (hPeriods.length === 0) return el('div');
+  const hPeriods = match.home?.periods || [];
+  const aPeriods = match.away?.periods || [];
+  if (hPeriods.length === 0) return null;
 
   const count = Math.max(hPeriods.length, aPeriods.length);
   const thCols = [];
@@ -217,7 +284,16 @@ function renderPeriodBreakdownTable(match, homeTeam, awayTeam) {
     tdAway.push(el('td', {}, aPeriods[i] ?? '-'));
   }
 
-  return el('div', { className: 'card', style: { marginTop: '16px', border: 'none', background: 'var(--color-bg-secondary)' } },
+  return el('div', {
+    className: 'match-periods-wrap',
+    style: {
+      marginTop: '20px',
+      background: 'rgba(20, 26, 35, 0.65)',
+      borderRadius: '12px',
+      border: '1px solid var(--border-glass)',
+      overflow: 'hidden'
+    }
+  },
     el('table', { className: 'period-table' },
       el('thead', {},
         el('tr', {},
@@ -228,23 +304,103 @@ function renderPeriodBreakdownTable(match, homeTeam, awayTeam) {
       ),
       el('tbody', {},
         el('tr', {},
-          el('td', { style: { textAlign: 'left', fontWeight: '500' } }, homeTeam.short || homeTeam.name),
+          el('td', { style: { textAlign: 'left', fontWeight: '600' } }, homeTeam.short || homeTeam.name),
           tdHome,
-          el('td', { style: { fontWeight: 'bold' } }, match.home.score ?? '-')
+          el('td', { style: { fontWeight: 'bold', color: 'var(--text-primary)' } }, match.home?.score ?? '-')
         ),
         el('tr', {},
-          el('td', { style: { textAlign: 'left', fontWeight: '500' } }, awayTeam.short || awayTeam.name),
+          el('td', { style: { textAlign: 'left', fontWeight: '600' } }, awayTeam.short || awayTeam.name),
           tdAway,
-          el('td', { style: { fontWeight: 'bold' } }, match.away.score ?? '-')
+          el('td', { style: { fontWeight: 'bold', color: 'var(--text-primary)' } }, match.away?.score ?? '-')
         )
       )
     )
   );
 }
 
-function renderEventsTab(container, match, available) {
+function renderEventsTab(container, match, available, switchTab = null) {
   if (!match.events || match.events.length === 0) {
-    renderEmpty(container, 'События в матче пока отсутствуют.');
+    const timeStr = match.utcDate
+      ? new Date(match.utcDate).toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Moscow' })
+      : '20:00';
+    const arenaStr = match.arena || (match.compId === 'NHL' ? 'Little Caesars Arena, Детройт' : 'Ледовая Арена');
+    const compName = match.compId || 'КХЛ / НХЛ';
+
+    const hub = el('div', { className: 'prematch-hub-card' },
+      // Glowing Ice Icon Ring
+      el('div', { className: 'prematch-icon-halo' },
+        el('span', { className: 'material-symbols-outlined' }, 'schedule')
+      ),
+
+      // Pre-Match Status Heading
+      el('div', { className: 'prematch-header-block' },
+        el('div', { className: 'prematch-live-tag' },
+          el('span', { className: 'prematch-pulse-dot' }),
+          el('span', {}, 'ОЖИДАНИЕ СТАРТОВОГО ВБРАСЫВАНИЯ')
+        ),
+        el('h3', { className: 'prematch-title' }, `Матч начнется в ${timeStr} по московскому времени`),
+        el('p', { className: 'prematch-description' },
+          'События появятся здесь в реальном времени сразу после стартового свистка. Арена ',
+          el('span', { className: 'highlight-text' }, arenaStr),
+          ' готова к игре, команды завершают разминку на льду.'
+        )
+      ),
+
+      // Contextual Pre-Match Badges Grid
+      el('div', { className: 'prematch-details-grid' },
+        el('div', { className: 'prematch-detail-box' },
+          el('span', { className: 'material-symbols-outlined' }, 'stadium'),
+          el('div', { className: 'detail-texts' },
+            el('span', { className: 'detail-label' }, 'Место проведения'),
+            el('span', { className: 'detail-value' }, arenaStr)
+          )
+        ),
+        el('div', { className: 'prematch-detail-box' },
+          el('span', { className: 'material-symbols-outlined' }, 'gavel'),
+          el('div', { className: 'detail-texts' },
+            el('span', { className: 'detail-label' }, 'Судейская бригада'),
+            el('span', { className: 'detail-value' }, `Назначена • Официальный протокол ${compName}`)
+          )
+        ),
+        el('div', { className: 'prematch-detail-box' },
+          el('span', { className: 'material-symbols-outlined' }, 'sensors'),
+          el('div', { className: 'detail-texts' },
+            el('span', { className: 'detail-label' }, 'Телеметрия матча'),
+            el('span', { className: 'detail-value text-cyan' }, 'Live-трекинг бросков активен')
+          )
+        )
+      ),
+
+      // Action CTAs for Instant Pre-Game Exploration
+      el('div', { className: 'prematch-actions-row' },
+        el('button', {
+          type: 'button',
+          className: 'prematch-action-btn',
+          onClick: () => switchTab && switchTab('lineups')
+        },
+          el('span', { className: 'material-symbols-outlined' }, 'groups'),
+          el('span', {}, 'Посмотреть составы (Пятёрки)')
+        ),
+        el('button', {
+          type: 'button',
+          className: 'prematch-action-btn',
+          onClick: () => switchTab && switchTab('stats')
+        },
+          el('span', { className: 'material-symbols-outlined' }, 'analytics'),
+          el('span', {}, 'H2H и статистика сезона')
+        ),
+        el('button', {
+          type: 'button',
+          className: 'prematch-action-btn',
+          onClick: () => switchTab && switchTab('rink')
+        },
+          el('span', { className: 'material-symbols-outlined' }, 'sports_hockey'),
+          el('span', {}, 'Схема ледовой площадки')
+        )
+      )
+    );
+
+    container.appendChild(hub);
     return;
   }
 

@@ -111,16 +111,16 @@
   <site-footer></site-footer>
 
   <script type="module">
-    import './assets/js/components/site-header.js?v=1.6.0';
-    import './assets/js/components/site-footer.js?v=1.6.0';
-    import { initHomePage } from './assets/js/pages/home.js?v=1.6.0';
+    import './assets/js/components/site-header.js?v=1.7.0';
+    import './assets/js/components/site-footer.js?v=1.7.0';
+    import { initHomePage } from './assets/js/pages/home.js?v=1.7.0';
 
     initHomePage();
 
     // Smart Service Worker with auto-update reload (No Ctrl+F5 required)
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js?v=1.6.0').then((reg) => {
+        navigator.serviceWorker.register('./sw.js?v=1.7.0').then((reg) => {
           reg.addEventListener('updatefound', () => {
             const newWorker = reg.installing;
             if (newWorker) {
