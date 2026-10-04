@@ -97,10 +97,19 @@ test('intermission is not a playing clock, and cancelled games are not scheduled
 });
 
 test('finished fixture does not claim missing shots and has one pair of period parentheses', () => {
-  const match = fixture('khl:20261003-ska-lok');
+  const match = {
+    id: 'test:finished-with-shots',
+    compId: 'NHL',
+    season: '2026/27',
+    utcDate: '2026-10-03T16:30:00Z',
+    status: 'FINISHED',
+    finishedIn: 'OT',
+    home: { id: 'nhl:det', score: 3, periods: [1, 1, 0, 1], shots: 34 },
+    away: { id: 'nhl:wpg', score: 2, periods: [0, 1, 1, 0], shots: 29 }
+  };
   const card = createMatchGridCardStitch(match);
   assert.equal(find(card, 'card-bottom-note').textContent, 'Периоды: (1:0, 1:1, 0:1, 1:0)');
-  assert.equal(find(card, 'card-sog-pill').textContent, 'БРОСКИ В СТВОР 34 - 29');
+  assert.equal(find(card, 'card-sog-pill').textContent, 'БРОСКИ 34 - 29');
   assert.match(find(card, 'card-status-badge').textContent, /ФИНАЛ \(ОТ\)/);
   assert.equal(find(createMatchGridCardStitch(fixture('nhl:2026020027')), 'card-sog-pill'), null);
 });

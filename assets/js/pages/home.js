@@ -117,7 +117,17 @@ export async function initHomePage() {
     const khlCount = latestMatches.filter(m => m.compId === 'KHL').length;
 
     if (matchCenterCountBadge) {
-      matchCenterCountBadge.textContent = `${totalCount} МАТЧЕЙ`;
+      if (totalCount > 0) {
+        matchCenterCountBadge.style.display = 'inline-flex';
+        const mod10 = totalCount % 10;
+        const mod100 = totalCount % 100;
+        const word = (mod10 === 1 && mod100 !== 11) ? 'МАТЧ'
+          : ([2, 3, 4].includes(mod10) && ![12, 13, 14].includes(mod100)) ? 'МАТЧА'
+          : 'МАТЧЕЙ';
+        matchCenterCountBadge.textContent = `${totalCount} ${word}`;
+      } else {
+        matchCenterCountBadge.style.display = 'none';
+      }
     }
 
     subtoolbarChipsContainer.innerHTML = '';
@@ -162,7 +172,15 @@ export async function initHomePage() {
     }
 
     if (filtered.length === 0) {
-      if (latestMatches.length === 0) {
+      if (activeFilter === 'KHL') {
+        matchesContainer.appendChild(el('div', {
+          className: 'stitch-widget-card text-center',
+          style: { padding: '32px 16px', color: 'var(--text-muted)' }
+        },
+          el('div', { className: 'text-base font-bold text-white', style: { marginBottom: '8px' } }, 'Матчи КХЛ временно недоступны'),
+          el('p', { className: 'text-sm' }, 'Ожидается подключение лицензированного поставщика данных КХЛ. Официальные матчи НХЛ доступны в реальном времени.')
+        ));
+      } else if (latestMatches.length === 0) {
         renderDateEmptyState(activeDate);
       } else {
         matchesContainer.appendChild(el('div', {
@@ -544,31 +562,32 @@ async function loadSidebarStandings(container) {
  * Hydrates the featured news card on the home page with the latest verified news article
  */
 async function loadHomeFeaturedNews() {
-  const card = qs('.home-featured-news-card');
-  if (!card) return;
+  const slot = qs('#home-featured-news-slot') || qs('.home-featured-news-card')?.parentElement;
+  if (!slot) return;
   try {
     const data = await getNews();
     const articles = data.news || [];
     if (!articles.length) return;
     const latest = articles[0];
 
-    card.href = buildLink('/news/', { id: latest.id });
-    const thumb = card.querySelector('.news-card-thumb');
-    if (thumb && latest.image) {
-      thumb.style.backgroundImage = `url('${getAssetUrl(latest.image)}')`;
-    }
-    const badge = card.querySelector('.news-exclusive-badge');
-    if (badge) {
-      badge.textContent = latest.tags?.[0] || 'ХОККЕЙ';
-    }
-    const timeEl = card.querySelector('.news-time');
-    if (timeEl) {
-      timeEl.textContent = `${formatDate(latest.publishedAt, 'dayMonth')} • ${latest.source || 'Чемпионат'}`;
-    }
-    const titleEl = card.querySelector('.news-card-title');
-    if (titleEl) {
-      titleEl.textContent = latest.title;
-    }
+    const card = el('a', {
+      href: buildLink('/news/', { id: latest.id }),
+      className: 'home-featured-news-card'
+    },
+      el('div', {
+        className: 'news-card-thumb',
+        style: latest.image ? { backgroundImage: `url('${getAssetUrl(latest.image)}')` } : {}
+      }),
+      el('div', { className: 'news-card-content' },
+        el('div', { className: 'news-meta-row' },
+          el('span', { className: 'news-exclusive-badge' }, latest.tags?.[0] || 'ХОККЕЙ'),
+          el('span', { className: 'news-time' }, `${formatDate(latest.publishedAt, 'dayMonth')} • ${latest.source || 'Чемпионат'}`)
+        ),
+        el('h3', { className: 'news-card-title' }, latest.title)
+      )
+    );
+
+    slot.replaceChildren(card);
   } catch (e) {
     console.warn('Failed to load home featured news:', e);
   }
