@@ -16,22 +16,22 @@
         "value": 8
       },
       {
-        "playerId": "nhl:p_8482699",
-        "playerName": "Dylan Guenther",
-        "teamId": "nhl:uta",
-        "value": 5
+        "playerId": "nhl:p_8481032",
+        "playerName": "Paul Cotter",
+        "teamId": "nhl:van",
+        "value": 6
       },
       {
-        "playerId": "nhl:p_8478398",
-        "playerName": "Kyle Connor",
-        "teamId": "nhl:wpg",
-        "value": 5
+        "playerId": "nhl:p_8480012",
+        "playerName": "Elias Pettersson",
+        "teamId": "nhl:van",
+        "value": 6
       },
       {
-        "playerId": "nhl:p_8477934",
-        "playerName": "Leon Draisaitl",
-        "teamId": "nhl:edm",
-        "value": 5
+        "playerId": "nhl:p_8478403",
+        "playerName": "Jack Eichel",
+        "teamId": "nhl:vgk",
+        "value": 6
       }
     ],
     "goals": [
@@ -42,10 +42,16 @@
         "value": 4
       },
       {
-        "playerId": "nhl:p_8482699",
-        "playerName": "Dylan Guenther",
+        "playerId": "nhl:p_8481032",
+        "playerName": "Paul Cotter",
+        "teamId": "nhl:van",
+        "value": 4
+      },
+      {
+        "playerId": "nhl:p_8477951",
+        "playerName": "Nick Schmaltz",
         "teamId": "nhl:uta",
-        "value": 3
+        "value": 4
       },
       {
         "playerId": "nhl:p_8478398",
@@ -57,12 +63,6 @@
         "playerId": "nhl:p_8477934",
         "playerName": "Leon Draisaitl",
         "teamId": "nhl:edm",
-        "value": 3
-      },
-      {
-        "playerId": "nhl:p_8481032",
-        "playerName": "Paul Cotter",
-        "teamId": "nhl:van",
         "value": 3
       }
     ],
@@ -74,43 +74,31 @@
         "value": 7
       },
       {
+        "playerId": "nhl:p_8478403",
+        "playerName": "Jack Eichel",
+        "teamId": "nhl:vgk",
+        "value": 5
+      },
+      {
         "playerId": "nhl:p_8484801",
         "playerName": "Macklin Celebrini",
         "teamId": "nhl:sjs",
         "value": 5
       },
       {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 4
-      },
-      {
-        "playerId": "nhl:p_8478403",
-        "playerName": "Jack Eichel",
-        "teamId": "nhl:vgk",
-        "value": 4
-      },
-      {
         "playerId": "nhl:p_8479343",
         "playerName": "Clayton Keller",
         "teamId": "nhl:uta",
-        "value": 4
+        "value": 5
+      },
+      {
+        "playerId": "nhl:p_8479425",
+        "playerName": "Filip Hronek",
+        "teamId": "nhl:van",
+        "value": 5
       }
     ],
     "gaa": [
-      {
-        "playerId": "nhl:p_8474593",
-        "playerName": "Jacob Markstrom",
-        "teamId": "nhl:fla",
-        "value": 0.0
-      },
-      {
-        "playerId": "nhl:p_8478872",
-        "playerName": "Karel Vejmelka",
-        "teamId": "nhl:uta",
-        "value": 0.0
-      },
       {
         "playerId": "nhl:p_8482193",
         "playerName": "Dylan Garand",
@@ -128,21 +116,21 @@
         "playerName": "Sebastian Cossa",
         "teamId": "nhl:uta",
         "value": 1.0
+      },
+      {
+        "playerId": "nhl:p_8478916",
+        "playerName": "Joey Daccord",
+        "teamId": "nhl:sea",
+        "value": 1.0
+      },
+      {
+        "playerId": "nhl:p_8482661",
+        "playerName": "Jesper Wallstedt",
+        "teamId": "nhl:min",
+        "value": 1.01
       }
     ],
     "svPct": [
-      {
-        "playerId": "nhl:p_8474593",
-        "playerName": "Jacob Markstrom",
-        "teamId": "nhl:fla",
-        "value": 1.0
-      },
-      {
-        "playerId": "nhl:p_8478872",
-        "playerName": "Karel Vejmelka",
-        "teamId": "nhl:uta",
-        "value": 1.0
-      },
       {
         "playerId": "nhl:p_8482193",
         "playerName": "Dylan Garand",
@@ -160,6 +148,18 @@
         "playerName": "Ilya Sorokin",
         "teamId": "nhl:nyi",
         "value": 0.968
+      },
+      {
+        "playerId": "nhl:p_8478916",
+        "playerName": "Joey Daccord",
+        "teamId": "nhl:sea",
+        "value": 0.966
+      },
+      {
+        "playerId": "nhl:p_8476932",
+        "playerName": "Anthony Stolarz",
+        "teamId": "nhl:tor",
+        "value": 0.963
       }
     ]
   }

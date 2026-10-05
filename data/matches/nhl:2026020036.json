@@ -6,238 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-04T22:00:00Z",
-  "status": "LIVE",
+  "status": "FINISHED",
   "period": 3,
-  "clock": "03:04",
-  "finishedIn": null,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:nyr",
-    "score": 3,
+    "score": 4,
     "periods": [],
-    "shots": 20
+    "shots": null
   },
   "away": {
     "id": "nhl:uta",
     "score": 2,
     "periods": [],
-    "shots": 27
+    "shots": null
   },
   "arena": "Madison Square Garden",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "03:31",
-      "team": "home",
-      "playerId": "nhl:p_8477969",
-      "playerName": "Marcus Pettersson",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 56
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "10:39",
-      "team": "away",
-      "playerId": "nhl:p_8477346",
-      "playerName": "MacKenzie Weegar",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 144
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "17:18",
-      "team": "home",
-      "playerId": "nhl:p_8478882",
-      "playerName": "Vladislav Gavrikov",
-      "assists": [
-        "nhl:p_8479323"
-      ],
-      "score": "1-0",
-      "order": 246
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "17:18",
-      "team": "away",
-      "playerId": "nhl:p_8480849",
-      "playerName": "Barrett Hayton",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 247
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "17:18",
-      "team": "home",
-      "playerId": "nhl:p_8482157",
-      "playerName": "Will Cuylle",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 249
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "18:03",
-      "team": "away",
-      "playerId": "nhl:p_8477951",
-      "playerName": "Nick Schmaltz",
-      "minutes": 2,
-      "reason": "cross-checking",
-      "order": 258
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "04:28",
-      "team": "away",
-      "playerId": "nhl:p_8477346",
-      "playerName": "MacKenzie Weegar",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 348
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "14:01",
-      "team": "home",
-      "playerId": "nhl:p_8482157",
-      "playerName": "Will Cuylle",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 469
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "14:01",
-      "team": "home",
-      "playerId": "nhl:p_8482157",
-      "playerName": "Will Cuylle",
-      "minutes": 2,
-      "reason": "boarding",
-      "order": 471
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "14:01",
-      "team": "away",
-      "playerId": "nhl:p_8479410",
-      "playerName": "Mikhail Sergachev",
-      "minutes": 2,
-      "reason": "cross-checking",
-      "order": 473
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "14:29",
-      "team": "away",
-      "playerId": "nhl:p_8477951",
-      "playerName": "Nick Schmaltz",
-      "assists": [
-        "nhl:p_8479343"
-      ],
-      "score": "1-1",
-      "order": 481
-    },
-    {
-      "type": "PENALTY",
-      "period": 3,
-      "time": "01:03",
-      "team": "home",
-      "playerId": "nhl:p_8482157",
-      "playerName": "Will Cuylle",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 571
-    },
-    {
-      "type": "PENALTY",
-      "period": 3,
-      "time": "01:03",
-      "team": "away",
-      "playerId": "nhl:p_8480855",
-      "playerName": "Jack McBain",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 573
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "03:15",
-      "team": "home",
-      "playerId": "nhl:p_8484210",
-      "playerName": "Gabe Perreault",
-      "assists": [
-        "nhl:p_8482109",
-        "nhl:p_8476459"
-      ],
-      "score": "2-1",
-      "order": 604
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "12:47",
-      "team": "home",
-      "playerId": "nhl:p_8476468",
-      "playerName": "J.T. Miller",
-      "assists": [
-        "nhl:p_8478882",
-        "nhl:p_8481789"
-      ],
-      "score": "3-1",
-      "order": 736
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "14:57",
-      "team": "away",
-      "playerId": "nhl:p_8479369",
-      "playerName": "Andrew Peeke",
-      "assists": [
-        "nhl:p_8475314"
-      ],
-      "score": "3-2",
-      "order": 766
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      20,
-      27
-    ],
-    "shotsOnGoal": [
-      20,
-      27
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020036/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020036/play-by-play"
-    ],
-    "fetchedAt": "2026-10-05T00:31:26.190983+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -245,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/uta-vs-nyr/2026/10/04/2026020036",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/uta-vs-nyr/2026/10/04/2026020036",
-    "verifiedAt": "2026-10-05T00:31:26.191093Z"
+    "verifiedAt": "2026-10-05T06:07:09.321237Z"
   }
 }
