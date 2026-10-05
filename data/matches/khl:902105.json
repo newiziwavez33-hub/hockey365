@@ -6,15 +6,15 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-05T16:30:00Z",
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "SO",
   "home": {
     "id": "khl:dynamo-mns",
     "name": "Динамо Мн",
     "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/38/original/dinamo_mn_2019_alternative__200x200.png",
-    "score": null,
+    "score": 1,
     "periods": [],
     "shots": null
   },
@@ -22,7 +22,7 @@
     "id": "khl:torpedo",
     "name": "Торпедо",
     "logo": "https://thumbs.webcaster.pro/rec-1-1.webcaster.pro/fc/sda/team_pics/22/original/Torpedo_2025_200x200_NEW.png",
-    "score": null,
+    "score": 2,
     "periods": [],
     "shots": null
   },
@@ -50,6 +50,6 @@
     "stageId": 407,
     "eventId": 3000567,
     "matchId": "902105",
-    "fetchedAt": "2026-10-05T14:27:38.152623Z"
+    "fetchedAt": "2026-10-05T21:34:11.983799Z"
   }
 }
