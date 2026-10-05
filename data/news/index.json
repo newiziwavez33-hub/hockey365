@@ -1,6 +1,53 @@
 {
   "news": [
     {
+      "id": "news-6645176",
+      "slug": "eto-bylo-dovolno-kruto-19-letnij-forvard-lakovich-o-razgovore-s-ovechkinym",
+      "title": "«Это было довольно круто». 19-летний форвард Лакович – о разговоре с Овечкиным",
+      "summary": "19-летний канадский форвард «Вашингтон Кэпиталз» Линден Лакович, который сейчас выступает за фарм-клуб столичного клуба «Херши Бэрс», рассказал о знакомстве с российским форвардом Александром Овечкиным.",
+      "content": "19-летний канадский форвард «Вашингтон Кэпиталз» Линден Лакович, который сейчас выступает за фарм-клуб столичного клуба «Херши Бэрс», рассказал о знакомстве с российским форвардом Александром Овечкиным.",
+      "image": "https://img.championat.com/news/big/i/j/eto-bylo-dovolno-kruto-19-letnij-forvard-lakovich-o-razgovore-s-ovechkinym_1791157289828936038.jpg",
+      "publishedAt": "2026-10-04T23:41:31Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6645176-eto-bylo-dovolno-kruto-19-letnij-forvard-lakovich-o-razgovore-s-ovechkinym.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Херши Бэрс"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6645154",
+      "slug": "imenno-eto-stoilo-nam-dvuh-ochkov-trener-vashingtona-o-porazhenii-v-matche-s-tampoj",
+      "title": "«Именно это стоило нам двух очков». Тренер «Вашингтона» — о поражении в матче с «Тампой»",
+      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался о поражении команды в матче с «Тампой-Бэй Лайтнинг» (1:3) в НХЛ.",
+      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался о поражении команды в матче с «Тампой-Бэй Лайтнинг» (1:3) в НХЛ.",
+      "image": "https://img.championat.com/news/big/e/e/imenno-eto-stoilo-nam-dvuh-ochkov-trener-vashingtona-o-porazhenii-v-matche-s-tampoj_17911518241450120201.jpg",
+      "publishedAt": "2026-10-04T22:10:24Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6645154-imenno-eto-stoilo-nam-dvuh-ochkov-trener-vashingtona-o-porazhenii-v-matche-s-tampoj.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Тампа-Бэй Лайтнинг",
+        "Спенсер Карбери"
+      ],
+      "relatedTeamIds": [
+        "nhl:tbl",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6644846",
       "slug": "rezultaty-matchej-mhl-na-4-oktyabrya-2026-goda",
       "title": "Результаты матчей МХЛ на 4 октября 2026 года",
@@ -686,52 +733,6 @@
       ],
       "relatedTeamIds": [
         "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6644466",
-      "slug": "larionov-o-man-siti-tituly-otbirat-nepravilno-no-hochetsya-chtoby-sport-byl-chische",
-      "title": "Ларионов — о «Ман Сити»: титулы отбирать неправильно. Но хочется, чтобы спорт был чище",
-      "summary": "Главный тренер СКА Игорь Ларионов прокомментировал скандал вокруг «Манчестер Сити».",
-      "content": "Главный тренер СКА Игорь Ларионов прокомментировал скандал вокруг «Манчестер Сити».",
-      "image": "https://img.championat.com/news/big/l/h/larionov-o-man-siti-tituly-o.jpg",
-      "publishedAt": "2026-10-04T11:48:11Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6644466-larionov-o-man-siti-tituly-otbirat-nepravilno-no-hochetsya-chtoby-sport-byl-chische.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Футбол",
-        "Англия",
-        "СКА",
-        "Манчестер Сити",
-        "Игорь Ларионов"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6644450",
-      "slug": "avtomobilist-amur-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Автомобилист» — «Амур»: онлайн-трансляция матча КХЛ началась",
-      "summary": "В эти минуты в Екатеринбурге на стадионе «УГМК-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» принимает хабаровский «Амур».",
-      "content": "В эти минуты в Екатеринбурге на стадионе «УГМК-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» принимает хабаровский «Амур».",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-04T11:30:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6644450-avtomobilist-amur-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Автомобилист",
-        "Амур"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:avtomobilist"
       ],
       "relatedPlayerIds": []
     }

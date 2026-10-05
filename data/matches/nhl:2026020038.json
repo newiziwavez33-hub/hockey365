@@ -6,31 +6,87 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-05T00:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 1,
+  "clock": "11:55",
   "finishedIn": null,
   "home": {
     "id": "nhl:sea",
-    "score": null,
+    "score": 3,
     "periods": [],
-    "shots": null
+    "shots": 6
   },
   "away": {
     "id": "nhl:cgy",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 6
   },
   "arena": "Climate Pledge Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "02:22",
+      "team": "home",
+      "playerId": "nhl:p_8484800",
+      "playerName": "Berkly Catton",
+      "score": "1-0",
+      "order": 44
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "04:40",
+      "team": "home",
+      "playerId": "nhl:p_8482713",
+      "playerName": "Mackie Samoskevich",
+      "assists": [
+        "nhl:p_8477986",
+        "nhl:p_8482858"
+      ],
+      "score": "2-0",
+      "order": 80
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "07:40",
+      "team": "home",
+      "playerId": "nhl:p_8482259",
+      "playerName": "Bobby McMann",
+      "assists": [
+        "nhl:p_8476905"
+      ],
+      "score": "3-0",
+      "order": 116
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      6,
+      6
+    ],
+    "shotsOnGoal": [
+      6,
+      6
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020038/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020038/play-by-play"
+    ],
+    "fetchedAt": "2026-10-05T00:31:26.276304+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +94,6 @@
     "url": "https://www.nhl.com/gamecenter/cgy-vs-sea/2026/10/04/2026020038",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/cgy-vs-sea/2026/10/04/2026020038",
-    "verifiedAt": "2026-10-04T21:59:48.481719Z"
+    "verifiedAt": "2026-10-05T00:31:26.276369Z"
   }
 }

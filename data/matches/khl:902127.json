@@ -1,37 +1,29 @@
 {
-  "id": "khl:902099",
+  "id": "khl:902127",
   "compId": "KHL",
   "season": "2026/27",
   "stage": "regular",
   "round": null,
   "seriesGame": null,
-  "utcDate": "2026-10-04T11:00:00Z",
-  "status": "FINISHED",
+  "utcDate": "2026-10-12T16:00:00Z",
+  "status": "SCHEDULED",
   "period": null,
   "clock": null,
-  "finishedIn": "REG",
+  "finishedIn": null,
   "home": {
-    "id": "khl:neftekhimik",
-    "name": "Нефтехимик",
-    "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/36/original/neftekhimik_2022__200x200.png",
-    "score": 3,
-    "periods": [
-      1,
-      0,
-      2
-    ],
+    "id": "khl:ak-bars",
+    "name": "Ак Барс",
+    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdi/team_pics/40/original/ak_bars_2022__200x200.png",
+    "score": null,
+    "periods": [],
     "shots": null
   },
   "away": {
-    "id": "khl:sibir",
-    "name": "Сибирь",
-    "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/24/original/sibir_rus__200x200.png",
-    "score": 2,
-    "periods": [
-      1,
-      1,
-      0
-    ],
+    "id": "khl:sochi",
+    "name": "ХК Сочи",
+    "logo": "https://thumbs.webcaster.pro/rec-2-13.webcaster.pro/fc/sda/team_pics/113/original/hc_sochi_2024__200x200_new.png",
+    "score": null,
+    "periods": [],
     "shots": null
   },
   "arena": null,
@@ -56,8 +48,8 @@
       "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
     ],
     "stageId": 407,
-    "eventId": 3000543,
-    "matchId": "902099",
+    "eventId": 3000655,
+    "matchId": "902127",
     "fetchedAt": "2026-10-05T00:31:27.602086Z"
   }
 }
