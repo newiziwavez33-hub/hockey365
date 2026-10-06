@@ -1,6 +1,186 @@
 {
   "news": [
     {
+      "id": "news-6647926",
+      "slug": "aleksandr-ovechkin-rasskazal-kakie-emocii-ispytyvaet-posle-obyavleniya-o-zavershenii-karery",
+      "title": "Александр Овечкин рассказал, какие эмоции испытывает после объявления о завершении карьеры",
+      "summary": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин поделился эмоциями, которые испытывает после того, как официально объявил, что завершит карьеру в Национальной хоккейной лиге по окончании сезона-2026/2027.",
+      "content": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин поделился эмоциями, которые испытывает после того, как официально объявил, что завершит карьеру в Национальной хоккейной лиге по окончании сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/p/n/aleksandr-ovechkin-rasskazal-kakie-emocii-ispytyvaet-posle-obyavleniya-o-zavershenii-karer_1791323777885699883.jpg",
+      "publishedAt": "2026-10-06T23:27:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6647926-aleksandr-ovechkin-rasskazal-kakie-emocii-ispytyvaet-posle-obyavleniya-o-zavershenii-karery.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6647956",
+      "slug": "hokkej-vozvraschaetsya-v-vashington-ovechkin-o-pervoj-igre-sezona-doma-s-pittsburgom",
+      "title": "«Хоккей возвращается в Вашингтон». Овечкин — о первой игре сезона дома с «Питтсбургом»",
+      "summary": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин высказался о предстоящем первом домашнем матче сезона с «Питтсбург Пингвинз» на фоне объявления о завершении карьеры по окончании сезона.",
+      "content": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин высказался о предстоящем первом домашнем матче сезона с «Питтсбург Пингвинз» на фоне объявления о завершении карьеры по окончании сезона.",
+      "image": "https://img.championat.com/news/big/c/a/hokkej-vozvraschaetsya-v-vashington-ovechkin-o-pervoj-igre-sezona-doma-s-pittsburgom_1791324008694097002.jpg",
+      "publishedAt": "2026-10-06T22:35:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6647956-hokkej-vozvraschaetsya-v-vashington-ovechkin-o-pervoj-igre-sezona-doma-s-pittsburgom.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Питтсбург Пингвинз"
+      ],
+      "relatedTeamIds": [
+        "nhl:pit",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6647846",
+      "slug": "rezultaty-matchej-mhl-na-6-oktyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 6 октября 2026 года",
+      "summary": "Сегодня, 6 октября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 6 октября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-06T20:55:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6647846-rezultaty-matchej-mhl-na-6-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Спартак",
+        "МХК СКА-1946",
+        "МХК Толпар",
+        "МХК Кузнецкие Медведи",
+        "МХК Алмаз",
+        "МХК Реактор",
+        "МХК Мамонты Югры",
+        "МХК Снежные Барсы",
+        "МХК Динамо-Шинник",
+        "МХК Динамо",
+        "МХК Тайфун",
+        "МХК Спутник Альметьевск",
+        "МХК Красноярские Рыси"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6647832",
+      "slug": "rezultaty-matchej-vhl-na-6-oktyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 6 октября 2026 года",
+      "summary": "Сегодня, 6 октября, прошли три матча OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 6 октября, прошли три матча OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-10-06T20:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6647832-rezultaty-matchej-vhl-na-6-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Химик",
+        "Барс",
+        "Горняк",
+        "ЦСК ВВС",
+        "Норильск"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6647862",
+      "slug": "dlya-nas-eto-byl-tyazhyolyj-match-kozyrev-o-gostevoj-pobede-severstali-nad-ska",
+      "title": "«Для нас это был тяжёлый матч». Козырев — о гостевой победе «Северстали» над СКА",
+      "summary": "Главный тренер «Северстали» Андрей Козырев высказался о гостевой победе в матче со СКА и отметил командные действия подопечных.",
+      "content": "Главный тренер «Северстали» Андрей Козырев высказался о гостевой победе в матче со СКА и отметил командные действия подопечных.",
+      "image": "https://img.championat.com/news/big/t/y/dlya-nas-eto-byl-tyazhyolyj-.jpg",
+      "publishedAt": "2026-10-06T20:45:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6647862-dlya-nas-eto-byl-tyazhyolyj-match-kozyrev-o-gostevoj-pobede-severstali-nad-ska.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Северсталь",
+        "Андрей Козырев"
+      ],
+      "relatedTeamIds": [
+        "khl:severstal",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6647830",
+      "slug": "rezultaty-matchej-khl-na-6-oktyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 6 октября 2026 года",
+      "summary": "Сегодня, 6 октября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 6 октября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/p/c/rezultaty-matchej-khl-na-6-oktyabrya-2026-goda_179131807233277148.jpg",
+      "publishedAt": "2026-10-06T20:40:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6647830-rezultaty-matchej-khl-na-6-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Авангард",
+        "Трактор",
+        "Автомобилист",
+        "Северсталь",
+        "Амур"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:avangard",
+        "khl:avtomobilist",
+        "khl:severstal",
+        "khl:ska",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6647854",
+      "slug": "larionov-o-porazhenii-ot-severstali-my-ne-dolzhny-tak-bezdarno-nachinat-match",
+      "title": "Ларионов — о поражении от «Северстали»: мы не должны так бездарно начинать матч",
+      "summary": "Главный тренер СКА Игорь Ларионов заявил, что команде лучше забыть матч с «Северсталью».",
+      "content": "Главный тренер СКА Игорь Ларионов заявил, что команде лучше забыть матч с «Северсталью».",
+      "image": "https://img.championat.com/news/big/l/u/larionov-o-porazhenii-ot-sev.jpg",
+      "publishedAt": "2026-10-06T20:35:39Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6647854-larionov-o-porazhenii-ot-severstali-my-ne-dolzhny-tak-bezdarno-nachinat-match.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Матч ТВ",
+        "Северсталь",
+        "Игорь Ларионов"
+      ],
+      "relatedTeamIds": [
+        "khl:severstal",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6647814",
       "slug": "napadayuschij-ska-zahar-bardakov-vybyl-na-polgoda-iz-za-travmy",
       "title": "Нападающий СКА Захар Бардаков выбыл на полгода из-за травмы",
@@ -550,169 +730,6 @@
       "relatedTeamIds": [
         "khl:amur",
         "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646656",
-      "slug": "avtomobilist-avangard-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Автомобилист» — «Авангард»: онлайн-трансляция матча КХЛ началась",
-      "summary": "Сегодня, 6 октября, в Екатеринбурге на стадионе «УГМК-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» принимает омский «Авангард».",
-      "content": "Сегодня, 6 октября, в Екатеринбурге на стадионе «УГМК-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» принимает омский «Авангард».",
-      "image": "https://img.championat.com/news/big/x/z/avtomobilist-avangard-onlajn-translyaciya-matcha-khl-nachalas_17912645642039462925.jpg",
-      "publishedAt": "2026-10-06T14:00:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646656-avtomobilist-avangard-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Автомобилист"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:avtomobilist"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6647320",
-      "slug": "guberniev-predlozhil-razinu-obedinitsya-s-bubnovym-i-sozdat-shou-razibu",
-      "title": "Губерниев предложил Разину объединиться с Бубновым и создать шоу «Разибу»",
-      "summary": "Спортивный комментатор Дмитрий Губерниев оценил решение руководства «Металлурга» отстранить главного тренера Андрея Разина.",
-      "content": "Спортивный комментатор Дмитрий Губерниев оценил решение руководства «Металлурга» отстранить главного тренера Андрея Разина.",
-      "image": "https://img.championat.com/news/big/n/x/guberniev-predlozhil-razinu-.jpg",
-      "publishedAt": "2026-10-06T13:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6647320-guberniev-predlozhil-razinu-obedinitsya-s-bubnovym-i-sozdat-shou-razibu.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Футбол",
-        "Эксклюзив",
-        "Металлург Мг",
-        "Дмитрий Губерниев",
-        "Александр Бубнов",
-        "Андрей Разин"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646668",
-      "slug": "ska-severstal-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk",
-      "title": "СКА — «Северсталь»: онлайн-трансляция матча КХЛ начнётся в 19:30 мск",
-      "summary": "Сегодня, 6 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет череповецкую «Северсталь».",
-      "content": "Сегодня, 6 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет череповецкую «Северсталь».",
-      "image": "https://img.championat.com/news/big/j/d/ska-severstal-onlajn-translyaciya-matcha-khl-nachnyotsya-v-19-30-msk_17912650951051126099.jpg",
-      "publishedAt": "2026-10-06T13:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646668-ska-severstal-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Северсталь"
-      ],
-      "relatedTeamIds": [
-        "khl:severstal",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6647314",
-      "slug": "sprong-propustit-match-s-avangardom-sharipzyanov-debyutiruet-v-tekuschem-sezone-khl",
-      "title": "Спронг пропустит матч с «Авангардом», Шарипзянов дебютирует в текущем сезоне КХЛ",
-      "summary": "Сегодня, 6 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» примет омский «Авангард».",
-      "content": "Сегодня, 6 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» примет омский «Авангард».",
-      "image": "https://img.championat.com/news/big/z/h/sprong-propustit-match-s-ava.jpg",
-      "publishedAt": "2026-10-06T13:18:44Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6647314-sprong-propustit-match-s-avangardom-sharipzyanov-debyutiruet-v-tekuschem-sezone-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Автомобилист",
-        "Дамир Шарипзянов",
-        "Даниэль Спронг"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:avtomobilist"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6647272",
-      "slug": "on-srazu-zhe-popal-na-rify-larionov-o-vozvraschenii-bebkoka-v-nhl",
-      "title": "«Он сразу же попал на рифы». Ларионов — о возвращении Бэбкока в НХЛ",
-      "summary": "Главный тренер СКА Игорь Ларионов высказался о возвращении Майка Бэбкока в НХЛ.",
-      "content": "Главный тренер СКА Игорь Ларионов высказался о возвращении Майка Бэбкока в НХЛ.",
-      "image": "https://img.championat.com/news/big/z/v/on-srazu-zhe-popal-na-rify-larionov-o-vozvraschenii-bebkoka-v-nhl_17912915231796646666.jpg",
-      "publishedAt": "2026-10-06T12:55:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6647272-on-srazu-zhe-popal-na-rify-larionov-o-vozvraschenii-bebkoka-v-nhl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "Эксклюзив",
-        "СКА",
-        "Эдмонтон Ойлерз",
-        "Игорь Ларионов",
-        "Майк Бэбкок"
-      ],
-      "relatedTeamIds": [
-        "khl:ska",
-        "nhl:edm"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6647224",
-      "slug": "u-menya-takogo-brozheniya-vnutri-kollektiva-ne-bylo-ilya-vorobyov-o-situacii-razina",
-      "title": "«У меня такого брожения внутри коллектива не было». Илья Воробьёв — о ситуации Разина",
-      "summary": "Бывший главный тренер «Металлурга» Илья Воробьёв оценил решение руководства решение руководства магнитогорского клуба отстранить наставника Андрея Разина.",
-      "content": "Бывший главный тренер «Металлурга» Илья Воробьёв оценил решение руководства решение руководства магнитогорского клуба отстранить наставника Андрея Разина.",
-      "image": "https://img.championat.com/news/big/n/c/u-menya-takogo-brozheniya-vn.jpg",
-      "publishedAt": "2026-10-06T12:49:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6647224-u-menya-takogo-brozheniya-vnutri-kollektiva-ne-bylo-ilya-vorobyov-o-situacii-razina.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Андрей Разин",
-        "Илья Воробьёв"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6647234",
-      "slug": "v-salavate-otreagirovali-na-sluhi-o-vozmozhnom-uhode-glavnogo-trenera-viktora-kozlova",
-      "title": "В «Салавате» отреагировали на слухи о возможном уходе главного тренера Виктора Козлова",
-      "summary": "Пресс-служба «Салавата Юлаева» отреагировала на слухи о возможном уходе главного тренера Виктора Козлова.",
-      "content": "Пресс-служба «Салавата Юлаева» отреагировала на слухи о возможном уходе главного тренера Виктора Козлова.",
-      "image": "https://img.championat.com/news/big/o/p/v-salavate-otreagirovali-na-.jpg",
-      "publishedAt": "2026-10-06T12:32:37Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6647234-v-salavate-otreagirovali-na-sluhi-o-vozmozhnom-uhode-glavnogo-trenera-viktora-kozlova.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Салават Юлаев",
-        "Виктор Козлов"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev"
       ],
       "relatedPlayerIds": []
     }
