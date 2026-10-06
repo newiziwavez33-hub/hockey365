@@ -6,24 +6,30 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-06T14:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "LIVE",
+  "period": 2,
   "clock": null,
   "finishedIn": null,
   "home": {
     "id": "khl:traktor",
     "name": "Трактор",
     "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/28/original/traktor_2020__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 1,
+    "periods": [
+      0,
+      1
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:amur",
     "name": "Амур",
     "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/12/original/amur_2015__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 1,
+    "periods": [
+      0,
+      1
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +56,6 @@
     "stageId": 407,
     "eventId": 3000583,
     "matchId": "902109",
-    "fetchedAt": "2026-10-06T08:11:19.782101Z"
+    "fetchedAt": "2026-10-06T15:08:51.097136Z"
   }
 }
