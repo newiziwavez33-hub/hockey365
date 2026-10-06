@@ -1,27 +1,27 @@
 {
-  "id": "khl:902125",
+  "id": "khl:902133",
   "compId": "KHL",
   "season": "2026/27",
   "stage": "regular",
   "round": null,
   "seriesGame": null,
-  "utcDate": "2026-10-10T07:00:00Z",
+  "utcDate": "2026-10-13T16:00:00Z",
   "status": "SCHEDULED",
   "period": null,
   "clock": null,
   "finishedIn": null,
   "home": {
-    "id": "khl:admiral",
-    "name": "Адмирал",
-    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/61/original/admiral_2024_200x200.png",
+    "id": "khl:severstal",
+    "name": "Северсталь",
+    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/42/original/severstal_2021__200x200.png",
     "score": null,
     "periods": [],
     "shots": null
   },
   "away": {
-    "id": "khl:lada",
-    "name": "Лада",
-    "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdn/team_pics/105/original/Lada_logo_2026_200x200_NEW.png",
+    "id": "khl:ska",
+    "name": "СКА",
+    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sda/team_pics/44/original/SKA_logo_2025_RU_200x200_NEW.png",
     "score": null,
     "periods": [],
     "shots": null
@@ -48,8 +48,8 @@
       "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
     ],
     "stageId": 407,
-    "eventId": 3000647,
-    "matchId": "902125",
+    "eventId": 3000679,
+    "matchId": "902133",
     "fetchedAt": "2026-10-06T01:51:37.597890Z"
   }
 }

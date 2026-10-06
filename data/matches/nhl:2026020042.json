@@ -6,31 +6,97 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-05T23:30:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 3,
+  "clock": "15:17",
   "finishedIn": null,
   "home": {
     "id": "nhl:pit",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 23
   },
   "away": {
     "id": "nhl:wpg",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 23
   },
   "arena": "PPG Paints Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "02:01",
+      "team": "away",
+      "playerId": "nhl:p_8486025",
+      "playerName": "Viggo Björck",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 41
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "02:12",
+      "team": "away",
+      "playerId": "nhl:p_8477504",
+      "playerName": "Josh Morrissey",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 321
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "09:27",
+      "team": "home",
+      "playerId": "nhl:p_8485414",
+      "playerName": "Ben Kindel",
+      "assists": [
+        "nhl:p_8483398",
+        "nhl:p_8474578"
+      ],
+      "score": "1-0",
+      "order": 424
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "13:05",
+      "team": "home",
+      "playerId": "nhl:p_8481481",
+      "playerName": "Blake Lizotte",
+      "minutes": 2,
+      "reason": "boarding",
+      "order": 477
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      23,
+      23
+    ],
+    "shotsOnGoal": [
+      23,
+      23
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020042/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020042/play-by-play"
+    ],
+    "fetchedAt": "2026-10-06T01:51:35.769954+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +104,6 @@
     "url": "https://www.nhl.com/gamecenter/wpg-vs-pit/2026/10/05/2026020042",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/wpg-vs-pit/2026/10/05/2026020042",
-    "verifiedAt": "2026-10-05T21:34:10.540356Z"
+    "verifiedAt": "2026-10-06T01:51:35.770065Z"
   }
 }
