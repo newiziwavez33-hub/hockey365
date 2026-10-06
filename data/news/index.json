@@ -1,11 +1,749 @@
 {
   "news": [
     {
+      "id": "news-6646800",
+      "slug": "v-luchshie-gody-on-byl-prakticheski-neuderzhim-stemkos-ob-igre-ovechkina",
+      "title": "«В лучшие годы он был практически неудержим». Стэмкос — об игре Овечкина",
+      "summary": "Форвард «Нэшвилл Предаторз» Стивен Стэмкос высказался об игре российского капитана «Вашингтон Кэпиталз» Александра Овечкина, который заявил, что текущий сезон станет для него последним в НХЛ.",
+      "content": "Форвард «Нэшвилл Предаторз» Стивен Стэмкос высказался об игре российского капитана «Вашингтон Кэпиталз» Александра Овечкина, который заявил, что текущий сезон станет для него последним в НХЛ.",
+      "image": "https://img.championat.com/news/big/s/e/v-luchshie-gody-on-byl-prakticheski-neuderzhim-stemkos-ob-igre-ovechkina_17912717151034449876.jpg",
+      "publishedAt": "2026-10-06T08:10:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646800-v-luchshie-gody-on-byl-prakticheski-neuderzhim-stemkos-ob-igre-ovechkina.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Нэшвилл Предаторз",
+        "Стивен Стэмкос"
+      ],
+      "relatedTeamIds": [
+        "nhl:nsh",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6646818",
+      "slug": "kamenskij-ob-ovechkine-pechalno-dlya-hokkeya-chto-velikij-chelovek-zakanchivaet-kareru",
+      "title": "Каменский — об Овечкине: печально для хоккея, что великий человек заканчивает карьеру",
+      "summary": "Вице-президент КХЛ Валерий Каменский высказался о решении капитана «Вашингтон Кэпиталз» Александра Овечкина завершить карьеру в НХЛ после нынешнего сезона.",
+      "content": "Вице-президент КХЛ Валерий Каменский высказался о решении капитана «Вашингтон Кэпиталз» Александра Овечкина завершить карьеру в НХЛ после нынешнего сезона.",
+      "image": "https://img.championat.com/news/big/w/x/kamenskij-ob-ovechkine-pechalno-dlya-hokkeya-chto-velikij-chelovek-zakanchivaet-kareru_17912726761491657723.jpg",
+      "publishedAt": "2026-10-06T07:44:46Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646818-kamenskij-ob-ovechkine-pechalno-dlya-hokkeya-chto-velikij-chelovek-zakanchivaet-kareru.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Эксклюзив",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Валерий Каменский"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6646810",
+      "slug": "fetisov-prokommentiroval-reshenie-ovechkina-zavershit-kareru-v-nhl-posle-nyneshnego-sezona",
+      "title": "Фетисов прокомментировал решение Овечкина завершить карьеру в НХЛ после нынешнего сезона",
+      "summary": "Двукратный олимпийский чемпион и трёхкратный обладатель Кубка Стэнли Вячеслав Фетисов оценил решение капитана «Вашингтон Кэпиталз» Александра Овечкина завершить карьеру в НХЛ после нынешнего сезона.",
+      "content": "Двукратный олимпийский чемпион и трёхкратный обладатель Кубка Стэнли Вячеслав Фетисов оценил решение капитана «Вашингтон Кэпиталз» Александра Овечкина завершить карьеру в НХЛ после нынешнего сезона.",
+      "image": "https://img.championat.com/news/big/q/j/fetisov-prokommentiroval-reshenie-ovechkina-zavershit-kareru-v-nhl-posle-nyneshnego-sezona_17912720471859410311.jpg",
+      "publishedAt": "2026-10-06T07:34:29Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646810-fetisov-prokommentiroval-reshenie-ovechkina-zavershit-kareru-v-nhl-posle-nyneshnego-sezona.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Эксклюзив",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Вячеслав Фетисов"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6646756",
+      "slug": "selebrini-vyshel-na-raskatku-no-ne-smog-prinyat-uchastie-v-igre-s-dallasom-iz-za-travmy",
+      "title": "Селебрини вышел на раскатку, но не смог принять участие в игре с «Далласом» из-за травмы",
+      "summary": "Капитан и нападающий «Сан-Хосе Шаркс» Маклин Селебрини получил травму перед матчем регулярного чемпионата Национальной хоккейной лиги с «Даллас Старз» (0:5).",
+      "content": "Капитан и нападающий «Сан-Хосе Шаркс» Маклин Селебрини получил травму перед матчем регулярного чемпионата Национальной хоккейной лиги с «Даллас Старз» (0:5).",
+      "image": "https://img.championat.com/news/big/c/r/selebrini-vyshel-na-raskatku-no-ne-smog-prinyat-uchastie-v-igre-s-dallasom-iz-za-travmy_1791269749562424048.jpg",
+      "publishedAt": "2026-10-06T07:17:08Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646756-selebrini-vyshel-na-raskatku-no-ne-smog-prinyat-uchastie-v-igre-s-dallasom-iz-za-travmy.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Даллас Старз",
+        "Сан-Хосе Шаркс",
+        "Маклин Селебрини"
+      ],
+      "relatedTeamIds": [
+        "nhl:dal",
+        "nhl:sjs"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6646716",
+      "slug": "skolko-golov-zabyot-aleksandr-ovechkin-v-poslednem-sezone-v-karere-v-nhl",
+      "title": "Сколько голов забьёт Александр Овечкин в последнем сезоне в карьере в НХЛ?",
+      "summary": "Капитан и нападающий «Вашингтона» Александр Овечкин вчера, 5 октября, объявил, что нынешний сезон станет для него последним в Национальной хоккейной лиге.",
+      "content": "Капитан и нападающий «Вашингтона» Александр Овечкин вчера, 5 октября, объявил, что нынешний сезон станет для него последним в Национальной хоккейной лиге.",
+      "image": "https://img.championat.com/news/big/z/q/skolko-golov-zabyot-aleksandr-ovechkin-v-poslednem-sezone-v-karere-v-nhl_17912680391641185254.jpg",
+      "publishedAt": "2026-10-06T07:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646716-skolko-golov-zabyot-aleksandr-ovechkin-v-poslednem-sezone-v-karere-v-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Опрос"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6646664",
+      "slug": "ska-severstal-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-6-oktyabrya-2026",
+      "title": "СКА — «Северсталь»: во сколько начало матча КХЛ, где смотреть трансляцию",
+      "summary": "Сегодня, 6 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет череповецкую «Северсталь».",
+      "content": "Сегодня, 6 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет череповецкую «Северсталь».",
+      "image": "https://img.championat.com/news/big/a/s/ska-severstal-vo-skolko-nachalo-matcha-khl-gde-smotret-translyaciyu_1791265011442527919.jpg",
+      "publishedAt": "2026-10-06T06:40:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646664-ska-severstal-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-6-oktyabrya-2026.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Северсталь"
+      ],
+      "relatedTeamIds": [
+        "khl:severstal",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6646672",
+      "slug": "on-sdelal-vsyo-dlya-rossijskogo-sporta-podkolzin-o-zayavlenii-ovechkina",
+      "title": "«Он сделал всё для российского спорта». Подколзин — о заявлении Овечкина",
+      "summary": "Российский нападающий «Эдмонтон Ойлерз» Василий Подколзин высказался о российском форварде «Вашингтон Кэпиталз» Александре Овечкине, который ранее объявил, что проведёт свой последний сезон в Национальной хоккейной лиге.",
+      "content": "Российский нападающий «Эдмонтон Ойлерз» Василий Подколзин высказался о российском форварде «Вашингтон Кэпиталз» Александре Овечкине, который ранее объявил, что проведёт свой последний сезон в Национальной хоккейной лиге.",
+      "image": "https://img.championat.com/news/big/e/h/on-sdelal-vsyo-dlya-rossijskogo-sporta-podkolzin-o-zayavlenii-ovechkina_1791265532643874911.jpg",
+      "publishedAt": "2026-10-06T06:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646672-on-sdelal-vsyo-dlya-rossijskogo-sporta-podkolzin-o-zayavlenii-ovechkina.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Эдмонтон Ойлерз",
+        "Василий Подколзин"
+      ],
+      "relatedTeamIds": [
+        "nhl:edm",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6646658",
+      "slug": "traktor-amur-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-6-oktyabrya-2026",
+      "title": "«Трактор» — «Амур»: во сколько начало матча КХЛ, где смотреть трансляцию",
+      "summary": "Сегодня, 6 октября, в Челябинске пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Трактором» и хабаровским «Амуром».",
+      "content": "Сегодня, 6 октября, в Челябинске пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Трактором» и хабаровским «Амуром».",
+      "image": "https://img.championat.com/news/big/h/c/traktor-amur-vo-skolko-nachalo-matcha-khl-gde-smotret-translyaciyu_17912647371076133261.jpg",
+      "publishedAt": "2026-10-06T06:20:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646658-traktor-amur-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-6-oktyabrya-2026.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Трактор",
+        "Амур"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6646368",
+      "slug": "gamzin-pariroval-bullit-v-padenii-nikitin-sporil-s-sudyoj-yarkie-foto-pobedy-cska",
+      "title": "Гамзин парировал буллит в падении, Никитин спорил с судьёй. Яркие фото победы ЦСКА",
+      "summary": "5 октября в Москве на стадионе «ЦСКА-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором ЦСКА принимал уфимский «Салават Юлаев».",
+      "content": "5 октября в Москве на стадионе «ЦСКА-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором ЦСКА принимал уфимский «Салават Юлаев».",
+      "image": "https://img.championat.com/news/big/s/r/gamzin-pariroval-bullit-v-padenii-nikitin-sporil-s-sudyoj-yarkie-foto-pobedy-cska_1791230454575577092.jpg",
+      "publishedAt": "2026-10-06T06:15:06Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646368-gamzin-pariroval-bullit-v-padenii-nikitin-sporil-s-sudyoj-yarkie-foto-pobedy-cska.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Фото",
+        "ЦСКА",
+        "Салават Юлаев",
+        "Фоторепортаж",
+        "Игорь Никитин",
+        "Николай Коваленко",
+        "Шелдон Ремпал",
+        "Прохор Полтапов",
+        "Максим Соркин",
+        "Девин Броссо",
+        "Дмитрий Гамзин"
+      ],
+      "relatedTeamIds": [
+        "khl:cska",
+        "khl:salavat-yulaev"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6646646",
+      "slug": "raspisanie-matchej-mhl-na-6-oktyabrya-2026-goda",
+      "title": "Расписание матчей МХЛ на 6 октября 2026 года",
+      "summary": "Сегодня, 6 октября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 6 октября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-06T06:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646646-raspisanie-matchej-mhl-na-6-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Спартак",
+        "МХК СКА-1946",
+        "МХК Толпар",
+        "МХК Кузнецкие Медведи",
+        "МХК Алмаз",
+        "МХК Реактор",
+        "МХК Мамонты Югры",
+        "МХК Снежные Барсы",
+        "МХК Динамо-Шинник",
+        "МХК Динамо",
+        "МХК Тайфун",
+        "МХК Спутник Альметьевск",
+        "МХК Красноярские Рыси"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6646650",
+      "slug": "avtomobilist-avangard-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-6-oktyabrya-2026",
+      "title": "«Автомобилист» — «Авангард»: во сколько начало матча КХЛ, где смотреть трансляцию",
+      "summary": "Сегодня, 6 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» примет омский «Авангард».",
+      "content": "Сегодня, 6 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» примет омский «Авангард».",
+      "image": "https://img.championat.com/news/big/n/y/avtomobilist-avangard-vo-skolko-nachalo-matcha-khl-gde-smotret-translyaciyu_17912644071964184867.jpg",
+      "publishedAt": "2026-10-06T05:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646650-avtomobilist-avangard-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-6-oktyabrya-2026.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Автомобилист"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:avtomobilist"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6646644",
+      "slug": "raspisanie-matchej-vhl-na-6-oktyabrya-2026-goda",
+      "title": "Расписание матчей ВХЛ на 6 октября 2026 года",
+      "summary": "Сегодня, 6 октября, пройдут три матча OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 6 октября, пройдут три матча OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-10-06T05:40:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646644-raspisanie-matchej-vhl-na-6-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Химик",
+        "Барс",
+        "Горняк",
+        "ЦСК ВВС",
+        "Норильск"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6646648",
+      "slug": "kucherov-vyshel-na-trete-mesto-sredi-dejstvuyuschih-igrokov-nhl-po-procentu-matchej-s-2-ochkami",
+      "title": "Кучеров вышел на третье место среди действующих игроков НХЛ по проценту матчей с 2+ очками",
+      "summary": "Российский форвард «Тампа-Бэй Лайтнинг» Никита Кучеров во встрече регулярного чемпионата НХЛ с «Филадельфией Флайерз» записал на свой счёт две результативные передачи.",
+      "content": "Российский форвард «Тампа-Бэй Лайтнинг» Никита Кучеров во встрече регулярного чемпионата НХЛ с «Филадельфией Флайерз» записал на свой счёт две результативные передачи.",
+      "image": "https://img.championat.com/news/big/r/n/kucherov-vyshel-na-trete-mesto-sredi-dejstvuyuschih-igrokov-nhl-po-procentu-matchej-s-2-oc_17912637871606902659.jpg",
+      "publishedAt": "2026-10-06T05:31:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646648-kucherov-vyshel-na-trete-mesto-sredi-dejstvuyuschih-igrokov-nhl-po-procentu-matchej-s-2-ochkami.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Питтсбург Пингвинз",
+        "Эдмонтон Ойлерз",
+        "Филадельфия Флайерз",
+        "Никита Кучеров",
+        "Сидни Кросби",
+        "Коннор Макдэвид"
+      ],
+      "relatedTeamIds": [
+        "nhl:edm",
+        "nhl:phi",
+        "nhl:pit",
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453",
+        "nhl:p_8478402"
+      ]
+    },
+    {
+      "id": "news-6646636",
+      "slug": "6-oktyabrya-glavnye-novosti-sporta-futbol-liga-nacij-hokkej-nhl-khl-rezultaty-tennis-wta",
+      "title": "Камбэк Франции в матче с Бельгией, Андреева разгромила Снигур в Пекине. Главное к утру",
+      "summary": "Сборная Франции разгромила Бельгию в матче 4-го тура Лиги наций, Мирра Андреева разгромила Дарью Снигур и вышла в четвертьфинал «тысячника» в Пекине, форвард Никита Кучеров установил рекорд «Тампа-Бэй Лайтнинг».",
+      "content": "Сборная Франции разгромила Бельгию в матче 4-го тура Лиги наций, Мирра Андреева разгромила Дарью Снигур и вышла в четвертьфинал «тысячника» в Пекине, форвард Никита Кучеров установил рекорд «Тампа-Бэй Лайтнинг».",
+      "image": "https://img.championat.com/news/big/p/s/kambek-francii-v-matche-s-belgiej-andreeva-razgromila-snigur-v-pekine-glavnoe-k-utru_17912648641571029933.jpg",
+      "publishedAt": "2026-10-06T05:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646636-6-oktyabrya-glavnye-novosti-sporta-futbol-liga-nacij-hokkej-nhl-khl-rezultaty-tennis-wta.html",
+      "tags": [
+        "Хоккей",
+        "Футбол",
+        "Лига наций УЕФА",
+        "Теннис",
+        "WTA",
+        "ЦСКА",
+        "Ак Барс",
+        "Салават Юлаев",
+        "НХЛ",
+        "Локомотив",
+        "КХЛ",
+        "Динамо Минск",
+        "Торпедо",
+        "Тампа-Бэй Лайтнинг",
+        "Питтсбург Пингвинз",
+        "Сборная Франции — Футбол",
+        "Сборная Италии — Футбол",
+        "Бостон Брюинз",
+        "Филадельфия Флайерз",
+        "Никита Кучеров",
+        "Мирра Андреева",
+        "Оттава Сенаторз",
+        "Сборная Бельгии — Футбол",
+        "Виннипег Джетс",
+        "Рекорд",
+        "Сборная Турции — Футбол",
+        "Никита Задоров",
+        "Лига наций — Футбол",
+        "Илья Михеев",
+        "Марат Хуснутдинов",
+        "Сергей Мурашов",
+        "Дарья Снигур"
+      ],
+      "relatedTeamIds": [
+        "khl:ak-bars",
+        "khl:cska",
+        "khl:dynamo-mns",
+        "khl:lokomotiv",
+        "khl:salavat-yulaev",
+        "khl:torpedo",
+        "nhl:bos",
+        "nhl:ott",
+        "nhl:phi",
+        "nhl:pit",
+        "nhl:tbl",
+        "nhl:wpg"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
+      "id": "news-6646642",
+      "slug": "raspisanie-matchej-khl-na-6-oktyabrya-2026-goda",
+      "title": "Расписание матчей КХЛ на 6 октября 2026 года",
+      "summary": "Сегодня, 6 октября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 6 октября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/b/j/raspisanie-matchej-khl-na-6-oktyabrya-2026-goda_1791262876234079629.jpg",
+      "publishedAt": "2026-10-06T05:20:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646642-raspisanie-matchej-khl-na-6-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Авангард",
+        "Трактор",
+        "Автомобилист",
+        "Северсталь",
+        "Амур"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:avangard",
+        "khl:avtomobilist",
+        "khl:severstal",
+        "khl:ska",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6646632",
+      "slug": "ovechkin-nazval-tri-klyuchevye-veschi-po-kotorym-on-budet-skuchat-posle-zaversheniya-karery",
+      "title": "Овечкин назвал три ключевые вещи, по которым он будет скучать после завершения карьеры",
+      "summary": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин рассказал, по чему будет скучать больше всего после того как завершит карьеру в НХЛ.",
+      "content": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин рассказал, по чему будет скучать больше всего после того как завершит карьеру в НХЛ.",
+      "image": "https://img.championat.com/news/big/g/v/ovechkin-nazval-tri-klyuchevye-veschi-po-kotorym-on-budet-skuchat-posle-zaversheniya-karer_1791261237903145262.jpg",
+      "publishedAt": "2026-10-06T04:55:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646632-ovechkin-nazval-tri-klyuchevye-veschi-po-kotorym-on-budet-skuchat-posle-zaversheniya-karery.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6646620",
+      "slug": "gryaduschij-uhod-ovechkina-vzorval-ceny-na-bilety-na-matchi-vashingtona-opublikovany-cifry",
+      "title": "Грядущий уход Овечкина взорвал цены на билеты на матчи «Вашингтона». Опубликованы цифры",
+      "summary": "Билеты на последний домашний матч регулярного чемпионата НХЛ для российского нападающего «Вашингтон Кэпиталз» Александра Овечкина резко подорожали после объявления хоккеиста, что сезон-2026/2027 станет для него послед...",
+      "content": "Билеты на последний домашний матч регулярного чемпионата НХЛ для российского нападающего «Вашингтон Кэпиталз» Александра Овечкина резко подорожали после объявления хоккеиста, что сезон-2026/2027 станет для него последним в лиге.",
+      "image": "https://img.championat.com/news/big/e/g/gryaduschij-uhod-ovechkina-vzorval-ceny-na-bilety-na-matchi-vashingtona-opublikovany-cifry_1791259174492616801.jpg",
+      "publishedAt": "2026-10-06T04:45:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646620-gryaduschij-uhod-ovechkina-vzorval-ceny-na-bilety-na-matchi-vashingtona-opublikovany-cifry.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6646624",
+      "slug": "ovechkin-rasskazal-chego-zhdyot-ot-svoego-poslednego-sezona-v-nhl",
+      "title": "Овечкин рассказал, чего ждёт от своего последнего сезона в НХЛ",
+      "summary": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин рассказал, чего ждёт от своего последнего сезона в НХЛ.",
+      "content": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин рассказал, чего ждёт от своего последнего сезона в НХЛ.",
+      "image": "https://img.championat.com/news/big/c/q/ovechkin-rasskazal-chego-zhdyot-ot-svoego-poslednego-sezona-v-nhl_17912598271044191829.jpg",
+      "publishedAt": "2026-10-06T04:25:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646624-ovechkin-rasskazal-chego-zhdyot-ot-svoego-poslednego-sezona-v-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6646608",
+      "slug": "ovechkin-oglasil-imena-samyh-vazhnyh-dlya-nego-igrokov-v-svoyom-poslednem-sezone-nhl",
+      "title": "Овечкин назвал самых важных для него игроков в своём последнем сезоне НХЛ",
+      "summary": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин назвал игроков, встречи с которыми будут для него особенно важными после того, как он принял решение, что проведёт свой последний сезон в НХЛ.",
+      "content": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин назвал игроков, встречи с которыми будут для него особенно важными после того, как он принял решение, что проведёт свой последний сезон в НХЛ.",
+      "image": "https://img.championat.com/news/big/j/a/ovechkin-nazval-samyh-vazhnyh-dlya-nego-igrokov-v-svoyom-poslednem-sezone-nhl_1791265796612434864.jpg",
+      "publishedAt": "2026-10-06T03:32:58Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646608-ovechkin-oglasil-imena-samyh-vazhnyh-dlya-nego-igrokov-v-svoyom-poslednem-sezone-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Никлас Бекстрём",
+        "Ти Джей Оши",
+        "Джон Карлсон"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6646604",
+      "slug": "rezultaty-matchej-nhl-na-6-oktyabrya-2026-goda",
+      "title": "Результаты матчей НХЛ на 6 октября 2026 года",
+      "summary": "В ночь на 6 октября прошли очередные матчи регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027.",
+      "content": "В ночь на 6 октября прошли очередные матчи регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/d/n/rezultaty-matchej-nhl-na-6-oktyabrya-2026-goda_1791257104607315203.jpg",
+      "publishedAt": "2026-10-06T03:25:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646604-rezultaty-matchej-nhl-na-6-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Питтсбург Пингвинз",
+        "Бостон Брюинз",
+        "Филадельфия Флайерз",
+        "Даллас Старз",
+        "Сан-Хосе Шаркс",
+        "Оттава Сенаторз",
+        "Виннипег Джетс"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:dal",
+        "nhl:ott",
+        "nhl:phi",
+        "nhl:pit",
+        "nhl:sjs",
+        "nhl:tbl",
+        "nhl:wpg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6646596",
+      "slug": "ovechkin-rasskazal-iz-za-kakih-faktorov-on-prinyal-reshenie-zavershit-kareru-v-nhl",
+      "title": "Овечкин рассказал, из-за каких факторов он принял решение завершить карьеру в НХЛ",
+      "summary": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин рассказал, как проходил процесс принятия решения завершить карьеру в НХЛ.",
+      "content": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин рассказал, как проходил процесс принятия решения завершить карьеру в НХЛ.",
+      "image": "https://img.championat.com/news/big/m/f/ovechkin-rasskazal-iz-za-kakih-faktorov-on-prinyal-reshenie-zavershit-kareru-v-nhl_17912559511447816591.jpg",
+      "publishedAt": "2026-10-06T03:05:57Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646596-ovechkin-rasskazal-iz-za-kakih-faktorov-on-prinyal-reshenie-zavershit-kareru-v-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6646586",
+      "slug": "ovechkin-obratilsya-k-bolelschikam-posle-svoego-resheniya-zavershit-kareru-v-nhl",
+      "title": "Овечкин обратился к болельщикам после своего решения завершить карьеру в НХЛ",
+      "summary": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин обратился к болельщикам после того, как принял решение, что проведёт свой последний сезон в НХЛ.",
+      "content": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин обратился к болельщикам после того, как принял решение, что проведёт свой последний сезон в НХЛ.",
+      "image": "https://img.championat.com/news/big/v/h/ovechkin-obratilsya-k-bolelschikam-posle-svoego-resheniya-zavershit-kareru-v-nhl_17912554751034377865.jpg",
+      "publishedAt": "2026-10-06T02:57:57Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646586-ovechkin-obratilsya-k-bolelschikam-posle-svoego-resheniya-zavershit-kareru-v-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6646580",
+      "slug": "30-sejvov-murashova-ne-spasli-pittsburg-ot-porazheniya-v-matche-s-vinnipegom-v-nhl",
+      "title": "30 сейвов Мурашова не спасли «Питтсбург» от поражения в матче с «Виннипегом» в НХЛ",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Питтсбург Пингвинз» и «Виннипег Джетс», который прошёл на стадионе «Пи-Пи-Джи Пэйнтс-Арена» в Питтсбурге, США.",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Питтсбург Пингвинз» и «Виннипег Джетс», который прошёл на стадионе «Пи-Пи-Джи Пэйнтс-Арена» в Питтсбурге, США.",
+      "image": "https://img.championat.com/news/big/j/p/30-sejvov-murashova-ne-spasli-pittsburg-ot-porazheniya-v-matche-s-vinnipegom-v-nhl_17912546121077771985.jpg",
+      "publishedAt": "2026-10-06T02:35:15Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646580-30-sejvov-murashova-ne-spasli-pittsburg-ot-porazheniya-v-matche-s-vinnipegom-v-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Питтсбург Пингвинз",
+        "Евгений Малкин",
+        "Виннипег Джетс",
+        "Видеообзор",
+        "Сергей Мурашов"
+      ],
+      "relatedTeamIds": [
+        "nhl:pit",
+        "nhl:wpg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6646578",
+      "slug": "dallas-razgromil-san-hose-v-domashnem-matche-nhl",
+      "title": "«Даллас» разгромил «Сан-Хосе» в домашнем матче НХЛ",
+      "summary": "В ночь с 5 на 6 октября мск на льду арены «Американ Эйрлайнс-центр » в Далласе, США, завершился матч регулярного чемпионата НХЛ сезона-2026/2027 между клубами «Даллас Старз» и «Сан-Хосе Шаркс».",
+      "content": "В ночь с 5 на 6 октября мск на льду арены «Американ Эйрлайнс-центр » в Далласе, США, завершился матч регулярного чемпионата НХЛ сезона-2026/2027 между клубами «Даллас Старз» и «Сан-Хосе Шаркс».",
+      "image": "https://img.championat.com/news/big/z/m/dallas-razgromil-san-hose-v-domashnem-matche-nhl_17912538841759829530.jpg",
+      "publishedAt": "2026-10-06T02:29:13Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646578-dallas-razgromil-san-hose-v-domashnem-matche-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Даллас Старз",
+        "Сан-Хосе Шаркс",
+        "Дмитрий Орлов",
+        "Ярослав Аскаров",
+        "Микко Рантанен",
+        "Джейми Бенн",
+        "Джейсон Робертсон",
+        "Миро Хейсканен",
+        "Игорь Чернышов — хоккей",
+        "Роопе Хинц",
+        "Йоэль Кивиранта"
+      ],
+      "relatedTeamIds": [
+        "nhl:dal",
+        "nhl:sjs"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6646572",
+      "slug": "boston-bryuinz-ottava-senatorz-rezultat-matcha-6-oktyabrya-2026-schet-1-4-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "«Бостон» проиграл «Оттаве» дома 1:4. Задоров и Хуснутдинов — без очков",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Бостон Брюинз» и «Оттава Сенаторз», который прошёл на стадионе «Ти-Ди Гарден» в Бостоне, США.",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Бостон Брюинз» и «Оттава Сенаторз», который прошёл на стадионе «Ти-Ди Гарден» в Бостоне, США.",
+      "image": "https://img.championat.com/news/big/l/d/boston-proigral-ottave-doma-1-4-zadorov-i-husnutdinov-bez-ochkov_17912532651737670643.jpg",
+      "publishedAt": "2026-10-06T02:20:24Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646572-boston-bryuinz-ottava-senatorz-rezultat-matcha-6-oktyabrya-2026-schet-1-4-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Бостон Брюинз",
+        "Оттава Сенаторз",
+        "Никита Задоров",
+        "Марат Хуснутдинов",
+        "Тим Штюцле",
+        "Дрейк Батерсон",
+        "Джеймс Хэгенс"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:ott"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6646570",
+      "slug": "est-u-nego-i-drugaya-supersila-glava-asha-ob-ovechkine",
+      "title": "«Есть у него и другая суперсила». Глава ASHA — об Овечкине",
+      "summary": "Исполнительный директор Американской хоккейной ассоциации для особенных детей (ASHA) Джей О'Брайен высказался о российском форварде «Вашингтон Кэпиталз» Александре Овечкине, который ранее объявил, что проведёт свой по...",
+      "content": "Исполнительный директор Американской хоккейной ассоциации для особенных детей (ASHA) Джей О'Брайен высказался о российском форварде «Вашингтон Кэпиталз» Александре Овечкине, который ранее объявил, что проведёт свой последний сезон в НХЛ.",
+      "image": "https://img.championat.com/news/big/t/c/est-u-nego-i-drugaya-supersila-glava-asha-ob-ovechkine_1791263517480544121.jpg",
+      "publishedAt": "2026-10-06T01:54:14Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646570-est-u-nego-i-drugaya-supersila-glava-asha-ob-ovechkine.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6646568",
+      "slug": "tampa-bej-lajtning-filadelfiya-flajerz-rezultat-matcha-6-oktyabrya-2026-schet-4-1-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "«Тампа» с 4 очками Кучерова и Михеева нанесла «Филадельфии» четвёртое поражение кряду",
+      "summary": "Завершился матч Национальной хоккейной лиги сезона-2026/2027 между клубами «Тампа-Бэй Лайтнинг» и «Филадельфия Флайерз».",
+      "content": "Завершился матч Национальной хоккейной лиги сезона-2026/2027 между клубами «Тампа-Бэй Лайтнинг» и «Филадельфия Флайерз».",
+      "image": "https://img.championat.com/news/big/z/w/tampa-s-4-ochkami-kucherova-i-miheeva-nanesla-filadelfii-chetvyortoe-porazhenie-kryadu_17912632591784312300.jpg",
+      "publishedAt": "2026-10-06T01:52:14Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6646568-tampa-bej-lajtning-filadelfiya-flajerz-rezultat-matcha-6-oktyabrya-2026-schet-4-1-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Тампа-Бэй Лайтнинг",
+        "Филадельфия Флайерз",
+        "Никита Кучеров",
+        "Андрей Василевский",
+        "Матвей Мичков",
+        "Илья Михеев",
+        "Брейден Пойнт"
+      ],
+      "relatedTeamIds": [
+        "nhl:phi",
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
       "id": "news-6646566",
       "slug": "ovechkin-rasskazal-kakimi-budut-ego-otnosheniya-s-vashingtonom-posle-zaversheniya-karery",
       "title": "Овечкин рассказал, какими будут его отношения с «Вашингтоном» после завершения карьеры",
-      "summary": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин ответил на вопрос, каким будеьт его отношения со столичным клубом и Вашингтоном после завершения карьеры в Национальной хоккейной лиге.",
-      "content": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин ответил на вопрос, каким будеьт его отношения со столичным клубом и Вашингтоном после завершения карьеры в Национальной хоккейной лиге.",
+      "summary": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин ответил на вопрос, какими будут его отношения со столичным клубом после завершения карьеры в Национальной хоккейной лиге.",
+      "content": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин ответил на вопрос, какими будут его отношения со столичным клубом после завершения карьеры в Национальной хоккейной лиге.",
       "image": "https://img.championat.com/news/big/d/f/ovechkin-rasskazal-kakimi-budut-ego-otnosheniya-s-vashingtonom-posle-zaversheniya-karery_17912500971514944272.jpg",
       "publishedAt": "2026-10-06T01:28:19Z",
       "source": "Чемпионат • Хоккей",
@@ -73,8 +811,8 @@
       "id": "news-6646542",
       "slug": "nikita-kucherov-ustanovil-rekord-tampy",
       "title": "Никита Кучеров установил рекорд «Тампы»",
-      "summary": "В эти минуты в Тампе (США) на стадионе «Бенчмарк Интернейшнл-Арена» проходит матч регулярного чемпионата Национальной хоккейной лиги, в котором «Тампа-Бэй Лайтнинг» принимает «Филадельфию Флайерз».",
-      "content": "В эти минуты в Тампе (США) на стадионе «Бенчмарк Интернейшнл-Арена» проходит матч регулярного чемпионата Национальной хоккейной лиги, в котором «Тампа-Бэй Лайтнинг» принимает «Филадельфию Флайерз».",
+      "summary": "В эти минуты в Тампе, США, на стадионе «Бенчмарк Интернейшнл-Арена» проходит матч регулярного чемпионата Национальной хоккейной лиги, в котором «Тампа-Бэй Лайтнинг» принимает «Филадельфию Флайерз».",
+      "content": "В эти минуты в Тампе, США, на стадионе «Бенчмарк Интернейшнл-Арена» проходит матч регулярного чемпионата Национальной хоккейной лиги, в котором «Тампа-Бэй Лайтнинг» принимает «Филадельфию Флайерз».",
       "image": "https://img.championat.com/news/big/f/j/nikita-kucherov-ustanovil-rekord-tampy_1791247227735523841.jpg",
       "publishedAt": "2026-10-06T00:40:31Z",
       "source": "Чемпионат • Хоккей",
@@ -93,666 +831,6 @@
       "relatedPlayerIds": [
         "nhl:p_8476453"
       ]
-    },
-    {
-      "id": "news-6646534",
-      "slug": "nikita-kucherov-otlichilsya-v-tretem-matche-podryad-novogo-sezona-nhl",
-      "title": "Никита Кучеров отличился в третьем матче подряд нового сезона НХЛ",
-      "summary": "В эти минуты в Тампе (США) на стадионе «Бенчмарк Интернейшнл-Арена» проходит матч регулярного чемпионата Национальной хоккейной лиги, в котором «Тампа-Бэй Лайтнинг» принимает «Филадельфию Флайерз».",
-      "content": "В эти минуты в Тампе (США) на стадионе «Бенчмарк Интернейшнл-Арена» проходит матч регулярного чемпионата Национальной хоккейной лиги, в котором «Тампа-Бэй Лайтнинг» принимает «Филадельфию Флайерз».",
-      "image": "https://img.championat.com/news/big/b/y/nikita-kucherov-otlichilsya-v-tretem-matche-podryad-novogo-sezona-nhl_1791244596223561647.jpg",
-      "publishedAt": "2026-10-05T23:56:41Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646534-nikita-kucherov-otlichilsya-v-tretem-matche-podryad-novogo-sezona-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Тампа-Бэй Лайтнинг",
-        "Статистика",
-        "Филадельфия Флайерз",
-        "Никита Кучеров"
-      ],
-      "relatedTeamIds": [
-        "nhl:phi",
-        "nhl:tbl"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453"
-      ]
-    },
-    {
-      "id": "news-6646526",
-      "slug": "ya-videl-kakie-hody-sdelal-klub-ovechkin-o-reshenii-zavershit-kareru-v-nhl",
-      "title": "«Я видел, какие ходы сделал клуб». Овечкин – о решении завершить карьеру в НХЛ",
-      "summary": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин рассказал, когда принял решение о том, что проведёт свой последний сезон в НХЛ.",
-      "content": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин рассказал, когда принял решение о том, что проведёт свой последний сезон в НХЛ.",
-      "image": "https://img.championat.com/news/big/a/f/ya-videl-kakie-hody-sdelal-klub-ovechkin-o-reshenii-zavershit-kareru-v-nhl_1791242347622159742.jpg",
-      "publishedAt": "2026-10-05T23:19:08Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646526-ya-videl-kakie-hody-sdelal-klub-ovechkin-o-reshenii-zavershit-kareru-v-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6646524",
-      "slug": "on-po-prezhnemu-neveroyatno-opasen-krosbi-ob-aleksandre-ovechkine",
-      "title": "«Он по-прежнему невероятно опасен». Кросби — об Александре Овечкине",
-      "summary": "Нападающий и капитан «Питтсбург Пингвинз» Сидни Кросби высказался о российском форварде «Вашингтон Кэпиталз» Александре Овечкине, который ранее объявил, что проведёт свой последний сезон в Национальной хоккейной лиге.",
-      "content": "Нападающий и капитан «Питтсбург Пингвинз» Сидни Кросби высказался о российском форварде «Вашингтон Кэпиталз» Александре Овечкине, который ранее объявил, что проведёт свой последний сезон в Национальной хоккейной лиге.",
-      "image": "https://img.championat.com/news/big/c/c/on-po-prezhnemu-neveroyatno-opasen-krosbi-ob-aleksandre-ovechkine_17912413531904123621.jpg",
-      "publishedAt": "2026-10-05T23:00:41Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646524-on-po-prezhnemu-neveroyatno-opasen-krosbi-ob-aleksandre-ovechkine.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Питтсбург Пингвинз",
-        "Сидни Кросби"
-      ],
-      "relatedTeamIds": [
-        "nhl:pit",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6646522",
-      "slug": "ovechkin-otvetil-kak-ego-synovya-otreagirovali-na-novost-o-zavershenii-karery-v-nhl",
-      "title": "Овечкин — о решении завершить карьеру в НХЛ: мои дети ещё не знают об этом",
-      "summary": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин рассказал, что его сыновья Сергей и Илья не знают, что этот сезон станет заключительным для хоккеиста в Национальной хоккейной лиге.",
-      "content": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин рассказал, что его сыновья Сергей и Илья не знают, что этот сезон станет заключительным для хоккеиста в Национальной хоккейной лиге.",
-      "image": "https://img.championat.com/news/big/x/f/ovechkin-o-reshenii-zavershit-kareru-v-nhl-moi-deti-eschyo-ne-znayut-ob-etom_1791242270428801371.jpg",
-      "publishedAt": "2026-10-05T22:52:15Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646522-ovechkin-otvetil-kak-ego-synovya-otreagirovali-na-novost-o-zavershenii-karery-v-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6646508",
-      "slug": "aleksandr-ovechkin-obyasnil-pochemu-reshil-sejchas-obyavit-reshenie-o-svoyom-buduschem-v-nhl",
-      "title": "Александр Овечкин объяснил, почему решил сейчас объявить решение о своём будущем в НХЛ",
-      "summary": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин ответил на вопрос журналиста, почему сейчас решил объявить о завершении карьеры в Национальной хоккейной лиге.",
-      "content": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин ответил на вопрос журналиста, почему сейчас решил объявить о завершении карьеры в Национальной хоккейной лиге.",
-      "image": "https://img.championat.com/news/big/s/z/aleksandr-ovechkin-obyasnil-pochemu-reshil-sejchas-obyavit-reshenie-o-svoyom-buduschem-v-n_1791237921864003274.jpg",
-      "publishedAt": "2026-10-05T22:05:23Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646508-aleksandr-ovechkin-obyasnil-pochemu-reshil-sejchas-obyavit-reshenie-o-svoyom-buduschem-v-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Переходы — Хоккей"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6646454",
-      "slug": "rezultaty-matchej-mhl-na-5-oktyabrya-2026-goda",
-      "title": "Результаты матчей МХЛ на 5 октября 2026 года",
-      "summary": "В понедельник, 5 октября, прошли семь матчей OLIMPBET Молодёжной хоккейной лиги.",
-      "content": "В понедельник, 5 октября, прошли семь матчей OLIMPBET Молодёжной хоккейной лиги.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-10-05T21:02:14Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646454-rezultaty-matchej-mhl-na-5-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "МХЛ",
-        "МХК Красная Армия",
-        "МХК Омские Ястребы",
-        "МХК СКА-1946",
-        "МХК Белые Медведи",
-        "Крылья Советов",
-        "МХК Авто",
-        "МХК Алмаз",
-        "МХК Сибирские Снайперы",
-        "МХК Амурские Тигры",
-        "МХК Снежные Барсы",
-        "МХК Динамо",
-        "МХК Спутник Альметьевск"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646450",
-      "slug": "rezultaty-matchej-vhl-na-5-oktyabrya-2026-goda",
-      "title": "Результаты матчей ВХЛ на 5 октября 2026 года",
-      "summary": "Сегодня, 5 октября, состоялись пять матчей OLIMPBET Чемпионата России ВХЛ.",
-      "content": "Сегодня, 5 октября, состоялись пять матчей OLIMPBET Чемпионата России ВХЛ.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-10-05T20:57:12Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646450-rezultaty-matchej-vhl-na-5-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "ВХЛ",
-        "Металлург Нк",
-        "Торос",
-        "Дизель",
-        "Молот-Прикамье",
-        "Кристалл Саратов",
-        "Динамо Санкт-Петербург",
-        "АКМ",
-        "СКА-ВМФ",
-        "Калуга"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646442",
-      "slug": "rezultaty-matchej-khl-na-5-oktyabrya-2026-goda",
-      "title": "Результаты матчей КХЛ на 5 октября 2026 года",
-      "summary": "Сегодня, 5 октября, прошли очередные матчи регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Сегодня, 5 октября, прошли очередные матчи регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-10-05T20:54:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646442-rezultaty-matchej-khl-na-5-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Ак Барс",
-        "Салават Юлаев",
-        "Металлург Мг",
-        "Локомотив",
-        "Динамо Минск",
-        "Торпедо",
-        "Адмирал",
-        "Лада",
-        "Шанхайские Драконы (Куньлунь Ред Стар)"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:ak-bars",
-        "khl:cska",
-        "khl:dynamo-mns",
-        "khl:kunlun",
-        "khl:lada",
-        "khl:lokomotiv",
-        "khl:metallurg-mg",
-        "khl:salavat-yulaev",
-        "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646438",
-      "slug": "gatiyatulin-ak-bars-vsegda-byl-komandoj-s-kotoroj-neprosto-igrat",
-      "title": "Гатиятулин: «Ак Барс» всегда был командой, с которой непросто играть",
-      "summary": "Главный тренер «Ак Барса» Анвар Гатиятулин заявил, что казанский клуб всегда был сложным соперником, особенно на домашней арене.",
-      "content": "Главный тренер «Ак Барса» Анвар Гатиятулин заявил, что казанский клуб всегда был сложным соперником, особенно на домашней арене.",
-      "image": "https://img.championat.com/news/big/g/u/gatiyatulin-ak-bars-vsegda-b.jpg",
-      "publishedAt": "2026-10-05T20:50:46Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646438-gatiyatulin-ak-bars-vsegda-byl-komandoj-s-kotoroj-neprosto-igrat.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Анвар Гатиятулин"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646434",
-      "slug": "gatiyatulin-otvetil-na-voprosy-o-transfernoj-politike-i-perspektivah-vozvrascheniya-shafranova",
-      "title": "Гатиятулин ответил на вопросы о трансферной политике и перспективах возвращения Шафранова",
-      "summary": "Главный тренер «Ак Барса» Анвар Гатиятулин ответил на вопрос о трансферной политике, а также оценил перспективы возвращения Константина Шафранова в тренерский штаб казанского клуба.",
-      "content": "Главный тренер «Ак Барса» Анвар Гатиятулин ответил на вопрос о трансферной политике, а также оценил перспективы возвращения Константина Шафранова в тренерский штаб казанского клуба.",
-      "image": "https://img.championat.com/news/big/h/b/gatiyatulin-otvetil-na-vopro.jpg",
-      "publishedAt": "2026-10-05T20:48:27Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646434-gatiyatulin-otvetil-na-voprosy-o-transfernoj-politike-i-perspektivah-vozvrascheniya-shafranova.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Анвар Гатиятулин"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646428",
-      "slug": "trener-lokomotiva-kvartalnov-vyskazalsya-ob-igre-pustovogo-uleva-i-falkovskogo",
-      "title": "Тренер «Локомотива» Квартальнов высказался об игре Пустового, Ульева и Фальковского",
-      "summary": "Главный тренер «Локомотива» Дмитрий Квартальнов оценил игру нападающего команды Андрея Пустового, а также защитников Марка Ульева и Степана Фальковского.",
-      "content": "Главный тренер «Локомотива» Дмитрий Квартальнов оценил игру нападающего команды Андрея Пустового, а также защитников Марка Ульева и Степана Фальковского.",
-      "image": "https://img.championat.com/news/big/r/d/trener-lokomotiva-kvartalnov.jpg",
-      "publishedAt": "2026-10-05T20:45:29Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646428-trener-lokomotiva-kvartalnov-vyskazalsya-ob-igre-pustovogo-uleva-i-falkovskogo.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Локомотив",
-        "Дмитрий Квартальнов",
-        "Степан Фальковский",
-        "Андрей Пустовой"
-      ],
-      "relatedTeamIds": [
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646426",
-      "slug": "gatiyatulin-sravnil-lokomotiv-obrazca-finala-proshlogo-sezona-i-tekuschego",
-      "title": "Гатиятулин сравнил «Локомотив» образца финала прошлого сезона и текущего",
-      "summary": "Главный тренер «Ак Барса» Анвар Гатиятулин ответил на вопрос, чем нынешний «Локомотив» отличается от команды образца финала прошлого сезона.",
-      "content": "Главный тренер «Ак Барса» Анвар Гатиятулин ответил на вопрос, чем нынешний «Локомотив» отличается от команды образца финала прошлого сезона.",
-      "image": "https://img.championat.com/news/big/e/d/gatiyatulin-sravnil-lokomoti.jpg",
-      "publishedAt": "2026-10-05T20:40:01Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646426-gatiyatulin-sravnil-lokomotiv-obrazca-finala-proshlogo-sezona-i-tekuschego.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Локомотив",
-        "Анвар Гатиятулин"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646420",
-      "slug": "napadayuschij-ak-barsa-sokolov-rasskazal-ob-igre-s-hmelevski-i-byvalcevym",
-      "title": "Нападающий «Ак Барса» Соколов рассказал об игре с Хмелевски и Бывальцевым",
-      "summary": "Нападающий «Ак Барса» Егор Соколов рассказал об игре в одном звене с нападающими Александром Хмелевски и Алексеем Бывальцевым.",
-      "content": "Нападающий «Ак Барса» Егор Соколов рассказал об игре в одном звене с нападающими Александром Хмелевски и Алексеем Бывальцевым.",
-      "image": "https://img.championat.com/news/big/r/k/napadayuschij-ak-barsa-sokol.jpg",
-      "publishedAt": "2026-10-05T20:37:55Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646420-napadayuschij-ak-barsa-sokolov-rasskazal-ob-igre-s-hmelevski-i-byvalcevym.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Александр Хмелевски",
-        "Алексей Бывальцев",
-        "Егор Соколов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646414",
-      "slug": "glavnyj-trener-vashingtona-otreagiroval-na-reshenie-ovechkina-zavershit-kareru-v-nhl",
-      "title": "Главный тренер «Вашингтона» отреагировал на решение Овечкина завершить карьеру в НХЛ",
-      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался о решении капитана команды Александра Овечкина завершить карьеру в НХЛ после сезона-2026/2027.",
-      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался о решении капитана команды Александра Овечкина завершить карьеру в НХЛ после сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/o/k/glavnyj-trener-vashingtona-otreagiroval-na-reshenie-ovechkina-zavershit-kareru-v-nhl_17912323981086760743.jpg",
-      "publishedAt": "2026-10-05T20:33:19Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646414-glavnyj-trener-vashingtona-otreagiroval-na-reshenie-ovechkina-zavershit-kareru-v-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Спенсер Карбери"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6646412",
-      "slug": "sokolov-o-finale-kubka-gagarina-seriya-byla-ravnaya-v-pyatoj-igre-nastupil-perelom",
-      "title": "Соколов — о финале Кубка Гагарина: серия была равная, в пятой игре наступил перелом",
-      "summary": "Нападающий «Ак Барса» Егор Соколов после поражения от «Локомотива» (0:2) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027 ответил на вопрос о финале Кубка Гагарина — 2026.",
-      "content": "Нападающий «Ак Барса» Егор Соколов после поражения от «Локомотива» (0:2) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027 ответил на вопрос о финале Кубка Гагарина — 2026.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-10-05T20:27:45Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646412-sokolov-o-finale-kubka-gagarina-seriya-byla-ravnaya-v-pyatoj-igre-nastupil-perelom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Локомотив",
-        "Егор Соколов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646408",
-      "slug": "sokolov-nazval-klyuchevoj-moment-matcha-mezhdu-ak-barsom-i-lokomotivom",
-      "title": "Соколов назвал ключевой момент матча между «Ак Барсом» и «Локомотивом»",
-      "summary": "Нападающий «Ак Барса» Егор Соколов высказался о поражении команды от «Локомотива» (0:2) во встрече регулярного чемпионата Фонбет КХЛ сезона-2026/2027.",
-      "content": "Нападающий «Ак Барса» Егор Соколов высказался о поражении команды от «Локомотива» (0:2) во встрече регулярного чемпионата Фонбет КХЛ сезона-2026/2027.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-10-05T20:24:59Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646408-sokolov-nazval-klyuchevoj-moment-matcha-mezhdu-ak-barsom-i-lokomotivom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Локомотив",
-        "Егор Соколов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646400",
-      "slug": "denisenko-obyasnil-prichiny-domashnego-porazheniya-ak-barsa-ot-lokomotiva",
-      "title": "Денисенко объяснил причины домашнего поражения «Ак Барса» от «Локомотива»",
-      "summary": "Нападающий «Ак Барса» Григорий Денисенко прокомментировал поражение команды от «Локомотива» (0:2) в матче регулярного чемпионата Фонбет КХЛ сезона-2026/2027.",
-      "content": "Нападающий «Ак Барса» Григорий Денисенко прокомментировал поражение команды от «Локомотива» (0:2) в матче регулярного чемпионата Фонбет КХЛ сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/s/n/denisenko-obyasnil-prichiny-.jpg",
-      "publishedAt": "2026-10-05T20:23:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646400-denisenko-obyasnil-prichiny-domashnego-porazheniya-ak-barsa-ot-lokomotiva.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Локомотив",
-        "Григорий Денисенко"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646394",
-      "slug": "gatiyatulin-obyasnil-poyavlenie-napadayuschego-ak-barsa-galimova-na-trenerskom-mostike",
-      "title": "Гатиятулин объяснил появление нападающего «Ак Барса» Галимова на тренерском мостике",
-      "summary": "Главный тренер «Ак Барса» Анвар Гатиятулин ответил, почему предложил нападающему команды Артёму Галимову занять место на тренерском мостике.",
-      "content": "Главный тренер «Ак Барса» Анвар Гатиятулин ответил, почему предложил нападающему команды Артёму Галимову занять место на тренерском мостике.",
-      "image": "https://img.championat.com/news/big/p/b/gatiyatulin-obyasnil-poyavle.jpg",
-      "publishedAt": "2026-10-05T20:20:47Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646394-gatiyatulin-obyasnil-poyavlenie-napadayuschego-ak-barsa-galimova-na-trenerskom-mostike.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Анвар Гатиятулин",
-        "Артём Галимов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646390",
-      "slug": "napadayuschij-ak-barsa-galimov-ocenil-opyt-raboty-trenerom-v-matche-khl",
-      "title": "Нападающий «Ак Барса» Галимов оценил опыт работы тренером в матче КХЛ",
-      "summary": "Нападающий «Ак Барса» Артём Галимов прокомментировал свой дебют на тренерском мостике в матче с «Локомотивом» (0:2).",
-      "content": "Нападающий «Ак Барса» Артём Галимов прокомментировал свой дебют на тренерском мостике в матче с «Локомотивом» (0:2).",
-      "image": "https://img.championat.com/news/big/u/p/napadayuschij-ak-barsa-galim.jpg",
-      "publishedAt": "2026-10-05T20:17:54Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646390-napadayuschij-ak-barsa-galimov-ocenil-opyt-raboty-trenerom-v-matche-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Локомотив",
-        "Артём Галимов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646376",
-      "slug": "gretcki-vyskazalsya-o-reshenii-ovechkina-zavershit-kareru-v-nhl-posle-sezona-2026-2027",
-      "title": "Гретцки высказался о решении Овечкина завершить карьеру в НХЛ после сезона-2026/2027",
-      "summary": "Легендарный канадский экс-хоккеист Уэйн Гретцки прокомментировал решение российского нападающего «Вашингтон Кэпиталз» Александра Овечкина завершить карьеру в НХЛ после сезона-2026/2027.",
-      "content": "Легендарный канадский экс-хоккеист Уэйн Гретцки прокомментировал решение российского нападающего «Вашингтон Кэпиталз» Александра Овечкина завершить карьеру в НХЛ после сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/w/h/gretcki-vyskazalsya-o-reshenii-ovechkina-zavershit-kareru-v-nhl-posle-sezona-2026-2027_1791231321603718414.jpg",
-      "publishedAt": "2026-10-05T20:15:25Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646376-gretcki-vyskazalsya-o-reshenii-ovechkina-zavershit-kareru-v-nhl-posle-sezona-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Уэйн Гретцки"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6646358",
-      "slug": "ceny-na-bilety-na-vse-vyezdnye-matchi-vashingtona-do-konca-sezona-vyrosli-v-srednem-na-63",
-      "title": "Цены на билеты на все выездные матчи «Вашингтона» до конца сезона выросли в среднем на 63%",
-      "summary": "Цены на билеты на все 40 выездных матчей «Вашингтон Кэпиталз» до конца сезона выросли в среднем на 63% после новостей, что текущей сезон станет последним для капитана «столичных» Александра Овечкина в НХЛ.",
-      "content": "Цены на билеты на все 40 выездных матчей «Вашингтон Кэпиталз» до конца сезона выросли в среднем на 63% после новостей, что текущей сезон станет последним для капитана «столичных» Александра Овечкина в НХЛ.",
-      "image": "https://img.championat.com/news/big/f/g/ceny-na-bilety-na-vse-vyezdnye-matchi-vashingtona-do-konca-sezona-vyrosli-v-srednem-na-63_17912303551502545335.jpg",
-      "publishedAt": "2026-10-05T19:59:17Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646358-ceny-na-bilety-na-vse-vyezdnye-matchi-vashingtona-do-konca-sezona-vyrosli-v-srednem-na-63.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6646348",
-      "slug": "trener-lokomotiva-kvartalnov-prokommentiroval-debyutnyj-match-emelyanova-v-khl",
-      "title": "Тренер «Локомотива» Квартальнов прокомментировал дебютный матч Емельянова в КХЛ",
-      "summary": "Главный тренер «Локомотива» Дмитрий Квартальнов высказался о дебютном матче нападающего команды Кирилла Емельянова.",
-      "content": "Главный тренер «Локомотива» Дмитрий Квартальнов высказался о дебютном матче нападающего команды Кирилла Емельянова.",
-      "image": "https://img.championat.com/news/big/m/s/trener-lokomotiva-kvartalnov.jpg",
-      "publishedAt": "2026-10-05T19:43:07Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646348-trener-lokomotiva-kvartalnov-prokommentiroval-debyutnyj-match-emelyanova-v-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Локомотив",
-        "Дмитрий Квартальнов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646344",
-      "slug": "on-luchshij-kaprizov-o-reshenii-ovechkina-zavershit-kareru-v-nhl-posle-sezona-2026-2027",
-      "title": "«Он лучший». Капризов — о решении Овечкина завершить карьеру в НХЛ после сезона-2026/2027",
-      "summary": "Российский нападающий «Миннесоты Уайлд» Кирилл Капризов отреагировал на заявление форварда «Вашингтон Кэпиталз» Александра Овечкина, что текущий сезон станет для него последним в НХЛ.",
-      "content": "Российский нападающий «Миннесоты Уайлд» Кирилл Капризов отреагировал на заявление форварда «Вашингтон Кэпиталз» Александра Овечкина, что текущий сезон станет для него последним в НХЛ.",
-      "image": "https://img.championat.com/news/big/g/d/on-luchshij-kaprizov-o-reshe.jpg",
-      "publishedAt": "2026-10-05T19:38:16Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646344-on-luchshij-kaprizov-o-reshenii-ovechkina-zavershit-kareru-v-nhl-posle-sezona-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Миннесота Уайлд",
-        "Кирилл Капризов"
-      ],
-      "relatedTeamIds": [
-        "nhl:min",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6646340",
-      "slug": "gatiyatulin-o-finale-kubka-gagarina-ogromnyj-opyt-no-u-nas-novaya-komanda",
-      "title": "Гатиятулин — о финале Кубка Гагарина: огромный опыт, но у нас новая команда",
-      "summary": "Главный тренер «Ак Барса» Анвар Гатиятулин после поражения от «Локомотива» (0:2) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027 ответил на вопрос о финале Кубка Гагарина — 2026.",
-      "content": "Главный тренер «Ак Барса» Анвар Гатиятулин после поражения от «Локомотива» (0:2) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027 ответил на вопрос о финале Кубка Гагарина — 2026.",
-      "image": "https://img.championat.com/news/big/m/m/gatiyatulin-o-finale-kubka-gagarina-ogromnyj-opyt-no-u-nas-novaya-komanda_17912285931403160824.jpg",
-      "publishedAt": "2026-10-05T19:27:59Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646340-gatiyatulin-o-finale-kubka-gagarina-ogromnyj-opyt-no-u-nas-novaya-komanda.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Локомотив",
-        "Анвар Гатиятулин"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646332",
-      "slug": "trener-ak-barsa-gatiyatulin-pokazatel-individualnogo-masterstva-u-komandy-snizilsya",
-      "title": "Тренер «Ак Барса» Гатиятулин: показатель индивидуального мастерства у команды снизился",
-      "summary": "Главный тренер «Ак Барса» Анвар Гатиятулин высказался о поражении от «Локомотива» (0:2) во встрече регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Главный тренер «Ак Барса» Анвар Гатиятулин высказался о поражении от «Локомотива» (0:2) во встрече регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/b/j/trener-ak-barsa-gatiyatulin-.jpg",
-      "publishedAt": "2026-10-05T19:23:30Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646332-trener-ak-barsa-gatiyatulin-pokazatel-individualnogo-masterstva-u-komandy-snizilsya.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Локомотив",
-        "Анвар Гатиятулин"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646316",
-      "slug": "isaev-iz-lokomotiva-stal-devyatym-vrataryom-v-istorii-khl-sygravshim-40-matchej-na-nol",
-      "title": "Исаев из «Локомотива» стал девятым вратарём в истории КХЛ, сыгравшим 40 матчей «на ноль»",
-      "summary": "Голкипер «Локомотива» Даниил Исаев стал девятым вратарём в истории КХЛ, сыгравшим 40 встреч «на ноль», сообщает пресс-служба лиги.",
-      "content": "Голкипер «Локомотива» Даниил Исаев стал девятым вратарём в истории КХЛ, сыгравшим 40 встреч «на ноль», сообщает пресс-служба лиги.",
-      "image": "https://img.championat.com/news/big/r/n/isaev-iz-lokomotiva-stal-dev.jpg",
-      "publishedAt": "2026-10-05T19:20:07Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646316-isaev-iz-lokomotiva-stal-devyatym-vrataryom-v-istorii-khl-sygravshim-40-matchej-na-nol.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Локомотив",
-        "Василий Кошечкин",
-        "Даниил Исаев"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": [
-        "khl:p_isaev"
-      ]
-    },
-    {
-      "id": "news-6646314",
-      "slug": "kvartalnov-prokommentiroval-pobedu-lokomotiva-nad-ak-barsom-v-kazani",
-      "title": "Квартальнов прокомментировал победу «Локомотива» над «Ак Барсом» в Казани",
-      "summary": "Главный тренер «Локомотива» Дмитрий Квартальнов оценил победу над «Ак Барсом» в матче регулярного чемпионата Фонбет КХЛ сезона-2026/2027.",
-      "content": "Главный тренер «Локомотива» Дмитрий Квартальнов оценил победу над «Ак Барсом» в матче регулярного чемпионата Фонбет КХЛ сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/n/m/kvartalnov-prokommentiroval-.jpg",
-      "publishedAt": "2026-10-05T19:12:18Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646314-kvartalnov-prokommentiroval-pobedu-lokomotiva-nad-ak-barsom-v-kazani.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Локомотив",
-        "Дмитрий Квартальнов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": []
     }
   ]
 }
