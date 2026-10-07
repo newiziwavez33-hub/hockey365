@@ -26,7 +26,7 @@
     "away": {
       "id": "khl:avangard",
       "name": "Авангард",
-      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/10/original/Avangard_2026_500x500_NEW.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-2.webcaster.pro/fc/sdh/team_pics/10/original/Avangard_2026_500x500_NEW.png",
       "score": 0,
       "periods": [
         0,
@@ -59,7 +59,7 @@
       "stageId": 407,
       "eventId": 3000575,
       "matchId": "902107",
-      "fetchedAt": "2026-10-07T02:44:19.773905Z"
+      "fetchedAt": "2026-10-07T09:18:50.013748Z"
     }
   },
   {
@@ -122,7 +122,7 @@
       "stageId": 407,
       "eventId": 3000583,
       "matchId": "902109",
-      "fetchedAt": "2026-10-07T02:44:19.773905Z"
+      "fetchedAt": "2026-10-07T09:18:50.013748Z"
     }
   },
   {
@@ -140,7 +140,7 @@
     "home": {
       "id": "khl:ska",
       "name": "СКА",
-      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdd/team_pics/44/original/SKA_logo_2025_RU_200x200_NEW.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sda/team_pics/44/original/SKA_logo_2025_RU_200x200_NEW.png",
       "score": 2,
       "periods": [
         1,
@@ -185,7 +185,7 @@
       "stageId": 407,
       "eventId": 3000579,
       "matchId": "902108",
-      "fetchedAt": "2026-10-07T02:44:19.773905Z"
+      "fetchedAt": "2026-10-07T09:18:50.013748Z"
     }
   },
   {
@@ -228,7 +228,7 @@
       "url": "https://www.nhl.com/gamecenter/nsh-vs-tor/2026/10/06/2026020044",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/nsh-vs-tor/2026/10/06/2026020044",
-      "verifiedAt": "2026-10-07T02:44:18.213181Z"
+      "verifiedAt": "2026-10-07T09:18:48.675950Z"
     }
   },
   {
@@ -271,7 +271,7 @@
       "url": "https://www.nhl.com/gamecenter/car-vs-mtl/2026/10/06/2026020045",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/car-vs-mtl/2026/10/06/2026020045",
-      "verifiedAt": "2026-10-07T02:44:18.213402Z"
+      "verifiedAt": "2026-10-07T09:18:48.676197Z"
     }
   },
   {
@@ -314,7 +314,7 @@
       "url": "https://www.nhl.com/gamecenter/ott-vs-det/2026/10/06/2026020046",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/ott-vs-det/2026/10/06/2026020046",
-      "verifiedAt": "2026-10-07T02:44:18.213559Z"
+      "verifiedAt": "2026-10-07T09:18:48.676355Z"
     }
   },
   {
@@ -357,7 +357,7 @@
       "url": "https://www.nhl.com/gamecenter/uta-vs-njd/2026/10/06/2026020047",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/uta-vs-njd/2026/10/06/2026020047",
-      "verifiedAt": "2026-10-07T02:44:18.213726Z"
+      "verifiedAt": "2026-10-07T09:18:48.676528Z"
     }
   },
   {
@@ -400,7 +400,7 @@
       "url": "https://www.nhl.com/gamecenter/min-vs-buf/2026/10/06/2026020049",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/min-vs-buf/2026/10/06/2026020049",
-      "verifiedAt": "2026-10-07T02:44:18.213877Z"
+      "verifiedAt": "2026-10-07T09:18:48.676680Z"
     }
   },
   {
@@ -443,7 +443,7 @@
       "url": "https://www.nhl.com/gamecenter/nyi-vs-nyr/2026/10/06/2026020048",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/nyi-vs-nyr/2026/10/06/2026020048",
-      "verifiedAt": "2026-10-07T02:44:18.214024Z"
+      "verifiedAt": "2026-10-07T09:18:48.676820Z"
     }
   },
   {
@@ -454,124 +454,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-07T00:00:00Z",
-    "status": "LIVE",
+    "status": "FINISHED",
     "period": 3,
-    "clock": "04:00",
-    "finishedIn": null,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:chi",
-      "score": 2,
+      "score": 4,
       "periods": [],
-      "shots": 18
+      "shots": null
     },
     "away": {
       "id": "nhl:stl",
-      "score": 1,
+      "score": 2,
       "periods": [],
-      "shots": 21
+      "shots": null
     },
     "arena": "United Center",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "01:23",
-        "team": "away",
-        "playerId": "nhl:p_8481013",
-        "playerName": "Jonatan Berggren",
-        "minutes": 2,
-        "reason": "tripping",
-        "order": 21
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "05:48",
-        "team": "home",
-        "playerId": "nhl:p_8474141",
-        "playerName": "Patrick Kane",
-        "minutes": 2,
-        "reason": "interference",
-        "order": 65
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "15:38",
-        "team": "away",
-        "playerId": "nhl:p_8482745",
-        "playerName": "Mason McTavish",
-        "assists": [
-          "nhl:p_8481580"
-        ],
-        "score": "0-1",
-        "order": 185
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "03:40",
-        "team": "away",
-        "playerId": "nhl:p_8477527",
-        "playerName": "Ross Johnston",
-        "minutes": 2,
-        "reason": "interference",
-        "order": 294
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "05:40",
-        "team": "home",
-        "playerId": "nhl:p_8483506",
-        "playerName": "Sam Rinzel",
-        "assists": [
-          "nhl:p_8483493",
-          "nhl:p_8484185"
-        ],
-        "score": "1-1",
-        "order": 311
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "07:40",
-        "team": "home",
-        "playerId": "nhl:p_8485391",
-        "playerName": "Anton Frondell",
-        "assists": [
-          "nhl:p_8484783",
-          "nhl:p_8476882"
-        ],
-        "score": "2-1",
-        "order": 344
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        18,
-        21
-      ],
-      "shotsOnGoal": [
-        18,
-        21
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020050/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020050/play-by-play"
-      ],
-      "fetchedAt": "2026-10-07T02:44:18.259585+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -579,7 +486,7 @@
       "url": "https://www.nhl.com/gamecenter/stl-vs-chi/2026/10/06/2026020050",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/stl-vs-chi/2026/10/06/2026020050",
-      "verifiedAt": "2026-10-07T02:44:18.259705Z"
+      "verifiedAt": "2026-10-07T09:18:48.676955Z"
     }
   },
   {
@@ -590,109 +497,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-07T01:40:00Z",
-    "status": "INTERMISSION",
-    "period": 1,
-    "clock": "04:46",
-    "finishedIn": null,
+    "status": "FINISHED",
+    "period": 3,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:sea",
-      "score": 0,
+      "score": 2,
       "periods": [],
-      "shots": 11
+      "shots": null
     },
     "away": {
       "id": "nhl:vgk",
-      "score": 2,
+      "score": 6,
       "periods": [],
-      "shots": 9
+      "shots": null
     },
     "arena": "Climate Pledge Arena",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "00:15",
-        "team": "away",
-        "playerId": "nhl:p_8483553",
-        "playerName": "Marc Gatcomb",
-        "minutes": 2,
-        "reason": "boarding",
-        "order": 14
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "13:02",
-        "team": "away",
-        "playerId": "nhl:p_8478109",
-        "playerName": "Victor Olofsson",
-        "assists": [
-          "nhl:p_8478397",
-          "nhl:p_8476881"
-        ],
-        "score": "0-1",
-        "order": 187
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "13:02",
-        "team": "home",
-        "minutes": 2,
-        "reason": "delaying-game-unsuccessful-challenge",
-        "order": 190
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "15:49",
-        "team": "home",
-        "playerId": "nhl:p_8477986",
-        "playerName": "Brandon Montour",
-        "minutes": 2,
-        "reason": "interference",
-        "order": 224
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "15:58",
-        "team": "away",
-        "playerId": "nhl:p_8476881",
-        "playerName": "Tomas Hertl",
-        "assists": [
-          "nhl:p_8475913",
-          "nhl:p_8478403"
-        ],
-        "score": "0-2",
-        "order": 229
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        11,
-        9
-      ],
-      "shotsOnGoal": [
-        11,
-        9
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020051/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020051/play-by-play"
-      ],
-      "fetchedAt": "2026-10-07T02:44:18.310741+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -700,7 +529,7 @@
       "url": "https://www.nhl.com/gamecenter/vgk-vs-sea/2026/10/06/2026020051",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/vgk-vs-sea/2026/10/06/2026020051",
-      "verifiedAt": "2026-10-07T02:44:18.310818Z"
+      "verifiedAt": "2026-10-07T09:18:48.677096Z"
     }
   },
   {
@@ -711,61 +540,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-07T02:00:00Z",
-    "status": "LIVE",
-    "period": 1,
-    "clock": "07:17",
-    "finishedIn": null,
+    "status": "FINISHED",
+    "period": 3,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:lak",
-      "score": 0,
+      "score": 1,
       "periods": [],
-      "shots": 1
+      "shots": null
     },
     "away": {
       "id": "nhl:fla",
-      "score": 0,
+      "score": 2,
       "periods": [],
-      "shots": 4
+      "shots": null
     },
     "arena": "Crypto.com Arena",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "10:03",
-        "team": "home",
-        "playerId": "nhl:p_8479998",
-        "playerName": "Mikey Anderson",
-        "minutes": 2,
-        "reason": "roughing",
-        "order": 150
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        1,
-        4
-      ],
-      "shotsOnGoal": [
-        1,
-        4
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020052/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020052/play-by-play"
-      ],
-      "fetchedAt": "2026-10-07T02:44:18.345489+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -773,7 +572,7 @@
       "url": "https://www.nhl.com/gamecenter/fla-vs-lak/2026/10/06/2026020052",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/fla-vs-lak/2026/10/06/2026020052",
-      "verifiedAt": "2026-10-07T02:44:18.345537Z"
+      "verifiedAt": "2026-10-07T09:18:48.677230Z"
     }
   }
 ]

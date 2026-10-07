@@ -6,124 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-07T00:00:00Z",
-  "status": "LIVE",
+  "status": "FINISHED",
   "period": 3,
-  "clock": "04:00",
-  "finishedIn": null,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:chi",
-    "score": 2,
+    "score": 4,
     "periods": [],
-    "shots": 18
+    "shots": null
   },
   "away": {
     "id": "nhl:stl",
-    "score": 1,
+    "score": 2,
     "periods": [],
-    "shots": 21
+    "shots": null
   },
   "arena": "United Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "01:23",
-      "team": "away",
-      "playerId": "nhl:p_8481013",
-      "playerName": "Jonatan Berggren",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 21
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "05:48",
-      "team": "home",
-      "playerId": "nhl:p_8474141",
-      "playerName": "Patrick Kane",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 65
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "15:38",
-      "team": "away",
-      "playerId": "nhl:p_8482745",
-      "playerName": "Mason McTavish",
-      "assists": [
-        "nhl:p_8481580"
-      ],
-      "score": "0-1",
-      "order": 185
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "03:40",
-      "team": "away",
-      "playerId": "nhl:p_8477527",
-      "playerName": "Ross Johnston",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 294
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "05:40",
-      "team": "home",
-      "playerId": "nhl:p_8483506",
-      "playerName": "Sam Rinzel",
-      "assists": [
-        "nhl:p_8483493",
-        "nhl:p_8484185"
-      ],
-      "score": "1-1",
-      "order": 311
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "07:40",
-      "team": "home",
-      "playerId": "nhl:p_8485391",
-      "playerName": "Anton Frondell",
-      "assists": [
-        "nhl:p_8484783",
-        "nhl:p_8476882"
-      ],
-      "score": "2-1",
-      "order": 344
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      18,
-      21
-    ],
-    "shotsOnGoal": [
-      18,
-      21
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020050/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020050/play-by-play"
-    ],
-    "fetchedAt": "2026-10-07T02:44:18.259585+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -131,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/stl-vs-chi/2026/10/06/2026020050",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/stl-vs-chi/2026/10/06/2026020050",
-    "verifiedAt": "2026-10-07T02:44:18.259705Z"
+    "verifiedAt": "2026-10-07T09:18:48.676955Z"
   }
 }

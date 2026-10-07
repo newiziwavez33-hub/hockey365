@@ -4,6 +4,12 @@
   "categories": {
     "points": [
       {
+        "playerId": "nhl:p_8478403",
+        "playerName": "Jack Eichel",
+        "teamId": "nhl:vgk",
+        "value": 10
+      },
+      {
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
         "teamId": "nhl:edm",
@@ -25,12 +31,6 @@
         "playerId": "nhl:p_8478427",
         "playerName": "Sebastian Aho",
         "teamId": "nhl:car",
-        "value": 7
-      },
-      {
-        "playerId": "nhl:p_8479343",
-        "playerName": "Clayton Keller",
-        "teamId": "nhl:uta",
         "value": 7
       }
     ],
@@ -60,13 +60,19 @@
         "value": 4
       },
       {
-        "playerId": "nhl:p_8482116",
-        "playerName": "Tim Stützle",
-        "teamId": "nhl:ott",
-        "value": 3
+        "playerId": "nhl:p_8478109",
+        "playerName": "Victor Olofsson",
+        "teamId": "nhl:vgk",
+        "value": 4
       }
     ],
     "assists": [
+      {
+        "playerId": "nhl:p_8478403",
+        "playerName": "Jack Eichel",
+        "teamId": "nhl:vgk",
+        "value": 8
+      },
       {
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
@@ -78,12 +84,6 @@
         "playerName": "Clayton Keller",
         "teamId": "nhl:uta",
         "value": 6
-      },
-      {
-        "playerId": "nhl:p_8478403",
-        "playerName": "Jack Eichel",
-        "teamId": "nhl:vgk",
-        "value": 5
       },
       {
         "playerId": "nhl:p_8479410",
@@ -106,21 +106,9 @@
         "value": 0.0
       },
       {
-        "playerId": "nhl:p_8480981",
-        "playerName": "Joel Hofer",
-        "teamId": "nhl:stl",
-        "value": 0.0
-      },
-      {
         "playerId": "nhl:p_8482657",
         "playerName": "Sebastian Cossa",
         "teamId": "nhl:uta",
-        "value": 1.0
-      },
-      {
-        "playerId": "nhl:p_8478916",
-        "playerName": "Joey Daccord",
-        "teamId": "nhl:sea",
         "value": 1.0
       },
       {
@@ -128,6 +116,18 @@
         "playerName": "Jake Oettinger",
         "teamId": "nhl:dal",
         "value": 1.01
+      },
+      {
+        "playerId": "nhl:p_8480981",
+        "playerName": "Joel Hofer",
+        "teamId": "nhl:stl",
+        "value": 1.01
+      },
+      {
+        "playerId": "nhl:p_8478009",
+        "playerName": "Ilya Sorokin",
+        "teamId": "nhl:nyi",
+        "value": 1.02
       }
     ],
     "svPct": [
@@ -138,28 +138,28 @@
         "value": 1.0
       },
       {
-        "playerId": "nhl:p_8480981",
-        "playerName": "Joel Hofer",
-        "teamId": "nhl:stl",
-        "value": 1.0
-      },
-      {
         "playerId": "nhl:p_8478009",
         "playerName": "Ilya Sorokin",
         "teamId": "nhl:nyi",
         "value": 0.968
       },
       {
-        "playerId": "nhl:p_8478916",
-        "playerName": "Joey Daccord",
-        "teamId": "nhl:sea",
-        "value": 0.966
+        "playerId": "nhl:p_8480981",
+        "playerName": "Joel Hofer",
+        "teamId": "nhl:stl",
+        "value": 0.955
       },
       {
         "playerId": "nhl:p_8476999",
         "playerName": "Linus Ullmark",
         "teamId": "nhl:ott",
         "value": 0.949
+      },
+      {
+        "playerId": "nhl:p_8482657",
+        "playerName": "Sebastian Cossa",
+        "teamId": "nhl:uta",
+        "value": 0.947
       }
     ]
   }
