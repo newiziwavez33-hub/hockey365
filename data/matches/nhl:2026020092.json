@@ -1,0 +1,43 @@
+{
+  "id": "nhl:2026020092",
+  "compId": "NHL",
+  "season": "2026/27",
+  "stage": "regular",
+  "round": null,
+  "seriesGame": null,
+  "utcDate": "2026-10-13T22:30:00Z",
+  "status": "SCHEDULED",
+  "period": null,
+  "clock": null,
+  "finishedIn": null,
+  "home": {
+    "id": "nhl:mtl",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "away": {
+    "id": "nhl:buf",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "arena": "Centre Bell",
+  "officials": {
+    "referees": [],
+    "linesmen": []
+  },
+  "events": [],
+  "lineups": null,
+  "stats": null,
+  "h2h": [],
+  "broadcast": {
+    "type": "external",
+    "verified": true,
+    "provider": "NHL.com",
+    "url": "https://www.nhl.com/gamecenter/buf-vs-mtl/2026/10/13/2026020092",
+    "sourceName": "NHL.com Gamecenter",
+    "sourceUrl": "https://www.nhl.com/gamecenter/buf-vs-mtl/2026/10/13/2026020092",
+    "verifiedAt": "2026-10-07T16:38:11.418764Z"
+  }
+}
