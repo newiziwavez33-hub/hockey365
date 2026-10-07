@@ -6,17 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-07T16:30:00Z",
-  "status": "LIVE",
-  "period": 1,
+  "status": "FINISHED",
+  "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:sochi",
     "name": "ХК Сочи",
     "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/113/original/hc_sochi_2024__200x200_new.png",
-    "score": 0,
+    "score": 2,
     "periods": [
-      0
+      0,
+      0,
+      2
     ],
     "shots": null
   },
@@ -24,9 +26,11 @@
     "id": "khl:spartak",
     "name": "Спартак",
     "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/18/original/spartak_2015__200x200.png",
-    "score": 0,
+    "score": 5,
     "periods": [
-      0
+      2,
+      1,
+      2
     ],
     "shots": null
   },
@@ -54,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000599,
     "matchId": "902113",
-    "fetchedAt": "2026-10-07T16:38:12.736643Z"
+    "fetchedAt": "2026-10-07T21:32:51.320215Z"
   }
 }
