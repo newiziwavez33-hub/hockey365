@@ -1,27 +1,27 @@
 {
-  "id": "khl:902131",
+  "id": "khl:902139",
   "compId": "KHL",
   "season": "2026/27",
   "stage": "regular",
   "round": null,
   "seriesGame": null,
-  "utcDate": "2026-10-12T16:30:00Z",
+  "utcDate": "2026-10-14T09:00:00Z",
   "status": "SCHEDULED",
   "period": null,
   "clock": null,
   "finishedIn": null,
   "home": {
-    "id": "khl:dragons",
-    "name": "Драконы",
-    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdm/team_pics/315/original/Shanghai_Dragons_2026_500x500_NEW_(1).png",
+    "id": "khl:amur",
+    "name": "Амур",
+    "logo": "https://thumbs.webcaster.pro/rec-2-2.webcaster.pro/fc/sdc/team_pics/12/original/amur_2015__200x200.png",
     "score": null,
     "periods": [],
     "shots": null
   },
   "away": {
-    "id": "khl:dynamo-mns",
-    "name": "Динамо Мн",
-    "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/38/original/dinamo_mn_2019_alternative__200x200.png",
+    "id": "khl:spartak",
+    "name": "Спартак",
+    "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/18/original/spartak_2015__200x200.png",
     "score": null,
     "periods": [],
     "shots": null
@@ -48,8 +48,8 @@
       "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
     ],
     "stageId": 407,
-    "eventId": 3000671,
-    "matchId": "902131",
+    "eventId": 3000707,
+    "matchId": "902139",
     "fetchedAt": "2026-10-07T02:44:19.773905Z"
   }
 }

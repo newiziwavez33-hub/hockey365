@@ -1,6 +1,249 @@
 {
   "news": [
     {
+      "id": "news-6647950",
+      "slug": "nyu-jork-rejndzhers-nyu-jork-ajlenders-rezultat-matcha-7-oktyabrya-2026-schet-5-2-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "В нью-йоркском дерби победил «Рейнджерс» в НХЛ, у Гаврикова передача",
+      "summary": "В ночь на 7 октября завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Нью-Йорк Рейнджерс» принимал «Нью-Йорк Айлендерс».",
+      "content": "В ночь на 7 октября завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Нью-Йорк Рейнджерс» принимал «Нью-Йорк Айлендерс».",
+      "image": "https://img.championat.com/news/big/e/v/v-nyu-jorkskom-derbi-pobedil-rejndzhers-v-nhl-u-gavrikova-peredacha_179133971453306189.jpg",
+      "publishedAt": "2026-10-07T02:22:02Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6647950-nyu-jork-rejndzhers-nyu-jork-ajlenders-rezultat-matcha-7-oktyabrya-2026-schet-5-2-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Нью-Йорк Рейнджерс",
+        "Нью-Йорк Айлендерс",
+        "Игорь Шестёркин",
+        "Семён Варламов",
+        "Илья Сорокин",
+        "Владислав Гавриков",
+        "Александр Романов — Хоккей",
+        "Павел Дорофеев"
+      ],
+      "relatedTeamIds": [
+        "nhl:nyi",
+        "nhl:nyr"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6648024",
+      "slug": "nyu-dzhersi-devilz-yuta-mammot-rezultat-matcha-7-oktyabrya-2026-schet-3-5-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "«Юта» в гостях обыграла «Нью-Джерси» в матче НХЛ, у Сергачёва ассистентский дубль",
+      "summary": "В ночь на 7 октября завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Нью-Джерси Дэвилз» принимал «Юту Маммот».",
+      "content": "В ночь на 7 октября завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Нью-Джерси Дэвилз» принимал «Юту Маммот».",
+      "image": "https://img.championat.com/news/big/c/p/yuta-v-gostyah-obygrala-nyu-dzhersi-v-matche-nhl-u-sergachyova-assistentskij-dubl_17913381771408948116.jpg",
+      "publishedAt": "2026-10-07T01:56:26Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6648024-nyu-dzhersi-devilz-yuta-mammot-rezultat-matcha-7-oktyabrya-2026-schet-3-5-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Нью-Джерси Дэвилз",
+        "Михаил Сергачёв",
+        "Юта Маммот",
+        "Арсений Грицюк",
+        "Дмитрий Симашев",
+        "Даниил Бут"
+      ],
+      "relatedTeamIds": [
+        "nhl:njd",
+        "nhl:uta"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6647936",
+      "slug": "monreal-kanadiens-karolina-harrikejnz-rezultat-matcha-7-oktyabrya-2026-schet-4-6-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "Гол Свечникова помог «Каролине» обыграть «Монреаль» в матче НХЛ",
+      "summary": "В ночь на 7 октября завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Монреаль Канадиенс» принимал «Каролину Харрикейнз».",
+      "content": "В ночь на 7 октября завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Монреаль Канадиенс» принимал «Каролину Харрикейнз».",
+      "image": "https://img.championat.com/news/big/t/k/gol-svechnikova-pomog-karoline-obygrat-monreal-v-matche-nhl_17913381581600832988.jpg",
+      "publishedAt": "2026-10-07T01:56:07Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6647936-monreal-kanadiens-karolina-harrikejnz-rezultat-matcha-7-oktyabrya-2026-schet-4-6-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Каролина Харрикейнз",
+        "Монреаль Канадиенс",
+        "Андрей Свечников",
+        "Иван Демидов — хоккей",
+        "Пётр Кочетков",
+        "Себастьян Ахо",
+        "Юрай Слафковски",
+        "Ник Судзуки"
+      ],
+      "relatedTeamIds": [
+        "nhl:car",
+        "nhl:mtl"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6647968",
+      "slug": "toronto-mejpl-lifs-neshvill-predatorz-rezultat-matcha-7-oktyabrya-2026-schyot-5-4-ot-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "Ассист Марченко помог «Торонто» одолеть «Нэшвилл» в матче с девятью голами",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Торонто Мэйпл Лифс» и «Нэшвилл Предаторз», который прошёл на стадионе «Скоушабэнк-Арена» в канадском Торонто.",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Торонто Мэйпл Лифс» и «Нэшвилл Предаторз», который прошёл на стадионе «Скоушабэнк-Арена» в канадском Торонто.",
+      "image": "https://img.championat.com/news/big/p/s/assist-marchenko-pomog-toronto-odolet-neshvill-v-matche-s-devyatyu-golami_17913380711034754794.jpg",
+      "publishedAt": "2026-10-07T01:50:08Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6647968-toronto-mejpl-lifs-neshvill-predatorz-rezultat-matcha-7-oktyabrya-2026-schyot-5-4-ot-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Торонто Мэйпл Лифс",
+        "Нэшвилл Предаторз",
+        "Сергей Бобровский",
+        "Остон Мэттьюс",
+        "Стивен Стэмкос",
+        "Кирилл Марченко",
+        "Джон Таварес",
+        "Вильям Нюландер",
+        "Нильс Хёгландер",
+        "Джек Рословик"
+      ],
+      "relatedTeamIds": [
+        "nhl:fla",
+        "nhl:nsh",
+        "nhl:tor"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8479318"
+      ]
+    },
+    {
+      "id": "news-6647970",
+      "slug": "baffalo-sejbrz-minnesota-uajld-rezultat-matcha-7-oktyabrya-2026-schyot-3-2-ot-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "Голы Юрова и Шабанова не помогли «Миннесоте» обыграть «Баффало». Капризов не забил",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Баффало Сэйбрз» и «Миннесота Уайлд», который прошёл на стадионе «Кибэнк-центр» в американском Баффало.",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Баффало Сэйбрз» и «Миннесота Уайлд», который прошёл на стадионе «Кибэнк-центр» в американском Баффало.",
+      "image": "https://img.championat.com/news/big/b/m/goly-yurova-i-shabanova-ne-pomogli-minnesote-obygrat-baffalo-kaprizov-ne-zabil_1791337569135155298.jpg",
+      "publishedAt": "2026-10-07T01:46:13Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6647970-baffalo-sejbrz-minnesota-uajld-rezultat-matcha-7-oktyabrya-2026-schyot-3-2-ot-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Миннесота Уайлд",
+        "Баффало Сэйбрз",
+        "Кирилл Капризов",
+        "Яков Тренин",
+        "Данила Юров",
+        "Максим Шабанов",
+        "Тейдж Томпсон",
+        "Оуэн Пауэр"
+      ],
+      "relatedTeamIds": [
+        "nhl:buf",
+        "nhl:min"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6648022",
+      "slug": "maksim-shabanov-zabil-pervyj-oficialnyj-gol-za-minnesotu",
+      "title": "Максим Шабанов забил первый официальный гол за «Миннесоту»",
+      "summary": "В эти минуты идёт матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Баффало Сэйбрз» и «Миннесотой Уайлд», который проходит на стадионе «Кибэнк-центр» в американском Баффало.",
+      "content": "В эти минуты идёт матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Баффало Сэйбрз» и «Миннесотой Уайлд», который проходит на стадионе «Кибэнк-центр» в американском Баффало.",
+      "image": "https://img.championat.com/news/big/h/p/maksim-shabanov-zabil-pervyj-oficialnyj-gol-za-minnesotu_17913355061716597476.jpg",
+      "publishedAt": "2026-10-07T01:11:47Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6648022-maksim-shabanov-zabil-pervyj-oficialnyj-gol-za-minnesotu.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Миннесота Уайлд",
+        "Баффало Сэйбрз",
+        "Максим Шабанов"
+      ],
+      "relatedTeamIds": [
+        "nhl:buf",
+        "nhl:min"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6648010",
+      "slug": "pervyj-nomer-drafta-nhl-2026-zabrosil-pervuyu-shajbu-v-lige",
+      "title": "Первый номер драфта НХЛ-2026 забросил первую шайбу в лиге",
+      "summary": "В эти минуты идёт матч регулярного чемпионата Национальной хоккейной лиги, в котором «Торонто Мэйпл Лифс» принимал «Нэшвилл Предаторз».",
+      "content": "В эти минуты идёт матч регулярного чемпионата Национальной хоккейной лиги, в котором «Торонто Мэйпл Лифс» принимал «Нэшвилл Предаторз».",
+      "image": "https://img.championat.com/news/big/h/u/pervyj-nomer-drafta-nhl-2026-zabrosil-pervuyu-shajbu-v-lige_17913340241611200132.jpg",
+      "publishedAt": "2026-10-07T00:47:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6648010-pervyj-nomer-drafta-nhl-2026-zabrosil-pervuyu-shajbu-v-lige.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Торонто Мэйпл Лифс",
+        "Нэшвилл Предаторз",
+        "Гэвин Маккенна"
+      ],
+      "relatedTeamIds": [
+        "nhl:nsh",
+        "nhl:tor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6647944",
+      "slug": "ne-tolko-pro-menya-ovechkin-rasskazal-chto-znachit-dlya-nego-stat-primerom-v-vashingtone",
+      "title": "«Не только про меня». Овечкин рассказал, что значит для него стать примером в «Вашингтоне»",
+      "summary": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин рассказал, что значит для него формировать идентичность в клубе, где он играет более 20 лет.",
+      "content": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин рассказал, что значит для него формировать идентичность в клубе, где он играет более 20 лет.",
+      "image": "https://img.championat.com/news/big/s/m/ne-tolko-pro-menya-ovechkin-rasskazal-chto-znachit-dlya-nego-stat-primerom-v-vashingtone_1791323783485992944.jpg",
+      "publishedAt": "2026-10-07T00:43:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6647944-ne-tolko-pro-menya-ovechkin-rasskazal-chto-znachit-dlya-nego-stat-primerom-v-vashingtone.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Никлас Бекстрём",
+        "Ти Джей Оши",
+        "Джон Карлсон",
+        "Майк Грин"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6647930",
+      "slug": "aleksandr-ovechkin-nazval-igrokov-u-kotoryh-uchilsya-i-chej-opyt-peredayot-sejchas-v-klube",
+      "title": "Александр Овечкин назвал игроков, у которых учился, и чей опыт передаёт сейчас в клубе",
+      "summary": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин рассказал, чей опыт перенял в своей карьере, чтобы потом его передать молодым игрокам в НХЛ.",
+      "content": "Нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин рассказал, чей опыт перенял в своей карьере, чтобы потом его передать молодым игрокам в НХЛ.",
+      "image": "https://img.championat.com/news/big/n/v/aleksandr-ovechkin-nazval-igrokov-u-kotoryh-uchilsya-i-chej-opyt-peredayot-sejchas-v-klube_179132379114052571.jpg",
+      "publishedAt": "2026-10-07T00:06:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6647930-aleksandr-ovechkin-nazval-igrokov-u-kotoryh-uchilsya-i-chej-opyt-peredayot-sejchas-v-klube.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Дайнюс Зубрус"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
       "id": "news-6647926",
       "slug": "aleksandr-ovechkin-rasskazal-kakie-emocii-ispytyvaet-posle-obyavleniya-o-zavershenii-karery",
       "title": "Александр Овечкин рассказал, какие эмоции испытывает после объявления о завершении карьеры",
@@ -525,211 +768,6 @@
       "relatedTeamIds": [
         "khl:severstal",
         "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6647530",
-      "slug": "avtomobilist-avangard-rezultat-matcha-6-oktyabrya-2026-goda-schet-4-0-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Автомобилист» дома всухую крупно обыграл «Авангард» со счётом 4:0",
-      "summary": "Сегодня, 6 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» принимал омский «Авангард».",
-      "content": "Сегодня, 6 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» принимал омский «Авангард».",
-      "image": "https://img.championat.com/news/big/o/k/avtomobilist-doma-vsuhuyu-krupno-obygral-avangard-so-schyotom-4-0_17913035681672234277.jpg",
-      "publishedAt": "2026-10-06T16:19:29Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6647530-avtomobilist-avangard-rezultat-matcha-6-oktyabrya-2026-goda-schet-4-0-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Автомобилист"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:avtomobilist"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6647516",
-      "slug": "traktor-amur-rezultat-matcha-6-oktyabrya-2026-goda-schet-1-2-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Амур» на последних минутах основного времени вырвал победу у «Трактора»",
-      "summary": "В Челябинске на стадионе «Арена-Трактор имени Валерия Белоусова» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Трактор» принимал хабаровский «Амур».",
-      "content": "В Челябинске на стадионе «Арена-Трактор имени Валерия Белоусова» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Трактор» принимал хабаровский «Амур».",
-      "image": "https://img.championat.com/news/big/j/p/amur-na-poslednih-minutah-osnovnogo-vremeni-vyrval-pobedu-u-traktora_1791302857646639668.jpg",
-      "publishedAt": "2026-10-06T16:07:37Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6647516-traktor-amur-rezultat-matcha-6-oktyabrya-2026-goda-schet-1-2-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Амур"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6647468",
-      "slug": "egor-titov-vyskazalsya-o-zavershenii-karery-ovechkina-i-ego-vozmozhnom-vozvraschenii-v-khl",
-      "title": "Егор Титов высказался о завершении карьеры Овечкина и его возможном возвращении в КХЛ",
-      "summary": "Бывший футболист сборной России и «Спартака» Егор Титов прокомментировал заявление Александра Овечкина о завершении карьеры в НХЛ после сезона-2026/2027.",
-      "content": "Бывший футболист сборной России и «Спартака» Егор Титов прокомментировал заявление Александра Овечкина о завершении карьеры в НХЛ после сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/u/i/egor-titov-vyskazalsya-o-zav.jpg",
-      "publishedAt": "2026-10-06T15:55:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/football/news-6647468-egor-titov-vyskazalsya-o-zavershenii-karery-ovechkina-i-ego-vozmozhnom-vozvraschenii-v-khl.html",
-      "tags": [
-        "Футбол",
-        "РПЛ",
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Егор Титов"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6647492",
-      "slug": "evgenij-kuznecov-posetil-domashnij-match-traktora-v-chelyabinske",
-      "title": "Евгений Кузнецов посетил домашний матч «Трактора» в Челябинске",
-      "summary": "Нападающий Евгений Кузнецов посетил матч Фонбет Чемпионата КХЛ между «Трактором» и «Амуром», проходящий в данный момент.",
-      "content": "Нападающий Евгений Кузнецов посетил матч Фонбет Чемпионата КХЛ между «Трактором» и «Амуром», проходящий в данный момент.",
-      "image": "https://img.championat.com/news/big/f/w/evgenij-kuznecov-posetil-dom.jpg",
-      "publishedAt": "2026-10-06T15:40:37Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6647492-evgenij-kuznecov-posetil-domashnij-match-traktora-v-chelyabinske.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Фото",
-        "Трактор",
-        "Амур",
-        "Евгений Кузнецов — хоккей"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6647410",
-      "slug": "glavnyj-trener-toronto-vyskazalsya-ob-otsutstvii-ochkov-u-pervogo-nomera-drafta-makkenny",
-      "title": "Главный тренер «Торонто» высказался об отсутствии очков у первого номера драфта Маккенны",
-      "summary": "Главный тренер «Торонто Мэйпл Лифс» Джим Хиллер высказался об игре нападающего Гэвина Маккенны, который за три матча дебютного сезона в НХЛ не смог набрать ни одного очка.",
-      "content": "Главный тренер «Торонто Мэйпл Лифс» Джим Хиллер высказался об игре нападающего Гэвина Маккенны, который за три матча дебютного сезона в НХЛ не смог набрать ни одного очка.",
-      "image": "https://img.championat.com/news/big/v/e/glavnyj-trener-toronto-vyskazalsya-ob-otsutstvii-ochkov-u-pervogo-nomera-drafta-makkenny_17912970641305713391.jpg",
-      "publishedAt": "2026-10-06T15:20:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6647410-glavnyj-trener-toronto-vyskazalsya-ob-otsutstvii-ochkov-u-pervogo-nomera-drafta-makkenny.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Торонто Мэйпл Лифс",
-        "Гэвин Маккенна",
-        "Джим Хиллер"
-      ],
-      "relatedTeamIds": [
-        "nhl:tor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6647396",
-      "slug": "forvard-sibiri-ob-uhode-kuznecova-v-komande-ne-znali-chto-u-nego-kakie-to-problemy",
-      "title": "Форвард «Сибири» — об уходе Кузнецова: в команде не знали, что у него какие-то проблемы",
-      "summary": "Нападающий «Сибири» Александр Яремчук рассказал, как в команде отреагировали на уход Евгения Кузнецова.",
-      "content": "Нападающий «Сибири» Александр Яремчук рассказал, как в команде отреагировали на уход Евгения Кузнецова.",
-      "image": "https://img.championat.com/news/big/r/k/forvard-sibiri-ob-uhode-kuzn.jpg",
-      "publishedAt": "2026-10-06T15:00:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6647396-forvard-sibiri-ob-uhode-kuznecova-v-komande-ne-znali-chto-u-nego-kakie-to-problemy.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Сибирь",
-        "Евгений Кузнецов — хоккей",
-        "Александр Яремчук"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6647424",
-      "slug": "napadayuschij-monrealya-ivan-demidov-poluchil-travmu-i-vybyl-iz-stroya-na-srok-do-mesyaca",
-      "title": "Нападающий «Монреаля» Иван Демидов получил травму и выбыл из строя на срок до месяца",
-      "summary": "Нападающий «Монреаль Канадиенс» Иван Демидов получил травму нижней части тела и выбыл из строя на срок от двух до четырёх недель, сообщает пресс-служба канадского клуба.",
-      "content": "Нападающий «Монреаль Канадиенс» Иван Демидов получил травму нижней части тела и выбыл из строя на срок от двух до четырёх недель, сообщает пресс-служба канадского клуба.",
-      "image": "https://img.championat.com/news/big/r/o/napadayuschij-monrealya-ivan-demidov-poluchil-travmu-i-vybyl-iz-stroya-na-srok-do-mesyaca_17912976821632667852.jpg",
-      "publishedAt": "2026-10-06T14:40:42Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6647424-napadayuschij-monrealya-ivan-demidov-poluchil-travmu-i-vybyl-iz-stroya-na-srok-do-mesyaca.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Монреаль Канадиенс",
-        "Иван Демидов — хоккей"
-      ],
-      "relatedTeamIds": [
-        "nhl:mtl"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6647382",
-      "slug": "zaschitnik-ska-miromanov-rasskazal-ob-otnoshenii-k-rossijskim-hokkeistam-v-severnoj-amerike",
-      "title": "Защитник СКА Мироманов рассказал об отношении к российским хоккеистам в Северной Америке",
-      "summary": "Защитник СКА Даниил Мироманов рассказал, как в Северной Америке относятся к россиянам.",
-      "content": "Защитник СКА Даниил Мироманов рассказал, как в Северной Америке относятся к россиянам.",
-      "image": "https://img.championat.com/news/big/b/z/zaschitnik-ska-miromanov-ras.jpg",
-      "publishedAt": "2026-10-06T14:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6647382-zaschitnik-ska-miromanov-rasskazal-ob-otnoshenii-k-rossijskim-hokkeistam-v-severnoj-amerike.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "СКА",
-        "Советский спорт",
-        "Даниил Мироманов"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6646662",
-      "slug": "traktor-amur-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Трактор» — «Амур»: онлайн-трансляция матча КХЛ началась",
-      "summary": "Сегодня, 6 октября, в Челябинске проходит матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Трактором» и хабаровским «Амуром».",
-      "content": "Сегодня, 6 октября, в Челябинске проходит матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Трактором» и хабаровским «Амуром».",
-      "image": "https://img.championat.com/news/big/d/g/traktor-amur-onlajn-translyaciya-matcha-khl-nachalas_1791264864950922185.jpg",
-      "publishedAt": "2026-10-06T14:10:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6646662-traktor-amur-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Амур"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:traktor"
       ],
       "relatedPlayerIds": []
     }

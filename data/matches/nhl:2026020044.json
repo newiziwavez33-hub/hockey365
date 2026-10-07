@@ -6,100 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-06T23:00:00Z",
-  "status": "INTERMISSION",
-  "period": 1,
-  "clock": "10:23",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 4,
+  "clock": null,
+  "finishedIn": "OT",
   "home": {
     "id": "nhl:tor",
-    "score": 0,
+    "score": 5,
     "periods": [],
-    "shots": 8
+    "shots": null
   },
   "away": {
     "id": "nhl:nsh",
-    "score": 2,
+    "score": 4,
     "periods": [],
-    "shots": 11
+    "shots": null
   },
   "arena": "Scotiabank Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "05:31",
-      "team": "home",
-      "playerId": "nhl:p_8476853",
-      "playerName": "Morgan Rielly",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 89
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "07:13",
-      "team": "away",
-      "playerId": "nhl:p_8474564",
-      "playerName": "Steven Stamkos",
-      "assists": [
-        "nhl:p_8484241",
-        "nhl:p_8474600"
-      ],
-      "score": "0-1",
-      "order": 102
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "09:08",
-      "team": "away",
-      "playerId": "nhl:p_8481535",
-      "playerName": "Nils Hoglander",
-      "assists": [
-        "nhl:p_8482482",
-        "nhl:p_8476887"
-      ],
-      "score": "0-2",
-      "order": 124
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "19:47",
-      "team": "away",
-      "playerId": "nhl:p_8476539",
-      "playerName": "Jonathan Marchessault",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 275
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      8,
-      11
-    ],
-    "shotsOnGoal": [
-      8,
-      11
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020044/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020044/play-by-play"
-    ],
-    "fetchedAt": "2026-10-06T23:49:15.102155+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -107,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/nsh-vs-tor/2026/10/06/2026020044",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/nsh-vs-tor/2026/10/06/2026020044",
-    "verifiedAt": "2026-10-06T23:49:15.102269Z"
+    "verifiedAt": "2026-10-07T02:44:18.213181Z"
   }
 }
