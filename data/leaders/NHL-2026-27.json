@@ -4,37 +4,43 @@
   "categories": {
     "points": [
       {
+        "playerId": "nhl:p_8478402",
+        "playerName": "Connor McDavid",
+        "teamId": "nhl:edm",
+        "value": 12
+      },
+      {
+        "playerId": "nhl:p_8480803",
+        "playerName": "Evan Bouchard",
+        "teamId": "nhl:edm",
+        "value": 11
+      },
+      {
         "playerId": "nhl:p_8478403",
         "playerName": "Jack Eichel",
         "teamId": "nhl:vgk",
         "value": 10
       },
       {
-        "playerId": "nhl:p_8478402",
-        "playerName": "Connor McDavid",
+        "playerId": "nhl:p_8477934",
+        "playerName": "Leon Draisaitl",
         "teamId": "nhl:edm",
         "value": 9
-      },
-      {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 8
       },
       {
         "playerId": "nhl:p_8477951",
         "playerName": "Nick Schmaltz",
         "teamId": "nhl:uta",
         "value": 7
-      },
-      {
-        "playerId": "nhl:p_8478427",
-        "playerName": "Sebastian Aho",
-        "teamId": "nhl:car",
-        "value": 7
       }
     ],
     "goals": [
+      {
+        "playerId": "nhl:p_8480803",
+        "playerName": "Evan Bouchard",
+        "teamId": "nhl:edm",
+        "value": 6
+      },
       {
         "playerId": "nhl:p_8477951",
         "playerName": "Nick Schmaltz",
@@ -42,10 +48,10 @@
         "value": 5
       },
       {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 4
+        "playerId": "nhl:p_8478398",
+        "playerName": "Kyle Connor",
+        "teamId": "nhl:wpg",
+        "value": 5
       },
       {
         "playerId": "nhl:p_8478427",
@@ -58,15 +64,15 @@
         "playerName": "Paul Cotter",
         "teamId": "nhl:van",
         "value": 4
-      },
-      {
-        "playerId": "nhl:p_8478109",
-        "playerName": "Victor Olofsson",
-        "teamId": "nhl:vgk",
-        "value": 4
       }
     ],
     "assists": [
+      {
+        "playerId": "nhl:p_8478402",
+        "playerName": "Connor McDavid",
+        "teamId": "nhl:edm",
+        "value": 9
+      },
       {
         "playerId": "nhl:p_8478403",
         "playerName": "Jack Eichel",
@@ -74,28 +80,22 @@
         "value": 8
       },
       {
-        "playerId": "nhl:p_8478402",
-        "playerName": "Connor McDavid",
+        "playerId": "nhl:p_8477934",
+        "playerName": "Leon Draisaitl",
         "teamId": "nhl:edm",
-        "value": 7
+        "value": 6
+      },
+      {
+        "playerId": "nhl:p_8484153",
+        "playerName": "Leo Carlsson",
+        "teamId": "nhl:ana",
+        "value": 6
       },
       {
         "playerId": "nhl:p_8479343",
         "playerName": "Clayton Keller",
         "teamId": "nhl:uta",
         "value": 6
-      },
-      {
-        "playerId": "nhl:p_8479410",
-        "playerName": "Mikhail Sergachev",
-        "teamId": "nhl:uta",
-        "value": 5
-      },
-      {
-        "playerId": "nhl:p_8484801",
-        "playerName": "Macklin Celebrini",
-        "teamId": "nhl:sjs",
-        "value": 5
       }
     ],
     "gaa": [
@@ -103,6 +103,12 @@
         "playerId": "nhl:p_8482193",
         "playerName": "Dylan Garand",
         "teamId": "nhl:nyr",
+        "value": 0.0
+      },
+      {
+        "playerId": "nhl:p_8478024",
+        "playerName": "Ville Husso",
+        "teamId": "nhl:ana",
         "value": 0.0
       },
       {
@@ -122,12 +128,6 @@
         "playerName": "Joel Hofer",
         "teamId": "nhl:stl",
         "value": 1.01
-      },
-      {
-        "playerId": "nhl:p_8478009",
-        "playerName": "Ilya Sorokin",
-        "teamId": "nhl:nyi",
-        "value": 1.02
       }
     ],
     "svPct": [
@@ -135,6 +135,12 @@
         "playerId": "nhl:p_8482193",
         "playerName": "Dylan Garand",
         "teamId": "nhl:nyr",
+        "value": 1.0
+      },
+      {
+        "playerId": "nhl:p_8478024",
+        "playerName": "Ville Husso",
+        "teamId": "nhl:ana",
         "value": 1.0
       },
       {
@@ -154,12 +160,6 @@
         "playerName": "Linus Ullmark",
         "teamId": "nhl:ott",
         "value": 0.949
-      },
-      {
-        "playerId": "nhl:p_8482657",
-        "playerName": "Sebastian Cossa",
-        "teamId": "nhl:uta",
-        "value": 0.947
       }
     ]
   }
