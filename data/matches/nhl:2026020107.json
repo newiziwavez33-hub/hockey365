@@ -1,28 +1,28 @@
 {
-  "id": "nhl:2026020091",
+  "id": "nhl:2026020107",
   "compId": "NHL",
   "season": "2026/27",
   "stage": "regular",
   "round": null,
   "seriesGame": null,
-  "utcDate": "2026-10-13T22:15:00Z",
+  "utcDate": "2026-10-15T00:30:00Z",
   "status": "SCHEDULED",
   "period": null,
   "clock": null,
   "finishedIn": null,
   "home": {
-    "id": "nhl:cbj",
+    "id": "nhl:col",
     "score": null,
     "periods": [],
     "shots": null
   },
   "away": {
-    "id": "nhl:fla",
+    "id": "nhl:dal",
     "score": null,
     "periods": [],
     "shots": null
   },
-  "arena": "Nationwide Arena",
+  "arena": "Ball Arena",
   "officials": {
     "referees": [],
     "linesmen": []
@@ -35,9 +35,9 @@
     "type": "external",
     "verified": true,
     "provider": "NHL.com",
-    "url": "https://www.nhl.com/gamecenter/fla-vs-cbj/2026/10/13/2026020091",
+    "url": "https://www.nhl.com/gamecenter/dal-vs-col/2026/10/14/2026020107",
     "sourceName": "NHL.com Gamecenter",
-    "sourceUrl": "https://www.nhl.com/gamecenter/fla-vs-cbj/2026/10/13/2026020091",
-    "verifiedAt": "2026-10-08T20:11:30.628703Z"
+    "sourceUrl": "https://www.nhl.com/gamecenter/dal-vs-col/2026/10/14/2026020107",
+    "verifiedAt": "2026-10-08T20:11:30.631954Z"
   }
 }

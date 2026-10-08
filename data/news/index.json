@@ -1,6 +1,559 @@
 {
   "news": [
     {
+      "id": "news-6650396",
+      "slug": "lakrionov-o-porazhenii-ska-ya-gorzhus-komandoj-rebyata-srazhalis-ot-nachala-do-konca",
+      "title": "Лакрионов — о поражении СКА: я горжусь командой, ребята сражались от начала до конца",
+      "summary": "Главный тренер СКА Игорь Ларионов высказался о поражении от минского «Динамо» (2:4).",
+      "content": "Главный тренер СКА Игорь Ларионов высказался о поражении от минского «Динамо» (2:4).",
+      "image": "https://img.championat.com/news/big/b/t/lakrionov-o-porazhenii-ska-y.jpg",
+      "publishedAt": "2026-10-08T20:10:00Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650396-lakrionov-o-porazhenii-ska-ya-gorzhus-komandoj-rebyata-srazhalis-ot-nachala-do-konca.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Динамо Минск",
+        "Игорь Ларионов"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650348",
+      "slug": "kaprizov-voshyol-v-trojku-luchshih-dejstvuyuschih-hokkeistov-nhl-po-golam-v-pervyh-400-matchah",
+      "title": "Капризов вошёл в тройку лучших действующих хоккеистов НХЛ по голам в первых 400 матчах",
+      "summary": "Российский нападающий и лидер «Миннесоты Уайлд» Кирилл Капризов вошёл в тройку лучших действующих хоккеистов НХЛ по заброшенным шайбам за первые 400 матчей, сообщает пресс-служба Национальной хоккейной лиги.",
+      "content": "Российский нападающий и лидер «Миннесоты Уайлд» Кирилл Капризов вошёл в тройку лучших действующих хоккеистов НХЛ по заброшенным шайбам за первые 400 матчей, сообщает пресс-служба Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/z/x/kaprizov-voshyol-v-trojku-luchshih-dejstvuyuschih-hokkeistov-nhl-po-golam-v-pervyh-400-mat_1791487759956894129.jpg",
+      "publishedAt": "2026-10-08T19:50:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650348-kaprizov-voshyol-v-trojku-luchshih-dejstvuyuschih-hokkeistov-nhl-po-golam-v-pervyh-400-matchah.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Питтсбург Пингвинз",
+        "Эдмонтон Ойлерз",
+        "Торонто Мэйпл Лифс",
+        "Бостон Брюинз",
+        "Евгений Малкин",
+        "Миннесота Уайлд",
+        "Даллас Старз",
+        "Нэшвилл Предаторз",
+        "Кирилл Капризов",
+        "Сидни Кросби",
+        "Коннор Макдэвид",
+        "Остон Мэттьюс",
+        "Стивен Стэмкос",
+        "Давид Пастрняк",
+        "Джейсон Робертсон"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:dal",
+        "nhl:edm",
+        "nhl:min",
+        "nhl:nsh",
+        "nhl:pit",
+        "nhl:tor",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214",
+        "nhl:p_8478402",
+        "nhl:p_8479318"
+      ]
+    },
+    {
+      "id": "news-6650364",
+      "slug": "grishin-s-avangardom-u-nas-uzhe-kakoe-to-derbi-nachinaetsya-klassnye-igry",
+      "title": "Гришин: с «Авангардом» у нас уже какое-то дерби начинается. Классные игры",
+      "summary": "Главный тренер «Нефтехимика» Игорь Гришин высказался о домашнем поражении от «Авангарда» (0:1).",
+      "content": "Главный тренер «Нефтехимика» Игорь Гришин высказался о домашнем поражении от «Авангарда» (0:1).",
+      "image": "https://img.championat.com/news/big/l/u/grishin-s-avangardom-u-nas-uzhe-kakoe-to-derbi-nachinaetsya-klassnye-igry_17914881041312701628.jpg",
+      "publishedAt": "2026-10-08T19:34:53Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650364-grishin-s-avangardom-u-nas-uzhe-kakoe-to-derbi-nachinaetsya-klassnye-igry.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Нефтехимик",
+        "Игорь Гришин"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:neftekhimik"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650354",
+      "slug": "gi-bushe-svet-v-konce-tonnelya-my-vidim-eti-slozhnosti-avangarda-novyj-vyzov-v-karere",
+      "title": "Ги Буше: свет в конце тоннеля мы видим. Эти сложности «Авангарда» — новый вызов в карьере",
+      "summary": "Главный тренер «Авангарда» Ги Буше прокомментировал победную игру с «Нефтехимиком» (1:0).",
+      "content": "Главный тренер «Авангарда» Ги Буше прокомментировал победную игру с «Нефтехимиком» (1:0).",
+      "image": "https://img.championat.com/news/big/q/p/gi-bushe-svet-v-konce-tonnel.jpg",
+      "publishedAt": "2026-10-08T19:27:16Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650354-gi-bushe-svet-v-konce-tonnelya-my-vidim-eti-slozhnosti-avangarda-novyj-vyzov-v-karere.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Нефтехимик",
+        "Ги Буше"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:neftekhimik"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650324",
+      "slug": "oni-stali-legendami-hokkeya-tom-uilson-o-protivostoyanii-ovechkina-i-krosbi",
+      "title": "«Они стали легендами хоккея». Том Уилсон — о противостоянии Овечкина и Кросби",
+      "summary": "Нападающий «Вашингтон Кэпиталз» Том Уилсон высказался о противостоянии российского форварда Александра Овечкина и капитана «Питтсбург Пингвинз» Сидни Кросби.",
+      "content": "Нападающий «Вашингтон Кэпиталз» Том Уилсон высказался о противостоянии российского форварда Александра Овечкина и капитана «Питтсбург Пингвинз» Сидни Кросби.",
+      "image": "https://img.championat.com/news/big/m/e/oni-stali-legendami-hokkeya-tom-uilson-o-protivostoyanii-ovechkina-i-krosbi_17914860431520671917.jpg",
+      "publishedAt": "2026-10-08T19:13:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650324-oni-stali-legendami-hokkeya-tom-uilson-o-protivostoyanii-ovechkina-i-krosbi.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Питтсбург Пингвинз",
+        "Сидни Кросби",
+        "Том Уилсон"
+      ],
+      "relatedTeamIds": [
+        "nhl:pit",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6650292",
+      "slug": "neftehimik-avangard-rezultat-matcha-8-oktyabrya-2026-goda-schet-0-1-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "«Авангард» с минимальным счётом победил «Нефтехимик» в Нижнекамске",
+      "summary": "Сегодня, 8 октября, в Нижнекамске на стадионе «Нефтехим-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Нефтехимик» принимал омский «Авангард».",
+      "content": "Сегодня, 8 октября, в Нижнекамске на стадионе «Нефтехим-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Нефтехимик» принимал омский «Авангард».",
+      "image": "https://img.championat.com/news/big/v/u/avangard-s-minimalnym-schyotom-pobedil-neftehimik-v-nizhnekamske_1791485400371752269.jpg",
+      "publishedAt": "2026-10-08T18:50:48Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650292-neftehimik-avangard-rezultat-matcha-8-oktyabrya-2026-goda-schet-0-1-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "Авангард",
+        "Нефтехимик"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:neftekhimik"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650282",
+      "slug": "torpedo-severstal-rezultat-matcha-8-oktyabrya-2026-goda-schet-2-3-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "«Северсталь» одержала шестую победу в последних семи играх, одолев в гостях «Торпедо»",
+      "summary": "Сегодня, 8 октября, в Нижнем Новгороде на стадионе «Волга-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Торпедо» принимало череповецкую «Северс...",
+      "content": "Сегодня, 8 октября, в Нижнем Новгороде на стадионе «Волга-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Торпедо» принимало череповецкую «Северсталь».",
+      "image": "https://img.championat.com/news/big/f/g/severstal-oderzhala-shestuyu-pobedu-v-poslednih-semi-igrah-odolev-v-gostyah-torpedo_17914842811789087108.jpg",
+      "publishedAt": "2026-10-08T18:46:09Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650282-torpedo-severstal-rezultat-matcha-8-oktyabrya-2026-goda-schet-2-3-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "Торпедо",
+        "Северсталь"
+      ],
+      "relatedTeamIds": [
+        "khl:severstal",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650272",
+      "slug": "dinamo-mn-ska-rezultat-matcha-8-oktyabrya-2026-goda-schet-4-2-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "Минское «Динамо» забросило четыре шайбы и победило дома СКА",
+      "summary": "Сегодня, 8 октября, в Минске на стадионе «Минск-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» принимало санкт-петербургский СКА.",
+      "content": "Сегодня, 8 октября, в Минске на стадионе «Минск-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» принимало санкт-петербургский СКА.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-08T18:33:01Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650272-dinamo-mn-ska-rezultat-matcha-8-oktyabrya-2026-goda-schet-4-2-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "СКА",
+        "Динамо Минск"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650266",
+      "slug": "insajder-nhl-per-lebryun-nazval-predvaritelnye-sroki-vosstanovleniya-breda-marshana",
+      "title": "Инсайдер НХЛ Пьер Лебрюн назвал предварительные сроки восстановления Брэда Маршана",
+      "summary": "Инсайдер НХЛ Пьер Лебрюн рассказал о предварительных сроках восстановления форварда «Флориды Пантерз» Брэда Маршана.",
+      "content": "Инсайдер НХЛ Пьер Лебрюн рассказал о предварительных сроках восстановления форварда «Флориды Пантерз» Брэда Маршана.",
+      "image": "https://img.championat.com/news/big/b/o/insajder-nhl-per-lebryun-nazval-predvaritelnye-sroki-vosstanovleniya-breda-marshana_1791482599248006132.jpg",
+      "publishedAt": "2026-10-08T18:16:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650266-insajder-nhl-per-lebryun-nazval-predvaritelnye-sroki-vosstanovleniya-breda-marshana.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Флорида Пантерз",
+        "Брэд Маршан",
+        "Пьер Лебрюн"
+      ],
+      "relatedTeamIds": [
+        "nhl:fla"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650246",
+      "slug": "golkiper-tampy-andrej-vasilevskij-predstavil-novuyu-raskrasku-shlema",
+      "title": "Голкипер «Тампы» Андрей Василевский представил новую раскраску шлема",
+      "summary": "Российский голкипер «Тампа-Бэй Лайтнинг» Андрей Василевский представил новую раскраску своего шлема, сообщает пресс-служба «молний».",
+      "content": "Российский голкипер «Тампа-Бэй Лайтнинг» Андрей Василевский представил новую раскраску своего шлема, сообщает пресс-служба «молний».",
+      "image": "https://img.championat.com/news/big/q/g/golkiper-tampy-andrej-vasilevskij-predstavil-novuyu-raskrasku-shlema_1791481679939881269.jpg",
+      "publishedAt": "2026-10-08T17:55:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650246-golkiper-tampy-andrej-vasilevskij-predstavil-novuyu-raskrasku-shlema.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Фото",
+        "Тампа-Бэй Лайтнинг",
+        "Андрей Василевский"
+      ],
+      "relatedTeamIds": [
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650238",
+      "slug": "aleksandr-andrievskij-ocenil-pobednyj-match-amura-s-traktorom-v-chelyabinske",
+      "title": "Александр Андриевский оценил победный матч «Амура» с «Трактором» в Челябинске",
+      "summary": "Главный тренер «Амура» Александр Андриевский высказался о победной игре с «Трактором» (2:0) в Челябинске.",
+      "content": "Главный тренер «Амура» Александр Андриевский высказался о победной игре с «Трактором» (2:0) в Челябинске.",
+      "image": "https://img.championat.com/news/big/f/e/aleksandr-andrievskij-ocenil.jpg",
+      "publishedAt": "2026-10-08T17:40:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650238-aleksandr-andrievskij-ocenil-pobednyj-match-amura-s-traktorom-v-chelyabinske.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Трактор",
+        "Амур",
+        "Александр Андриевский"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650230",
+      "slug": "videl-ego-segodnya-my-pozdorovalis-glavnyj-trener-traktora-gordon-o-kravcove",
+      "title": "«Видел его сегодня, мы поздоровались». Главный тренер «Трактора» Гордон — о Кравцове",
+      "summary": "Главный тренер «Трактора» Скотт Гордон рассказал про общение с нападающим челябинского клуба Виталием Кравцовым, который восстанавливается от травмы.",
+      "content": "Главный тренер «Трактора» Скотт Гордон рассказал про общение с нападающим челябинского клуба Виталием Кравцовым, который восстанавливается от травмы.",
+      "image": "https://img.championat.com/news/big/c/w/videl-ego-segodnya-my-pozdor.jpg",
+      "publishedAt": "2026-10-08T17:23:17Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650230-videl-ego-segodnya-my-pozdorovalis-glavnyj-trener-traktora-gordon-o-kravcove.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Трактор",
+        "Виталий Кравцов",
+        "Скотт Гордон"
+      ],
+      "relatedTeamIds": [
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650224",
+      "slug": "glavnyj-trener-traktora-gordon-vyskazalsya-o-vtorom-porazhenii-ot-amura-podryad",
+      "title": "Главный тренер «Трактора» Гордон высказался о втором поражении от «Амура» подряд",
+      "summary": "Главный тренер «Трактора» Скотт Гордон прокомментировал домашнее поражение от «Амура» (0:2).",
+      "content": "Главный тренер «Трактора» Скотт Гордон прокомментировал домашнее поражение от «Амура» (0:2).",
+      "image": "https://img.championat.com/news/big/h/n/glavnyj-trener-traktora-gord.jpg",
+      "publishedAt": "2026-10-08T17:19:42Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650224-glavnyj-trener-traktora-gordon-vyskazalsya-o-vtorom-porazhenii-ot-amura-podryad.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Трактор",
+        "Амур",
+        "Скотт Гордон"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650206",
+      "slug": "vladimir-tarasenko-otkazalsya-ot-predlozheniya-floridy-s-kephitom-v-850-tysyach-lebryun",
+      "title": "Владимир Тарасенко отказался от предложения «Флориды» с кэпхитом в $ 850 тыс. — Лебрюн",
+      "summary": "Нападающий Владимир Тарасенко отклонил контрактное предложение «Флориды Пантерз» с кэпхитом в $ 850 тыс.",
+      "content": "Нападающий Владимир Тарасенко отклонил контрактное предложение «Флориды Пантерз» с кэпхитом в $ 850 тыс.",
+      "image": "https://img.championat.com/news/big/q/e/vladimir-tarasenko-otkazalsya-ot-predlozheniya-floridy-s-kephitom-v-850-tys-lebryun_1791479011393855055.jpg",
+      "publishedAt": "2026-10-08T17:02:09Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650206-vladimir-tarasenko-otkazalsya-ot-predlozheniya-floridy-s-kephitom-v-850-tysyach-lebryun.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Флорида Пантерз",
+        "Владимир Тарасенко",
+        "Пьер Лебрюн"
+      ],
+      "relatedTeamIds": [
+        "nhl:fla"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650174",
+      "slug": "fridman-ovechkin-osoznal-chto-dlya-nego-vsyo-budet-po-drugomu-ego-vliyanie-umenshilos",
+      "title": "Фридман: Овечкин осознал, что для него всё будет по-другому, его влияние уменьшилось",
+      "summary": "Журналист Эллиотт Фридман заявил о том, что влияние российского капитана «Вашингтон Кэпиталз» Александра Овечкина на игру столичного клуба уменьшилось.",
+      "content": "Журналист Эллиотт Фридман заявил о том, что влияние российского капитана «Вашингтон Кэпиталз» Александра Овечкина на игру столичного клуба уменьшилось.",
+      "image": "https://img.championat.com/news/big/k/x/fridman-ovechkin-osoznal-chto-dlya-nego-vsyo-budet-po-drugomu-ego-vliyanie-umenshilos_1791477332394249859.jpg",
+      "publishedAt": "2026-10-08T16:44:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650174-fridman-ovechkin-osoznal-chto-dlya-nego-vsyo-budet-po-drugomu-ego-vliyanie-umenshilos.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Эллиотт Фридман"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6649380",
+      "slug": "neftehimik-avangard-onlajn-translyaciya-matcha-khl-nachalas",
+      "title": "«Нефтехимик» — «Авангард»: онлайн-трансляция матча КХЛ началась",
+      "summary": "Сегодня, 8 октября, в Нижнекамске пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Нефтехимиком» и омским «Авангардом».",
+      "content": "Сегодня, 8 октября, в Нижнекамске пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Нефтехимиком» и омским «Авангардом».",
+      "image": "https://img.championat.com/news/big/a/g/neftehimik-avangard-onlajn-translyaciya-matcha-khl-nachalas_1791436075597326780.jpg",
+      "publishedAt": "2026-10-08T16:30:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6649380-neftehimik-avangard-onlajn-translyaciya-matcha-khl-nachalas.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Нефтехимик"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:neftekhimik"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650128",
+      "slug": "traktor-amur-rezultat-matcha-8-oktyabrya-2026-goda-schet-0-2-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "«Амур» второй раз за два дня победил «Трактор» в Челябинске",
+      "summary": "В Челябинске на стадионе «Арена-Трактор имени Валерия Белоусова» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Трактор» принимал хабаровский «Амур».",
+      "content": "В Челябинске на стадионе «Арена-Трактор имени Валерия Белоусова» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Трактор» принимал хабаровский «Амур».",
+      "image": "https://img.championat.com/news/big/j/b/amur-vtoroj-raz-za-dva-dnya-pobedil-traktor-v-chelyabinske_17914750801122916742.jpg",
+      "publishedAt": "2026-10-08T16:11:44Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650128-traktor-amur-rezultat-matcha-8-oktyabrya-2026-goda-schet-0-2-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "Трактор",
+        "Амур"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6649368",
+      "slug": "dinamo-mn-ska-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
+      "title": "«Динамо» Мн — СКА: онлайн-трансляция матча КХЛ началась",
+      "summary": "Сегодня, 8 октября, в Минске на стадионе «Минск-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» сыграет со СКА.",
+      "content": "Сегодня, 8 октября, в Минске на стадионе «Минск-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» сыграет со СКА.",
+      "image": "https://img.championat.com/news/big/h/o/dinamo-mn-ska-onlajn-translyaciya-matcha-khl-nachalas_17914345811035193764.jpg",
+      "publishedAt": "2026-10-08T16:10:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6649368-dinamo-mn-ska-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Динамо Минск"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650106",
+      "slug": "zaschitnik-avangarda-gulyaev-sygraet-v-trojke-napadeniya-s-livo-i-poturalski",
+      "title": "Защитник «Авангарда» Гуляев сыграет в тройке нападения с Ливо и Потуральски",
+      "summary": "Сегодня, 8 октября, в Нижнекамске пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Нефтехимиком» и омским «Авангардом».",
+      "content": "Сегодня, 8 октября, в Нижнекамске пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Нефтехимиком» и омским «Авангардом».",
+      "image": "https://img.championat.com/news/big/q/s/zaschitnik-avangarda-gulyaev.jpg",
+      "publishedAt": "2026-10-08T15:45:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650106-zaschitnik-avangarda-gulyaev-sygraet-v-trojke-napadeniya-s-livo-i-poturalski.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Нефтехимик",
+        "Джош Ливо",
+        "Михаил Гуляев",
+        "Эндрю Потуральски"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:neftekhimik"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650096",
+      "slug": "vasilevskij-glavnyj-pretendent-na-vezina-trofi-po-versii-sajta-nhl-sorokin-tretij",
+      "title": "Василевский — главный претендент на «Везина Трофи» по версии сайта НХЛ, Сорокин — третий",
+      "summary": "Официальный сайт НХЛ представил рейтинг претендентов на приз лучшему вратарю сезона – «Везина Трофи».",
+      "content": "Официальный сайт НХЛ представил рейтинг претендентов на приз лучшему вратарю сезона – «Везина Трофи».",
+      "image": "https://img.championat.com/news/big/w/f/vasilevskij-glavnyj-pretendent-na-vezina-trofi-po-versii-sajta-nhl-sorokin-tretij_1791473439665401146.jpg",
+      "publishedAt": "2026-10-08T15:29:19Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650096-vasilevskij-glavnyj-pretendent-na-vezina-trofi-po-versii-sajta-nhl-sorokin-tretij.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Тампа-Бэй Лайтнинг",
+        "Нью-Йорк Рейнджерс",
+        "Флорида Пантерз",
+        "Каролина Харрикейнз",
+        "Бостон Брюинз",
+        "Монреаль Канадиенс",
+        "Даллас Старз",
+        "Нью-Йорк Айлендерс",
+        "Вегас Голден Найтс",
+        "Андрей Василевский",
+        "Игорь Шестёркин",
+        "Илья Сорокин",
+        "Картер Харт",
+        "Якоб Маркстрём",
+        "Джейк Эттингер",
+        "Логан Томпсон",
+        "Джереми Свейман",
+        "Брэндон Басси",
+        "Якуб Добеш"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:car",
+        "nhl:dal",
+        "nhl:fla",
+        "nhl:mtl",
+        "nhl:nyi",
+        "nhl:nyr",
+        "nhl:tbl",
+        "nhl:vgk",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650066",
+      "slug": "vladimir-tarasenko-prekratil-sotrudnichestvo-s-agentom-denom-milshtejnom-fridman",
+      "title": "Владимир Тарасенко прекратил сотрудничество с агентом Дэном Мильштейном — Лебрюн",
+      "summary": "Нападающий Владимир Тарасенко прекратил сотрудничество с агентом Дэном Мильштейном.",
+      "content": "Нападающий Владимир Тарасенко прекратил сотрудничество с агентом Дэном Мильштейном.",
+      "image": "https://img.championat.com/news/big/o/y/vladimir-tarasenko-prekratil-sotrudnichestvo-s-agentom-denom-milshtejnom-lebryun_17914741111746421489.jpg",
+      "publishedAt": "2026-10-08T15:10:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650066-vladimir-tarasenko-prekratil-sotrudnichestvo-s-agentom-denom-milshtejnom-fridman.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Владимир Тарасенко",
+        "Пьер Лебрюн",
+        "Дэн Мильштейн"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6650046",
+      "slug": "krikunov-o-razine-esli-vas-ne-ustraivaet-harakter-ob-etom-nado-bylo-dumat-ranshe",
+      "title": "Крикунов — о Разине: если вас не устраивает характер, об этом надо было думать раньше",
+      "summary": "Бывший главный тренер сборной России Владимир Крикунов высказался об отстранении главного тренера магнитогорского «Металлурга» Андрея Разина.",
+      "content": "Бывший главный тренер сборной России Владимир Крикунов высказался об отстранении главного тренера магнитогорского «Металлурга» Андрея Разина.",
+      "image": "https://img.championat.com/news/big/j/y/krikunov-o-razine-esli-vas-n.jpg",
+      "publishedAt": "2026-10-08T14:51:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6650046-krikunov-o-razine-esli-vas-ne-ustraivaet-harakter-ob-etom-nado-bylo-dumat-ranshe.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Владимир Крикунов",
+        "Андрей Разин",
+        "Советский спорт"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6650014",
       "slug": "andrej-kovalenko-rasskazal-za-schyot-chego-cska-uspeshno-vystupaet-v-poslednih-matchah",
       "title": "Андрей Коваленко рассказал, за счёт чего ЦСКА успешно выступает в последних матчах",
@@ -228,522 +781,6 @@
         "nhl:van",
         "nhl:vgk"
       ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649660",
-      "slug": "dzhivani-smit-russkaya-eda-trebuet-privykaniya-no-vyglyadit-appetitno",
-      "title": "Дживани Смит: русская еда требует привыкания, но выглядит аппетитно",
-      "summary": "Нападающий «Шанхайских Драконов» Дживани Смит поделился мнением о русской еде и жизни в Санкт-Петербурге.",
-      "content": "Нападающий «Шанхайских Драконов» Дживани Смит поделился мнением о русской еде и жизни в Санкт-Петербурге.",
-      "image": "https://img.championat.com/news/big/k/f/dzhivani-smit-russkaya-eda-trebuet-privykaniya-no-vyglyadit-appetitno_17914534751012654201.jpg",
-      "publishedAt": "2026-10-08T12:00:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649660-dzhivani-smit-russkaya-eda-trebuet-privykaniya-no-vyglyadit-appetitno.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Шанхайские Драконы (Куньлунь Ред Стар)",
-        "Дживани Смит"
-      ],
-      "relatedTeamIds": [
-        "khl:kunlun"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649722",
-      "slug": "kozhevnikov-prizval-naznachit-ovechkina-prezidentom-fhr",
-      "title": "Кожевников призвал назначить Овечкина президентом ФХР",
-      "summary": "Двукратный олимпийский чемпион Александр Кожевников заявил, что форварду «Вашингтон Кэпиталз» Александру Овечкину после завершения выступлений в НХЛ нужно возглавить Федерацию хоккея России.",
-      "content": "Двукратный олимпийский чемпион Александр Кожевников заявил, что форварду «Вашингтон Кэпиталз» Александру Овечкину после завершения выступлений в НХЛ нужно возглавить Федерацию хоккея России.",
-      "image": "https://img.championat.com/news/big/y/w/kozhevnikov-prizval-naznachi.jpg",
-      "publishedAt": "2026-10-08T11:45:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649722-kozhevnikov-prizval-naznachit-ovechkina-prezidentom-fhr.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Александр Кожевников",
-        "Последний сезон Овечкина в НХЛ"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6649654",
-      "slug": "forvard-shanhaya-vyuchit-russkij-yazyk-odna-iz-moih-celej-skoro-nachnu-zanimatsya",
-      "title": "Форвард «Шанхая»: выучить русский язык — одна из моих целей. Скоро начну заниматься",
-      "summary": "Нападающий «Шанхайских Драконов» Дживани Смит высказался о победе над московским «Динамо» (3:2) и заявил, что изучает русский язык.",
-      "content": "Нападающий «Шанхайских Драконов» Дживани Смит высказался о победе над московским «Динамо» (3:2) и заявил, что изучает русский язык.",
-      "image": "https://img.championat.com/news/big/l/e/forvard-shanhaya-vyuchit-russkij-yazyk-odna-iz-moih-celej-skoro-nachnu-zanimatsya_17914527371462780267.jpg",
-      "publishedAt": "2026-10-08T11:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649654-forvard-shanhaya-vyuchit-russkij-yazyk-odna-iz-moih-celej-skoro-nachnu-zanimatsya.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Динамо Москва",
-        "Шанхайские Драконы (Куньлунь Ред Стар)",
-        "Дживани Смит"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk",
-        "khl:kunlun"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649696",
-      "slug": "ploho-korrektiruet-igru-kogda-chto-to-idyot-ne-tak-eks-trener-mhl-o-rabote-gi-bushe",
-      "title": "«Плохо корректирует игру, когда что-то идёт не так». Экс-тренер МХЛ — о работе Ги Буше",
-      "summary": "Бывший тренер клубов МХЛ Дмитрий Фёдоров поделился мнением о работе главного тренера «Авангарда» Ги Буше.",
-      "content": "Бывший тренер клубов МХЛ Дмитрий Фёдоров поделился мнением о работе главного тренера «Авангарда» Ги Буше.",
-      "image": "https://img.championat.com/news/big/z/d/ploho-korrektiruet-igru-kogd.jpg",
-      "publishedAt": "2026-10-08T11:15:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649696-ploho-korrektiruet-igru-kogda-chto-to-idyot-ne-tak-eks-trener-mhl-o-rabote-gi-bushe.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "РБ Спорт",
-        "Ги Буше",
-        "Дмитрий Фёдоров"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649350",
-      "slug": "traktor-amur-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-17-00-msk",
-      "title": "«Трактор» — «Амур»: онлайн-трансляция матча КХЛ начнётся в 17:00 мск",
-      "summary": "Сегодня, 8 октября, в Челябинске состоится матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Трактором» и хабаровским «Амуром».",
-      "content": "Сегодня, 8 октября, в Челябинске состоится матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Трактором» и хабаровским «Амуром».",
-      "image": "https://img.championat.com/news/big/a/t/traktor-amur-onlajn-translyaciya-matcha-khl-nachnyotsya-v-17-00-msk_1791433607356073948.jpg",
-      "publishedAt": "2026-10-08T11:00:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649350-traktor-amur-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-17-00-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Амур"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649704",
-      "slug": "ovechkin-ocenil-ceremoniyu-predstavleniya-igrokov-vashingtona-s-uchastiem-ego-synovej",
-      "title": "Овечкин оценил церемонию представления игроков «Вашингтона» с участием его сыновей",
-      "summary": "Капитан «Вашингтон Кэпиталз» Александр Овечкин назвал особенной церемонию представления команды перед первым домашним матчем сезона с «Питтсбург Пингвинз» (5:3), в которой приняли участие его сыновья Сергей и Илья.",
-      "content": "Капитан «Вашингтон Кэпиталз» Александр Овечкин назвал особенной церемонию представления команды перед первым домашним матчем сезона с «Питтсбург Пингвинз» (5:3), в которой приняли участие его сыновья Сергей и Илья.",
-      "image": "https://img.championat.com/news/big/a/h/ovechkin-ocenil-ceremoniyu-predstavleniya-igrokov-vashingtona-s-uchastiem-ego-synovej_179145535572609391.jpg",
-      "publishedAt": "2026-10-08T10:40:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649704-ovechkin-ocenil-ceremoniyu-predstavleniya-igrokov-vashingtona-s-uchastiem-ego-synovej.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин"
-      ],
-      "relatedTeamIds": [
-        "nhl:pit",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6649134",
-      "slug": "eks-igrok-sistemy-vashingtona-bylo-by-kruto-esli-by-ovechkin-vernulsya-v-khl-na-god",
-      "title": "Экс-игрок системы «Вашингтона»: было бы круто, если бы Овечкин вернулся в КХЛ на год",
-      "summary": "Нападающий «Торпедо» Майк Веккионе высказался о возможной игре российского форварда «Вашингтон Кэпиталз» Александра Овечкина в КХЛ.",
-      "content": "Нападающий «Торпедо» Майк Веккионе высказался о возможной игре российского форварда «Вашингтон Кэпиталз» Александра Овечкина в КХЛ.",
-      "image": "https://img.championat.com/news/big/q/o/eks-igrok-sistemy-vashington.jpg",
-      "publishedAt": "2026-10-08T10:20:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649134-eks-igrok-sistemy-vashingtona-bylo-by-kruto-esli-by-ovechkin-vernulsya-v-khl-na-god.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "Эксклюзив",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Торпедо",
-        "Майк Веккионе"
-      ],
-      "relatedTeamIds": [
-        "khl:torpedo",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6649554",
-      "slug": "glavnyj-trener-sochi-vyskazalsya-ob-igre-nikity-guseva-i-ego-vliyanii-na-komandu",
-      "title": "Главный тренер «Сочи» высказался об игре Никиты Гусева и его влиянии на команду",
-      "summary": "Главный тренер «Сочи» Андрей Миронов высказался о поражении в матче со «Спартаком» (2:5) и игре нападающего Никиты Гусева, набравшего первые очки в составе команды.",
-      "content": "Главный тренер «Сочи» Андрей Миронов высказался о поражении в матче со «Спартаком» (2:5) и игре нападающего Никиты Гусева, набравшего первые очки в составе команды.",
-      "image": "https://img.championat.com/news/big/m/a/glavnyj-trener-sochi-vyskazalsya-ob-igre-nikity-guseva-i-ego-vliyanii-na-komandu_1791445972689021939.jpg",
-      "publishedAt": "2026-10-08T10:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649554-glavnyj-trener-sochi-vyskazalsya-ob-igre-nikity-guseva-i-ego-vliyanii-na-komandu.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Спартак",
-        "Сочи",
-        "Никита Гусев",
-        "Андрей Миронов — тренер"
-      ],
-      "relatedTeamIds": [
-        "khl:sochi",
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": [
-        "khl:p_gusev"
-      ]
-    },
-    {
-      "id": "news-6649130",
-      "slug": "dazhe-ne-znal-chto-udaril-ego-vekkione-o-skandalnom-stolknovenii-s-serebryakovym",
-      "title": "«Даже не знал, что ударил его». Веккионе — о скандальном столкновении с Серебряковым",
-      "summary": "Нападающий «Торпедо» Майк Веккионе рассказал о своём столкновении с Никитой Серебряковым, после которого вратарь «Авангарда» получил травму.",
-      "content": "Нападающий «Торпедо» Майк Веккионе рассказал о своём столкновении с Никитой Серебряковым, после которого вратарь «Авангарда» получил травму.",
-      "image": "https://img.championat.com/news/big/f/n/dazhe-ne-znal-chto-udaril-eg.jpg",
-      "publishedAt": "2026-10-08T09:45:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649130-dazhe-ne-znal-chto-udaril-ego-vekkione-o-skandalnom-stolknovenii-s-serebryakovym.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Авангард",
-        "Торпедо",
-        "Никита Серебряков",
-        "Майк Веккионе"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649540",
-      "slug": "on-smog-sdelat-i-to-i-drugoe-shestikratnyj-obladatel-kubka-stenli-o-karere-ovechkina",
-      "title": "«Он смог сделать и то и другое». Шестикратный обладатель Кубка Стэнли о карьере Овечкина",
-      "summary": "Шестикратный обладатель Кубка Стэнли Марк Мессье высказался касательно капитана «Вашингтона» Александра Овечкина, который объявил, что нынешний сезон станет последним для него в НХЛ.",
-      "content": "Шестикратный обладатель Кубка Стэнли Марк Мессье высказался касательно капитана «Вашингтона» Александра Овечкина, который объявил, что нынешний сезон станет последним для него в НХЛ.",
-      "image": "https://img.championat.com/news/big/l/a/on-smog-sdelat-i-to-i-drugoe-shestikratnyj-obladatel-kubka-stenli-o-karere-ovechkina_1791448489650663046.jpg",
-      "publishedAt": "2026-10-08T09:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649540-on-smog-sdelat-i-to-i-drugoe-shestikratnyj-obladatel-kubka-stenli-o-karere-ovechkina.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Марк Мессье",
-        "Последний сезон Овечкина в НХЛ"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6649126",
-      "slug": "podvesti-bolelschikov-realno-otstoj-eks-igrok-barysa-o-neudachnom-sezone",
-      "title": "«Подвести болельщиков — реально отстой». Экс-игрок «Барыса» — о неудачном сезоне",
-      "summary": "Нападающий «Торпедо» Майк Веккионе прокомментировал прошлый неудачный сезон, проведённый в «Барысе».",
-      "content": "Нападающий «Торпедо» Майк Веккионе прокомментировал прошлый неудачный сезон, проведённый в «Барысе».",
-      "image": "https://img.championat.com/news/big/s/j/podvesti-bolelschikov-realno.jpg",
-      "publishedAt": "2026-10-08T09:10:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649126-podvesti-bolelschikov-realno-otstoj-eks-igrok-barysa-o-neudachnom-sezone.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Торпедо",
-        "Барыс",
-        "Майк Веккионе"
-      ],
-      "relatedTeamIds": [
-        "khl:barys",
-        "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649506",
-      "slug": "oslabili-davlenie-na-pedal-gaza-legioner-dinamo-posle-pyatogo-porazheniya-kryadu",
-      "title": "«Ослабили давление на педаль газа». Легионер «Динамо» — после пятого поражения кряду",
-      "summary": "Защитник московского «Динамо» Лука Профака высказался о пятом подряд поражении команды.",
-      "content": "Защитник московского «Динамо» Лука Профака высказался о пятом подряд поражении команды.",
-      "image": "https://img.championat.com/news/big/y/s/oslabili-davlenie-na-pedal-g.jpg",
-      "publishedAt": "2026-10-08T08:45:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649506-oslabili-davlenie-na-pedal-gaza-legioner-dinamo-posle-pyatogo-porazheniya-kryadu.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Динамо Москва",
-        "Шанхайские Драконы (Куньлунь Ред Стар)",
-        "Лука Профака"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk",
-        "khl:kunlun"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649124",
-      "slug": "ochen-zharko-kogda-byut-venikami-amerikanskij-forvard-torpedo-o-russkoj-bane",
-      "title": "«Очень жарко, когда бьют вениками». Американский форвард «Торпедо» — о русской бане",
-      "summary": "Нападающий «Торпедо» Майк Веккионе рассказал о впечатлениях от похода в баню.",
-      "content": "Нападающий «Торпедо» Майк Веккионе рассказал о впечатлениях от похода в баню.",
-      "image": "https://img.championat.com/news/big/t/v/ochen-zharko-kogda-byut-veni.jpg",
-      "publishedAt": "2026-10-08T08:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649124-ochen-zharko-kogda-byut-venikami-amerikanskij-forvard-torpedo-o-russkoj-bane.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Торпедо",
-        "Майк Веккионе"
-      ],
-      "relatedTeamIds": [
-        "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649500",
-      "slug": "sushinskij-obyasnil-pochemu-ne-verit-chto-ovechkin-provedyot-celyj-sezon-v-khl",
-      "title": "Сушинский объяснил, почему не верит, что Овечкин проведёт целый сезон в КХЛ",
-      "summary": "Бывший нападающий сборной России Максим Сушинский сомневается, что капитан «Вашингтон Кэпиталз» Александр Овечкин проведёт полноценный сезон в КХЛ.",
-      "content": "Бывший нападающий сборной России Максим Сушинский сомневается, что капитан «Вашингтон Кэпиталз» Александр Овечкин проведёт полноценный сезон в КХЛ.",
-      "image": "https://img.championat.com/news/big/z/y/sushinskij-obyasnil-pochemu-.jpg",
-      "publishedAt": "2026-10-08T08:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649500-sushinskij-obyasnil-pochemu-ne-verit-chto-ovechkin-provedyot-celyj-sezon-v-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "Динамо Москва",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Максим Сушинский"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6649120",
-      "slug": "legioner-torpedo-o-pervom-matche-na-novoj-arene-nikogda-ne-ispytyval-nichego-podobnogo",
-      "title": "Легионер «Торпедо» — о первом матче на новой арене: никогда не испытывал ничего подобного",
-      "summary": "Нападающий «Торпедо» Майк Веккионе рассказал о своих впечатлениях от игры на новой арене нижегородской команды.",
-      "content": "Нападающий «Торпедо» Майк Веккионе рассказал о своих впечатлениях от игры на новой арене нижегородской команды.",
-      "image": "https://img.championat.com/news/big/s/m/legioner-torpedo-o-pervom-matche-na-novoj-arene-nikogda-ne-ispytyval-nichego-podobnogo_1791404418391731443.jpg",
-      "publishedAt": "2026-10-08T07:50:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649120-legioner-torpedo-o-pervom-matche-na-novoj-arene-nikogda-ne-ispytyval-nichego-podobnogo.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Торпедо",
-        "Майк Веккионе"
-      ],
-      "relatedTeamIds": [
-        "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649432",
-      "slug": "spenser-karberi-ocenil-pervuyu-domashnyuyu-pobedu-vashingtona-v-novom-sezone-nhl",
-      "title": "Спенсер Карбери оценил первую домашнюю победу «Вашингтона» в новом сезоне НХЛ",
-      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери прокомментировал победу в первом домашнем матче сезона с «Питтсбург Пингвинз» (5:3).",
-      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери прокомментировал победу в первом домашнем матче сезона с «Питтсбург Пингвинз» (5:3).",
-      "image": "https://img.championat.com/news/big/x/v/spenser-karberi-ocenil-pervuyu-domashnyuyu-pobedu-vashingtona-v-novom-sezone-nhl_1791442825672211065.jpg",
-      "publishedAt": "2026-10-08T07:30:11Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649432-spenser-karberi-ocenil-pervuyu-domashnyuyu-pobedu-vashingtona-v-novom-sezone-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Питтсбург Пингвинз",
-        "Спенсер Карбери"
-      ],
-      "relatedTeamIds": [
-        "nhl:pit",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649116",
-      "slug": "vsegda-interesuyutsya-est-li-voprosy-legioner-torpedo-o-kommunikacii-s-trenerami",
-      "title": "«Всегда интересуются, есть ли вопросы». Легионер «Торпедо» — о коммуникации с тренерами",
-      "summary": "Нападающий «Торпедо» Майк Веккионе рассказал о работе с тренерским штабом нижегородского клуба.",
-      "content": "Нападающий «Торпедо» Майк Веккионе рассказал о работе с тренерским штабом нижегородского клуба.",
-      "image": "https://img.championat.com/news/big/w/y/vsegda-interesuyutsya-est-li-voprosy-legioner-torpedo-o-kommunikacii-s-trenerami_179140672247231160.jpg",
-      "publishedAt": "2026-10-08T07:10:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649116-vsegda-interesuyutsya-est-li-voprosy-legioner-torpedo-o-kommunikacii-s-trenerami.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Торпедо",
-        "Алексей Исаков",
-        "Майк Веккионе"
-      ],
-      "relatedTeamIds": [
-        "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649404",
-      "slug": "ne-radovalo-vsyu-noch-slushat-sireny-kevin-hejz-vyskazalsya-o-prichinah-uhoda-iz-khl",
-      "title": "«Не радовало всю ночь слушать сирены». Кевин Хейз высказался о причинах ухода из КХЛ",
-      "summary": "Нападающий Кевин Хейз прокомментировал решение завершить игровую карьеру после пяти матчей за «Ак Барс».",
-      "content": "Нападающий Кевин Хейз прокомментировал решение завершить игровую карьеру после пяти матчей за «Ак Барс».",
-      "image": "https://img.championat.com/news/big/z/c/ne-radovalo-vsyu-noch-slushat-sireny-kevin-hejz-vyskazalsya-o-prichinah-uhoda-iz-khl_1791439539336963606.jpg",
-      "publishedAt": "2026-10-08T06:50:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649404-ne-radovalo-vsyu-noch-slushat-sireny-kevin-hejz-vyskazalsya-o-prichinah-uhoda-iz-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Кевин Хейз"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649112",
-      "slug": "amerikanskij-forvard-torpedo-proiznyos-znakomye-slova-na-russkom-yazyke",
-      "title": "Американский форвард «Торпедо» произнёс знакомые слова на русском языке",
-      "summary": "Нападающий «Торпедо» Майк Веккионе рассказал о своих знаниях русского языка.",
-      "content": "Нападающий «Торпедо» Майк Веккионе рассказал о своих знаниях русского языка.",
-      "image": "https://img.championat.com/news/big/x/d/amerikanskij-forvard-torpedo-proiznyos-znakomye-slova-na-russkom-yazyke_17914042182142728761.jpg",
-      "publishedAt": "2026-10-08T06:30:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649112-amerikanskij-forvard-torpedo-proiznyos-znakomye-slova-na-russkom-yazyke.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Торпедо",
-        "Майк Веккионе"
-      ],
-      "relatedTeamIds": [
-        "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649342",
-      "slug": "traktor-amur-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-8-oktyabrya-2026",
-      "title": "«Трактор» — «Амур»: во сколько начало матча КХЛ, где смотреть трансляцию",
-      "summary": "Сегодня, 8 октября, в Челябинске пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Трактором» и хабаровским «Амуром».",
-      "content": "Сегодня, 8 октября, в Челябинске пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Трактором» и хабаровским «Амуром».",
-      "image": "https://img.championat.com/news/big/d/k/traktor-amur-vo-skolko-nachalo-matcha-khl-gde-smotret-translyaciyu_1791433566628813645.jpg",
-      "publishedAt": "2026-10-08T06:20:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649342-traktor-amur-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-8-oktyabrya-2026.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Амур"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649108",
-      "slug": "amerikanskij-forvard-torpedo-v-rossii-porcii-menshe-a-eda-svezhee-chem-v-ssha",
-      "title": "Американский форвард «Торпедо»: в России порции меньше, а еда свежее, чем в США",
-      "summary": "Нападающий «Торпедо» Майк Веккионе сравнил еду в России и Соединённых Штатах Америки.",
-      "content": "Нападающий «Торпедо» Майк Веккионе сравнил еду в России и Соединённых Штатах Америки.",
-      "image": "https://img.championat.com/news/big/n/q/amerikanskij-forvard-torpedo.jpg",
-      "publishedAt": "2026-10-08T06:05:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649108-amerikanskij-forvard-torpedo-v-rossii-porcii-menshe-a-eda-svezhee-chem-v-ssha.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Торпедо",
-        "Майк Веккионе"
-      ],
-      "relatedTeamIds": [
-        "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6649396",
-      "slug": "raspisanie-matchej-mhl-na-8-oktyabrya-2026-goda",
-      "title": "Расписание матчей МХЛ на 8 октября 2026 года",
-      "summary": "Сегодня, 8 октября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
-      "content": "Сегодня, 8 октября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
-      "image": "assets/images/hero_banner.jpg",
-      "publishedAt": "2026-10-08T06:00:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6649396-raspisanie-matchej-mhl-na-8-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "МХЛ",
-        "МХК Стальные Лисы",
-        "МХК Толпар",
-        "МХК Красноярские Рыси"
-      ],
-      "relatedTeamIds": [],
       "relatedPlayerIds": []
     }
   ]
