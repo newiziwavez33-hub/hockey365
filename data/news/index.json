@@ -1,6 +1,81 @@
 {
   "news": [
     {
+      "id": "news-6648548",
+      "slug": "vashington-kepitalz-pittsburg-pingvinz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachalas",
+      "title": "«Вашингтон» — «Питтсбург»: онлайн-трансляция матча НХЛ началась",
+      "summary": "В ночь на 8 октября продолжается регулярный чемпионат Национальной хоккейной лиги.",
+      "content": "В ночь на 8 октября продолжается регулярный чемпионат Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/c/b/vashington-pittsburg-onlajn-translyaciya-matcha-nhl-nachalas_1791375220617493279.jpg",
+      "publishedAt": "2026-10-07T23:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6648548-vashington-kepitalz-pittsburg-pingvinz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachalas.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Питтсбург Пингвинз"
+      ],
+      "relatedTeamIds": [
+        "nhl:pit",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6649234",
+      "slug": "trener-vashingtona-karberi-ocenil-vliyanie-sopernichestva-ovechkina-i-krosbi-na-razvitie-nhl",
+      "title": "Тренер «Вашингтона» Карбери оценил влияние соперничества Овечкина и Кросби на развитие НХЛ",
+      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери оценил значение многолетнего противостояния Александра Овечкина и Сидни Кросби для хоккея.",
+      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери оценил значение многолетнего противостояния Александра Овечкина и Сидни Кросби для хоккея.",
+      "image": "https://img.championat.com/news/big/i/o/trener-vashingtona-karberi-ocenil-vliyanie-sopernichestva-ovechkina-i-krosbi-na-razvitie-n_1791414499675164234.jpg",
+      "publishedAt": "2026-10-07T23:08:21Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6649234-trener-vashingtona-karberi-ocenil-vliyanie-sopernichestva-ovechkina-i-krosbi-na-razvitie-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Питтсбург Пингвинз",
+        "Сидни Кросби",
+        "Спенсер Карбери"
+      ],
+      "relatedTeamIds": [
+        "nhl:pit",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6649230",
+      "slug": "101-ya-vstrecha-ovechkina-i-krosbi-vsya-statistika-protivostoyaniya",
+      "title": "101-я встреча Овечкина и Кросби: вся статистика противостояния",
+      "summary": "Российский нападающий Александр Овечкин и канадский форвард Сидни Кросби вновь сойдутся на льду в рамках одного из самых продолжительных противостояний современного хоккея.",
+      "content": "Российский нападающий Александр Овечкин и канадский форвард Сидни Кросби вновь сойдутся на льду в рамках одного из самых продолжительных противостояний современного хоккея.",
+      "image": "https://img.championat.com/news/big/u/w/101-ya-vstrecha-ovechkina-i-krosbi-vsya-statistika-protivostoyaniya_1791412715513889513.jpg",
+      "publishedAt": "2026-10-07T22:38:38Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6649230-101-ya-vstrecha-ovechkina-i-krosbi-vsya-statistika-protivostoyaniya.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Питтсбург Пингвинз",
+        "Сидни Кросби"
+      ],
+      "relatedTeamIds": [
+        "nhl:pit",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
       "id": "news-6649140",
       "slug": "rezultaty-matchej-mhl-na-7-oktyabrya-2026-goda",
       "title": "Результаты матчей МХЛ на 7 октября 2026 года",
@@ -667,74 +742,6 @@
       "relatedTeamIds": [
         "khl:salavat-yulaev",
         "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6648808",
-      "slug": "kozlov-o-prervannoj-serii-bez-ochkov-rempala-kak-lider-nakidyval-na-sebya-lishnij-gruz",
-      "title": "Козлов — о прерванной серии без очков Ремпала: как лидер накидывал на себя лишний груз",
-      "summary": "Главный тренер «Салавата Юлаева» Виктор Козлов после победной встречи с «Сибирью» (5:4 ОТ) прокомментировал игру форварда Шелдона Ремпала.",
-      "content": "Главный тренер «Салавата Юлаева» Виктор Козлов после победной встречи с «Сибирью» (5:4 ОТ) прокомментировал игру форварда Шелдона Ремпала.",
-      "image": "https://img.championat.com/news/big/s/u/kozlov-o-prervannoj-serii-be.jpg",
-      "publishedAt": "2026-10-07T15:52:20Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6648808-kozlov-o-prervannoj-serii-bez-ochkov-rempala-kak-lider-nakidyval-na-sebya-lishnij-gruz.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Сибирь",
-        "Виктор Козлов",
-        "Шелдон Ремпал"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6648800",
-      "slug": "snimayu-shlyapu-pered-rebyatami-kozlov-o-pobede-nad-sibiryu",
-      "title": "«Снимаю шляпу перед ребятами». Козлов — о победе над «Сибирью»",
-      "summary": "Главный тренер «Салавата Юлаева» Виктор Козлов высказался о победной встрече с «Сибирью» (5:4 ОТ) в Новосибирске.",
-      "content": "Главный тренер «Салавата Юлаева» Виктор Козлов высказался о победной встрече с «Сибирью» (5:4 ОТ) в Новосибирске.",
-      "image": "https://img.championat.com/news/big/j/y/snimayu-shlyapu-pered-rebyat.jpg",
-      "publishedAt": "2026-10-07T15:47:22Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6648800-snimayu-shlyapu-pered-rebyatami-kozlov-o-pobede-nad-sibiryu.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Сибирь",
-        "Виктор Козлов"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6648792",
-      "slug": "nikolaj-zavaruhin-vyskazalsya-o-tyazhyolom-starte-avangarda-v-novom-sezone-khl",
-      "title": "Николай Заварухин высказался о тяжёлом старте «Авангарда» в новом сезоне КХЛ",
-      "summary": "Бывший главный тренер «Автомобилиста» Николай Заварухин поделился мыслями об игре «Авангарда» в новом регулярном чемпионате КХЛ.",
-      "content": "Бывший главный тренер «Автомобилиста» Николай Заварухин поделился мыслями об игре «Авангарда» в новом регулярном чемпионате КХЛ.",
-      "image": "https://img.championat.com/news/big/q/b/nikolaj-zavaruhin-vyskazalsy.jpg",
-      "publishedAt": "2026-10-07T15:42:19Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6648792-nikolaj-zavaruhin-vyskazalsya-o-tyazhyolom-starte-avangarda-v-novom-sezone-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Николай Заварухин"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard"
       ],
       "relatedPlayerIds": []
     }

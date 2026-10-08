@@ -6,31 +6,159 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-07T23:30:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 2,
+  "clock": "03:08",
   "finishedIn": null,
   "home": {
     "id": "nhl:wsh",
-    "score": null,
+    "score": 4,
     "periods": [],
-    "shots": null
+    "shots": 18
   },
   "away": {
     "id": "nhl:pit",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 13
   },
   "arena": "Capital One Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "00:23",
+      "team": "home",
+      "playerId": "nhl:p_8478463",
+      "playerName": "Anthony Beauvillier",
+      "assists": [
+        "nhl:p_8478440"
+      ],
+      "score": "1-0",
+      "order": 12
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "01:19",
+      "team": "away",
+      "playerId": "nhl:p_8475810",
+      "playerName": "Bryan Rust",
+      "assists": [
+        "nhl:p_8485414",
+        "nhl:p_8479398"
+      ],
+      "score": "1-1",
+      "order": 26
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "05:31",
+      "team": "away",
+      "playerId": "nhl:p_8482758",
+      "playerName": "Ville Koivunen",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 77
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "06:47",
+      "team": "away",
+      "playerId": "nhl:p_8481582",
+      "playerName": "Nick Robertson",
+      "minutes": 2,
+      "reason": "delaying-game-puck-over-glass",
+      "order": 93
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "11:51",
+      "team": "home",
+      "playerId": "nhl:p_8476880",
+      "playerName": "Tom Wilson",
+      "assists": [
+        "nhl:p_8479400"
+      ],
+      "score": "2-1",
+      "order": 163
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "13:45",
+      "team": "home",
+      "playerId": "nhl:p_8484186",
+      "playerName": "Ryan Leonard",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 190
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "04:42",
+      "team": "home",
+      "playerId": "nhl:p_8479400",
+      "playerName": "Pierre-Luc Dubois",
+      "assists": [
+        "nhl:p_8476880"
+      ],
+      "score": "3-1",
+      "order": 342
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "13:14",
+      "team": "home",
+      "playerId": "nhl:p_8477949",
+      "playerName": "Alex Tuch",
+      "assists": [
+        "nhl:p_8476880"
+      ],
+      "score": "4-1",
+      "order": 435
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "14:05",
+      "team": "away",
+      "playerId": "nhl:p_8478438",
+      "playerName": "Tommy Novak",
+      "score": "4-2",
+      "order": 444
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      18,
+      13
+    ],
+    "shotsOnGoal": [
+      18,
+      13
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020053/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020053/play-by-play"
+    ],
+    "fetchedAt": "2026-10-08T01:14:21.854820+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +166,6 @@
     "url": "https://www.nhl.com/gamecenter/pit-vs-wsh/2026/10/07/2026020053",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/pit-vs-wsh/2026/10/07/2026020053",
-    "verifiedAt": "2026-10-07T21:32:48.811742Z"
+    "verifiedAt": "2026-10-08T01:14:21.854921Z"
   }
 }

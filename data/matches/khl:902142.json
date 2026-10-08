@@ -1,27 +1,27 @@
 {
-  "id": "khl:902126",
+  "id": "khl:902142",
   "compId": "KHL",
   "season": "2026/27",
   "stage": "regular",
   "round": null,
   "seriesGame": null,
-  "utcDate": "2026-10-11T14:00:00Z",
+  "utcDate": "2026-10-15T16:00:00Z",
   "status": "SCHEDULED",
   "period": null,
   "clock": null,
   "finishedIn": null,
   "home": {
-    "id": "khl:dynamo-msk",
-    "name": "Динамо М",
-    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/8/original/dynamo_msk_2019__200x200.png",
+    "id": "khl:severstal",
+    "name": "Северсталь",
+    "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/42/original/severstal_2021__200x200.png",
     "score": null,
     "periods": [],
     "shots": null
   },
   "away": {
-    "id": "khl:ska",
-    "name": "СКА",
-    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sda/team_pics/44/original/SKA_logo_2025_RU_200x200_NEW.png",
+    "id": "khl:lokomotiv",
+    "name": "Локомотив",
+    "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sda/team_pics/26/original/lokomotiv_2022__200x200.png",
     "score": null,
     "periods": [],
     "shots": null
@@ -48,8 +48,8 @@
       "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
     ],
     "stageId": 407,
-    "eventId": 3000651,
-    "matchId": "902126",
+    "eventId": 3000719,
+    "matchId": "902142",
     "fetchedAt": "2026-10-08T01:14:24.630525Z"
   }
 }
