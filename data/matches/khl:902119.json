@@ -6,24 +6,32 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-09T16:30:00Z",
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:dynamo-msk",
     "name": "Динамо М",
-    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/8/original/dynamo_msk_2019__200x200.png",
-    "score": null,
-    "periods": [],
+    "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdi/team_pics/8/original/dynamo_msk_2019__200x200.png",
+    "score": 2,
+    "periods": [
+      0,
+      2,
+      0
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:cska",
     "name": "ЦСКА",
     "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdi/team_pics/16/original/cska_2016_rus__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 5,
+    "periods": [
+      1,
+      3,
+      1
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000623,
     "matchId": "902119",
-    "fetchedAt": "2026-10-09T13:29:25.059814Z"
+    "fetchedAt": "2026-10-09T18:55:45.302556Z"
   }
 }

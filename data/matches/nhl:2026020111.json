@@ -1,0 +1,43 @@
+{
+  "id": "nhl:2026020111",
+  "compId": "NHL",
+  "season": "2026/27",
+  "stage": "regular",
+  "round": null,
+  "seriesGame": null,
+  "utcDate": "2026-10-15T23:00:00Z",
+  "status": "SCHEDULED",
+  "period": null,
+  "clock": null,
+  "finishedIn": null,
+  "home": {
+    "id": "nhl:tbl",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "away": {
+    "id": "nhl:sea",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "arena": "Benchmark International Arena",
+  "officials": {
+    "referees": [],
+    "linesmen": []
+  },
+  "events": [],
+  "lineups": null,
+  "stats": null,
+  "h2h": [],
+  "broadcast": {
+    "type": "external",
+    "verified": true,
+    "provider": "NHL.com",
+    "url": "https://www.nhl.com/gamecenter/sea-vs-tbl/2026/10/15/2026020111",
+    "sourceName": "NHL.com Gamecenter",
+    "sourceUrl": "https://www.nhl.com/gamecenter/sea-vs-tbl/2026/10/15/2026020111",
+    "verifiedAt": "2026-10-09T18:55:43.238056Z"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "nhl:2026020112",
+  "compId": "NHL",
+  "season": "2026/27",
+  "stage": "regular",
+  "round": null,
+  "seriesGame": null,
+  "utcDate": "2026-10-15T23:00:00Z",
+  "status": "SCHEDULED",
+  "period": null,
+  "clock": null,
+  "finishedIn": null,
+  "home": {
+    "id": "nhl:fla",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "away": {
+    "id": "nhl:van",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "arena": "Amerant Bank Arena",
+  "officials": {
+    "referees": [],
+    "linesmen": []
+  },
+  "events": [],
+  "lineups": null,
+  "stats": null,
+  "h2h": [],
+  "broadcast": {
+    "type": "external",
+    "verified": true,
+    "provider": "NHL.com",
+    "url": "https://www.nhl.com/gamecenter/van-vs-fla/2026/10/15/2026020112",
+    "sourceName": "NHL.com Gamecenter",
+    "sourceUrl": "https://www.nhl.com/gamecenter/van-vs-fla/2026/10/15/2026020112",
+    "verifiedAt": "2026-10-09T18:55:43.238177Z"
+  }
+}
