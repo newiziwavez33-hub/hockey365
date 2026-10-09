@@ -6,31 +6,64 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-09T00:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 1,
+  "clock": "13:37",
   "finishedIn": null,
   "home": {
     "id": "nhl:stl",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 3
   },
   "away": {
     "id": "nhl:sjs",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 2
   },
   "arena": "Enterprise Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "03:52",
+      "team": "home",
+      "playerId": "nhl:p_8481580",
+      "playerName": "Connor McMichael",
+      "assists": [
+        "nhl:p_8482745",
+        "nhl:p_8481013"
+      ],
+      "score": "1-0",
+      "order": 66
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      3,
+      2
+    ],
+    "shotsOnGoal": [
+      3,
+      2
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020063/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020063/play-by-play"
+    ],
+    "fetchedAt": "2026-10-09T00:21:36.432125+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +71,6 @@
     "url": "https://www.nhl.com/gamecenter/sjs-vs-stl/2026/10/08/2026020063",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/sjs-vs-stl/2026/10/08/2026020063",
-    "verifiedAt": "2026-10-08T20:11:30.620493Z"
+    "verifiedAt": "2026-10-09T00:21:36.432154Z"
   }
 }

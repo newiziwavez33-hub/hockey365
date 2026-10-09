@@ -6,31 +6,100 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-08T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 2,
+  "clock": "08:41",
   "finishedIn": null,
   "home": {
     "id": "nhl:buf",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 8
   },
   "away": {
     "id": "nhl:dal",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 12
   },
   "arena": "KeyBank Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "09:03",
+      "team": "away",
+      "playerId": "nhl:p_8480027",
+      "playerName": "Jason Robertson",
+      "assists": [
+        "nhl:p_8478420",
+        "nhl:p_8482740"
+      ],
+      "score": "0-1",
+      "order": 142
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "19:50",
+      "team": "home",
+      "playerId": "nhl:p_8479359",
+      "playerName": "Beck Malenstyn",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 285
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "01:50",
+      "team": "away",
+      "playerId": "nhl:p_8480036",
+      "playerName": "Miro Heiskanen",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 315
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "09:36",
+      "team": "away",
+      "playerId": "nhl:p_8479351",
+      "playerName": "Sam Steel",
+      "assists": [
+        "nhl:p_8481581",
+        "nhl:p_8478420"
+      ],
+      "score": "0-2",
+      "order": 412
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      8,
+      12
+    ],
+    "shotsOnGoal": [
+      8,
+      12
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020057/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020057/play-by-play"
+    ],
+    "fetchedAt": "2026-10-09T00:21:35.668912+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +107,6 @@
     "url": "https://www.nhl.com/gamecenter/dal-vs-buf/2026/10/08/2026020057",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/dal-vs-buf/2026/10/08/2026020057",
-    "verifiedAt": "2026-10-08T20:11:30.619608Z"
+    "verifiedAt": "2026-10-09T00:21:35.668968Z"
   }
 }

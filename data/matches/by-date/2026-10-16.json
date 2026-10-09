@@ -1,20 +1,20 @@
 [
   {
-    "id": "khl:902139",
+    "id": "khl:902143",
     "compId": "KHL",
     "season": "2026/27",
     "stage": "regular",
     "round": null,
     "seriesGame": null,
-    "utcDate": "2026-10-14T09:00:00Z",
+    "utcDate": "2026-10-16T09:30:00Z",
     "status": "SCHEDULED",
     "period": null,
     "clock": null,
     "finishedIn": null,
     "home": {
-      "id": "khl:amur",
-      "name": "Амур",
-      "logo": "https://thumbs.webcaster.pro/rec-2-2.webcaster.pro/fc/sdc/team_pics/12/original/amur_2015__200x200.png",
+      "id": "khl:admiral",
+      "name": "Адмирал",
+      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdg/team_pics/61/original/admiral_2024_200x200.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -49,82 +49,27 @@
         "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
       ],
       "stageId": 407,
-      "eventId": 3000707,
-      "matchId": "902139",
+      "eventId": 3000723,
+      "matchId": "902143",
       "fetchedAt": "2026-10-09T00:21:38.491326Z"
     }
   },
   {
-    "id": "khl:902135",
+    "id": "khl:902144",
     "compId": "KHL",
     "season": "2026/27",
     "stage": "regular",
     "round": null,
     "seriesGame": null,
-    "utcDate": "2026-10-14T14:00:00Z",
+    "utcDate": "2026-10-16T13:30:00Z",
     "status": "SCHEDULED",
     "period": null,
     "clock": null,
     "finishedIn": null,
     "home": {
-      "id": "khl:salavat-yulaev",
-      "name": "Салават Юлаев",
-      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdc/team_pics/32/original/salavat_yulaev_2020__200x200.png",
-      "score": null,
-      "periods": [],
-      "shots": null
-    },
-    "away": {
-      "id": "khl:sibir",
-      "name": "Сибирь",
-      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/24/original/sibir_rus__200x200.png",
-      "score": null,
-      "periods": [],
-      "shots": null
-    },
-    "arena": null,
-    "officials": {
-      "referees": [],
-      "linesmen": []
-    },
-    "events": [],
-    "lineups": null,
-    "stats": null,
-    "h2h": [],
-    "source": {
-      "provider": "KHL mobile backend",
-      "official": true,
-      "verified": true,
-      "verifiedMatches": true,
-      "licenseConfirmed": false,
-      "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
-      "endpoints": [
-        "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
-        "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
-        "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
-      ],
-      "stageId": 407,
-      "eventId": 3000691,
-      "matchId": "902135",
-      "fetchedAt": "2026-10-09T00:21:38.491326Z"
-    }
-  },
-  {
-    "id": "khl:902140",
-    "compId": "KHL",
-    "season": "2026/27",
-    "stage": "regular",
-    "round": null,
-    "seriesGame": null,
-    "utcDate": "2026-10-14T14:30:00Z",
-    "status": "SCHEDULED",
-    "period": null,
-    "clock": null,
-    "finishedIn": null,
-    "home": {
-      "id": "khl:barys",
-      "name": "Барыс",
-      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/46/original/barys_2022_head_only__200x200.png",
+      "id": "khl:avangard",
+      "name": "Авангард",
+      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/10/original/Avangard_2026_500x500_NEW.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -159,137 +104,27 @@
         "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
       ],
       "stageId": 407,
-      "eventId": 3000711,
-      "matchId": "902140",
+      "eventId": 3000727,
+      "matchId": "902144",
       "fetchedAt": "2026-10-09T00:21:38.491326Z"
     }
   },
   {
-    "id": "khl:902138",
+    "id": "khl:902146",
     "compId": "KHL",
     "season": "2026/27",
     "stage": "regular",
     "round": null,
     "seriesGame": null,
-    "utcDate": "2026-10-14T16:10:00Z",
+    "utcDate": "2026-10-16T16:00:00Z",
     "status": "SCHEDULED",
     "period": null,
     "clock": null,
     "finishedIn": null,
     "home": {
-      "id": "khl:dynamo-mns",
-      "name": "Динамо Мн",
-      "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/38/original/dinamo_mn_2019_alternative__200x200.png",
-      "score": null,
-      "periods": [],
-      "shots": null
-    },
-    "away": {
-      "id": "khl:metallurg-mg",
-      "name": "Металлург Мг",
-      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/30/original/metallurg_mg_2020__200x200.png",
-      "score": null,
-      "periods": [],
-      "shots": null
-    },
-    "arena": null,
-    "officials": {
-      "referees": [],
-      "linesmen": []
-    },
-    "events": [],
-    "lineups": null,
-    "stats": null,
-    "h2h": [],
-    "source": {
-      "provider": "KHL mobile backend",
-      "official": true,
-      "verified": true,
-      "verifiedMatches": true,
-      "licenseConfirmed": false,
-      "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
-      "endpoints": [
-        "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
-        "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
-        "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
-      ],
-      "stageId": 407,
-      "eventId": 3000703,
-      "matchId": "902138",
-      "fetchedAt": "2026-10-09T00:21:38.491326Z"
-    }
-  },
-  {
-    "id": "khl:902136",
-    "compId": "KHL",
-    "season": "2026/27",
-    "stage": "regular",
-    "round": null,
-    "seriesGame": null,
-    "utcDate": "2026-10-14T16:30:00Z",
-    "status": "SCHEDULED",
-    "period": null,
-    "clock": null,
-    "finishedIn": null,
-    "home": {
-      "id": "khl:cska",
-      "name": "ЦСКА",
-      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdc/team_pics/16/original/cska_2016_rus__200x200.png",
-      "score": null,
-      "periods": [],
-      "shots": null
-    },
-    "away": {
-      "id": "khl:dynamo-msk",
-      "name": "Динамо М",
-      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdi/team_pics/8/original/dynamo_msk_2019__200x200.png",
-      "score": null,
-      "periods": [],
-      "shots": null
-    },
-    "arena": null,
-    "officials": {
-      "referees": [],
-      "linesmen": []
-    },
-    "events": [],
-    "lineups": null,
-    "stats": null,
-    "h2h": [],
-    "source": {
-      "provider": "KHL mobile backend",
-      "official": true,
-      "verified": true,
-      "verifiedMatches": true,
-      "licenseConfirmed": false,
-      "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
-      "endpoints": [
-        "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
-        "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
-        "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
-      ],
-      "stageId": 407,
-      "eventId": 3000695,
-      "matchId": "902136",
-      "fetchedAt": "2026-10-09T00:21:38.491326Z"
-    }
-  },
-  {
-    "id": "khl:902137",
-    "compId": "KHL",
-    "season": "2026/27",
-    "stage": "regular",
-    "round": null,
-    "seriesGame": null,
-    "utcDate": "2026-10-14T16:30:00Z",
-    "status": "SCHEDULED",
-    "period": null,
-    "clock": null,
-    "finishedIn": null,
-    "home": {
-      "id": "khl:dragons",
-      "name": "Драконы",
-      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdh/team_pics/315/original/Shanghai_Dragons_2026_500x500_NEW_(1).png",
+      "id": "khl:neftekhimik",
+      "name": "Нефтехимик",
+      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/36/original/neftekhimik_2022__200x200.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -324,36 +159,40 @@
         "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
       ],
       "stageId": 407,
-      "eventId": 3000699,
-      "matchId": "902137",
+      "eventId": 3000735,
+      "matchId": "902146",
       "fetchedAt": "2026-10-09T00:21:38.491326Z"
     }
   },
   {
-    "id": "nhl:2026020106",
-    "compId": "NHL",
+    "id": "khl:902217",
+    "compId": "KHL",
     "season": "2026/27",
     "stage": "regular",
     "round": null,
     "seriesGame": null,
-    "utcDate": "2026-10-14T23:30:00Z",
+    "utcDate": "2026-10-16T16:00:00Z",
     "status": "SCHEDULED",
     "period": null,
     "clock": null,
     "finishedIn": null,
     "home": {
-      "id": "nhl:wsh",
+      "id": "khl:torpedo",
+      "name": "Торпедо",
+      "logo": "https://thumbs.webcaster.pro/rec-1-1.webcaster.pro/fc/sda/team_pics/22/original/Torpedo_2025_200x200_NEW.png",
       "score": null,
       "periods": [],
       "shots": null
     },
     "away": {
-      "id": "nhl:mtl",
+      "id": "khl:dynamo-msk",
+      "name": "Динамо М",
+      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdi/team_pics/8/original/dynamo_msk_2019__200x200.png",
       "score": null,
       "periods": [],
       "shots": null
     },
-    "arena": "Capital One Arena",
+    "arena": null,
     "officials": {
       "referees": [],
       "linesmen": []
@@ -362,41 +201,53 @@
     "lineups": null,
     "stats": null,
     "h2h": [],
-    "broadcast": {
-      "type": "external",
+    "source": {
+      "provider": "KHL mobile backend",
+      "official": true,
       "verified": true,
-      "provider": "NHL.com",
-      "url": "https://www.nhl.com/gamecenter/mtl-vs-wsh/2026/10/14/2026020106",
-      "sourceName": "NHL.com Gamecenter",
-      "sourceUrl": "https://www.nhl.com/gamecenter/mtl-vs-wsh/2026/10/14/2026020106",
-      "verifiedAt": "2026-10-09T00:21:36.437845Z"
+      "verifiedMatches": true,
+      "licenseConfirmed": false,
+      "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+      "endpoints": [
+        "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
+      ],
+      "stageId": 407,
+      "eventId": 3001019,
+      "matchId": "902217",
+      "fetchedAt": "2026-10-09T00:21:38.491326Z"
     }
   },
   {
-    "id": "nhl:2026020107",
-    "compId": "NHL",
+    "id": "khl:902145",
+    "compId": "KHL",
     "season": "2026/27",
     "stage": "regular",
     "round": null,
     "seriesGame": null,
-    "utcDate": "2026-10-15T00:30:00Z",
+    "utcDate": "2026-10-16T16:30:00Z",
     "status": "SCHEDULED",
     "period": null,
     "clock": null,
     "finishedIn": null,
     "home": {
-      "id": "nhl:col",
+      "id": "khl:dragons",
+      "name": "Драконы",
+      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdh/team_pics/315/original/Shanghai_Dragons_2026_500x500_NEW_(1).png",
       "score": null,
       "periods": [],
       "shots": null
     },
     "away": {
-      "id": "nhl:dal",
+      "id": "khl:ak-bars",
+      "name": "Ак Барс",
+      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdi/team_pics/40/original/ak_bars_2022__200x200.png",
       "score": null,
       "periods": [],
       "shots": null
     },
-    "arena": "Ball Arena",
+    "arena": null,
     "officials": {
       "referees": [],
       "linesmen": []
@@ -405,14 +256,22 @@
     "lineups": null,
     "stats": null,
     "h2h": [],
-    "broadcast": {
-      "type": "external",
+    "source": {
+      "provider": "KHL mobile backend",
+      "official": true,
       "verified": true,
-      "provider": "NHL.com",
-      "url": "https://www.nhl.com/gamecenter/dal-vs-col/2026/10/14/2026020107",
-      "sourceName": "NHL.com Gamecenter",
-      "sourceUrl": "https://www.nhl.com/gamecenter/dal-vs-col/2026/10/14/2026020107",
-      "verifiedAt": "2026-10-09T00:21:36.437908Z"
+      "verifiedMatches": true,
+      "licenseConfirmed": false,
+      "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+      "endpoints": [
+        "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
+      ],
+      "stageId": 407,
+      "eventId": 3000731,
+      "matchId": "902145",
+      "fetchedAt": "2026-10-09T00:21:38.491326Z"
     }
   }
 ]

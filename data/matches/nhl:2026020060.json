@@ -6,31 +6,139 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-08T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 2,
+  "clock": "11:02",
   "finishedIn": null,
   "home": {
     "id": "nhl:tbl",
-    "score": null,
+    "score": 3,
     "periods": [],
-    "shots": null
+    "shots": 19
   },
   "away": {
     "id": "nhl:min",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 12
   },
   "arena": "Benchmark International Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "05:26",
+      "team": "home",
+      "playerId": "nhl:p_8478519",
+      "playerName": "Anthony Cirelli",
+      "assists": [
+        "nhl:p_8478416",
+        "nhl:p_8479542"
+      ],
+      "score": "1-0",
+      "order": 68
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "06:02",
+      "team": "home",
+      "playerId": "nhl:p_8474590",
+      "playerName": "John Carlson",
+      "assists": [
+        "nhl:p_8476453",
+        "nhl:p_8478010"
+      ],
+      "score": "2-0",
+      "order": 73
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "12:34",
+      "team": "away",
+      "playerId": "nhl:p_8476463",
+      "playerName": "Jonas Brodin",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 162
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "02:32",
+      "team": "away",
+      "playerId": "nhl:p_8480800",
+      "playerName": "Quinn Hughes",
+      "assists": [
+        "nhl:p_8481553",
+        "nhl:p_8474716"
+      ],
+      "score": "2-1",
+      "order": 281
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "04:02",
+      "team": "away",
+      "playerId": "nhl:p_8477446",
+      "playerName": "Michael McCarron",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 297
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "04:55",
+      "team": "home",
+      "playerId": "nhl:p_8474590",
+      "playerName": "John Carlson",
+      "assists": [
+        "nhl:p_8476453",
+        "nhl:p_8477404"
+      ],
+      "score": "3-1",
+      "order": 307
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "08:11",
+      "team": "home",
+      "playerId": "nhl:p_8481719",
+      "playerName": "Max Crozier",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 344
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      19,
+      12
+    ],
+    "shotsOnGoal": [
+      19,
+      12
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020060/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020060/play-by-play"
+    ],
+    "fetchedAt": "2026-10-09T00:21:36.091527+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +146,6 @@
     "url": "https://www.nhl.com/gamecenter/min-vs-tbl/2026/10/08/2026020060",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/min-vs-tbl/2026/10/08/2026020060",
-    "verifiedAt": "2026-10-08T20:11:30.620071Z"
+    "verifiedAt": "2026-10-09T00:21:36.091593Z"
   }
 }
