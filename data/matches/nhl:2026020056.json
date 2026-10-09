@@ -6,150 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-08T23:00:00Z",
-  "status": "LIVE",
-  "period": 2,
-  "clock": "12:43",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:bos",
-    "score": 4,
+    "score": 6,
     "periods": [],
-    "shots": 10
+    "shots": null
   },
   "away": {
     "id": "nhl:uta",
-    "score": 0,
+    "score": 1,
     "periods": [],
-    "shots": 20
+    "shots": null
   },
   "arena": "TD Garden",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "06:40",
-      "team": "home",
-      "playerId": "nhl:p_8479661",
-      "playerName": "Tanner Jeannot",
-      "minutes": 2,
-      "reason": "slashing",
-      "order": 97
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "10:06",
-      "team": "home",
-      "playerId": "nhl:p_8479999",
-      "playerName": "Casey Mittelstadt",
-      "assists": [
-        "nhl:p_8485395",
-        "nhl:p_8477496"
-      ],
-      "score": "1-0",
-      "order": 143
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "14:16",
-      "team": "away",
-      "playerId": "nhl:p_8478474",
-      "playerName": "Lawson Crouse",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 202
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "14:22",
-      "team": "home",
-      "playerId": "nhl:p_8477956",
-      "playerName": "David Pastrnak",
-      "assists": [
-        "nhl:p_8483017",
-        "nhl:p_8479987"
-      ],
-      "score": "2-0",
-      "order": 208
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "15:51",
-      "team": "home",
-      "playerId": "nhl:p_8482511",
-      "playerName": "Mason Lohrei",
-      "assists": [
-        "nhl:p_8483505",
-        "nhl:p_8480355"
-      ],
-      "score": "3-0",
-      "order": 232
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "03:29",
-      "team": "away",
-      "playerId": "nhl:p_8476389",
-      "playerName": "Vincent Trocheck",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 339
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "04:40",
-      "team": "home",
-      "playerId": "nhl:p_8477956",
-      "playerName": "David Pastrnak",
-      "assists": [
-        "nhl:p_8479987",
-        "nhl:p_8476854"
-      ],
-      "score": "4-0",
-      "order": 351
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "05:09",
-      "team": "home",
-      "playerId": "nhl:p_8482175",
-      "playerName": "JJ Peterka",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 358
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      10,
-      20
-    ],
-    "shotsOnGoal": [
-      10,
-      20
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020056/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020056/play-by-play"
-    ],
-    "fetchedAt": "2026-10-09T00:21:35.543952+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -157,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/uta-vs-bos/2026/10/08/2026020056",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/uta-vs-bos/2026/10/08/2026020056",
-    "verifiedAt": "2026-10-09T00:21:35.544009Z"
+    "verifiedAt": "2026-10-09T06:21:37.632759Z"
   }
 }

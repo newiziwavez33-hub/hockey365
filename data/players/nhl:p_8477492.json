@@ -15,13 +15,13 @@
     {
       "season": "2026/27",
       "compId": "NHL",
-      "gp": 3,
-      "g": 2,
-      "a": 3,
-      "pts": 5,
-      "plusMinus": -1,
+      "gp": 4,
+      "g": 3,
+      "a": 5,
+      "pts": 8,
+      "plusMinus": 1,
       "pim": 5,
-      "shots": 13
+      "shots": 15
     }
   ],
   "career": [],
@@ -29,6 +29,6 @@
     "provider": "NHL Web API",
     "official": true,
     "endpoint": "https://api-web.nhle.com/v1/player/8477492/landing",
-    "fetchedAt": "2026-10-09T00:21:37.455777+00:00"
+    "fetchedAt": "2026-10-09T06:21:38.148558+00:00"
   }
 }
