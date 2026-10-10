@@ -6,19 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-09T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "FINISHED",
+  "period": 5,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "SO",
   "home": {
     "id": "nhl:cbj",
-    "score": null,
+    "score": 3,
     "periods": [],
     "shots": null
   },
   "away": {
     "id": "nhl:pit",
-    "score": null,
+    "score": 2,
     "periods": [],
     "shots": null
   },
@@ -38,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/pit-vs-cbj/2026/10/09/2026020068",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/pit-vs-cbj/2026/10/09/2026020068",
-    "verifiedAt": "2026-10-09T22:59:16.225991Z"
+    "verifiedAt": "2026-10-10T02:09:49.281082Z"
   }
 }

@@ -1,27 +1,27 @@
 {
-  "id": "khl:902141",
+  "id": "khl:902149",
   "compId": "KHL",
   "season": "2026/27",
   "stage": "regular",
   "round": null,
   "seriesGame": null,
-  "utcDate": "2026-10-15T15:00:00Z",
+  "utcDate": "2026-10-17T10:30:00Z",
   "status": "SCHEDULED",
   "period": null,
   "clock": null,
   "finishedIn": null,
   "home": {
-    "id": "khl:lada",
-    "name": "Лада",
-    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/105/original/Lada_logo_2026_200x200_NEW.png",
+    "id": "khl:sibir",
+    "name": "Сибирь",
+    "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/24/original/sibir_rus__200x200.png",
     "score": null,
     "periods": [],
     "shots": null
   },
   "away": {
-    "id": "khl:ska",
-    "name": "СКА",
-    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sda/team_pics/44/original/SKA_logo_2025_RU_200x200_NEW.png",
+    "id": "khl:barys",
+    "name": "Барыс",
+    "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/46/original/barys_2022_head_only__200x200.png",
     "score": null,
     "periods": [],
     "shots": null
@@ -48,8 +48,8 @@
       "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
     ],
     "stageId": 407,
-    "eventId": 3000715,
-    "matchId": "902141",
+    "eventId": 3000747,
+    "matchId": "902149",
     "fetchedAt": "2026-10-10T02:09:50.684868Z"
   }
 }
