@@ -1,18 +1,571 @@
 {
   "news": [
     {
+      "id": "news-6652062",
+      "slug": "v-sovremennom-hokkee-rol-igrokov-stanovitsya-reshayuschej-ryabykin-ob-otstranenii-razina",
+      "title": "«В современном хоккее роль игроков становится решающей». Рябыкин — об отстранении Разина",
+      "summary": "Бывший тренер клубов КХЛ Дмитрий Рябыкин высказался об отстранении главного тренера «Металлурга» Андрея Разина.",
+      "content": "Бывший тренер клубов КХЛ Дмитрий Рябыкин высказался об отстранении главного тренера «Металлурга» Андрея Разина.",
+      "image": "https://img.championat.com/news/big/b/j/v-sovremennom-hokkee-rol-igr.jpg",
+      "publishedAt": "2026-10-10T08:15:06Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6652062-v-sovremennom-hokkee-rol-igrokov-stanovitsya-reshayuschej-ryabykin-ob-otstranenii-razina.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Андрей Разин",
+        "Дмитрий Рябыкин"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651910",
+      "slug": "traktor-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-14-00-msk",
+      "title": "«Трактор» — «Сибирь»: онлайн-трансляция матча КХЛ начнётся в 14:00 мск",
+      "summary": "Сегодня, 10 октября, в Челябинске пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Трактором» и новосибирской «Сибирью».",
+      "content": "Сегодня, 10 октября, в Челябинске пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Трактором» и новосибирской «Сибирью».",
+      "image": "https://img.championat.com/news/big/y/h/traktor-sibir-onlajn-translyaciya-matcha-khl-nachnyotsya-v-14-00-msk_1791610367918002685.jpg",
+      "publishedAt": "2026-10-10T08:00:06Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651910-traktor-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-14-00-msk.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Трактор",
+        "Сибирь"
+      ],
+      "relatedTeamIds": [
+        "khl:sibir",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6652008",
+      "slug": "vosstanavlivayu-nervnye-kletki-andrej-razin-opublikoval-novyj-post-v-socseti",
+      "title": "«Восстанавливаю нервные клетки!» Андрей Разин опубликовал новый пост в соцсети",
+      "summary": "Тренер Андрей Разин, отстранённый от работы в магнитогорском «Металлурге», опубликовал новый пост в соцсети, где рассказал, что работает над здоровьем.",
+      "content": "Тренер Андрей Разин, отстранённый от работы в магнитогорском «Металлурге», опубликовал новый пост в соцсети, где рассказал, что работает над здоровьем.",
+      "image": "https://img.championat.com/news/big/w/r/vosstanavlivayu-nervnye-klet.jpg",
+      "publishedAt": "2026-10-10T07:45:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6652008-vosstanavlivayu-nervnye-kletki-andrej-razin-opublikoval-novyj-post-v-socseti.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Фото",
+        "Металлург Мг",
+        "Андрей Разин"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6652004",
+      "slug": "aleksej-dementev-ocenil-igru-metallurga-posle-otstraneniya-andreya-razina",
+      "title": "Алексей Дементьев оценил игру «Металлурга» после отстранения Андрея Разина",
+      "summary": "Агент Алексей Дементьев оценил игру «Металлурга» в последних двух матчах после того, как магнитогорский клуб отстранил Андрея Разина.",
+      "content": "Агент Алексей Дементьев оценил игру «Металлурга» в последних двух матчах после того, как магнитогорский клуб отстранил Андрея Разина.",
+      "image": "https://img.championat.com/news/big/m/m/aleksej-dementev-ocenil-igru.jpg",
+      "publishedAt": "2026-10-10T07:24:30Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6652004-aleksej-dementev-ocenil-igru-metallurga-posle-otstraneniya-andreya-razina.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Андрей Разин",
+        "Алексей Дементьев"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651986",
+      "slug": "benua-gru-ya-vizhu-sebya-trenerom-kotoryj-snova-rabotaet-v-khl",
+      "title": "Бенуа Гру: я вижу себя тренером, который снова работает в КХЛ",
+      "summary": "Бывший главный тренер челябинского «Трактора» Бенуа Гру прокомментировал информацию о возможном возвращении в Континентальную хоккейную лигу.",
+      "content": "Бывший главный тренер челябинского «Трактора» Бенуа Гру прокомментировал информацию о возможном возвращении в Континентальную хоккейную лигу.",
+      "image": "https://img.championat.com/news/big/o/l/benua-gru-ya-vizhu-sebya-tre.jpg",
+      "publishedAt": "2026-10-10T07:09:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651986-benua-gru-ya-vizhu-sebya-trenerom-kotoryj-snova-rabotaet-v-khl.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Бенуа Гру"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651914",
+      "slug": "barys-avangard-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-10-oktyabrya-2026",
+      "title": "«Барыс» — «Авангард»: во сколько начало матча КХЛ, где смотреть трансляцию",
+      "summary": "Сегодня, 10 октября, в Астане, Казахстан, пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Барысом» и омским «Авангардом».",
+      "content": "Сегодня, 10 октября, в Астане, Казахстан, пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Барысом» и омским «Авангардом».",
+      "image": "https://img.championat.com/news/big/y/m/barys-avangard-vo-skolko-nachalo-matcha-khl-gde-smotret-translyaciyu_17916108912069727684.jpg",
+      "publishedAt": "2026-10-10T06:45:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651914-barys-avangard-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-10-oktyabrya-2026.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Барыс"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:barys"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651894",
+      "slug": "10-oktyabrya-glavnye-novosti-sporta-futbol-hokkej-nhl-basketbol-motogonki-nba",
+      "title": "Травма Игоря Шестёркина в НХЛ, ассист Батракова и победа «Галатасарая». Главное к утру",
+      "summary": "Российский голкипер «Нью-Йорк Рейнджерс» Игорь Шестёркин получил травму и не смог самостоятельно покинуть лёд в игре НХЛ с «Вашингтон Кэпиталз», Алексей Батраков отдал голевую передачу за «Галатасарай» и помог своему ...",
+      "content": "Российский голкипер «Нью-Йорк Рейнджерс» Игорь Шестёркин получил травму и не смог самостоятельно покинуть лёд в игре НХЛ с «Вашингтон Кэпиталз», Алексей Батраков отдал голевую передачу за «Галатасарай» и помог своему клубу одержать победу во встрече чемпионата Турции, Криштиану Роналду забил 980-й гол в карьере, отличившись за «Аль-Наср».",
+      "image": "https://img.championat.com/news/big/b/s/travma-igorya-shestyorkina-v-nhl-assist-batrakova-i-pobeda-galatasaraya-glavnoe-k-utru_17916097711910801811.jpg",
+      "publishedAt": "2026-10-10T06:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651894-10-oktyabrya-glavnye-novosti-sporta-futbol-hokkej-nhl-basketbol-motogonki-nba.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Футбол",
+        "РПЛ",
+        "Турция",
+        "Баскетбол",
+        "НБА",
+        "Авто",
+        "Ростов",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Криштиану Роналду",
+        "Боруссия Дортмунд",
+        "Питтсбург Пингвинз",
+        "Нью-Йорк Рейнджерс",
+        "Коламбус Блю Джекетс",
+        "Евгений Малкин",
+        "ФИФА",
+        "Акрон",
+        "Галатасарай",
+        "Арсен Венгер",
+        "Аль-Наср",
+        "Вердер",
+        "Игорь Шестёркин",
+        "Алексей Батраков",
+        "Бундеслига",
+        "Джанни Инфантино",
+        "Дмитрий Кириченко",
+        "Павел Дорофеев",
+        "Касымпаша",
+        "Никлас Фюллькруг"
+      ],
+      "relatedTeamIds": [
+        "nhl:cbj",
+        "nhl:nyr",
+        "nhl:pit",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6651702",
+      "slug": "patalaha-i-ohotyuk-ustroili-kulachnyj-boj-barak-letal-nad-vrataryom-foto-pobedy-cska",
+      "title": "Паталаха и Охотюк устроили кулачный бой, Барак летал над вратарём. Фото победы ЦСКА",
+      "summary": "9 октября в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором «Динамо» принимало ЦСКА.",
+      "content": "9 октября в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором «Динамо» принимало ЦСКА.",
+      "image": "https://img.championat.com/news/big/y/q/patalaha-i-ohotyuk-ustroili-kulachnyj-boj-barak-letal-nad-vrataryom-foto-pobedy-cska_17915782692065433896.jpg",
+      "publishedAt": "2026-10-10T06:15:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651702-patalaha-i-ohotyuk-ustroili-kulachnyj-boj-barak-letal-nad-vrataryom-foto-pobedy-cska.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Фото",
+        "ЦСКА",
+        "Динамо Москва",
+        "Фоторепортаж",
+        "Прохор Полтапов",
+        "Максим Соркин",
+        "Никита Охотюк",
+        "Дерек Барак",
+        "Марио Паталаха"
+      ],
+      "relatedTeamIds": [
+        "khl:cska",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651900",
+      "slug": "raspisanie-matchej-mhl-na-10-oktyabrya-2026-goda",
+      "title": "Расписание матчей МХЛ на 10 октября 2026 года",
+      "summary": "Сегодня, 10 октября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 10 октября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-10T06:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651900-raspisanie-matchej-mhl-na-10-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Чайка",
+        "МХК Реактор",
+        "МХК Снежные Барсы",
+        "МХК Динамо",
+        "МХК Динамо Санкт-Петербург",
+        "МХК Ирбис Казань"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651908",
+      "slug": "traktor-sibir-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-10-oktyabrya-2026",
+      "title": "«Трактор» — «Сибирь»: во сколько начало матча КХЛ, где смотреть трансляцию",
+      "summary": "Сегодня, 10 октября, в Челябинске пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Трактором» и новосибирской «Сибирью».",
+      "content": "Сегодня, 10 октября, в Челябинске пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Трактором» и новосибирской «Сибирью».",
+      "image": "https://img.championat.com/news/big/w/g/traktor-sibir-vo-skolko-nachalo-matcha-khl-gde-smotret-translyaciyu_1791610281406600468.jpg",
+      "publishedAt": "2026-10-10T05:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651908-traktor-sibir-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-10-oktyabrya-2026.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Трактор",
+        "Сибирь"
+      ],
+      "relatedTeamIds": [
+        "khl:sibir",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651898",
+      "slug": "raspisanie-matchej-vhl-na-10-oktyabrya-2026-goda",
+      "title": "Расписание матчей ВХЛ на 10 октября 2026 года",
+      "summary": "Сегодня, 10 октября, пройдут шесть матчей OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 10 октября, пройдут шесть матчей OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-10T05:40:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651898-raspisanie-matchej-vhl-na-10-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Химик",
+        "Торос",
+        "Нефтяник Альметьевск",
+        "Барс",
+        "Южный Урал Орск",
+        "Рязань",
+        "Динамо Санкт-Петербург",
+        "Звезда",
+        "ЦСК ВВС",
+        "АКМ",
+        "Норильск",
+        "Магнитка"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651904",
+      "slug": "sidni-krosbi-vysoko-ocenil-igru-rossijskogo-vratarya-pittsburga-sergeya-murashova",
+      "title": "Сидни Кросби высоко оценил игру российского вратаря «Питтсбурга» Сергея Мурашова",
+      "summary": "Капитан «Питтсбург Пингвинз» Сидни Кросби высоко оценил игру российского вратаря «пингвинов» Сергея Мурашова во встрече с «Колумбус Блю Джекетс».",
+      "content": "Капитан «Питтсбург Пингвинз» Сидни Кросби высоко оценил игру российского вратаря «пингвинов» Сергея Мурашова во встрече с «Колумбус Блю Джекетс».",
+      "image": "https://img.championat.com/news/big/s/y/sidni-krosbi-vysoko-ocenil-igru-rossijskogo-vratarya-pittsburga-sergeya-murashova_17916099341009525711.jpg",
+      "publishedAt": "2026-10-10T05:31:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651904-sidni-krosbi-vysoko-ocenil-igru-rossijskogo-vratarya-pittsburga-sergeya-murashova.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Питтсбург Пингвинз",
+        "Сидни Кросби",
+        "Сергей Мурашов"
+      ],
+      "relatedTeamIds": [
+        "nhl:cbj",
+        "nhl:pit"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651896",
+      "slug": "raspisanie-matchej-khl-na-10-oktyabrya-2026-goda",
+      "title": "Расписание матчей КХЛ на 10 октября 2026 года",
+      "summary": "Сегодня, 10 октября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 10 октября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/u/j/raspisanie-matchej-khl-na-10-oktyabrya-2026-goda_1791608739207459655.jpg",
+      "publishedAt": "2026-10-10T05:20:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651896-raspisanie-matchej-khl-na-10-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Ак Барс",
+        "Локомотив",
+        "Трактор",
+        "Сибирь",
+        "Динамо Минск",
+        "Барыс",
+        "Северсталь",
+        "Адмирал",
+        "Лада"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral",
+        "khl:ak-bars",
+        "khl:avangard",
+        "khl:barys",
+        "khl:dynamo-mns",
+        "khl:lada",
+        "khl:lokomotiv",
+        "khl:severstal",
+        "khl:sibir",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651892",
+      "slug": "rezultaty-matchej-nhl-na-10-oktyabrya-2026-goda",
+      "title": "Результаты матчей НХЛ на 10 октября 2026 года",
+      "summary": "В ночь на 10 октября прошли очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "content": "В ночь на 10 октября прошли очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/t/b/rezultaty-matchej-nhl-na-10-oktyabrya-2026-goda_17916085791238093654.jpg",
+      "publishedAt": "2026-10-10T05:10:08Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651892-rezultaty-matchej-nhl-na-10-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Питтсбург Пингвинз",
+        "Нью-Йорк Рейнджерс",
+        "Коламбус Блю Джекетс",
+        "Детройт Ред Уингз",
+        "Виннипег Джетс",
+        "Анахайм Дакс",
+        "Сиэтл Кракен"
+      ],
+      "relatedTeamIds": [
+        "nhl:ana",
+        "nhl:cbj",
+        "nhl:det",
+        "nhl:nyr",
+        "nhl:pit",
+        "nhl:sea",
+        "nhl:wpg",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651888",
+      "slug": "ovechkin-na-starte-sezona-povtoril-sobstvennyj-antirekord-po-prodolzhitelnosti-suhoj-serii",
+      "title": "Овечкин на старте сезона повторил собственный антирекорд по продолжительности сухой серии",
+      "summary": "Российский нападающий «Вашингтона» Александр Овечкин в четвёртый раз в карьере не смог отличиться в первых четырёх матчах сезона НХЛ.",
+      "content": "Российский нападающий «Вашингтона» Александр Овечкин в четвёртый раз в карьере не смог отличиться в первых четырёх матчах сезона НХЛ.",
+      "image": "https://img.championat.com/news/big/m/i/ovechkin-na-starte-sezona-povtoril-sobstvennyj-antirekord-po-prodolzhitelnosti-suhoj-serii_1791608182261402636.jpg",
+      "publishedAt": "2026-10-10T04:56:27Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651888-ovechkin-na-starte-sezona-povtoril-sobstvennyj-antirekord-po-prodolzhitelnosti-suhoj-serii.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Матч ТВ"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6651884",
+      "slug": "vrachi-nazvali-vozmozhnye-varianty-travmy-igorya-shestyorkina-i-sroki-vosstanovleniya",
+      "title": "Врачи назвали возможные варианты травмы Игоря Шестёркина и сроки восстановления",
+      "summary": "Спортивные специалисты предположили возможные варианты травмы российского вратаря «Нью-Йорк Рейнджерс» Игоря Шестёркина, полученной в матче регулярного чемпионата НХЛ с «Вашингтон Кэпиталз» (1:3).",
+      "content": "Спортивные специалисты предположили возможные варианты травмы российского вратаря «Нью-Йорк Рейнджерс» Игоря Шестёркина, полученной в матче регулярного чемпионата НХЛ с «Вашингтон Кэпиталз» (1:3).",
+      "image": "https://img.championat.com/news/big/q/q/vrachi-nazvali-vozmozhnye-varianty-travmy-igorya-shestyorkina-i-sroki-vosstanovleniya_17916076972098346998.jpg",
+      "publishedAt": "2026-10-10T04:48:19Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651884-vrachi-nazvali-vozmozhnye-varianty-travmy-igorya-shestyorkina-i-sroki-vosstanovleniya.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Нью-Йорк Рейнджерс",
+        "Игорь Шестёркин"
+      ],
+      "relatedTeamIds": [
+        "nhl:nyr",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651882",
+      "slug": "trener-vashingtona-karberi-otreagiroval-na-pobedu-nad-rejndzhers",
+      "title": "Тренер «Вашингтона» Карбери отреагировал на победу над «Рейнджерс»",
+      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери прокомментировал победу команды над «Нью-Йорк Рейнджерс» в матче регулярного чемпионата НХЛ сезона-2026/2027.",
+      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери прокомментировал победу команды над «Нью-Йорк Рейнджерс» в матче регулярного чемпионата НХЛ сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/d/c/trener-vashingtona-karberi-otreagiroval-na-pobedu-nad-rejndzhers_1791607207580814759.jpg",
+      "publishedAt": "2026-10-10T04:40:11Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651882-trener-vashingtona-karberi-otreagiroval-na-pobedu-nad-rejndzhers.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Нью-Йорк Рейнджерс",
+        "Спенсер Карбери"
+      ],
+      "relatedTeamIds": [
+        "nhl:nyr",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651868",
+      "slug": "evgenij-malkin-otmetilsya-redchajshim-dostizheniem-v-nhl-za-desyatiletie-takoe-udalos-dvoim",
+      "title": "Евгений Малкин отметился редчайшим достижением в НХЛ. За десятилетие такое удалось двоим",
+      "summary": "Российский нападающий «Питтсбург Пингвинз» Евгений Малкин отметился редким достижением в НХЛ.",
+      "content": "Российский нападающий «Питтсбург Пингвинз» Евгений Малкин отметился редким достижением в НХЛ.",
+      "image": "https://img.championat.com/news/big/o/x/evgenij-malkin-otmetilsya-redchajshim-dostizheniem-v-nhl-za-desyatiletie-takoe-udalos-dvoi_17916036831694930195.jpg",
+      "publishedAt": "2026-10-10T04:25:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651868-evgenij-malkin-otmetilsya-redchajshim-dostizheniem-v-nhl-za-desyatiletie-takoe-udalos-dvoim.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Питтсбург Пингвинз",
+        "Коламбус Блю Джекетс",
+        "Евгений Малкин",
+        "Кори Перри",
+        "Патрик Марло"
+      ],
+      "relatedTeamIds": [
+        "nhl:cbj",
+        "nhl:pit"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651870",
+      "slug": "eto-uzhasno-kapitan-rejndzhers-dzhej-ti-miller-vyskazalsya-o-travme-igorya-shestyorkina",
+      "title": "«Это ужасно». Капитан «Рейнджерс» Джей Ти Миллер высказался о травме Игоря Шестёркина",
+      "summary": "Капитан «Нью-Йорк Рейнджерс» Джей Ти Миллер прокомментировал травму российского голкипера Игоря Шестёркина, полученную в матче регулярного чемпионата НХЛ с «Вашингтон Кэпиталз» (1:3).",
+      "content": "Капитан «Нью-Йорк Рейнджерс» Джей Ти Миллер прокомментировал травму российского голкипера Игоря Шестёркина, полученную в матче регулярного чемпионата НХЛ с «Вашингтон Кэпиталз» (1:3).",
+      "image": "https://img.championat.com/news/big/m/q/eto-uzhasno-kapitan-rejndzhers-dzhej-ti-miller-vyskazalsya-o-travme-igorya-shestyorkina_17916043071632291128.jpg",
+      "publishedAt": "2026-10-10T03:51:51Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651870-eto-uzhasno-kapitan-rejndzhers-dzhej-ti-miller-vyskazalsya-o-travme-igorya-shestyorkina.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Нью-Йорк Рейнджерс",
+        "Травмы — хоккей",
+        "Игорь Шестёркин",
+        "Джей Ти Миллер"
+      ],
+      "relatedTeamIds": [
+        "nhl:nyr",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651860",
+      "slug": "trener-rejndzhers-sallivan-prokommentiroval-travmu-igorya-shestyorkina",
+      "title": "Тренер «Рейнджерс» Салливан прокомментировал травму Игоря Шестёркина",
+      "summary": "Главный тренер «Нью-Йорк Рейнджерс» Майк Салливан прокомментировал травму российского голкипера Игоря Шестёркина, полученную в матче регулярного чемпионата НХЛ с «Вашингтон Кэпиталз» (1:3).",
+      "content": "Главный тренер «Нью-Йорк Рейнджерс» Майк Салливан прокомментировал травму российского голкипера Игоря Шестёркина, полученную в матче регулярного чемпионата НХЛ с «Вашингтон Кэпиталз» (1:3).",
+      "image": "https://img.championat.com/news/big/x/e/trener-rejndzhers-sallivan-prokommentiroval-travmu-igorya-shestyorkina_17916031992048876822.jpg",
+      "publishedAt": "2026-10-10T03:33:21Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651860-trener-rejndzhers-sallivan-prokommentiroval-travmu-igorya-shestyorkina.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Нью-Йорк Рейнджерс",
+        "Игорь Шестёркин",
+        "Майк Салливан"
+      ],
+      "relatedTeamIds": [
+        "nhl:nyr",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6651856",
+      "slug": "vinnipeg-proigral-anahajmu-u-nesterenko-gol",
+      "title": "«Виннипег» проиграл дома «Анахайму» со счётом 1:5. У Нестеренко — гол",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Виннипег Джетс» и «Анахайм Дакс», который прошёл на стадионе «Канада Лайф-центр» в Виннипеге, Канада.",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Виннипег Джетс» и «Анахайм Дакс», который прошёл на стадионе «Канада Лайф-центр» в Виннипеге, Канада.",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-10-10T03:29:19Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6651856-vinnipeg-proigral-anahajmu-u-nesterenko-gol.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Виннипег Джетс",
+        "Анахайм Дакс",
+        "Кайл Коннор",
+        "Микаэль Гранлунд",
+        "Беккетт Сеннеке"
+      ],
+      "relatedTeamIds": [
+        "nhl:ana",
+        "nhl:wpg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6651826",
       "slug": "kolambus-blyu-dzhekets-pittsburg-pingvinz-rezultat-matcha-10-oktyabrya-2026-schyot-3-2-b-regulyarnyj-chempionat-nhl-2026-2027",
       "title": "Гол Малкина не спас «Питтсбург» от поражения в матче с «Коламбусом»",
       "summary": "В ночь с 9 на 10 октября завершился матч Национальной хоккейной лиги между командами «Колумбус Блю Джекетс» и «Питтсбург Пингвинз», который проходил на льду «Нейшнвайд-Арены» в Коламбусе (США).",
       "content": "В ночь с 9 на 10 октября завершился матч Национальной хоккейной лиги между командами «Колумбус Блю Джекетс» и «Питтсбург Пингвинз», который проходил на льду «Нейшнвайд-Арены» в Коламбусе (США).",
-      "image": "assets/images/news_nhl_season.jpg",
+      "image": "https://img.championat.com/news/big/o/b/gol-malkina-ne-spas-pittsburg-ot-porazheniya-v-matche-s-kolambusom_17916004221249146950.jpg",
       "publishedAt": "2026-10-10T01:54:54Z",
       "source": "Чемпионат • Хоккей",
       "url": "https://www.championat.com/hockey/news-6651826-kolambus-blyu-dzhekets-pittsburg-pingvinz-rezultat-matcha-10-oktyabrya-2026-schyot-3-2-b-regulyarnyj-chempionat-nhl-2026-2027.html",
       "tags": [
         "Хоккей",
         "НХЛ",
+        "Видео",
         "Питтсбург Пингвинз",
         "Коламбус Блю Джекетс",
         "Евгений Малкин",
@@ -35,13 +588,14 @@
       "title": "«Вашингтон» с Овечкиным дома обыграл «Рейнджерс», Шестёркин был заменён, у Дорофеева — пас",
       "summary": "В ночь с 9 на 10 октября завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Вашингтон Кэпиталз» и «Нью-Йорк Рейнджерс», который проходил на стадионе «Кэпитал Уан...",
       "content": "В ночь с 9 на 10 октября завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Вашингтон Кэпиталз» и «Нью-Йорк Рейнджерс», который проходил на стадионе «Кэпитал Уан-Арена» в американском Вашингтоне.",
-      "image": "assets/images/news_nhl_season.jpg",
+      "image": "https://img.championat.com/news/big/m/b/vashington-s-ovechkinym-doma-obygral-rejndzhers-shestyorkin-byl-zamenyon-u-dorofeeva-pas_17916004161000968954.jpg",
       "publishedAt": "2026-10-10T01:43:51Z",
       "source": "Чемпионат • Хоккей",
       "url": "https://www.championat.com/hockey/news-6651824-vashington-kepitalz-nyu-jork-rejndzhers-rezultat-matcha-10-oktyabrya-2026-schyot-3-1-regulyarnyj-chempionat-nhl-2026-2027.html",
       "tags": [
         "Хоккей",
         "НХЛ",
+        "Видео",
         "Вашингтон Кэпиталз",
         "Александр Овечкин",
         "Нью-Йорк Рейнджерс",
@@ -64,9 +618,9 @@
       "id": "news-6651822",
       "slug": "40-letnij-malkin-zabil-tretij-gol-v-sezone-nhl",
       "title": "40-летний Малкин забил третий гол в сезоне НХЛ",
-      "summary": "40-летний российский нападающий «Питтсбург Пингвинз» Евгений Малкин отметился заброшенной шайбой в выездной встрече регулярного чемпионата НХЛ с «Коламбус Блю Джекетс», которая проходит в эти минуты на льду арены «Ней...",
-      "content": "40-летний российский нападающий «Питтсбург Пингвинз» Евгений Малкин отметился заброшенной шайбой в выездной встрече регулярного чемпионата НХЛ с «Коламбус Блю Джекетс», которая проходит в эти минуты на льду арены «Нейшнвайд-Арена» в американском Коламбусе.",
-      "image": "assets/images/news_nhl_season.jpg",
+      "summary": "40-летний российский нападающий «Питтсбург Пингвинз» Евгений Малкин отметился заброшенной шайбой в выездной встрече регулярного чемпионата НХЛ с «Коламбус Блю Джекетс», которая проходит в эти минуты на льду «Нейшнвайд...",
+      "content": "40-летний российский нападающий «Питтсбург Пингвинз» Евгений Малкин отметился заброшенной шайбой в выездной встрече регулярного чемпионата НХЛ с «Коламбус Блю Джекетс», которая проходит в эти минуты на льду «Нейшнвайд-Арены» в американском Коламбусе.",
+      "image": "https://img.championat.com/news/big/c/l/40-letnij-malkin-zabil-tretij-gol-v-sezone-nhl_17916005391061185151.jpg",
       "publishedAt": "2026-10-10T01:39:00Z",
       "source": "Чемпионат • Хоккей",
       "url": "https://www.championat.com/hockey/news-6651822-40-letnij-malkin-zabil-tretij-gol-v-sezone-nhl.html",
@@ -88,8 +642,8 @@
       "id": "news-6651818",
       "slug": "shestyorkin-byl-zamenyon-v-seredine-matcha-s-vashingtonom-iz-za-travmy",
       "title": "Шестёркин был заменён в середине матча с «Вашингтоном» из-за травмы",
-      "summary": "В эти минуты на льду «Кэпитал Уан-Арена» в Вашингтоне (США) проходит матч Национальной хоккейной лиги (НХЛ) между командами «Вашингтон Кэпиталз» и «Нью-Йорк Рейнджерс».",
-      "content": "В эти минуты на льду «Кэпитал Уан-Арена» в Вашингтоне (США) проходит матч Национальной хоккейной лиги (НХЛ) между командами «Вашингтон Кэпиталз» и «Нью-Йорк Рейнджерс».",
+      "summary": "В эти минуты на льду «Кэпитал Уан-Арены» в Вашингтоне (США) проходит матч Национальной хоккейной лиги (НХЛ) между командами «Вашингтон Кэпиталз» и «Нью-Йорк Рейнджерс».",
+      "content": "В эти минуты на льду «Кэпитал Уан-Арены» в Вашингтоне (США) проходит матч Национальной хоккейной лиги (НХЛ) между командами «Вашингтон Кэпиталз» и «Нью-Йорк Рейнджерс».",
       "image": "https://img.championat.com/news/big/b/h/shestyorkin-byl-zamenyon-v-seredine-matcha-s-vashingtonom-iz-za-travmy_17915946001036394903.jpg",
       "publishedAt": "2026-10-10T01:10:02Z",
       "source": "Чемпионат • Хоккей",
@@ -97,6 +651,7 @@
       "tags": [
         "Хоккей",
         "НХЛ",
+        "Видео",
         "Вашингтон Кэпиталз",
         "Нью-Йорк Рейнджерс",
         "Травмы — хоккей",
@@ -253,490 +808,6 @@
       ],
       "relatedTeamIds": [
         "khl:cska",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651700",
-      "slug": "rezultaty-matchej-khl-na-9-oktyabrya-2026-goda",
-      "title": "Результаты матчей КХЛ на 9 октября 2026 года",
-      "summary": "Сегодня, 9 октября, прошли очередные матчи регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Сегодня, 9 октября, прошли очередные матчи регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-10-09T20:35:07Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651700-rezultaty-matchej-khl-na-9-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Динамо Москва",
-        "Салават Юлаев",
-        "Металлург Мг",
-        "Спартак",
-        "Сочи"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:dynamo-msk",
-        "khl:metallurg-mg",
-        "khl:salavat-yulaev",
-        "khl:sochi",
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651698",
-      "slug": "napadayuschij-cska-prohor-poltapov-privalov-uverennyj-v-sebe-paren-goly-pridut",
-      "title": "Нападающий ЦСКА Прохор Полтапов: Привалов уверенный в себе парень, голы придут",
-      "summary": "Нападающий ЦСКА Прохор Полтапов высказался об игре форварда армейцев Назара Привалова и ответил, что изменилось в команде по сравнению с прошлым годом.",
-      "content": "Нападающий ЦСКА Прохор Полтапов высказался об игре форварда армейцев Назара Привалова и ответил, что изменилось в команде по сравнению с прошлым годом.",
-      "image": "https://img.championat.com/news/big/b/v/napadayuschij-cska-prohor-po.jpg",
-      "publishedAt": "2026-10-09T20:31:10Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651698-napadayuschij-cska-prohor-poltapov-privalov-uverennyj-v-sebe-paren-goly-pridut.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Прохор Полтапов",
-        "Назар Привалов"
-      ],
-      "relatedTeamIds": [
-        "khl:cska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651690",
-      "slug": "my-gotovy-ko-vsemu-poltapov-o-nagruzkah-trenerskogo-shtaba-nikitina",
-      "title": "«Мы готовы ко всему». Полтапов — о нагрузках тренерского штаба Никитина",
-      "summary": "Нападающий ЦСКА Прохор Полтапов после победы над московским «Динамо» (5:2) ответил на вопрос о нагрузках тренерского штаба Игоря Никитина.",
-      "content": "Нападающий ЦСКА Прохор Полтапов после победы над московским «Динамо» (5:2) ответил на вопрос о нагрузках тренерского штаба Игоря Никитина.",
-      "image": "https://img.championat.com/news/big/d/i/my-gotovy-ko-vsemu-poltapov-.jpg",
-      "publishedAt": "2026-10-09T20:28:24Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651690-my-gotovy-ko-vsemu-poltapov-o-nagruzkah-trenerskogo-shtaba-nikitina.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Динамо Москва",
-        "Игорь Никитин",
-        "Прохор Полтапов"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651682",
-      "slug": "glavnyj-trener-spartaka-zhamnov-ocenil-pobedu-nad-sochi",
-      "title": "Главный тренер «Спартака» Жамнов оценил победу над «Сочи»",
-      "summary": "Главный тренер «Спартака» Алексей Жамнов прокомментировал победу над «Сочи» (2:0) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Главный тренер «Спартака» Алексей Жамнов прокомментировал победу над «Сочи» (2:0) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/x/g/glavnyj-trener-spartaka-zham.jpg",
-      "publishedAt": "2026-10-09T20:26:11Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651682-glavnyj-trener-spartaka-zhamnov-ocenil-pobedu-nad-sochi.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Спартак",
-        "Сочи",
-        "Алексей Жамнов"
-      ],
-      "relatedTeamIds": [
-        "khl:sochi",
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651674",
-      "slug": "dva-goda-nazad-takaya-zhe-situaciya-byla-a-sygrali-neudachno-poltapov-o-statuse-favorita",
-      "title": "«Два года назад такая же ситуация была, а сыграли неудачно». Полтапов — о статусе фаворита",
-      "summary": "Нападающий ЦСКА Прохор Полтапов подвёл итоги матча регулярного чемпионата Фонбет КХЛ сезона-2026/2027 с московским «Динамо» (5:2).",
-      "content": "Нападающий ЦСКА Прохор Полтапов подвёл итоги матча регулярного чемпионата Фонбет КХЛ сезона-2026/2027 с московским «Динамо» (5:2).",
-      "image": "https://img.championat.com/news/big/t/u/dva-goda-nazad-takaya-zhe-si.jpg",
-      "publishedAt": "2026-10-09T20:17:08Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651674-dva-goda-nazad-takaya-zhe-situaciya-byla-a-sygrali-neudachno-poltapov-o-statuse-favorita.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Динамо Москва",
-        "Прохор Полтапов"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651670",
-      "slug": "zaschitnik-sochi-belyakov-prokommentiroval-porazhenie-ot-spartaka",
-      "title": "Защитник «Сочи» Беляков прокомментировал поражение от «Спартака»",
-      "summary": "Защитник «Сочи» Ярослав Беляков высказался о поражении от «Спартака» (0:2) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Защитник «Сочи» Ярослав Беляков высказался о поражении от «Спартака» (0:2) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-09T20:14:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651670-zaschitnik-sochi-belyakov-prokommentiroval-porazhenie-ot-spartaka.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Спартак",
-        "Сочи"
-      ],
-      "relatedTeamIds": [
-        "khl:sochi",
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651660",
-      "slug": "glavnyj-trener-sochi-mironov-vyskazalsya-o-porazhenii-ot-spartaka",
-      "title": "Главный тренер «Сочи» Миронов высказался о поражении от «Спартака»",
-      "summary": "Главный тренер «Сочи» Андрей Миронов прокомментировал поражение от «Спартака» (0:2) в матче регулярного чемпионата Фонбет КХЛ сезона-2026/2027.",
-      "content": "Главный тренер «Сочи» Андрей Миронов прокомментировал поражение от «Спартака» (0:2) в матче регулярного чемпионата Фонбет КХЛ сезона-2026/2027.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-09T20:05:15Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651660-glavnyj-trener-sochi-mironov-vyskazalsya-o-porazhenii-ot-spartaka.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Спартак",
-        "Сочи",
-        "Андрей Миронов — тренер"
-      ],
-      "relatedTeamIds": [
-        "khl:sochi",
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651654",
-      "slug": "glavnyj-trener-moskovskogo-dinamo-obyasnil-reshenie-privlech-k-rabote-aleksandra-eryomenko",
-      "title": "Главный тренер московского «Динамо» объяснил решение привлечь к работе Александра Ерёменко",
-      "summary": "Главный тренер московского «Динамо» Леонид Тамбиев рассказал, почему принял решение привлечь к тренировочному процессу бывшего вратаря бело-голубых Александра Ерёменко.",
-      "content": "Главный тренер московского «Динамо» Леонид Тамбиев рассказал, почему принял решение привлечь к тренировочному процессу бывшего вратаря бело-голубых Александра Ерёменко.",
-      "image": "https://img.championat.com/news/big/u/j/glavnyj-trener-moskovskogo-d.jpg",
-      "publishedAt": "2026-10-09T19:58:45Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651654-glavnyj-trener-moskovskogo-dinamo-obyasnil-reshenie-privlech-k-rabote-aleksandra-eryomenko.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Александр Ерёменко",
-        "Леонид Тамбиев"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651646",
-      "slug": "ne-znachit-chto-geshtalt-zakryli-nikitin-o-reakcii-na-10-yu-pobedu-cska-podryad",
-      "title": "«Не значит, что гештальт закрыли». Никитин — о реакции на 10-ю победу ЦСКА подряд",
-      "summary": "Главный тренер ЦСКА Игорь Никитин высказался о победной серии команды, которую составляют 10 матчей.",
-      "content": "Главный тренер ЦСКА Игорь Никитин высказался о победной серии команды, которую составляют 10 матчей.",
-      "image": "https://img.championat.com/news/big/p/n/ne-znachit-chto-geshtalt-zak.jpg",
-      "publishedAt": "2026-10-09T19:56:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651646-ne-znachit-chto-geshtalt-zakryli-nikitin-o-reakcii-na-10-yu-pobedu-cska-podryad.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Динамо Москва",
-        "Игорь Никитин"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651642",
-      "slug": "tambiev-o-provalnom-otrezke-dinamo-my-stroim-komandu-na-buduschee",
-      "title": "Тамбиев — о провальном отрезке «Динамо»: мы строим команду на будущее",
-      "summary": "Главный тренер московского «Динамо» Леонид Тамбиев высказался о серии поражений команды из шести матчей.",
-      "content": "Главный тренер московского «Динамо» Леонид Тамбиев высказался о серии поражений команды из шести матчей.",
-      "image": "https://img.championat.com/news/big/r/z/tambiev-o-provalnom-otrezke-dinamo-my-stroim-komandu-na-buduschee_17915759001034787117.jpg",
-      "publishedAt": "2026-10-09T19:53:15Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651642-tambiev-o-provalnom-otrezke-dinamo-my-stroim-komandu-na-buduschee.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Динамо Москва",
-        "Леонид Тамбиев"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651638",
-      "slug": "stihijnaya-igra-nikitin-o-vtoroj-pobede-nad-dinamo-v-sezone",
-      "title": "«Стихийная игра». Никитин — о второй победе над «Динамо» в сезоне",
-      "summary": "Главный тренер ЦСКА Игорь Никитин высказался о победе над московским «Динамо» (5:2) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Главный тренер ЦСКА Игорь Никитин высказался о победе над московским «Динамо» (5:2) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/v/b/stihijnaya-igra-nikitin-o-vt.jpg",
-      "publishedAt": "2026-10-09T19:50:39Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651638-stihijnaya-igra-nikitin-o-vtoroj-pobede-nad-dinamo-v-sezone.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Динамо Москва",
-        "Игорь Никитин"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651636",
-      "slug": "tambiev-o-2-5-s-cska-igra-davalas-no-eyo-slomali-udaleniya",
-      "title": "Тамбиев — о 2:5 с ЦСКА: игра давалась, но её сломали удаления",
-      "summary": "Главный тренер московского «Динамо» Леонид Тамбиев прокомментировал поражение от ЦСКА со счётом 2:5.",
-      "content": "Главный тренер московского «Динамо» Леонид Тамбиев прокомментировал поражение от ЦСКА со счётом 2:5.",
-      "image": "https://img.championat.com/news/big/c/i/tambiev-o-2-5-s-cska-igra-davalas-no-eyo-slomali-udaleniya_1791575623532720010.jpg",
-      "publishedAt": "2026-10-09T19:47:24Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651636-tambiev-o-2-5-s-cska-igra-davalas-no-eyo-slomali-udaleniya.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Динамо Москва",
-        "Леонид Тамбиев"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651614",
-      "slug": "gk-poliplast-vyshla-iz-sostava-uchreditelej-hokkejnogo-kluba-lada",
-      "title": "ГК «Полипласт» вышла из состава учредителей хоккейного клуба «Лада»",
-      "summary": "Группа компаний «Полипласт» вышла из состава учредителей тольяттинского хоккейного клуба «Лада» в связи с изменением экономических условий.",
-      "content": "Группа компаний «Полипласт» вышла из состава учредителей тольяттинского хоккейного клуба «Лада» в связи с изменением экономических условий.",
-      "image": "https://img.championat.com/news/big/w/n/gk-poliplast-vyshla-iz-sosta.jpg",
-      "publishedAt": "2026-10-09T19:36:26Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651614-gk-poliplast-vyshla-iz-sostava-uchreditelej-hokkejnogo-kluba-lada.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Лада",
-        "Вячеслав Федорищев"
-      ],
-      "relatedTeamIds": [
-        "khl:lada"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651600",
-      "slug": "forvard-metallurga-dzhonson-prokommentiroval-pobedu-nad-salavatom-yulaevym",
-      "title": "Форвард «Металлурга» Джонсон прокомментировал победу над «Салаватом Юлаевым»",
-      "summary": "Нападающий «Металлурга» Люк Джонсон высказался о разгромной победе над «Салаватом Юлаевым» (7:1) в матче регулярного чемпионата Фонбет КХЛ.",
-      "content": "Нападающий «Металлурга» Люк Джонсон высказался о разгромной победе над «Салаватом Юлаевым» (7:1) в матче регулярного чемпионата Фонбет КХЛ.",
-      "image": "https://img.championat.com/news/big/a/j/forvard-metallurga-dzhonson-.jpg",
-      "publishedAt": "2026-10-09T19:21:15Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651600-forvard-metallurga-dzhonson-prokommentiroval-pobedu-nad-salavatom-yulaevym.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Металлург Мг",
-        "Люк Джонсон"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651596",
-      "slug": "i-o-glavnogo-trenera-metallurga-ocenil-razgromnuyu-pobedu-nad-salavatom-yulaevym",
-      "title": "И. о. главного тренера «Металлурга» оценил разгромную победу над «Салаватом Юлаевым»",
-      "summary": "Исполняющий обязанности главного тренера «Металлурга» Владимир Воробьёв прокомментировал победу над «Салаватом Юлаевым» (7:1).",
-      "content": "Исполняющий обязанности главного тренера «Металлурга» Владимир Воробьёв прокомментировал победу над «Салаватом Юлаевым» (7:1).",
-      "image": "https://img.championat.com/news/big/w/h/i-o-glavnogo-trenera-metallu.jpg",
-      "publishedAt": "2026-10-09T19:06:08Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651596-i-o-glavnogo-trenera-metallurga-ocenil-razgromnuyu-pobedu-nad-salavatom-yulaevym.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Металлург Мг",
-        "Владимир Воробьёв",
-        "Руслан Исхаков"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6650918",
-      "slug": "vashington-kepitalz-nyu-jork-rejndzhers-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachnetsya-v-2-00-msk",
-      "title": "«Вашингтон» — «Рейнджерс»: онлайн-трансляция матча НХЛ начнётся в 2:00 мск",
-      "summary": "В ночь на 10 октября продолжится регулярный чемпионат Национальной хоккейной лиги.",
-      "content": "В ночь на 10 октября продолжится регулярный чемпионат Национальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/w/o/vashington-rejndzhers-onlajn-translyaciya-matcha-nhl-nachnyotsya-v-2-00-msk_179153799711873988.jpg",
-      "publishedAt": "2026-10-09T19:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6650918-vashington-kepitalz-nyu-jork-rejndzhers-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachnetsya-v-2-00-msk.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Нью-Йорк Рейнджерс"
-      ],
-      "relatedTeamIds": [
-        "nhl:nyr",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651566",
-      "slug": "dinamo-m-cska-rezultat-matcha-9-oktyabrya-2026-goda-schet-2-5-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "ЦСКА одержал 10-ю победу подряд, обыграв московское «Динамо»",
-      "summary": "Сегодня, 9 октября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» принимало московс...",
-      "content": "Сегодня, 9 октября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» принимало московский ЦСКА.",
-      "image": "https://img.championat.com/news/big/k/s/cska-oderzhal-10-yu-pobedu-p.jpg",
-      "publishedAt": "2026-10-09T18:55:35Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651566-dinamo-m-cska-rezultat-matcha-9-oktyabrya-2026-goda-schet-2-5-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "ЦСКА",
-        "Динамо Москва"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651564",
-      "slug": "sochi-spartak-rezultat-matcha-9-oktyabrya-2026-goda-schet-0-2-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Спартак» всухую победил «Сочи» в выездном матче КХЛ",
-      "summary": "Сегодня, 9 октября, в Сочи на стадионе «Большой» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Сочи» принимал московский «Спартак».",
-      "content": "Сегодня, 9 октября, в Сочи на стадионе «Большой» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Сочи» принимал московский «Спартак».",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-09T18:44:00Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651564-sochi-spartak-rezultat-matcha-9-oktyabrya-2026-goda-schet-0-2-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Спартак",
-        "Сочи"
-      ],
-      "relatedTeamIds": [
-        "khl:sochi",
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651550",
-      "slug": "forvard-salavata-yulaeva-zagrebin-prokommentiroval-porazhenie-ot-metallurga",
-      "title": "Форвард «Салавата Юлаева» Загребин прокомментировал поражение от «Металлурга»",
-      "summary": "Нападающий «Салавата Юлаева» Максим Загребин подвёл итоги матча регулярного чемпионата Фонбет КХЛ с «Металлургом» (1:7).",
-      "content": "Нападающий «Салавата Юлаева» Максим Загребин подвёл итоги матча регулярного чемпионата Фонбет КХЛ с «Металлургом» (1:7).",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-09T18:26:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651550-forvard-salavata-yulaeva-zagrebin-prokommentiroval-porazhenie-ot-metallurga.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Металлург Мг"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651540",
-      "slug": "nam-ne-hvatilo-sil-dat-boj-glavnyj-trener-salavata-kozlov-ob-1-7-ot-metallurga",
-      "title": "«Нам не хватило сил дать бой». Главный тренер «Салавата» Козлов — об 1:7 от «Металлурга»",
-      "summary": "Главный тренер «Салавата Юлаева» Виктор Козлов прокомментировал разгромное поражение от «Металлурга» (1:7).",
-      "content": "Главный тренер «Салавата Юлаева» Виктор Козлов прокомментировал разгромное поражение от «Металлурга» (1:7).",
-      "image": "https://img.championat.com/news/big/j/y/nam-ne-hvatilo-sil-dat-boj-g.jpg",
-      "publishedAt": "2026-10-09T18:11:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651540-nam-ne-hvatilo-sil-dat-boj-glavnyj-trener-salavata-kozlov-ob-1-7-ot-metallurga.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Металлург Мг",
-        "Виктор Козлов"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6651516",
-      "slug": "trevogu-bit-ne-stoit-cherkas-o-tryoh-porazheniya-ska-v-chetyryoh-igrah",
-      "title": "«Тревогу бить не стоит». Черкас — о трёх поражениях СКА в четырёх играх",
-      "summary": "Бывший тренер СКА Сергей Черкас высказался о результатах команды в сезоне-2026/2027.",
-      "content": "Бывший тренер СКА Сергей Черкас высказался о результатах команды в сезоне-2026/2027.",
-      "image": "https://img.championat.com/news/big/m/y/trevogu-bit-ne-stoit-cherkas-o-tryoh-porazheniyah-ska-v-chetyryoh-igrah_179156842494950424.jpg",
-      "publishedAt": "2026-10-09T17:52:12Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6651516-trevogu-bit-ne-stoit-cherkas-o-tryoh-porazheniya-ska-v-chetyryoh-igrah.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "РБ Спорт",
-        "Сергей Черкас"
-      ],
-      "relatedTeamIds": [
         "khl:ska"
       ],
       "relatedPlayerIds": []

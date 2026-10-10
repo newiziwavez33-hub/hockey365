@@ -28,9 +28,9 @@
         "value": 9
       },
       {
-        "playerId": "nhl:p_8478427",
-        "playerName": "Sebastian Aho",
-        "teamId": "nhl:car",
+        "playerId": "nhl:p_8478398",
+        "playerName": "Kyle Connor",
+        "teamId": "nhl:wpg",
         "value": 8
       }
     ],
@@ -45,7 +45,7 @@
         "playerId": "nhl:p_8478398",
         "playerName": "Kyle Connor",
         "teamId": "nhl:wpg",
-        "value": 5
+        "value": 6
       },
       {
         "playerId": "nhl:p_8477951",
@@ -100,16 +100,16 @@
     ],
     "gaa": [
       {
-        "playerId": "nhl:p_8482193",
-        "playerName": "Dylan Garand",
-        "teamId": "nhl:nyr",
-        "value": 0.0
-      },
-      {
         "playerId": "nhl:p_8478024",
         "playerName": "Ville Husso",
         "teamId": "nhl:ana",
         "value": 0.0
+      },
+      {
+        "playerId": "nhl:p_8482193",
+        "playerName": "Dylan Garand",
+        "teamId": "nhl:nyr",
+        "value": 0.67
       },
       {
         "playerId": "nhl:p_8479979",
@@ -132,16 +132,16 @@
     ],
     "svPct": [
       {
-        "playerId": "nhl:p_8482193",
-        "playerName": "Dylan Garand",
-        "teamId": "nhl:nyr",
-        "value": 1.0
-      },
-      {
         "playerId": "nhl:p_8478024",
         "playerName": "Ville Husso",
         "teamId": "nhl:ana",
         "value": 1.0
+      },
+      {
+        "playerId": "nhl:p_8482193",
+        "playerName": "Dylan Garand",
+        "teamId": "nhl:nyr",
+        "value": 0.971
       },
       {
         "playerId": "nhl:p_8479979",
