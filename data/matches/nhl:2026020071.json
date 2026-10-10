@@ -6,31 +6,185 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-10T19:30:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 3,
+  "clock": "04:14",
   "finishedIn": null,
   "home": {
     "id": "nhl:njd",
-    "score": null,
+    "score": 4,
     "periods": [],
-    "shots": null
+    "shots": 37
   },
   "away": {
     "id": "nhl:van",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 21
   },
   "arena": "Prudential Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "04:32",
+      "team": "home",
+      "playerId": "nhl:p_8477511",
+      "playerName": "Anthony Mantha",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 74
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "05:27",
+      "team": "away",
+      "playerId": "nhl:p_8481024",
+      "playerName": "Linus Karlsson",
+      "assists": [
+        "nhl:p_8478444",
+        "nhl:p_8478498"
+      ],
+      "score": "0-1",
+      "order": 84
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "07:02",
+      "team": "away",
+      "playerId": "nhl:p_8483476",
+      "playerName": "Jonathan Lekkerimäki",
+      "minutes": 2,
+      "reason": "high-sticking",
+      "order": 99
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "08:03",
+      "team": "home",
+      "playerId": "nhl:p_8480002",
+      "playerName": "Nico Hischier",
+      "assists": [
+        "nhl:p_8481721",
+        "nhl:p_8482684"
+      ],
+      "score": "1-1",
+      "order": 113
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "16:24",
+      "team": "home",
+      "playerId": "nhl:p_8480003",
+      "playerName": "Jesper Boqvist",
+      "assists": [
+        "nhl:p_8483695"
+      ],
+      "score": "2-1",
+      "order": 219
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "03:17",
+      "team": "away",
+      "playerId": "nhl:p_8478444",
+      "playerName": "Brock Boeser",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 305
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "04:36",
+      "team": "home",
+      "playerId": "nhl:p_8479407",
+      "playerName": "Jesper Bratt",
+      "assists": [
+        "nhl:p_8480002",
+        "nhl:p_8481559"
+      ],
+      "score": "3-1",
+      "order": 317
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "18:07",
+      "team": "away",
+      "playerId": "nhl:p_8482055",
+      "playerName": "Drew O'Connor",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 462
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "19:50",
+      "team": "home",
+      "playerId": "nhl:p_8480002",
+      "playerName": "Nico Hischier",
+      "assists": [
+        "nhl:p_8481559",
+        "nhl:p_8479407"
+      ],
+      "score": "4-1",
+      "order": 475
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "19:50",
+      "team": "home",
+      "playerId": "nhl:p_8478542",
+      "playerName": "Evan Rodrigues",
+      "minutes": 4,
+      "reason": "high-sticking-double-minor",
+      "order": 477
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "02:01",
+      "team": "away",
+      "playerId": "nhl:p_8478444",
+      "playerName": "Brock Boeser",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 509
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      37,
+      21
+    ],
+    "shotsOnGoal": [
+      37,
+      21
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020071/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020071/play-by-play"
+    ],
+    "fetchedAt": "2026-10-10T22:01:33.432954+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +192,6 @@
     "url": "https://www.nhl.com/gamecenter/van-vs-njd/2026/10/10/2026020071",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/van-vs-njd/2026/10/10/2026020071",
-    "verifiedAt": "2026-10-10T18:48:31.572812Z"
+    "verifiedAt": "2026-10-10T22:01:33.433032Z"
   }
 }

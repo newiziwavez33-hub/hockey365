@@ -6,121 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-10T17:00:00Z",
-  "status": "INTERMISSION",
-  "period": 2,
-  "clock": "04:56",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:bos",
-    "score": 2,
+    "score": 5,
     "periods": [],
-    "shots": 22
+    "shots": null
   },
   "away": {
     "id": "nhl:phi",
-    "score": 0,
+    "score": 1,
     "periods": [],
-    "shots": 8
+    "shots": null
   },
   "arena": "TD Garden",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "09:24",
-      "team": "home",
-      "playerId": "nhl:p_8478401",
-      "playerName": "Pavel Zacha",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 136
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "12:21",
-      "team": "home",
-      "playerId": "nhl:p_8478401",
-      "playerName": "Pavel Zacha",
-      "assists": [
-        "nhl:p_8477956"
-      ],
-      "score": "1-0",
-      "order": 171
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "06:55",
-      "team": "away",
-      "playerId": "nhl:p_8478569",
-      "playerName": "Noel Acciari",
-      "minutes": 2,
-      "reason": "holding-the-stick",
-      "order": 372
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "17:12",
-      "team": "home",
-      "playerId": "nhl:p_8482511",
-      "playerName": "Mason Lohrei",
-      "assists": [
-        "nhl:p_8482175",
-        "nhl:p_8483489"
-      ],
-      "score": "2-0",
-      "order": 499
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "18:55",
-      "team": "home",
-      "playerId": "nhl:p_8477365",
-      "playerName": "Connor Clifton",
-      "minutes": 2,
-      "reason": "delaying-game-puck-over-glass",
-      "order": 516
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "19:12",
-      "team": "away",
-      "playerId": "nhl:p_8482159",
-      "playerName": "Tyson Foerster",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 526
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      22,
-      8
-    ],
-    "shotsOnGoal": [
-      22,
-      8
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020070/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020070/play-by-play"
-    ],
-    "fetchedAt": "2026-10-10T18:48:31.572338+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -128,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/phi-vs-bos/2026/10/10/2026020070",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/phi-vs-bos/2026/10/10/2026020070",
-    "verifiedAt": "2026-10-10T18:48:31.572454Z"
+    "verifiedAt": "2026-10-10T22:01:33.285826Z"
   }
 }
