@@ -6,27 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-10T14:00:00Z",
-  "status": "LIVE",
-  "period": 10,
+  "status": "FINISHED",
+  "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:ak-bars",
     "name": "Ак Барс",
-    "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdc/team_pics/40/original/ak_bars_2022__200x200.png",
+    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdi/team_pics/40/original/ak_bars_2022__200x200.png",
     "score": 1,
     "periods": [
-      1
+      1,
+      0,
+      0
     ],
     "shots": null
   },
   "away": {
     "id": "khl:severstal",
     "name": "Северсталь",
-    "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/42/original/severstal_2021__200x200.png",
-    "score": 0,
+    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/42/original/severstal_2021__200x200.png",
+    "score": 4,
     "periods": [
-      0
+      0,
+      1,
+      3
     ],
     "shots": null
   },
@@ -54,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000631,
     "matchId": "902121",
-    "fetchedAt": "2026-10-10T14:34:58.906960Z"
+    "fetchedAt": "2026-10-10T18:48:32.688296Z"
   }
 }
