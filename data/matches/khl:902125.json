@@ -6,29 +6,33 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-10T07:00:00Z",
-  "status": "LIVE",
-  "period": 2,
+  "status": "FINISHED",
+  "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "OT",
   "home": {
     "id": "khl:admiral",
     "name": "Адмирал",
     "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdg/team_pics/61/original/admiral_2024_200x200.png",
-    "score": 2,
+    "score": 4,
     "periods": [
       2,
-      0
+      0,
+      1,
+      1
     ],
     "shots": null
   },
   "away": {
     "id": "khl:lada",
     "name": "Лада",
-    "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdn/team_pics/105/original/Lada_logo_2026_200x200_NEW.png",
-    "score": 1,
+    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/105/original/Lada_logo_2026_200x200_NEW.png",
+    "score": 3,
     "periods": [
       0,
-      1
+      1,
+      2,
+      0
     ],
     "shots": null
   },
@@ -56,6 +60,6 @@
     "stageId": 407,
     "eventId": 3000647,
     "matchId": "902125",
-    "fetchedAt": "2026-10-10T08:26:48.632908Z"
+    "fetchedAt": "2026-10-10T14:34:58.906960Z"
   }
 }
