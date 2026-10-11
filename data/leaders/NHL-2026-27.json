@@ -22,16 +22,16 @@
         "value": 12
       },
       {
-        "playerId": "nhl:p_8477934",
-        "playerName": "Leon Draisaitl",
-        "teamId": "nhl:edm",
-        "value": 9
+        "playerId": "nhl:p_8477939",
+        "playerName": "William Nylander",
+        "teamId": "nhl:tor",
+        "value": 11
       },
       {
-        "playerId": "nhl:p_8478398",
-        "playerName": "Kyle Connor",
-        "teamId": "nhl:wpg",
-        "value": 8
+        "playerId": "nhl:p_8477492",
+        "playerName": "Nathan MacKinnon",
+        "teamId": "nhl:col",
+        "value": 10
       }
     ],
     "goals": [
@@ -42,28 +42,28 @@
         "value": 6
       },
       {
+        "playerId": "nhl:p_8478864",
+        "playerName": "Kirill Kaprizov",
+        "teamId": "nhl:min",
+        "value": 6
+      },
+      {
         "playerId": "nhl:p_8478398",
         "playerName": "Kyle Connor",
         "teamId": "nhl:wpg",
         "value": 6
       },
       {
-        "playerId": "nhl:p_8481617",
-        "playerName": "Vasily Podkolzin",
-        "teamId": "nhl:edm",
-        "value": 5
-      },
-      {
         "playerId": "nhl:p_8477951",
         "playerName": "Nick Schmaltz",
         "teamId": "nhl:uta",
-        "value": 5
+        "value": 6
       },
       {
-        "playerId": "nhl:p_8478427",
-        "playerName": "Sebastian Aho",
-        "teamId": "nhl:car",
-        "value": 4
+        "playerId": "nhl:p_8477939",
+        "playerName": "William Nylander",
+        "teamId": "nhl:tor",
+        "value": 5
       }
     ],
     "assists": [
@@ -80,30 +80,30 @@
         "value": 9
       },
       {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 6
+        "playerId": "nhl:p_8476453",
+        "playerName": "Nikita Kucherov",
+        "teamId": "nhl:tbl",
+        "value": 7
       },
       {
-        "playerId": "nhl:p_8477934",
-        "playerName": "Leon Draisaitl",
-        "teamId": "nhl:edm",
-        "value": 6
+        "playerId": "nhl:p_8484153",
+        "playerName": "Leo Carlsson",
+        "teamId": "nhl:ana",
+        "value": 7
       },
       {
-        "playerId": "nhl:p_8480012",
-        "playerName": "Elias Pettersson",
-        "teamId": "nhl:van",
-        "value": 6
+        "playerId": "nhl:p_8479343",
+        "playerName": "Clayton Keller",
+        "teamId": "nhl:uta",
+        "value": 7
       }
     ],
     "gaa": [
       {
-        "playerId": "nhl:p_8478024",
-        "playerName": "Ville Husso",
-        "teamId": "nhl:ana",
-        "value": 0.0
+        "playerId": "nhl:p_8480193",
+        "playerName": "Daniil Tarasov",
+        "teamId": "nhl:det",
+        "value": 0.66
       },
       {
         "playerId": "nhl:p_8482193",
@@ -115,27 +115,27 @@
         "playerId": "nhl:p_8479979",
         "playerName": "Jake Oettinger",
         "teamId": "nhl:dal",
-        "value": 0.67
-      },
-      {
-        "playerId": "nhl:p_8478009",
-        "playerName": "Ilya Sorokin",
-        "teamId": "nhl:nyi",
-        "value": 1.01
+        "value": 0.74
       },
       {
         "playerId": "nhl:p_8476999",
         "playerName": "Linus Ullmark",
         "teamId": "nhl:ott",
-        "value": 1.12
+        "value": 1.34
+      },
+      {
+        "playerId": "nhl:p_8484170",
+        "playerName": "Jacob Fowler",
+        "teamId": "nhl:mtl",
+        "value": 1.46
       }
     ],
     "svPct": [
       {
-        "playerId": "nhl:p_8478024",
-        "playerName": "Ville Husso",
-        "teamId": "nhl:ana",
-        "value": 1.0
+        "playerId": "nhl:p_8480193",
+        "playerName": "Daniil Tarasov",
+        "teamId": "nhl:det",
+        "value": 0.974
       },
       {
         "playerId": "nhl:p_8482193",
@@ -147,19 +147,19 @@
         "playerId": "nhl:p_8479979",
         "playerName": "Jake Oettinger",
         "teamId": "nhl:dal",
-        "value": 0.967
+        "value": 0.963
       },
       {
-        "playerId": "nhl:p_8478009",
-        "playerName": "Ilya Sorokin",
-        "teamId": "nhl:nyi",
-        "value": 0.965
+        "playerId": "nhl:p_8483710",
+        "playerName": "Dennis Hildeby",
+        "teamId": "nhl:tbl",
+        "value": 0.944
       },
       {
         "playerId": "nhl:p_8476999",
         "playerName": "Linus Ullmark",
         "teamId": "nhl:ott",
-        "value": 0.956
+        "value": 0.942
       }
     ]
   }

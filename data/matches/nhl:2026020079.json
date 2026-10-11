@@ -6,183 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-10T23:00:00Z",
-  "status": "INTERMISSION",
-  "period": 2,
-  "clock": "15:37",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:stl",
-    "score": 3,
+    "score": 5,
     "periods": [],
-    "shots": 16
+    "shots": null
   },
   "away": {
     "id": "nhl:cbj",
-    "score": 2,
+    "score": 3,
     "periods": [],
-    "shots": 13
+    "shots": null
   },
   "arena": "Enterprise Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "08:44",
-      "team": "home",
-      "playerId": "nhl:p_8480023",
-      "playerName": "Robert Thomas",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 139
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "16:10",
-      "team": "away",
-      "playerId": "nhl:p_8477497",
-      "playerName": "Sean Monahan",
-      "assists": [
-        "nhl:p_8475790"
-      ],
-      "score": "0-1",
-      "order": 225
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "19:48",
-      "team": "away",
-      "playerId": "nhl:p_8482660",
-      "playerName": "Kent Johnson",
-      "assists": [
-        "nhl:p_8484166",
-        "nhl:p_8478460"
-      ],
-      "score": "0-2",
-      "order": 282
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "00:21",
-      "team": "home",
-      "playerId": "nhl:p_8477527",
-      "playerName": "Ross Johnston",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 297
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "00:21",
-      "team": "away",
-      "playerId": "nhl:p_8479671",
-      "playerName": "Mathieu Olivier",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 299
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "03:54",
-      "team": "away",
-      "playerId": "nhl:p_8476923",
-      "playerName": "Damon Severson",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 351
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "06:10",
-      "team": "home",
-      "playerId": "nhl:p_8482089",
-      "playerName": "Jake Neighbours",
-      "assists": [
-        "nhl:p_8482111",
-        "nhl:p_8482077"
-      ],
-      "score": "1-2",
-      "order": 380
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "09:02",
-      "team": "home",
-      "playerId": "nhl:p_8483516",
-      "playerName": "Jimmy Snuggerud",
-      "assists": [
-        "nhl:p_8481598",
-        "nhl:p_8482077"
-      ],
-      "score": "2-2",
-      "order": 424
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "12:32",
-      "team": "home",
-      "playerId": "nhl:p_8483516",
-      "playerName": "Jimmy Snuggerud",
-      "assists": [
-        "nhl:p_8480023",
-        "nhl:p_8482077"
-      ],
-      "score": "3-2",
-      "order": 467
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "17:37",
-      "team": "away",
-      "minutes": 2,
-      "reason": "too-many-men-on-the-ice",
-      "order": 542
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "17:37",
-      "team": "home",
-      "playerId": "nhl:p_8484790",
-      "playerName": "Adam Jiricek",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 544
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      16,
-      13
-    ],
-    "shotsOnGoal": [
-      16,
-      13
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020079/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020079/play-by-play"
-    ],
-    "fetchedAt": "2026-10-11T00:48:48.317949+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -190,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/cbj-vs-stl/2026/10/10/2026020079",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/cbj-vs-stl/2026/10/10/2026020079",
-    "verifiedAt": "2026-10-11T00:48:48.318061Z"
+    "verifiedAt": "2026-10-11T06:31:33.645173Z"
   }
 }

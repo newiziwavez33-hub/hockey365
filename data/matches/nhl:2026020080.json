@@ -6,197 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-10T23:00:00Z",
-  "status": "INTERMISSION",
-  "period": 2,
-  "clock": "16:15",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:col",
     "score": 3,
     "periods": [],
-    "shots": 25
+    "shots": null
   },
   "away": {
     "id": "nhl:tor",
-    "score": 4,
+    "score": 6,
     "periods": [],
-    "shots": 12
+    "shots": null
   },
   "arena": "Ball Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "00:24",
-      "team": "away",
-      "playerId": "nhl:p_8480893",
-      "playerName": "Kirill Marchenko",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 16
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "03:03",
-      "team": "away",
-      "playerId": "nhl:p_8483565",
-      "playerName": "Nick Blankenburg",
-      "assists": [
-        "nhl:p_8477939",
-        "nhl:p_8477426"
-      ],
-      "score": "0-1",
-      "order": 43
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "10:46",
-      "team": "home",
-      "playerId": "nhl:p_8477492",
-      "playerName": "Nathan MacKinnon",
-      "assists": [
-        "nhl:p_8476967",
-        "nhl:p_8478038"
-      ],
-      "score": "1-1",
-      "order": 159
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "15:14",
-      "team": "home",
-      "playerId": "nhl:p_8477492",
-      "playerName": "Nathan MacKinnon",
-      "assists": [
-        "nhl:p_8480069",
-        "nhl:p_8480039"
-      ],
-      "score": "2-1",
-      "order": 210
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "18:59",
-      "team": "away",
-      "playerId": "nhl:p_8478458",
-      "playerName": "Jack Roslovic",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 255
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "00:51",
-      "team": "away",
-      "playerId": "nhl:p_8479442",
-      "playerName": "Troy Stecher",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 281
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "06:34",
-      "team": "home",
-      "playerId": "nhl:p_8475768",
-      "playerName": "Jaden Schwartz",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 352
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "06:53",
-      "team": "away",
-      "playerId": "nhl:p_8477939",
-      "playerName": "William Nylander",
-      "assists": [
-        "nhl:p_8486067",
-        "nhl:p_8479318"
-      ],
-      "score": "2-2",
-      "order": 357
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "12:25",
-      "team": "home",
-      "playerId": "nhl:p_8475754",
-      "playerName": "Brock Nelson",
-      "score": "3-2",
-      "order": 436
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "16:47",
-      "team": "away",
-      "playerId": "nhl:p_8477939",
-      "playerName": "William Nylander",
-      "assists": [
-        "nhl:p_8479318",
-        "nhl:p_8477426"
-      ],
-      "score": "3-3",
-      "order": 497
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "17:33",
-      "team": "away",
-      "playerId": "nhl:p_8484158",
-      "playerName": "Easton Cowan",
-      "assists": [
-        "nhl:p_8476853",
-        "nhl:p_8477939"
-      ],
-      "score": "3-4",
-      "order": 509
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "19:32",
-      "team": "home",
-      "minutes": 2,
-      "reason": "cross-checking",
-      "order": 523
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      25,
-      12
-    ],
-    "shotsOnGoal": [
-      25,
-      12
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020080/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020080/play-by-play"
-    ],
-    "fetchedAt": "2026-10-11T00:48:48.353640+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -204,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/tor-vs-col/2026/10/10/2026020080",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/tor-vs-col/2026/10/10/2026020080",
-    "verifiedAt": "2026-10-11T00:48:48.353751Z"
+    "verifiedAt": "2026-10-11T06:31:33.645322Z"
   }
 }
