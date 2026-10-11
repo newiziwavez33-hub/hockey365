@@ -7,6 +7,12 @@
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
         "teamId": "nhl:edm",
+        "value": 13
+      },
+      {
+        "playerId": "nhl:p_8480803",
+        "playerName": "Evan Bouchard",
+        "teamId": "nhl:edm",
         "value": 12
       },
       {
@@ -14,12 +20,6 @@
         "playerName": "Jack Eichel",
         "teamId": "nhl:vgk",
         "value": 12
-      },
-      {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 11
       },
       {
         "playerId": "nhl:p_8477934",
@@ -48,6 +48,12 @@
         "value": 6
       },
       {
+        "playerId": "nhl:p_8481617",
+        "playerName": "Vasily Podkolzin",
+        "teamId": "nhl:edm",
+        "value": 5
+      },
+      {
         "playerId": "nhl:p_8477951",
         "playerName": "Nick Schmaltz",
         "teamId": "nhl:uta",
@@ -58,12 +64,6 @@
         "playerName": "Sebastian Aho",
         "teamId": "nhl:car",
         "value": 4
-      },
-      {
-        "playerId": "nhl:p_8481617",
-        "playerName": "Vasily Podkolzin",
-        "teamId": "nhl:edm",
-        "value": 4
       }
     ],
     "assists": [
@@ -71,13 +71,19 @@
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
         "teamId": "nhl:edm",
-        "value": 9
+        "value": 10
       },
       {
         "playerId": "nhl:p_8478403",
         "playerName": "Jack Eichel",
         "teamId": "nhl:vgk",
         "value": 9
+      },
+      {
+        "playerId": "nhl:p_8480803",
+        "playerName": "Evan Bouchard",
+        "teamId": "nhl:edm",
+        "value": 6
       },
       {
         "playerId": "nhl:p_8477934",
@@ -89,12 +95,6 @@
         "playerId": "nhl:p_8480012",
         "playerName": "Elias Pettersson",
         "teamId": "nhl:van",
-        "value": 6
-      },
-      {
-        "playerId": "nhl:p_8484153",
-        "playerName": "Leo Carlsson",
-        "teamId": "nhl:ana",
         "value": 6
       }
     ],

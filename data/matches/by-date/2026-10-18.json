@@ -1,0 +1,277 @@
+[
+  {
+    "id": "khl:902151",
+    "compId": "KHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-10-18T11:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "khl:cska",
+      "name": "ЦСКА",
+      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdc/team_pics/16/original/cska_2016_rus__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "khl:neftekhimik",
+      "name": "Нефтехимик",
+      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/36/original/neftekhimik_2022__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": null,
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "source": {
+      "provider": "KHL mobile backend",
+      "official": true,
+      "verified": true,
+      "verifiedMatches": true,
+      "licenseConfirmed": false,
+      "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+      "endpoints": [
+        "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
+      ],
+      "stageId": 407,
+      "eventId": 3000755,
+      "matchId": "902151",
+      "fetchedAt": "2026-10-11T00:48:50.462397Z"
+    }
+  },
+  {
+    "id": "khl:902152",
+    "compId": "KHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-10-18T11:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "khl:avangard",
+      "name": "Авангард",
+      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/10/original/Avangard_2026_500x500_NEW.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "khl:traktor",
+      "name": "Трактор",
+      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/28/original/traktor_2020__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": null,
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "source": {
+      "provider": "KHL mobile backend",
+      "official": true,
+      "verified": true,
+      "verifiedMatches": true,
+      "licenseConfirmed": false,
+      "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+      "endpoints": [
+        "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
+      ],
+      "stageId": 407,
+      "eventId": 3000759,
+      "matchId": "902152",
+      "fetchedAt": "2026-10-11T00:48:50.462397Z"
+    }
+  },
+  {
+    "id": "khl:902154",
+    "compId": "KHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-10-18T11:30:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "khl:metallurg-mg",
+      "name": "Металлург Мг",
+      "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sda/team_pics/30/original/metallurg_mg_2020__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "khl:avtomobilist",
+      "name": "Автомобилист",
+      "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sdc/team_pics/56/original/avtomobilist__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": null,
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "source": {
+      "provider": "KHL mobile backend",
+      "official": true,
+      "verified": true,
+      "verifiedMatches": true,
+      "licenseConfirmed": false,
+      "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+      "endpoints": [
+        "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
+      ],
+      "stageId": 407,
+      "eventId": 3000767,
+      "matchId": "902154",
+      "fetchedAt": "2026-10-11T00:48:50.462397Z"
+    }
+  },
+  {
+    "id": "khl:902155",
+    "compId": "KHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-10-18T13:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "khl:lada",
+      "name": "Лада",
+      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/105/original/Lada_logo_2026_200x200_NEW.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "khl:dynamo-msk",
+      "name": "Динамо М",
+      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdi/team_pics/8/original/dynamo_msk_2019__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": null,
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "source": {
+      "provider": "KHL mobile backend",
+      "official": true,
+      "verified": true,
+      "verifiedMatches": true,
+      "licenseConfirmed": false,
+      "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+      "endpoints": [
+        "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
+      ],
+      "stageId": 407,
+      "eventId": 3000771,
+      "matchId": "902155",
+      "fetchedAt": "2026-10-11T00:48:50.462397Z"
+    }
+  },
+  {
+    "id": "khl:902153",
+    "compId": "KHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-10-18T14:10:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "khl:dynamo-mns",
+      "name": "Динамо Мн",
+      "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/38/original/dinamo_mn_2019_alternative__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "khl:ak-bars",
+      "name": "Ак Барс",
+      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdc/team_pics/40/original/ak_bars_2022__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": null,
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "source": {
+      "provider": "KHL mobile backend",
+      "official": true,
+      "verified": true,
+      "verifiedMatches": true,
+      "licenseConfirmed": false,
+      "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+      "endpoints": [
+        "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
+      ],
+      "stageId": 407,
+      "eventId": 3000763,
+      "matchId": "902153",
+      "fetchedAt": "2026-10-11T00:48:50.462397Z"
+    }
+  }
+]

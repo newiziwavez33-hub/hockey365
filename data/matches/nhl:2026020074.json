@@ -6,31 +6,181 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-10T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "INTERMISSION",
+  "period": 2,
+  "clock": "13:21",
   "finishedIn": null,
   "home": {
     "id": "nhl:buf",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 11
   },
   "away": {
     "id": "nhl:uta",
-    "score": null,
+    "score": 3,
     "periods": [],
-    "shots": null
+    "shots": 20
   },
   "arena": "KeyBank Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "01:32",
+      "team": "home",
+      "playerId": "nhl:p_8479420",
+      "playerName": "Tage Thompson",
+      "minutes": 2,
+      "reason": "slashing",
+      "order": 27
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "07:36",
+      "team": "away",
+      "playerId": "nhl:p_8483431",
+      "playerName": "Logan Cooley",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 116
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "08:00",
+      "team": "home",
+      "playerId": "nhl:p_8479420",
+      "playerName": "Tage Thompson",
+      "assists": [
+        "nhl:p_8480839"
+      ],
+      "score": "1-0",
+      "order": 122
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "10:12",
+      "team": "away",
+      "playerId": "nhl:p_8479977",
+      "playerName": "Kailer Yamamoto",
+      "assists": [
+        "nhl:p_8480849",
+        "nhl:p_8479410"
+      ],
+      "score": "1-1",
+      "order": 159
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "05:14",
+      "team": "home",
+      "playerId": "nhl:p_8482659",
+      "playerName": "Josh Doan",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 373
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "09:51",
+      "team": "away",
+      "playerId": "nhl:p_8478872",
+      "playerName": "Karel Vejmelka",
+      "minutes": 10,
+      "reason": "misconduct",
+      "order": 420
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "14:20",
+      "team": "home",
+      "playerId": "nhl:p_8482671",
+      "playerName": "Owen Power",
+      "minutes": 2,
+      "reason": "delaying-game-puck-over-glass",
+      "order": 475
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "15:23",
+      "team": "away",
+      "playerId": "nhl:p_8477951",
+      "playerName": "Nick Schmaltz",
+      "assists": [
+        "nhl:p_8483431",
+        "nhl:p_8479343"
+      ],
+      "score": "1-2",
+      "order": 492
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "17:24",
+      "team": "away",
+      "playerId": "nhl:p_8475314",
+      "playerName": "Anders Lee",
+      "assists": [
+        "nhl:p_8478507"
+      ],
+      "score": "1-3",
+      "order": 511
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "19:27",
+      "team": "away",
+      "playerId": "nhl:p_8477346",
+      "playerName": "MacKenzie Weegar",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 540
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "19:27",
+      "team": "home",
+      "playerId": "nhl:p_8481522",
+      "playerName": "Peyton Krebs",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 542
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      11,
+      20
+    ],
+    "shotsOnGoal": [
+      11,
+      20
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020074/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020074/play-by-play"
+    ],
+    "fetchedAt": "2026-10-11T00:48:48.110336+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +188,6 @@
     "url": "https://www.nhl.com/gamecenter/uta-vs-buf/2026/10/10/2026020074",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/uta-vs-buf/2026/10/10/2026020074",
-    "verifiedAt": "2026-10-10T22:01:33.552592Z"
+    "verifiedAt": "2026-10-11T00:48:48.110440Z"
   }
 }

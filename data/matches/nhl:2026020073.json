@@ -12,13 +12,13 @@
   "finishedIn": null,
   "home": {
     "id": "nhl:fla",
-    "score": null,
+    "score": 1,
     "periods": [],
     "shots": null
   },
   "away": {
     "id": "nhl:min",
-    "score": null,
+    "score": 4,
     "periods": [],
     "shots": null
   },
@@ -38,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/min-vs-fla/2026/10/10/2026020073",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/min-vs-fla/2026/10/10/2026020073",
-    "verifiedAt": "2026-10-10T22:01:33.552516Z"
+    "verifiedAt": "2026-10-11T00:48:48.064610Z"
   }
 }
