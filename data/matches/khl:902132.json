@@ -6,24 +6,34 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-12T16:30:00Z",
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "OT",
   "home": {
     "id": "khl:torpedo",
     "name": "Торпедо",
     "logo": "https://thumbs.webcaster.pro/rec-1-1.webcaster.pro/fc/sda/team_pics/22/original/Torpedo_2025_200x200_NEW.png",
-    "score": null,
-    "periods": [],
+    "score": 2,
+    "periods": [
+      0,
+      1,
+      1,
+      0
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:metallurg-mg",
     "name": "Металлург Мг",
-    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/30/original/metallurg_mg_2020__200x200.png",
-    "score": null,
-    "periods": [],
+    "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sda/team_pics/30/original/metallurg_mg_2020__200x200.png",
+    "score": 3,
+    "periods": [
+      1,
+      0,
+      1,
+      1
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +60,6 @@
     "stageId": 407,
     "eventId": 3000675,
     "matchId": "902132",
-    "fetchedAt": "2026-10-12T16:04:36.450968Z"
+    "fetchedAt": "2026-10-12T22:53:47.907555Z"
   }
 }
