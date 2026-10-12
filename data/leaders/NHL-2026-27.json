@@ -150,16 +150,16 @@
         "value": 0.945
       },
       {
-        "playerId": "nhl:p_8483710",
-        "playerName": "Dennis Hildeby",
-        "teamId": "nhl:tbl",
-        "value": 0.944
-      },
-      {
         "playerId": "nhl:p_8476999",
         "playerName": "Linus Ullmark",
         "teamId": "nhl:ott",
         "value": 0.942
+      },
+      {
+        "playerId": "nhl:p_8483703",
+        "playerName": "Sergei Murashov",
+        "teamId": "nhl:pit",
+        "value": 0.939
       }
     ]
   }
