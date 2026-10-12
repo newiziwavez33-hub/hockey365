@@ -22,16 +22,16 @@
         "value": 12
       },
       {
+        "playerId": "nhl:p_8478427",
+        "playerName": "Sebastian Aho",
+        "teamId": "nhl:car",
+        "value": 11
+      },
+      {
         "playerId": "nhl:p_8477939",
         "playerName": "William Nylander",
         "teamId": "nhl:tor",
         "value": 11
-      },
-      {
-        "playerId": "nhl:p_8477492",
-        "playerName": "Nathan MacKinnon",
-        "teamId": "nhl:col",
-        "value": 10
       }
     ],
     "goals": [
@@ -39,6 +39,12 @@
         "playerId": "nhl:p_8480803",
         "playerName": "Evan Bouchard",
         "teamId": "nhl:edm",
+        "value": 6
+      },
+      {
+        "playerId": "nhl:p_8478427",
+        "playerName": "Sebastian Aho",
+        "teamId": "nhl:car",
         "value": 6
       },
       {
@@ -58,12 +64,6 @@
         "playerName": "Nick Schmaltz",
         "teamId": "nhl:uta",
         "value": 6
-      },
-      {
-        "playerId": "nhl:p_8477939",
-        "playerName": "William Nylander",
-        "teamId": "nhl:tor",
-        "value": 5
       }
     ],
     "assists": [
@@ -106,16 +106,16 @@
         "value": 0.66
       },
       {
-        "playerId": "nhl:p_8482193",
-        "playerName": "Dylan Garand",
-        "teamId": "nhl:nyr",
-        "value": 0.67
-      },
-      {
         "playerId": "nhl:p_8479979",
         "playerName": "Jake Oettinger",
         "teamId": "nhl:dal",
         "value": 0.74
+      },
+      {
+        "playerId": "nhl:p_8482193",
+        "playerName": "Dylan Garand",
+        "teamId": "nhl:nyr",
+        "value": 1.2
       },
       {
         "playerId": "nhl:p_8476999",
@@ -138,16 +138,16 @@
         "value": 0.974
       },
       {
-        "playerId": "nhl:p_8482193",
-        "playerName": "Dylan Garand",
-        "teamId": "nhl:nyr",
-        "value": 0.971
-      },
-      {
         "playerId": "nhl:p_8479979",
         "playerName": "Jake Oettinger",
         "teamId": "nhl:dal",
         "value": 0.963
+      },
+      {
+        "playerId": "nhl:p_8482193",
+        "playerName": "Dylan Garand",
+        "teamId": "nhl:nyr",
+        "value": 0.945
       },
       {
         "playerId": "nhl:p_8483710",
