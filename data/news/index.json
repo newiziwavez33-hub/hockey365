@@ -1,11 +1,171 @@
 {
   "news": [
     {
+      "id": "news-6655672",
+      "slug": "rezultaty-matchej-nhl-na-13-oktyabrya-2026-goda",
+      "title": "Результаты матчей НХЛ на 13 октября 2026 года",
+      "summary": "В ночь на 13 октября прошли очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "content": "В ночь на 13 октября прошли очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/e/n/rezultaty-matchej-nhl-na-13-oktyabrya-2026-goda_17918611221968144277.jpg",
+      "publishedAt": "2026-10-13T03:12:07Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6655672-rezultaty-matchej-nhl-na-13-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Флорида Пантерз",
+        "Миннесота Уайлд",
+        "Вегас Голден Найтс",
+        "Нью-Джерси Дэвилз",
+        "Оттава Сенаторз",
+        "Баффало Сэйбрз"
+      ],
+      "relatedTeamIds": [
+        "nhl:buf",
+        "nhl:fla",
+        "nhl:min",
+        "nhl:njd",
+        "nhl:ott",
+        "nhl:vgk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6655656",
+      "slug": "minnesota-uajld-vegas-golden-najts-rezultat-matcha-13-oktyabrya-2026-schet-4-2-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "«Миннесота» обыграла «Вегас» 4:2 в НХЛ. У Шабанова и Юрова — голы, у Капризова — ассист",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимала «Вегас Голден Найтс».",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимала «Вегас Голден Найтс».",
+      "image": "https://img.championat.com/news/big/g/d/minnesota-obygrala-vegas-4-2-v-nhl-u-shabanova-i-yurova-goly-u-kaprizova-assist_1791861223976565485.jpg",
+      "publishedAt": "2026-10-13T02:45:34Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6655656-minnesota-uajld-vegas-golden-najts-rezultat-matcha-13-oktyabrya-2026-schet-4-2-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Миннесота Тимбервулвз",
+        "Вегас Голден Найтс",
+        "Кирилл Капризов",
+        "Иван Барбашёв",
+        "Данила Юров",
+        "Куинн Хьюз",
+        "Максим Шабанов",
+        "Вильям Карлссон",
+        "Мэтт Болди",
+        "Йоэль Эрикссон Эк",
+        "Расмус Андерссон"
+      ],
+      "relatedTeamIds": [
+        "nhl:min",
+        "nhl:vgk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6655652",
+      "slug": "nyu-dzhersi-devilz-ottava-senatorz-rezultat-matcha-13-oktyabrya-2026-schet-1-4-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "Гол Грицюка не спас «Нью-Джери» от поражения в матче с «Оттавой»",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Нью-Джерси Дэвилз» принимал «Оттаву Сенаторз».",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Нью-Джерси Дэвилз» принимал «Оттаву Сенаторз».",
+      "image": "https://img.championat.com/news/big/v/u/gol-gricyuka-ne-spas-nyu-dzheri-ot-porazheniya-v-matche-s-ottavoj_17918555591748099273.jpg",
+      "publishedAt": "2026-10-13T01:39:20Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6655652-nyu-dzhersi-devilz-ottava-senatorz-rezultat-matcha-13-oktyabrya-2026-schet-1-4-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Нью-Джерси Дэвилз",
+        "Оттава Сенаторз",
+        "Арсений Грицюк"
+      ],
+      "relatedTeamIds": [
+        "nhl:njd",
+        "nhl:ott"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6655646",
+      "slug": "nuzhno-rabotat-nad-tem-chtoby-igrat-umnee-trener-vashingtona-posle-matcha-s-sietlom",
+      "title": "«Нужно работать над тем, чтобы играть умнее». Тренер «Вашингтона» — после матча с «Сиэтлом",
+      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался об игре своей команды в матче регулярного чемпионата Национальной хоккейной лиги с «Сиэтл Кракен» (3:5).",
+      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался об игре своей команды в матче регулярного чемпионата Национальной хоккейной лиги с «Сиэтл Кракен» (3:5).",
+      "image": "https://img.championat.com/news/big/n/x/nuzhno-rabotat-nad-tem-chtoby-igrat-umnee-trener-vashingtona-posle-matcha-s-sietlom_1791854376118123264.jpg",
+      "publishedAt": "2026-10-13T01:19:37Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6655646-nuzhno-rabotat-nad-tem-chtoby-igrat-umnee-trener-vashingtona-posle-matcha-s-sietlom.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Сиэтл Кракен",
+        "Спенсер Карбери"
+      ],
+      "relatedTeamIds": [
+        "nhl:sea",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6655644",
+      "slug": "rossiyane-yurov-i-shabanov-otlichilis-golami-v-pervom-periode-matcha-minnesota-vegas",
+      "title": "Россияне Юров и Шабанов отличились голами в первом периоде матча «Миннесота» — «Вегас»",
+      "summary": "В эти минуты в Сент-Поле (США) на стадионе «Гранд Казино Арена» проходит матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Вегас Голден Найтс».",
+      "content": "В эти минуты в Сент-Поле (США) на стадионе «Гранд Казино Арена» проходит матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Вегас Голден Найтс».",
+      "image": "https://img.championat.com/news/big/r/s/rossiyane-yurov-i-shabanov-otlichilis-golami-v-pervom-periode-matcha-minnesota-vegas_179185385675774353.jpg",
+      "publishedAt": "2026-10-13T01:11:03Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6655644-rossiyane-yurov-i-shabanov-otlichilis-golami-v-pervom-periode-matcha-minnesota-vegas.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Миннесота Уайлд",
+        "Вегас Голден Найтс",
+        "Данила Юров",
+        "Куинн Хьюз",
+        "Максим Шабанов"
+      ],
+      "relatedTeamIds": [
+        "nhl:min",
+        "nhl:vgk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6655632",
+      "slug": "ovechkin-vyskazalsya-o-svoej-igre-s-bratyami-protasami-v-proigrannom-matche-s-sietlom",
+      "title": "Овечкин высказался о своей игре с братьями Протасами в проигранном матче с «Сиэтлом»",
+      "summary": "Российский нападающий «Вашингтон Кэпиталз» Александр Овечкин в звене с Алексеем и Ильёй Протасами в матче регулярного чемпионата Национальной хоккейной лиги с «Сиэтл Кракен» (3:5).",
+      "content": "Российский нападающий «Вашингтон Кэпиталз» Александр Овечкин в звене с Алексеем и Ильёй Протасами в матче регулярного чемпионата Национальной хоккейной лиги с «Сиэтл Кракен» (3:5).",
+      "image": "https://img.championat.com/news/big/d/j/ovechkin-vyskazalsya-o-svoej-igre-s-bratyami-protasami-v-proigrannom-matche-s-sietlom_17918507311267326390.jpg",
+      "publishedAt": "2026-10-13T00:18:51Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6655632-ovechkin-vyskazalsya-o-svoej-igre-s-bratyami-protasami-v-proigrannom-matche-s-sietlom.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Сиэтл Кракен",
+        "Алексей Протас",
+        "Илья Протас"
+      ],
+      "relatedTeamIds": [
+        "nhl:sea",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
       "id": "news-6655594",
       "slug": "trener-vashingtona-ocenil-igru-ovechkina-v-zvene-s-bratyami-protasami-v-matche-s-sietlom",
       "title": "Тренер «Вашингтона» оценил игру Овечкина в звене с братьями Протасами в матче с «Сиэтлом»",
-      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался об игре российского нападающего Александра Овечкина в звене с Алексеем и Ильёй Протасами в матча с «Сиэтл Кракен» (3:5).",
-      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался об игре российского нападающего Александра Овечкина в звене с Алексеем и Ильёй Протасами в матча с «Сиэтл Кракен» (3:5).",
+      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался об игре российского нападающего Александра Овечкина в звене с Алексеем и Ильёй Протасами в матче регулярного чемпионата НХЛ с «Сиэтл Кракен» (3:5).",
+      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался об игре российского нападающего Александра Овечкина в звене с Алексеем и Ильёй Протасами в матче регулярного чемпионата НХЛ с «Сиэтл Кракен» (3:5).",
       "image": "https://img.championat.com/news/big/u/a/trener-vashingtona-ocenil-igru-ovechkina-v-zvene-s-bratyami-protasami-v-matche-s-sietlom_1791843140892454235.jpg",
       "publishedAt": "2026-10-12T22:12:20Z",
       "source": "Чемпионат • Хоккей",
@@ -608,144 +768,6 @@
       "relatedTeamIds": [
         "khl:ak-bars",
         "khl:sochi"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6655370",
-      "slug": "forvard-dallasa-dyushejn-vybyl-na-tri-mesyaca-posle-operacii",
-      "title": "Форвард «Далласа» Дюшейн выбыл на три месяца после операции",
-      "summary": "Нападающий «Даллас Старз» Мэтт Дюшейн перенёс операцию на мышцах кора и пропустит три месяца.",
-      "content": "Нападающий «Даллас Старз» Мэтт Дюшейн перенёс операцию на мышцах кора и пропустит три месяца.",
-      "image": "https://img.championat.com/news/big/n/c/forvard-dallasa-dyushejn-vybyl-na-tri-mesyaca-posle-operacii_179182740955138478.jpg",
-      "publishedAt": "2026-10-12T17:50:13Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6655370-forvard-dallasa-dyushejn-vybyl-na-tri-mesyaca-posle-operacii.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Даллас Старз",
-        "Травмы — хоккей",
-        "Мэтт Дюшейн"
-      ],
-      "relatedTeamIds": [
-        "nhl:dal"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6655356",
-      "slug": "cherkas-u-kuznecova-uzhe-net-nikakih-perspektiv-vidimo-on-budet-zakanchivat-kareru",
-      "title": "Черкас: у Кузнецова уже нет никаких перспектив. Видимо, он будет заканчивать карьеру",
-      "summary": "Бывший тренер СКА Сергей Черкас высказался о нападающем Евгении Кузнецове.",
-      "content": "Бывший тренер СКА Сергей Черкас высказался о нападающем Евгении Кузнецове.",
-      "image": "https://img.championat.com/news/big/c/q/cherkas-u-kuznecova-uzhe-net.jpg",
-      "publishedAt": "2026-10-12T17:29:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6655356-cherkas-u-kuznecova-uzhe-net-nikakih-perspektiv-vidimo-on-budet-zakanchivat-kareru.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Сибирь",
-        "Евгений Кузнецов — хоккей",
-        "Советский спорт",
-        "Сергей Черкас"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6655342",
-      "slug": "kanadskij-forvard-salavata-madzho-obryol-lyubov-k-rossii-i-russkomu-narodu",
-      "title": "Канадский форвард «Салавата» Маджио: обрёл любовь к России и русскому народу",
-      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио ответил на вопрос о своём отношении к России, а также заявил, что будет болеть за российскую сборную на Кубке мира — 2028, если она будет в принимать в нём участие.",
-      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио ответил на вопрос о своём отношении к России, а также заявил, что будет болеть за российскую сборную на Кубке мира — 2028, если она будет в принимать в нём участие.",
-      "image": "https://img.championat.com/news/big/h/d/kanadskij-forvard-salavata-madzhio-obryol-lyubov-k-rossii-i-russkomu-narodu_17918251511020943099.jpg",
-      "publishedAt": "2026-10-12T17:11:19Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6655342-kanadskij-forvard-salavata-madzho-obryol-lyubov-k-rossii-i-russkomu-narodu.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Сборная России — Хоккей",
-        "Салават Юлаев",
-        "Сборная Канады — Хоккей",
-        "Кубок мира — Хоккей",
-        "Мэттью Маджио"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6655326",
-      "slug": "barys-sibir-rezultat-matcha-12-oktyabrya-2026-goda-schet-2-3-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Барыс» прервал победную серию из трёх матчей, проиграв «Сибири»",
-      "summary": "Сегодня, 12 октября, в Астане (Казахстан) на стадионе «Барыс-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Барыс» принимал новосибирскую «Сибирь».",
-      "content": "Сегодня, 12 октября, в Астане (Казахстан) на стадионе «Барыс-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Барыс» принимал новосибирскую «Сибирь».",
-      "image": "https://img.championat.com/news/big/u/s/barys-prerval-pobednuyu-seriyu-iz-tryoh-matchej-proigrav-sibiri_17918238691402500507.jpg",
-      "publishedAt": "2026-10-12T16:51:12Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6655326-barys-sibir-rezultat-matcha-12-oktyabrya-2026-goda-schet-2-3-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Сибирь",
-        "Барыс"
-      ],
-      "relatedTeamIds": [
-        "khl:barys",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6655286",
-      "slug": "glavnyj-trener-neftehimika-grishin-prokommentiroval-porazhenie-ot-salavata",
-      "title": "Главный тренер «Нефтехимика» Гришин прокомментировал поражение от «Салавата»",
-      "summary": "Главный тренер «Нефтехимика» Игорь Гришин высказался о поражении от «Салавата Юлаева» (3:4) в матче регулярного чемпионата Фонбет КХЛ.",
-      "content": "Главный тренер «Нефтехимика» Игорь Гришин высказался о поражении от «Салавата Юлаева» (3:4) в матче регулярного чемпионата Фонбет КХЛ.",
-      "image": "https://img.championat.com/news/big/m/d/glavnyj-trener-neftehimika-g.jpg",
-      "publishedAt": "2026-10-12T16:33:52Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6655286-glavnyj-trener-neftehimika-grishin-prokommentiroval-porazhenie-ot-salavata.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Нефтехимик",
-        "Игорь Гришин"
-      ],
-      "relatedTeamIds": [
-        "khl:neftekhimik",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6654516",
-      "slug": "torpedo-metallurg-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Торпедо» — «Металлург»: онлайн-трансляция матча КХЛ началась",
-      "summary": "Сегодня, 12 октября, в Нижнем Новгороде на стадионе «Волга-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Торпедо» принимает магнитогорский «Мета...",
-      "content": "Сегодня, 12 октября, в Нижнем Новгороде на стадионе «Волга-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Торпедо» принимает магнитогорский «Металлург».",
-      "image": "https://img.championat.com/news/big/k/s/torpedo-metallurg-onlajn-translyaciya-matcha-khl-nachalas_17917831011951194875.jpg",
-      "publishedAt": "2026-10-12T16:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6654516-torpedo-metallurg-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Торпедо"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:torpedo"
       ],
       "relatedPlayerIds": []
     }
