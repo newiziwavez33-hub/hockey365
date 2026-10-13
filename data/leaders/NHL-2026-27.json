@@ -80,6 +80,12 @@
         "value": 9
       },
       {
+        "playerId": "nhl:p_8480800",
+        "playerName": "Quinn Hughes",
+        "teamId": "nhl:min",
+        "value": 7
+      },
+      {
         "playerId": "nhl:p_8476453",
         "playerName": "Nikita Kucherov",
         "teamId": "nhl:tbl",
@@ -89,12 +95,6 @@
         "playerId": "nhl:p_8484153",
         "playerName": "Leo Carlsson",
         "teamId": "nhl:ana",
-        "value": 7
-      },
-      {
-        "playerId": "nhl:p_8479343",
-        "playerName": "Clayton Keller",
-        "teamId": "nhl:uta",
         "value": 7
       }
     ],
