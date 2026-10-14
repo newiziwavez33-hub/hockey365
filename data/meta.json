@@ -1,6 +1,6 @@
 {
   "version": "1.3.0",
-  "updatedAt": "2026-10-14T19:33:15.816917+00:00",
+  "updatedAt": "2026-10-14T22:33:35.055676+00:00",
   "siteName": "Hockey365",
   "description": "Хоккейный портал матчей, таблиц и статистики КХЛ и НХЛ",
   "leagues": [
@@ -19,7 +19,7 @@
       "verifiedMatches": true,
       "official": true,
       "licenseConfirmed": false,
-      "checkedAt": "2026-10-14T19:33:15.886035Z",
+      "checkedAt": "2026-10-14T22:33:35.116139Z",
       "endpoints": [
         "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
         "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
@@ -48,7 +48,7 @@
     "2026-10-20",
     "2026-10-21"
   ],
-  "activeDate": "2026-10-14",
+  "activeDate": "2026-10-15",
   "dateCounts": {
     "2026-10-15": 13,
     "2026-10-08": 14,
