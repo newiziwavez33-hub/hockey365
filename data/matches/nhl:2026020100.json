@@ -6,21 +6,21 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-14T00:30:00Z",
-  "status": "LIVE",
-  "period": 1,
-  "clock": "14:24",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:dal",
-    "score": 0,
+    "score": 2,
     "periods": [],
-    "shots": 3
+    "shots": null
   },
   "away": {
     "id": "nhl:col",
-    "score": 0,
+    "score": 3,
     "periods": [],
-    "shots": 4
+    "shots": null
   },
   "arena": "American Airlines Center",
   "officials": {
@@ -29,26 +29,8 @@
   },
   "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      3,
-      4
-    ],
-    "shotsOnGoal": [
-      3,
-      4
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020100/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020100/play-by-play"
-    ],
-    "fetchedAt": "2026-10-14T00:55:55.278277+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -56,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/col-vs-dal/2026/10/13/2026020100",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/col-vs-dal/2026/10/13/2026020100",
-    "verifiedAt": "2026-10-14T00:55:55.278317Z"
+    "verifiedAt": "2026-10-14T05:41:31.011333Z"
   }
 }

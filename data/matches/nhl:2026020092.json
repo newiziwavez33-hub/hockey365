@@ -6,231 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-13T22:30:00Z",
-  "status": "LIVE",
-  "period": 3,
-  "clock": "08:39",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 5,
+  "clock": null,
+  "finishedIn": "SO",
   "home": {
     "id": "nhl:mtl",
-    "score": 3,
+    "score": 4,
     "periods": [],
-    "shots": 29
+    "shots": null
   },
   "away": {
     "id": "nhl:buf",
     "score": 3,
     "periods": [],
-    "shots": 14
+    "shots": null
   },
   "arena": "Centre Bell",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "02:16",
-      "team": "away",
-      "playerId": "nhl:p_8482803",
-      "playerName": "Olen Zellweger",
-      "assists": [
-        "nhl:p_8480807",
-        "nhl:p_8479359"
-      ],
-      "score": "0-1",
-      "order": 38
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "08:25",
-      "team": "home",
-      "minutes": 2,
-      "reason": "too-many-men-on-the-ice",
-      "order": 125
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "12:36",
-      "team": "away",
-      "playerId": "nhl:p_8482803",
-      "playerName": "Olen Zellweger",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 173
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "13:33",
-      "team": "away",
-      "playerId": "nhl:p_8481806",
-      "playerName": "Louis Crevier",
-      "minutes": 2,
-      "reason": "delaying-game-puck-over-glass",
-      "order": 186
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "14:28",
-      "team": "home",
-      "playerId": "nhl:p_8483457",
-      "playerName": "Lane Hutson",
-      "assists": [
-        "nhl:p_8483515",
-        "nhl:p_8481540"
-      ],
-      "score": "1-1",
-      "order": 197
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "15:15",
-      "team": "home",
-      "playerId": "nhl:p_8481523",
-      "playerName": "Kirby Dach",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 205
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "01:19",
-      "team": "home",
-      "playerId": "nhl:p_8481540",
-      "playerName": "Cole Caufield",
-      "assists": [
-        "nhl:p_8483515",
-        "nhl:p_8480018"
-      ],
-      "score": "2-1",
-      "order": 292
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "01:47",
-      "team": "home",
-      "playerId": "nhl:p_8475184",
-      "playerName": "Chris Kreider",
-      "minutes": 2,
-      "reason": "holding-the-stick",
-      "order": 296
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "06:56",
-      "team": "home",
-      "playerId": "nhl:p_8481618",
-      "playerName": "Alex Newhook",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 353
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "14:42",
-      "team": "away",
-      "playerId": "nhl:p_8479941",
-      "playerName": "Justin Danforth",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 456
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "19:10",
-      "team": "home",
-      "playerId": "nhl:p_8476981",
-      "playerName": "Josh Anderson",
-      "assists": [
-        "nhl:p_8483457",
-        "nhl:p_8482737"
-      ],
-      "score": "3-1",
-      "order": 501
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "04:24",
-      "team": "away",
-      "playerId": "nhl:p_8480064",
-      "playerName": "Josh Norris",
-      "assists": [
-        "nhl:p_8478502",
-        "nhl:p_8479359"
-      ],
-      "score": "3-2",
-      "order": 569
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "05:25",
-      "team": "away",
-      "playerId": "nhl:p_8482803",
-      "playerName": "Olen Zellweger",
-      "assists": [
-        "nhl:p_8484145",
-        "nhl:p_8480807"
-      ],
-      "score": "3-3",
-      "order": 578
-    },
-    {
-      "type": "PENALTY",
-      "period": 3,
-      "time": "09:12",
-      "team": "home",
-      "playerId": "nhl:p_8476981",
-      "playerName": "Josh Anderson",
-      "minutes": 2,
-      "reason": "unsportsmanlike-conduct",
-      "order": 631
-    },
-    {
-      "type": "PENALTY",
-      "period": 3,
-      "time": "09:12",
-      "team": "away",
-      "playerId": "nhl:p_8481522",
-      "playerName": "Peyton Krebs",
-      "minutes": 2,
-      "reason": "unsportsmanlike-conduct",
-      "order": 634
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      29,
-      14
-    ],
-    "shotsOnGoal": [
-      29,
-      14
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020092/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020092/play-by-play"
-    ],
-    "fetchedAt": "2026-10-14T00:55:54.744132+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -238,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/buf-vs-mtl/2026/10/13/2026020092",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/buf-vs-mtl/2026/10/13/2026020092",
-    "verifiedAt": "2026-10-14T00:55:54.744238Z"
+    "verifiedAt": "2026-10-14T05:41:31.009981Z"
   }
 }

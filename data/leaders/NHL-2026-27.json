@@ -4,6 +4,18 @@
   "categories": {
     "points": [
       {
+        "playerId": "nhl:p_8478427",
+        "playerName": "Sebastian Aho",
+        "teamId": "nhl:car",
+        "value": 13
+      },
+      {
+        "playerId": "nhl:p_8478403",
+        "playerName": "Jack Eichel",
+        "teamId": "nhl:vgk",
+        "value": 13
+      },
+      {
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
         "teamId": "nhl:edm",
@@ -16,53 +28,41 @@
         "value": 12
       },
       {
-        "playerId": "nhl:p_8478403",
-        "playerName": "Jack Eichel",
-        "teamId": "nhl:vgk",
+        "playerId": "nhl:p_8477492",
+        "playerName": "Nathan MacKinnon",
+        "teamId": "nhl:col",
         "value": 12
-      },
-      {
-        "playerId": "nhl:p_8478427",
-        "playerName": "Sebastian Aho",
-        "teamId": "nhl:car",
-        "value": 11
-      },
-      {
-        "playerId": "nhl:p_8477939",
-        "playerName": "William Nylander",
-        "teamId": "nhl:tor",
-        "value": 11
       }
     ],
     "goals": [
       {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 6
-      },
-      {
-        "playerId": "nhl:p_8478427",
-        "playerName": "Sebastian Aho",
-        "teamId": "nhl:car",
-        "value": 6
-      },
-      {
         "playerId": "nhl:p_8478864",
         "playerName": "Kirill Kaprizov",
         "teamId": "nhl:min",
-        "value": 6
+        "value": 8
       },
       {
         "playerId": "nhl:p_8478398",
         "playerName": "Kyle Connor",
         "teamId": "nhl:wpg",
+        "value": 7
+      },
+      {
+        "playerId": "nhl:p_8482109",
+        "playerName": "Alexis Lafrenière",
+        "teamId": "nhl:nyr",
+        "value": 7
+      },
+      {
+        "playerId": "nhl:p_8478427",
+        "playerName": "Sebastian Aho",
+        "teamId": "nhl:car",
         "value": 6
       },
       {
-        "playerId": "nhl:p_8477951",
-        "playerName": "Nick Schmaltz",
-        "teamId": "nhl:uta",
+        "playerId": "nhl:p_8480803",
+        "playerName": "Evan Bouchard",
+        "teamId": "nhl:edm",
         "value": 6
       }
     ],
@@ -83,19 +83,19 @@
         "playerId": "nhl:p_8480800",
         "playerName": "Quinn Hughes",
         "teamId": "nhl:min",
-        "value": 7
+        "value": 8
       },
       {
-        "playerId": "nhl:p_8476453",
-        "playerName": "Nikita Kucherov",
-        "teamId": "nhl:tbl",
-        "value": 7
+        "playerId": "nhl:p_8479343",
+        "playerName": "Clayton Keller",
+        "teamId": "nhl:uta",
+        "value": 8
       },
       {
-        "playerId": "nhl:p_8484153",
-        "playerName": "Leo Carlsson",
-        "teamId": "nhl:ana",
-        "value": 7
+        "playerId": "nhl:p_8479323",
+        "playerName": "Adam Fox",
+        "teamId": "nhl:nyr",
+        "value": 8
       }
     ],
     "gaa": [
@@ -106,15 +106,15 @@
         "value": 0.66
       },
       {
-        "playerId": "nhl:p_8479979",
-        "playerName": "Jake Oettinger",
-        "teamId": "nhl:dal",
-        "value": 0.74
-      },
-      {
         "playerId": "nhl:p_8482193",
         "playerName": "Dylan Garand",
         "teamId": "nhl:nyr",
+        "value": 1.15
+      },
+      {
+        "playerId": "nhl:p_8479979",
+        "playerName": "Jake Oettinger",
+        "teamId": "nhl:dal",
         "value": 1.2
       },
       {
@@ -124,10 +124,10 @@
         "value": 1.27
       },
       {
-        "playerId": "nhl:p_8484170",
-        "playerName": "Jacob Fowler",
-        "teamId": "nhl:mtl",
-        "value": 1.46
+        "playerId": "nhl:p_8478024",
+        "playerName": "Ville Husso",
+        "teamId": "nhl:ana",
+        "value": 1.58
       }
     ],
     "svPct": [
@@ -138,10 +138,10 @@
         "value": 0.974
       },
       {
-        "playerId": "nhl:p_8479979",
-        "playerName": "Jake Oettinger",
-        "teamId": "nhl:dal",
-        "value": 0.963
+        "playerId": "nhl:p_8482193",
+        "playerName": "Dylan Garand",
+        "teamId": "nhl:nyr",
+        "value": 0.951
       },
       {
         "playerId": "nhl:p_8476999",
@@ -150,16 +150,16 @@
         "value": 0.948
       },
       {
-        "playerId": "nhl:p_8482193",
-        "playerName": "Dylan Garand",
-        "teamId": "nhl:nyr",
-        "value": 0.945
+        "playerId": "nhl:p_8479979",
+        "playerName": "Jake Oettinger",
+        "teamId": "nhl:dal",
+        "value": 0.944
       },
       {
-        "playerId": "nhl:p_8483703",
-        "playerName": "Sergei Murashov",
-        "teamId": "nhl:pit",
-        "value": 0.939
+        "playerId": "nhl:p_8478024",
+        "playerName": "Ville Husso",
+        "teamId": "nhl:ana",
+        "value": 0.935
       }
     ]
   }
