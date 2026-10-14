@@ -1,0 +1,55 @@
+{
+  "id": "khl:902163",
+  "compId": "KHL",
+  "season": "2026/27",
+  "stage": "regular",
+  "round": null,
+  "seriesGame": null,
+  "utcDate": "2026-10-21T16:30:00Z",
+  "status": "SCHEDULED",
+  "period": null,
+  "clock": null,
+  "finishedIn": null,
+  "home": {
+    "id": "khl:spartak",
+    "name": "Спартак",
+    "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/18/original/spartak_2015__200x200.png",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "away": {
+    "id": "khl:cska",
+    "name": "ЦСКА",
+    "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdc/team_pics/16/original/cska_2016_rus__200x200.png",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "arena": null,
+  "officials": {
+    "referees": [],
+    "linesmen": []
+  },
+  "events": [],
+  "lineups": null,
+  "stats": null,
+  "h2h": [],
+  "source": {
+    "provider": "KHL mobile backend",
+    "official": true,
+    "verified": true,
+    "verifiedMatches": true,
+    "licenseConfirmed": false,
+    "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+    "endpoints": [
+      "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
+      "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+      "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
+    ],
+    "stageId": 407,
+    "eventId": 3000803,
+    "matchId": "902163",
+    "fetchedAt": "2026-10-14T00:55:56.424706Z"
+  }
+}

@@ -6,31 +6,110 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-13T23:45:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 2,
+  "clock": "14:02",
   "finishedIn": null,
   "home": {
     "id": "nhl:nyi",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 13
   },
   "away": {
     "id": "nhl:van",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 10
   },
   "arena": "UBS Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "06:04",
+      "team": "home",
+      "playerId": "nhl:p_8475170",
+      "playerName": "Brayden Schenn",
+      "minutes": 2,
+      "reason": "high-sticking",
+      "order": 81
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "11:42",
+      "team": "home",
+      "playerId": "nhl:p_8479378",
+      "playerName": "Logan Stanley",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 152
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "14:57",
+      "team": "home",
+      "playerId": "nhl:p_8475151",
+      "playerName": "Kyle Palmieri",
+      "assists": [
+        "nhl:p_8482516",
+        "nhl:p_8477500"
+      ],
+      "score": "1-0",
+      "order": 195
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "15:50",
+      "team": "home",
+      "playerId": "nhl:p_8481711",
+      "playerName": "Matias Maccelli",
+      "assists": [
+        "nhl:p_8485366"
+      ],
+      "score": "2-0",
+      "order": 205
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "19:09",
+      "team": "away",
+      "playerId": "nhl:p_8474568",
+      "playerName": "Luke Schenn",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 243
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      13,
+      10
+    ],
+    "shotsOnGoal": [
+      13,
+      10
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020097/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020097/play-by-play"
+    ],
+    "fetchedAt": "2026-10-14T00:55:55.081889+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +117,6 @@
     "url": "https://www.nhl.com/gamecenter/van-vs-nyi/2026/10/13/2026020097",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/van-vs-nyi/2026/10/13/2026020097",
-    "verifiedAt": "2026-10-13T21:58:58.726916Z"
+    "verifiedAt": "2026-10-14T00:55:55.081987Z"
   }
 }

@@ -6,31 +6,122 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-13T23:30:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 2,
+  "clock": "05:54",
   "finishedIn": null,
   "home": {
     "id": "nhl:ott",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 10
   },
   "away": {
     "id": "nhl:stl",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 10
   },
   "arena": "Canadian Tire Centre",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "04:15",
+      "team": "home",
+      "playerId": "nhl:p_8481606",
+      "playerName": "Jordan Spence",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 68
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "13:28",
+      "team": "away",
+      "playerId": "nhl:p_8475764",
+      "playerName": "Cam Fowler",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 194
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "14:28",
+      "team": "away",
+      "playerId": "nhl:p_8480459",
+      "playerName": "Pius Suter",
+      "assists": [
+        "nhl:p_8476892",
+        "nhl:p_8477402"
+      ],
+      "score": "0-1",
+      "order": 202
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "17:26",
+      "team": "away",
+      "playerId": "nhl:p_8478443",
+      "playerName": "Brandon Carlo",
+      "minutes": 2,
+      "reason": "high-sticking",
+      "order": 242
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "03:31",
+      "team": "away",
+      "playerId": "nhl:p_8476892",
+      "playerName": "Colton Parayko",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 320
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "13:20",
+      "team": "away",
+      "playerId": "nhl:p_8482089",
+      "playerName": "Jake Neighbours",
+      "assists": [
+        "nhl:p_8480023",
+        "nhl:p_8482077"
+      ],
+      "score": "0-2",
+      "order": 442
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      10,
+      10
+    ],
+    "shotsOnGoal": [
+      10,
+      10
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020096/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020096/play-by-play"
+    ],
+    "fetchedAt": "2026-10-14T00:55:55.012973+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +129,6 @@
     "url": "https://www.nhl.com/gamecenter/stl-vs-ott/2026/10/13/2026020096",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/stl-vs-ott/2026/10/13/2026020096",
-    "verifiedAt": "2026-10-13T21:58:58.726748Z"
+    "verifiedAt": "2026-10-14T00:55:55.013051Z"
   }
 }

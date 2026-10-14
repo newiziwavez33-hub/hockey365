@@ -1,6 +1,28 @@
 {
   "news": [
     {
+      "id": "news-6655998",
+      "slug": "karolina-harrikejnz-vashington-kepitalz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachalas",
+      "title": "«Каролина» — «Вашингтон»: онлайн-трансляция матча НХЛ началась",
+      "summary": "В ночь на 14 октября на льду «Леново Центр» в Роли, США, проходит матч регулярного чемпионата НХЛ.",
+      "content": "В ночь на 14 октября на льду «Леново Центр» в Роли, США, проходит матч регулярного чемпионата НХЛ.",
+      "image": "https://img.championat.com/news/big/q/w/karolina-vashington-onlajn-translyaciya-matcha-nhl-nachalas_1791885914810102033.jpg",
+      "publishedAt": "2026-10-13T22:45:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6655998-karolina-harrikejnz-vashington-kepitalz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachalas.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Каролина Харрикейнз"
+      ],
+      "relatedTeamIds": [
+        "nhl:car",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6656312",
       "slug": "net-nikakih-obid-na-vashington-forvard-shanhaya-o-neudavshejsya-karere-v-nhl",
       "title": "«Нет никаких обид на «Вашингтон». Форвард «Шанхая» — о неудавшейся карьере в НХЛ",
@@ -710,35 +732,6 @@
       ],
       "relatedTeamIds": [
         "nhl:nyr"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6656214",
-      "slug": "napadayuschij-ak-barsa-semyonov-izbezhal-diskvalifikacii-i-byl-oshtrafovan-za-kolyuschij-udar",
-      "title": "Нападающий «Ак Барса» Семёнов избежал дисквалификации и был оштрафован за колющий удар",
-      "summary": "Спортивно-дисциплинарный комитет КХЛ рассмотрел эпизоды матчей «Ак Барс» – «Сочи» и «Амур» – «Лада», после чего оштрафовал форварда казанского клуба Кирилла Семёнова и нападающего хабаровского клуба Ярослава Лихачёва.",
-      "content": "Спортивно-дисциплинарный комитет КХЛ рассмотрел эпизоды матчей «Ак Барс» – «Сочи» и «Амур» – «Лада», после чего оштрафовал форварда казанского клуба Кирилла Семёнова и нападающего хабаровского клуба Ярослава Лихачёва.",
-      "image": "https://img.championat.com/news/big/j/f/napadayuschij-ak-barsa-semyo.jpg",
-      "publishedAt": "2026-10-13T12:39:50Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6656214-napadayuschij-ak-barsa-semyonov-izbezhal-diskvalifikacii-i-byl-oshtrafovan-za-kolyuschij-udar.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Ак Барс",
-        "Амур",
-        "Сочи",
-        "Лада",
-        "Кирилл Семёнов",
-        "Ярослав Лихачёв"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:amur",
-        "khl:lada",
-        "khl:sochi"
       ],
       "relatedPlayerIds": []
     }

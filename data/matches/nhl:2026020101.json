@@ -6,19 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-14T00:45:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 1,
+  "clock": "19:25",
   "finishedIn": null,
   "home": {
     "id": "nhl:nsh",
-    "score": null,
+    "score": 0,
     "periods": [],
     "shots": null
   },
   "away": {
     "id": "nhl:vgk",
-    "score": null,
+    "score": 0,
     "periods": [],
     "shots": null
   },
@@ -31,6 +31,15 @@
   "lineups": null,
   "stats": null,
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020101/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020101/play-by-play"
+    ],
+    "fetchedAt": "2026-10-14T00:55:55.337679+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +47,6 @@
     "url": "https://www.nhl.com/gamecenter/vgk-vs-nsh/2026/10/13/2026020101",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/vgk-vs-nsh/2026/10/13/2026020101",
-    "verifiedAt": "2026-10-13T21:58:58.727618Z"
+    "verifiedAt": "2026-10-14T00:55:55.337715Z"
   }
 }

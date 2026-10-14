@@ -6,31 +6,202 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-13T22:45:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 3,
+  "clock": "17:32",
   "finishedIn": null,
   "home": {
     "id": "nhl:car",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 26
   },
   "away": {
     "id": "nhl:wsh",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 17
   },
   "arena": "Lenovo Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "03:18",
+      "team": "home",
+      "playerId": "nhl:p_8477478",
+      "playerName": "William Carrier",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 58
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "03:18",
+      "team": "away",
+      "playerId": "nhl:p_8479345",
+      "playerName": "Jakob Chychrun",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 61
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "09:26",
+      "team": "away",
+      "playerId": "nhl:p_8476432",
+      "playerName": "Boone Jenner",
+      "assists": [
+        "nhl:p_8484186"
+      ],
+      "score": "0-1",
+      "order": 140
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "17:27",
+      "team": "home",
+      "playerId": "nhl:p_8475235",
+      "playerName": "Nicolas Deslauriers",
+      "minutes": 2,
+      "reason": "cross-checking",
+      "order": 240
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "19:13",
+      "team": "home",
+      "playerId": "nhl:p_8480830",
+      "playerName": "Andrei Svechnikov",
+      "minutes": 2,
+      "reason": "unsportsmanlike-conduct",
+      "order": 258
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "03:58",
+      "team": "home",
+      "playerId": "nhl:p_8480830",
+      "playerName": "Andrei Svechnikov",
+      "assists": [
+        "nhl:p_8477478",
+        "nhl:p_8478427"
+      ],
+      "score": "1-1",
+      "order": 329
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "03:58",
+      "team": "away",
+      "minutes": 2,
+      "reason": "delaying-game-unsuccessful-challenge",
+      "order": 331
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "06:39",
+      "team": "away",
+      "playerId": "nhl:p_8475718",
+      "playerName": "Justin Holl",
+      "assists": [
+        "nhl:p_8478440",
+        "nhl:p_8484186"
+      ],
+      "score": "1-2",
+      "order": 356
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "10:45",
+      "team": "away",
+      "playerId": "nhl:p_8484873",
+      "playerName": "Cole Hutson",
+      "minutes": 2,
+      "reason": "delaying-game-puck-over-glass",
+      "order": 406
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "18:49",
+      "team": "home",
+      "playerId": "nhl:p_8480762",
+      "playerName": "Eric Robinson",
+      "assists": [
+        "nhl:p_8482809",
+        "nhl:p_8480336"
+      ],
+      "score": "2-2",
+      "order": 502
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "18:49",
+      "team": "home",
+      "playerId": "nhl:p_8482809",
+      "playerName": "Jackson Blake",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 503
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "18:49",
+      "team": "away",
+      "playerId": "nhl:p_8484186",
+      "playerName": "Ryan Leonard",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 505
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "19:25",
+      "team": "away",
+      "playerId": "nhl:p_8479345",
+      "playerName": "Jakob Chychrun",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 512
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      26,
+      17
+    ],
+    "shotsOnGoal": [
+      26,
+      17
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020093/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020093/play-by-play"
+    ],
+    "fetchedAt": "2026-10-14T00:55:54.813044+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +209,6 @@
     "url": "https://www.nhl.com/gamecenter/wsh-vs-car/2026/10/13/2026020093",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/wsh-vs-car/2026/10/13/2026020093",
-    "verifiedAt": "2026-10-13T21:58:58.726182Z"
+    "verifiedAt": "2026-10-14T00:55:54.813149Z"
   }
 }
