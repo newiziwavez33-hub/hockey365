@@ -4,6 +4,18 @@
   "categories": {
     "points": [
       {
+        "playerId": "nhl:p_8478402",
+        "playerName": "Connor McDavid",
+        "teamId": "nhl:edm",
+        "value": 17
+      },
+      {
+        "playerId": "nhl:p_8480803",
+        "playerName": "Evan Bouchard",
+        "teamId": "nhl:edm",
+        "value": 14
+      },
+      {
         "playerId": "nhl:p_8478427",
         "playerName": "Sebastian Aho",
         "teamId": "nhl:car",
@@ -14,18 +26,6 @@
         "playerName": "Jack Eichel",
         "teamId": "nhl:vgk",
         "value": 13
-      },
-      {
-        "playerId": "nhl:p_8478402",
-        "playerName": "Connor McDavid",
-        "teamId": "nhl:edm",
-        "value": 13
-      },
-      {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 12
       },
       {
         "playerId": "nhl:p_8477492",
@@ -54,10 +54,10 @@
         "value": 7
       },
       {
-        "playerId": "nhl:p_8478427",
-        "playerName": "Sebastian Aho",
-        "teamId": "nhl:car",
-        "value": 6
+        "playerId": "nhl:p_8481617",
+        "playerName": "Vasily Podkolzin",
+        "teamId": "nhl:edm",
+        "value": 7
       },
       {
         "playerId": "nhl:p_8480803",
@@ -71,13 +71,19 @@
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
         "teamId": "nhl:edm",
-        "value": 10
+        "value": 13
       },
       {
         "playerId": "nhl:p_8478403",
         "playerName": "Jack Eichel",
         "teamId": "nhl:vgk",
         "value": 9
+      },
+      {
+        "playerId": "nhl:p_8480803",
+        "playerName": "Evan Bouchard",
+        "teamId": "nhl:edm",
+        "value": 8
       },
       {
         "playerId": "nhl:p_8480800",
@@ -89,12 +95,6 @@
         "playerId": "nhl:p_8479343",
         "playerName": "Clayton Keller",
         "teamId": "nhl:uta",
-        "value": 8
-      },
-      {
-        "playerId": "nhl:p_8479323",
-        "playerName": "Adam Fox",
-        "teamId": "nhl:nyr",
         "value": 8
       }
     ],
