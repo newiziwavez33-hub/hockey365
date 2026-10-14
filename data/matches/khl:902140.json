@@ -6,18 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-14T14:30:00Z",
-  "status": "LIVE",
-  "period": 2,
+  "status": "FINISHED",
+  "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:barys",
     "name": "Барыс",
     "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/46/original/barys_2022_head_only__200x200.png",
-    "score": 1,
+    "score": 4,
     "periods": [
       1,
-      0
+      1,
+      2
     ],
     "shots": null
   },
@@ -28,7 +29,8 @@
     "score": 1,
     "periods": [
       0,
-      1
+      1,
+      0
     ],
     "shots": null
   },
@@ -56,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000711,
     "matchId": "902140",
-    "fetchedAt": "2026-10-14T15:26:52.804098Z"
+    "fetchedAt": "2026-10-14T19:33:15.886035Z"
   }
 }
