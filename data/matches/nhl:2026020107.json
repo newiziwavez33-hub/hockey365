@@ -6,31 +6,61 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-15T00:30:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 1,
+  "clock": "15:45",
   "finishedIn": null,
   "home": {
     "id": "nhl:col",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 2
   },
   "away": {
     "id": "nhl:dal",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 1
   },
   "arena": "Ball Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "02:11",
+      "team": "home",
+      "playerId": "nhl:p_8470613",
+      "playerName": "Brent Burns",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 40
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      2,
+      1
+    ],
+    "shotsOnGoal": [
+      2,
+      1
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020107/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020107/play-by-play"
+    ],
+    "fetchedAt": "2026-10-15T00:47:48.696113+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +68,6 @@
     "url": "https://www.nhl.com/gamecenter/dal-vs-col/2026/10/14/2026020107",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/dal-vs-col/2026/10/14/2026020107",
-    "verifiedAt": "2026-10-14T22:33:33.278733Z"
+    "verifiedAt": "2026-10-15T00:47:48.696162Z"
   }
 }

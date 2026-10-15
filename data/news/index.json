@@ -1,6 +1,28 @@
 {
   "news": [
     {
+      "id": "news-6657454",
+      "slug": "vashington-kepitalz-monreal-kanadiens-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachalas",
+      "title": "«Вашингтон» — «Монреаль»: онлайн-трансляция матча НХЛ началась",
+      "summary": "В ночь на 15 октября продолжается регулярный чемпионат Национальной хоккейной лиги.",
+      "content": "В ночь на 15 октября продолжается регулярный чемпионат Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/r/f/vashington-monreal-onlajn-translyaciya-matcha-nhl-nachalas_1791977629378071857.jpg",
+      "publishedAt": "2026-10-14T23:30:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6657454-vashington-kepitalz-monreal-kanadiens-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachalas.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Монреаль Канадиенс"
+      ],
+      "relatedTeamIds": [
+        "nhl:mtl",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6658084",
       "slug": "rezultaty-matchej-mhl-na-14-oktyabrya-2026-goda",
       "title": "Результаты матчей МХЛ на 14 октября 2026 года",
@@ -712,27 +734,6 @@
       "relatedPlayerIds": [
         "nhl:p_8471214"
       ]
-    },
-    {
-      "id": "news-6657598",
-      "slug": "kravchuk-o-filadelfii-brosaetsya-v-glaza-igra-v-oborone-ochen-mnogo-provalov",
-      "title": "Кравчук — о «Филадельфии»: бросается в глаза игра в обороне, очень много провалов",
-      "summary": "Двукратный олимпийский чемпион Игорь Кравчук оценил плохой старт «Филадельфии Флайерз» в новом сезоне НХЛ.",
-      "content": "Двукратный олимпийский чемпион Игорь Кравчук оценил плохой старт «Филадельфии Флайерз» в новом сезоне НХЛ.",
-      "image": "https://img.championat.com/news/big/m/j/kravchuk-o-filadelfii-brosaetsya-v-glaza-igra-v-oborone-ochen-mnogo-provalov_17919844881571807785.jpg",
-      "publishedAt": "2026-10-14T14:26:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6657598-kravchuk-o-filadelfii-brosaetsya-v-glaza-igra-v-oborone-ochen-mnogo-provalov.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Филадельфия Флайерз",
-        "Игорь Кравчук"
-      ],
-      "relatedTeamIds": [
-        "nhl:phi"
-      ],
-      "relatedPlayerIds": []
     }
   ]
 }
