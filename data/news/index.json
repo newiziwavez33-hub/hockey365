@@ -1,6 +1,259 @@
 {
   "news": [
     {
+      "id": "news-6659312",
+      "slug": "rezultaty-matchej-mhl-na-15-oktyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 15 октября 2026 года",
+      "summary": "Сегодня, 15 октября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 15 октября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-15T20:55:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6659312-rezultaty-matchej-mhl-na-15-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Локо",
+        "МХК Белые Медведи",
+        "МХК Кузнецкие Медведи",
+        "МХК Авто",
+        "МХК Реактор",
+        "МХК Амурские Тигры",
+        "МХК Динамо Санкт-Петербург",
+        "МХК Тайфун",
+        "МХК Спутник Альметьевск"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6659310",
+      "slug": "rezultaty-matchej-vhl-na-15-oktyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 15 октября 2026 года",
+      "summary": "Сегодня, 15 октября, прошли шесть матчей OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 15 октября, прошли шесть матчей OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-15T20:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6659310-rezultaty-matchej-vhl-na-15-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Металлург Нк",
+        "Югра",
+        "Рубин",
+        "Торос",
+        "Сокол Красноярск",
+        "Дизель",
+        "Ижсталь",
+        "Зауралье",
+        "Кристалл Саратов",
+        "Тамбов"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6659304",
+      "slug": "rezultaty-matchej-khl-na-15-oktyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 15 октября 2026 года",
+      "summary": "Сегодня, 15 октября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 15 октября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/q/z/rezultaty-matchej-khl-na-15-oktyabrya-2026-goda_17920956651455544659.jpg",
+      "publishedAt": "2026-10-15T20:40:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6659304-rezultaty-matchej-khl-na-15-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Локомотив",
+        "Северсталь",
+        "Лада"
+      ],
+      "relatedTeamIds": [
+        "khl:lada",
+        "khl:lokomotiv",
+        "khl:severstal",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6659298",
+      "slug": "schitov-o-razine-pochemu-direktor-kluba-ne-ponyos-nakazaniya-reputaciya-metallurga-podorvana",
+      "title": "Щитов о Разине: почему директор клуба не понёс наказания? Репутация «Металлурга» подорвана",
+      "summary": "Бывший игрок клубов КХЛ Никита Щитов высказался об отстранении главного тренера «Металлурга» Андрея Разина.",
+      "content": "Бывший игрок клубов КХЛ Никита Щитов высказался об отстранении главного тренера «Металлурга» Андрея Разина.",
+      "image": "https://img.championat.com/news/big/o/h/schitov-o-razine-pochemu-dir.jpg",
+      "publishedAt": "2026-10-15T20:28:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6659298-schitov-o-razine-pochemu-direktor-kluba-ne-ponyos-nakazaniya-reputaciya-metallurga-podorvana.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Матч ТВ",
+        "Андрей Разин",
+        "Никита Щитов",
+        "Алексей Жлоба"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6659292",
+      "slug": "specposlannik-trampa-ovechkin-zasluzhil-voshischenie-millionov-amerikancev",
+      "title": "Спецпосланник Трампа: Овечкин заслужил восхищение миллионов американцев",
+      "summary": "Спецпредставитель США по глобальным партнёрствам посол Паоло Замполли высказался о влиянии российского форварда «Вашингтон Кэпиталз» Александра Овечкина на американцев.",
+      "content": "Спецпредставитель США по глобальным партнёрствам посол Паоло Замполли высказался о влиянии российского форварда «Вашингтон Кэпиталз» Александра Овечкина на американцев.",
+      "image": "https://img.championat.com/news/big/w/a/specposlannik-trampa-ovechki.jpg",
+      "publishedAt": "2026-10-15T20:12:50Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6659292-specposlannik-trampa-ovechkin-zasluzhil-voshischenie-millionov-amerikancev.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6659270",
+      "slug": "rekordy-i-suschestvuyut-chtoby-ih-bili-larionov-o-pervoj-pobede-lady-nad-ska-v-khl",
+      "title": "«Рекорды и существуют, чтобы их били». Ларионов — о первой победе «Лады» над СКА в КХЛ",
+      "summary": "Главный тренер СКА Игорь Ларионов высказался о том факте, что «Лада» победила армейский клуб впервые в истории КХЛ.",
+      "content": "Главный тренер СКА Игорь Ларионов высказался о том факте, что «Лада» победила армейский клуб впервые в истории КХЛ.",
+      "image": "https://img.championat.com/news/big/p/q/rekordy-i-suschestvuyut-chto.jpg",
+      "publishedAt": "2026-10-15T19:54:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6659270-rekordy-i-suschestvuyut-chtoby-ih-bili-larionov-o-pervoj-pobede-lady-nad-ska-v-khl.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Лада",
+        "Игорь Ларионов"
+      ],
+      "relatedTeamIds": [
+        "khl:lada",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6659260",
+      "slug": "andrej-kozyrev-rasskazal-za-schyot-chego-severstal-pobedila-lokomotiv",
+      "title": "Андрей Козырев рассказал, за счёт чего «Северсталь» победила «Локомотив»",
+      "summary": "Главный тренер «Северстали» Андрей Козырев рассказал о победной домашней игре с «Локомотивом» (5:2).",
+      "content": "Главный тренер «Северстали» Андрей Козырев рассказал о победной домашней игре с «Локомотивом» (5:2).",
+      "image": "https://img.championat.com/news/big/b/f/andrej-kozyrev-rasskazal-za-.jpg",
+      "publishedAt": "2026-10-15T19:33:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6659260-andrej-kozyrev-rasskazal-za-schyot-chego-severstal-pobedila-lokomotiv.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Локомотив",
+        "Северсталь",
+        "Андрей Козырев"
+      ],
+      "relatedTeamIds": [
+        "khl:lokomotiv",
+        "khl:severstal"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6659248",
+      "slug": "tennisisty-atr-nazvali-vidy-sporta-s-samymi-atletichnymi-sportsmenami",
+      "title": "Теннисисты АТР назвали виды спорта с самыми атлетичными спортсменами",
+      "summary": "Теннисисты АТР-тура приняли участие в опросе, в котором им предлагали ответить на вопрос: «В каком из видов спорта выступают самые атлетичные спортсмены?»",
+      "content": "Теннисисты АТР-тура приняли участие в опросе, в котором им предлагали ответить на вопрос: «В каком из видов спорта выступают самые атлетичные спортсмены?»",
+      "image": "https://img.championat.com/news/big/c/e/tennisisty-atr-nazvali-vidy-sporta-s-samymi-atletichnymi-sportsmenami_17920917221134842868.jpg",
+      "publishedAt": "2026-10-15T19:15:24Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/tennis/news-6659248-tennisisty-atr-nazvali-vidy-sporta-s-samymi-atletichnymi-sportsmenami.html",
+      "tags": [
+        "Теннис",
+        "ATP",
+        "Футбол",
+        "Хоккей",
+        "Баскетбол",
+        "Бокс/ММА",
+        "Другие",
+        "Стефанос Циципас",
+        "Александр Бублик",
+        "Алекс де Минор",
+        "Феликс Оже-Альяссим",
+        "Артюр Фис",
+        "Иржи Легечка",
+        "Якуб Меншик",
+        "Брэндон Накашима",
+        "Рафаэль Ходар",
+        "Круз Хьюитт"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6659240",
+      "slug": "napadayuschie-nemnogo-ne-spravilis-so-svoej-rabotoj-kvartalnov-o-porazhenii-lokomotiva",
+      "title": "«Нападающие немного не справились со своей работой». Квартальнов о поражении «Локомотива»",
+      "summary": "Главный тренер «Локомотива» Дмитрий Квартальнов высказался о поражении во встрече с «Северсталью» (2:5).",
+      "content": "Главный тренер «Локомотива» Дмитрий Квартальнов высказался о поражении во встрече с «Северсталью» (2:5).",
+      "image": "https://img.championat.com/news/big/r/m/napadayuschie-nemnogo-ne-spr.jpg",
+      "publishedAt": "2026-10-15T19:11:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6659240-napadayuschie-nemnogo-ne-spravilis-so-svoej-rabotoj-kvartalnov-o-porazhenii-lokomotiva.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Локомотив",
+        "Северсталь",
+        "Дмитрий Квартальнов"
+      ],
+      "relatedTeamIds": [
+        "khl:lokomotiv",
+        "khl:severstal"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6659230",
+      "slug": "miroshnichenko-mozhet-ujti-iz-vashingtona-im-interesuyutsya-neskolko-klubov-nhl-fridman",
+      "title": "Мирошниченко может уйти из «Вашингтона», им интересуются несколько клубов НХЛ — Фридман",
+      "summary": "Нападающий «Вашингтон Кэпиталз» Иван Мирошниченко может сменить клуб, сообщает инсайдер НХЛ Эллиотт Фридман.",
+      "content": "Нападающий «Вашингтон Кэпиталз» Иван Мирошниченко может сменить клуб, сообщает инсайдер НХЛ Эллиотт Фридман.",
+      "image": "https://img.championat.com/news/big/y/k/miroshnichenko-mozhet-ujti-iz-vashingtona-im-interesuyutsya-neskolko-klubov-nhl-fridman_1792090235238045864.jpg",
+      "publishedAt": "2026-10-15T18:50:42Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6659230-miroshnichenko-mozhet-ujti-iz-vashingtona-im-interesuyutsya-neskolko-klubov-nhl-fridman.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Эллиотт Фридман",
+        "Иван Мирошниченко"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6659218",
       "slug": "i-o-glavnogo-trenera-lady-gorbenko-ocenil-pobednyj-match-so-ska",
       "title": "И. о. главного тренера «Лады» Горбенко оценил победный матч со СКА",
@@ -479,222 +732,6 @@
       ],
       "relatedTeamIds": [
         "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658910",
-      "slug": "stala-izvestna-data-slushanij-v-cas-po-apellyacii-fhr-na-otstranenie-so-storony-iihf",
-      "title": "Стала известна дата слушаний в CAS по апелляции ФХР на отстранение со стороны ИИХФ",
-      "summary": "Рассмотрение апелляции Федерации хоккея России (ФХР) на решение Международной федерации хоккея (ИИХФ) о недопуске российских команд до международных соревнований в Спортивном арбитражном суде (CAS) пройдёт 23 октября.",
-      "content": "Рассмотрение апелляции Федерации хоккея России (ФХР) на решение Международной федерации хоккея (ИИХФ) о недопуске российских команд до международных соревнований в Спортивном арбитражном суде (CAS) пройдёт 23 октября.",
-      "image": "https://img.championat.com/news/big/o/k/stala-izvestna-data-slushanij-v-cas-po-apellyacii-fhr-na-otstranenie-so-storony-iihf_1792071046359109165.jpg",
-      "publishedAt": "2026-10-15T13:39:02Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658910-stala-izvestna-data-slushanij-v-cas-po-apellyacii-fhr-na-otstranenie-so-storony-iihf.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "ФХР",
-        "ИИХФ"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658520",
-      "slug": "o-nyom-mnogo-govoryat-v-kanade-madzhio-nazval-igrokov-salavata-kotorye-ego-udivili",
-      "title": "«О нём много говорят в Канаде». Маджио назвал игроков «Салавата», которые его удивили",
-      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио назвал игроков уфимской команды, которые его удивили.",
-      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио назвал игроков уфимской команды, которые его удивили.",
-      "image": "https://img.championat.com/news/big/e/c/o-nyom-mnogo-govoryat-v-kana.jpg",
-      "publishedAt": "2026-10-15T13:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658520-o-nyom-mnogo-govoryat-v-kanade-madzhio-nazval-igrokov-salavata-kotorye-ego-udivili.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Салават Юлаев",
-        "Вадим Шипачёв",
-        "Шелдон Ремпал",
-        "Александр Жаровский",
-        "Семён Вязовой",
-        "Мэттью Маджио"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658840",
-      "slug": "admiral-pomestil-napadayuschego-aleksandra-darina-v-spisok-otkazov",
-      "title": "«Адмирал» поместил нападающего Александра Дарьина в список отказов",
-      "summary": "«Адмирал» поместил нападающего Александра Дарьина в список отказов, сообщает пресс-служба Континентальной хоккейной лиги.",
-      "content": "«Адмирал» поместил нападающего Александра Дарьина в список отказов, сообщает пресс-служба Континентальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/y/b/admiral-pomestil-napadayusch.jpg",
-      "publishedAt": "2026-10-15T13:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658840-admiral-pomestil-napadayuschego-aleksandra-darina-v-spisok-otkazov.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Адмирал",
-        "Александр Дарьин"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658874",
-      "slug": "golkiper-vadim-zherenko-zaklyuchil-prosmotrovyj-kontrakt-s-moskovskim-dinamo",
-      "title": "Голкипер Вадим Жеренко заключил просмотровый контракт с московским «Динамо»",
-      "summary": "Вратарь Вадим Жеренко заключил просмотровый контракт с московским «Динамо», сообщает пресс-служба бело-голубых.",
-      "content": "Вратарь Вадим Жеренко заключил просмотровый контракт с московским «Динамо», сообщает пресс-служба бело-голубых.",
-      "image": "https://img.championat.com/news/big/o/n/golkiper-vadim-zherenko-zaklyuchil-prosmotrovyj-kontrakt-s-moskovskim-dinamo_17920693541551976506.jpg",
-      "publishedAt": "2026-10-15T13:02:59Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658874-golkiper-vadim-zherenko-zaklyuchil-prosmotrovyj-kontrakt-s-moskovskim-dinamo.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Переходы — Хоккей",
-        "Вадим Жеренко"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658352",
-      "slug": "severstal-lokomotiv-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-00-msk",
-      "title": "«Северсталь» — «Локомотив»: онлайн-трансляция матча КХЛ начнётся в 19:00 мск",
-      "summary": "Сегодня, 15 октября, в Череповце на стадионе «Ледовый дворец» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Северсталь» примет ярославский «Локомотив».",
-      "content": "Сегодня, 15 октября, в Череповце на стадионе «Ледовый дворец» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Северсталь» примет ярославский «Локомотив».",
-      "image": "https://img.championat.com/news/big/d/s/severstal-lokomotiv-onlajn-translyaciya-matcha-khl-nachnyotsya-v-19-00-msk_1792042575875667022.jpg",
-      "publishedAt": "2026-10-15T13:00:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658352-severstal-lokomotiv-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-00-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Локомотив",
-        "Северсталь"
-      ],
-      "relatedTeamIds": [
-        "khl:lokomotiv",
-        "khl:severstal"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658518",
-      "slug": "pochti-kak-dva-raznyh-vida-sporta-madzhio-sravnil-hokkej-v-rossii-i-kanade",
-      "title": "«Почти как два разных вида спорта». Маджио сравнил хоккей в России и Канаде",
-      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио сравнил хоккей в России и Канаде и назвал ключевые отличия.",
-      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио сравнил хоккей в России и Канаде и назвал ключевые отличия.",
-      "image": "https://img.championat.com/news/big/w/o/pochti-kak-dva-raznyh-vida-sporta-madzhio-sravnil-hokkej-v-rossii-i-kanade_17920492701683024335.jpg",
-      "publishedAt": "2026-10-15T12:50:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658518-pochti-kak-dva-raznyh-vida-sporta-madzhio-sravnil-hokkej-v-rossii-i-kanade.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Салават Юлаев",
-        "Мэттью Маджио"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658594",
-      "slug": "debrinket-o-prodlenii-kontrakta-s-detrojtom-gorzhus-tem-chto-ya-igrok-red-uingz",
-      "title": "Дебринкэт — о продлении контракта с «Детройтом»: горжусь тем, что я игрок «Ред Уингз»",
-      "summary": "Нападающий «Детройт Ред Уингз» Алекс Дебринкэт высказался о подписании нового контракта с клубом.",
-      "content": "Нападающий «Детройт Ред Уингз» Алекс Дебринкэт высказался о подписании нового контракта с клубом.",
-      "image": "https://img.championat.com/news/big/y/q/debrinket-o-prodlenii-kontrakta-s-detrojtom-gorzhus-tem-chto-ya-igrok-red-uingz_1792055164368911362.jpg",
-      "publishedAt": "2026-10-15T12:40:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658594-debrinket-o-prodlenii-kontrakta-s-detrojtom-gorzhus-tem-chto-ya-igrok-red-uingz.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Детройт Ред Уингз",
-        "Алекс Дебринкэт"
-      ],
-      "relatedTeamIds": [
-        "nhl:det"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658812",
-      "slug": "yugra-rastorgla-kontrakt-s-aleksandrom-hovanovym",
-      "title": "«Югра» расторгла контракт с Александром Ховановым",
-      "summary": "Пресс-служба «Югры» объявила о расторжении контракта с 26-летним нападающим Александром Ховановым.",
-      "content": "Пресс-служба «Югры» объявила о расторжении контракта с 26-летним нападающим Александром Ховановым.",
-      "image": "https://img.championat.com/news/big/x/r/yugra-rastorgla-kontrakt-s-aleksandrom-hovanovym_17920660981839789308.jpg",
-      "publishedAt": "2026-10-15T12:35:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658812-yugra-rastorgla-kontrakt-s-aleksandrom-hovanovym.html",
-      "tags": [
-        "Хоккей",
-        "ВХЛ",
-        "Югра",
-        "Александр Хованов"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658622",
-      "slug": "hemilton-bylo-by-zahvatyvayusche-videt-bullity-pered-kazhdoj-igroj-no-tut-est-nedostatki",
-      "title": "Хэмилтон: было бы захватывающе видеть буллиты перед каждой игрой, но тут есть недостатки",
-      "summary": "Защитник ЦСКА Роб Хэмилтон высказался об идее президента КХЛ Алексея Морозова проводить буллитные серии перед матчами лиги.",
-      "content": "Защитник ЦСКА Роб Хэмилтон высказался об идее президента КХЛ Алексея Морозова проводить буллитные серии перед матчами лиги.",
-      "image": "https://img.championat.com/news/big/p/k/hemilton-bylo-by-zahvatyvayusche-videt-bullity-pered-kazhdoj-igroj-no-tut-est-nedostatki_17920548161636827365.jpg",
-      "publishedAt": "2026-10-15T12:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658622-hemilton-bylo-by-zahvatyvayusche-videt-bullity-pered-kazhdoj-igroj-no-tut-est-nedostatki.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "ЦСКА",
-        "Алексей Морозов",
-        "Роб Хэмилтон"
-      ],
-      "relatedTeamIds": [
-        "khl:cska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658798",
-      "slug": "skonchalsya-byvshij-hokkejnyj-sudya-vserossijskoj-kategorii-aleksej-kozin",
-      "title": "Скончался бывший хоккейный судья всероссийской категории Алексей Козин",
-      "summary": "Скончался известный хоккейный арбитр, инспектор, судья всероссийской категории Алексей Козин.",
-      "content": "Скончался известный хоккейный арбитр, инспектор, судья всероссийской категории Алексей Козин.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-15T12:20:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658798-skonchalsya-byvshij-hokkejnyj-sudya-vserossijskoj-kategorii-aleksej-kozin.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Торпедо",
-        "Хоккейное судейство"
-      ],
-      "relatedTeamIds": [
-        "khl:torpedo"
       ],
       "relatedPlayerIds": []
     }
