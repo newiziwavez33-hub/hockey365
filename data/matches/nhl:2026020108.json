@@ -6,31 +6,135 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-15T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "INTERMISSION",
+  "period": 1,
+  "clock": "12:38",
   "finishedIn": null,
   "home": {
     "id": "nhl:tor",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 15
   },
   "away": {
     "id": "nhl:buf",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 8
   },
   "arena": "Scotiabank Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "02:24",
+      "team": "home",
+      "playerId": "nhl:p_8479318",
+      "playerName": "Auston Matthews",
+      "assists": [
+        "nhl:p_8478458"
+      ],
+      "score": "1-0",
+      "order": 48
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "03:35",
+      "team": "away",
+      "playerId": "nhl:p_8482097",
+      "playerName": "Jack Quinn",
+      "assists": [
+        "nhl:p_8484145",
+        "nhl:p_8484305"
+      ],
+      "score": "1-1",
+      "order": 68
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "12:32",
+      "team": "away",
+      "playerId": "nhl:p_8475842",
+      "playerName": "Sam Carrick",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 196
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "13:10",
+      "team": "home",
+      "playerId": "nhl:p_8480893",
+      "playerName": "Kirill Marchenko",
+      "assists": [
+        "nhl:p_8475166",
+        "nhl:p_8478178"
+      ],
+      "score": "2-1",
+      "order": 206
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "18:12",
+      "team": "away",
+      "playerId": "nhl:p_8478502",
+      "playerName": "Dennis Gilbert",
+      "minutes": 2,
+      "reason": "high-sticking",
+      "order": 273
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "18:12",
+      "team": "away",
+      "playerId": "nhl:p_8475842",
+      "playerName": "Sam Carrick",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 275
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "18:12",
+      "team": "home",
+      "playerId": "nhl:p_8475171",
+      "playerName": "Oliver Ekman-Larsson",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 277
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      15,
+      8
+    ],
+    "shotsOnGoal": [
+      15,
+      8
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020108/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020108/play-by-play"
+    ],
+    "fetchedAt": "2026-10-15T23:54:37.427335+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +142,6 @@
     "url": "https://www.nhl.com/gamecenter/buf-vs-tor/2026/10/15/2026020108",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/buf-vs-tor/2026/10/15/2026020108",
-    "verifiedAt": "2026-10-15T21:47:42.693528Z"
+    "verifiedAt": "2026-10-15T23:54:37.427417Z"
   }
 }

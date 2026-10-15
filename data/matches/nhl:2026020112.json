@@ -6,31 +6,121 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-15T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "INTERMISSION",
+  "period": 1,
+  "clock": "08:07",
   "finishedIn": null,
   "home": {
     "id": "nhl:fla",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 15
   },
   "away": {
     "id": "nhl:van",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 7
   },
   "arena": "Amerant Bank Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "04:27",
+      "team": "away",
+      "playerId": "nhl:p_8476467",
+      "playerName": "Jamie Oleksiak",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 75
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "07:23",
+      "team": "away",
+      "playerId": "nhl:p_8483499",
+      "playerName": "Liam Ohgren",
+      "assists": [
+        "nhl:p_8481024"
+      ],
+      "score": "0-1",
+      "order": 106
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "15:50",
+      "team": "away",
+      "playerId": "nhl:p_8484136",
+      "playerName": "Max Sasson",
+      "minutes": 2,
+      "reason": "unsportsmanlike-conduct",
+      "order": 221
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "15:50",
+      "team": "home",
+      "playerId": "nhl:p_8477903",
+      "playerName": "Garnet Hathaway",
+      "minutes": 2,
+      "reason": "unsportsmanlike-conduct",
+      "order": 223
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "17:06",
+      "team": "away",
+      "playerId": "nhl:p_8483678",
+      "playerName": "Elias Pettersson",
+      "assists": [
+        "nhl:p_8480078",
+        "nhl:p_8484240"
+      ],
+      "score": "0-2",
+      "order": 237
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "19:22",
+      "team": "home",
+      "playerId": "nhl:p_8480185",
+      "playerName": "Eetu Luostarinen",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 273
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      15,
+      7
+    ],
+    "shotsOnGoal": [
+      15,
+      7
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020112/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020112/play-by-play"
+    ],
+    "fetchedAt": "2026-10-15T23:54:37.842048+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +128,6 @@
     "url": "https://www.nhl.com/gamecenter/van-vs-fla/2026/10/15/2026020112",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/van-vs-fla/2026/10/15/2026020112",
-    "verifiedAt": "2026-10-15T21:47:42.694183Z"
+    "verifiedAt": "2026-10-15T23:54:37.842132Z"
   }
 }

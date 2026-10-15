@@ -1,6 +1,32 @@
 {
   "news": [
     {
+      "id": "news-6659392",
+      "slug": "ya-boyalsya-emu-eto-skazat-hiki-o-razgovore-s-ovechkinym-po-hodu-matcha-s-monrealem",
+      "title": "«Я боялся ему это сказать». Хики – о разговоре с Овечкиным по ходу матча с «Монреалем»",
+      "summary": "Бывший защитник «Нью-Йорк Айлендерс» Томас Хики, находившийся между скамейками команд и следивший за повторами в матче «Вашингтон Кэпиталз» и «Монреаль Канадиенс», рассказал о диалоге с форвардом столичного клуба Алек...",
+      "content": "Бывший защитник «Нью-Йорк Айлендерс» Томас Хики, находившийся между скамейками команд и следивший за повторами в матче «Вашингтон Кэпиталз» и «Монреаль Канадиенс», рассказал о диалоге с форвардом столичного клуба Александром Овечкиным по ходу игры.",
+      "image": "https://img.championat.com/news/big/p/x/ya-boyalsya-emu-eto-skazat-hiki-o-razgovore-s-ovechkinym-po-hodu-matcha-s-monrealem_1792103730104863388.jpg",
+      "publishedAt": "2026-10-15T22:35:32Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6659392-ya-boyalsya-emu-eto-skazat-hiki-o-razgovore-s-ovechkinym-po-hodu-matcha-s-monrealem.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Монреаль Канадиенс"
+      ],
+      "relatedTeamIds": [
+        "nhl:mtl",
+        "nhl:nyi",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
       "id": "news-6659312",
       "slug": "rezultaty-matchej-mhl-na-15-oktyabrya-2026-goda",
       "title": "Результаты матчей МХЛ на 15 октября 2026 года",
@@ -708,30 +734,6 @@
       ],
       "relatedTeamIds": [
         "khl:avangard"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658526",
-      "slug": "otstojno-ved-vy-hokkejnaya-sverhderzhava-madzhio-ob-otstranenii-sbornoj-rossii",
-      "title": "«Отстойно, ведь вы — хоккейная сверхдержава». Маджио — об отстранении сборной России",
-      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио высказался об отстранении сборной России от международных соревнований.",
-      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио высказался об отстранении сборной России от международных соревнований.",
-      "image": "https://img.championat.com/news/big/h/v/otstojno-ved-vy-hokkejnaya-sverhderzhava-madzhio-ob-otstranenii-sbornoj-rossii_17920495411942939243.jpg",
-      "publishedAt": "2026-10-15T14:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658526-otstojno-ved-vy-hokkejnaya-sverhderzhava-madzhio-ob-otstranenii-sbornoj-rossii.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Сборная России — Хоккей",
-        "Салават Юлаев",
-        "Отстранение России",
-        "Мэттью Маджио"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev"
       ],
       "relatedPlayerIds": []
     }
