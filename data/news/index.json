@@ -1,6 +1,606 @@
 {
   "news": [
     {
+      "id": "news-6659004",
+      "slug": "vladimir-tkachyov-otvetil-izmenilas-li-igra-metallurga-posle-otstraneniya-andreya-razina",
+      "title": "Владимир Ткачёв ответил, изменилась ли игра «Металлурга» после отстранения Андрея Разина",
+      "summary": "Нападающий «Металлурга» Владимир Ткачёв ответил на вопрос, изменилась ли игра магнитогорского клуба после отстранения Андрея Разина с поста главного тренера «Металлурга».",
+      "content": "Нападающий «Металлурга» Владимир Ткачёв ответил на вопрос, изменилась ли игра магнитогорского клуба после отстранения Андрея Разина с поста главного тренера «Металлурга».",
+      "image": "https://img.championat.com/news/big/m/j/vladimir-tkachyov-otvetil-iz.jpg",
+      "publishedAt": "2026-10-15T14:47:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6659004-vladimir-tkachyov-otvetil-izmenilas-li-igra-metallurga-posle-otstraneniya-andreya-razina.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Андрей Разин",
+        "Владимир Ткачёв-1995"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658528",
+      "slug": "kanadskij-forvard-salavata-nazval-rossijskogo-igroka-kotoryj-byl-ego-kumirom-v-detstve",
+      "title": "Канадский форвард «Салавата» назвал российского игрока, который был его кумиром в детстве",
+      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио заявил, что нападающий «Питтсбург Пингвинз» Сидни Кросби является идолом для многих детей в Канаде.",
+      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио заявил, что нападающий «Питтсбург Пингвинз» Сидни Кросби является идолом для многих детей в Канаде.",
+      "image": "https://img.championat.com/news/big/r/j/kanadskij-forvard-salavata-n.jpg",
+      "publishedAt": "2026-10-15T14:35:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658528-kanadskij-forvard-salavata-nazval-rossijskogo-igroka-kotoryj-byl-ego-kumirom-v-detstve.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "Салават Юлаев",
+        "Сборная Канады — Хоккей",
+        "Сидни Кросби",
+        "Павел Дацюк",
+        "Мэттью Маджио"
+      ],
+      "relatedTeamIds": [
+        "khl:salavat-yulaev",
+        "nhl:pit"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658896",
+      "slug": "kanadskij-zaschitnik-lazhua-vernulsya-v-sostav-avangarda-posle-travmy",
+      "title": "Канадский защитник Лажуа вернулся в состав «Авангарда» после травмы",
+      "summary": "Канадский защитник «Авангарда» Максим Лажуа вернулся в состав команды после травмы, сообщает пресс-служба омского клуба.",
+      "content": "Канадский защитник «Авангарда» Максим Лажуа вернулся в состав команды после травмы, сообщает пресс-служба омского клуба.",
+      "image": "https://img.championat.com/news/big/n/q/kanadskij-zaschitnik-lazhua-.jpg",
+      "publishedAt": "2026-10-15T14:16:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658896-kanadskij-zaschitnik-lazhua-vernulsya-v-sostav-avangarda-posle-travmy.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Максим Лажуа"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658526",
+      "slug": "otstojno-ved-vy-hokkejnaya-sverhderzhava-madzhio-ob-otstranenii-sbornoj-rossii",
+      "title": "«Отстойно, ведь вы — хоккейная сверхдержава». Маджио — об отстранении сборной России",
+      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио высказался об отстранении сборной России от международных соревнований.",
+      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио высказался об отстранении сборной России от международных соревнований.",
+      "image": "https://img.championat.com/news/big/h/v/otstojno-ved-vy-hokkejnaya-sverhderzhava-madzhio-ob-otstranenii-sbornoj-rossii_17920495411942939243.jpg",
+      "publishedAt": "2026-10-15T14:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658526-otstojno-ved-vy-hokkejnaya-sverhderzhava-madzhio-ob-otstranenii-sbornoj-rossii.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "Сборная России — Хоккей",
+        "Салават Юлаев",
+        "Отстранение России",
+        "Мэттью Маджио"
+      ],
+      "relatedTeamIds": [
+        "khl:salavat-yulaev"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658910",
+      "slug": "stala-izvestna-data-slushanij-v-cas-po-apellyacii-fhr-na-otstranenie-so-storony-iihf",
+      "title": "Стала известна дата слушаний в CAS по апелляции ФХР на отстранение со стороны ИИХФ",
+      "summary": "Рассмотрение апелляции Федерации хоккея России (ФХР) на решение Международной федерации хоккея (ИИХФ) о недопуске российских команд до международных соревнований в Спортивном арбитражном суде (CAS) пройдёт 23 октября.",
+      "content": "Рассмотрение апелляции Федерации хоккея России (ФХР) на решение Международной федерации хоккея (ИИХФ) о недопуске российских команд до международных соревнований в Спортивном арбитражном суде (CAS) пройдёт 23 октября.",
+      "image": "https://img.championat.com/news/big/o/k/stala-izvestna-data-slushanij-v-cas-po-apellyacii-fhr-na-otstranenie-so-storony-iihf_1792071046359109165.jpg",
+      "publishedAt": "2026-10-15T13:39:02Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658910-stala-izvestna-data-slushanij-v-cas-po-apellyacii-fhr-na-otstranenie-so-storony-iihf.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "ФХР",
+        "ИИХФ"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658520",
+      "slug": "o-nyom-mnogo-govoryat-v-kanade-madzhio-nazval-igrokov-salavata-kotorye-ego-udivili",
+      "title": "«О нём много говорят в Канаде». Маджио назвал игроков «Салавата», которые его удивили",
+      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио назвал игроков уфимской команды, которые его удивили.",
+      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио назвал игроков уфимской команды, которые его удивили.",
+      "image": "https://img.championat.com/news/big/e/c/o-nyom-mnogo-govoryat-v-kana.jpg",
+      "publishedAt": "2026-10-15T13:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658520-o-nyom-mnogo-govoryat-v-kanade-madzhio-nazval-igrokov-salavata-kotorye-ego-udivili.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "Салават Юлаев",
+        "Вадим Шипачёв",
+        "Шелдон Ремпал",
+        "Александр Жаровский",
+        "Семён Вязовой",
+        "Мэттью Маджио"
+      ],
+      "relatedTeamIds": [
+        "khl:salavat-yulaev"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658840",
+      "slug": "admiral-pomestil-napadayuschego-aleksandra-darina-v-spisok-otkazov",
+      "title": "«Адмирал» поместил нападающего Александра Дарьина в список отказов",
+      "summary": "«Адмирал» поместил нападающего Александра Дарьина в список отказов, сообщает пресс-служба Континентальной хоккейной лиги.",
+      "content": "«Адмирал» поместил нападающего Александра Дарьина в список отказов, сообщает пресс-служба Континентальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/y/b/admiral-pomestil-napadayusch.jpg",
+      "publishedAt": "2026-10-15T13:15:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658840-admiral-pomestil-napadayuschego-aleksandra-darina-v-spisok-otkazov.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Адмирал",
+        "Александр Дарьин"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658874",
+      "slug": "golkiper-vadim-zherenko-zaklyuchil-prosmotrovyj-kontrakt-s-moskovskim-dinamo",
+      "title": "Голкипер Вадим Жеренко заключил просмотровый контракт с московским «Динамо»",
+      "summary": "Вратарь Вадим Жеренко заключил просмотровый контракт с московским «Динамо», сообщает пресс-служба бело-голубых.",
+      "content": "Вратарь Вадим Жеренко заключил просмотровый контракт с московским «Динамо», сообщает пресс-служба бело-голубых.",
+      "image": "https://img.championat.com/news/big/o/n/golkiper-vadim-zherenko-zaklyuchil-prosmotrovyj-kontrakt-s-moskovskim-dinamo_17920693541551976506.jpg",
+      "publishedAt": "2026-10-15T13:02:59Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658874-golkiper-vadim-zherenko-zaklyuchil-prosmotrovyj-kontrakt-s-moskovskim-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Переходы — Хоккей",
+        "Вадим Жеренко"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658352",
+      "slug": "severstal-lokomotiv-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-00-msk",
+      "title": "«Северсталь» — «Локомотив»: онлайн-трансляция матча КХЛ начнётся в 19:00 мск",
+      "summary": "Сегодня, 15 октября, в Череповце на стадионе «Ледовый дворец» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Северсталь» примет ярославский «Локомотив».",
+      "content": "Сегодня, 15 октября, в Череповце на стадионе «Ледовый дворец» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Северсталь» примет ярославский «Локомотив».",
+      "image": "https://img.championat.com/news/big/d/s/severstal-lokomotiv-onlajn-translyaciya-matcha-khl-nachnyotsya-v-19-00-msk_1792042575875667022.jpg",
+      "publishedAt": "2026-10-15T13:00:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658352-severstal-lokomotiv-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-00-msk.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Локомотив",
+        "Северсталь"
+      ],
+      "relatedTeamIds": [
+        "khl:lokomotiv",
+        "khl:severstal"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658518",
+      "slug": "pochti-kak-dva-raznyh-vida-sporta-madzhio-sravnil-hokkej-v-rossii-i-kanade",
+      "title": "«Почти как два разных вида спорта». Маджио сравнил хоккей в России и Канаде",
+      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио сравнил хоккей в России и Канаде и назвал ключевые отличия.",
+      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио сравнил хоккей в России и Канаде и назвал ключевые отличия.",
+      "image": "https://img.championat.com/news/big/w/o/pochti-kak-dva-raznyh-vida-sporta-madzhio-sravnil-hokkej-v-rossii-i-kanade_17920492701683024335.jpg",
+      "publishedAt": "2026-10-15T12:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658518-pochti-kak-dva-raznyh-vida-sporta-madzhio-sravnil-hokkej-v-rossii-i-kanade.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "Салават Юлаев",
+        "Мэттью Маджио"
+      ],
+      "relatedTeamIds": [
+        "khl:salavat-yulaev"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658594",
+      "slug": "debrinket-o-prodlenii-kontrakta-s-detrojtom-gorzhus-tem-chto-ya-igrok-red-uingz",
+      "title": "Дебринкэт — о продлении контракта с «Детройтом»: горжусь тем, что я игрок «Ред Уингз»",
+      "summary": "Нападающий «Детройт Ред Уингз» Алекс Дебринкэт высказался о подписании нового контракта с клубом.",
+      "content": "Нападающий «Детройт Ред Уингз» Алекс Дебринкэт высказался о подписании нового контракта с клубом.",
+      "image": "https://img.championat.com/news/big/y/q/debrinket-o-prodlenii-kontrakta-s-detrojtom-gorzhus-tem-chto-ya-igrok-red-uingz_1792055164368911362.jpg",
+      "publishedAt": "2026-10-15T12:40:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658594-debrinket-o-prodlenii-kontrakta-s-detrojtom-gorzhus-tem-chto-ya-igrok-red-uingz.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Детройт Ред Уингз",
+        "Алекс Дебринкэт"
+      ],
+      "relatedTeamIds": [
+        "nhl:det"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658812",
+      "slug": "yugra-rastorgla-kontrakt-s-aleksandrom-hovanovym",
+      "title": "«Югра» расторгла контракт с Александром Ховановым",
+      "summary": "Пресс-служба «Югры» объявила о расторжении контракта с 26-летним нападающим Александром Ховановым.",
+      "content": "Пресс-служба «Югры» объявила о расторжении контракта с 26-летним нападающим Александром Ховановым.",
+      "image": "https://img.championat.com/news/big/x/r/yugra-rastorgla-kontrakt-s-aleksandrom-hovanovym_17920660981839789308.jpg",
+      "publishedAt": "2026-10-15T12:35:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658812-yugra-rastorgla-kontrakt-s-aleksandrom-hovanovym.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Югра",
+        "Александр Хованов"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658622",
+      "slug": "hemilton-bylo-by-zahvatyvayusche-videt-bullity-pered-kazhdoj-igroj-no-tut-est-nedostatki",
+      "title": "Хэмилтон: было бы захватывающе видеть буллиты перед каждой игрой, но тут есть недостатки",
+      "summary": "Защитник ЦСКА Роб Хэмилтон высказался об идее президента КХЛ Алексея Морозова проводить буллитные серии перед матчами лиги.",
+      "content": "Защитник ЦСКА Роб Хэмилтон высказался об идее президента КХЛ Алексея Морозова проводить буллитные серии перед матчами лиги.",
+      "image": "https://img.championat.com/news/big/p/k/hemilton-bylo-by-zahvatyvayusche-videt-bullity-pered-kazhdoj-igroj-no-tut-est-nedostatki_17920548161636827365.jpg",
+      "publishedAt": "2026-10-15T12:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658622-hemilton-bylo-by-zahvatyvayusche-videt-bullity-pered-kazhdoj-igroj-no-tut-est-nedostatki.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "ЦСКА",
+        "Алексей Морозов",
+        "Роб Хэмилтон"
+      ],
+      "relatedTeamIds": [
+        "khl:cska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658798",
+      "slug": "skonchalsya-byvshij-hokkejnyj-sudya-vserossijskoj-kategorii-aleksej-kozin",
+      "title": "Скончался бывший хоккейный судья всероссийской категории Алексей Козин",
+      "summary": "Скончался известный хоккейный арбитр, инспектор, судья всероссийской категории Алексей Козин.",
+      "content": "Скончался известный хоккейный арбитр, инспектор, судья всероссийской категории Алексей Козин.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-15T12:20:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658798-skonchalsya-byvshij-hokkejnyj-sudya-vserossijskoj-kategorii-aleksej-kozin.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Торпедо",
+        "Хоккейное судейство"
+      ],
+      "relatedTeamIds": [
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658516",
+      "slug": "opaseniya-opredelyonno-byli-kanadskij-hokkeist-salavata-o-pereezde-v-rossiyu",
+      "title": "«Опасения определённо были». Канадский хоккеист «Салавата» — о переезде в Россию",
+      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио заявил, что у него были опасения перед переездом в Россию.",
+      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио заявил, что у него были опасения перед переездом в Россию.",
+      "image": "https://img.championat.com/news/big/y/x/opaseniya-opredelyonno-byli-kanadskij-hokkeist-salavata-o-pereezde-v-rossiyu_17920491771501897250.jpg",
+      "publishedAt": "2026-10-15T12:15:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658516-opaseniya-opredelyonno-byli-kanadskij-hokkeist-salavata-o-pereezde-v-rossiyu.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "Салават Юлаев",
+        "Мэттью Маджио"
+      ],
+      "relatedTeamIds": [
+        "khl:salavat-yulaev"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658344",
+      "slug": "lada-ska-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-18-00-msk",
+      "title": "«Лада» — СКА: онлайн-трансляция матча КХЛ начнётся в 18:00 мск",
+      "summary": "Сегодня, 15 октября, в Тольятти на стадионе «Лада-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Лада» примет СКА.",
+      "content": "Сегодня, 15 октября, в Тольятти на стадионе «Лада-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Лада» примет СКА.",
+      "image": "https://img.championat.com/news/big/j/c/lada-ska-onlajn-translyaciya-matcha-khl-nachnyotsya-v-18-00-msk_1792042314847764878.jpg",
+      "publishedAt": "2026-10-15T12:10:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658344-lada-ska-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-18-00-msk.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Лада"
+      ],
+      "relatedTeamIds": [
+        "khl:lada",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658784",
+      "slug": "raspisanie-matchej-nhl-v-noch-s-15-na-16-oktyabrya-2026-goda",
+      "title": "Расписание матчей НХЛ в ночь с 15 на 16 октября 2026 года",
+      "summary": "В ночь с 15 на 16 октября пройдут очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "content": "В ночь с 15 на 16 октября пройдут очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/m/h/raspisanie-matchej-nhl-v-noch-s-15-na-16-oktyabrya-2026-goda_1792065457224569491.jpg",
+      "publishedAt": "2026-10-15T12:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658784-raspisanie-matchej-nhl-v-noch-s-15-na-16-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Нью-Йорк Рейнджерс",
+        "Эдмонтон Ойлерз",
+        "Флорида Пантерз",
+        "Торонто Мэйпл Лифс",
+        "Миннесота Уайлд",
+        "Филадельфия Флайерз",
+        "Сент-Луис Блюз",
+        "Чикаго Блэкхоукс",
+        "Вегас Голден Найтс",
+        "Ванкувер Кэнакс",
+        "Нью-Джерси Дэвилз",
+        "Сан-Хосе Шаркс",
+        "Оттава Сенаторз",
+        "Нэшвилл Предаторз",
+        "Виннипег Джетс",
+        "Калгари Флэймз",
+        "Баффало Сэйбрз",
+        "Сиэтл Кракен",
+        "Юта Маммот"
+      ],
+      "relatedTeamIds": [
+        "nhl:buf",
+        "nhl:cgy",
+        "nhl:chi",
+        "nhl:edm",
+        "nhl:fla",
+        "nhl:min",
+        "nhl:njd",
+        "nhl:nsh",
+        "nhl:nyr",
+        "nhl:ott",
+        "nhl:phi",
+        "nhl:sea",
+        "nhl:sjs",
+        "nhl:stl",
+        "nhl:tbl",
+        "nhl:tor",
+        "nhl:uta",
+        "nhl:van",
+        "nhl:vgk",
+        "nhl:wpg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658512",
+      "slug": "madzhio-cel-moego-priezda-v-salavat-pobezhdat-hochu-zavoevat-kubok-gagarina-s-ufoj",
+      "title": "Маджио: цель моего приезда в «Салават» — побеждать. Хочу завоевать Кубок Гагарина с Уфой",
+      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио заявил, что его целью является завоевание Кубка Гагарина с уфимским клубом.",
+      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио заявил, что его целью является завоевание Кубка Гагарина с уфимским клубом.",
+      "image": "https://img.championat.com/news/big/i/r/madzhio-cel-moego-priezda-v-salavat-pobezhdat-hochu-zavoevat-kubok-gagarina-s-ufoj_1792052319540370713.jpg",
+      "publishedAt": "2026-10-15T11:45:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658512-madzhio-cel-moego-priezda-v-salavat-pobezhdat-hochu-zavoevat-kubok-gagarina-s-ufoj.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "Салават Юлаев",
+        "Мэттью Маджио"
+      ],
+      "relatedTeamIds": [
+        "khl:salavat-yulaev"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658582",
+      "slug": "on-velikolepen-i-budet-stanovitsya-tolko-luchshe-bedard-ob-igre-v-zvene-s-kancerovym",
+      "title": "«Он великолепен и будет становиться только лучше». Бедард — об игре в звене с Канцеровым",
+      "summary": "Капитан «Чикаго Блэкхоукс» Коннор Бедард высказался об игре в звене с Патриком Кейном и Романом Канцеровым.",
+      "content": "Капитан «Чикаго Блэкхоукс» Коннор Бедард высказался об игре в звене с Патриком Кейном и Романом Канцеровым.",
+      "image": "https://img.championat.com/news/big/z/k/on-velikolepen-i-budet-stanovitsya-tolko-luchshe-bedard-ob-igre-v-zvene-s-kancerovym_1792052925383425785.jpg",
+      "publishedAt": "2026-10-15T11:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658582-on-velikolepen-i-budet-stanovitsya-tolko-luchshe-bedard-ob-igre-v-zvene-s-kancerovym.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Чикаго Блэкхоукс",
+        "Патрик Кейн",
+        "Коннор Бедард",
+        "Роман Канцеров"
+      ],
+      "relatedTeamIds": [
+        "nhl:chi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658498",
+      "slug": "eto-reshenie-bylo-lyogkim-mettyu-madzhio-rasskazal-kak-velis-peregovory-s-salavatom",
+      "title": "«Это решение было лёгким». Мэттью Маджио рассказал, как велись переговоры с «Салаватом»",
+      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио рассказал, как велись переговоры с уфимским клубом.",
+      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио рассказал, как велись переговоры с уфимским клубом.",
+      "image": "https://img.championat.com/news/big/j/a/eto-reshenie-bylo-lyogkim-mettyu-madzhio-rasskazal-kak-velis-peregovory-s-salavatom_17920490302095929102.jpg",
+      "publishedAt": "2026-10-15T11:10:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658498-eto-reshenie-bylo-lyogkim-mettyu-madzhio-rasskazal-kak-velis-peregovory-s-salavatom.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "Салават Юлаев",
+        "Мэттью Маджио"
+      ],
+      "relatedTeamIds": [
+        "khl:salavat-yulaev"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658572",
+      "slug": "my-potratili-mnogo-vremeni-na-ego-razvitie-v-detrojte-ne-hotyat-otpuskat-edvinssona",
+      "title": "«Мы потратили много времени на его развитие». В «Детройте» не хотят отпускать Эдвинссона",
+      "summary": "Исполняющий обязанности генерального менеджера «Детройт Ред Уингз» Шон Хоркофф заявил, что клуб не собирается расставаться с защитником Симоном Эдвинссоном.",
+      "content": "Исполняющий обязанности генерального менеджера «Детройт Ред Уингз» Шон Хоркофф заявил, что клуб не собирается расставаться с защитником Симоном Эдвинссоном.",
+      "image": "https://img.championat.com/news/big/c/s/my-potratili-mnogo-vremeni-na-ego-razvitie-v-detrojte-ne-hotyat-otpuskat-edvinssona_1792052502363167533.jpg",
+      "publishedAt": "2026-10-15T11:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658572-my-potratili-mnogo-vremeni-na-ego-razvitie-v-detrojte-ne-hotyat-otpuskat-edvinssona.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Детройт Ред Уингз",
+        "Симон Эдвинссон"
+      ],
+      "relatedTeamIds": [
+        "nhl:det"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658456",
+      "slug": "eto-sogrevaet-dushu-legioner-salavata-rasskazal-v-chyom-rossiya-luchshe-kanady",
+      "title": "«Это согревает душу». Легионер «Салавата» рассказал, в чём Россия лучше Канады",
+      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио рассказал, что ему больше нравится в России по сравнению с Канадой.",
+      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио рассказал, что ему больше нравится в России по сравнению с Канадой.",
+      "image": "https://img.championat.com/news/big/n/p/eto-sogrevaet-dushu-legioner-salavata-rasskazal-v-chyom-rossiya-luchshe-kanady_1792047654876315630.jpg",
+      "publishedAt": "2026-10-15T10:40:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658456-eto-sogrevaet-dushu-legioner-salavata-rasskazal-v-chyom-rossiya-luchshe-kanady.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "Салават Юлаев",
+        "Мэттью Маджио"
+      ],
+      "relatedTeamIds": [
+        "khl:salavat-yulaev"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658626",
+      "slug": "otlichnaya-rabota-miro-glavnyj-trener-vashingtona-pohvalil-miroshnichenko-v-razdevalke",
+      "title": "«Отличная работа, Миро!» Главный тренер «Вашингтона» похвалил Мирошниченко в раздевалке",
+      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери похвалил Ивана Мирошниченко за игру в дебютном для себя матче сезона.",
+      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери похвалил Ивана Мирошниченко за игру в дебютном для себя матче сезона.",
+      "image": "https://img.championat.com/news/big/p/y/otlichnaya-rabota-miro-glavnyj-trener-vashingtona-pohvalil-miroshnichenko-v-razdevalke_1792056119348084768.jpg",
+      "publishedAt": "2026-10-15T10:20:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658626-otlichnaya-rabota-miro-glavnyj-trener-vashingtona-pohvalil-miroshnichenko-v-razdevalke.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Вашингтон Кэпиталз",
+        "Монреаль Канадиенс",
+        "Спенсер Карбери",
+        "Иван Мирошниченко"
+      ],
+      "relatedTeamIds": [
+        "nhl:mtl",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658690",
+      "slug": "agent-zherenko-otreagiroval-na-vozmozhnoe-podpisanie-kontrakta-igrokom-s-moskovskim-dinamo",
+      "title": "Агент Жеренко отреагировал на возможное подписание контракта игроком с московским «Динамо»",
+      "summary": "Хоккейный агент Александр Черных, представляющий интересы вратаря Вадима Жеренко, высказался о ходе переговоров с московским «Динамо».",
+      "content": "Хоккейный агент Александр Черных, представляющий интересы вратаря Вадима Жеренко, высказался о ходе переговоров с московским «Динамо».",
+      "image": "https://img.championat.com/news/big/u/i/agent-zherenko-otreagiroval-na-vozmozhnoe-podpisanie-kontrakta-igrokom-s-moskovskim-dinamo_1792059610270672312.jpg",
+      "publishedAt": "2026-10-15T10:19:31Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658690-agent-zherenko-otreagiroval-na-vozmozhnoe-podpisanie-kontrakta-igrokom-s-moskovskim-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "Динамо Москва",
+        "Переходы — Хоккей",
+        "Александр Черных",
+        "Вадим Жеренко"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6658452",
+      "slug": "eks-hokkeist-ajlenders-otvetil-smozhet-li-ovechkin-pobit-rekord-gretcki-v-etom-sezone",
+      "title": "Экс-хоккеист «Айлендерс» ответил, сможет ли Овечкин побить рекорд Гретцки в этом сезоне",
+      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио заявил, что капитан «Вашингтон Кэпиталз» Александр Овечкин в этом сезоне побьёт рекорд Уэйна Гретцки по голам с учётом плей-офф.",
+      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио заявил, что капитан «Вашингтон Кэпиталз» Александр Овечкин в этом сезоне побьёт рекорд Уэйна Гретцки по голам с учётом плей-офф.",
+      "image": "https://img.championat.com/news/big/f/f/eks-hokkeist-ajlenders-otvetil-smozhet-li-ovechkin-pobit-rekord-gretcki-v-etom-sezone_17920473962066385578.jpg",
+      "publishedAt": "2026-10-15T10:10:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6658452-eks-hokkeist-ajlenders-otvetil-smozhet-li-ovechkin-pobit-rekord-gretcki-v-etom-sezone.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "НХЛ",
+        "Эксклюзив",
+        "Вашингтон Кэпиталз",
+        "Салават Юлаев",
+        "Александр Овечкин",
+        "Уэйн Гретцки",
+        "Мэттью Маджио"
+      ],
+      "relatedTeamIds": [
+        "khl:salavat-yulaev",
+        "nhl:nyi",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
       "id": "news-6658620",
       "slug": "kanadskij-zaschitnik-cska-otreagiroval-na-perehod-v-klub-svoego-sootechestvennika",
       "title": "Канадский защитник ЦСКА отреагировал на переход в клуб своего соотечественника",
@@ -143,658 +743,6 @@
       "relatedPlayerIds": [
         "nhl:p_8471214"
       ]
-    },
-    {
-      "id": "news-6658436",
-      "slug": "ne-videl-nastolko-lovkih-ruk-eks-igrok-ajlenders-ocenil-perspektivy-zharovskogo-v-nhl",
-      "title": "«Не видел настолько ловких рук». Экс-игрок «Айлендерс» оценил перспективы Жаровского в НХЛ",
-      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио высказался о будущем форварда Александра Жаровского.",
-      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио высказался о будущем форварда Александра Жаровского.",
-      "image": "https://img.championat.com/news/big/p/l/ne-videl-nastolko-lovkih-ruk.jpg",
-      "publishedAt": "2026-10-15T08:45:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658436-ne-videl-nastolko-lovkih-ruk-eks-igrok-ajlenders-ocenil-perspektivy-zharovskogo-v-nhl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Салават Юлаев",
-        "Александр Жаровский",
-        "Мэттью Маджио"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev",
-        "nhl:nyi"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658562",
-      "slug": "gavrikov-nesmotrya-na-vozrast-ovechkin-po-prezhnemu-opasen-dlya-sopernikov",
-      "title": "Гавриков: несмотря на возраст, Овечкин по-прежнему опасен для соперников",
-      "summary": "Защитник «Нью-Йорк Рейнджерс» Владислав Гавриков заявил, что 41-летний нападающий «Вашингтон Кэпиталз» Александр Овечкин, несмотря на возраст, по-прежнему остаётся опасным для соперников.",
-      "content": "Защитник «Нью-Йорк Рейнджерс» Владислав Гавриков заявил, что 41-летний нападающий «Вашингтон Кэпиталз» Александр Овечкин, несмотря на возраст, по-прежнему остаётся опасным для соперников.",
-      "image": "https://img.championat.com/news/big/r/c/gavrikov-nesmotrya-na-vozrast-ovechkin-po-prezhnemu-opasen-dlya-sopernikov_17920515021715098455.jpg",
-      "publishedAt": "2026-10-15T08:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658562-gavrikov-nesmotrya-na-vozrast-ovechkin-po-prezhnemu-opasen-dlya-sopernikov.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Нью-Йорк Рейнджерс",
-        "Владислав Гавриков"
-      ],
-      "relatedTeamIds": [
-        "nhl:nyr",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6658430",
-      "slug": "vau-madzhio-zayavil-chto-bolelschiki-salavata-nravyatsya-emu-bolshe-chem-fanaty-v-kanade",
-      "title": "«Вау». Маджио заявил, что болельщики «Салавата» нравятся ему больше, чем фанаты в Канаде",
-      "summary": "Канадский нападающий «Салавата Юлаева» Мэттью Маджио заявил, что любит российских болельщиков, которые поразили его своей страстью.",
-      "content": "Канадский нападающий «Салавата Юлаева» Мэттью Маджио заявил, что любит российских болельщиков, которые поразили его своей страстью.",
-      "image": "https://img.championat.com/news/big/t/l/vau-madzhio-zayavil-chto-bol.jpg",
-      "publishedAt": "2026-10-15T08:20:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658430-vau-madzhio-zayavil-chto-bolelschiki-salavata-nravyatsya-emu-bolshe-chem-fanaty-v-kanade.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Салават Юлаев",
-        "Мэттью Маджио"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658424",
-      "slug": "madzhio-moskva-prevzoshla-vse-moi-ozhidaniya-no-ya-lyublyu-ufu-ona-idealna",
-      "title": "Маджио: Москва превзошла все мои ожидания, но я люблю Уфу. Она идеальна",
-      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио поделился впечатлениями от российских городов и отметил Москву и Уфу.",
-      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио поделился впечатлениями от российских городов и отметил Москву и Уфу.",
-      "image": "https://img.championat.com/news/big/b/f/madzhio-moskva-prevzoshla-vse-moi-ozhidaniya-no-ya-lyublyu-ufu-ona-idealna_17920468261537737256.jpg",
-      "publishedAt": "2026-10-15T07:55:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658424-madzhio-moskva-prevzoshla-vse-moi-ozhidaniya-no-ya-lyublyu-ufu-ona-idealna.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Салават Юлаев",
-        "Мэттью Маджио"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658488",
-      "slug": "karberi-pohvalil-miroshnichenko-za-igru-v-pervom-dlya-sebya-matche-tekuschego-sezona-nhl",
-      "title": "Карбери похвалил Мирошниченко за игру в первом для себя матче текущего сезона НХЛ",
-      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери похвалил Ивана Мирошниченко за игру в дебютном для себя матче сезона.",
-      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери похвалил Ивана Мирошниченко за игру в дебютном для себя матче сезона.",
-      "image": "https://img.championat.com/news/big/u/q/karberi-pohvalil-miroshnichenko-za-igru-v-pervom-dlya-sebya-matche-tekuschego-sezona-nhl_1792048700923778838.jpg",
-      "publishedAt": "2026-10-15T07:40:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658488-karberi-pohvalil-miroshnichenko-za-igru-v-pervom-dlya-sebya-matche-tekuschego-sezona-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Монреаль Канадиенс",
-        "Спенсер Карбери",
-        "Иван Мирошниченко"
-      ],
-      "relatedTeamIds": [
-        "nhl:mtl",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658416",
-      "slug": "ya-nemnogo-nervnichal-kanadskij-hokkeist-salavata-rasskazal-o-vstreche-s-ovechkinym",
-      "title": "«Я немного нервничал». Канадский хоккеист «Салавата» рассказал о встрече с Овечкиным",
-      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио заявил, что нервничал при первой встрече с капитаном «Вашингтон Кэпиталз» Александром Овечкиным, с которым он познакомился во время выступлений за фарм-клуб в АХЛ.",
-      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио заявил, что нервничал при первой встрече с капитаном «Вашингтон Кэпиталз» Александром Овечкиным, с которым он познакомился во время выступлений за фарм-клуб в АХЛ.",
-      "image": "https://img.championat.com/news/big/j/o/ya-nemnogo-nervnichal-kanadskij-hokkeist-salavata-rasskazal-o-vstreche-s-ovechkinym_17920465501820862302.jpg",
-      "publishedAt": "2026-10-15T07:30:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658416-ya-nemnogo-nervnichal-kanadskij-hokkeist-salavata-rasskazal-o-vstreche-s-ovechkinym.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Вашингтон Кэпиталз",
-        "Салават Юлаев",
-        "Александр Овечкин",
-        "Мэттью Маджио"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6658404",
-      "slug": "etot-paradoks-brosaetsya-v-glaza-vladimir-yurzinov-vyskazalsya-o-trenerah-v-khl",
-      "title": "«Этот парадокс бросается в глаза». Владимир Юрзинов высказался о тренерах в КХЛ",
-      "summary": "Бывший главный тренер сборной СССР Владимир Юрзинов-старший поделился мыслями по поводу перспективных российских тренеров.",
-      "content": "Бывший главный тренер сборной СССР Владимир Юрзинов-старший поделился мыслями по поводу перспективных российских тренеров.",
-      "image": "https://img.championat.com/news/big/b/m/etot-paradoks-brosaetsya-v-g.jpg",
-      "publishedAt": "2026-10-15T07:15:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658404-etot-paradoks-brosaetsya-v-glaza-vladimir-yurzinov-vyskazalsya-o-trenerah-v-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Виктор Козлов",
-        "Владимир Юрзинов-старший",
-        "Андрей Козырев",
-        "Ярослав Люзенков",
-        "Алексей Исаков"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658378",
-      "slug": "v-kanade-ne-mogli-poverit-legioner-khl-nazval-stereotipy-o-rossii-kotorye-razrushilis",
-      "title": "«В Канаде не могли поверить». Легионер КХЛ назвал стереотипы о России, которые разрушились",
-      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио высказался о стереотипах о России, о которых его предупреждали в Северной Америке.",
-      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио высказался о стереотипах о России, о которых его предупреждали в Северной Америке.",
-      "image": "https://img.championat.com/news/big/l/p/v-kanade-ne-mogli-poverit-legioner-khl-nazval-stereotipy-o-rossii-kotorye-razrushilis_17920452381400167953.jpg",
-      "publishedAt": "2026-10-15T07:05:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658378-v-kanade-ne-mogli-poverit-legioner-khl-nazval-stereotipy-o-rossii-kotorye-razrushilis.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Салават Юлаев",
-        "Мэттью Маджио"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658366",
-      "slug": "kanadskij-forvard-salavata-obyasnil-chto-samoe-slozhnoe-dlya-nego-v-adaptacii-v-rossii",
-      "title": "Канадский форвард «Салавата» объяснил, что самое сложное для него в адаптации в России",
-      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио рассказал о сложностях в адаптации в России.",
-      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио рассказал о сложностях в адаптации в России.",
-      "image": "https://img.championat.com/news/big/b/i/kanadskij-forvard-salavata-obyasnil-chto-samoe-slozhnoe-dlya-nego-v-adaptacii-v-rossii_1792043973581976047.jpg",
-      "publishedAt": "2026-10-15T06:50:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658366-kanadskij-forvard-salavata-obyasnil-chto-samoe-slozhnoe-dlya-nego-v-adaptacii-v-rossii.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Салават Юлаев",
-        "Мэттью Маджио"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658362",
-      "slug": "my-dolzhny-zanimat-mesto-poluchshe-lider-salavata-yulaeva-o-polozhenii-komandy-v-tablice",
-      "title": "«Мы должны занимать место получше». Лидер «Салавата» — о положении команды в таблице",
-      "summary": "Нападающий «Салавата Юлаева» Шелдон Ремпал высказался о результатах команды в этом сезоне.",
-      "content": "Нападающий «Салавата Юлаева» Шелдон Ремпал высказался о результатах команды в этом сезоне.",
-      "image": "https://img.championat.com/news/big/a/o/my-dolzhny-zanimat-mesto-poluchshe-lider-salavata-o-polozhenii-komandy-v-tablice_1792046368457243316.jpg",
-      "publishedAt": "2026-10-15T06:35:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658362-my-dolzhny-zanimat-mesto-poluchshe-lider-salavata-yulaeva-o-polozhenii-komandy-v-tablice.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Сибирь",
-        "Шелдон Ремпал"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658356",
-      "slug": "madzhio-rasskazal-kak-na-nego-povliyal-razgovor-s-kozlovym-pered-perehodom-v-salavat",
-      "title": "Маджио рассказал, как на него повлиял разговор с Козловым перед переходом в «Салават»",
-      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио заявил, что главный тренер Виктор Козлов стал одним из факторов его перехода в уфимский клуб.",
-      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио заявил, что главный тренер Виктор Козлов стал одним из факторов его перехода в уфимский клуб.",
-      "image": "https://img.championat.com/news/big/a/o/madzhio-rasskazal-kak-na-neg.jpg",
-      "publishedAt": "2026-10-15T06:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658356-madzhio-rasskazal-kak-na-nego-povliyal-razgovor-s-kozlovym-pered-perehodom-v-salavat.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Салават Юлаев",
-        "Виктор Козлов",
-        "Мэттью Маджио"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658340",
-      "slug": "raspisanie-matchej-mhl-na-15-oktyabrya-2026-goda",
-      "title": "Расписание матчей МХЛ на 15 октября 2026 года",
-      "summary": "Сегодня, 15 октября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
-      "content": "Сегодня, 15 октября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-10-15T06:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658340-raspisanie-matchej-mhl-na-15-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "МХЛ",
-        "МХК Локо",
-        "МХК Белые Медведи",
-        "МХК Кузнецкие Медведи",
-        "МХК Авто",
-        "МХК Реактор",
-        "МХК Амурские Тигры",
-        "МХК Динамо Санкт-Петербург",
-        "МХК Тайфун",
-        "МХК Спутник Альметьевск"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658348",
-      "slug": "severstal-lokomotiv-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-15-oktyabrya-2026",
-      "title": "«Северсталь» — «Локомотив»: во сколько начало матча КХЛ, где смотреть трансляцию",
-      "summary": "Сегодня, 15 октября, в Череповце на стадионе «Ледовый дворец» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Северсталь» примет ярославский «Локомотив».",
-      "content": "Сегодня, 15 октября, в Череповце на стадионе «Ледовый дворец» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Северсталь» примет ярославский «Локомотив».",
-      "image": "https://img.championat.com/news/big/r/a/severstal-lokomotiv-vo-skolko-nachalo-matcha-khl-gde-smotret-translyaciyu_17920425311400165576.jpg",
-      "publishedAt": "2026-10-15T05:50:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658348-severstal-lokomotiv-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-15-oktyabrya-2026.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Локомотив",
-        "Северсталь"
-      ],
-      "relatedTeamIds": [
-        "khl:lokomotiv",
-        "khl:severstal"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658338",
-      "slug": "raspisanie-matchej-vhl-na-15-oktyabrya-2026-goda",
-      "title": "Расписание матчей ВХЛ на 15 октября 2026 года",
-      "summary": "Сегодня, 15 октября, пройдут шесть матчей OLIMPBET Чемпионата России — ВХЛ.",
-      "content": "Сегодня, 15 октября, пройдут шесть матчей OLIMPBET Чемпионата России — ВХЛ.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-15T05:40:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658338-raspisanie-matchej-vhl-na-15-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "ВХЛ",
-        "Металлург Нк",
-        "Югра",
-        "Рубин",
-        "Торос",
-        "Сокол Красноярск",
-        "Дизель",
-        "Ижсталь",
-        "Зауралье",
-        "Кристалл Саратов",
-        "Тамбов"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658342",
-      "slug": "lada-ska-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-15-oktyabrya-2026",
-      "title": "«Лада» — СКА: во сколько начало матча КХЛ, где смотреть трансляцию",
-      "summary": "Сегодня, 15 октября, в Тольятти на стадионе «Лада-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Лада» примет СКА.",
-      "content": "Сегодня, 15 октября, в Тольятти на стадионе «Лада-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Лада» примет СКА.",
-      "image": "https://img.championat.com/news/big/p/n/lada-ska-vo-skolko-nachalo-matcha-khl-gde-smotret-translyaciyu_1792042218396079341.jpg",
-      "publishedAt": "2026-10-15T05:30:25Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658342-lada-ska-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-15-oktyabrya-2026.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Лада"
-      ],
-      "relatedTeamIds": [
-        "khl:lada",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658316",
-      "slug": "9-oktyabrya-glavnye-novosti-sporta-futbol-liga-chempionov-hokkej-nhl-khl-nba-rezultaty",
-      "title": "Камбэк «Реала» в ЛЧ, ассист Овечкина в игре с «Монреалем» в НХЛ. Главное к утру",
-      "summary": "Мадридский «Реал» обыграл «Рому» в Лиге чемпионов, уступая 1:3 к 83-й минуте матча, ассист Александра Овечкина и гол Ивана Мирошниченко помогли «Вашингтон Кэпиталз» победить «Монреаль Канадиенс» в НХЛ, ХК ЦСКА продлил...",
-      "content": "Мадридский «Реал» обыграл «Рому» в Лиге чемпионов, уступая 1:3 к 83-й минуте матча, ассист Александра Овечкина и гол Ивана Мирошниченко помогли «Вашингтон Кэпиталз» победить «Монреаль Канадиенс» в НХЛ, ХК ЦСКА продлил победную серию до 11 матчей, одолев «Динамо» в московском дерби в КХЛ.",
-      "image": "https://img.championat.com/news/big/p/a/kambek-reala-v-lch-assist-ovechkina-v-igre-s-monrealem-v-nhl-glavnoe-k-utru_17920412631717616130.jpg",
-      "publishedAt": "2026-10-15T05:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658316-9-oktyabrya-glavnye-novosti-sporta-futbol-liga-chempionov-hokkej-nhl-khl-nba-rezultaty.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Футбол",
-        "Лига чемпионов",
-        "Баскетбол",
-        "НБА",
-        "Реал Мадрид",
-        "Манчестер Сити",
-        "ЦСКА",
-        "Динамо Москва",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Металлург Мг",
-        "Лионель Месси",
-        "Трактор",
-        "Динамо Минск",
-        "Рома",
-        "Майами Хит",
-        "Бруклин Нетс",
-        "Колорадо Эвеланш",
-        "Килиан Мбаппе",
-        "Монреаль Канадиенс",
-        "Даллас Старз",
-        "Шанхайские Драконы (Куньлунь Ред Стар)",
-        "Лига чемпионов — Футбол",
-        "Эрлинг Холанд",
-        "Яннис Адетокунбо",
-        "Винисиус Жуниор",
-        "Егор Дёмин",
-        "Михаил Григоренко",
-        "Иван Мирошниченко",
-        "ЛАСК",
-        "КХЛ прогноз на матчи"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:dynamo-mns",
-        "khl:dynamo-msk",
-        "khl:kunlun",
-        "khl:metallurg-mg",
-        "khl:traktor",
-        "nhl:col",
-        "nhl:dal",
-        "nhl:mtl",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6658334",
-      "slug": "raspisanie-matchej-khl-na-15-oktyabrya-2026-goda",
-      "title": "Расписание матчей КХЛ на 15 октября 2026 года",
-      "summary": "Сегодня, 15 октября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Сегодня, 15 октября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/i/z/raspisanie-matchej-khl-na-15-oktyabrya-2026-goda_17920412431085387932.jpg",
-      "publishedAt": "2026-10-15T05:20:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658334-raspisanie-matchej-khl-na-15-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Локомотив",
-        "Северсталь",
-        "Лада"
-      ],
-      "relatedTeamIds": [
-        "khl:lada",
-        "khl:lokomotiv",
-        "khl:severstal",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658328",
-      "slug": "rezultaty-matchej-nhl-na-15-oktyabrya-2026-goda",
-      "title": "Результаты матчей НХЛ на 15 октября 2026 года",
-      "summary": "В ночь на 15 октября прошли очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
-      "content": "В ночь на 15 октября прошли очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/e/z/rezultaty-matchej-nhl-na-15-oktyabrya-2026-goda_1792040964258013981.jpg",
-      "publishedAt": "2026-10-15T05:10:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658328-rezultaty-matchej-nhl-na-15-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Колорадо Эвеланш",
-        "Монреаль Канадиенс",
-        "Даллас Старз"
-      ],
-      "relatedTeamIds": [
-        "nhl:col",
-        "nhl:dal",
-        "nhl:mtl",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658318",
-      "slug": "ovechkin-ne-brosil-po-pustym-vorotam-v-koncovke-igry-s-monrealem-otpasovav-partnyoru",
-      "title": "Овечкин не бросил по пустым воротам в концовке игры с «Монреалем», сделав пас партнёру",
-      "summary": "Капитан «Вашингтон Кэпиталз» Александр Овечкин в матче регулярного чемпионата Национальной хоккейной лиги с «Монреаль Канадиенс» (5:4) отказался от броска по пустым воротам в концовке третьего периода.",
-      "content": "Капитан «Вашингтон Кэпиталз» Александр Овечкин в матче регулярного чемпионата Национальной хоккейной лиги с «Монреаль Канадиенс» (5:4) отказался от броска по пустым воротам в концовке третьего периода.",
-      "image": "https://img.championat.com/news/big/g/y/ovechkin-ne-brosil-po-pustym-vorotam-v-koncovke-igry-s-monrealem-sdelav-pas-partnyoru_1792039506480136260.jpg",
-      "publishedAt": "2026-10-15T04:41:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658318-ovechkin-ne-brosil-po-pustym-vorotam-v-koncovke-igry-s-monrealem-otpasovav-partnyoru.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Монреаль Канадиенс",
-        "Джордан Кайру"
-      ],
-      "relatedTeamIds": [
-        "nhl:mtl",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6658264",
-      "slug": "kolorado-evelansh-dallas-starz-rezultat-matcha-15-oktyabrya-2026-schet-2-3-b-regulyarnyj-chempionat-nhl-2026-2027",
-      "title": "«Колорадо» проиграл по буллитам «Далласу» в НХЛ",
-      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Колорадо Эвеланш» и «Даллас Старз», который прошёл на стадионе «Болл-Арена» в американском Денвере.",
-      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ) сезона-2026/2027 между командами «Колорадо Эвеланш» и «Даллас Старз», который прошёл на стадионе «Болл-Арена» в американском Денвере.",
-      "image": "https://img.championat.com/news/big/u/c/kolorado-proigral-po-bullitam-dallasu-v-nhl_17920348381500665731.jpg",
-      "publishedAt": "2026-10-15T03:27:20Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658264-kolorado-evelansh-dallas-starz-rezultat-matcha-15-oktyabrya-2026-schet-2-3-b-regulyarnyj-chempionat-nhl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Колорадо Эвеланш",
-        "Даллас Старз",
-        "Габриэль Ландеског",
-        "Назем Кадри",
-        "Фёдор Свечков",
-        "Миро Хейсканен",
-        "Брок Нельсон"
-      ],
-      "relatedTeamIds": [
-        "nhl:col",
-        "nhl:dal"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658268",
-      "slug": "vashington-kepitalz-monreal-kanadiens-rezultat-matcha-15-oktyabrya-2026-schyot-5-4-regulyarnyj-chempionat-nhl-2026-2027-ovechkin",
-      "title": "Ассист Овечкина и гол Мирошниченко помогли «Вашингтону» победить «Монреаль» в НХЛ",
-      "summary": "В ночь с 14 на 15 октября завершился матч регулярного чемпионата Национальной хоккейной лиги между «Вашингтон Кэпиталз» и «Монреаль Канадиенс».",
-      "content": "В ночь с 14 на 15 октября завершился матч регулярного чемпионата Национальной хоккейной лиги между «Вашингтон Кэпиталз» и «Монреаль Канадиенс».",
-      "image": "https://img.championat.com/news/big/z/v/assist-ovechkina-i-gol-miroshnichenko-pomogli-vashingtonu-pobedit-monreal-v-nhl_17920311792116885416.jpg",
-      "publishedAt": "2026-10-15T02:26:21Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658268-vashington-kepitalz-monreal-kanadiens-rezultat-matcha-15-oktyabrya-2026-schyot-5-4-regulyarnyj-chempionat-nhl-2026-2027-ovechkin.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Видео",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Монреаль Канадиенс",
-        "Иван Мирошниченко",
-        "Ник Судзуки",
-        "Алекс Так",
-        "Джордан Кайру",
-        "Лэйн Хатсон",
-        "Джош Андерсон"
-      ],
-      "relatedTeamIds": [
-        "nhl:mtl",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6658246",
-      "slug": "miroshnichenko-dognal-ovechkina-po-golam-v-tekuschem-sezone-zabiv-v-svoyom-pervom-matche",
-      "title": "Мирошниченко догнал Овечкина по голам в текущем сезоне, забив в своём первом же матче",
-      "summary": "В эти минуты в столице США, Вашингтоне, на стадионе «Кэпитал Уан-Арена» проходит матч регулярного чемпионата Национальной хоккейной лиги, в котором «Вашингтон Кэпиталз» принимает «Монреаль Канадиенс».",
-      "content": "В эти минуты в столице США, Вашингтоне, на стадионе «Кэпитал Уан-Арена» проходит матч регулярного чемпионата Национальной хоккейной лиги, в котором «Вашингтон Кэпиталз» принимает «Монреаль Канадиенс».",
-      "image": "https://img.championat.com/news/big/i/w/miroshnichenko-dognal-ovechkina-po-golam-v-tekuschem-sezone-zabiv-v-svoyom-pervom-zhe-matc_1792026541779953404.jpg",
-      "publishedAt": "2026-10-15T01:08:51Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658246-miroshnichenko-dognal-ovechkina-po-golam-v-tekuschem-sezone-zabiv-v-svoyom-pervom-matche.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Видео",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Монреаль Канадиенс",
-        "Иван Мирошниченко",
-        "Джордан Кайру",
-        "Илья Протас"
-      ],
-      "relatedTeamIds": [
-        "nhl:mtl",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6658244",
-      "slug": "koul-hatson-pokoril-dostizhenie-mihaila-tatarinova-v-sostave-vashingtona",
-      "title": "Коул Хатсон покорил достижение Михаила Татаринова в составе «Вашингтона»",
-      "summary": "В эти минуты в Вашингтоне на стадионе «Кэпитал Уан-Аренаматч регулярного чемпионата Национальной хоккейной лиги, в котором «Вашингтон Кэпиталз» принимает «Монреаль Канадиенс».",
-      "content": "В эти минуты в Вашингтоне на стадионе «Кэпитал Уан-Аренаматч регулярного чемпионата Национальной хоккейной лиги, в котором «Вашингтон Кэпиталз» принимает «Монреаль Канадиенс».",
-      "image": "https://img.championat.com/news/big/d/b/koul-hatson-pokoril-dostizhenie-mihaila-tatarinova-v-sostave-vashingtona_17920261292145695833.jpg",
-      "publishedAt": "2026-10-15T01:02:12Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658244-koul-hatson-pokoril-dostizhenie-mihaila-tatarinova-v-sostave-vashingtona.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Монреаль Канадиенс",
-        "Коул Хатсон"
-      ],
-      "relatedTeamIds": [
-        "nhl:mtl",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6657454",
-      "slug": "vashington-kepitalz-monreal-kanadiens-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachalas",
-      "title": "«Вашингтон» — «Монреаль»: онлайн-трансляция матча НХЛ началась",
-      "summary": "В ночь на 15 октября продолжается регулярный чемпионат Национальной хоккейной лиги.",
-      "content": "В ночь на 15 октября продолжается регулярный чемпионат Национальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/r/f/vashington-monreal-onlajn-translyaciya-matcha-nhl-nachalas_1791977629378071857.jpg",
-      "publishedAt": "2026-10-14T23:30:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6657454-vashington-kepitalz-monreal-kanadiens-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Монреаль Канадиенс"
-      ],
-      "relatedTeamIds": [
-        "nhl:mtl",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6658084",
-      "slug": "rezultaty-matchej-mhl-na-14-oktyabrya-2026-goda",
-      "title": "Результаты матчей МХЛ на 14 октября 2026 года",
-      "summary": "Сегодня, 14 октября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
-      "content": "Сегодня, 14 октября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-14T20:55:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6658084-rezultaty-matchej-mhl-na-14-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "МХЛ",
-        "МХК Спартак",
-        "МХК Алмаз",
-        "МХК Мамонты Югры"
-      ],
-      "relatedTeamIds": [
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
     }
   ]
 }
