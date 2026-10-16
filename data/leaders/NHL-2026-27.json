@@ -42,15 +42,15 @@
         "value": 8
       },
       {
-        "playerId": "nhl:p_8478398",
-        "playerName": "Kyle Connor",
-        "teamId": "nhl:wpg",
-        "value": 7
-      },
-      {
         "playerId": "nhl:p_8482109",
         "playerName": "Alexis Lafrenière",
         "teamId": "nhl:nyr",
+        "value": 7
+      },
+      {
+        "playerId": "nhl:p_8478398",
+        "playerName": "Kyle Connor",
+        "teamId": "nhl:wpg",
         "value": 7
       },
       {
@@ -80,6 +80,12 @@
         "value": 9
       },
       {
+        "playerId": "nhl:p_8479323",
+        "playerName": "Adam Fox",
+        "teamId": "nhl:nyr",
+        "value": 9
+      },
+      {
         "playerId": "nhl:p_8480803",
         "playerName": "Evan Bouchard",
         "teamId": "nhl:edm",
@@ -90,12 +96,6 @@
         "playerName": "Quinn Hughes",
         "teamId": "nhl:min",
         "value": 8
-      },
-      {
-        "playerId": "nhl:p_8479343",
-        "playerName": "Clayton Keller",
-        "teamId": "nhl:uta",
-        "value": 8
       }
     ],
     "gaa": [
@@ -104,12 +104,6 @@
         "playerName": "Daniil Tarasov",
         "teamId": "nhl:det",
         "value": 0.66
-      },
-      {
-        "playerId": "nhl:p_8482193",
-        "playerName": "Dylan Garand",
-        "teamId": "nhl:nyr",
-        "value": 1.15
       },
       {
         "playerId": "nhl:p_8479979",
@@ -128,6 +122,12 @@
         "playerName": "Ville Husso",
         "teamId": "nhl:ana",
         "value": 1.58
+      },
+      {
+        "playerId": "nhl:p_8481611",
+        "playerName": "Pyotr Kochetkov",
+        "teamId": "nhl:car",
+        "value": 1.73
       }
     ],
     "svPct": [
@@ -136,12 +136,6 @@
         "playerName": "Daniil Tarasov",
         "teamId": "nhl:det",
         "value": 0.974
-      },
-      {
-        "playerId": "nhl:p_8482193",
-        "playerName": "Dylan Garand",
-        "teamId": "nhl:nyr",
-        "value": 0.951
       },
       {
         "playerId": "nhl:p_8476999",
@@ -160,6 +154,12 @@
         "playerName": "Ville Husso",
         "teamId": "nhl:ana",
         "value": 0.935
+      },
+      {
+        "playerId": "nhl:p_8478009",
+        "playerName": "Ilya Sorokin",
+        "teamId": "nhl:nyi",
+        "value": 0.934
       }
     ]
   }

@@ -6,84 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-16T01:00:00Z",
-  "status": "LIVE",
-  "period": 2,
-  "clock": "11:39",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:edm",
-    "score": 0,
+    "score": 2,
     "periods": [],
-    "shots": 5
+    "shots": null
   },
   "away": {
     "id": "nhl:uta",
-    "score": 1,
+    "score": 4,
     "periods": [],
-    "shots": 10
+    "shots": null
   },
   "arena": "Rogers Place",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "09:23",
-      "team": "home",
-      "playerId": "nhl:p_8484509",
-      "playerName": "Josh Samanski",
-      "minutes": 4,
-      "reason": "high-sticking-double-minor",
-      "order": 139
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "10:38",
-      "team": "away",
-      "playerId": "nhl:p_8480849",
-      "playerName": "Barrett Hayton",
-      "assists": [
-        "nhl:p_8479977",
-        "nhl:p_8478507"
-      ],
-      "score": "0-1",
-      "order": 155
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "01:26",
-      "team": "away",
-      "minutes": 2,
-      "reason": "too-many-men-on-the-ice",
-      "order": 312
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      5,
-      10
-    ],
-    "shotsOnGoal": [
-      5,
-      10
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020117/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020117/play-by-play"
-    ],
-    "fetchedAt": "2026-10-16T02:08:34.636445+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -91,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/uta-vs-edm/2026/10/15/2026020117",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/uta-vs-edm/2026/10/15/2026020117",
-    "verifiedAt": "2026-10-16T02:08:34.636549Z"
+    "verifiedAt": "2026-10-16T07:05:29.123412Z"
   }
 }

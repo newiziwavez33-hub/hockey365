@@ -6,203 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-16T00:00:00Z",
-  "status": "LIVE",
+  "status": "FINISHED",
   "period": 3,
-  "clock": "20:00",
-  "finishedIn": null,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:min",
     "score": 5,
     "periods": [],
-    "shots": 29
+    "shots": null
   },
   "away": {
     "id": "nhl:stl",
-    "score": 2,
+    "score": 4,
     "periods": [],
-    "shots": 16
+    "shots": null
   },
   "arena": "Grand Casino Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "00:55",
-      "team": "home",
-      "playerId": "nhl:p_8481553",
-      "playerName": "Bobby Brink",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 23
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "01:45",
-      "team": "away",
-      "playerId": "nhl:p_8481013",
-      "playerName": "Jonatan Berggren",
-      "assists": [
-        "nhl:p_8475764",
-        "nhl:p_8484164"
-      ],
-      "score": "0-1",
-      "order": 35
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "05:36",
-      "team": "away",
-      "playerId": "nhl:p_8482745",
-      "playerName": "Mason McTavish",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 88
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "07:08",
-      "team": "away",
-      "playerId": "nhl:p_8482089",
-      "playerName": "Jake Neighbours",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 112
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "07:31",
-      "team": "home",
-      "playerId": "nhl:p_8481557",
-      "playerName": "Matt Boldy",
-      "assists": [
-        "nhl:p_8480800",
-        "nhl:p_8478493"
-      ],
-      "score": "1-1",
-      "order": 121
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "11:17",
-      "team": "home",
-      "playerId": "nhl:p_8483525",
-      "playerName": "Danila Yurov",
-      "assists": [
-        "nhl:p_8485702",
-        "nhl:p_8478508"
-      ],
-      "score": "2-1",
-      "order": 171
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "13:52",
-      "team": "home",
-      "playerId": "nhl:p_8474567",
-      "playerName": "Zach Bogosian",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 200
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "00:53",
-      "team": "away",
-      "playerId": "nhl:p_8480023",
-      "playerName": "Robert Thomas",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 283
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "04:57",
-      "team": "away",
-      "playerId": "nhl:p_8482745",
-      "playerName": "Mason McTavish",
-      "assists": [
-        "nhl:p_8480459",
-        "nhl:p_8476892"
-      ],
-      "score": "2-2",
-      "order": 335
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "05:24",
-      "team": "home",
-      "playerId": "nhl:p_8481557",
-      "playerName": "Matt Boldy",
-      "assists": [
-        "nhl:p_8478493",
-        "nhl:p_8478864"
-      ],
-      "score": "3-2",
-      "order": 340
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "08:47",
-      "team": "home",
-      "playerId": "nhl:p_8478864",
-      "playerName": "Kirill Kaprizov",
-      "assists": [
-        "nhl:p_8480800",
-        "nhl:p_8481557"
-      ],
-      "score": "4-2",
-      "order": 388
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "16:47",
-      "team": "home",
-      "playerId": "nhl:p_8481557",
-      "playerName": "Matt Boldy",
-      "assists": [
-        "nhl:p_8478864",
-        "nhl:p_8477446"
-      ],
-      "score": "5-2",
-      "order": 473
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      29,
-      16
-    ],
-    "shotsOnGoal": [
-      29,
-      16
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020116/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020116/play-by-play"
-    ],
-    "fetchedAt": "2026-10-16T02:08:34.586063+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -210,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/stl-vs-min/2026/10/15/2026020116",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/stl-vs-min/2026/10/15/2026020116",
-    "verifiedAt": "2026-10-16T02:08:34.586169Z"
+    "verifiedAt": "2026-10-16T07:05:29.123337Z"
   }
 }

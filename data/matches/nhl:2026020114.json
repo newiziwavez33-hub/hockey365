@@ -6,204 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-16T00:00:00Z",
-  "status": "LIVE",
-  "period": 3,
-  "clock": "16:02",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 4,
+  "clock": null,
+  "finishedIn": "OT",
   "home": {
     "id": "nhl:chi",
-    "score": 3,
+    "score": 4,
     "periods": [],
-    "shots": 22
+    "shots": null
   },
   "away": {
     "id": "nhl:wpg",
-    "score": 2,
+    "score": 3,
     "periods": [],
-    "shots": 23
+    "shots": null
   },
   "arena": "United Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "01:16",
-      "team": "away",
-      "playerId": "nhl:p_8476392",
-      "playerName": "Adam Lowry",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 28
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "01:33",
-      "team": "home",
-      "playerId": "nhl:p_8476882",
-      "playerName": "Teuvo Teravainen",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 35
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "02:39",
-      "team": "home",
-      "playerId": "nhl:p_8483506",
-      "playerName": "Sam Rinzel",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 47
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "02:39",
-      "team": "away",
-      "playerId": "nhl:p_8476331",
-      "playerName": "Dylan DeMelo",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 49
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "06:13",
-      "team": "away",
-      "playerId": "nhl:p_8481030",
-      "playerName": "Jack St. Ivany",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 106
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "06:58",
-      "team": "away",
-      "playerId": "nhl:p_8479983",
-      "playerName": "Mario Ferraro",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 114
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "08:11",
-      "team": "home",
-      "playerId": "nhl:p_8484144",
-      "playerName": "Connor Bedard",
-      "assists": [
-        "nhl:p_8474141",
-        "nhl:p_8477479"
-      ],
-      "score": "1-0",
-      "order": 128
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "15:10",
-      "team": "home",
-      "playerId": "nhl:p_8483493",
-      "playerName": "Frank Nazar",
-      "score": "2-0",
-      "order": 223
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "16:57",
-      "team": "away",
-      "playerId": "nhl:p_8480145",
-      "playerName": "Neal Pionk",
-      "assists": [
-        "nhl:p_8480289",
-        "nhl:p_8483471"
-      ],
-      "score": "2-1",
-      "order": 242
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "17:11",
-      "team": "home",
-      "playerId": "nhl:p_8477987",
-      "playerName": "Ryan Donato",
-      "assists": [
-        "nhl:p_8484197",
-        "nhl:p_8482176"
-      ],
-      "score": "3-1",
-      "order": 246
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "03:21",
-      "team": "home",
-      "playerId": "nhl:p_8483450",
-      "playerName": "Ryan Greene",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 331
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "04:44",
-      "team": "away",
-      "playerId": "nhl:p_8478398",
-      "playerName": "Kyle Connor",
-      "assists": [
-        "nhl:p_8476460",
-        "nhl:p_8480145"
-      ],
-      "score": "3-2",
-      "order": 346
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "19:43",
-      "team": "away",
-      "playerId": "nhl:p_8475799",
-      "playerName": "Nino Niederreiter",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 540
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      22,
-      23
-    ],
-    "shotsOnGoal": [
-      22,
-      23
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020114/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020114/play-by-play"
-    ],
-    "fetchedAt": "2026-10-16T02:08:34.475090+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -211,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/wpg-vs-chi/2026/10/15/2026020114",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/wpg-vs-chi/2026/10/15/2026020114",
-    "verifiedAt": "2026-10-16T02:08:34.475269Z"
+    "verifiedAt": "2026-10-16T07:05:29.123195Z"
   }
 }
