@@ -7,12 +7,24 @@
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
         "teamId": "nhl:edm",
-        "value": 17
+        "value": 18
+      },
+      {
+        "playerId": "nhl:p_8478403",
+        "playerName": "Jack Eichel",
+        "teamId": "nhl:vgk",
+        "value": 16
       },
       {
         "playerId": "nhl:p_8480803",
         "playerName": "Evan Bouchard",
         "teamId": "nhl:edm",
+        "value": 15
+      },
+      {
+        "playerId": "nhl:p_8478864",
+        "playerName": "Kirill Kaprizov",
+        "teamId": "nhl:min",
         "value": 14
       },
       {
@@ -20,18 +32,6 @@
         "playerName": "Sebastian Aho",
         "teamId": "nhl:car",
         "value": 13
-      },
-      {
-        "playerId": "nhl:p_8478403",
-        "playerName": "Jack Eichel",
-        "teamId": "nhl:vgk",
-        "value": 13
-      },
-      {
-        "playerId": "nhl:p_8477939",
-        "playerName": "William Nylander",
-        "teamId": "nhl:tor",
-        "value": 12
       }
     ],
     "goals": [
@@ -39,18 +39,18 @@
         "playerId": "nhl:p_8478864",
         "playerName": "Kirill Kaprizov",
         "teamId": "nhl:min",
+        "value": 9
+      },
+      {
+        "playerId": "nhl:p_8478398",
+        "playerName": "Kyle Connor",
+        "teamId": "nhl:wpg",
         "value": 8
       },
       {
         "playerId": "nhl:p_8482109",
         "playerName": "Alexis Lafrenière",
         "teamId": "nhl:nyr",
-        "value": 7
-      },
-      {
-        "playerId": "nhl:p_8478398",
-        "playerName": "Kyle Connor",
-        "teamId": "nhl:wpg",
         "value": 7
       },
       {
@@ -71,12 +71,24 @@
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
         "teamId": "nhl:edm",
-        "value": 13
+        "value": 14
       },
       {
         "playerId": "nhl:p_8478403",
         "playerName": "Jack Eichel",
         "teamId": "nhl:vgk",
+        "value": 11
+      },
+      {
+        "playerId": "nhl:p_8480800",
+        "playerName": "Quinn Hughes",
+        "teamId": "nhl:min",
+        "value": 10
+      },
+      {
+        "playerId": "nhl:p_8480803",
+        "playerName": "Evan Bouchard",
+        "teamId": "nhl:edm",
         "value": 9
       },
       {
@@ -84,18 +96,6 @@
         "playerName": "Adam Fox",
         "teamId": "nhl:nyr",
         "value": 9
-      },
-      {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 8
-      },
-      {
-        "playerId": "nhl:p_8480800",
-        "playerName": "Quinn Hughes",
-        "teamId": "nhl:min",
-        "value": 8
       }
     ],
     "gaa": [
@@ -103,7 +103,7 @@
         "playerId": "nhl:p_8480193",
         "playerName": "Daniil Tarasov",
         "teamId": "nhl:det",
-        "value": 0.66
+        "value": 0.8
       },
       {
         "playerId": "nhl:p_8479979",
@@ -115,7 +115,7 @@
         "playerId": "nhl:p_8476999",
         "playerName": "Linus Ullmark",
         "teamId": "nhl:ott",
-        "value": 1.27
+        "value": 1.2
       },
       {
         "playerId": "nhl:p_8478024",
@@ -135,13 +135,13 @@
         "playerId": "nhl:p_8480193",
         "playerName": "Daniil Tarasov",
         "teamId": "nhl:det",
-        "value": 0.974
+        "value": 0.965
       },
       {
         "playerId": "nhl:p_8476999",
         "playerName": "Linus Ullmark",
         "teamId": "nhl:ott",
-        "value": 0.948
+        "value": 0.949
       },
       {
         "playerId": "nhl:p_8479979",
