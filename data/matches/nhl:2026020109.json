@@ -6,60 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-15T23:00:00Z",
-  "status": "INTERMISSION",
-  "period": 1,
-  "clock": "09:29",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 5,
+  "clock": null,
+  "finishedIn": "SO",
   "home": {
     "id": "nhl:ott",
-    "score": 0,
+    "score": 2,
     "periods": [],
-    "shots": 4
+    "shots": null
   },
   "away": {
     "id": "nhl:nyi",
     "score": 1,
     "periods": [],
-    "shots": 5
+    "shots": null
   },
   "arena": "Canadian Tire Centre",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "19:48",
-      "team": "away",
-      "playerId": "nhl:p_8481711",
-      "playerName": "Matias Maccelli",
-      "score": "0-1",
-      "order": 285
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      4,
-      5
-    ],
-    "shotsOnGoal": [
-      4,
-      5
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020109/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020109/play-by-play"
-    ],
-    "fetchedAt": "2026-10-15T23:54:37.551004+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -67,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/nyi-vs-ott/2026/10/15/2026020109",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/nyi-vs-ott/2026/10/15/2026020109",
-    "verifiedAt": "2026-10-15T23:54:37.551091Z"
+    "verifiedAt": "2026-10-16T02:08:34.355744Z"
   }
 }
