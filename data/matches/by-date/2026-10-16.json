@@ -26,7 +26,7 @@
     "away": {
       "id": "khl:spartak",
       "name": "Спартак",
-      "logo": "https://thumbs.webcaster.pro/rec-2-19.webcaster.pro/fc/sdc2/team_pics/18/original/spartak_2015__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/18/original/spartak_2015__200x200.png",
       "score": 5,
       "periods": [
         1,
@@ -59,7 +59,7 @@
       "stageId": 407,
       "eventId": 3000723,
       "matchId": "902143",
-      "fetchedAt": "2026-10-16T16:46:31.963303Z"
+      "fetchedAt": "2026-10-16T19:43:39.467479Z"
     }
   },
   {
@@ -77,7 +77,7 @@
     "home": {
       "id": "khl:avangard",
       "name": "Авангард",
-      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/10/original/Avangard_2026_500x500_NEW.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-2.webcaster.pro/fc/sdh/team_pics/10/original/Avangard_2026_500x500_NEW.png",
       "score": 4,
       "periods": [
         2,
@@ -89,7 +89,7 @@
     "away": {
       "id": "khl:avtomobilist",
       "name": "Автомобилист",
-      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/56/original/avtomobilist__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sdc/team_pics/56/original/avtomobilist__200x200.png",
       "score": 2,
       "periods": [
         0,
@@ -122,7 +122,7 @@
       "stageId": 407,
       "eventId": 3000727,
       "matchId": "902144",
-      "fetchedAt": "2026-10-16T16:46:31.963303Z"
+      "fetchedAt": "2026-10-16T19:43:39.467479Z"
     }
   },
   {
@@ -133,17 +133,20 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-16T16:00:00Z",
-    "status": "LIVE",
-    "period": 10,
+    "status": "FINISHED",
+    "period": null,
     "clock": null,
-    "finishedIn": null,
+    "finishedIn": "OT",
     "home": {
       "id": "khl:neftekhimik",
       "name": "Нефтехимик",
-      "logo": "https://thumbs.webcaster.pro/rec-2-19.webcaster.pro/fc/sdc2/team_pics/36/original/neftekhimik_2022__200x200.png",
-      "score": 2,
+      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/36/original/neftekhimik_2022__200x200.png",
+      "score": 3,
       "periods": [
-        2
+        2,
+        0,
+        0,
+        1
       ],
       "shots": null
     },
@@ -151,9 +154,12 @@
       "id": "khl:traktor",
       "name": "Трактор",
       "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/28/original/traktor_2020__200x200.png",
-      "score": 1,
+      "score": 2,
       "periods": [
-        1
+        1,
+        1,
+        0,
+        0
       ],
       "shots": null
     },
@@ -181,7 +187,7 @@
       "stageId": 407,
       "eventId": 3000735,
       "matchId": "902146",
-      "fetchedAt": "2026-10-16T16:46:31.963303Z"
+      "fetchedAt": "2026-10-16T19:43:39.467479Z"
     }
   },
   {
@@ -192,17 +198,19 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-16T16:00:00Z",
-    "status": "LIVE",
-    "period": 10,
+    "status": "FINISHED",
+    "period": null,
     "clock": null,
-    "finishedIn": null,
+    "finishedIn": "REG",
     "home": {
       "id": "khl:torpedo",
       "name": "Торпедо",
       "logo": "https://thumbs.webcaster.pro/rec-1-1.webcaster.pro/fc/sda/team_pics/22/original/Torpedo_2025_200x200_NEW.png",
-      "score": 1,
+      "score": 5,
       "periods": [
-        1
+        1,
+        2,
+        2
       ],
       "shots": null
     },
@@ -210,9 +218,11 @@
       "id": "khl:dynamo-msk",
       "name": "Динамо М",
       "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/8/original/dynamo_msk_2019__200x200.png",
-      "score": 0,
+      "score": 4,
       "periods": [
-        0
+        0,
+        1,
+        3
       ],
       "shots": null
     },
@@ -240,7 +250,7 @@
       "stageId": 407,
       "eventId": 3001019,
       "matchId": "902217",
-      "fetchedAt": "2026-10-16T16:46:31.963303Z"
+      "fetchedAt": "2026-10-16T19:43:39.467479Z"
     }
   },
   {
@@ -251,16 +261,19 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-16T16:30:00Z",
-    "status": "LIVE",
-    "period": 1,
+    "status": "FINISHED",
+    "period": null,
     "clock": null,
-    "finishedIn": null,
+    "finishedIn": "OT",
     "home": {
       "id": "khl:dragons",
       "name": "Драконы",
-      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdm/team_pics/315/original/Shanghai_Dragons_2026_500x500_NEW_(1).png",
-      "score": 0,
+      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdh/team_pics/315/original/Shanghai_Dragons_2026_500x500_NEW_(1).png",
+      "score": 2,
       "periods": [
+        0,
+        0,
+        2,
         0
       ],
       "shots": null
@@ -269,9 +282,12 @@
       "id": "khl:ak-bars",
       "name": "Ак Барс",
       "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdc/team_pics/40/original/ak_bars_2022__200x200.png",
-      "score": 0,
+      "score": 3,
       "periods": [
-        0
+        1,
+        0,
+        1,
+        1
       ],
       "shots": null
     },
@@ -299,7 +315,7 @@
       "stageId": 407,
       "eventId": 3000731,
       "matchId": "902145",
-      "fetchedAt": "2026-10-16T16:46:31.963303Z"
+      "fetchedAt": "2026-10-16T19:43:39.467479Z"
     }
   },
   {
@@ -342,7 +358,7 @@
       "url": "https://www.nhl.com/gamecenter/pit-vs-col/2026/10/16/2026020119",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/pit-vs-col/2026/10/16/2026020119",
-      "verifiedAt": "2026-10-16T16:46:29.585747Z"
+      "verifiedAt": "2026-10-16T19:43:37.119070Z"
     }
   },
   {
@@ -385,7 +401,7 @@
       "url": "https://www.nhl.com/gamecenter/bos-vs-ana/2026/10/16/2026020120",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/bos-vs-ana/2026/10/16/2026020120",
-      "verifiedAt": "2026-10-16T16:46:29.586011Z"
+      "verifiedAt": "2026-10-16T19:43:37.119350Z"
     }
   }
 ]
