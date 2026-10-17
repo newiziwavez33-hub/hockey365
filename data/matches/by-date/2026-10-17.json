@@ -59,7 +59,7 @@
       "stageId": 407,
       "eventId": 3000751,
       "matchId": "902150",
-      "fetchedAt": "2026-10-17T15:50:01.083242Z"
+      "fetchedAt": "2026-10-17T17:58:15.234519Z"
     }
   },
   {
@@ -89,7 +89,7 @@
     "away": {
       "id": "khl:barys",
       "name": "Барыс",
-      "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/46/original/barys_2022_head_only__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/46/original/barys_2022_head_only__200x200.png",
       "score": 1,
       "periods": [
         0,
@@ -122,7 +122,7 @@
       "stageId": 407,
       "eventId": 3000747,
       "matchId": "902149",
-      "fetchedAt": "2026-10-17T15:50:01.083242Z"
+      "fetchedAt": "2026-10-17T17:58:15.234519Z"
     }
   },
   {
@@ -133,14 +133,14 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-17T14:00:00Z",
-    "status": "LIVE",
-    "period": 3,
+    "status": "FINISHED",
+    "period": null,
     "clock": null,
-    "finishedIn": null,
+    "finishedIn": "REG",
     "home": {
       "id": "khl:sochi",
       "name": "ХК Сочи",
-      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/113/original/hc_sochi_2024__200x200_new.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-13.webcaster.pro/fc/sda/team_pics/113/original/hc_sochi_2024__200x200_new.png",
       "score": 3,
       "periods": [
         0,
@@ -152,12 +152,12 @@
     "away": {
       "id": "khl:lokomotiv",
       "name": "Локомотив",
-      "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sda/team_pics/26/original/lokomotiv_2022__200x200.png",
-      "score": 5,
+      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdl/team_pics/26/original/lokomotiv_2022__200x200.png",
+      "score": 6,
       "periods": [
         3,
         2,
-        0
+        1
       ],
       "shots": null
     },
@@ -185,7 +185,7 @@
       "stageId": 407,
       "eventId": 3000743,
       "matchId": "902148",
-      "fetchedAt": "2026-10-17T15:50:01.083242Z"
+      "fetchedAt": "2026-10-17T17:58:15.234519Z"
     }
   },
   {
@@ -196,31 +196,111 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-17T17:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
-    "clock": null,
+    "status": "LIVE",
+    "period": 2,
+    "clock": "20:00",
     "finishedIn": null,
     "home": {
       "id": "nhl:wsh",
-      "score": null,
+      "score": 1,
       "periods": [],
-      "shots": null
+      "shots": 8
     },
     "away": {
       "id": "nhl:njd",
-      "score": null,
+      "score": 1,
       "periods": [],
-      "shots": null
+      "shots": 7
     },
     "arena": "Capital One Arena",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [],
+    "events": [
+      {
+        "type": "PENALTY",
+        "period": 1,
+        "time": "03:29",
+        "team": "home",
+        "playerId": "nhl:p_8477949",
+        "playerName": "Alex Tuch",
+        "minutes": 2,
+        "reason": "cross-checking",
+        "order": 64
+      },
+      {
+        "type": "PENALTY",
+        "period": 1,
+        "time": "08:03",
+        "team": "home",
+        "playerId": "nhl:p_8476432",
+        "playerName": "Boone Jenner",
+        "minutes": 2,
+        "reason": "illegal-check-to-head",
+        "order": 122
+      },
+      {
+        "type": "GOAL",
+        "period": 1,
+        "time": "10:04",
+        "team": "away",
+        "playerId": "nhl:p_8481721",
+        "playerName": "Arseny Gritsyuk",
+        "assists": [
+          "nhl:p_8482110",
+          "nhl:p_8476474"
+        ],
+        "score": "0-1",
+        "order": 140
+      },
+      {
+        "type": "PENALTY",
+        "period": 1,
+        "time": "15:10",
+        "team": "away",
+        "playerId": "nhl:p_8477488",
+        "playerName": "Brett Pesce",
+        "minutes": 2,
+        "reason": "interference",
+        "order": 204
+      },
+      {
+        "type": "GOAL",
+        "period": 1,
+        "time": "16:42",
+        "team": "home",
+        "playerId": "nhl:p_8484186",
+        "playerName": "Ryan Leonard",
+        "assists": [
+          "nhl:p_8479345",
+          "nhl:p_8480313"
+        ],
+        "score": "1-1",
+        "order": 222
+      }
+    ],
     "lineups": null,
-    "stats": null,
+    "stats": {
+      "shots": [
+        8,
+        7
+      ],
+      "shotsOnGoal": [
+        8,
+        7
+      ]
+    },
     "h2h": [],
+    "source": {
+      "provider": "NHL Web API",
+      "official": true,
+      "endpoints": [
+        "https://api-web.nhle.com/v1/gamecenter/2026020121/boxscore",
+        "https://api-web.nhle.com/v1/gamecenter/2026020121/play-by-play"
+      ],
+      "fetchedAt": "2026-10-17T17:58:13.826017+00:00"
+    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -228,7 +308,7 @@
       "url": "https://www.nhl.com/gamecenter/njd-vs-wsh/2026/10/17/2026020121",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/njd-vs-wsh/2026/10/17/2026020121",
-      "verifiedAt": "2026-10-17T15:49:59.302066Z"
+      "verifiedAt": "2026-10-17T17:58:13.826082Z"
     }
   },
   {
@@ -271,7 +351,7 @@
       "url": "https://www.nhl.com/gamecenter/car-vs-wpg/2026/10/17/2026020122",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/car-vs-wpg/2026/10/17/2026020122",
-      "verifiedAt": "2026-10-17T15:49:59.302303Z"
+      "verifiedAt": "2026-10-17T17:58:13.826382Z"
     }
   },
   {
@@ -314,7 +394,7 @@
       "url": "https://www.nhl.com/gamecenter/van-vs-tbl/2026/10/17/2026020123",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/van-vs-tbl/2026/10/17/2026020123",
-      "verifiedAt": "2026-10-17T15:49:59.302587Z"
+      "verifiedAt": "2026-10-17T17:58:13.826473Z"
     }
   },
   {
@@ -357,7 +437,7 @@
       "url": "https://www.nhl.com/gamecenter/sea-vs-fla/2026/10/17/2026020124",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/sea-vs-fla/2026/10/17/2026020124",
-      "verifiedAt": "2026-10-17T15:49:59.302825Z"
+      "verifiedAt": "2026-10-17T17:58:13.826544Z"
     }
   },
   {
@@ -400,7 +480,7 @@
       "url": "https://www.nhl.com/gamecenter/nyi-vs-tor/2026/10/17/2026020125",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/nyi-vs-tor/2026/10/17/2026020125",
-      "verifiedAt": "2026-10-17T15:49:59.303055Z"
+      "verifiedAt": "2026-10-17T17:58:13.826605Z"
     }
   },
   {
@@ -443,7 +523,7 @@
       "url": "https://www.nhl.com/gamecenter/buf-vs-mtl/2026/10/17/2026020126",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/buf-vs-mtl/2026/10/17/2026020126",
-      "verifiedAt": "2026-10-17T15:49:59.303287Z"
+      "verifiedAt": "2026-10-17T17:58:13.826669Z"
     }
   },
   {
@@ -486,7 +566,7 @@
       "url": "https://www.nhl.com/gamecenter/sjs-vs-det/2026/10/17/2026020127",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/sjs-vs-det/2026/10/17/2026020127",
-      "verifiedAt": "2026-10-17T15:49:59.303547Z"
+      "verifiedAt": "2026-10-17T17:58:13.826735Z"
     }
   },
   {
@@ -529,7 +609,7 @@
       "url": "https://www.nhl.com/gamecenter/ott-vs-phi/2026/10/17/2026020128",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/ott-vs-phi/2026/10/17/2026020128",
-      "verifiedAt": "2026-10-17T15:49:59.303784Z"
+      "verifiedAt": "2026-10-17T17:58:13.826792Z"
     }
   },
   {
@@ -572,7 +652,7 @@
       "url": "https://www.nhl.com/gamecenter/nyr-vs-cbj/2026/10/17/2026020129",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/nyr-vs-cbj/2026/10/17/2026020129",
-      "verifiedAt": "2026-10-17T15:49:59.304019Z"
+      "verifiedAt": "2026-10-17T17:58:13.826850Z"
     }
   },
   {
@@ -615,7 +695,7 @@
       "url": "https://www.nhl.com/gamecenter/dal-vs-chi/2026/10/17/2026020130",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/dal-vs-chi/2026/10/17/2026020130",
-      "verifiedAt": "2026-10-17T15:49:59.304232Z"
+      "verifiedAt": "2026-10-17T17:58:13.826911Z"
     }
   },
   {
@@ -658,7 +738,7 @@
       "url": "https://www.nhl.com/gamecenter/stl-vs-nsh/2026/10/17/2026020131",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/stl-vs-nsh/2026/10/17/2026020131",
-      "verifiedAt": "2026-10-17T15:49:59.304464Z"
+      "verifiedAt": "2026-10-17T17:58:13.826977Z"
     }
   },
   {
@@ -701,7 +781,7 @@
       "url": "https://www.nhl.com/gamecenter/bos-vs-lak/2026/10/17/2026020132",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/bos-vs-lak/2026/10/17/2026020132",
-      "verifiedAt": "2026-10-17T15:49:59.304751Z"
+      "verifiedAt": "2026-10-17T17:58:13.827034Z"
     }
   },
   {
@@ -744,7 +824,7 @@
       "url": "https://www.nhl.com/gamecenter/edm-vs-uta/2026/10/17/2026020133",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/edm-vs-uta/2026/10/17/2026020133",
-      "verifiedAt": "2026-10-17T15:49:59.304953Z"
+      "verifiedAt": "2026-10-17T17:58:13.827097Z"
     }
   },
   {
@@ -787,7 +867,7 @@
       "url": "https://www.nhl.com/gamecenter/pit-vs-vgk/2026/10/17/2026020134",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/pit-vs-vgk/2026/10/17/2026020134",
-      "verifiedAt": "2026-10-17T15:49:59.305164Z"
+      "verifiedAt": "2026-10-17T17:58:13.827158Z"
     }
   }
 ]
