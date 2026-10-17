@@ -6,31 +6,72 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-17T19:30:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 1,
+  "clock": "07:04",
   "finishedIn": null,
   "home": {
     "id": "nhl:wpg",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 5
   },
   "away": {
     "id": "nhl:car",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 3
   },
   "arena": "Canada Life Centre",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "08:11",
+      "team": "home",
+      "playerId": "nhl:p_8480145",
+      "playerName": "Neal Pionk",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 111
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "08:11",
+      "team": "away",
+      "playerId": "nhl:p_8477478",
+      "playerName": "William Carrier",
+      "minutes": 2,
+      "reason": "embellishment",
+      "order": 113
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      5,
+      3
+    ],
+    "shotsOnGoal": [
+      5,
+      3
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020122/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020122/play-by-play"
+    ],
+    "fetchedAt": "2026-10-17T20:11:37.629219+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +79,6 @@
     "url": "https://www.nhl.com/gamecenter/car-vs-wpg/2026/10/17/2026020122",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/car-vs-wpg/2026/10/17/2026020122",
-    "verifiedAt": "2026-10-17T17:58:13.826382Z"
+    "verifiedAt": "2026-10-17T20:11:37.629269Z"
   }
 }
