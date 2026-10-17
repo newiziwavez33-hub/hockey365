@@ -10,6 +10,12 @@
         "value": 18
       },
       {
+        "playerId": "nhl:p_8477492",
+        "playerName": "Nathan MacKinnon",
+        "teamId": "nhl:col",
+        "value": 16
+      },
+      {
         "playerId": "nhl:p_8478403",
         "playerName": "Jack Eichel",
         "teamId": "nhl:vgk",
@@ -26,12 +32,6 @@
         "playerName": "Kirill Kaprizov",
         "teamId": "nhl:min",
         "value": 14
-      },
-      {
-        "playerId": "nhl:p_8478427",
-        "playerName": "Sebastian Aho",
-        "teamId": "nhl:car",
-        "value": 13
       }
     ],
     "goals": [
@@ -60,9 +60,9 @@
         "value": 7
       },
       {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
+        "playerId": "nhl:p_8477492",
+        "playerName": "Nathan MacKinnon",
+        "teamId": "nhl:col",
         "value": 6
       }
     ],
@@ -80,6 +80,12 @@
         "value": 11
       },
       {
+        "playerId": "nhl:p_8477492",
+        "playerName": "Nathan MacKinnon",
+        "teamId": "nhl:col",
+        "value": 10
+      },
+      {
         "playerId": "nhl:p_8480800",
         "playerName": "Quinn Hughes",
         "teamId": "nhl:min",
@@ -89,12 +95,6 @@
         "playerId": "nhl:p_8480803",
         "playerName": "Evan Bouchard",
         "teamId": "nhl:edm",
-        "value": 9
-      },
-      {
-        "playerId": "nhl:p_8479323",
-        "playerName": "Adam Fox",
-        "teamId": "nhl:nyr",
         "value": 9
       }
     ],
