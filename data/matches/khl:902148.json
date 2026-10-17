@@ -6,24 +6,32 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-17T14:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "LIVE",
+  "period": 3,
   "clock": null,
   "finishedIn": null,
   "home": {
     "id": "khl:sochi",
     "name": "ХК Сочи",
     "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/113/original/hc_sochi_2024__200x200_new.png",
-    "score": null,
-    "periods": [],
+    "score": 3,
+    "periods": [
+      0,
+      3,
+      0
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:lokomotiv",
     "name": "Локомотив",
-    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdl/team_pics/26/original/lokomotiv_2022__200x200.png",
-    "score": null,
-    "periods": [],
+    "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sda/team_pics/26/original/lokomotiv_2022__200x200.png",
+    "score": 5,
+    "periods": [
+      3,
+      2,
+      0
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000743,
     "matchId": "902148",
-    "fetchedAt": "2026-10-17T12:29:37.452541Z"
+    "fetchedAt": "2026-10-17T15:50:01.083242Z"
   }
 }
