@@ -6,102 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-17T23:00:00Z",
-  "status": "INTERMISSION",
-  "period": 1,
-  "clock": "01:48",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 4,
+  "clock": null,
+  "finishedIn": "OT",
   "home": {
     "id": "nhl:mtl",
-    "score": 2,
+    "score": 4,
     "periods": [],
-    "shots": 7
+    "shots": null
   },
   "away": {
     "id": "nhl:buf",
-    "score": 1,
+    "score": 3,
     "periods": [],
-    "shots": 5
+    "shots": null
   },
   "arena": "Centre Bell",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "08:21",
-      "team": "away",
-      "playerId": "nhl:p_8480064",
-      "playerName": "Josh Norris",
-      "assists": [
-        "nhl:p_8484797"
-      ],
-      "score": "0-1",
-      "order": 122
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "10:25",
-      "team": "away",
-      "playerId": "nhl:p_8483500",
-      "playerName": "Noah Ostlund",
-      "minutes": 2,
-      "reason": "slashing",
-      "order": 148
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "11:45",
-      "team": "home",
-      "playerId": "nhl:p_8482737",
-      "playerName": "Zachary Bolduc",
-      "assists": [
-        "nhl:p_8480018",
-        "nhl:p_8483515"
-      ],
-      "score": "1-1",
-      "order": 158
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "14:01",
-      "team": "home",
-      "playerId": "nhl:p_8481540",
-      "playerName": "Cole Caufield",
-      "assists": [
-        "nhl:p_8483515",
-        "nhl:p_8478851"
-      ],
-      "score": "2-1",
-      "order": 200
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      7,
-      5
-    ],
-    "shotsOnGoal": [
-      7,
-      5
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020126/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020126/play-by-play"
-    ],
-    "fetchedAt": "2026-10-18T00:05:16.423881+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -109,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/buf-vs-mtl/2026/10/17/2026020126",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/buf-vs-mtl/2026/10/17/2026020126",
-    "verifiedAt": "2026-10-18T00:05:16.423940Z"
+    "verifiedAt": "2026-10-18T04:20:06.873363Z"
   }
 }

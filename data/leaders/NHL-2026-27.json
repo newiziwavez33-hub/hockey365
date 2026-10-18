@@ -80,6 +80,12 @@
         "value": 11
       },
       {
+        "playerId": "nhl:p_8479314",
+        "playerName": "Matthew Tkachuk",
+        "teamId": "nhl:fla",
+        "value": 11
+      },
+      {
         "playerId": "nhl:p_8477492",
         "playerName": "Nathan MacKinnon",
         "teamId": "nhl:col",
@@ -90,12 +96,6 @@
         "playerName": "Quinn Hughes",
         "teamId": "nhl:min",
         "value": 10
-      },
-      {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 9
       }
     ],
     "gaa": [
@@ -109,13 +109,13 @@
         "playerId": "nhl:p_8479979",
         "playerName": "Jake Oettinger",
         "teamId": "nhl:dal",
-        "value": 1.2
+        "value": 1.0
       },
       {
         "playerId": "nhl:p_8476999",
         "playerName": "Linus Ullmark",
         "teamId": "nhl:ott",
-        "value": 1.2
+        "value": 1.33
       },
       {
         "playerId": "nhl:p_8478024",
@@ -124,10 +124,10 @@
         "value": 1.58
       },
       {
-        "playerId": "nhl:p_8481611",
-        "playerName": "Pyotr Kochetkov",
-        "teamId": "nhl:car",
-        "value": 1.78
+        "playerId": "nhl:p_8478009",
+        "playerName": "Ilya Sorokin",
+        "teamId": "nhl:nyi",
+        "value": 1.68
       }
     ],
     "svPct": [
@@ -138,28 +138,28 @@
         "value": 0.965
       },
       {
-        "playerId": "nhl:p_8476999",
-        "playerName": "Linus Ullmark",
-        "teamId": "nhl:ott",
-        "value": 0.949
-      },
-      {
         "playerId": "nhl:p_8479979",
         "playerName": "Jake Oettinger",
         "teamId": "nhl:dal",
-        "value": 0.944
+        "value": 0.952
+      },
+      {
+        "playerId": "nhl:p_8476999",
+        "playerName": "Linus Ullmark",
+        "teamId": "nhl:ott",
+        "value": 0.945
+      },
+      {
+        "playerId": "nhl:p_8478009",
+        "playerName": "Ilya Sorokin",
+        "teamId": "nhl:nyi",
+        "value": 0.94
       },
       {
         "playerId": "nhl:p_8478024",
         "playerName": "Ville Husso",
         "teamId": "nhl:ana",
         "value": 0.935
-      },
-      {
-        "playerId": "nhl:p_8478009",
-        "playerName": "Ilya Sorokin",
-        "teamId": "nhl:nyi",
-        "value": 0.934
       }
     ]
   }

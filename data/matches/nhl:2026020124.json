@@ -6,219 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-17T22:00:00Z",
-  "status": "LIVE",
+  "status": "FINISHED",
   "period": 3,
-  "clock": "19:45",
-  "finishedIn": null,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:fla",
-    "score": 6,
+    "score": 8,
     "periods": [],
-    "shots": 26
+    "shots": null
   },
   "away": {
     "id": "nhl:sea",
-    "score": 2,
+    "score": 3,
     "periods": [],
-    "shots": 14
+    "shots": null
   },
   "arena": "Amerant Bank Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "01:05",
-      "team": "home",
-      "playerId": "nhl:p_8477935",
-      "playerName": "Sam Bennett",
-      "assists": [
-        "nhl:p_8479314"
-      ],
-      "score": "1-0",
-      "order": 31
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "04:54",
-      "team": "away",
-      "playerId": "nhl:p_8483524",
-      "playerName": "Shane Wright",
-      "assists": [
-        "nhl:p_8484800",
-        "nhl:p_8481554"
-      ],
-      "score": "1-1",
-      "order": 79
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "08:07",
-      "team": "home",
-      "playerId": "nhl:p_8475179",
-      "playerName": "Dmitry Kulikov",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 124
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "13:03",
-      "team": "home",
-      "minutes": 2,
-      "reason": "too-many-men-on-the-ice",
-      "order": 195
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "17:56",
-      "team": "home",
-      "playerId": "nhl:p_8477409",
-      "playerName": "Carter Verhaeghe",
-      "assists": [
-        "nhl:p_8477933"
-      ],
-      "score": "2-1",
-      "order": 245
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "18:44",
-      "team": "away",
-      "playerId": "nhl:p_8482858",
-      "playerName": "Ryker Evans",
-      "minutes": 2,
-      "reason": "delaying-game-puck-over-glass",
-      "order": 265
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "19:07",
-      "team": "home",
-      "playerId": "nhl:p_8477409",
-      "playerName": "Carter Verhaeghe",
-      "assists": [
-        "nhl:p_8480801",
-        "nhl:p_8479314"
-      ],
-      "score": "3-1",
-      "order": 273
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "19:07",
-      "team": "away",
-      "playerId": "nhl:p_8476457",
-      "playerName": "Adam Larsson",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 274
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "06:02",
-      "team": "home",
-      "playerId": "nhl:p_8477409",
-      "playerName": "Carter Verhaeghe",
-      "assists": [
-        "nhl:p_8478859",
-        "nhl:p_8474189"
-      ],
-      "score": "4-1",
-      "order": 365
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "06:42",
-      "team": "home",
-      "playerId": "nhl:p_8478859",
-      "playerName": "Niko Mikkola",
-      "score": "5-1",
-      "order": 372
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "13:13",
-      "team": "home",
-      "playerId": "nhl:p_8477935",
-      "playerName": "Sam Bennett",
-      "assists": [
-        "nhl:p_8480801",
-        "nhl:p_8478055"
-      ],
-      "score": "6-1",
-      "order": 452
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "16:19",
-      "team": "home",
-      "playerId": "nhl:p_8478043",
-      "playerName": "Sam Lafferty",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 478
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "19:05",
-      "team": "away",
-      "playerId": "nhl:p_8477919",
-      "playerName": "Frederick Gaudreau",
-      "assists": [
-        "nhl:p_8476457"
-      ],
-      "score": "6-2",
-      "order": 500
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "20:00",
-      "team": "home",
-      "playerId": "nhl:p_8480801",
-      "playerName": "Brady Tkachuk",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 510
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      26,
-      14
-    ],
-    "shotsOnGoal": [
-      26,
-      14
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020124/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020124/play-by-play"
-    ],
-    "fetchedAt": "2026-10-18T00:05:16.249775+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -226,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/sea-vs-fla/2026/10/17/2026020124",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/sea-vs-fla/2026/10/17/2026020124",
-    "verifiedAt": "2026-10-18T00:05:16.249865Z"
+    "verifiedAt": "2026-10-18T04:20:06.872954Z"
   }
 }
