@@ -6,169 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-17T19:30:00Z",
-  "status": "LIVE",
+  "status": "FINISHED",
   "period": 3,
-  "clock": "01:19",
-  "finishedIn": null,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:wpg",
     "score": 2,
     "periods": [],
-    "shots": 21
+    "shots": null
   },
   "away": {
     "id": "nhl:car",
     "score": 3,
     "periods": [],
-    "shots": 37
+    "shots": null
   },
   "arena": "Canada Life Centre",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "08:11",
-      "team": "home",
-      "playerId": "nhl:p_8480145",
-      "playerName": "Neal Pionk",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 110
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "08:11",
-      "team": "away",
-      "playerId": "nhl:p_8477478",
-      "playerName": "William Carrier",
-      "minutes": 2,
-      "reason": "embellishment",
-      "order": 112
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "16:52",
-      "team": "away",
-      "playerId": "nhl:p_8478427",
-      "playerName": "Sebastian Aho",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 235
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "04:23",
-      "team": "home",
-      "playerId": "nhl:p_8476460",
-      "playerName": "Mark Scheifele",
-      "score": "1-0",
-      "order": 337
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "06:33",
-      "team": "home",
-      "playerId": "nhl:p_8486025",
-      "playerName": "Viggo Björck",
-      "minutes": 2,
-      "reason": "cross-checking",
-      "order": 370
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "08:19",
-      "team": "away",
-      "playerId": "nhl:p_8476873",
-      "playerName": "Mark Jankowski",
-      "assists": [
-        "nhl:p_8482702",
-        "nhl:p_8484203"
-      ],
-      "score": "1-1",
-      "order": 393
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "10:59",
-      "team": "home",
-      "playerId": "nhl:p_8480113",
-      "playerName": "Alex Iafallo",
-      "assists": [
-        "nhl:p_8476392"
-      ],
-      "score": "2-1",
-      "order": 420
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "16:50",
-      "team": "away",
-      "playerId": "nhl:p_8480829",
-      "playerName": "Jesperi Kotkaniemi",
-      "assists": [
-        "nhl:p_8476906",
-        "nhl:p_8480762"
-      ],
-      "score": "2-2",
-      "order": 498
-    },
-    {
-      "type": "PENALTY",
-      "period": 3,
-      "time": "04:49",
-      "team": "home",
-      "playerId": "nhl:p_8476331",
-      "playerName": "Dylan DeMelo",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 599
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "06:43",
-      "team": "away",
-      "playerId": "nhl:p_8477940",
-      "playerName": "Nikolaj Ehlers",
-      "assists": [
-        "nhl:p_8476906"
-      ],
-      "score": "2-3",
-      "order": 612
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      21,
-      37
-    ],
-    "shotsOnGoal": [
-      21,
-      37
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020122/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020122/play-by-play"
-    ],
-    "fetchedAt": "2026-10-17T22:16:47.039659+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -176,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/car-vs-wpg/2026/10/17/2026020122",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/car-vs-wpg/2026/10/17/2026020122",
-    "verifiedAt": "2026-10-17T22:16:47.039791Z"
+    "verifiedAt": "2026-10-18T00:05:16.155052Z"
   }
 }
