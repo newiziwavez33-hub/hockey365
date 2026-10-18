@@ -6,24 +6,32 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-18T14:10:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "LIVE",
+  "period": 3,
   "clock": null,
   "finishedIn": null,
   "home": {
     "id": "khl:dynamo-mns",
     "name": "Динамо Мн",
-    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/38/original/dinamo_mn_2019_alternative__200x200.png",
-    "score": null,
-    "periods": [],
+    "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/38/original/dinamo_mn_2019_alternative__200x200.png",
+    "score": 1,
+    "periods": [
+      1,
+      0,
+      0
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:ak-bars",
     "name": "Ак Барс",
     "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdi/team_pics/40/original/ak_bars_2022__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 3,
+    "periods": [
+      2,
+      1,
+      0
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000763,
     "matchId": "902153",
-    "fetchedAt": "2026-10-18T12:54:18.587387Z"
+    "fetchedAt": "2026-10-18T16:12:02.955238Z"
   }
 }

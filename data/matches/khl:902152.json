@@ -6,32 +6,24 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-18T11:00:00Z",
-  "status": "LIVE",
-  "period": 3,
+  "status": "FINISHED",
+  "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "SO",
   "home": {
     "id": "khl:avangard",
     "name": "Авангард",
-    "logo": "https://thumbs.webcaster.pro/rec-2-2.webcaster.pro/fc/sdh/team_pics/10/original/Avangard_2026_500x500_NEW.png",
-    "score": 1,
-    "periods": [
-      0,
-      0,
-      1
-    ],
+    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/10/original/Avangard_2026_500x500_NEW.png",
+    "score": 2,
+    "periods": [],
     "shots": null
   },
   "away": {
     "id": "khl:traktor",
     "name": "Трактор",
-    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/28/original/traktor_2020__200x200.png",
-    "score": 0,
-    "periods": [
-      0,
-      0,
-      0
-    ],
+    "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdb/team_pics/28/original/traktor_2020__200x200.png",
+    "score": 1,
+    "periods": [],
     "shots": null
   },
   "arena": null,
@@ -58,6 +50,6 @@
     "stageId": 407,
     "eventId": 3000759,
     "matchId": "902152",
-    "fetchedAt": "2026-10-18T12:54:18.587387Z"
+    "fetchedAt": "2026-10-18T16:12:02.955238Z"
   }
 }
