@@ -1,6 +1,33 @@
 {
   "news": [
     {
+      "id": "news-6663136",
+      "slug": "s-velichajshim-eks-boec-ufc-nejt-diaz-vstretilsya-so-zvezdoj-nhl-makdevidom",
+      "title": "«С величайшим». Экс-боец UFC Нейт Диаз встретился со звездой НХЛ Макдэвидом",
+      "summary": "41-летний бывший претендент на титул UFC в лёгком весе американец Нейт Диаз встретился с нападающим клуба Национальной хоккейной лиги (НХЛ) «Эдмонтон Ойлерз» канадцем Коннором Макдэвидом в Эдмонтоне (Канада).",
+      "content": "41-летний бывший претендент на титул UFC в лёгком весе американец Нейт Диаз встретился с нападающим клуба Национальной хоккейной лиги (НХЛ) «Эдмонтон Ойлерз» канадцем Коннором Макдэвидом в Эдмонтоне (Канада).",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-10-18T21:04:52Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/boxing/news-6663136-s-velichajshim-eks-boec-ufc-nejt-diaz-vstretilsya-so-zvezdoj-nhl-makdevidom.html",
+      "tags": [
+        "Бокс/ММА",
+        "UFC",
+        "Хоккей",
+        "НХЛ",
+        "Фото",
+        "Эдмонтон Ойлерз",
+        "Коннор Макдэвид",
+        "Нейт Диаз"
+      ],
+      "relatedTeamIds": [
+        "nhl:edm"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478402"
+      ]
+    },
+    {
       "id": "news-6663030",
       "slug": "rezultaty-matchej-mhl-na-18-oktyabrya-2026-goda",
       "title": "Результаты матчей МХЛ на 18 октября 2026 года",
@@ -696,29 +723,6 @@
       "publishedAt": "2026-10-18T14:57:59Z",
       "source": "Чемпионат • Хоккей",
       "url": "https://www.championat.com/hockey/news-6662604-gordon-na-vyezde-traktor-vzyal-10-ochkov-iz-12-no-v-domashnih-matchah-my-igrali-luchshe.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Трактор",
-        "Скотт Гордон"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6662590",
-      "slug": "glavnyj-trener-traktora-prokommentiroval-porazhenie-ot-avangarda",
-      "title": "Главный тренер «Трактора» прокомментировал поражение от «Авангарда»",
-      "summary": "Главный тренер «Трактора» Скотт Гордон прокомментировал поражение от «Авангарда» (1:2 Б) и отметил большое количество единоборств и вязкий характер встречи.",
-      "content": "Главный тренер «Трактора» Скотт Гордон прокомментировал поражение от «Авангарда» (1:2 Б) и отметил большое количество единоборств и вязкий характер встречи.",
-      "image": "https://img.championat.com/news/big/n/k/glavnyj-trener-traktora-prok.jpg",
-      "publishedAt": "2026-10-18T14:53:32Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6662590-glavnyj-trener-traktora-prokommentiroval-porazhenie-ot-avangarda.html",
       "tags": [
         "Хоккей",
         "КХЛ",
