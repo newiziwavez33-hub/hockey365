@@ -6,18 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-19T16:30:00Z",
-  "status": "LIVE",
-  "period": 2,
+  "status": "FINISHED",
+  "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:sochi",
     "name": "ХК Сочи",
-    "logo": "https://thumbs.webcaster.pro/rec-2-13.webcaster.pro/fc/sda/team_pics/113/original/hc_sochi_2024__200x200_new.png",
-    "score": 0,
+    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/113/original/hc_sochi_2024__200x200_new.png",
+    "score": 2,
     "periods": [
       0,
-      0
+      1,
+      1
     ],
     "shots": null
   },
@@ -25,10 +26,11 @@
     "id": "khl:dragons",
     "name": "Драконы",
     "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdm/team_pics/315/original/Shanghai_Dragons_2026_500x500_NEW_(1).png",
-    "score": 2,
+    "score": 5,
     "periods": [
       2,
-      0
+      2,
+      1
     ],
     "shots": null
   },
@@ -56,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000783,
     "matchId": "902158",
-    "fetchedAt": "2026-10-19T17:22:01.916546Z"
+    "fetchedAt": "2026-10-19T21:36:18.796738Z"
   }
 }
