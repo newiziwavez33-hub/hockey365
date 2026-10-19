@@ -118,16 +118,16 @@
         "value": 1.33
       },
       {
-        "playerId": "nhl:p_8478024",
-        "playerName": "Ville Husso",
-        "teamId": "nhl:ana",
-        "value": 1.58
-      },
-      {
         "playerId": "nhl:p_8478009",
         "playerName": "Ilya Sorokin",
         "teamId": "nhl:nyi",
         "value": 1.68
+      },
+      {
+        "playerId": "nhl:p_8481611",
+        "playerName": "Pyotr Kochetkov",
+        "teamId": "nhl:car",
+        "value": 1.78
       }
     ],
     "svPct": [
@@ -156,10 +156,10 @@
         "value": 0.94
       },
       {
-        "playerId": "nhl:p_8478024",
-        "playerName": "Ville Husso",
-        "teamId": "nhl:ana",
-        "value": 0.935
+        "playerId": "nhl:p_8480280",
+        "playerName": "Jeremy Swayman",
+        "teamId": "nhl:bos",
+        "value": 0.934
       }
     ]
   }
