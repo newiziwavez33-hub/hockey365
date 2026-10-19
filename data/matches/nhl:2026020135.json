@@ -6,110 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-18T22:00:00Z",
-  "status": "INTERMISSION",
-  "period": 1,
-  "clock": "05:39",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:min",
-    "score": 1,
+    "score": 2,
     "periods": [],
-    "shots": 14
+    "shots": null
   },
   "away": {
     "id": "nhl:cbj",
     "score": 1,
     "periods": [],
-    "shots": 7
+    "shots": null
   },
   "arena": "Grand Casino Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "02:03",
-      "team": "away",
-      "playerId": "nhl:p_8478856",
-      "playerName": "Conor Garland",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 34
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "02:11",
-      "team": "away",
-      "playerId": "nhl:p_8475745",
-      "playerName": "Charlie Coyle",
-      "minutes": 2,
-      "reason": "cross-checking",
-      "order": 41
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "08:57",
-      "team": "home",
-      "playerId": "nhl:p_8474567",
-      "playerName": "Zach Bogosian",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 130
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "18:12",
-      "team": "home",
-      "playerId": "nhl:p_8483525",
-      "playerName": "Danila Yurov",
-      "assists": [
-        "nhl:p_8478508"
-      ],
-      "score": "1-0",
-      "order": 244
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "19:12",
-      "team": "away",
-      "playerId": "nhl:p_8484166",
-      "playerName": "Adam Fantilli",
-      "assists": [
-        "nhl:p_8478460",
-        "nhl:p_8477497"
-      ],
-      "score": "1-1",
-      "order": 253
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      14,
-      7
-    ],
-    "shotsOnGoal": [
-      14,
-      7
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020135/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020135/play-by-play"
-    ],
-    "fetchedAt": "2026-10-18T22:57:48.859700+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -117,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/cbj-vs-min/2026/10/18/2026020135",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/cbj-vs-min/2026/10/18/2026020135",
-    "verifiedAt": "2026-10-18T22:57:48.859776Z"
+    "verifiedAt": "2026-10-19T00:48:37.427415Z"
   }
 }
