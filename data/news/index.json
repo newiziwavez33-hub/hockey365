@@ -1,18 +1,247 @@
 {
   "news": [
     {
+      "id": "news-6663034",
+      "slug": "raspisanie-matchej-khl-na-19-oktyabrya-2026-goda",
+      "title": "Расписание матчей КХЛ на 19 октября 2026 года",
+      "summary": "Сегодня, 19 октября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 19 октября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/r/d/raspisanie-matchej-khl-na-19-oktyabrya-2026-goda_17923522901727581708.jpg",
+      "publishedAt": "2026-10-19T05:20:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6663034-raspisanie-matchej-khl-na-19-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Салават Юлаев",
+        "Торпедо",
+        "Барыс",
+        "Северсталь",
+        "Амур",
+        "Адмирал",
+        "Сочи",
+        "Шанхайские Драконы (Куньлунь Ред Стар)"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral",
+        "khl:amur",
+        "khl:barys",
+        "khl:kunlun",
+        "khl:salavat-yulaev",
+        "khl:severstal",
+        "khl:sochi",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6663308",
+      "slug": "rezultaty-matchej-nhl-na-19-oktyabrya-2026-goda",
+      "title": "Результаты матчей НХЛ на 19 октября 2026 года",
+      "summary": "В ночь с 18 на 19 октября прошли очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "content": "В ночь с 18 на 19 октября прошли очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/a/c/rezultaty-matchej-nhl-na-19-oktyabrya-2026-goda_17923862341967706655.jpg",
+      "publishedAt": "2026-10-19T05:10:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6663308-rezultaty-matchej-nhl-na-19-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Каролина Харрикейнз",
+        "Коламбус Блю Джекетс",
+        "Миннесота Уайлд",
+        "Калгари Флэймз"
+      ],
+      "relatedTeamIds": [
+        "nhl:car",
+        "nhl:cbj",
+        "nhl:cgy",
+        "nhl:min"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6663268",
+      "slug": "kaprizov-uvelichil-otryv-v-gonke-luchshih-rossijskih-bombardirov-nhl",
+      "title": "Капризов увеличил отрыв в гонке лучших российских бомбардиров НХЛ",
+      "summary": "Российский нападающий «Миннесоты Уайлд» Кирилл Капризов упрочил лидерство в списке лучших российских бомбардиров регулярного чемпионата НХЛ.",
+      "content": "Российский нападающий «Миннесоты Уайлд» Кирилл Капризов упрочил лидерство в списке лучших российских бомбардиров регулярного чемпионата НХЛ.",
+      "image": "https://img.championat.com/news/big/t/b/kaprizov-uvelichil-otryv-v-gonke-luchshih-rossijskih-bombardirov-nhl_17923811551039168976.jpg",
+      "publishedAt": "2026-10-19T04:00:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6663268-kaprizov-uvelichil-otryv-v-gonke-luchshih-rossijskih-bombardirov-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Эдмонтон Ойлерз",
+        "Каролина Харрикейнз",
+        "Миннесота Уайлд",
+        "Никита Кучеров",
+        "Кирилл Капризов",
+        "Андрей Свечников",
+        "Михаил Сергачёв",
+        "Юта Маммот",
+        "Василий Подколзин"
+      ],
+      "relatedTeamIds": [
+        "nhl:car",
+        "nhl:edm",
+        "nhl:min",
+        "nhl:tbl",
+        "nhl:uta"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
+      "id": "news-6663260",
+      "slug": "kirill-kaprizov-zakrepilsya-na-pervom-meste-gonki-luchshih-snajperov-sezona-nhl",
+      "title": "Кирилл Капризов закрепился на первом месте гонки лучших снайперов сезона НХЛ",
+      "summary": "Российский нападающий «Миннесоты Уайлд» Кирилл Капризов увеличил отрыв от ближайших преследователей в гонке лучших снайперов регулярного чемпионата НХЛ.",
+      "content": "Российский нападающий «Миннесоты Уайлд» Кирилл Капризов увеличил отрыв от ближайших преследователей в гонке лучших снайперов регулярного чемпионата НХЛ.",
+      "image": "https://img.championat.com/news/big/w/a/kirill-kaprizov-zakrepilsya-na-pervom-meste-gonki-luchshih-snajperov-sezona-nhl_17923807121505346425.jpg",
+      "publishedAt": "2026-10-19T03:37:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6663260-kirill-kaprizov-zakrepilsya-na-pervom-meste-gonki-luchshih-snajperov-sezona-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Нью-Йорк Рейнджерс",
+        "Эдмонтон Ойлерз",
+        "Миннесота Уайлд",
+        "Вегас Голден Найтс",
+        "Виннипег Джетс",
+        "Кирилл Капризов",
+        "Василий Подколзин",
+        "Алекси Лафреньер",
+        "Марк Стоун",
+        "Кайл Коннор"
+      ],
+      "relatedTeamIds": [
+        "nhl:edm",
+        "nhl:min",
+        "nhl:nyr",
+        "nhl:vgk",
+        "nhl:wpg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6663262",
+      "slug": "kaprizov-vyshel-na-trete-mesto-po-chislu-pobednyh-golov-v-istorii-minnesoty",
+      "title": "Капризов вышел на третье место по числу победных голов в истории «Миннесоты»",
+      "summary": "Российский нападающий «Миннесоты Уайлд» Кирилл Капризов отметился победным голом в матче регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027 с «Коламбус Блю Джекетс» (2:1) и вошёл в тройку лучших игрок...",
+      "content": "Российский нападающий «Миннесоты Уайлд» Кирилл Капризов отметился победным голом в матче регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027 с «Коламбус Блю Джекетс» (2:1) и вошёл в тройку лучших игроков франшизы по этому показателю.",
+      "image": "https://img.championat.com/news/big/p/t/kaprizov-vyshel-na-trete-mesto-po-chislu-pobednyh-golov-v-istorii-minnesoty_17923807111833543023.jpg",
+      "publishedAt": "2026-10-19T03:31:59Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6663262-kaprizov-vyshel-na-trete-mesto-po-chislu-pobednyh-golov-v-istorii-minnesoty.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Коламбус Блю Джекетс",
+        "Миннесота Уайлд",
+        "Кирилл Капризов",
+        "Зак Паризе",
+        "Мариан Габорик",
+        "Микко Койву"
+      ],
+      "relatedTeamIds": [
+        "nhl:cbj",
+        "nhl:min"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6663256",
+      "slug": "kaprizov-stal-pervoj-zvezdoj-matcha-s-kolambusom-yurov-vtoroj",
+      "title": "Капризов стал первой звездой матча с «Коламбусом », Юров — второй",
+      "summary": "В ночь с 18 на 19 октября проходил матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимала «Коламбус Блю Джекетс».",
+      "content": "В ночь с 18 на 19 октября проходил матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимала «Коламбус Блю Джекетс».",
+      "image": "https://img.championat.com/news/big/l/i/kaprizov-stal-pervoj-zvezdoj-matcha-s-kolambusom-yurov-vtoroj_17923801111782691996.jpg",
+      "publishedAt": "2026-10-19T03:21:56Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6663256-kaprizov-stal-pervoj-zvezdoj-matcha-s-kolambusom-yurov-vtoroj.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Статистика",
+        "Коламбус Блю Джекетс",
+        "Миннесота Уайлд",
+        "Кирилл Капризов",
+        "Данила Юров"
+      ],
+      "relatedTeamIds": [
+        "nhl:cbj",
+        "nhl:min"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6663244",
+      "slug": "kalgari-flejmz-karolina-harrikejnz-rezultat-matcha-19-oktyabrya-2026-schyot-3-2-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "«Каролина» проиграла «Калгари» и прервала семиматчевую победную серию, у Гридина — гол",
+      "summary": "В ночь с 18 на 19 октября на льду «Скоушабэнк Саддлдоум» в Калгари (Канада) завершился матч Национальной хоккейной лиги (НХЛ) между «Калгари Флэймз» и «Каролиной Харрикейнз».",
+      "content": "В ночь с 18 на 19 октября на льду «Скоушабэнк Саддлдоум» в Калгари (Канада) завершился матч Национальной хоккейной лиги (НХЛ) между «Калгари Флэймз» и «Каролиной Харрикейнз».",
+      "image": "https://img.championat.com/news/big/m/b/karolina-proigrala-kalgari-i-prervala-semimatchevuyu-pobednuyu-seriyu-u-gridina-gol_1792378755622366660.jpg",
+      "publishedAt": "2026-10-19T02:42:32Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6663244-kalgari-flejmz-karolina-harrikejnz-rezultat-matcha-19-oktyabrya-2026-schyot-3-2-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Каролина Харрикейнз",
+        "Калгари Флэймз",
+        "Егор Шарангович",
+        "Матвей Гридин"
+      ],
+      "relatedTeamIds": [
+        "nhl:car",
+        "nhl:cgy"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6663222",
+      "slug": "kaprizov-ustanovil-rekord-v-minnesoty-pervym-dostignuv-otmetki-v-10-golov-v-sezone",
+      "title": "Капризов установил рекорд «Миннесоты», первым достигнув отметки в 10 голов в сезоне",
+      "summary": "Российский нападающий «Миннесоты Уайлд» Кирилл Капризов отметился голом в матче регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027 с «Коламбус Блю Джекетс» (2:1) и установил очередной клубный рекорд.",
+      "content": "Российский нападающий «Миннесоты Уайлд» Кирилл Капризов отметился голом в матче регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027 с «Коламбус Блю Джекетс» (2:1) и установил очередной клубный рекорд.",
+      "image": "https://img.championat.com/news/big/e/g/kaprizov-ustanovil-rekord-minnesoty-pervym-dostignuv-otmetki-v-10-golov-v-sezone_1792377810610448873.jpg",
+      "publishedAt": "2026-10-19T01:44:30Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6663222-kaprizov-ustanovil-rekord-v-minnesoty-pervym-dostignuv-otmetki-v-10-golov-v-sezone.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Статистика",
+        "Коламбус Блю Джекетс",
+        "Миннесота Уайлд",
+        "Кирилл Капризов"
+      ],
+      "relatedTeamIds": [
+        "nhl:cbj",
+        "nhl:min"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6663208",
       "slug": "minnesota-uajld-kolambus-blyu-dzhekets-rezultat-matcha-19-oktyabrya-2026-schet-2-1-regulyarnyj-chempionat-nhl-2026-2027",
-      "title": "Голы Капризова и Юрова помогли «Миннесоте» обыграть «Коламбус»",
-      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимал «Коламбус Блю Джекетс».",
-      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимал «Коламбус Блю Джекетс».",
-      "image": "https://img.championat.com/news/big/a/z/goly-kaprizova-i-yurova-pomogli-minnesote-obygrat-kolambus_1792370377158128331.jpg",
+      "title": "Голы Капризова и Юрова принесли «Миннесоте» победу в матче с «Коламбусом»",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимала «Коламбус Блю Джекетс».",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимала «Коламбус Блю Джекетс».",
+      "image": "https://img.championat.com/news/big/h/j/goly-kaprizova-i-yurova-prinesli-minnesote-pobedu-v-matche-s-kolambusom_1792370937213911739.jpg",
       "publishedAt": "2026-10-19T00:39:38Z",
       "source": "Чемпионат • Хоккей",
       "url": "https://www.championat.com/hockey/news-6663208-minnesota-uajld-kolambus-blyu-dzhekets-rezultat-matcha-19-oktyabrya-2026-schet-2-1-regulyarnyj-chempionat-nhl-2026-2027.html",
       "tags": [
         "Хоккей",
         "НХЛ",
+        "Видео",
         "Коламбус Блю Джекетс",
         "Миннесота Уайлд",
         "Кирилл Капризов",
@@ -29,8 +258,8 @@
       "id": "news-6663200",
       "slug": "kirill-kaprizov-ustanovil-novyj-rekord-minnesoty",
       "title": "Кирилл Капризов установил новый рекорд «Миннесоты»",
-      "summary": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Коламбус Блю Джекетс».",
-      "content": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Коламбус Блю Джекетс».",
+      "summary": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Коламбус Блю Джекетс».",
+      "content": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Коламбус Блю Джекетс».",
       "image": "https://img.championat.com/news/big/b/a/kirill-kaprizov-ustanovil-novyj-rekord-minnesoty_1792368002942511619.jpg",
       "publishedAt": "2026-10-19T00:00:05Z",
       "source": "Чемпионат • Хоккей",
@@ -52,8 +281,8 @@
       "id": "news-6663196",
       "slug": "vse-chetvero-rossiyan-minnesoty-nabrali-ochki-v-techenie-dvuh-periodov-matcha-s-kolambusom",
       "title": "Все четверо россиян «Миннесоты» набрали очки в течение двух периодов матча с «Коламбусом»",
-      "summary": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата национальной хоккейной лиги, в котором «Миннесота Уайлд» принимал «Коламбус Блю Джекетс».",
-      "content": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата национальной хоккейной лиги, в котором «Миннесота Уайлд» принимал «Коламбус Блю Джекетс».",
+      "summary": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Коламбус Блю Джекетс».",
+      "content": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Коламбус Блю Джекетс».",
       "image": "https://img.championat.com/news/big/x/h/vse-chetvero-rossiyan-minnesoty-nabrali-ochki-v-techenie-dvuh-periodov-matcha-s-kolambusom_17923675331283949298.jpg",
       "publishedAt": "2026-10-18T23:52:15Z",
       "source": "Чемпионат • Хоккей",
@@ -79,8 +308,8 @@
       "id": "news-6663194",
       "slug": "kirill-kaprizov-pervym-zabil-10-golov-v-novom-sezone-nhl",
       "title": "Кирилл Капризов первым забил 10 голов в новом сезоне НХЛ",
-      "summary": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Коламбус Блю Джекетс».",
-      "content": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Коламбус Блю Джекетс».",
+      "summary": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Коламбус Блю Джекетс».",
+      "content": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Коламбус Блю Джекетс».",
       "image": "https://img.championat.com/news/big/u/i/kirill-kaprizov-pervym-zabil-10-golov-v-novom-sezone-nhl_1792366588590304388.jpg",
       "publishedAt": "2026-10-18T23:36:29Z",
       "source": "Чемпионат • Хоккей",
@@ -102,8 +331,8 @@
       "id": "news-6663192",
       "slug": "kaprizov-povtoril-dostizhenie-ovechkina-i-kucherova-sredi-dejstvuyuschih-igrokov-nhl",
       "title": "Капризов повторил достижение Овечкина и Кучерова среди действующих игроков НХЛ",
-      "summary": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Коламбус Блю Джекетс».",
-      "content": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Коламбус Блю Джекетс».",
+      "summary": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Коламбус Блю Джекетс».",
+      "content": "В эти минуты в Сент-Поле на стадионе «Гранд Казино Арена» проходит очередной матч регулярного чемпионата Национальной хоккейной лиги, в котором «Миннесота Уайлд» принимает «Коламбус Блю Джекетс».",
       "image": "https://img.championat.com/news/big/x/a/kaprizov-povtoril-dostizhenie-ovechkina-i-kucherova-sredi-dejstvuyuschih-igrokov-nhl_17923657302121399724.jpg",
       "publishedAt": "2026-10-18T23:22:12Z",
       "source": "Чемпионат • Хоккей",
@@ -570,189 +799,6 @@
       ],
       "relatedTeamIds": [
         "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6662870",
-      "slug": "gatiyatulin-ak-barsu-nuzhno-bylo-ponyat-svoj-potencial-na-dannyj-moment",
-      "title": "Гатиятулин: «Ак Барсу» нужно было понять свой потенциал на данный момент",
-      "summary": "Главный тренер казанского «Ак Барса» Анвар Гатиятулин высказался о прогрессе в игре команды.",
-      "content": "Главный тренер казанского «Ак Барса» Анвар Гатиятулин высказался о прогрессе в игре команды.",
-      "image": "https://img.championat.com/news/big/a/j/gatiyatulin-ak-barsu-nuzhno-.jpg",
-      "publishedAt": "2026-10-18T17:40:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6662870-gatiyatulin-ak-barsu-nuzhno-bylo-ponyat-svoj-potencial-na-dannyj-moment.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Динамо Минск",
-        "Анвар Гатиятулин"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:dynamo-mns"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6662866",
-      "slug": "trener-ak-barsa-gatiyatulin-otreagiroval-na-pobedu-v-matche-s-minskim-dinamo",
-      "title": "Тренер «Ак Барса» Гатиятулин отреагировал на победу в матче с минским «Динамо»",
-      "summary": "Главный тренер казанского «Ак Барса» Анвар Гатиятулин высказался о победе над минским «Динамо» (4:1).",
-      "content": "Главный тренер казанского «Ак Барса» Анвар Гатиятулин высказался о победе над минским «Динамо» (4:1).",
-      "image": "https://img.championat.com/news/big/k/v/trener-ak-barsa-gatiyatulin-.jpg",
-      "publishedAt": "2026-10-18T17:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6662866-trener-ak-barsa-gatiyatulin-otreagiroval-na-pobedu-v-matche-s-minskim-dinamo.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Динамо Минск",
-        "Анвар Гатиятулин"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:dynamo-mns"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6662816",
-      "slug": "glavnyj-trener-neftehimika-my-legkovesno-vyglyadim-po-sravneniyu-s-cska",
-      "title": "Главный тренер «Нефтехимика»: мы легковесно выглядим по сравнению с ЦСКА",
-      "summary": "Главный тренер «Нефтехимика» Игорь Гришин высказался о поражении от ЦСКА (1:4) и отметил, что нижнекамцы уступили армейцам в силовой борьбе.",
-      "content": "Главный тренер «Нефтехимика» Игорь Гришин высказался о поражении от ЦСКА (1:4) и отметил, что нижнекамцы уступили армейцам в силовой борьбе.",
-      "image": "https://img.championat.com/news/big/e/t/glavnyj-trener-neftehimika-m.jpg",
-      "publishedAt": "2026-10-18T17:20:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6662816-glavnyj-trener-neftehimika-my-legkovesno-vyglyadim-po-sravneniyu-s-cska.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Нефтехимик",
-        "Игорь Гришин"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:neftekhimik"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6662756",
-      "slug": "nikitin-ocenil-igru-novichka-cska-rajli-savchuka-v-debyutnom-matche-s-neftehimikom",
-      "title": "Никитин оценил игру новичка ЦСКА Райли Савчука в дебютном матче с «Нефтехимиком»",
-      "summary": "Главный тренер ЦСКА Игорь Никитин оценил игру новичка команды нападающего Райли Савчука в дебютном для него матче с «Нефтехимиком» (4:1).",
-      "content": "Главный тренер ЦСКА Игорь Никитин оценил игру новичка команды нападающего Райли Савчука в дебютном для него матче с «Нефтехимиком» (4:1).",
-      "image": "https://img.championat.com/news/big/m/g/nikitin-ocenil-igru-novichka.jpg",
-      "publishedAt": "2026-10-18T17:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6662756-nikitin-ocenil-igru-novichka-cska-rajli-savchuka-v-debyutnom-matche-s-neftehimikom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Нефтехимик",
-        "Игорь Никитин",
-        "Райли Савчук"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:neftekhimik"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6662778",
-      "slug": "dinamo-mn-ak-bars-rezultat-matcha-18-oktyabrya-2026-goda-schet-1-4-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "Дебютный гол Зернова за «Ак Барс» принёс победу над минским «Динамо»",
-      "summary": "Сегодня, 18 октября, в Минске, Беларусь, на стадионе «Минск-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором «Динамо» принимало казанский «Ак Барс».",
-      "content": "Сегодня, 18 октября, в Минске, Беларусь, на стадионе «Минск-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором «Динамо» принимало казанский «Ак Барс».",
-      "image": "https://img.championat.com/news/big/s/v/debyutnyj-gol-zernova-za-ak-.jpg",
-      "publishedAt": "2026-10-18T16:34:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6662778-dinamo-mn-ak-bars-rezultat-matcha-18-oktyabrya-2026-goda-schet-1-4-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Динамо Минск",
-        "Денис Зернов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:dynamo-mns"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6662762",
-      "slug": "kazhdyj-krichal-ego-imya-poturalski-o-pobednom-bullite-19-letnego-forvarda-avangarda",
-      "title": "«Каждый кричал его имя». Потуральски — о победном буллите 19-летнего форварда «Авангарда»",
-      "summary": "Нападающий «Авангарда» Эндрю Потуральски высказался о победном буллите в исполнении Глеба Бурлаки в матче с «Трактором» (2:1 Б).",
-      "content": "Нападающий «Авангарда» Эндрю Потуральски высказался о победном буллите в исполнении Глеба Бурлаки в матче с «Трактором» (2:1 Б).",
-      "image": "https://img.championat.com/news/big/c/g/kazhdyj-krichal-ego-imya-poturalski-o-pobednom-bullite-19-letnego-forvarda-avangarda_17923404851468909199.jpg",
-      "publishedAt": "2026-10-18T16:19:12Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6662762-kazhdyj-krichal-ego-imya-poturalski-o-pobednom-bullite-19-letnego-forvarda-avangarda.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Эксклюзив",
-        "Авангард",
-        "Трактор",
-        "Эндрю Потуральски"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6662750",
-      "slug": "skonchalsya-otec-hokkeista-evgeniya-kuznecova",
-      "title": "Скончался отец хоккеиста Евгения Кузнецова",
-      "summary": "Лариса Кузнецова, мама нападающего Евгения Кузнецова, сообщила в социальной сети, что отец хоккеиста скончался.",
-      "content": "Лариса Кузнецова, мама нападающего Евгения Кузнецова, сообщила в социальной сети, что отец хоккеиста скончался.",
-      "image": "https://img.championat.com/news/big/q/c/skonchalsya-otec-hokkeista-e.jpg",
-      "publishedAt": "2026-10-18T16:06:52Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6662750-skonchalsya-otec-hokkeista-evgeniya-kuznecova.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Фото",
-        "Евгений Кузнецов — хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6662728",
-      "slug": "motivaciyu-neprosto-nahodit-igor-nikitin-vyskazalsya-o-12-j-podryad-pobede-cska",
-      "title": "«Мотивацию непросто находить». Игорь Никитин высказался о 12-й подряд победе ЦСКА",
-      "summary": "Главный тренер ЦСКА Игорь Никитин высказался о победе над «Нефтехимиком» (4:1), которая стала 12-й подряд для армейского клуба.",
-      "content": "Главный тренер ЦСКА Игорь Никитин высказался о победе над «Нефтехимиком» (4:1), которая стала 12-й подряд для армейского клуба.",
-      "image": "https://img.championat.com/news/big/z/w/motivaciyu-neprosto-nahodit-.jpg",
-      "publishedAt": "2026-10-18T15:56:36Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6662728-motivaciyu-neprosto-nahodit-igor-nikitin-vyskazalsya-o-12-j-podryad-pobede-cska.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Нефтехимик",
-        "Игорь Никитин"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:neftekhimik"
       ],
       "relatedPlayerIds": []
     }
