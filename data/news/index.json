@@ -1,6 +1,52 @@
 {
   "news": [
     {
+      "id": "news-6664494",
+      "slug": "michkov-oboshyol-proppa-v-rejtinge-snajperov-filadelfii-sredi-igrokov-ne-starshe-21-goda",
+      "title": "Мичков обошёл Проппа в рейтинге снайперов «Филадельфии» среди игроков не старше 21 года",
+      "summary": "В эти минуты Филадельфии на стадионе «Иксфинити Мобайл Арена» проходит очередной матч регулярного чемпионата национальной хоккейной лиги, в котором «Филаделфия Флайерз» принимает «Колорадо Эвеланш».",
+      "content": "В эти минуты Филадельфии на стадионе «Иксфинити Мобайл Арена» проходит очередной матч регулярного чемпионата национальной хоккейной лиги, в котором «Филаделфия Флайерз» принимает «Колорадо Эвеланш».",
+      "image": "https://img.championat.com/news/big/m/k/michkov-oboshyol-proppa-v-rejtinge-snajperov-filadelfii-sredi-igrokov-ne-starshe-21-goda_1792455630991491593.jpg",
+      "publishedAt": "2026-10-20T00:20:31Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664494-michkov-oboshyol-proppa-v-rejtinge-snajperov-filadelfii-sredi-igrokov-ne-starshe-21-goda.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Колорадо Эвеланш",
+        "Филадельфия Флайерз",
+        "Матвей Мичков"
+      ],
+      "relatedTeamIds": [
+        "nhl:col",
+        "nhl:phi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6664492",
+      "slug": "dorofeev-pomog-rejndzhers-povtorit-redkoe-klubnoe-dostizhenie-37-letnej-davnosti",
+      "title": "Дорофеев помог «Рейнджерс» повторить редкое клубное достижение 37-летней давности",
+      "summary": "В эти минуты в Нью-Йорке на стадионе «Иксфинити Мобайл Арена» проходит очередной матч регулярного чемпионата национальной хоккейной лиги, в котором «Нью-Йорк Рейнджерс» принимает «Анахайм Дакс».",
+      "content": "В эти минуты в Нью-Йорке на стадионе «Иксфинити Мобайл Арена» проходит очередной матч регулярного чемпионата национальной хоккейной лиги, в котором «Нью-Йорк Рейнджерс» принимает «Анахайм Дакс».",
+      "image": "https://img.championat.com/news/big/k/o/dorofeev-pomog-rejndzhers-povtorit-redkoe-klubnoe-dostizhenie-37-letnej-davnosti_17924542941156919156.jpg",
+      "publishedAt": "2026-10-19T23:58:15Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664492-dorofeev-pomog-rejndzhers-povtorit-redkoe-klubnoe-dostizhenie-37-letnej-davnosti.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Нью-Йорк Рейнджерс",
+        "Анахайм Дакс",
+        "Павел Дорофеев"
+      ],
+      "relatedTeamIds": [
+        "nhl:ana",
+        "nhl:nyr"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6664106",
       "slug": "eschyo-probuyu-vremya-ot-vremeni-no-myaso-vnutri-zhele-eto-stranno-igrok-cska-o-holodce",
       "title": "«Ещё пробую время от времени, но мясо внутри желе — это странно». Игрок ЦСКА — о холодце",
@@ -669,51 +715,6 @@
       "relatedTeamIds": [
         "khl:admiral",
         "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6663910",
-      "slug": "glavnyj-trener-barysa-kravec-otvetil-na-vopros-o-vozmozhnom-podpisanii-tejlora-beka",
-      "title": "Главный тренер «Барыса» Кравец ответил на вопрос о возможном подписании Тейлора Бека",
-      "summary": "Главный тренер «Барыса» Михаил Кравец ответил, заинтересован ли клуб в подписании нападающего Тейлора Бека.",
-      "content": "Главный тренер «Барыса» Михаил Кравец ответил, заинтересован ли клуб в подписании нападающего Тейлора Бека.",
-      "image": "https://img.championat.com/news/big/l/s/glavnyj-trener-barysa-kravec-otvetil-na-vopros-o-vozmozhnom-podpisanii-tejlora-beka_17924175191742039805.jpg",
-      "publishedAt": "2026-10-19T13:45:29Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6663910-glavnyj-trener-barysa-kravec-otvetil-na-vopros-o-vozmozhnom-podpisanii-tejlora-beka.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Сибирь",
-        "Барыс",
-        "Михаил Кравец",
-        "Тейлор Бек"
-      ],
-      "relatedTeamIds": [
-        "khl:barys",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6663894",
-      "slug": "ves-trenerskij-shtab-ne-ustraivala-ego-igra-kravec-o-panyukove-v-spiske-otkazov",
-      "title": "«Весь тренерский штаб не устраивала его игра». Кравец — о Панюкове в списке отказов",
-      "summary": "Главный тренер «Барыса» Михаил Кравец высказался о помещении нападающего команды Кирилла Панюкова в список отказов.",
-      "content": "Главный тренер «Барыса» Михаил Кравец высказался о помещении нападающего команды Кирилла Панюкова в список отказов.",
-      "image": "https://img.championat.com/news/big/o/z/ves-trenerskij-shtab-ne-ustr.jpg",
-      "publishedAt": "2026-10-19T13:33:17Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6663894-ves-trenerskij-shtab-ne-ustraivala-ego-igra-kravec-o-panyukove-v-spiske-otkazov.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Барыс",
-        "Михаил Кравец"
-      ],
-      "relatedTeamIds": [
-        "khl:barys"
       ],
       "relatedPlayerIds": []
     }
