@@ -16,6 +16,12 @@
         "value": 18
       },
       {
+        "playerId": "nhl:p_8479318",
+        "playerName": "Auston Matthews",
+        "teamId": "nhl:tor",
+        "value": 16
+      },
+      {
         "playerId": "nhl:p_8480803",
         "playerName": "Evan Bouchard",
         "teamId": "nhl:edm",
@@ -26,12 +32,6 @@
         "playerName": "Nathan MacKinnon",
         "teamId": "nhl:col",
         "value": 16
-      },
-      {
-        "playerId": "nhl:p_8478864",
-        "playerName": "Kirill Kaprizov",
-        "teamId": "nhl:min",
-        "value": 15
       }
     ],
     "goals": [
@@ -48,21 +48,21 @@
         "value": 8
       },
       {
+        "playerId": "nhl:p_8479318",
+        "playerName": "Auston Matthews",
+        "teamId": "nhl:tor",
+        "value": 7
+      },
+      {
         "playerId": "nhl:p_8475913",
         "playerName": "Mark Stone",
         "teamId": "nhl:vgk",
         "value": 7
       },
       {
-        "playerId": "nhl:p_8481617",
-        "playerName": "Vasily Podkolzin",
-        "teamId": "nhl:edm",
-        "value": 7
-      },
-      {
-        "playerId": "nhl:p_8482109",
-        "playerName": "Alexis Lafrenière",
-        "teamId": "nhl:nyr",
+        "playerId": "nhl:p_8477951",
+        "playerName": "Nick Schmaltz",
+        "teamId": "nhl:uta",
         "value": 7
       }
     ],

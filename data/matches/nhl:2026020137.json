@@ -6,146 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-19T23:00:00Z",
-  "status": "LIVE",
-  "period": 2,
-  "clock": "03:10",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:nyr",
-    "score": 4,
+    "score": 5,
     "periods": [],
-    "shots": 26
+    "shots": null
   },
   "away": {
     "id": "nhl:ana",
-    "score": 0,
+    "score": 2,
     "periods": [],
-    "shots": 18
+    "shots": null
   },
   "arena": "Madison Square Garden",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "01:18",
-      "team": "home",
-      "playerId": "nhl:p_8480434",
-      "playerName": "Sean Durzi",
-      "assists": [
-        "nhl:p_8481604",
-        "nhl:p_8481789"
-      ],
-      "score": "1-0",
-      "order": 28
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "02:23",
-      "team": "away",
-      "playerId": "nhl:p_8482408",
-      "playerName": "Jeff Malott",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 42
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "03:39",
-      "team": "away",
-      "playerId": "nhl:p_8475324",
-      "playerName": "Nick Jensen",
-      "minutes": 2,
-      "reason": "delaying-game-puck-over-glass",
-      "order": 58
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "07:08",
-      "team": "home",
-      "playerId": "nhl:p_8485957",
-      "playerName": "Alberts Smits",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 104
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "03:52",
-      "team": "away",
-      "playerId": "nhl:p_8486052",
-      "playerName": "Nikita Klepov",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 335
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "04:38",
-      "team": "home",
-      "playerId": "nhl:p_8476468",
-      "playerName": "J.T. Miller",
-      "assists": [
-        "nhl:p_8479323",
-        "nhl:p_8482109"
-      ],
-      "score": "2-0",
-      "order": 340
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "10:17",
-      "team": "home",
-      "playerId": "nhl:p_8484210",
-      "playerName": "Gabe Perreault",
-      "assists": [
-        "nhl:p_8476459",
-        "nhl:p_8482109"
-      ],
-      "score": "3-0",
-      "order": 401
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "13:14",
-      "team": "home",
-      "playerId": "nhl:p_8477416",
-      "playerName": "Oliver Bjorkstrand",
-      "score": "4-0",
-      "order": 431
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      26,
-      18
-    ],
-    "shotsOnGoal": [
-      26,
-      18
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020137/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020137/play-by-play"
-    ],
-    "fetchedAt": "2026-10-20T00:37:17.713000+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -153,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/ana-vs-nyr/2026/10/19/2026020137",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/ana-vs-nyr/2026/10/19/2026020137",
-    "verifiedAt": "2026-10-20T00:37:17.713057Z"
+    "verifiedAt": "2026-10-20T05:13:22.474097Z"
   }
 }

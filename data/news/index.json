@@ -1,6 +1,301 @@
 {
   "news": [
     {
+      "id": "news-6664554",
+      "slug": "poyavilas-novaya-informaciyu-po-sudu-nad-obvinyaemym-v-gibeli-dzhonni-godro-i-ego-brata",
+      "title": "Появилась новая информацию по суду над обвиняемым в гибели Джонни Годро и его брата",
+      "summary": "Судебный процесс по делу о гибели бывшего нападающего «Коламбус Блю Джекетс» Джонни Годро и его брата Мэттью в ДТП начнётся в январе 2027 года.",
+      "content": "Судебный процесс по делу о гибели бывшего нападающего «Коламбус Блю Джекетс» Джонни Годро и его брата Мэттью в ДТП начнётся в январе 2027 года.",
+      "image": "https://img.championat.com/news/big/t/m/poyavilas-novaya-informaciyu-po-sudu-nad-obvinyaemym-v-gibeli-dzhonni-godro-i-ego-brata_1792467672350177378.jpg",
+      "publishedAt": "2026-10-20T04:30:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664554-poyavilas-novaya-informaciyu-po-sudu-nad-obvinyaemym-v-gibeli-dzhonni-godro-i-ego-brata.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Коламбус Блю Джекетс",
+        "Джонни Годро"
+      ],
+      "relatedTeamIds": [
+        "nhl:cbj"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6664562",
+      "slug": "rezultaty-matchej-nhl-na-20-oktyabrya-2026-goda",
+      "title": "Результаты матчей НХЛ на 20 октября 2026 года",
+      "summary": "В ночь с 19 на 20 октября прошли очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "content": "В ночь с 19 на 20 октября прошли очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/x/m/rezultaty-matchej-nhl-na-20-oktyabrya-2026-goda_1792469792742256308.jpg",
+      "publishedAt": "2026-10-20T04:15:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664562-rezultaty-matchej-nhl-na-20-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Питтсбург Пингвинз",
+        "Нью-Йорк Рейнджерс",
+        "Торонто Мэйпл Лифс",
+        "Колорадо Эвеланш",
+        "Филадельфия Флайерз",
+        "Сан-Хосе Шаркс",
+        "Анахайм Дакс",
+        "Юта Маммот"
+      ],
+      "relatedTeamIds": [
+        "nhl:ana",
+        "nhl:col",
+        "nhl:nyr",
+        "nhl:phi",
+        "nhl:pit",
+        "nhl:sjs",
+        "nhl:tor",
+        "nhl:uta"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6664556",
+      "slug": "yuta-so-schyotom-5-4-obygrala-pittsburg-v-nhl-rossiyane-nabrali-chetyre-ochka",
+      "title": "«Юта» со счётом 5:4 обыграла «Питтсбург» в НХЛ. Россияне набрали четыре очка",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Юта Мамонт» принимала «Питтсбург Пингвинз».",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Юта Мамонт» принимала «Питтсбург Пингвинз».",
+      "image": "https://img.championat.com/news/big/d/s/yuta-so-schyotom-5-4-obygrala-pittsburg-v-nhl-rossiyane-nabrali-chetyre-ochka_1792468289401402842.jpg",
+      "publishedAt": "2026-10-20T03:48:00Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664556-yuta-so-schyotom-5-4-obygrala-pittsburg-v-nhl-rossiyane-nabrali-chetyre-ochka.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Питтсбург Пингвинз",
+        "Михаил Сергачёв",
+        "Юта Маммот",
+        "Андрей Кузьменко",
+        "Егор Чинахов",
+        "Даниил Бут"
+      ],
+      "relatedTeamIds": [
+        "nhl:pit",
+        "nhl:uta"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6664548",
+      "slug": "matvej-michkov-vyshel-na-trete-mesto-v-gonke-rossijskih-snajperov-nhl-obojdya-malkina",
+      "title": "Матвей Мичков вышел на третье место в гонке российских снайперов НХЛ, обойдя Малкина",
+      "summary": "Российский нападающий «Филадельфии Флайерз» Матвей Мичков поднялся на третье место в гонке лучших российских снайперов регулярного чемпионата НХЛ сезона-2026/2027.",
+      "content": "Российский нападающий «Филадельфии Флайерз» Матвей Мичков поднялся на третье место в гонке лучших российских снайперов регулярного чемпионата НХЛ сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/a/p/matvej-michkov-vyshel-na-trete-mesto-v-gonke-rossijskih-snajperov-nhl-obojdya-malkina_1792466852252058987.jpg",
+      "publishedAt": "2026-10-20T03:30:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664548-matvej-michkov-vyshel-na-trete-mesto-v-gonke-rossijskih-snajperov-nhl-obojdya-malkina.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Питтсбург Пингвинз",
+        "Эдмонтон Ойлерз",
+        "Каролина Харрикейнз",
+        "Евгений Малкин",
+        "Миннесота Уайлд",
+        "Филадельфия Флайерз",
+        "Кирилл Капризов",
+        "Андрей Свечников",
+        "Матвей Мичков",
+        "Василий Подколзин"
+      ],
+      "relatedTeamIds": [
+        "nhl:car",
+        "nhl:edm",
+        "nhl:min",
+        "nhl:phi",
+        "nhl:pit"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6664544",
+      "slug": "21-letnij-rossiyanin-daniil-but-ustanovil-istoricheskij-rekord-yuty",
+      "title": "21-летний россиянин Даниил Бут установил исторический рекорд «Юты»",
+      "summary": "Российский нападающий «Юты Маммот» Даниил Бут стал самым молодым хоккеистом в истории клуба, набравшим очки в каждом из первых четырёх домашних матчей команды в одном сезоне НХЛ.",
+      "content": "Российский нападающий «Юты Маммот» Даниил Бут стал самым молодым хоккеистом в истории клуба, набравшим очки в каждом из первых четырёх домашних матчей команды в одном сезоне НХЛ.",
+      "image": "https://img.championat.com/news/big/d/z/21-letnij-rossiyanin-daniil-but-ustanovil-istoricheskij-rekord-yuty_17924662431354225304.jpg",
+      "publishedAt": "2026-10-20T03:16:41Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664544-21-letnij-rossiyanin-daniil-but-ustanovil-istoricheskij-rekord-yuty.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Питтсбург Пингвинз",
+        "Юта Маммот",
+        "Даниил Бут"
+      ],
+      "relatedTeamIds": [
+        "nhl:pit",
+        "nhl:uta"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6664532",
+      "slug": "bobrovskij-i-askarov-voshli-v-chislo-luchshih-igrokov-vstrechi-toronto-san-hose",
+      "title": "Бобровский и Аскаров вошли в число лучших игроков встречи «Торонто» — «Сан‑Хосе»",
+      "summary": "Российские вратари Сергей Бобровский и Ярослав Аскаров вошли в число трёх звёзд матча регулярного чемпионата НХЛ «Торонто» — «Сан‑Хосе».",
+      "content": "Российские вратари Сергей Бобровский и Ярослав Аскаров вошли в число трёх звёзд матча регулярного чемпионата НХЛ «Торонто» — «Сан‑Хосе».",
+      "image": "https://img.championat.com/news/big/m/g/bobrovskij-i-askarov-voshli-v-chislo-luchshih-igrokov-vstrechi-toronto-san-hose_17924647171664557242.jpg",
+      "publishedAt": "2026-10-20T03:01:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664532-bobrovskij-i-askarov-voshli-v-chislo-luchshih-igrokov-vstrechi-toronto-san-hose.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Торонто Мэйпл Лифс",
+        "Сан-Хосе Шаркс",
+        "Сергей Бобровский",
+        "Остон Мэттьюс",
+        "Ярослав Аскаров"
+      ],
+      "relatedTeamIds": [
+        "nhl:fla",
+        "nhl:sjs",
+        "nhl:tor"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8479318"
+      ]
+    },
+    {
+      "id": "news-6664526",
+      "slug": "michkov-priznan-pervoj-zvezdoj-matcha-filadelfiya-kolorado",
+      "title": "Мичков признан первой звездой матча «Филадельфия» — «Колорадо»",
+      "summary": "Российский нападающий «Филадельфии» Матвей Мичков признан первой звездой матча регулярного чемпионата НХЛ против «Колорадо».",
+      "content": "Российский нападающий «Филадельфии» Матвей Мичков признан первой звездой матча регулярного чемпионата НХЛ против «Колорадо».",
+      "image": "https://img.championat.com/news/big/e/y/michkov-priznan-pervoj-zvezdoj-matcha-filadelfiya-kolorado_1792464076246849403.jpg",
+      "publishedAt": "2026-10-20T02:41:23Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664526-michkov-priznan-pervoj-zvezdoj-matcha-filadelfiya-kolorado.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Колорадо Эвеланш",
+        "Филадельфия Флайерз",
+        "Матвей Мичков",
+        "Тревор Зеграс"
+      ],
+      "relatedTeamIds": [
+        "nhl:col",
+        "nhl:phi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6664518",
+      "slug": "toronto-mejpl-lifs-san-hose-sharks-rezultat-matcha-20-oktyabrya-2025-schyot-3-1-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "«Торонто» обыграл «Сан-Хосе». Бобровский сделал 30 сейвов, у Марченко — ассист",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором встречались «Торонто Мэйпл Лифс» и «Сан-Хосе Шаркс».",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором встречались «Торонто Мэйпл Лифс» и «Сан-Хосе Шаркс».",
+      "image": "https://img.championat.com/news/big/v/v/toronto-obygral-san-hose-bobrovskij-sdelal-30-sejvov-u-marchenko-assist_17924629451268723583.jpg",
+      "publishedAt": "2026-10-20T02:20:34Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664518-toronto-mejpl-lifs-san-hose-sharks-rezultat-matcha-20-oktyabrya-2025-schyot-3-1-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Торонто Мэйпл Лифс",
+        "Сан-Хосе Шаркс",
+        "Сергей Бобровский",
+        "Дмитрий Орлов",
+        "Остон Мэттьюс",
+        "Кирилл Марченко",
+        "Ярослав Аскаров",
+        "Игорь Чернышов — хоккей",
+        "Гэвин Маккенна",
+        "Мэйсон Марчмент"
+      ],
+      "relatedTeamIds": [
+        "nhl:fla",
+        "nhl:sjs",
+        "nhl:tor"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8479318"
+      ]
+    },
+    {
+      "id": "news-6664512",
+      "slug": "dubl-michkova-pomog-filadelfii-doma-pobedit-kolorado",
+      "title": "Дубль Мичкова помог «Филадельфии» дома победить «Колорадо»",
+      "summary": "В ночь с 19 на 20 октября завершился матч Национальной хоккейной лиги (НХЛ) между командами «Филадельфия Флайерз» и «Колорадо Эвеланш».",
+      "content": "В ночь с 19 на 20 октября завершился матч Национальной хоккейной лиги (НХЛ) между командами «Филадельфия Флайерз» и «Колорадо Эвеланш».",
+      "image": "https://img.championat.com/news/big/o/i/dubl-michkova-pomog-filadelfii-doma-pobedit-kolorado_17924607501743658543.jpg",
+      "publishedAt": "2026-10-20T01:45:51Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664512-dubl-michkova-pomog-filadelfii-doma-pobedit-kolorado.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Колорадо Эвеланш",
+        "Филадельфия Флайерз",
+        "Матвей Мичков",
+        "Фёдор Свечков"
+      ],
+      "relatedTeamIds": [
+        "nhl:col",
+        "nhl:phi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6664510",
+      "slug": "nyu-jork-rejndzhers-anahajm-daks-rezultat-matcha-20-oktyabrya-2026-schet-5-2-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "Передача Дорофеева помогла «Рейнджерс» обыграть «Анахайм»",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Нью-Йорк Рейнджерс» принимал «Анахайм Дакс».",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Нью-Йорк Рейнджерс» принимал «Анахайм Дакс».",
+      "image": "https://img.championat.com/news/big/c/h/peredacha-dorofeeva-pomogla-rejndzhers-obygrat-anahajm_17924606201372414750.jpg",
+      "publishedAt": "2026-10-20T01:43:41Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664510-nyu-jork-rejndzhers-anahajm-daks-rezultat-matcha-20-oktyabrya-2026-schet-5-2-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Нью-Йорк Рейнджерс",
+        "Анахайм Дакс",
+        "Владислав Гавриков",
+        "Павел Дорофеев",
+        "Павел Минтюков"
+      ],
+      "relatedTeamIds": [
+        "nhl:ana",
+        "nhl:nyr"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6664500",
+      "slug": "matvej-michkov-povtoril-samuyu-prodolzhitelnuyu-lichnuyu-golevuyu-seriyu-v-karere-nhl",
+      "title": "Матвей Мичков повторил самую продолжительную личную голевую серию в карьере НХЛ",
+      "summary": "В эти минуты Филадельфии на стадионе «Иксфинити Мобайл Арена» проходит очередной матч регулярного чемпионата Национальной хоккейной лиги, в котором «Филадельфия Флайерз» принимает «Колорадо Эвеланш».",
+      "content": "В эти минуты Филадельфии на стадионе «Иксфинити Мобайл Арена» проходит очередной матч регулярного чемпионата Национальной хоккейной лиги, в котором «Филадельфия Флайерз» принимает «Колорадо Эвеланш».",
+      "image": "https://img.championat.com/news/big/m/x/matvej-michkov-povtoril-samuyu-prodolzhitelnuyu-lichnuyu-golevuyu-seriyu-v-karere-nhl_17924568631648982997.jpg",
+      "publishedAt": "2026-10-20T00:41:06Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664500-matvej-michkov-povtoril-samuyu-prodolzhitelnuyu-lichnuyu-golevuyu-seriyu-v-karere-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Колорадо Эвеланш",
+        "Филадельфия Флайерз",
+        "Матвей Мичков"
+      ],
+      "relatedTeamIds": [
+        "nhl:col",
+        "nhl:phi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6664494",
       "slug": "michkov-oboshyol-proppa-v-rejtinge-snajperov-filadelfii-sredi-igrokov-ne-starshe-21-goda",
       "title": "Мичков обошёл Проппа в рейтинге снайперов «Филадельфии» среди игроков не старше 21 года",
@@ -27,8 +322,8 @@
       "id": "news-6664492",
       "slug": "dorofeev-pomog-rejndzhers-povtorit-redkoe-klubnoe-dostizhenie-37-letnej-davnosti",
       "title": "Дорофеев помог «Рейнджерс» повторить редкое клубное достижение 37-летней давности",
-      "summary": "В эти минуты в Нью-Йорке на стадионе «Иксфинити Мобайл Арена» проходит очередной матч регулярного чемпионата национальной хоккейной лиги, в котором «Нью-Йорк Рейнджерс» принимает «Анахайм Дакс».",
-      "content": "В эти минуты в Нью-Йорке на стадионе «Иксфинити Мобайл Арена» проходит очередной матч регулярного чемпионата национальной хоккейной лиги, в котором «Нью-Йорк Рейнджерс» принимает «Анахайм Дакс».",
+      "summary": "В эти минуты в Нью-Йорке на стадионе «Иксфинити Мобайл Арена» проходит очередной матч регулярного чемпионата Национальной хоккейной лиги, в котором «Нью-Йорк Рейнджерс» принимает «Анахайм Дакс».",
+      "content": "В эти минуты в Нью-Йорке на стадионе «Иксфинити Мобайл Арена» проходит очередной матч регулярного чемпионата Национальной хоккейной лиги, в котором «Нью-Йорк Рейнджерс» принимает «Анахайм Дакс».",
       "image": "https://img.championat.com/news/big/k/o/dorofeev-pomog-rejndzhers-povtorit-redkoe-klubnoe-dostizhenie-37-letnej-davnosti_17924542941156919156.jpg",
       "publishedAt": "2026-10-19T23:58:15Z",
       "source": "Чемпионат • Хоккей",
@@ -463,258 +758,6 @@
       ],
       "relatedTeamIds": [
         "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664102",
-      "slug": "rossijskij-golkiper-ahtyamov-vyzvan-v-sostav-toronto-iz-ahl",
-      "title": "Российский голкипер Ахтямов вызван в состав «Торонто» из АХЛ",
-      "summary": "«Торонто Мэйпл Лифс» перевёл российского вратаря Артура Ахтямова и нападающего Винни Леттьери в основной состав из АХЛ.",
-      "content": "«Торонто Мэйпл Лифс» перевёл российского вратаря Артура Ахтямова и нападающего Винни Леттьери в основной состав из АХЛ.",
-      "image": "https://img.championat.com/news/big/b/z/rossijskij-golkiper-ahtyamov-vyzvan-v-sostav-toronto-iz-ahl_17924260131153909388.jpg",
-      "publishedAt": "2026-10-19T16:06:08Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664102-rossijskij-golkiper-ahtyamov-vyzvan-v-sostav-toronto-iz-ahl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Торонто Мэйпл Лифс",
-        "Артур Ахтямов"
-      ],
-      "relatedTeamIds": [
-        "nhl:tor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6663072",
-      "slug": "severstal-torpedo-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Северсталь» — «Торпедо»: онлайн-трансляция матча КХЛ началась",
-      "summary": "Сегодня, 19 октября, в Череповце на стадионе «Ледовый дворец» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Северсталь» принимает нижегородское «Торпедо».",
-      "content": "Сегодня, 19 октября, в Череповце на стадионе «Ледовый дворец» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Северсталь» принимает нижегородское «Торпедо».",
-      "image": "https://img.championat.com/news/big/z/l/severstal-torpedo-onlajn-translyaciya-matcha-khl-nachalas_1792353810123405804.jpg",
-      "publishedAt": "2026-10-19T16:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6663072-severstal-torpedo-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Торпедо",
-        "Северсталь"
-      ],
-      "relatedTeamIds": [
-        "khl:severstal",
-        "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664074",
-      "slug": "ottava-prodlila-kontrakt-s-glavnym-trenerom-trevisom-grinom",
-      "title": "«Оттава» продлила контракт с главным тренером Трэвисом Грином",
-      "summary": "Хоккейный клуб «Оттава Сенаторз» официально объявил о продлении контракта с главным тренером Трэвисом Грином.",
-      "content": "Хоккейный клуб «Оттава Сенаторз» официально объявил о продлении контракта с главным тренером Трэвисом Грином.",
-      "image": "https://img.championat.com/news/big/e/t/ottava-prodlila-kontrakt-s-glavnym-trenerom-trevisom-grinom_17924250311929366486.jpg",
-      "publishedAt": "2026-10-19T15:50:34Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664074-ottava-prodlila-kontrakt-s-glavnym-trenerom-trevisom-grinom.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Оттава Сенаторз",
-        "Трэвис Грин",
-        "Стив Стэйос"
-      ],
-      "relatedTeamIds": [
-        "nhl:ott"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664078",
-      "slug": "trenerskij-shtab-ska-pokinuli-tri-specialista",
-      "title": "Тренерский штаб СКА покинули три специалиста",
-      "summary": "Тренерский штаб СКА покинули три специалиста.",
-      "content": "Тренерский штаб СКА покинули три специалиста.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-10-19T15:37:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664078-trenerskij-shtab-ska-pokinuli-tri-specialista.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Алексей Терещенко",
-        "Вадим Епанчинцев",
-        "Борис Миронов",
-        "Максим Семёнов"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664052",
-      "slug": "vasilij-podkolzin-i-shakir-muhamadullin-vybrali-na-hellouin-kostyumy-v-stile-90-h",
-      "title": "Василий Подколзин и Шакир Мухамадуллин выбрали на Хэллоуин костюмы в стиле 90-х",
-      "summary": "Российский нападающий «Эдмонтон Ойлерз» Василий Подколзин на своей странице в социальной сети опубликовал фотографию с супругой Александрой, одноклубником Шакиром Мухамадуллиным и его женой Дианой в костюмах на Хэллоуин.",
-      "content": "Российский нападающий «Эдмонтон Ойлерз» Василий Подколзин на своей странице в социальной сети опубликовал фотографию с супругой Александрой, одноклубником Шакиром Мухамадуллиным и его женой Дианой в костюмах на Хэллоуин.",
-      "image": "assets/images/news_nhl_season.jpg",
-      "publishedAt": "2026-10-19T15:24:30Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664052-vasilij-podkolzin-i-shakir-muhamadullin-vybrali-na-hellouin-kostyumy-v-stile-90-h.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Фото",
-        "Эдмонтон Ойлерз",
-        "Василий Подколзин",
-        "Шакир Мухамадуллин"
-      ],
-      "relatedTeamIds": [
-        "nhl:edm"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664040",
-      "slug": "forvard-moskovskogo-dinamo-tertyshnyj-vyveden-iz-spiska-travmirovannyh",
-      "title": "Форвард московского «Динамо» Тертышный выведен из списка травмированных",
-      "summary": "Нападающий московского «Динамо» Никита Тертышный выведен из списка травмированных.",
-      "content": "Нападающий московского «Динамо» Никита Тертышный выведен из списка травмированных.",
-      "image": "https://img.championat.com/news/big/q/w/forvard-moskovskogo-dinamo-tertyshnyj-vyveden-iz-spiska-travmirovannyh_1792422198825345358.jpg",
-      "publishedAt": "2026-10-19T15:03:20Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664040-forvard-moskovskogo-dinamo-tertyshnyj-vyveden-iz-spiska-travmirovannyh.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Травмы — хоккей",
-        "Никита Тертышный"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664018",
-      "slug": "glavnyj-trener-admirala-bratash-ocenil-pobedu-nad-salavatom-yulaevym",
-      "title": "Главный тренер «Адмирала» Браташ оценил победу над «Салаватом Юлаевым»",
-      "summary": "Главный тренер «Адмирала» Олег Браташ прокомментировал домашнюю победу над «Салаватом Юлаевым» (2:0) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Главный тренер «Адмирала» Олег Браташ прокомментировал домашнюю победу над «Салаватом Юлаевым» (2:0) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/m/x/glavnyj-trener-admirala-brat.jpg",
-      "publishedAt": "2026-10-19T14:49:43Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664018-glavnyj-trener-admirala-bratash-ocenil-pobedu-nad-salavatom-yulaevym.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Адмирал",
-        "Олег Браташ"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6663992",
-      "slug": "napadayuschij-salavata-yulaeva-roduold-vyskazalsya-o-porazhenii-ot-admirala",
-      "title": "Нападающий «Салавата Юлаева» Родуолд высказался о поражении от «Адмирала»",
-      "summary": "Нападающий «Салавата Юлаева» Джек Родуолд прокомментировал поражение от «Адмирала» (0:2) в матче регулярного чемпионата Фонбет КХЛ.",
-      "content": "Нападающий «Салавата Юлаева» Джек Родуолд прокомментировал поражение от «Адмирала» (0:2) в матче регулярного чемпионата Фонбет КХЛ.",
-      "image": "https://img.championat.com/news/big/n/q/napadayuschij-salavata-yulae.jpg",
-      "publishedAt": "2026-10-19T14:36:45Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6663992-napadayuschij-salavata-yulaeva-roduold-vyskazalsya-o-porazhenii-ot-admirala.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Адмирал",
-        "Григорий Панин",
-        "Джек Родуолд"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6663974",
-      "slug": "u-nego-shikarnaya-hokkejnaya-karera-kozlov-o-1000-matchej-panina-v-khl",
-      "title": "«У него шикарная хоккейная карьера». Козлов — о 1000 матчей Панина в КХЛ",
-      "summary": "Главный тренер «Салавата Юлаева» Виктор Козлов после поражения от «Адмирала» (0:2) поздравил капитана уфимской команды Григория Панина с 1000-й встречей в КХЛ.",
-      "content": "Главный тренер «Салавата Юлаева» Виктор Козлов после поражения от «Адмирала» (0:2) поздравил капитана уфимской команды Григория Панина с 1000-й встречей в КХЛ.",
-      "image": "https://img.championat.com/news/big/q/a/u-nego-shikarnaya-hokkejnaya.jpg",
-      "publishedAt": "2026-10-19T14:23:12Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6663974-u-nego-shikarnaya-hokkejnaya-karera-kozlov-o-1000-matchej-panina-v-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Адмирал",
-        "Виктор Козлов",
-        "Григорий Панин"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6663946",
-      "slug": "kozlov-o-bezgolevoj-serii-shipachyova-vadim-v-principe-delaet-to-chego-ya-ot-nego-zhdu",
-      "title": "Козлов — о безголевой серии Шипачёва: Вадим, в принципе, делает то, чего я от него жду",
-      "summary": "Главный тренер «Салавата Юлаева» Виктор Козлов после поражения от «Адмирала» (0:2) высказался о безголевой серии нападающего уфимской команды Вадима Шипачёва.",
-      "content": "Главный тренер «Салавата Юлаева» Виктор Козлов после поражения от «Адмирала» (0:2) высказался о безголевой серии нападающего уфимской команды Вадима Шипачёва.",
-      "image": "https://img.championat.com/news/big/u/t/kozlov-o-bezgolevoj-serii-sh.jpg",
-      "publishedAt": "2026-10-19T14:10:17Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6663946-kozlov-o-bezgolevoj-serii-shipachyova-vadim-v-principe-delaet-to-chego-ya-ot-nego-zhdu.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Адмирал",
-        "Вадим Шипачёв",
-        "Виктор Козлов"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6663938",
-      "slug": "sygrali-neskolko-bezzubo-kozlov-o-porazhenii-salavata-yulaeva-ot-admirala",
-      "title": "«Сыграли несколько беззубо». Козлов — о поражении «Салавата Юлаева» от «Адмирала»",
-      "summary": "Главный тренер «Салавата Юлаева» Виктор Козлов подвёл итоги матча регулярного чемпионата Фонбет КХЛ с «Адмиралом» (0:2).",
-      "content": "Главный тренер «Салавата Юлаева» Виктор Козлов подвёл итоги матча регулярного чемпионата Фонбет КХЛ с «Адмиралом» (0:2).",
-      "image": "https://img.championat.com/news/big/u/c/sygrali-neskolko-bezzubo-koz.jpg",
-      "publishedAt": "2026-10-19T13:57:22Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6663938-sygrali-neskolko-bezzubo-kozlov-o-porazhenii-salavata-yulaeva-ot-admirala.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Адмирал",
-        "Виктор Козлов"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:salavat-yulaev"
       ],
       "relatedPlayerIds": []
     }
