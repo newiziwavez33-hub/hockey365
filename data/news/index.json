@@ -1,6 +1,564 @@
 {
   "news": [
     {
+      "id": "news-6665876",
+      "slug": "u-tebya-skolko-kubkov-rot-zakryl-rafikov-i-nadvornyj-obmenyalis-replikami-na-skamejkah-shtrafnikov",
+      "title": "«У тебя, *****, сколько кубков? Рот закрыл». Рафиков и Надворный обменялись репликами",
+      "summary": "Защитник «Локомотива» Рушан Рафиков и нападающий «Нефтехимика» Матвей Надворный во время очного матча команд в регулярном чемпионате КХЛ одновременно оказались на скамейках штрафников за грубость.",
+      "content": "Защитник «Локомотива» Рушан Рафиков и нападающий «Нефтехимика» Матвей Надворный во время очного матча команд в регулярном чемпионате КХЛ одновременно оказались на скамейках штрафников за грубость.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-20T21:25:43Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665876-u-tebya-skolko-kubkov-rot-zakryl-rafikov-i-nadvornyj-obmenyalis-replikami-na-skamejkah-shtrafnikov.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Локомотив",
+        "Нефтехимик",
+        "Рушан Рафиков"
+      ],
+      "relatedTeamIds": [
+        "khl:lokomotiv",
+        "khl:neftekhimik"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665850",
+      "slug": "19-letnemu-igroku-pittsburga-stalo-ploho-vo-vremya-poleta-samolyot-vernulsya-v-aeroport",
+      "title": "19-летнему игроку «Питтсбурга» стало плохо во время полёта, самолёт вернулся в аэропорт",
+      "summary": "Нападающему «Питтсбург Пингвинз» Бенжамину Кинделу стало плохо в самолёте во время полёта команды после матча с «Ютой Маммот» (4:5).",
+      "content": "Нападающему «Питтсбург Пингвинз» Бенжамину Кинделу стало плохо в самолёте во время полёта команды после матча с «Ютой Маммот» (4:5).",
+      "image": "https://img.championat.com/news/big/j/m/19-letnemu-igroku-pittsburga-stalo-ploho-vo-vremya-polyota-samolyot-vernulsya-v-aeroport_1792531051439479652.jpg",
+      "publishedAt": "2026-10-20T21:16:56Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665850-19-letnemu-igroku-pittsburga-stalo-ploho-vo-vremya-poleta-samolyot-vernulsya-v-aeroport.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Питтсбург Пингвинз"
+      ],
+      "relatedTeamIds": [
+        "nhl:pit"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665728",
+      "slug": "rezultaty-matchej-mhl-na-20-oktyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 20 октября 2026 года",
+      "summary": "Сегодня, 20 октября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 20 октября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-20T20:59:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665728-rezultaty-matchej-mhl-na-20-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Омские Ястребы",
+        "МХК Стальные Лисы",
+        "МХК Толпар",
+        "Крылья Советов",
+        "МХК Чайка",
+        "МХК Сибирские Снайперы",
+        "МХК Динамо Санкт-Петербург",
+        "МХК Ирбис Казань",
+        "МХК Тайфун",
+        "МХК Красноярские Рыси"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665718",
+      "slug": "rezultaty-matchej-vhl-na-20-oktyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 20 октября 2026 года",
+      "summary": "Сегодня, 20 октября, прошли четыре матча OLIMPBET Чемпионата России ВХЛ.",
+      "content": "Сегодня, 20 октября, прошли четыре матча OLIMPBET Чемпионата России ВХЛ.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-10-20T20:55:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665718-rezultaty-matchej-vhl-na-20-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Химик",
+        "Ижсталь",
+        "Рязань",
+        "Зауралье",
+        "Звезда",
+        "Омские Крылья",
+        "АКМ"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665830",
+      "slug": "opaseniya-est-vsegda-glavnyj-trener-sibiri-o-predstoyaschih-slozhnostyah-v-regulyarke",
+      "title": "«Опасения есть всегда». Главный тренер «Сибири» — о предстоящих сложностях в регулярке",
+      "summary": "Главный тренер «Сибири» Ярослав Люзенков высказался о сложностях, которые ждут новосибирский клуб в текущем сезоне КХЛ.",
+      "content": "Главный тренер «Сибири» Ярослав Люзенков высказался о сложностях, которые ждут новосибирский клуб в текущем сезоне КХЛ.",
+      "image": "https://img.championat.com/news/big/c/e/opaseniya-est-vsegda-glavnyj.jpg",
+      "publishedAt": "2026-10-20T20:52:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665830-opaseniya-est-vsegda-glavnyj-trener-sibiri-o-predstoyaschih-slozhnostyah-v-regulyarke.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Сибирь",
+        "Ярослав Люзенков"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk",
+        "khl:sibir"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665708",
+      "slug": "rezultaty-matchej-khl-na-20-oktyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 20 октября 2026 года",
+      "summary": "Сегодня, 20 октября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 20 октября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/i/w/rezultaty-matchej-khl-na-20-oktyabrya-2026-goda_1792525259568283018.jpg",
+      "publishedAt": "2026-10-20T20:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665708-rezultaty-matchej-khl-na-20-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Динамо Москва",
+        "Локомотив",
+        "Сибирь",
+        "Автомобилист",
+        "Нефтехимик"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:dynamo-msk",
+        "khl:lokomotiv",
+        "khl:neftekhimik",
+        "khl:sibir",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665816",
+      "slug": "on-perezagruzhaet-kareru-tambiev-zastupilsya-za-molodogo-zaschitnika-dinamo",
+      "title": "«Он перезагружает карьеру». Тамбиев заступился за молодого защитника «Динамо»",
+      "summary": "Главный тренер московского «Динамо» Леонид Тамбиев заявил, что доверяет молодому защитнику Никите Новикову.",
+      "content": "Главный тренер московского «Динамо» Леонид Тамбиев заявил, что доверяет молодому защитнику Никите Новикову.",
+      "image": "https://img.championat.com/news/big/a/i/on-perezagruzhaet-kareru-tam.jpg",
+      "publishedAt": "2026-10-20T20:46:23Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665816-on-perezagruzhaet-kareru-tambiev-zastupilsya-za-molodogo-zaschitnika-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Леонид Тамбиев",
+        "Никита Новиков"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665806",
+      "slug": "tambiev-ob-igre-nominalnyh-liderov-dinamo-moyo-terpenie-uzhe-podzakanchivaetsya",
+      "title": "Тамбиев — об игре номинальных лидеров «Динамо»: моё терпение уже подзаканчивается",
+      "summary": "Главный тренер московского «Динамо» Леонид Тамбиев заявил, что недоволен игрой лидеров команды в текущем сезоне.",
+      "content": "Главный тренер московского «Динамо» Леонид Тамбиев заявил, что недоволен игрой лидеров команды в текущем сезоне.",
+      "image": "https://img.championat.com/news/big/g/c/tambiev-ob-igre-nominalnyh-liderov-dinamo-moyo-terpenie-uzhe-podzakanchivaetsya_1792529805139886167.jpg",
+      "publishedAt": "2026-10-20T20:40:44Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665806-tambiev-ob-igre-nominalnyh-liderov-dinamo-moyo-terpenie-uzhe-podzakanchivaetsya.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Сибирь",
+        "Леонид Тамбиев"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk",
+        "khl:sibir"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665794",
+      "slug": "glavnyj-trener-moskovskogo-dinamo-prokommentiroval-podpisanie-tretego-vratarya-v-komandu",
+      "title": "Главный тренер московского «Динамо» прокомментировал подписание третьего вратаря в команду",
+      "summary": "Главный тренер московского «Динамо» Леонид Тамбиев высказался о подписании просмотрового контракта с голкипером Вадимом Жеренко.",
+      "content": "Главный тренер московского «Динамо» Леонид Тамбиев высказался о подписании просмотрового контракта с голкипером Вадимом Жеренко.",
+      "image": "https://img.championat.com/news/big/z/u/glavnyj-trener-moskovskogo-d.jpg",
+      "publishedAt": "2026-10-20T20:30:53Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665794-glavnyj-trener-moskovskogo-dinamo-prokommentiroval-podpisanie-tretego-vratarya-v-komandu.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Леонид Тамбиев",
+        "Вадим Жеренко"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665786",
+      "slug": "menya-voobsche-ne-ustraivaet-ego-igra-tambiev-vyskazalsya-o-krizise-legionera-dinamo",
+      "title": "«Меня вообще не устраивает его игра». Тамбиев высказался о кризисе легионера «Динамо»",
+      "summary": "Главный тренер московского «Динамо» Леонид Тамбиев заявил, что недоволен игрой нападающего Дилана Сикьюры.",
+      "content": "Главный тренер московского «Динамо» Леонид Тамбиев заявил, что недоволен игрой нападающего Дилана Сикьюры.",
+      "image": "https://img.championat.com/news/big/e/t/menya-voobsche-ne-ustraivaet.jpg",
+      "publishedAt": "2026-10-20T20:27:29Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665786-menya-voobsche-ne-ustraivaet-ego-igra-tambiev-vyskazalsya-o-krizise-legionera-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Сибирь",
+        "Леонид Тамбиев",
+        "Дилан Сикьюра"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk",
+        "khl:sibir"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665784",
+      "slug": "darren-bolshe-napominaet-russkogo-parnya-glavnyj-trener-sibiri-ocenil-igru-dica",
+      "title": "«Даррен больше напоминает русского парня». Главный тренер «Сибири» оценил игру Дица",
+      "summary": "Главный тренер «Сибири» Ярослав Люзенков оценил игру защитника Даррена Дица в текущем сезоне КХЛ.",
+      "content": "Главный тренер «Сибири» Ярослав Люзенков оценил игру защитника Даррена Дица в текущем сезоне КХЛ.",
+      "image": "https://img.championat.com/news/big/v/d/darren-bolshe-napominaet-rus.jpg",
+      "publishedAt": "2026-10-20T20:24:56Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665784-darren-bolshe-napominaet-russkogo-parnya-glavnyj-trener-sibiri-ocenil-igru-dica.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Сибирь",
+        "Даррен Диц",
+        "Ярослав Люзенков"
+      ],
+      "relatedTeamIds": [
+        "khl:sibir"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665780",
+      "slug": "posle-porazheniya-ot-sibiri-leonid-tambiev-vyskazalsya-o-tekuschem-vektore-razvitiya-dinamo",
+      "title": "После поражения от «Сибири» Леонид Тамбиев высказался о текущем векторе развития «Динамо»",
+      "summary": "Главный тренер московского «Динамо» Леонид Тамбиев прокомментировал поражение от «Сибири» (2:3 Б) и дал развёрнутый ответ на вопрос о векторе развития команды в текущем сезоне.",
+      "content": "Главный тренер московского «Динамо» Леонид Тамбиев прокомментировал поражение от «Сибири» (2:3 Б) и дал развёрнутый ответ на вопрос о векторе развития команды в текущем сезоне.",
+      "image": "https://img.championat.com/news/big/z/t/posle-porazheniya-ot-sibiri-.jpg",
+      "publishedAt": "2026-10-20T20:23:18Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665780-posle-porazheniya-ot-sibiri-leonid-tambiev-vyskazalsya-o-tekuschem-vektore-razvitiya-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Сибирь",
+        "Леонид Тамбиев"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk",
+        "khl:sibir"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665770",
+      "slug": "formy-razbrosano-ne-bylo-baul-upal-lyuzenkov-otreagiroval-na-pretenzii-agenta-beka",
+      "title": "«Формы разбросано не было, баул упал». Люзенков отреагировал на претензии агента Бека",
+      "summary": "Главный тренер «Сибири» Ярослав Люзенков прокомментировал слова агента Алёши Пилко, представляющего интересы форварда Тейлора Бека.",
+      "content": "Главный тренер «Сибири» Ярослав Люзенков прокомментировал слова агента Алёши Пилко, представляющего интересы форварда Тейлора Бека.",
+      "image": "https://img.championat.com/news/big/j/c/formy-razbrosano-ne-bylo-bau.jpg",
+      "publishedAt": "2026-10-20T20:20:38Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665770-formy-razbrosano-ne-bylo-baul-upal-lyuzenkov-otreagiroval-na-pretenzii-agenta-beka.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Сибирь",
+        "Тейлор Бек",
+        "Ярослав Люзенков",
+        "Алёша Пилко"
+      ],
+      "relatedTeamIds": [
+        "khl:sibir"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665768",
+      "slug": "volevaya-pobeda-na-haraktere-lyuzenkov-prokommentiroval-vyigrannuyu-vstrechu-s-dinamo",
+      "title": "«Волевая победа на характере». Люзенков прокомментировал выигранную встречу с «Динамо»",
+      "summary": "Главный тренер «Сибири» Ярослав Люзенков высказался о волевой победе в матче с московским «Динамо» (3:2 Б).",
+      "content": "Главный тренер «Сибири» Ярослав Люзенков высказался о волевой победе в матче с московским «Динамо» (3:2 Б).",
+      "image": "https://img.championat.com/news/big/t/d/volevaya-pobeda-na-haraktere.jpg",
+      "publishedAt": "2026-10-20T20:16:39Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665768-volevaya-pobeda-na-haraktere-lyuzenkov-prokommentiroval-vyigrannuyu-vstrechu-s-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Сибирь",
+        "Ярослав Люзенков"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk",
+        "khl:sibir"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665760",
+      "slug": "dumaete-ya-bachki-kidal-razin-o-svoej-reakcii-na-porazhenie-ska-v-pervoj-igre",
+      "title": "«Думаете, я бачки кидал?» Разин — о своей реакции на поражение СКА в первой игре",
+      "summary": "Главный тренер СКА Андрей Разин заявил, что спокойно принял поражение в первом матче в санкт-петербургском клубе.",
+      "content": "Главный тренер СКА Андрей Разин заявил, что спокойно принял поражение в первом матче в санкт-петербургском клубе.",
+      "image": "https://img.championat.com/news/big/p/j/dumaete-ya-bachki-kidal-razi.jpg",
+      "publishedAt": "2026-10-20T20:13:29Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665760-dumaete-ya-bachki-kidal-razin-o-svoej-reakcii-na-porazhenie-ska-v-pervoj-igre.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Автомобилист",
+        "Андрей Разин"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665756",
+      "slug": "razin-podelilsya-podrobnostyami-kak-poluchil-predlozhenie-vozglavit-ska",
+      "title": "Разин поделился подробностями, как получил предложение возглавить СКА",
+      "summary": "Главный тренер СКА Андрей Разин рассказал, как получил приглашение возглавить санкт-петербургскую команду.",
+      "content": "Главный тренер СКА Андрей Разин рассказал, как получил приглашение возглавить санкт-петербургскую команду.",
+      "image": "https://img.championat.com/news/big/x/r/razin-podelilsya-podrobnostyami-kak-poluchil-predlozhenie-vozglavit-ska_17925269431866216444.jpg",
+      "publishedAt": "2026-10-20T20:09:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665756-razin-podelilsya-podrobnostyami-kak-poluchil-predlozhenie-vozglavit-ska.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Автомобилист",
+        "Андрей Разин"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665752",
+      "slug": "hotelos-by-chtoby-nozhki-luchshe-bezhali-razin-o-fizicheskom-sostoyanii-igrokov-ska",
+      "title": "«Хотелось бы, чтобы ножки лучше бежали». Разин — о физическом состоянии игроков СКА",
+      "summary": "Главный тренер СКА Андрей Разин оценил физическое состояние команды в первом матче под его руководством.",
+      "content": "Главный тренер СКА Андрей Разин оценил физическое состояние команды в первом матче под его руководством.",
+      "image": "https://img.championat.com/news/big/q/s/hotelos-by-chtoby-nozhki-luchshe-bezhali-razin-o-fizicheskom-sostoyanii-igrokov-ska_1792526775797037277.jpg",
+      "publishedAt": "2026-10-20T20:06:16Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665752-hotelos-by-chtoby-nozhki-luchshe-bezhali-razin-o-fizicheskom-sostoyanii-igrokov-ska.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Автомобилист",
+        "Андрей Разин"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665746",
+      "slug": "razin-pust-u-ska-budet-rekordnaya-seriya-porazhenij-no-potom-seriya-pobed-v-plej-off",
+      "title": "Разин: пусть у СКА будет рекордная серия поражений, но потом — серия побед в плей-офф",
+      "summary": "Главный тренер СКА Андрей Разин высказался о шестом подряд поражении команды.",
+      "content": "Главный тренер СКА Андрей Разин высказался о шестом подряд поражении команды.",
+      "image": "https://img.championat.com/news/big/z/h/razin-pust-u-ska-budet-rekordnaya-seriya-porazhenij-no-potom-seriya-pobed-v-plej-off_17925269361371782496.jpg",
+      "publishedAt": "2026-10-20T20:02:59Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665746-razin-pust-u-ska-budet-rekordnaya-seriya-porazhenij-no-potom-seriya-pobed-v-plej-off.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Автомобилист",
+        "Андрей Разин"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665742",
+      "slug": "razin-otvetil-na-vopros-ostalsya-li-on-dovolen-igroj-ska-v-pervom-matche-posle-ego-prihoda",
+      "title": "Разин ответил на вопрос, остался ли он доволен игрой СКА в первом матче после его прихода",
+      "summary": "Главный тренер СКА Андрей Разин заявил, что остался доволен игрой команды в первом матче.",
+      "content": "Главный тренер СКА Андрей Разин заявил, что остался доволен игрой команды в первом матче.",
+      "image": "https://img.championat.com/news/big/v/u/razin-otvetil-na-vopros-ostalsya-li-on-dovolen-igroj-ska-v-pervom-matche-posle-ego-prihoda_17925264052029630149.jpg",
+      "publishedAt": "2026-10-20T20:00:06Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665742-razin-otvetil-na-vopros-ostalsya-li-on-dovolen-igroj-ska-v-pervom-matche-posle-ego-prihoda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Автомобилист",
+        "Андрей Разин"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6664766",
+      "slug": "vashington-kepitalz-los-andzheles-kingz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachnetsya-v-2-00-msk",
+      "title": "«Вашингтон» — «Лос-Анджелес»: онлайн-трансляция матча НХЛ начнётся в 2:00",
+      "summary": "В ночь на 21 октября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "content": "В ночь на 21 октября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/k/t/vashington-los-andzheles-onlajn-translyaciya-matcha-nhl-nachnyotsya-v-2-00_1792483052389655653.jpg",
+      "publishedAt": "2026-10-20T20:00:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664766-vashington-kepitalz-los-andzheles-kingz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachnetsya-v-2-00-msk.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Лос-Анджелес Кингз"
+      ],
+      "relatedTeamIds": [
+        "nhl:lak",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665700",
+      "slug": "andrej-razin-zayavil-chto-ego-pomoschnikami-v-ska-stanut-trenery-metallurga",
+      "title": "Андрей Разин заявил, что его помощниками в СКА станут тренеры «Металлурга»",
+      "summary": "Главный тренер СКА Андрей Разин заявил, что его помощниками в санкт-петербургском клубе будут тренеры, с которыми он работал в «Металлурге» — Владимир Воробьёв и Евгений Михалкевич.",
+      "content": "Главный тренер СКА Андрей Разин заявил, что его помощниками в санкт-петербургском клубе будут тренеры, с которыми он работал в «Металлурге» — Владимир Воробьёв и Евгений Михалкевич.",
+      "image": "https://img.championat.com/news/big/c/i/andrej-razin-zayavil-chto-eg.jpg",
+      "publishedAt": "2026-10-20T19:37:19Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665700-andrej-razin-zayavil-chto-ego-pomoschnikami-v-ska-stanut-trenery-metallurga.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Металлург Мг",
+        "Андрей Разин",
+        "Владимир Воробьёв"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665456",
+      "slug": "insajder-nhl-napadayuschij-marat-husnutdinov-prodlit-kontrakt-s-bostonom",
+      "title": "Инсайдер НХЛ: нападающий Марат Хуснутдинов продлит контракт с «Бостоном»",
+      "summary": "Нападающий Марат Хуснутдинов продлит контракт с «Бостон Брюинз».",
+      "content": "Нападающий Марат Хуснутдинов продлит контракт с «Бостон Брюинз».",
+      "image": "https://img.championat.com/news/big/h/y/insajder-nhl-napadayuschij-marat-husnutdinov-prodlit-kontrakt-s-bostonom_1792524101269977852.jpg",
+      "publishedAt": "2026-10-20T19:25:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665456-insajder-nhl-napadayuschij-marat-husnutdinov-prodlit-kontrakt-s-bostonom.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Бостон Брюинз",
+        "Марат Хуснутдинов"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665648",
+      "slug": "video-pobednogo-gola-igroka-avtomobilista-zabrosivshego-shajbu-s-kolen-v-vorota-ska",
+      "title": "Видео победного гола игрока «Автомобилиста», забросившего шайбу с колен в ворота СКА",
+      "summary": "Сегодня, 20 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимал «Автомобилист» из Екатеринбу...",
+      "content": "Сегодня, 20 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимал «Автомобилист» из Екатеринбурга.",
+      "image": "https://img.championat.com/news/big/o/g/video-pobednogo-gola-igroka-.jpg",
+      "publishedAt": "2026-10-20T19:02:57Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665648-video-pobednogo-gola-igroka-avtomobilista-zabrosivshego-shajbu-s-kolen-v-vorota-ska.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "СКА",
+        "Автомобилист"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6665584",
+      "slug": "dinamo-m-sibir-rezultat-matcha-20-oktyabrya-2026-goda-schet-2-3-b-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "Московское «Динамо» упустило победу в основное время и проиграло «Сибири» по буллитам",
+      "summary": "Сегодня, 20 октября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» принимало «Сибирь».",
+      "content": "Сегодня, 20 октября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» принимало «Сибирь».",
+      "image": "https://img.championat.com/news/big/w/s/moskovskoe-dinamo-upustilo-pobedu-v-osnovnoe-vremya-i-proigralo-sibiri-po-bullitam_17925228361692066291.jpg",
+      "publishedAt": "2026-10-20T19:00:39Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665584-dinamo-m-sibir-rezultat-matcha-20-oktyabrya-2026-goda-schet-2-3-b-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Сибирь"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk",
+        "khl:sibir"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6665620",
       "slug": "rikoshet-sluchajnyj-byvaet-razin-prokommentiroval-porazhenie-v-svoyom-pervom-matche-v-ska",
       "title": "«Рикошет случайный, бывает». Разин прокомментировал поражение в своём первом матче в СКА",
@@ -157,564 +715,6 @@
         "nhl:wsh"
       ],
       "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664614",
-      "slug": "ska-avtomobilist-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "СКА — «Автомобилист»: онлайн-трансляция матча КХЛ началась",
-      "summary": "Сегодня, 20 октября, в Санкт-Петербурге на стадионе «СКА Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимает «Автомобилист».",
-      "content": "Сегодня, 20 октября, в Санкт-Петербурге на стадионе «СКА Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимает «Автомобилист».",
-      "image": "https://img.championat.com/news/big/l/t/ska-avtomobilist-onlajn-translyaciya-matcha-khl-nachalas_1792474692164308905.jpg",
-      "publishedAt": "2026-10-20T16:40:08Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664614-ska-avtomobilist-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Автомобилист"
-      ],
-      "relatedTeamIds": [
-        "khl:avtomobilist",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664608",
-      "slug": "dinamo-m-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Динамо» М — «Сибирь»: онлайн-трансляция матча КХЛ началась",
-      "summary": "Сегодня, 20 октября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» принимает новосиб...",
-      "content": "Сегодня, 20 октября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» принимает новосибирскую «Сибирь».",
-      "image": "https://img.championat.com/news/big/n/j/dinamo-m-sibir-onlajn-translyaciya-matcha-khl-nachalas_179247441590208011.jpg",
-      "publishedAt": "2026-10-20T16:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664608-dinamo-m-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Сибирь"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665350",
-      "slug": "pilko-krutohvostov-tanceval-vokrug-beka-i-andreoffa-i-prosil-pomoch-chtoby-ne-uvolili",
-      "title": "Пилко: Крутохвостов танцевал вокруг Бека и Андреоффа и просил помочь, чтобы не уволили",
-      "summary": "Хоккейный агент Алёша Пилко, представляющий интересы нападающих Тейлора Бека и Энди Андреоффа, раскритиковал работу генерального директора «Сибири» Льва Крутохвостова.",
-      "content": "Хоккейный агент Алёша Пилко, представляющий интересы нападающих Тейлора Бека и Энди Андреоффа, раскритиковал работу генерального директора «Сибири» Льва Крутохвостова.",
-      "image": "https://img.championat.com/news/big/r/f/pilko-krutohvostov-tanceval-vokrug-beka-i-andreoffa-i-prosil-pomoch-chtoby-ne-uvolili_17925101652104653429.jpg",
-      "publishedAt": "2026-10-20T16:20:08Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665350-pilko-krutohvostov-tanceval-vokrug-beka-i-andreoffa-i-prosil-pomoch-chtoby-ne-uvolili.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Сибирь",
-        "Тейлор Бек",
-        "Алёша Пилко",
-        "Лев Крутохвостов",
-        "Энди Андреофф"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665370",
-      "slug": "stal-izvesten-sostav-ska-na-pervyj-match-pod-rukovodstvom-andreya-razina",
-      "title": "Стал известен состав СКА на первый матч под руководством Андрея Разина",
-      "summary": "Сегодня, 20 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет «Автомобилист».",
-      "content": "Сегодня, 20 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет «Автомобилист».",
-      "image": "https://img.championat.com/news/big/c/l/stal-izvesten-sostav-ska-na-pervyj-match-pod-rukovodstvom-andreya-razina_17925109691236946459.jpg",
-      "publishedAt": "2026-10-20T16:00:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665370-stal-izvesten-sostav-ska-na-pervyj-match-pod-rukovodstvom-andreya-razina.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Автомобилист",
-        "Андрей Разин"
-      ],
-      "relatedTeamIds": [
-        "khl:avtomobilist",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665344",
-      "slug": "alyosha-pilko-rasskazal-o-reakcii-tejlora-beka-na-reshenie-sibiri-otpravit-ego-v-vhl",
-      "title": "Алёша Пилко рассказал о реакции Тейлора Бека на решение «Сибири» отправить его в ВХЛ",
-      "summary": "Хоккейный агент Алёша Пилко, представляющий интересы нападающего Тейлора Бека, заявил, что хоккеист разочарован решением «Сибири» отправить его в ВХЛ.",
-      "content": "Хоккейный агент Алёша Пилко, представляющий интересы нападающего Тейлора Бека, заявил, что хоккеист разочарован решением «Сибири» отправить его в ВХЛ.",
-      "image": "https://img.championat.com/news/big/w/v/alyosha-pilko-rasskazal-o-reakcii-tejlora-beka-na-reshenie-sibiri-otpravit-ego-v-vhl_17925098841273763004.jpg",
-      "publishedAt": "2026-10-20T15:45:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665344-alyosha-pilko-rasskazal-o-reakcii-tejlora-beka-na-reshenie-sibiri-otpravit-ego-v-vhl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ВХЛ",
-        "Эксклюзив",
-        "Сибирь",
-        "Тейлор Бек",
-        "Алёша Пилко",
-        "Лев Крутохвостов"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665272",
-      "slug": "eks-trener-sbornoj-rossii-michkov-tyanet-filadelfiyu-za-soboj",
-      "title": "Экс-тренер сборной России: Мичков тянет «Филадельфию» за собой",
-      "summary": "Бывший тренер сборной России Валерий Белов оценил игру форварда «Филадельфии Флайерз» Матвея Мичкова.",
-      "content": "Бывший тренер сборной России Валерий Белов оценил игру форварда «Филадельфии Флайерз» Матвея Мичкова.",
-      "image": "https://img.championat.com/news/big/z/w/eks-trener-sbornoj-rossii-michkov-tyanet-filadelfiyu-za-soboj_17925065331251636317.jpg",
-      "publishedAt": "2026-10-20T15:25:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665272-eks-trener-sbornoj-rossii-michkov-tyanet-filadelfiyu-za-soboj.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Филадельфия Флайерз",
-        "Матвей Мичков",
-        "Валерий Белов"
-      ],
-      "relatedTeamIds": [
-        "nhl:phi"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665326",
-      "slug": "agent-beka-raskryl-detali-togo-chto-emu-skazali-v-sibiri-posle-perevoda-igroka-v-vhl",
-      "title": "Агент Бека раскрыл детали того, что ему сказали в «Сибири» после перевода игрока в ВХЛ",
-      "summary": "Хоккейный агент Алёша Пилко, представляющий интересы нападающего Тейлора Бека, поделился деталями того, что ему сказали в «Сибири» после перевода игрока в ВХЛ.",
-      "content": "Хоккейный агент Алёша Пилко, представляющий интересы нападающего Тейлора Бека, поделился деталями того, что ему сказали в «Сибири» после перевода игрока в ВХЛ.",
-      "image": "https://img.championat.com/news/big/u/l/agent-beka-raskryl-detali-to.jpg",
-      "publishedAt": "2026-10-20T15:15:49Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665326-agent-beka-raskryl-detali-togo-chto-emu-skazali-v-sibiri-posle-perevoda-igroka-v-vhl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ВХЛ",
-        "Эксклюзив",
-        "Сибирь",
-        "Тейлор Бек",
-        "Алёша Пилко"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665322",
-      "slug": "agent-beka-v-sibiri-menya-uzhe-nikto-i-nichem-ne-udivit-tam-zabyli-pro-uvazhenie-k-lyudyam",
-      "title": "Агент Бека: в «Сибири» меня уже никто и ничем не удивит. Там забыли про уважение к людям",
-      "summary": "Хоккейный агент Алёша Пилко, представляющий интересы нападающего Тейлора Бека, заявил, что в «Сибири» перестали уважать хоккеистов.",
-      "content": "Хоккейный агент Алёша Пилко, представляющий интересы нападающего Тейлора Бека, заявил, что в «Сибири» перестали уважать хоккеистов.",
-      "image": "https://img.championat.com/news/big/e/j/agent-beka-v-sibiri-menya-uz.jpg",
-      "publishedAt": "2026-10-20T15:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665322-agent-beka-v-sibiri-menya-uzhe-nikto-i-nichem-ne-udivit-tam-zabyli-pro-uvazhenie-k-lyudyam.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Сибирь",
-        "Кирилл Фастовский",
-        "Алёша Пилко"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665314",
-      "slug": "agent-beka-porazheny-takim-otnosheniem-vidimo-blagodarnost-za-sdelannoe-im-dlya-kluba",
-      "title": "Агент Бека: поражены таким отношением. Видимо, «благодарность» за сделанное им для клуба",
-      "summary": "Хоккейный агент Алёша Пилко, представляющий интересы нападающего Тейлора Бека, прокомментировал выставление форварда на драфт отказов.",
-      "content": "Хоккейный агент Алёша Пилко, представляющий интересы нападающего Тейлора Бека, прокомментировал выставление форварда на драфт отказов.",
-      "image": "https://img.championat.com/news/big/g/g/agent-beka-porazheny-takim-o.jpg",
-      "publishedAt": "2026-10-20T15:00:10Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665314-agent-beka-porazheny-takim-otnosheniem-vidimo-blagodarnost-za-sdelannoe-im-dlya-kluba.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Сибирь",
-        "Тейлор Бек",
-        "Алёша Пилко"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665226",
-      "slug": "guberniev-larionovu-bylo-slozhno-dobitsya-uspeha-v-ska-komandu-lihoradilo",
-      "title": "Губерниев: Ларионову было сложно добиться успеха в СКА, команду лихорадило",
-      "summary": "Комментатор Дмитрий Губерниев подвёл итоги работы тренера Игоря Ларионова в СКА.",
-      "content": "Комментатор Дмитрий Губерниев подвёл итоги работы тренера Игоря Ларионова в СКА.",
-      "image": "https://img.championat.com/news/big/u/q/guberniev-larionovu-bylo-slo.jpg",
-      "publishedAt": "2026-10-20T14:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665226-guberniev-larionovu-bylo-slozhno-dobitsya-uspeha-v-ska-komandu-lihoradilo.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Дмитрий Губерниев",
-        "Игорь Ларионов",
-        "Андрей Разин"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665204",
-      "slug": "andrej-razin-vyskazalsya-o-sluhah-pro-konflikt-s-prezidentom-metallurga-rashnikovym",
-      "title": "Андрей Разин высказался о слухах про конфликт с президентом «Металлурга» Рашниковым",
-      "summary": "Главный тренер СКА Андрей Разин рассказал о своих отношениях с президентом «Металлурга» Виктором Рашниковым.",
-      "content": "Главный тренер СКА Андрей Разин рассказал о своих отношениях с президентом «Металлурга» Виктором Рашниковым.",
-      "image": "https://img.championat.com/news/big/b/s/andrej-razin-vyskazalsya-o-sluhah-pro-konflikt-s-prezidentom-metallurga-rashnikovym_1792503801924995884.jpg",
-      "publishedAt": "2026-10-20T14:05:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665204-andrej-razin-vyskazalsya-o-sluhah-pro-konflikt-s-prezidentom-metallurga-rashnikovym.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Металлург Мг",
-        "Спорт-экспресс",
-        "Андрей Разин",
-        "Виктор Рашников"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664612",
-      "slug": "ska-avtomobilist-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk",
-      "title": "СКА — «Автомобилист»: онлайн-трансляция матча КХЛ начнётся в 19:30 мск",
-      "summary": "Сегодня, 20 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет «Автомобилист».",
-      "content": "Сегодня, 20 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет «Автомобилист».",
-      "image": "https://img.championat.com/news/big/s/v/ska-avtomobilist-onlajn-translyaciya-matcha-khl-nachnyotsya-v-19-30-msk_17924746362025208993.jpg",
-      "publishedAt": "2026-10-20T13:40:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664612-ska-avtomobilist-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Автомобилист"
-      ],
-      "relatedTeamIds": [
-        "khl:avtomobilist",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664606",
-      "slug": "dinamo-m-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk",
-      "title": "«Динамо» М — «Сибирь»: онлайн-трансляция матча КХЛ начнётся в 19:30 мск",
-      "summary": "Сегодня, 20 октября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» примет новосибир...",
-      "content": "Сегодня, 20 октября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» примет новосибирскую «Сибирь».",
-      "image": "https://img.championat.com/news/big/f/k/dinamo-m-sibir-onlajn-translyaciya-matcha-khl-nachnyotsya-v-19-30-msk_17924743711481092276.jpg",
-      "publishedAt": "2026-10-20T13:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664606-dinamo-m-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Сибирь"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665162",
-      "slug": "glavnyj-arbitr-khl-obyasnil-pochemu-orlova-ne-nakazali-za-silovoj-priyom-protiv-soshnikova",
-      "title": "Главный арбитр КХЛ объяснил, почему Орлова не наказали за силовой приём против Сошникова",
-      "summary": "Главный арбитр КХЛ Алексей Анисимов высказался об эпизоде с травмой нападающего «Трактора» Никиты Сошникова в матче Фонбет Чемпионата КХЛ со «Спартаком» (4:2).",
-      "content": "Главный арбитр КХЛ Алексей Анисимов высказался об эпизоде с травмой нападающего «Трактора» Никиты Сошникова в матче Фонбет Чемпионата КХЛ со «Спартаком» (4:2).",
-      "image": "https://img.championat.com/news/big/t/e/glavnyj-arbitr-khl-obyasnil-pochemu-orlova-ne-nakazali-za-silovoj-priyom-protiv-soshnikova_17925018531668774805.jpg",
-      "publishedAt": "2026-10-20T13:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665162-glavnyj-arbitr-khl-obyasnil-pochemu-orlova-ne-nakazali-za-silovoj-priyom-protiv-soshnikova.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Спартак",
-        "Трактор",
-        "Хоккейное судейство",
-        "Никита Сошников",
-        "Алексей Анисимов"
-      ],
-      "relatedTeamIds": [
-        "khl:spartak",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665128",
-      "slug": "zaschitnik-ska-maklyukov-prokommentiroval-prihod-v-komandu-andreya-razina",
-      "title": "Защитник СКА Маклюков прокомментировал приход в команду Андрея Разина",
-      "summary": "Защитник СКА Алексей Маклюков высказался о назначении Андрея Разина на пост главного тренера армейского клуба.",
-      "content": "Защитник СКА Алексей Маклюков высказался о назначении Андрея Разина на пост главного тренера армейского клуба.",
-      "image": "https://img.championat.com/news/big/q/l/zaschitnik-ska-maklyukov-prokommentiroval-prihod-v-komandu-andreya-razina_1792500227796113592.jpg",
-      "publishedAt": "2026-10-20T12:50:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665128-zaschitnik-ska-maklyukov-prokommentiroval-prihod-v-komandu-andreya-razina.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Андрей Разин",
-        "Алексей Маклюков"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665104",
-      "slug": "nikolaj-zavaruhin-podrobno-razobral-igru-forvarda-minnesoty-kirilla-kaprizova",
-      "title": "Николай Заварухин подробно разобрал игру форварда «Миннесоты» Кирилла Капризова",
-      "summary": "Бывший главный тренер «Автомобилиста» Николай Заварухин подробно разобрал игру российского нападающего «Миннесоты Уайлд» Кирилла Капризова.",
-      "content": "Бывший главный тренер «Автомобилиста» Николай Заварухин подробно разобрал игру российского нападающего «Миннесоты Уайлд» Кирилла Капризова.",
-      "image": "https://img.championat.com/news/big/y/e/nikolaj-zavaruhin-podrobno-razobral-igru-forvarda-minnesoty-kirilla-kaprizova_17924992001867701601.jpg",
-      "publishedAt": "2026-10-20T12:31:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665104-nikolaj-zavaruhin-podrobno-razobral-igru-forvarda-minnesoty-kirilla-kaprizova.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Миннесота Уайлд",
-        "Кирилл Капризов",
-        "Николай Заварухин"
-      ],
-      "relatedTeamIds": [
-        "nhl:min"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665088",
-      "slug": "protivno-posle-takogo-zadorov-o-svoyom-otstranenii-ot-matcha-po-resheniyu-trenera",
-      "title": "«Противно после такого». Задоров — о своём отстранении от матча по решению тренера",
-      "summary": "Защитник «Бостон Брюинз» Никита Задоров прокомментировал пропуск игры регулярного сезона с «Лос-Анджелес Кингз» (4:1) по решению главного тренера Марко Штурма.",
-      "content": "Защитник «Бостон Брюинз» Никита Задоров прокомментировал пропуск игры регулярного сезона с «Лос-Анджелес Кингз» (4:1) по решению главного тренера Марко Штурма.",
-      "image": "https://img.championat.com/news/big/f/t/protivno-posle-takogo-zadorov-o-svoyom-otstranenii-ot-matcha-po-resheniyu-trenera_17924983911148062771.jpg",
-      "publishedAt": "2026-10-20T12:13:28Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665088-protivno-posle-takogo-zadorov-o-svoyom-otstranenii-ot-matcha-po-resheniyu-trenera.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Бостон Брюинз",
-        "Лос-Анджелес Кингз",
-        "Никита Задоров"
-      ],
-      "relatedTeamIds": [
-        "nhl:bos",
-        "nhl:lak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665048",
-      "slug": "glavnyj-arbitr-khl-anisimov-vyskazalsya-o-shajbe-neftehimika-zabroshennoj-vshesterom",
-      "title": "Главный арбитр КХЛ Анисимов высказался о шайбе «Нефтехимика», заброшенной вшестером",
-      "summary": "Главный арбитр КХЛ Алексей Анисимов прокомментировал победную шайбу «Нефтехимика» во встрече с «Сибирью» (3:2).",
-      "content": "Главный арбитр КХЛ Алексей Анисимов прокомментировал победную шайбу «Нефтехимика» во встрече с «Сибирью» (3:2).",
-      "image": "https://img.championat.com/news/big/a/e/glavnyj-arbitr-khl-anisimov-vyskazalsya-o-shajbe-neftehimika-zabroshennoj-vshesterom_17924967531312013698.jpg",
-      "publishedAt": "2026-10-20T11:52:10Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665048-glavnyj-arbitr-khl-anisimov-vyskazalsya-o-shajbe-neftehimika-zabroshennoj-vshesterom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Сибирь",
-        "Нефтехимик",
-        "Хоккейное судейство",
-        "Алексей Анисимов"
-      ],
-      "relatedTeamIds": [
-        "khl:neftekhimik",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665032",
-      "slug": "v-amerike-poluchil-opyt-no-prishlo-vremya-dvigatsya-dalshe-novikov-o-perehode-v-dinamo",
-      "title": "«В Америке получил опыт, пришло время двигаться дальше». Новиков — о переходе в «Динамо»",
-      "summary": "Защитник московского «Динамо» Никита Новиков объяснил, почему решил вернуться из Северной Америки в стан бело-голубых.",
-      "content": "Защитник московского «Динамо» Никита Новиков объяснил, почему решил вернуться из Северной Америки в стан бело-голубых.",
-      "image": "https://img.championat.com/news/big/h/a/v-amerike-poluchil-opyt-prishlo-vremya-dvigatsya-dalshe-novikov-o-perehode-v-dinamo_17924965001799385250.jpg",
-      "publishedAt": "2026-10-20T11:35:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665032-v-amerike-poluchil-opyt-no-prishlo-vremya-dvigatsya-dalshe-novikov-o-perehode-v-dinamo.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Никита Новиков"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665014",
-      "slug": "i-vorobyov-o-michkove-sejchas-stalo-chto-to-poluchatsya-a-do-etogo-bylo-bolshe-skandalov",
-      "title": "И. Воробьёв — о Мичкове: сейчас стало что-то получаться, а до этого было больше скандалов",
-      "summary": "Бывший главный тренер сборной России Илья Воробьёв высказался об игре российского форварда «Филадельфии Флайерз» Матвея Мичкова.",
-      "content": "Бывший главный тренер сборной России Илья Воробьёв высказался об игре российского форварда «Филадельфии Флайерз» Матвея Мичкова.",
-      "image": "https://img.championat.com/news/big/w/f/i-vorobyov-o-michkove-sejchas-stalo-chto-to-poluchatsya-a-do-etogo-bylo-bolshe-skandalov_1792494641142474350.jpg",
-      "publishedAt": "2026-10-20T11:18:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665014-i-vorobyov-o-michkove-sejchas-stalo-chto-to-poluchatsya-a-do-etogo-bylo-bolshe-skandalov.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Филадельфия Флайерз",
-        "Илья Воробьёв",
-        "Матвей Мичков"
-      ],
-      "relatedTeamIds": [
-        "nhl:phi"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664924",
-      "slug": "kakogo-rezultata-dobyotsya-ska-v-debyutnyj-sezon-razina",
-      "title": "Какого результата добьётся СКА в дебютный сезон Разина?",
-      "summary": "18 октября 2026 года Андрей Разин был назначен на пост главного тренера СКА.",
-      "content": "18 октября 2026 года Андрей Разин был назначен на пост главного тренера СКА.",
-      "image": "https://img.championat.com/news/big/h/o/kakogo-rezultata-dobyotsya-ska-v-debyutnyj-sezon-razina_1792491023801785451.jpg",
-      "publishedAt": "2026-10-20T11:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664924-kakogo-rezultata-dobyotsya-ska-v-debyutnyj-sezon-razina.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Опрос",
-        "Андрей Разин"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664896",
-      "slug": "kozhevnikov-traktor-na-fone-sosedej-iz-magnitogorska-vyglyadit-prosto-dvorovym-klubom",
-      "title": "Кожевников: «Трактор» на фоне соседей из Магнитогорска выглядит просто дворовым клубом",
-      "summary": "Двукратный олимпийский чемпион Александр Кожевников высказался о неудачной игре «Трактора» в текущем сезоне КХЛ.",
-      "content": "Двукратный олимпийский чемпион Александр Кожевников высказался о неудачной игре «Трактора» в текущем сезоне КХЛ.",
-      "image": "https://img.championat.com/news/big/c/v/kozhevnikov-traktor-na-fone-.jpg",
-      "publishedAt": "2026-10-20T10:45:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664896-kozhevnikov-traktor-na-fone-sosedej-iz-magnitogorska-vyglyadit-prosto-dvorovym-klubom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Александр Кожевников"
-      ],
-      "relatedTeamIds": [
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664940",
-      "slug": "andrej-razin-revanshistskih-nastroenij-v-igre-s-metallurgom-u-menya-ne-budet",
-      "title": "Андрей Разин: реваншистских настроений в игре с «Металлургом» у меня не будет",
-      "summary": "Главный тренер СКА Андрей Разин высказался о скорой игре с «Металлургом» в Магнитогорске.",
-      "content": "Главный тренер СКА Андрей Разин высказался о скорой игре с «Металлургом» в Магнитогорске.",
-      "image": "https://img.championat.com/news/big/t/w/andrej-razin-revanshistskih-nastroenij-v-igre-s-metallurgom-u-menya-ne-budet_17924918561568848674.jpg",
-      "publishedAt": "2026-10-20T10:24:32Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664940-andrej-razin-revanshistskih-nastroenij-v-igre-s-metallurgom-u-menya-ne-budet.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Металлург Мг",
-        "Андрей Разин"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664368",
-      "slug": "igrok-cska-esli-ovechkin-vernyotsya-v-dinamo-pridyotsya-igrat-ne-kak-protiv-kumira",
-      "title": "Игрок ЦСКА: если Овечкин вернётся в «Динамо», придётся играть не как против кумира",
-      "summary": "Защитник ЦСКА Джереми Рой заявил, что сыграть против Александра Овечкина было бы сумасшедшим опытом.",
-      "content": "Защитник ЦСКА Джереми Рой заявил, что сыграть против Александра Овечкина было бы сумасшедшим опытом.",
-      "image": "https://img.championat.com/news/big/f/d/igrok-cska-esli-ovechkin-vernyotsya-v-dinamo-pridyotsya-igrat-ne-kak-protiv-kumira_17924404141463886471.jpg",
-      "publishedAt": "2026-10-20T10:10:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664368-igrok-cska-esli-ovechkin-vernyotsya-v-dinamo-pridyotsya-igrat-ne-kak-protiv-kumira.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "Эксклюзив",
-        "ЦСКА",
-        "Динамо Москва",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Джереми Рой"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:dynamo-msk",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
     }
   ]
 }
