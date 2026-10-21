@@ -6,19 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-21T01:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "FINISHED",
+  "period": 4,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "OT",
   "home": {
     "id": "nhl:edm",
-    "score": null,
+    "score": 4,
     "periods": [],
     "shots": null
   },
   "away": {
     "id": "nhl:min",
-    "score": null,
+    "score": 3,
     "periods": [],
     "shots": null
   },
@@ -38,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/min-vs-edm/2026/10/20/2026020148",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/min-vs-edm/2026/10/20/2026020148",
-    "verifiedAt": "2026-10-21T00:32:15.949925Z"
+    "verifiedAt": "2026-10-21T05:12:55.687847Z"
   }
 }

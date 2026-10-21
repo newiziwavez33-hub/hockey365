@@ -6,102 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-20T23:00:00Z",
-  "status": "LIVE",
-  "period": 2,
-  "clock": "05:43",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:njd",
-    "score": 2,
+    "score": 4,
     "periods": [],
-    "shots": 29
+    "shots": null
   },
   "away": {
     "id": "nhl:col",
-    "score": 1,
+    "score": 3,
     "periods": [],
-    "shots": 10
+    "shots": null
   },
   "arena": "Prudential Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "06:40",
-      "team": "home",
-      "playerId": "nhl:p_8482146",
-      "playerName": "Luke Evangelista",
-      "assists": [
-        "nhl:p_8480002",
-        "nhl:p_8478399"
-      ],
-      "score": "1-0",
-      "order": 112
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "14:32",
-      "team": "away",
-      "playerId": "nhl:p_8476455",
-      "playerName": "Gabriel Landeskog",
-      "assists": [
-        "nhl:p_8480069",
-        "nhl:p_8475172"
-      ],
-      "score": "1-1",
-      "order": 197
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "18:22",
-      "team": "away",
-      "playerId": "nhl:p_8477476",
-      "playerName": "Artturi Lehkonen",
-      "minutes": 2,
-      "reason": "delaying-game",
-      "order": 251
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "12:33",
-      "team": "home",
-      "playerId": "nhl:p_8480990",
-      "playerName": "Declan Chisholm",
-      "assists": [
-        "nhl:p_8482146"
-      ],
-      "score": "2-1",
-      "order": 454
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      29,
-      10
-    ],
-    "shotsOnGoal": [
-      29,
-      10
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020142/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020142/play-by-play"
-    ],
-    "fetchedAt": "2026-10-21T00:32:15.491779+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -109,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/col-vs-njd/2026/10/20/2026020142",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/col-vs-njd/2026/10/20/2026020142",
-    "verifiedAt": "2026-10-21T00:32:15.491881Z"
+    "verifiedAt": "2026-10-21T05:12:55.687113Z"
   }
 }

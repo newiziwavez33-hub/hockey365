@@ -6,155 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-20T23:00:00Z",
-  "status": "LIVE",
-  "period": 2,
-  "clock": "03:31",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:wsh",
     "score": 2,
     "periods": [],
-    "shots": 16
+    "shots": null
   },
   "away": {
     "id": "nhl:lak",
-    "score": 2,
+    "score": 5,
     "periods": [],
-    "shots": 16
+    "shots": null
   },
   "arena": "Capital One Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "09:25",
-      "team": "home",
-      "playerId": "nhl:p_8484186",
-      "playerName": "Ryan Leonard",
-      "assists": [
-        "nhl:p_8477380",
-        "nhl:p_8478463"
-      ],
-      "score": "1-0",
-      "order": 139
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "17:05",
-      "team": "away",
-      "playerId": "nhl:p_8476872",
-      "playerName": "Scott Laughton",
-      "minutes": 2,
-      "reason": "slashing",
-      "order": 240
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "18:35",
-      "team": "home",
-      "playerId": "nhl:p_8484873",
-      "playerName": "Cole Hutson",
-      "assists": [
-        "nhl:p_8479385",
-        "nhl:p_8479345"
-      ],
-      "score": "2-0",
-      "order": 258
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "19:27",
-      "team": "away",
-      "playerId": "nhl:p_8477960",
-      "playerName": "Adrian Kempe",
-      "assists": [
-        "nhl:p_8478550",
-        "nhl:p_8482155"
-      ],
-      "score": "2-1",
-      "order": 273
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "19:58",
-      "team": "away",
-      "playerId": "nhl:p_8478550",
-      "playerName": "Artemi Panarin",
-      "score": "2-2",
-      "order": 280
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "10:05",
-      "team": "home",
-      "playerId": "nhl:p_8479576",
-      "playerName": "Vincent Desharnais",
-      "minutes": 2,
-      "reason": "cross-checking",
-      "order": 424
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "10:05",
-      "team": "away",
-      "playerId": "nhl:p_8470621",
-      "playerName": "Corey Perry",
-      "minutes": 2,
-      "reason": "embellishment",
-      "order": 426
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "12:51",
-      "team": "home",
-      "minutes": 2,
-      "reason": "too-many-men-on-the-ice",
-      "order": 459
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "14:38",
-      "team": "away",
-      "playerId": "nhl:p_8482155",
-      "playerName": "Alex Laferriere",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 477
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      16,
-      16
-    ],
-    "shotsOnGoal": [
-      16,
-      16
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020144/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020144/play-by-play"
-    ],
-    "fetchedAt": "2026-10-21T00:32:15.676033+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -162,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/lak-vs-wsh/2026/10/20/2026020144",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/lak-vs-wsh/2026/10/20/2026020144",
-    "verifiedAt": "2026-10-21T00:32:15.676127Z"
+    "verifiedAt": "2026-10-21T05:12:55.687365Z"
   }
 }
