@@ -6,31 +6,75 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-21T00:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 1,
+  "clock": "05:44",
   "finishedIn": null,
   "home": {
     "id": "nhl:dal",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 4
   },
   "away": {
     "id": "nhl:bos",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 7
   },
   "arena": "American Airlines Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "02:09",
+      "team": "away",
+      "playerId": "nhl:p_8483505",
+      "playerName": "Matthew Poitras",
+      "assists": [
+        "nhl:p_8483017",
+        "nhl:p_8479661"
+      ],
+      "score": "0-1",
+      "order": 46
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "08:58",
+      "team": "home",
+      "playerId": "nhl:p_8481581",
+      "playerName": "Thomas Harley",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 134
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      4,
+      7
+    ],
+    "shotsOnGoal": [
+      4,
+      7
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020147/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020147/play-by-play"
+    ],
+    "fetchedAt": "2026-10-21T00:32:15.863693+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +82,6 @@
     "url": "https://www.nhl.com/gamecenter/bos-vs-dal/2026/10/20/2026020147",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/bos-vs-dal/2026/10/20/2026020147",
-    "verifiedAt": "2026-10-20T22:03:34.135183Z"
+    "verifiedAt": "2026-10-21T00:32:15.863768Z"
   }
 }

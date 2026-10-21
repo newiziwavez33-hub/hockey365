@@ -1,6 +1,52 @@
 {
   "news": [
     {
+      "id": "news-6665962",
+      "slug": "kirill-marchenko-zabil-kolambusu-v-pervom-zhe-matche-posle-obmena-ottuda-v-toronto",
+      "title": "Кирилл Марченко забил «Коламбусу» в первом же матче после обмена оттуда в «Торонто»",
+      "summary": "Российский нападающий «Торонто Мэйпл Лифс» Кирилл Марченко отметился заброшенной шайбой в матче регулярного чемпионата НХЛ с «Коламбус Блю Джекетс».",
+      "content": "Российский нападающий «Торонто Мэйпл Лифс» Кирилл Марченко отметился заброшенной шайбой в матче регулярного чемпионата НХЛ с «Коламбус Блю Джекетс».",
+      "image": "https://img.championat.com/news/big/c/x/kirill-marchenko-zabil-kolambusu-v-pervom-zhe-matche-posle-obmena-ottuda-v-toronto_1792539222386244192.jpg",
+      "publishedAt": "2026-10-20T23:32:10Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6665962-kirill-marchenko-zabil-kolambusu-v-pervom-zhe-matche-posle-obmena-ottuda-v-toronto.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Торонто Мэйпл Лифс",
+        "Коламбус Блю Джекетс",
+        "Кирилл Марченко"
+      ],
+      "relatedTeamIds": [
+        "nhl:cbj",
+        "nhl:tor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6664770",
+      "slug": "vashington-kepitalz-los-andzheles-kingz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachalas",
+      "title": "«Вашингтон» — «Лос-Анджелес»: онлайн-трансляция матча НХЛ началась",
+      "summary": "В ночь на 21 октября продолжился регулярный чемпионат Национальной хоккейной лиги.",
+      "content": "В ночь на 21 октября продолжился регулярный чемпионат Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/h/i/vashington-los-andzheles-onlajn-translyaciya-matcha-nhl-nachalas_17924830431514995211.jpg",
+      "publishedAt": "2026-10-20T23:00:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6664770-vashington-kepitalz-los-andzheles-kingz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachalas.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Лос-Анджелес Кингз"
+      ],
+      "relatedTeamIds": [
+        "nhl:lak",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6665876",
       "slug": "u-tebya-skolko-kubkov-rot-zakryl-rafikov-i-nadvornyj-obmenyalis-replikami-na-skamejkah-shtrafnikov",
       "title": "«У тебя, *****, сколько кубков? Рот закрыл». Рафиков и Надворный обменялись репликами",
@@ -667,52 +713,6 @@
       ],
       "relatedTeamIds": [
         "khl:avtomobilist"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665474",
-      "slug": "napadayuschij-kolambusa-obyasnil-pochemu-on-byl-rad-uhodu-kirilla-marchenko-iz-komandy",
-      "title": "Нападающий «Коламбуса» объяснил, почему он был рад уходу Кирилла Марченко из команды",
-      "summary": "Нападающий «Коламбус Блю Джекетс» Адам Фантилли заявил, что был рад обмену российского нападающего Кирилла Марченко в «Торонто Мэйпл Лифс».",
-      "content": "Нападающий «Коламбус Блю Джекетс» Адам Фантилли заявил, что был рад обмену российского нападающего Кирилла Марченко в «Торонто Мэйпл Лифс».",
-      "image": "https://img.championat.com/news/big/k/m/napadayuschij-kolambusa-obyasnil-pochemu-on-byl-rad-uhodu-kirilla-marchenko-iz-komandy_1792515421453716849.jpg",
-      "publishedAt": "2026-10-20T17:15:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665474-napadayuschij-kolambusa-obyasnil-pochemu-on-byl-rad-uhodu-kirilla-marchenko-iz-komandy.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Торонто Мэйпл Лифс",
-        "Коламбус Блю Джекетс",
-        "Кирилл Марченко",
-        "Адам Фантилли"
-      ],
-      "relatedTeamIds": [
-        "nhl:cbj",
-        "nhl:tor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6664762",
-      "slug": "vashington-kepitalz-los-andzheles-kingz-vo-skolko-nachalo-matcha-nhl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-21-oktyabr",
-      "title": "«Вашингтон» — «Лос-Анджелес»: во сколько начало матча НХЛ, где смотреть трансляцию",
-      "summary": "В ночь на 21 октября продолжится регулярный чемпионат Национальной хоккейной лиги.",
-      "content": "В ночь на 21 октября продолжится регулярный чемпионат Национальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/b/c/vashington-los-andzheles-vo-skolko-nachalo-matcha-nhl-gde-smotret-translyaciyu_1792482909193483408.jpg",
-      "publishedAt": "2026-10-20T17:00:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6664762-vashington-kepitalz-los-andzheles-kingz-vo-skolko-nachalo-matcha-nhl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-21-oktyabr.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Лос-Анджелес Кингз"
-      ],
-      "relatedTeamIds": [
-        "nhl:lak",
-        "nhl:wsh"
       ],
       "relatedPlayerIds": []
     }

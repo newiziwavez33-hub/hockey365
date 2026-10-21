@@ -6,31 +6,199 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-20T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 2,
+  "clock": "07:57",
   "finishedIn": null,
   "home": {
     "id": "nhl:cbj",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 13
   },
   "away": {
     "id": "nhl:tor",
-    "score": null,
+    "score": 5,
     "periods": [],
-    "shots": null
+    "shots": 21
   },
   "arena": "Nationwide Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "02:38",
+      "team": "home",
+      "playerId": "nhl:p_8481161",
+      "playerName": "Jake Christiansen",
+      "assists": [
+        "nhl:p_8481716",
+        "nhl:p_8477501"
+      ],
+      "score": "1-0",
+      "order": 36
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "05:41",
+      "team": "away",
+      "playerId": "nhl:p_8479968",
+      "playerName": "Vinni Lettieri",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 79
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "07:19",
+      "team": "home",
+      "playerId": "nhl:p_8481716",
+      "playerName": "Dmitri Voronkov",
+      "minutes": 2,
+      "reason": "slashing",
+      "order": 104
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "08:16",
+      "team": "away",
+      "playerId": "nhl:p_8480893",
+      "playerName": "Kirill Marchenko",
+      "assists": [
+        "nhl:p_8479318",
+        "nhl:p_8477939"
+      ],
+      "score": "1-1",
+      "order": 115
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "13:05",
+      "team": "home",
+      "playerId": "nhl:p_8482660",
+      "playerName": "Kent Johnson",
+      "minutes": 4,
+      "reason": "high-sticking-double-minor",
+      "order": 183
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "17:26",
+      "team": "home",
+      "playerId": "nhl:p_8481716",
+      "playerName": "Dmitri Voronkov",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 243
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "18:58",
+      "team": "away",
+      "playerId": "nhl:p_8476853",
+      "playerName": "Morgan Rielly",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 261
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "02:26",
+      "team": "away",
+      "playerId": "nhl:p_8477939",
+      "playerName": "William Nylander",
+      "assists": [
+        "nhl:p_8476853",
+        "nhl:p_8476925"
+      ],
+      "score": "1-2",
+      "order": 311
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "03:12",
+      "team": "away",
+      "playerId": "nhl:p_8479318",
+      "playerName": "Auston Matthews",
+      "assists": [
+        "nhl:p_8478458",
+        "nhl:p_8484158"
+      ],
+      "score": "1-3",
+      "order": 324
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "04:57",
+      "team": "away",
+      "playerId": "nhl:p_8483546",
+      "playerName": "Marshall Rifai",
+      "minutes": 2,
+      "reason": "slashing",
+      "order": 347
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "06:48",
+      "team": "away",
+      "playerId": "nhl:p_8484158",
+      "playerName": "Easton Cowan",
+      "assists": [
+        "nhl:p_8475171"
+      ],
+      "score": "1-4",
+      "order": 369
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "12:03",
+      "team": "away",
+      "playerId": "nhl:p_8478458",
+      "playerName": "Jack Roslovic",
+      "assists": [
+        "nhl:p_8476853",
+        "nhl:p_8484158"
+      ],
+      "score": "1-5",
+      "order": 444
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      13,
+      21
+    ],
+    "shotsOnGoal": [
+      13,
+      21
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020145/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020145/play-by-play"
+    ],
+    "fetchedAt": "2026-10-21T00:32:15.735429+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +206,6 @@
     "url": "https://www.nhl.com/gamecenter/tor-vs-cbj/2026/10/20/2026020145",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/tor-vs-cbj/2026/10/20/2026020145",
-    "verifiedAt": "2026-10-20T22:03:34.135057Z"
+    "verifiedAt": "2026-10-21T00:32:15.735559Z"
   }
 }
