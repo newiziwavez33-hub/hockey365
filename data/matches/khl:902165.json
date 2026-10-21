@@ -6,24 +6,28 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-21T09:30:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "LIVE",
+  "period": 10,
   "clock": null,
   "finishedIn": null,
   "home": {
     "id": "khl:admiral",
     "name": "Адмирал",
     "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/61/original/admiral_2024_200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 0,
+    "periods": [
+      0
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:barys",
     "name": "Барыс",
-    "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/46/original/barys_2022_head_only__200x200.png",
-    "score": null,
-    "periods": [],
+    "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/46/original/barys_2022_head_only__200x200.png",
+    "score": 0,
+    "periods": [
+      0
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +54,6 @@
     "stageId": 407,
     "eventId": 3000811,
     "matchId": "902165",
-    "fetchedAt": "2026-10-21T05:12:58.140314Z"
+    "fetchedAt": "2026-10-21T10:07:43.788405Z"
   }
 }
