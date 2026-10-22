@@ -1,6 +1,56 @@
 {
   "news": [
     {
+      "id": "news-6667280",
+      "slug": "nelzya-dopuskat-takuyu-oshibku-trener-vashingtona-o-porazhenii-v-matche-s-kingz",
+      "title": "«Нельзя допускать такую ошибку». Тренер «Вашингтона» — о поражении в матче с «Кингз»",
+      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери разобрал пропущенные голы команды в матче регулярного чемпионата НХЛ с «Лос-Анджелес Кингз» (2:5).",
+      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери разобрал пропущенные голы команды в матче регулярного чемпионата НХЛ с «Лос-Анджелес Кингз» (2:5).",
+      "image": "https://img.championat.com/news/big/k/q/nelzya-dopuskat-takuyu-oshibku-trener-vashingtona-o-porazhenii-v-matche-s-kingz_17926284481308197089.jpg",
+      "publishedAt": "2026-10-22T00:20:52Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6667280-nelzya-dopuskat-takuyu-oshibku-trener-vashingtona-o-porazhenii-v-matche-s-kingz.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Лос-Анджелес Кингз",
+        "Спенсер Карбери"
+      ],
+      "relatedTeamIds": [
+        "nhl:lak",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6667268",
+      "slug": "trener-los-andzhelesa-vyskazalsya-o-pobede-v-matche-s-vashingtonom-upomyanuv-panarina",
+      "title": "Тренер «Лос-Анджелеса» высказался о победе в матче с «Вашингтоном», упомянув Панарина",
+      "summary": "Главный тренер «Лос-Анджелес Кингз» Питер Лавиолетт высказался о победе над «Вашингтон Кэпиталз» (5:2) в матче НХЛ.",
+      "content": "Главный тренер «Лос-Анджелес Кингз» Питер Лавиолетт высказался о победе над «Вашингтон Кэпиталз» (5:2) в матче НХЛ.",
+      "image": "https://img.championat.com/news/big/g/r/trener-los-andzhelesa-vyskazalsya-o-pobede-v-matche-s-vashingtonom-upomyanuv-panarina_17926255551873149098.jpg",
+      "publishedAt": "2026-10-21T23:32:37Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6667268-trener-los-andzhelesa-vyskazalsya-o-pobede-v-matche-s-vashingtonom-upomyanuv-panarina.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Артемий Панарин",
+        "Лос-Анджелес Кингз",
+        "Питер Лавиолетт"
+      ],
+      "relatedTeamIds": [
+        "nhl:lak",
+        "nhl:nyr",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478550"
+      ]
+    },
+    {
       "id": "news-6667164",
       "slug": "rezultaty-matchej-mhl-na-21-oktyabrya-2026-goda",
       "title": "Результаты матчей МХЛ на 21 октября 2026 года",
@@ -685,51 +735,6 @@
         "Барыс",
         "Адмирал",
         "Олег Браташ"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:barys"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6665896",
-      "slug": "metallurg-salavat-yulaev-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Металлург» — «Салават Юлаев»: онлайн-трансляция матча КХЛ началась",
-      "summary": "Сегодня, 21 октября, в Магнитогорске на стадионе «Арена-Металлург» стартовал матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Металлург» принимает уфимский «Салава...",
-      "content": "Сегодня, 21 октября, в Магнитогорске на стадионе «Арена-Металлург» стартовал матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Металлург» принимает уфимский «Салават Юлаев».",
-      "image": "https://img.championat.com/news/big/m/i/metallurg-salavat-yulaev-onlajn-translyaciya-matcha-khl-nachalas_1792532146967335334.jpg",
-      "publishedAt": "2026-10-21T14:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6665896-metallurg-salavat-yulaev-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Металлург Мг"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6666634",
-      "slug": "glavnyj-trener-barysa-kravec-admiral-bolshe-zasluzhil-pobedu-vsyo-zakonomerno",
-      "title": "Главный тренер «Барыса» Кравец: «Адмирал» больше заслужил победу, всё закономерно",
-      "summary": "Главный тренер «Барыса» Михаил Кравец высказался о поражении от «Адмирала» (5:4 ОТ) во Владивостоке.",
-      "content": "Главный тренер «Барыса» Михаил Кравец высказался о поражении от «Адмирала» (5:4 ОТ) во Владивостоке.",
-      "image": "https://img.championat.com/news/big/h/e/glavnyj-trener-barysa-kravec.jpg",
-      "publishedAt": "2026-10-21T13:43:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6666634-glavnyj-trener-barysa-kravec-admiral-bolshe-zasluzhil-pobedu-vsyo-zakonomerno.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Барыс",
-        "Адмирал",
-        "Михаил Кравец"
       ],
       "relatedTeamIds": [
         "khl:admiral",
