@@ -7,29 +7,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-22T13:30:00Z",
-    "status": "LIVE",
-    "period": 10,
+    "status": "FINISHED",
+    "period": null,
     "clock": null,
-    "finishedIn": null,
+    "finishedIn": "REG",
     "home": {
       "id": "khl:avangard",
       "name": "Авангард",
-      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/10/original/Avangard_2026_500x500_NEW.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-2.webcaster.pro/fc/sdh/team_pics/10/original/Avangard_2026_500x500_NEW.png",
       "score": 2,
       "periods": [
         1,
-        1
+        1,
+        0
       ],
       "shots": null
     },
     "away": {
       "id": "khl:neftekhimik",
       "name": "Нефтехимик",
-      "logo": "https://thumbs.webcaster.pro/rec-2-19.webcaster.pro/fc/sdc2/team_pics/36/original/neftekhimik_2022__200x200.png",
-      "score": 1,
+      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/36/original/neftekhimik_2022__200x200.png",
+      "score": 3,
       "periods": [
         1,
-        0
+        0,
+        2
       ],
       "shots": null
     },
@@ -57,7 +59,7 @@
       "stageId": 407,
       "eventId": 3000827,
       "matchId": "902169",
-      "fetchedAt": "2026-10-22T15:24:25.353395Z"
+      "fetchedAt": "2026-10-22T19:18:52.821122Z"
     }
   },
   {
@@ -68,24 +70,32 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-22T16:30:00Z",
-    "status": "SCHEDULED",
+    "status": "FINISHED",
     "period": null,
     "clock": null,
-    "finishedIn": null,
+    "finishedIn": "REG",
     "home": {
       "id": "khl:ska",
       "name": "СКА",
       "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdd/team_pics/44/original/SKA_logo_2025_RU_200x200_NEW.png",
-      "score": null,
-      "periods": [],
+      "score": 6,
+      "periods": [
+        4,
+        1,
+        1
+      ],
       "shots": null
     },
     "away": {
       "id": "khl:sibir",
       "name": "Сибирь",
-      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/24/original/sibir_rus__200x200.png",
-      "score": null,
-      "periods": [],
+      "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/24/original/sibir_rus__200x200.png",
+      "score": 3,
+      "periods": [
+        3,
+        0,
+        0
+      ],
       "shots": null
     },
     "arena": null,
@@ -112,7 +122,7 @@
       "stageId": 407,
       "eventId": 3000823,
       "matchId": "902168",
-      "fetchedAt": "2026-10-22T15:24:25.353395Z"
+      "fetchedAt": "2026-10-22T19:18:52.821122Z"
     }
   },
   {
@@ -123,24 +133,34 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-22T16:30:00Z",
-    "status": "SCHEDULED",
+    "status": "FINISHED",
     "period": null,
     "clock": null,
-    "finishedIn": null,
+    "finishedIn": "OT",
     "home": {
       "id": "khl:sochi",
       "name": "ХК Сочи",
-      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/113/original/hc_sochi_2024__200x200_new.png",
-      "score": null,
-      "periods": [],
+      "logo": "https://thumbs.webcaster.pro/rec-2-13.webcaster.pro/fc/sda/team_pics/113/original/hc_sochi_2024__200x200_new.png",
+      "score": 3,
+      "periods": [
+        0,
+        1,
+        1,
+        1
+      ],
       "shots": null
     },
     "away": {
       "id": "khl:dynamo-mns",
       "name": "Динамо Мн",
-      "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/38/original/dinamo_mn_2019_alternative__200x200.png",
-      "score": null,
-      "periods": [],
+      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/38/original/dinamo_mn_2019_alternative__200x200.png",
+      "score": 2,
+      "periods": [
+        1,
+        0,
+        1,
+        0
+      ],
       "shots": null
     },
     "arena": null,
@@ -167,7 +187,7 @@
       "stageId": 407,
       "eventId": 3000831,
       "matchId": "902170",
-      "fetchedAt": "2026-10-22T15:24:25.353395Z"
+      "fetchedAt": "2026-10-22T19:18:52.821122Z"
     }
   },
   {
@@ -210,7 +230,7 @@
       "url": "https://www.nhl.com/gamecenter/nsh-vs-bos/2026/10/22/2026020154",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/nsh-vs-bos/2026/10/22/2026020154",
-      "verifiedAt": "2026-10-22T15:24:22.405107Z"
+      "verifiedAt": "2026-10-22T19:18:51.580389Z"
     }
   },
   {
@@ -253,7 +273,7 @@
       "url": "https://www.nhl.com/gamecenter/nyr-vs-tor/2026/10/22/2026020155",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/nyr-vs-tor/2026/10/22/2026020155",
-      "verifiedAt": "2026-10-22T15:24:22.405252Z"
+      "verifiedAt": "2026-10-22T19:18:51.580787Z"
     }
   },
   {
@@ -296,7 +316,7 @@
       "url": "https://www.nhl.com/gamecenter/sjs-vs-ott/2026/10/22/2026020156",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/sjs-vs-ott/2026/10/22/2026020156",
-      "verifiedAt": "2026-10-22T15:24:22.405396Z"
+      "verifiedAt": "2026-10-22T19:18:51.581012Z"
     }
   },
   {
@@ -339,7 +359,7 @@
       "url": "https://www.nhl.com/gamecenter/ana-vs-njd/2026/10/22/2026020157",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/ana-vs-njd/2026/10/22/2026020157",
-      "verifiedAt": "2026-10-22T15:24:22.405529Z"
+      "verifiedAt": "2026-10-22T19:18:51.581238Z"
     }
   },
   {
@@ -382,7 +402,7 @@
       "url": "https://www.nhl.com/gamecenter/fla-vs-pit/2026/10/22/2026020158",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/fla-vs-pit/2026/10/22/2026020158",
-      "verifiedAt": "2026-10-22T15:24:22.405661Z"
+      "verifiedAt": "2026-10-22T19:18:51.581488Z"
     }
   },
   {
@@ -425,7 +445,7 @@
       "url": "https://www.nhl.com/gamecenter/lak-vs-nyi/2026/10/22/2026020159",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/lak-vs-nyi/2026/10/22/2026020159",
-      "verifiedAt": "2026-10-22T15:24:22.405833Z"
+      "verifiedAt": "2026-10-22T19:18:51.581699Z"
     }
   },
   {
@@ -468,7 +488,7 @@
       "url": "https://www.nhl.com/gamecenter/vgk-vs-stl/2026/10/22/2026020160",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/vgk-vs-stl/2026/10/22/2026020160",
-      "verifiedAt": "2026-10-22T15:24:22.405992Z"
+      "verifiedAt": "2026-10-22T19:18:51.581904Z"
     }
   },
   {
@@ -511,7 +531,7 @@
       "url": "https://www.nhl.com/gamecenter/wpg-vs-dal/2026/10/22/2026020161",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/wpg-vs-dal/2026/10/22/2026020161",
-      "verifiedAt": "2026-10-22T15:24:22.406150Z"
+      "verifiedAt": "2026-10-22T19:18:51.582119Z"
     }
   },
   {
@@ -554,7 +574,7 @@
       "url": "https://www.nhl.com/gamecenter/min-vs-cgy/2026/10/22/2026020162",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/min-vs-cgy/2026/10/22/2026020162",
-      "verifiedAt": "2026-10-22T15:24:22.406324Z"
+      "verifiedAt": "2026-10-22T19:18:51.582348Z"
     }
   },
   {
@@ -597,7 +617,7 @@
       "url": "https://www.nhl.com/gamecenter/car-vs-edm/2026/10/22/2026020163",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/car-vs-edm/2026/10/22/2026020163",
-      "verifiedAt": "2026-10-22T15:24:22.406483Z"
+      "verifiedAt": "2026-10-22T19:18:51.582602Z"
     }
   },
   {
@@ -640,7 +660,7 @@
       "url": "https://www.nhl.com/gamecenter/uta-vs-sea/2026/10/22/2026020164",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/uta-vs-sea/2026/10/22/2026020164",
-      "verifiedAt": "2026-10-22T15:24:22.406621Z"
+      "verifiedAt": "2026-10-22T19:18:51.582837Z"
     }
   },
   {
@@ -683,7 +703,7 @@
       "url": "https://www.nhl.com/gamecenter/det-vs-van/2026/10/22/2026020165",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/det-vs-van/2026/10/22/2026020165",
-      "verifiedAt": "2026-10-22T15:24:22.406874Z"
+      "verifiedAt": "2026-10-22T19:18:51.583072Z"
     }
   }
 ]

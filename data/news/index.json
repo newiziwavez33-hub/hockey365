@@ -1,11 +1,374 @@
 {
   "news": [
     {
+      "id": "news-6668444",
+      "slug": "komandu-vsyo-ravno-potryahivaet-andrej-razin-o-pobede-ska-nad-sibiryu",
+      "title": "«Команду всё равно потряхивает». Андрей Разин — о победе СКА над «Сибирью»",
+      "summary": "Главный тренер СКА Андрей Разин высказался о победной встрече армейского клуба с «Сибирью» (6:3) в Санкт-Петербурге.",
+      "content": "Главный тренер СКА Андрей Разин высказался о победной встрече армейского клуба с «Сибирью» (6:3) в Санкт-Петербурге.",
+      "image": "https://img.championat.com/news/big/h/k/komandu-vsyo-ravno-potryahivaet-andrej-razin-o-pobede-ska-nad-sibiryu_17926961481776452778.jpg",
+      "publishedAt": "2026-10-22T19:09:18Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668444-komandu-vsyo-ravno-potryahivaet-andrej-razin-o-pobede-ska-nad-sibiryu.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Сибирь",
+        "Андрей Разин"
+      ],
+      "relatedTeamIds": [
+        "khl:sibir",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668402",
+      "slug": "sochi-shanhajskie-drakony-rezultat-matcha-22-oktyabrya-2026-goda-schet-3-2-ot-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "«Сочи» дома одержал волевую победу, обыграв минское «Динамо» в овертайме",
+      "summary": "Сегодня, 19 октября, в Сочи на стадионе «Большой» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Сочи» принимал минское «Динамо».",
+      "content": "Сегодня, 19 октября, в Сочи на стадионе «Большой» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Сочи» принимал минское «Динамо».",
+      "image": "https://img.championat.com/news/big/y/t/sochi-doma-oderzhal-volevuyu-pobedu-obygrav-minskoe-dinamo-v-overtajme_1792695603488983817.jpg",
+      "publishedAt": "2026-10-22T18:51:36Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668402-sochi-shanhajskie-drakony-rezultat-matcha-22-oktyabrya-2026-goda-schet-3-2-ot-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "Динамо Минск",
+        "Сочи"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:sochi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668396",
+      "slug": "ska-sibir-rezultat-matcha-22-oktyabrya-2026-goda-schet-6-3-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "СКА одержал первую победу под руководством Андрея Разина, одолев «Сибирь»",
+      "summary": "Сегодня, 22 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимал «Сибирь» из Новосибирска.",
+      "content": "Сегодня, 22 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимал «Сибирь» из Новосибирска.",
+      "image": "https://img.championat.com/news/big/l/i/ska-oderzhal-pervuyu-pobedu-pod-rukovodstvom-andreya-razina-odolev-sibir_1792695308503199112.jpg",
+      "publishedAt": "2026-10-22T18:47:24Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668396-ska-sibir-rezultat-matcha-22-oktyabrya-2026-goda-schet-6-3-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "СКА",
+        "Сибирь",
+        "Андрей Разин"
+      ],
+      "relatedTeamIds": [
+        "khl:sibir",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668374",
+      "slug": "kolambus-gotov-vyslushat-predlozheniya-ot-klubov-nhl-po-obmenu-voronkova-lebryun",
+      "title": "«Коламбус» готов выслушать предложения от клубов НХЛ по обмену Воронкова — Лебрюн",
+      "summary": "«Коламбус Блю Джекетс» готов выслушать предложения от клубов НХЛ по обмену российского нападающего Дмитрия Воронкова.",
+      "content": "«Коламбус Блю Джекетс» готов выслушать предложения от клубов НХЛ по обмену российского нападающего Дмитрия Воронкова.",
+      "image": "https://img.championat.com/news/big/w/g/kolambus-gotov-vyslushat-predlozheniya-ot-klubov-nhl-po-obmenu-voronkova-lebryun_1792692390575987967.jpg",
+      "publishedAt": "2026-10-22T18:11:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668374-kolambus-gotov-vyslushat-predlozheniya-ot-klubov-nhl-po-obmenu-voronkova-lebryun.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Коламбус Блю Джекетс",
+        "Дмитрий Воронков",
+        "Пьер Лебрюн"
+      ],
+      "relatedTeamIds": [
+        "nhl:cbj"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668350",
+      "slug": "kapitan-pittsburga-krosbi-vyskazalsya-o-situacii-19-letnego-forvarda-kindela",
+      "title": "Капитан «Питтсбурга» Кросби высказался о ситуации 19-летнего форварда Киндела",
+      "summary": "Капитан «Питтсбург Пингвинз» Сидни Кросби высказался о ситуации 19-летнего форварда Бенжамина Киндела, которому стало плохо в самолёте во время полёта команды после матча с «Юта Маммот» (4:5).",
+      "content": "Капитан «Питтсбург Пингвинз» Сидни Кросби высказался о ситуации 19-летнего форварда Бенжамина Киндела, которому стало плохо в самолёте во время полёта команды после матча с «Юта Маммот» (4:5).",
+      "image": "https://img.championat.com/news/big/v/f/kapitan-pittsburga-krosbi-vyskazalsya-o-situacii-19-letnego-forvarda-kindela_1792691350104977501.jpg",
+      "publishedAt": "2026-10-22T17:49:17Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668350-kapitan-pittsburga-krosbi-vyskazalsya-o-situacii-19-letnego-forvarda-kindela.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Питтсбург Пингвинз",
+        "Сидни Кросби"
+      ],
+      "relatedTeamIds": [
+        "nhl:pit",
+        "nhl:uta"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668338",
+      "slug": "dlya-menya-eto-luchshaya-komanda-marat-husnutdinov-o-prodlenii-kontrakta-s-bostonom",
+      "title": "«Для меня это лучшая команда». Марат Хуснутдинов — о продлении контракта с «Бостоном»",
+      "summary": "Нападающий Марат Хуснутдинов поделился своими впечатлениями от продления контракта с «Бостон Брюинз» на три года.",
+      "content": "Нападающий Марат Хуснутдинов поделился своими впечатлениями от продления контракта с «Бостон Брюинз» на три года.",
+      "image": "https://img.championat.com/news/big/j/h/dlya-menya-eto-luchshaya-komanda-marat-husnutdinov-o-prodlenii-kontrakta-s-bostonom_1792690290655143937.jpg",
+      "publishedAt": "2026-10-22T17:33:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668338-dlya-menya-eto-luchshaya-komanda-marat-husnutdinov-o-prodlenii-kontrakta-s-bostonom.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Бостон Брюинз",
+        "Марат Хуснутдинов"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668322",
+      "slug": "v-igre-ska-sibir-pokazan-tretij-rezultat-v-istorii-khl-po-skorostrelnosti",
+      "title": "В игре СКА — «Сибирь» показан третий результат в истории КХЛ по скорострельности",
+      "summary": "В эти минуты в Санкт-Петербурге на стадионе «СКА Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимает «Сибирь».",
+      "content": "В эти минуты в Санкт-Петербурге на стадионе «СКА Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимает «Сибирь».",
+      "image": "https://img.championat.com/news/big/x/p/v-igre-ska-sibir-pokazan-tretij-rezultat-v-istorii-khl-po-skorostrelnosti_1792689397975941486.jpg",
+      "publishedAt": "2026-10-22T17:16:57Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668322-v-igre-ska-sibir-pokazan-tretij-rezultat-v-istorii-khl-po-skorostrelnosti.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "СКА",
+        "Сибирь"
+      ],
+      "relatedTeamIds": [
+        "khl:sibir",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668312",
+      "slug": "gi-bushe-v-matche-s-neftehimikom-vsyo-bylo-v-nashih-rukah-poetomu-tak-obidno-proigrat",
+      "title": "Ги Буше: в матче с «Нефтехимиком» всё было в наших руках. Поэтому так обидно проиграть",
+      "summary": "Главный тренер «Авангарда» Ги Буше прокомментировал поражение от «Нефтехимика» (2:3) в Омске.",
+      "content": "Главный тренер «Авангарда» Ги Буше прокомментировал поражение от «Нефтехимика» (2:3) в Омске.",
+      "image": "https://img.championat.com/news/big/m/u/gi-bushe-v-matche-s-neftehim.jpg",
+      "publishedAt": "2026-10-22T17:03:01Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668312-gi-bushe-v-matche-s-neftehimikom-vsyo-bylo-v-nashih-rukah-poetomu-tak-obidno-proigrat.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Нефтехимик",
+        "Ги Буше"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:neftekhimik"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668310",
+      "slug": "grishin-neftehimik-vyshel-v-bolshinstve-na-rasslablennyh-bulkah-nas-nakazali",
+      "title": "Гришин: «Нефтехимик» вышел в большинстве на расслабленных булках — нас наказали",
+      "summary": "Главный тренер «Нефтехимика» Игорь Гришин после победы над «Авангардом» (3:2) в Омске высказался об игре нижнекамского клуба в начале встречи.",
+      "content": "Главный тренер «Нефтехимика» Игорь Гришин после победы над «Авангардом» (3:2) в Омске высказался об игре нижнекамского клуба в начале встречи.",
+      "image": "https://img.championat.com/news/big/u/p/grishin-neftehimik-vyshel-v-.jpg",
+      "publishedAt": "2026-10-22T16:57:09Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668310-grishin-neftehimik-vyshel-v-bolshinstve-na-rasslablennyh-bulkah-nas-nakazali.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Нефтехимик",
+        "Игорь Гришин"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:neftekhimik"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668308",
+      "slug": "chto-to-proizoshlo-takoe-chto-my-pobedili-grishin-o-matche-s-avangardom",
+      "title": "«Что-то произошло такое, что мы победили». Гришин — о матче с «Авангардом»",
+      "summary": "Главный тренер «Нефтехимика» Игорь Гришин высказался о волевой победе над «Авангардом» (3:2) в Омске.",
+      "content": "Главный тренер «Нефтехимика» Игорь Гришин высказался о волевой победе над «Авангардом» (3:2) в Омске.",
+      "image": "https://img.championat.com/news/big/f/y/chto-to-proizoshlo-takoe-cht.jpg",
+      "publishedAt": "2026-10-22T16:54:25Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668308-chto-to-proizoshlo-takoe-chto-my-pobedili-grishin-o-matche-s-avangardom.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Нефтехимик",
+        "Игорь Гришин"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:neftekhimik"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668296",
+      "slug": "ska-propustil-ot-sibiri-trizhdy-k-vosmoj-minute-i-zamenil-vratarya",
+      "title": "СКА пропустил от «Сибири» трижды к восьмой минуте и заменил вратаря",
+      "summary": "В эти минуты в Санкт-Петербурге на стадионе «СКА Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимает «Сибирь».",
+      "content": "В эти минуты в Санкт-Петербурге на стадионе «СКА Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимает «Сибирь».",
+      "image": "https://img.championat.com/news/big/a/l/ska-propustil-ot-sibiri-trizhdy-k-vosmoj-minute-i-zamenil-vratarya_1792687908455136924.jpg",
+      "publishedAt": "2026-10-22T16:52:31Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668296-ska-propustil-ot-sibiri-trizhdy-k-vosmoj-minute-i-zamenil-vratarya.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "СКА",
+        "Сибирь",
+        "Сергей Иванов — хоккей",
+        "Артемий Плешков"
+      ],
+      "relatedTeamIds": [
+        "khl:sibir",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668278",
+      "slug": "luchshij-bombardir-monrealya-tekuschego-sezona-sudzuki-vybyl-na-2-4-nedeli-iz-za-travmy",
+      "title": "Лучший бомбардир «Монреаля» текущего сезона Судзуки выбыл на 2-4 недели из-за травмы",
+      "summary": "Капитан «Монреаль Канадиенс» Ник Судзуки выбыл на срок от двух до четырёх недель из-за травмы верхней части тела.",
+      "content": "Капитан «Монреаль Канадиенс» Ник Судзуки выбыл на срок от двух до четырёх недель из-за травмы верхней части тела.",
+      "image": "https://img.championat.com/news/big/y/t/luchshij-bombardir-monrealya-tekuschego-sezona-sudzuki-vybyl-na-2-4-nedeli-iz-za-travmy_17926861741641450718.jpg",
+      "publishedAt": "2026-10-22T16:47:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668278-luchshij-bombardir-monrealya-tekuschego-sezona-sudzuki-vybyl-na-2-4-nedeli-iz-za-travmy.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Монреаль Канадиенс",
+        "Ник Судзуки"
+      ],
+      "relatedTeamIds": [
+        "nhl:mtl"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6667360",
+      "slug": "ska-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
+      "title": "СКА — «Сибирь»: онлайн-трансляция матча КХЛ началась",
+      "summary": "Сегодня, 22 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет «Сибирь».",
+      "content": "Сегодня, 22 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет «Сибирь».",
+      "image": "https://img.championat.com/news/big/z/b/ska-sibir-onlajn-translyaciya-matcha-khl-nachalas_1792640980807926680.jpg",
+      "publishedAt": "2026-10-22T16:30:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6667360-ska-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Сибирь"
+      ],
+      "relatedTeamIds": [
+        "khl:sibir",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668282",
+      "slug": "zaschitnik-salavata-yulaeva-grigorij-panin-oshtrafovan-za-tolchok-silanteva-na-bort",
+      "title": "Защитник «Салавата Юлаева» Григорий Панин оштрафован за толчок Силантьева на борт",
+      "summary": "Спортивно-дисциплинарный комитет Континентальной хоккейной лиги рассмотрел эпизод матча «Металлург» – «Салават Юлаев» (4:5 Б) и оштрафовал защитника уфимского клуба Григория Панина за толчок форварда магнитогорского к...",
+      "content": "Спортивно-дисциплинарный комитет Континентальной хоккейной лиги рассмотрел эпизод матча «Металлург» – «Салават Юлаев» (4:5 Б) и оштрафовал защитника уфимского клуба Григория Панина за толчок форварда магнитогорского клуба Дмитрия Силантьева на борт.",
+      "image": "https://img.championat.com/news/big/i/l/zaschitnik-salavata-yulaeva-.jpg",
+      "publishedAt": "2026-10-22T16:26:44Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668282-zaschitnik-salavata-yulaeva-grigorij-panin-oshtrafovan-za-tolchok-silanteva-na-bort.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "Салават Юлаев",
+        "Металлург Мг",
+        "Григорий Панин",
+        "Дмитрий Силантьев"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg",
+        "khl:salavat-yulaev"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668242",
+      "slug": "avangard-neftehimik-rezultat-matcha-22-oktyabrya-2026-goda-schet-2-3-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "«Нефтехимик» дважды отыгрался по ходу матча и победил в гостях «Авангард»",
+      "summary": "Сегодня, 22 октября, в Омске на стадионе «Джи-Драйв-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Авангард» принимал нижнекамский «Нефтехимик».",
+      "content": "Сегодня, 22 октября, в Омске на стадионе «Джи-Драйв-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Авангард» принимал нижнекамский «Нефтехимик».",
+      "image": "https://img.championat.com/news/big/s/v/neftehimik-dvazhdy-otygralsya-po-hodu-matcha-i-pobedil-v-gostyah-avangard_1792687625147419213.jpg",
+      "publishedAt": "2026-10-22T16:08:59Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668242-avangard-neftehimik-rezultat-matcha-22-oktyabrya-2026-goda-schet-2-3-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "Авангард",
+        "Нефтехимик"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:neftekhimik"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668226",
+      "slug": "skonchalsya-finalist-kubka-stenli-v-sostave-rejndzhers-ron-dyugej",
+      "title": "Скончался финалист Кубка Стэнли в составе «Рейнджерс» Рон Дюгей",
+      "summary": "Финалист Кубка Стэнли в составе «Нью-Йорк Рейнджерс» канадский нападающий Рон Дюгей скончался в возрасте 69 лет.",
+      "content": "Финалист Кубка Стэнли в составе «Нью-Йорк Рейнджерс» канадский нападающий Рон Дюгей скончался в возрасте 69 лет.",
+      "image": "https://img.championat.com/news/big/r/s/skonchalsya-finalist-kubka-stenli-v-sostave-rejndzhers-ron-dyugej_17926842941255097093.jpg",
+      "publishedAt": "2026-10-22T15:45:26Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668226-skonchalsya-finalist-kubka-stenli-v-sostave-rejndzhers-ron-dyugej.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Нью-Йорк Рейнджерс"
+      ],
+      "relatedTeamIds": [
+        "nhl:nyr"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6668202",
       "slug": "aleksandr-radulov-vnesyon-v-spisok-travmirovannyh-lokomotiva",
       "title": "Александр Радулов внесён в список травмированных «Локомотива»",
-      "summary": "Нападающий «Локомотива» Александр Радулов внесён в список травмированных, сообщается на сайте Континентальной хоккенйой лиге.",
-      "content": "Нападающий «Локомотива» Александр Радулов внесён в список травмированных, сообщается на сайте Континентальной хоккенйой лиге.",
+      "summary": "Нападающий «Локомотива» Александр Радулов внесён в список травмированных, сообщается на сайте Континентальной хоккейной лиги.",
+      "content": "Нападающий «Локомотива» Александр Радулов внесён в список травмированных, сообщается на сайте Континентальной хоккейной лиги.",
       "image": "https://img.championat.com/news/big/q/k/aleksandr-radulov-vnesyon-v-.jpg",
       "publishedAt": "2026-10-22T15:23:45Z",
       "source": "Чемпионат • Хоккей",
@@ -191,6 +554,7 @@
         "КХЛ",
         "Салават Юлаев",
         "Металлург Мг",
+        "Григорий Панин",
         "Дмитрий Силантьев"
       ],
       "relatedTeamIds": [
@@ -332,374 +696,6 @@
       ],
       "relatedTeamIds": [
         "khl:amur"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667852",
-      "slug": "provokaciya-s-kotoroj-my-razberyomsya-generalnyj-direktor-sibiri-o-slovah-agenta-beka",
-      "title": "«Провокация, с которой мы разберёмся». Генеральный директор «Сибири» о словах агента Бека",
-      "summary": "Генеральный директор «Сибири» Лев Крутохвостов отреагировал на информацию, что Тейлор Бек нашёл свою форму разбросанной в комнате, где стирают бельё, о чём ранее сообщил агент хоккеиста Алёша Пилко.",
-      "content": "Генеральный директор «Сибири» Лев Крутохвостов отреагировал на информацию, что Тейлор Бек нашёл свою форму разбросанной в комнате, где стирают бельё, о чём ранее сообщил агент хоккеиста Алёша Пилко.",
-      "image": "https://img.championat.com/news/big/b/w/provokaciya-s-kotoroj-my-razberyomsya-generalnyj-direktor-sibiri-o-slovah-agenta-beka_17926690861014823332.jpg",
-      "publishedAt": "2026-10-22T11:40:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667852-provokaciya-s-kotoroj-my-razberyomsya-generalnyj-direktor-sibiri-o-slovah-agenta-beka.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Сибирь",
-        "Тейлор Бек",
-        "Алёша Пилко",
-        "Лев Крутохвостов"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667750",
-      "slug": "karelin-ovechkin-gotovyj-propagandist-pravilnyh-cennostej-i-hokkejnyh-tradicij",
-      "title": "Карелин: Овечкин — готовый пропагандист правильных ценностей и хоккейных традиций",
-      "summary": "Член комитета Совета Федерации по международным делам, трёхкратный олимпийский чемпион по греко-римской борьбе Александр Карелин высказался о том, как сложится жизнь нападающего «Вашингтон Кэпиталз» Александра Овечкин...",
-      "content": "Член комитета Совета Федерации по международным делам, трёхкратный олимпийский чемпион по греко-римской борьбе Александр Карелин высказался о том, как сложится жизнь нападающего «Вашингтон Кэпиталз» Александра Овечкина после завершения карьеры.",
-      "image": "https://img.championat.com/news/big/k/c/karelin-ovechkin-gotovyj-pro.jpg",
-      "publishedAt": "2026-10-22T11:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667750-karelin-ovechkin-gotovyj-propagandist-pravilnyh-cennostej-i-hokkejnyh-tradicij.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Матч ТВ",
-        "Александр Карелин",
-        "Россия — спортивная держава"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6667584",
-      "slug": "on-byl-myagkim-u-borta-panin-o-svoyom-udalenii-do-konca-matcha-za-tolchok-silanteva",
-      "title": "«Он был мягким у борта». Панин — о своём удалении до конца матча за толчок Силантьева",
-      "summary": "Защитник «Салавата Юлаева» Григорий Панин прокомментировал своё удаление до конца матча за толчок на борт нападающего «Металлурга» Дмитрия Силантьева (5:4 Б).",
-      "content": "Защитник «Салавата Юлаева» Григорий Панин прокомментировал своё удаление до конца матча за толчок на борт нападающего «Металлурга» Дмитрия Силантьева (5:4 Б).",
-      "image": "https://img.championat.com/news/big/h/c/on-byl-myagkim-u-borta-panin.jpg",
-      "publishedAt": "2026-10-22T10:50:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667584-on-byl-myagkim-u-borta-panin-o-svoyom-udalenii-do-konca-matcha-za-tolchok-silanteva.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Металлург Мг",
-        "Спорт-экспресс",
-        "Григорий Панин",
-        "Дмитрий Силантьев"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667348",
-      "slug": "avangard-neftehimik-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-16-30-msk",
-      "title": "«Авангард» — «Нефтехимик»: онлайн-трансляция матча КХЛ начнётся в 16:30 мск",
-      "summary": "Сегодня, 22 октября, в Омске на стадионе «Джи-Драйв-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Авангард» примет «Нефтехимик».",
-      "content": "Сегодня, 22 октября, в Омске на стадионе «Джи-Драйв-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Авангард» примет «Нефтехимик».",
-      "image": "https://img.championat.com/news/big/h/j/avangard-neftehimik-onlajn-translyaciya-matcha-khl-nachnyotsya-v-16-30-msk_17926406881688110038.jpg",
-      "publishedAt": "2026-10-22T10:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667348-avangard-neftehimik-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-16-30-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Нефтехимик"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:neftekhimik"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667718",
-      "slug": "roman-rotenberg-vyskazalsya-o-vozmozhnosti-provedeniya-matchej-mezhdu-klubami-nhl-i-khl",
-      "title": "Роман Ротенберг высказался о возможности проведения матчей между клубами НХЛ и КХЛ",
-      "summary": "Первый вице-президент ФХР Роман Ротенберг поделился мыслями относительно возможности проведения матчей между клубами КХЛ и НХЛ.",
-      "content": "Первый вице-президент ФХР Роман Ротенберг поделился мыслями относительно возможности проведения матчей между клубами КХЛ и НХЛ.",
-      "image": "https://img.championat.com/news/big/n/e/roman-rotenberg-vyskazalsya-.jpg",
-      "publishedAt": "2026-10-22T10:15:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667718-roman-rotenberg-vyskazalsya-o-vozmozhnosti-provedeniya-matchej-mezhdu-klubami-nhl-i-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "РБ Спорт",
-        "Роман Ротенберг"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667736",
-      "slug": "khl-predstavila-formu-komand-na-match-zvyozd-s-belorusskim-ornamentom",
-      "title": "КХЛ представила форму команд на Матч звёзд с белорусским орнаментом",
-      "summary": "Представлены игровые джерси команд на Фонбет Матче звёзд КХЛ — 2027, который пройдёт 6-7 февраля в Минске.",
-      "content": "Представлены игровые джерси команд на Фонбет Матче звёзд КХЛ — 2027, который пройдёт 6-7 февраля в Минске.",
-      "image": "https://img.championat.com/news/big/q/b/khl-predstavila-formu-komand.jpg",
-      "publishedAt": "2026-10-22T09:55:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667736-khl-predstavila-formu-komand-na-match-zvyozd-s-belorusskim-ornamentom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Фото",
-        "Матч звёзд КХЛ"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667688",
-      "slug": "sibir-otstranila-ot-raboty-glavnogo-trenera-molodyozhnoj-komandy-i-ego-assistenta",
-      "title": "«Сибирь» отстранила от работы главного тренера молодёжной команды и его ассистента",
-      "summary": "«Сибирь» приняла решение отстранить от работы главного тренера молодёжной команды «Сибирские Снайперы» Эдуарда Волкова и ассистента главного тренера Дмитрия Яковлева.",
-      "content": "«Сибирь» приняла решение отстранить от работы главного тренера молодёжной команды «Сибирские Снайперы» Эдуарда Волкова и ассистента главного тренера Дмитрия Яковлева.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-22T09:25:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667688-sibir-otstranila-ot-raboty-glavnogo-trenera-molodyozhnoj-komandy-i-ego-assistenta.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "МХЛ",
-        "Сибирь",
-        "МХК Сибирские Снайперы",
-        "Лев Крутохвостов"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667656",
-      "slug": "volkov-o-prihode-chivilyova-v-traktor-on-bystro-vyjdet-na-eschyo-bolee-vysokij-uroven",
-      "title": "Волков — о приходе Чивилёва в «Трактор»: он быстро выйдет на ещё более высокий уровень",
-      "summary": "Генеральный менеджер «Трактора» Алексей Волков высказался о приходе в команду нападающего Андрея Чивилёва в результате обмена с «Ладой».",
-      "content": "Генеральный менеджер «Трактора» Алексей Волков высказался о приходе в команду нападающего Андрея Чивилёва в результате обмена с «Ладой».",
-      "image": "https://img.championat.com/news/big/q/x/volkov-o-prihode-chivilyova-v-traktor-on-bystro-vyjdet-na-eschyo-bolee-vysokij-uroven_17926596612013631490.jpg",
-      "publishedAt": "2026-10-22T09:05:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667656-volkov-o-prihode-chivilyova-v-traktor-on-bystro-vyjdet-na-eschyo-bolee-vysokij-uroven.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Лада",
-        "Алексей Волков — хоккей"
-      ],
-      "relatedTeamIds": [
-        "khl:lada",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667630",
-      "slug": "lada-i-traktor-sovershili-obmen-napadayuschimi",
-      "title": "«Лада» и «Трактор» совершили обмен нападающими",
-      "summary": "«Лада» и «Трактор» совершили обмен.",
-      "content": "«Лада» и «Трактор» совершили обмен.",
-      "image": "https://img.championat.com/news/big/y/n/lada-i-traktor-sovershili-ob.jpg",
-      "publishedAt": "2026-10-22T08:50:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667630-lada-i-traktor-sovershili-obmen-napadayuschimi.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Переходы — Хоккей",
-        "Лада"
-      ],
-      "relatedTeamIds": [
-        "khl:lada",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667612",
-      "slug": "v-sibiri-prokommentirovali-prihod-v-komandu-forvarda-kisakova",
-      "title": "В «Сибири» прокомментировали приход в команду форварда Кисакова",
-      "summary": "Генеральный директор «Сибири» Лев Крутохвостов прокомментировал обмен нападающего Александра Кисакова из «Трактора».",
-      "content": "Генеральный директор «Сибири» Лев Крутохвостов прокомментировал обмен нападающего Александра Кисакова из «Трактора».",
-      "image": "https://img.championat.com/news/big/h/f/v-sibiri-prokommentirovali-p.jpg",
-      "publishedAt": "2026-10-22T08:35:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667612-v-sibiri-prokommentirovali-prihod-v-komandu-forvarda-kisakova.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Сибирь",
-        "Лев Крутохвостов",
-        "Александр Кисаков"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667608",
-      "slug": "traktor-obmenyal-v-sibir-napadayuschego-aleksandra-kisakova",
-      "title": "«Трактор» обменял в «Сибирь» нападающего Александра Кисакова",
-      "summary": "«Сибирь» совершила обмен с хоккейный клубом «Трактор», в результате которого новосибирскую команду пополнил 23-летний нападающий Александр Кисаков.",
-      "content": "«Сибирь» совершила обмен с хоккейный клубом «Трактор», в результате которого новосибирскую команду пополнил 23-летний нападающий Александр Кисаков.",
-      "image": "https://img.championat.com/news/big/y/m/traktor-obmenyal-v-sibir-nap.jpg",
-      "publishedAt": "2026-10-22T08:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667608-traktor-obmenyal-v-sibir-napadayuschego-aleksandra-kisakova.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Сибирь",
-        "Переходы — Хоккей",
-        "Александр Кисаков"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667550",
-      "slug": "hokkeyu-nuzhny-derbi-i-nenavist-eks-igrok-nhl-odobril-povedenie-bolelschikov-ottavy",
-      "title": "«Хоккею нужны дерби и ненависть». Экс-игрок НХЛ одобрил поведение болельщиков «Оттавы»",
-      "summary": "Бывший нападающий клубов НХЛ Пол Биссоннетт отреагировал на атмосферу на трибунах в матче регулярного чемпионата НХЛ между «Оттавой Сенаторз» и «Флоридой Пантерз» (5:1).",
-      "content": "Бывший нападающий клубов НХЛ Пол Биссоннетт отреагировал на атмосферу на трибунах в матче регулярного чемпионата НХЛ между «Оттавой Сенаторз» и «Флоридой Пантерз» (5:1).",
-      "image": "https://img.championat.com/news/big/b/n/hokkeyu-nuzhny-derbi-i-nenavist-eks-igrok-nhl-odobril-povedenie-bolelschikov-ottavy_17926552501995163387.jpg",
-      "publishedAt": "2026-10-22T08:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667550-hokkeyu-nuzhny-derbi-i-nenavist-eks-igrok-nhl-odobril-povedenie-bolelschikov-ottavy.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Флорида Пантерз",
-        "Оттава Сенаторз",
-        "Брэди Ткачук"
-      ],
-      "relatedTeamIds": [
-        "nhl:fla",
-        "nhl:ott"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667498",
-      "slug": "v-etom-i-zaklyuchaetsya-sut-hokkeya-moris-o-burnoj-reakcii-fanatov-ottavy-na-tkachuka",
-      "title": "«В этом и заключается суть хоккея». Морис — о бурной реакции фанатов «Оттавы» на Ткачука",
-      "summary": "Главный тренер «Флориды Пантерз» Пол Морис оценил реакцию фанатов «Оттавы Пантерз» на бывшего капитана команды Брэди Ткачука.",
-      "content": "Главный тренер «Флориды Пантерз» Пол Морис оценил реакцию фанатов «Оттавы Пантерз» на бывшего капитана команды Брэди Ткачука.",
-      "image": "https://img.championat.com/news/big/l/o/v-etom-i-zaklyuchaetsya-sut-hokkeya-moris-o-burnoj-reakcii-fanatov-ottavy-na-tkachuka_17926529581370064750.jpg",
-      "publishedAt": "2026-10-22T07:40:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667498-v-etom-i-zaklyuchaetsya-sut-hokkeya-moris-o-burnoj-reakcii-fanatov-ottavy-na-tkachuka.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Флорида Пантерз",
-        "Оттава Сенаторз",
-        "Пол Морис",
-        "Брэди Ткачук"
-      ],
-      "relatedTeamIds": [
-        "nhl:fla",
-        "nhl:ott"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667478",
-      "slug": "ne-ozhidal-chto-budet-nastolko-shumno-zaschitnik-ottavy-o-reakcii-fanatov-na-tkachuka",
-      "title": "«Не ожидал, что будет настолько шумно». Защитник «Оттавы» — о реакции фанатов на Ткачука",
-      "summary": "Защитник «Оттавы Сенаторз» Джейк Сандерсон оценил поведение фанатов клуба, скандировавших оскорбительные кричалки в адрес бывшего капитана команды Брэди Ткачука в матче с «Флоридой Пантерз» (5:1).",
-      "content": "Защитник «Оттавы Сенаторз» Джейк Сандерсон оценил поведение фанатов клуба, скандировавших оскорбительные кричалки в адрес бывшего капитана команды Брэди Ткачука в матче с «Флоридой Пантерз» (5:1).",
-      "image": "https://img.championat.com/news/big/h/z/ne-ozhidal-chto-budet-nastolko-shumno-zaschitnik-ottavy-o-reakcii-fanatov-na-tkachuka_17926520211260239210.jpg",
-      "publishedAt": "2026-10-22T07:20:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667478-ne-ozhidal-chto-budet-nastolko-shumno-zaschitnik-ottavy-o-reakcii-fanatov-na-tkachuka.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Флорида Пантерз",
-        "Оттава Сенаторз",
-        "Брэди Ткачук",
-        "Джейк Сандерсон"
-      ],
-      "relatedTeamIds": [
-        "nhl:fla",
-        "nhl:ott"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667430",
-      "slug": "bredi-tkachuk-otreagiroval-na-oskorbitelnye-krichalki-fanatov-ottavy-vo-vremya-matcha",
-      "title": "Брэди Ткачук отреагировал на оскорбительные кричалки фанатов «Оттавы» во время матча",
-      "summary": "Нападающий «Флориды Пантерз» Брэди Ткачук поделился эмоциями от первого после обмена матча с «Оттавой Сенаторз» (1:5).",
-      "content": "Нападающий «Флориды Пантерз» Брэди Ткачук поделился эмоциями от первого после обмена матча с «Оттавой Сенаторз» (1:5).",
-      "image": "https://img.championat.com/news/big/q/a/bredi-tkachuk-otreagiroval-na-oskorbitelnye-krichalki-fanatov-ottavy-vo-vremya-matcha_17926510511417668135.jpg",
-      "publishedAt": "2026-10-22T07:00:10Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667430-bredi-tkachuk-otreagiroval-na-oskorbitelnye-krichalki-fanatov-ottavy-vo-vremya-matcha.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Флорида Пантерз",
-        "Оттава Сенаторз",
-        "Брэди Ткачук"
-      ],
-      "relatedTeamIds": [
-        "nhl:fla",
-        "nhl:ott"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667356",
-      "slug": "ska-sibir-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-22-oktyabrya-2026",
-      "title": "СКА — «Сибирь»: во сколько начало матча КХЛ, где смотреть трансляцию",
-      "summary": "Сегодня, 22 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет «Сибирь».",
-      "content": "Сегодня, 22 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет «Сибирь».",
-      "image": "https://img.championat.com/news/big/o/h/ska-sibir-vo-skolko-nachalo-matcha-khl-gde-smotret-translyaciyu_179264087838739718.jpg",
-      "publishedAt": "2026-10-22T06:40:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667356-ska-sibir-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-22-oktyabrya-2026.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Сибирь"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir",
-        "khl:ska"
       ],
       "relatedPlayerIds": []
     }

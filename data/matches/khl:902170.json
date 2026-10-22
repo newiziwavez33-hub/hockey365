@@ -6,24 +6,34 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-22T16:30:00Z",
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "OT",
   "home": {
     "id": "khl:sochi",
     "name": "ХК Сочи",
-    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/113/original/hc_sochi_2024__200x200_new.png",
-    "score": null,
-    "periods": [],
+    "logo": "https://thumbs.webcaster.pro/rec-2-13.webcaster.pro/fc/sda/team_pics/113/original/hc_sochi_2024__200x200_new.png",
+    "score": 3,
+    "periods": [
+      0,
+      1,
+      1,
+      1
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:dynamo-mns",
     "name": "Динамо Мн",
-    "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/38/original/dinamo_mn_2019_alternative__200x200.png",
-    "score": null,
-    "periods": [],
+    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/38/original/dinamo_mn_2019_alternative__200x200.png",
+    "score": 2,
+    "periods": [
+      1,
+      0,
+      1,
+      0
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +60,6 @@
     "stageId": 407,
     "eventId": 3000831,
     "matchId": "902170",
-    "fetchedAt": "2026-10-22T15:24:25.353395Z"
+    "fetchedAt": "2026-10-22T19:18:52.821122Z"
   }
 }

@@ -6,29 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-22T13:30:00Z",
-  "status": "LIVE",
-  "period": 10,
+  "status": "FINISHED",
+  "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:avangard",
     "name": "Авангард",
-    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/10/original/Avangard_2026_500x500_NEW.png",
+    "logo": "https://thumbs.webcaster.pro/rec-2-2.webcaster.pro/fc/sdh/team_pics/10/original/Avangard_2026_500x500_NEW.png",
     "score": 2,
     "periods": [
       1,
-      1
+      1,
+      0
     ],
     "shots": null
   },
   "away": {
     "id": "khl:neftekhimik",
     "name": "Нефтехимик",
-    "logo": "https://thumbs.webcaster.pro/rec-2-19.webcaster.pro/fc/sdc2/team_pics/36/original/neftekhimik_2022__200x200.png",
-    "score": 1,
+    "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/36/original/neftekhimik_2022__200x200.png",
+    "score": 3,
     "periods": [
       1,
-      0
+      0,
+      2
     ],
     "shots": null
   },
@@ -56,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000827,
     "matchId": "902169",
-    "fetchedAt": "2026-10-22T15:24:25.353395Z"
+    "fetchedAt": "2026-10-22T19:18:52.821122Z"
   }
 }
