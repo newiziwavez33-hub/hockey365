@@ -1,6 +1,204 @@
 {
   "news": [
     {
+      "id": "news-6668530",
+      "slug": "rezultaty-matchej-mhl-na-22-oktyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 22 октября 2026 года",
+      "summary": "Сегодня, 22 октября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 22 октября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-22T20:55:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668530-rezultaty-matchej-mhl-na-22-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Локо",
+        "МХК СКА-1946",
+        "МХК Кузнецкие Медведи",
+        "МХК Динамо-Шинник",
+        "МХК Снежные Барсы"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668522",
+      "slug": "rezultaty-matchej-vhl-na-22-oktyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 22 октября 2026 года",
+      "summary": "Сегодня, 22 октября, прошли шесть матчей OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 22 октября, прошли шесть матчей OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-22T20:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668522-rezultaty-matchej-vhl-na-22-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Химик",
+        "Рубин",
+        "Торос",
+        "Рязань",
+        "Ижсталь",
+        "Зауралье",
+        "Динамо Санкт-Петербург",
+        "Звезда",
+        "Омские Крылья",
+        "АКМ",
+        "Калуга"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668518",
+      "slug": "rezultaty-matchej-khl-na-22-oktyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 22 октября 2026 года",
+      "summary": "Сегодня, 22 октября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 22 октября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/d/n/rezultaty-matchej-khl-na-22-oktyabrya-2026-goda_17927007301504097858.jpg",
+      "publishedAt": "2026-10-22T20:40:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668518-rezultaty-matchej-khl-na-22-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Авангард",
+        "Сибирь",
+        "Динамо Минск",
+        "Нефтехимик",
+        "Сочи"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:dynamo-mns",
+        "khl:neftekhimik",
+        "khl:sibir",
+        "khl:ska",
+        "khl:sochi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668512",
+      "slug": "andrej-razin-s-prihodom-nashego-trenerskogo-shtaba-fon-v-ska-izmenilsya",
+      "title": "Андрей Разин: с приходом нашего тренерского штаба фон в СКА изменился",
+      "summary": "Главный тренер СКА Андрей Разин рассказал о победной домашней встрече с «Сибирью» (6:3).",
+      "content": "Главный тренер СКА Андрей Разин рассказал о победной домашней встрече с «Сибирью» (6:3).",
+      "image": "https://img.championat.com/news/big/i/a/andrej-razin-s-prihodom-nashego-trenerskogo-shtaba-fon-v-ska-izmenilsya_17927006251207111168.jpg",
+      "publishedAt": "2026-10-22T20:31:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668512-andrej-razin-s-prihodom-nashego-trenerskogo-shtaba-fon-v-ska-izmenilsya.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Сибирь",
+        "Андрей Разин"
+      ],
+      "relatedTeamIds": [
+        "khl:sibir",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668496",
+      "slug": "trener-minskogo-dinamo-brylin-postoyanno-pridumyvaem-sebe-problemy-i-uslozhnyaem-zhizn",
+      "title": "Тренер минского «Динамо» Брылин: постоянно придумываем себе проблемы и усложняем жизнь",
+      "summary": "Главный тренер минского «Динамо» Сергей Брылин высказался о поражении от «Сочи» (2:3 ОТ).",
+      "content": "Главный тренер минского «Динамо» Сергей Брылин высказался о поражении от «Сочи» (2:3 ОТ).",
+      "image": "https://img.championat.com/news/big/m/s/trener-minskogo-dinamo-bryli.jpg",
+      "publishedAt": "2026-10-22T20:20:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668496-trener-minskogo-dinamo-brylin-postoyanno-pridumyvaem-sebe-problemy-i-uslozhnyaem-zhizn.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Сочи",
+        "Сергей Брылин"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk",
+        "khl:sochi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668492",
+      "slug": "glavnyj-trener-sochi-mironov-vyskazalsya-o-pobednoj-igre-s-minskim-dinamo",
+      "title": "Главный тренер «Сочи» Миронов высказался о победной игре с минским «Динамо»",
+      "summary": "Главный тренер «Сочи» Андрей Миронов оценил победный домашний матч с минским «Динамо» (3:2 ОТ).",
+      "content": "Главный тренер «Сочи» Андрей Миронов оценил победный домашний матч с минским «Динамо» (3:2 ОТ).",
+      "image": "https://img.championat.com/news/big/z/d/glavnyj-trener-sochi-mironov-vyskazalsya-o-pobednoj-igre-s-minskim-dinamo_17926995991393889184.jpg",
+      "publishedAt": "2026-10-22T20:07:08Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668492-glavnyj-trener-sochi-mironov-vyskazalsya-o-pobednoj-igre-s-minskim-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Минск",
+        "Сочи"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:sochi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668474",
+      "slug": "yaroslav-lyuzenkov-nazval-klyuchevoj-moment-v-porazhenii-sibiri-ot-ska",
+      "title": "Ярослав Люзенков назвал ключевой момент в поражении «Сибири» от СКА",
+      "summary": "Главный тренер «Сибири» Ярослав Люзенков прокомментировал гостевое поражение от санкт-петербургского СКА (3:6).",
+      "content": "Главный тренер «Сибири» Ярослав Люзенков прокомментировал гостевое поражение от санкт-петербургского СКА (3:6).",
+      "image": "https://img.championat.com/news/big/p/u/yaroslav-lyuzenkov-nazval-kl.jpg",
+      "publishedAt": "2026-10-22T19:48:24Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668474-yaroslav-lyuzenkov-nazval-klyuchevoj-moment-v-porazhenii-sibiri-ot-ska.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Сибирь",
+        "Ярослав Люзенков"
+      ],
+      "relatedTeamIds": [
+        "khl:sibir",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668454",
+      "slug": "mettyu-tkachuk-oshtrafovan-za-draku-v-matche-floridy-i-ottavy",
+      "title": "Мэттью Ткачук оштрафован за драку в матче «Флориды» и «Оттавы»",
+      "summary": "Форвард «Флориды» Мэттью Ткачук оштрафован за драку в игре с «Оттавой» (1:5).",
+      "content": "Форвард «Флориды» Мэттью Ткачук оштрафован за драку в игре с «Оттавой» (1:5).",
+      "image": "https://img.championat.com/news/big/s/k/mettyu-tkachuk-oshtrafovan-za-draku-v-matche-floridy-i-ottavy_1792697571917892117.jpg",
+      "publishedAt": "2026-10-22T19:33:22Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668454-mettyu-tkachuk-oshtrafovan-za-draku-v-matche-floridy-i-ottavy.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Флорида Пантерз",
+        "Оттава Сенаторз",
+        "Мэттью Ткачук"
+      ],
+      "relatedTeamIds": [
+        "nhl:fla",
+        "nhl:ott"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6668444",
       "slug": "komandu-vsyo-ravno-potryahivaet-andrej-razin-o-pobede-ska-nad-sibiryu",
       "title": "«Команду всё равно потряхивает». Андрей Разин — о победе СКА над «Сибирью»",
@@ -514,188 +712,6 @@
       "relatedTeamIds": [
         "khl:sibir",
         "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667350",
-      "slug": "avangard-neftehimik-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Авангард» — «Нефтехимик»: онлайн-трансляция матча КХЛ началась",
-      "summary": "Сегодня, 22 октября, в Омске на стадионе «Джи-Драйв-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Авангард» примет «Нефтехимик».",
-      "content": "Сегодня, 22 октября, в Омске на стадионе «Джи-Драйв-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Авангард» примет «Нефтехимик».",
-      "image": "https://img.championat.com/news/big/z/j/avangard-neftehimik-onlajn-translyaciya-matcha-khl-nachalas_1792640726546012860.jpg",
-      "publishedAt": "2026-10-22T13:30:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667350-avangard-neftehimik-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Нефтехимик"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:neftekhimik"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6668012",
-      "slug": "dmitrij-silantev-rasskazal-o-svoyom-sostoyanii-posle-silovogo-priyoma-ot-panina",
-      "title": "Дмитрий Силантьев рассказал о своём состоянии после силового приёма от Панина",
-      "summary": "Нападающий «Металлурга» Дмитрий Силантьев в телеграм-канале рассказал о своём состоянии после силового приёма от защитника «Салавата Юлаева» Григория Панина.",
-      "content": "Нападающий «Металлурга» Дмитрий Силантьев в телеграм-канале рассказал о своём состоянии после силового приёма от защитника «Салавата Юлаева» Григория Панина.",
-      "image": "https://img.championat.com/news/big/b/w/dmitrij-silantev-rasskazal-o.jpg",
-      "publishedAt": "2026-10-22T13:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6668012-dmitrij-silantev-rasskazal-o-svoyom-sostoyanii-posle-silovogo-priyoma-ot-panina.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Металлург Мг",
-        "Григорий Панин",
-        "Дмитрий Силантьев"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6668020",
-      "slug": "karsedo-spartak-obygral-cska-v-hokkejnom-derbi-nadeyus-my-smozhem-sdelat-to-zhe-samoe",
-      "title": "Карседо: «Спартак» обыграл ЦСКА в хоккейном дерби. Надеюсь, мы сможем сделать то же самое",
-      "summary": "Главный тренер «Спартака» Хуан Карлос Карседо поделился впечатлениями от матча регулярного чемпионата КХЛ между красно-белыми и ЦСКА (2:0).",
-      "content": "Главный тренер «Спартака» Хуан Карлос Карседо поделился впечатлениями от матча регулярного чемпионата КХЛ между красно-белыми и ЦСКА (2:0).",
-      "image": "https://img.championat.com/news/big/g/h/karsedo-spartak-obygral-cska.jpg",
-      "publishedAt": "2026-10-22T13:13:34Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/football/news-6668020-karsedo-spartak-obygral-cska-v-hokkejnom-derbi-nadeyus-my-smozhem-sdelat-to-zhe-samoe.html",
-      "tags": [
-        "КХЛ",
-        "Футбол",
-        "РПЛ",
-        "Хоккей",
-        "Спартак",
-        "ПФК ЦСКА",
-        "ЦСКА",
-        "Хуан Карлос Карседо"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6668000",
-      "slug": "zaschitnik-fyodor-gordeev-pokinul-sibir",
-      "title": "Защитник Фёдор Гордеев покинул «Сибирь»",
-      "summary": "Хоккейный клуб «Сибирь» расторг контракт с защитником Фёдором Гордеевым.",
-      "content": "Хоккейный клуб «Сибирь» расторг контракт с защитником Фёдором Гордеевым.",
-      "image": "https://img.championat.com/news/big/l/g/zaschitnik-fyodor-gordeev-pokinul-sibir_179267416577365691.jpg",
-      "publishedAt": "2026-10-22T13:03:11Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6668000-zaschitnik-fyodor-gordeev-pokinul-sibir.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Сибирь",
-        "Фёдор Гордеев"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667964",
-      "slug": "v-belarusi-zhdut-priezda-aleksandra-ovechkina-na-master-klass",
-      "title": "В Беларуси ждут приезда Александра Овечкина на мастер-класс",
-      "summary": "Президент Национального олимпийского комитета Беларуси Виктор Лукашенко заявил, что с удовольствием поддержал бы проведение мастер-класса в стране нападающим «Вашингтон Кэпиталз» Александром Овечкиным.",
-      "content": "Президент Национального олимпийского комитета Беларуси Виктор Лукашенко заявил, что с удовольствием поддержал бы проведение мастер-класса в стране нападающим «Вашингтон Кэпиталз» Александром Овечкиным.",
-      "image": "https://img.championat.com/news/big/z/w/v-belarusi-zhdut-priezda-ale.jpg",
-      "publishedAt": "2026-10-22T12:55:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667964-v-belarusi-zhdut-priezda-aleksandra-ovechkina-na-master-klass.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Россия — спортивная держава"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6667960",
-      "slug": "direktor-metallurga-vyskazalsya-o-poiske-novogo-glavnogo-trenera-dlya-komandy",
-      "title": "Директор «Металлурга» высказался о поиске нового главного тренера для команды",
-      "summary": "Директор «Металлурга» Алексей Жлоба высказался о ситуации с поиском нового тренера.",
-      "content": "Директор «Металлурга» Алексей Жлоба высказался о ситуации с поиском нового тренера.",
-      "image": "https://img.championat.com/news/big/r/e/direktor-metallurga-vyskazal.jpg",
-      "publishedAt": "2026-10-22T12:35:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667960-direktor-metallurga-vyskazalsya-o-poiske-novogo-glavnogo-trenera-dlya-komandy.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Матч ТВ",
-        "Алексей Жлоба"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667922",
-      "slug": "davno-takogo-ne-ispytyval-vratar-spartaka-ivan-fedotov-otmetil-atmosferu-v-komande",
-      "title": "«Давно такого не испытывал». Вратарь «Спартака» Иван Федотов отметил атмосферу в команде",
-      "summary": "Вратарь «Спартака» Иван Федотов заявил, что чувствует себя комфортно в клубе, и отметил благоприятную атмосферу в команде.",
-      "content": "Вратарь «Спартака» Иван Федотов заявил, что чувствует себя комфортно в клубе, и отметил благоприятную атмосферу в команде.",
-      "image": "https://img.championat.com/news/big/j/f/davno-takogo-ne-ispytyval-vr.jpg",
-      "publishedAt": "2026-10-22T12:20:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667922-davno-takogo-ne-ispytyval-vratar-spartaka-ivan-fedotov-otmetil-atmosferu-v-komande.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Спартак",
-        "Иван Федотов"
-      ],
-      "relatedTeamIds": [
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667896",
-      "slug": "rylov-pora-ubirat-stereotip-o-tom-chto-amur-tolko-boretsya-za-plej-off",
-      "title": "Рылов: пора убирать стереотип о том, что «Амур» только борется за плей-офф",
-      "summary": "Тренер «Амура» Яков Рылов высказался о задачах хабаровской команды на текущий сезон КХЛ.",
-      "content": "Тренер «Амура» Яков Рылов высказался о задачах хабаровской команды на текущий сезон КХЛ.",
-      "image": "https://img.championat.com/news/big/c/z/rylov-pora-ubirat-stereotip-.jpg",
-      "publishedAt": "2026-10-22T12:00:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667896-rylov-pora-ubirat-stereotip-o-tom-chto-amur-tolko-boretsya-za-plej-off.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Амур",
-        "Яков Рылов"
-      ],
-      "relatedTeamIds": [
-        "khl:amur"
       ],
       "relatedPlayerIds": []
     }
