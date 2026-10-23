@@ -6,24 +6,34 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-23T16:00:00Z",
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "OT",
   "home": {
     "id": "khl:lokomotiv",
     "name": "Локомотив",
     "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdl/team_pics/26/original/lokomotiv_2022__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 2,
+    "periods": [
+      1,
+      0,
+      0,
+      1
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:dynamo-msk",
     "name": "Динамо М",
     "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdi/team_pics/8/original/dynamo_msk_2019__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 1,
+    "periods": [
+      0,
+      0,
+      1,
+      0
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +60,6 @@
     "stageId": 407,
     "eventId": 3000851,
     "matchId": "902175",
-    "fetchedAt": "2026-10-23T15:13:08.152742Z"
+    "fetchedAt": "2026-10-23T19:13:10.498791Z"
   }
 }

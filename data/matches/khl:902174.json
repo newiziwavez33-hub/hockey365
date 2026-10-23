@@ -6,18 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-23T14:00:00Z",
-  "status": "LIVE",
-  "period": 2,
+  "status": "FINISHED",
+  "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:avtomobilist",
     "name": "Автомобилист",
     "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sdc/team_pics/56/original/avtomobilist__200x200.png",
-    "score": 1,
+    "score": 5,
     "periods": [
       0,
-      1
+      1,
+      4
     ],
     "shots": null
   },
@@ -28,6 +29,7 @@
     "score": 1,
     "periods": [
       1,
+      0,
       0
     ],
     "shots": null
@@ -56,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000847,
     "matchId": "902174",
-    "fetchedAt": "2026-10-23T15:13:08.152742Z"
+    "fetchedAt": "2026-10-23T19:13:10.498791Z"
   }
 }

@@ -6,24 +6,32 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-23T16:30:00Z",
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:spartak",
     "name": "Спартак",
     "logo": "https://thumbs.webcaster.pro/rec-2-19.webcaster.pro/fc/sdc2/team_pics/18/original/spartak_2015__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 3,
+    "periods": [
+      0,
+      1,
+      2
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:severstal",
     "name": "Северсталь",
     "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/42/original/severstal_2021__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 1,
+    "periods": [
+      1,
+      0,
+      0
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000843,
     "matchId": "902173",
-    "fetchedAt": "2026-10-23T15:13:08.152742Z"
+    "fetchedAt": "2026-10-23T19:13:10.498791Z"
   }
 }
