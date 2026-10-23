@@ -6,31 +6,127 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-22T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "INTERMISSION",
+  "period": 2,
+  "clock": "12:03",
   "finishedIn": null,
   "home": {
     "id": "nhl:bos",
-    "score": null,
+    "score": 4,
     "periods": [],
-    "shots": null
+    "shots": 22
   },
   "away": {
     "id": "nhl:nsh",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 19
   },
   "arena": "TD Garden",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "03:49",
+      "team": "home",
+      "playerId": "nhl:p_8479999",
+      "playerName": "Casey Mittelstadt",
+      "assists": [
+        "nhl:p_8477956",
+        "nhl:p_8479325"
+      ],
+      "score": "1-0",
+      "order": 59
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "16:23",
+      "team": "away",
+      "playerId": "nhl:p_8479980",
+      "playerName": "Nicolas Hague",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 219
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "16:38",
+      "team": "home",
+      "playerId": "nhl:p_8477496",
+      "playerName": "Elias Lindholm",
+      "assists": [
+        "nhl:p_8479325",
+        "nhl:p_8478401"
+      ],
+      "score": "2-0",
+      "order": 225
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "09:46",
+      "team": "home",
+      "playerId": "nhl:p_8477956",
+      "playerName": "David Pastrnak",
+      "assists": [
+        "nhl:p_8479325",
+        "nhl:p_8478401"
+      ],
+      "score": "3-0",
+      "order": 397
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "17:21",
+      "team": "home",
+      "playerId": "nhl:p_8482175",
+      "playerName": "JJ Peterka",
+      "assists": [
+        "nhl:p_8477956"
+      ],
+      "score": "4-0",
+      "order": 494
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "19:14",
+      "team": "away",
+      "playerId": "nhl:p_8474600",
+      "playerName": "Roman Josi",
+      "minutes": 2,
+      "reason": "cross-checking",
+      "order": 517
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      22,
+      19
+    ],
+    "shotsOnGoal": [
+      22,
+      19
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020154/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020154/play-by-play"
+    ],
+    "fetchedAt": "2026-10-23T00:47:48.984511+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +134,6 @@
     "url": "https://www.nhl.com/gamecenter/nsh-vs-bos/2026/10/22/2026020154",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/nsh-vs-bos/2026/10/22/2026020154",
-    "verifiedAt": "2026-10-22T22:27:00.441480Z"
+    "verifiedAt": "2026-10-23T00:47:48.984612Z"
   }
 }

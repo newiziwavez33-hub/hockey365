@@ -6,31 +6,159 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-22T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 2,
+  "clock": "00:29",
   "finishedIn": null,
   "home": {
     "id": "nhl:tor",
-    "score": null,
+    "score": 4,
     "periods": [],
-    "shots": null
+    "shots": 23
   },
   "away": {
     "id": "nhl:nyr",
-    "score": null,
+    "score": 3,
     "periods": [],
-    "shots": null
+    "shots": 16
   },
   "arena": "Scotiabank Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "01:36",
+      "team": "home",
+      "playerId": "nhl:p_8484158",
+      "playerName": "Easton Cowan",
+      "assists": [
+        "nhl:p_8476931",
+        "nhl:p_8478458"
+      ],
+      "score": "1-0",
+      "order": 27
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "05:39",
+      "team": "away",
+      "playerId": "nhl:p_8476459",
+      "playerName": "Mika Zibanejad",
+      "assists": [
+        "nhl:p_8478882",
+        "nhl:p_8479323"
+      ],
+      "score": "1-1",
+      "order": 85
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "10:01",
+      "team": "home",
+      "playerId": "nhl:p_8476927",
+      "playerName": "Teddy Blueger",
+      "assists": [
+        "nhl:p_8479520",
+        "nhl:p_8479772"
+      ],
+      "score": "2-1",
+      "order": 143
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "02:37",
+      "team": "away",
+      "playerId": "nhl:p_8477416",
+      "playerName": "Oliver Bjorkstrand",
+      "assists": [
+        "nhl:p_8475413",
+        "nhl:p_8479323"
+      ],
+      "score": "2-2",
+      "order": 316
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "06:30",
+      "team": "away",
+      "playerId": "nhl:p_8481789",
+      "playerName": "Tye Kartye",
+      "assists": [
+        "nhl:p_8479323",
+        "nhl:p_8481604"
+      ],
+      "score": "2-3",
+      "order": 369
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "08:00",
+      "team": "home",
+      "playerId": "nhl:p_8479520",
+      "playerName": "Brandon Duhaime",
+      "assists": [
+        "nhl:p_8479772",
+        "nhl:p_8476927"
+      ],
+      "score": "3-3",
+      "order": 390
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "17:56",
+      "team": "away",
+      "playerId": "nhl:p_8482109",
+      "playerName": "Alexis Lafrenière",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 517
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "19:09",
+      "team": "home",
+      "playerId": "nhl:p_8480893",
+      "playerName": "Kirill Marchenko",
+      "assists": [
+        "nhl:p_8486067",
+        "nhl:p_8477939"
+      ],
+      "score": "4-3",
+      "order": 530
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      23,
+      16
+    ],
+    "shotsOnGoal": [
+      23,
+      16
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020155/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020155/play-by-play"
+    ],
+    "fetchedAt": "2026-10-23T00:47:49.153559+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +166,6 @@
     "url": "https://www.nhl.com/gamecenter/nyr-vs-tor/2026/10/22/2026020155",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/nyr-vs-tor/2026/10/22/2026020155",
-    "verifiedAt": "2026-10-22T22:27:00.441725Z"
+    "verifiedAt": "2026-10-23T00:47:49.153667Z"
   }
 }

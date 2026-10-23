@@ -1,6 +1,58 @@
 {
   "news": [
     {
+      "id": "news-6668664",
+      "slug": "kuper-blek-stal-samym-vysokim-vrataryom-v-istorii-nhl-pobiv-rekord-ivana-fedotova",
+      "title": "Купер Блэк стал самым высоким вратарём в истории НХЛ, побив рекорд Ивана Федотова",
+      "summary": "В эти минуты в Питтсбурге на стадионе «Пи-Пи-Джи Пэйнтс-Арена» проходит матч регулярного чемпионата Национальной хоккейной лиги, в котором «Питтсбург Пингвинз» принимает «Флориду Пантерз».",
+      "content": "В эти минуты в Питтсбурге на стадионе «Пи-Пи-Джи Пэйнтс-Арена» проходит матч регулярного чемпионата Национальной хоккейной лиги, в котором «Питтсбург Пингвинз» принимает «Флориду Пантерз».",
+      "image": "https://img.championat.com/news/big/s/m/kuper-blek-stal-samym-vysokim-vrataryom-v-istorii-nhl-pobiv-rekord-ivana-fedotova_1792716021134835574.jpg",
+      "publishedAt": "2026-10-23T00:42:08Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668664-kuper-blek-stal-samym-vysokim-vrataryom-v-istorii-nhl-pobiv-rekord-ivana-fedotova.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Питтсбург Пингвинз",
+        "Флорида Пантерз",
+        "Иван Федотов",
+        "Микко Коскинен",
+        "Бен Бишоп"
+      ],
+      "relatedTeamIds": [
+        "nhl:fla",
+        "nhl:pit"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6668660",
+      "slug": "artemij-panarin-ustanovil-rekord-los-andzhelesa-xxi-veka",
+      "title": "Артемий Панарин установил рекорд «Лос-Анджелеса» XXI века",
+      "summary": "В эти минуты в Элмонте на стадионе «Ю-Би-Эс-Арена» проходит матч регулярного чемпионата национальной хоккейной лиги, в котором «Нью-Йорк Айлендерс» принимает «Лос-Анджелес Кингз».",
+      "content": "В эти минуты в Элмонте на стадионе «Ю-Би-Эс-Арена» проходит матч регулярного чемпионата национальной хоккейной лиги, в котором «Нью-Йорк Айлендерс» принимает «Лос-Анджелес Кингз».",
+      "image": "https://img.championat.com/news/big/h/b/artemij-panarin-ustanovil-rekord-los-andzhelesa-xxi-veka_17927147361552508745.jpg",
+      "publishedAt": "2026-10-23T00:18:58Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6668660-artemij-panarin-ustanovil-rekord-los-andzhelesa-xxi-veka.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Нью-Йорк Айлендерс",
+        "Артемий Панарин",
+        "Лос-Анджелес Кингз",
+        "Люк Робитайл"
+      ],
+      "relatedTeamIds": [
+        "nhl:lak",
+        "nhl:nyi",
+        "nhl:nyr"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478550"
+      ]
+    },
+    {
       "id": "news-6668530",
       "slug": "rezultaty-matchej-mhl-na-22-oktyabrya-2026-goda",
       "title": "Результаты матчей МХЛ на 22 октября 2026 года",
@@ -668,50 +720,6 @@
       ],
       "relatedTeamIds": [
         "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6668086",
-      "slug": "situaciya-neprostaya-prezident-khl-aleksej-morozov-o-buduschem-lady",
-      "title": "«Ситуация непростая». Президент КХЛ Алексей Морозов — о будущем «Лады»",
-      "summary": "Президент КХЛ Алексей Морозов в рамках форума «Россия — спортивная держава» прокомментировал ситуацию в тольяттинской «Ладе».",
-      "content": "Президент КХЛ Алексей Морозов в рамках форума «Россия — спортивная держава» прокомментировал ситуацию в тольяттинской «Ладе».",
-      "image": "https://img.championat.com/news/big/x/c/situaciya-neprostaya-prezident-khl-aleksej-morozov-o-buduschem-lady_17926770621348791519.jpg",
-      "publishedAt": "2026-10-22T13:56:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6668086-situaciya-neprostaya-prezident-khl-aleksej-morozov-o-buduschem-lady.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Лада",
-        "Алексей Морозов",
-        "Россия — спортивная держава"
-      ],
-      "relatedTeamIds": [
-        "khl:lada"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6667358",
-      "slug": "ska-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk",
-      "title": "СКА — «Сибирь»: онлайн-трансляция матча КХЛ начнётся в 19:30 мск",
-      "summary": "Сегодня, 22 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет «Сибирь».",
-      "content": "Сегодня, 22 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет «Сибирь».",
-      "image": "https://img.championat.com/news/big/b/j/ska-sibir-onlajn-translyaciya-matcha-khl-nachnyotsya-v-19-30-msk_1792640934516716781.jpg",
-      "publishedAt": "2026-10-22T13:40:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6667358-ska-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Сибирь"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir",
-        "khl:ska"
       ],
       "relatedPlayerIds": []
     }
