@@ -6,163 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-22T23:00:00Z",
-  "status": "INTERMISSION",
-  "period": 2,
-  "clock": "16:09",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:ott",
-    "score": 1,
+    "score": 2,
     "periods": [],
-    "shots": 26
+    "shots": null
   },
   "away": {
     "id": "nhl:sjs",
-    "score": 4,
+    "score": 6,
     "periods": [],
-    "shots": 22
+    "shots": null
   },
   "arena": "Canadian Tire Centre",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "06:16",
-      "team": "home",
-      "playerId": "nhl:p_8482116",
-      "playerName": "Tim Stützle",
-      "assists": [
-        "nhl:p_8480208",
-        "nhl:p_8477998"
-      ],
-      "score": "1-0",
-      "order": 92
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "11:04",
-      "team": "away",
-      "playerId": "nhl:p_8482700",
-      "playerName": "Nolan Allan",
-      "assists": [
-        "nhl:p_8475200"
-      ],
-      "score": "1-1",
-      "order": 165
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "16:11",
-      "team": "home",
-      "playerId": "nhl:p_8478020",
-      "playerName": "Michael Amadio",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 243
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "07:48",
-      "team": "home",
-      "playerId": "nhl:p_8482105",
-      "playerName": "Jake Sanderson",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 409
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "09:13",
-      "team": "away",
-      "playerId": "nhl:p_8475726",
-      "playerName": "Tyler Toffoli",
-      "assists": [
-        "nhl:p_8480748",
-        "nhl:p_8476885"
-      ],
-      "score": "1-2",
-      "order": 420
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "11:08",
-      "team": "away",
-      "playerId": "nhl:p_8477498",
-      "playerName": "Darnell Nurse",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 443
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "12:00",
-      "team": "away",
-      "playerId": "nhl:p_8484911",
-      "playerName": "Collin Graf",
-      "assists": [
-        "nhl:p_8480848",
-        "nhl:p_8484806"
-      ],
-      "score": "1-3",
-      "order": 452
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "13:18",
-      "team": "away",
-      "playerId": "nhl:p_8476885",
-      "playerName": "Jacob Trouba",
-      "assists": [
-        "nhl:p_8484911",
-        "nhl:p_8477498"
-      ],
-      "score": "1-4",
-      "order": 466
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "17:43",
-      "team": "away",
-      "playerId": "nhl:p_8475200",
-      "playerName": "Dmitry Orlov",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 523
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      26,
-      22
-    ],
-    "shotsOnGoal": [
-      26,
-      22
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020156/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020156/play-by-play"
-    ],
-    "fetchedAt": "2026-10-23T00:47:49.318188+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -170,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/sjs-vs-ott/2026/10/22/2026020156",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/sjs-vs-ott/2026/10/22/2026020156",
-    "verifiedAt": "2026-10-23T00:47:49.318298Z"
+    "verifiedAt": "2026-10-23T05:26:36.990619Z"
   }
 }

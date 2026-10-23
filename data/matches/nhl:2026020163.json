@@ -6,19 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-23T01:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "FINISHED",
+  "period": 5,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "SO",
   "home": {
     "id": "nhl:edm",
-    "score": null,
+    "score": 6,
     "periods": [],
     "shots": null
   },
   "away": {
     "id": "nhl:car",
-    "score": null,
+    "score": 5,
     "periods": [],
     "shots": null
   },
@@ -38,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/car-vs-edm/2026/10/22/2026020163",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/car-vs-edm/2026/10/22/2026020163",
-    "verifiedAt": "2026-10-23T00:47:50.101829Z"
+    "verifiedAt": "2026-10-23T05:26:36.991077Z"
   }
 }

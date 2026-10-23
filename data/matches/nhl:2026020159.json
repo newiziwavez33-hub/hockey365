@@ -6,140 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-22T23:30:00Z",
-  "status": "LIVE",
-  "period": 2,
-  "clock": "14:24",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 4,
+  "clock": null,
+  "finishedIn": "OT",
   "home": {
     "id": "nhl:nyi",
-    "score": 0,
+    "score": 2,
     "periods": [],
-    "shots": 22
+    "shots": null
   },
   "away": {
     "id": "nhl:lak",
-    "score": 2,
+    "score": 3,
     "periods": [],
-    "shots": 8
+    "shots": null
   },
   "arena": "UBS Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "02:50",
-      "team": "away",
-      "playerId": "nhl:p_8476872",
-      "playerName": "Scott Laughton",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 52
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "05:51",
-      "team": "away",
-      "playerId": "nhl:p_8478550",
-      "playerName": "Artemi Panarin",
-      "assists": [
-        "nhl:p_8482155",
-        "nhl:p_8482730"
-      ],
-      "score": "0-1",
-      "order": 88
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "16:37",
-      "team": "away",
-      "playerId": "nhl:p_8478550",
-      "playerName": "Artemi Panarin",
-      "score": "0-2",
-      "order": 237
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "16:49",
-      "team": "home",
-      "playerId": "nhl:p_8477500",
-      "playerName": "Bo Horvat",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 241
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "16:49",
-      "team": "home",
-      "playerId": "nhl:p_8479378",
-      "playerName": "Logan Stanley",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 243
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "16:49",
-      "team": "away",
-      "playerId": "nhl:p_8482726",
-      "playerName": "Samuel Helenius",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 245
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "17:31",
-      "team": "away",
-      "playerId": "nhl:p_8475692",
-      "playerName": "Mats Zuccarello",
-      "minutes": 2,
-      "reason": "slashing",
-      "order": 252
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "18:11",
-      "team": "home",
-      "playerId": "nhl:p_8477950",
-      "playerName": "Tony DeAngelo",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 262
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      22,
-      8
-    ],
-    "shotsOnGoal": [
-      22,
-      8
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020159/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020159/play-by-play"
-    ],
-    "fetchedAt": "2026-10-23T00:47:49.788931+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -147,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/lak-vs-nyi/2026/10/22/2026020159",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/lak-vs-nyi/2026/10/22/2026020159",
-    "verifiedAt": "2026-10-23T00:47:49.789013Z"
+    "verifiedAt": "2026-10-23T05:26:36.990838Z"
   }
 }
