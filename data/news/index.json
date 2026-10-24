@@ -1,6 +1,188 @@
 {
   "news": [
     {
+      "id": "news-6671058",
+      "slug": "amur-predstavil-novuyu-formu-dlya-dalnevostochnogo-derbi",
+      "title": "«Амур» представил новую форму для дальневосточного дерби",
+      "summary": "Хабаровский «Амур» представил обновлённую форму для дальневосточного дерби.",
+      "content": "Хабаровский «Амур» представил обновлённую форму для дальневосточного дерби.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-24T18:51:09Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6671058-amur-predstavil-novuyu-formu-dlya-dalnevostochnogo-derbi.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Фото",
+        "Амур",
+        "Адмирал"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral",
+        "khl:amur"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6671046",
+      "slug": "brylin-ocenil-pobedu-minskogo-dinamo-nad-torpedo",
+      "title": "Брылин оценил победу минского «Динамо» над «Торпедо»",
+      "summary": "Главный тренер минского «Динамо» Сергей Брылин прокомментировал победу над «Торпедо» в овертайме со счётом 2:1.",
+      "content": "Главный тренер минского «Динамо» Сергей Брылин прокомментировал победу над «Торпедо» в овертайме со счётом 2:1.",
+      "image": "https://img.championat.com/news/big/m/q/brylin-ocenil-pobedu-minskog.jpg",
+      "publishedAt": "2026-10-24T18:18:33Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6671046-brylin-ocenil-pobedu-minskogo-dinamo-nad-torpedo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Минск",
+        "Торпедо",
+        "Сергей Брылин"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6671004",
+      "slug": "spasibo-rashnikovu-zhdyosh-takoe-vsyu-zhizn-shafranov-o-naznachenii-v-metallurg",
+      "title": "«Спасибо Рашникову. Ждёшь такое всю жизнь». Шафранов — о назначении тренером «Металлурга»",
+      "summary": "Главный тренер «Металлурга» Константин Шафранов заявил, что благодарен руководству магнитогорского клуба за предложение возглавить команду.",
+      "content": "Главный тренер «Металлурга» Константин Шафранов заявил, что благодарен руководству магнитогорского клуба за предложение возглавить команду.",
+      "image": "https://img.championat.com/news/big/o/g/spasibo-rashnikovu-zhdyosh-takoe-vsyu-zhizn-shafranov-o-naznachenii-trenerom-metallurga_17928650801409528617.jpg",
+      "publishedAt": "2026-10-24T17:59:31Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6671004-spasibo-rashnikovu-zhdyosh-takoe-vsyu-zhizn-shafranov-o-naznachenii-v-metallurg.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Виктор Рашников",
+        "Константин Шафранов"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6670990",
+      "slug": "glavnyj-trener-tampy-rasskazal-kogda-vpervye-ponyal-chto-kucherov-osobennyj-igrok",
+      "title": "Главный тренер «Тампы» рассказал, когда впервые понял, что Кучеров особенный игрок",
+      "summary": "Главный тренер «Тампа-Бэй Лайтнинг» Джон Купер рассказал, в какой момент понял, что российский нападающий команды Никита Кучеров – особенный игрок.",
+      "content": "Главный тренер «Тампа-Бэй Лайтнинг» Джон Купер рассказал, в какой момент понял, что российский нападающий команды Никита Кучеров – особенный игрок.",
+      "image": "https://img.championat.com/news/big/l/j/glavnyj-trener-tampy-rasskazal-kogda-vpervye-ponyal-chto-kucherov-osobennyj-igrok_1792863869201015627.jpg",
+      "publishedAt": "2026-10-24T17:44:33Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6670990-glavnyj-trener-tampy-rasskazal-kogda-vpervye-ponyal-chto-kucherov-osobennyj-igrok.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Никита Кучеров",
+        "Джон Купер"
+      ],
+      "relatedTeamIds": [
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
+      "id": "news-6670960",
+      "slug": "glavnyj-trener-vashingtona-karberi-prokommentiroval-start-komandy-v-etom-sezone",
+      "title": "Главный тренер «Вашингтона» Карбери прокомментировал старт команды в этом сезоне НХЛ",
+      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери оценил игру команды в текущем сезоне НХЛ.",
+      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери оценил игру команды в текущем сезоне НХЛ.",
+      "image": "https://img.championat.com/news/big/h/b/glavnyj-trener-vashingtona-karberi-prokommentiroval-start-komandy-v-etom-sezone-nhl_1792862927123132279.jpg",
+      "publishedAt": "2026-10-24T17:26:16Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6670960-glavnyj-trener-vashingtona-karberi-prokommentiroval-start-komandy-v-etom-sezone.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Спенсер Карбери"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6670926",
+      "slug": "forvard-metallurga-vovchenko-my-nichego-ne-menyali-prodolzhaem-igrat-v-svoyu-igru",
+      "title": "Форвард «Металлурга» Вовченко: мы ничего не меняли, продолжаем играть в свою игру",
+      "summary": "Нападающий «Металлурга» Даниил Вовченко прокомментировал победу над «Сибирью» (5:1) и рассказал о своей шайбе.",
+      "content": "Нападающий «Металлурга» Даниил Вовченко прокомментировал победу над «Сибирью» (5:1) и рассказал о своей шайбе.",
+      "image": "https://img.championat.com/news/big/w/k/forvard-metallurga-vovchenko.jpg",
+      "publishedAt": "2026-10-24T17:05:27Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6670926-forvard-metallurga-vovchenko-my-nichego-ne-menyali-prodolzhaem-igrat-v-svoyu-igru.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Сибирь",
+        "Даниил Вовченко"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg",
+        "khl:sibir"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6670318",
+      "slug": "vashington-kepitalz-baffalo-sejbrz-vo-skolko-nachalo-matcha-nhl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-25-oktyabrya",
+      "title": "«Вашингтон» — «Баффало»: во сколько начало матча НХЛ, где смотреть трансляцию",
+      "summary": "В ночь на 25 октября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "content": "В ночь на 25 октября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/p/i/vashington-baffalo-vo-skolko-nachalo-matcha-nhl-gde-smotret-translyaciyu_1792829739214783381.jpg",
+      "publishedAt": "2026-10-24T17:00:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6670318-vashington-kepitalz-baffalo-sejbrz-vo-skolko-nachalo-matcha-nhl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-25-oktyabrya.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Баффало Сэйбрз"
+      ],
+      "relatedTeamIds": [
+        "nhl:buf",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6670900",
+      "slug": "video-otmenyonnogo-gola-torpedo-za-sekundu-do-konca-osnovnogo-vremeni",
+      "title": "Видео отменённого гола «Торпедо» за секунду до конца основного времени",
+      "summary": "Тренерский штаб «Торпедо» снял вратаря за секунду до конца основного времени при счёте 1:1 в матче с минским «Динамо».",
+      "content": "Тренерский штаб «Торпедо» снял вратаря за секунду до конца основного времени при счёте 1:1 в матче с минским «Динамо».",
+      "image": "https://img.championat.com/news/big/l/b/video-otmenyonnogo-gola-torp.jpg",
+      "publishedAt": "2026-10-24T16:47:12Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6670900-video-otmenyonnogo-gola-torpedo-za-sekundu-do-konca-osnovnogo-vremeni.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "Динамо Минск",
+        "Торпедо",
+        "Зак Фукале"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6670874",
       "slug": "torpedo-dinamo-mn-rezultat-matcha-24-oktyabrya-2026-goda-schet-1-2-ot-regulyarnyj-chempionat-khl-2026-2027",
       "title": "«Торпедо» потерпело поражение от минского «Динамо» в овертайме",
@@ -533,228 +715,6 @@
       "relatedPlayerIds": [
         "khl:p_nikishin"
       ]
-    },
-    {
-      "id": "news-6670156",
-      "slug": "raspisanie-matchej-nhl-v-noch-s-24-na-25-oktyabrya-2026-goda",
-      "title": "Расписание матчей НХЛ в ночь с 24 на 25 октября 2026 года",
-      "summary": "В ночь с 24 на 25 октября пройдут очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
-      "content": "В ночь с 24 на 25 октября пройдут очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/f/e/raspisanie-matchej-nhl-v-noch-s-24-na-25-oktyabrya-2026-goda_17928209471009811677.jpg",
-      "publishedAt": "2026-10-24T09:00:10Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670156-raspisanie-matchej-nhl-v-noch-s-24-na-25-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Тампа-Бэй Лайтнинг",
-        "Питтсбург Пингвинз",
-        "Нью-Йорк Рейнджерс",
-        "Эдмонтон Ойлерз",
-        "Торонто Мэйпл Лифс",
-        "Каролина Харрикейнз",
-        "Бостон Брюинз",
-        "Коламбус Блю Джекетс",
-        "Миннесота Уайлд",
-        "Филадельфия Флайерз",
-        "Сент-Луис Блюз",
-        "Вегас Голден Найтс",
-        "Нью-Джерси Дэвилз",
-        "Сан-Хосе Шаркс",
-        "Детройт Ред Уингз",
-        "Лос-Анджелес Кингз",
-        "Оттава Сенаторз",
-        "Нэшвилл Предаторз",
-        "Калгари Флэймз",
-        "Баффало Сэйбрз",
-        "Анахайм Дакс",
-        "Сиэтл Кракен",
-        "Юта Маммот"
-      ],
-      "relatedTeamIds": [
-        "nhl:ana",
-        "nhl:bos",
-        "nhl:buf",
-        "nhl:car",
-        "nhl:cbj",
-        "nhl:cgy",
-        "nhl:det",
-        "nhl:edm",
-        "nhl:lak",
-        "nhl:min",
-        "nhl:njd",
-        "nhl:nsh",
-        "nhl:nyr",
-        "nhl:ott",
-        "nhl:phi",
-        "nhl:pit",
-        "nhl:sea",
-        "nhl:sjs",
-        "nhl:stl",
-        "nhl:tbl",
-        "nhl:tor",
-        "nhl:uta",
-        "nhl:vgk",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670332",
-      "slug": "forvard-tejlor-bek-provedyot-master-klass-dlya-yunyh-hokkeistov-na-ldu-hk-dinamo-altaj",
-      "title": "Форвард Тейлор Бек проведёт мастер-класс для юных хоккеистов на льду ХК «Динамо-Алтай»",
-      "summary": "Пресс-служба ХК «Динамо-Алтай» сообщила, что 25 октября на льду ЛДС «Карандин-Арена» состоится мастер-класс для юных хоккеистов форварда системы «Сибири» Тейлора Бека.",
-      "content": "Пресс-служба ХК «Динамо-Алтай» сообщила, что 25 октября на льду ЛДС «Карандин-Арена» состоится мастер-класс для юных хоккеистов форварда системы «Сибири» Тейлора Бека.",
-      "image": "https://img.championat.com/news/big/f/p/forvard-tejlor-bek-provedyot.jpg",
-      "publishedAt": "2026-10-24T08:46:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670332-forvard-tejlor-bek-provedyot-master-klass-dlya-yunyh-hokkeistov-na-ldu-hk-dinamo-altaj.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ВХЛ",
-        "Сибирь",
-        "Тейлор Бек"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670152",
-      "slug": "metallurg-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-14-30-msk",
-      "title": "«Металлург» — «Сибирь»: онлайн-трансляция матча КХЛ начнётся в 14:30 мск",
-      "summary": "Сегодня, 24 октября, в Магнитогорске на стадионе «Арена-Металлург» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Металлург» примет новосибирскую «Сиби...",
-      "content": "Сегодня, 24 октября, в Магнитогорске на стадионе «Арена-Металлург» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Металлург» примет новосибирскую «Сибирь».",
-      "image": "https://img.championat.com/news/big/h/n/metallurg-sibir-onlajn-translyaciya-matcha-khl-nachnyotsya-v-14-30-msk_17928204511037206751.jpg",
-      "publishedAt": "2026-10-24T08:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670152-metallurg-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-14-30-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Сибирь"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670312",
-      "slug": "sergej-cherkas-rasskazal-v-kakom-aspekte-igry-izmenilsya-ska-s-prihodom-razina",
-      "title": "Сергей Черкас рассказал, в каком аспекте игры изменился СКА с приходом Разина",
-      "summary": "Бывший главный тренер СКА Сергей Черкас высказался о работе Андрея Разина на посту главного тренера санкт-петербургского клуба.",
-      "content": "Бывший главный тренер СКА Сергей Черкас высказался о работе Андрея Разина на посту главного тренера санкт-петербургского клуба.",
-      "image": "https://img.championat.com/news/big/h/y/sergej-cherkas-rasskazal-v-kakom-aspekte-igry-izmenilsya-ska-s-prihodom-razina_17928290112071673143.jpg",
-      "publishedAt": "2026-10-24T08:09:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670312-sergej-cherkas-rasskazal-v-kakom-aspekte-igry-izmenilsya-ska-s-prihodom-razina.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Андрей Разин",
-        "Сергей Черкас"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670282",
-      "slug": "karandin-udivilo-chto-posle-balagana-v-metallurge-razin-poluchil-takoj-shans-ot-ska",
-      "title": "Карандин: удивило, что после балагана в «Металлурге» Разин получил такой шанс от СКА",
-      "summary": "Бывший арбитр Юрий Карандин прокомментировал назначение Андрея Разина на пост главного тренера СКА.",
-      "content": "Бывший арбитр Юрий Карандин прокомментировал назначение Андрея Разина на пост главного тренера СКА.",
-      "image": "https://img.championat.com/news/big/k/s/karandin-udivilo-chto-posle-balagana-v-metallurge-razin-poluchil-takoj-shans-ot-ska_1792827347796489069.jpg",
-      "publishedAt": "2026-10-24T07:44:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670282-karandin-udivilo-chto-posle-balagana-v-metallurge-razin-poluchil-takoj-shans-ot-ska.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Андрей Разин",
-        "Юрий Карандин"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670250",
-      "slug": "nestandartnoe-reshenie-georgij-belousov-o-shafranove-v-metallurge",
-      "title": "«Нестандартное решение». Георгий Белоусов — о Шафранове в «Металлурге»",
-      "summary": "Бывший нападающий «Автомобилиста» Георгий Белоусов оценил назначение Константина Шафранова главным тренером «Металлурга».",
-      "content": "Бывший нападающий «Автомобилиста» Георгий Белоусов оценил назначение Константина Шафранова главным тренером «Металлурга».",
-      "image": "https://img.championat.com/news/big/q/j/nestandartnoe-reshenie-georgij-belousov-o-shafranove-v-metallurge_17928261281503997456.jpg",
-      "publishedAt": "2026-10-24T07:20:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670250-nestandartnoe-reshenie-georgij-belousov-o-shafranove-v-metallurge.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Георгий Белоусов",
-        "Константин Шафранов"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670234",
-      "slug": "krichi-zaschitnik-salavata-scherbakov-o-neobychnom-sobesedovanii-na-drafte-nhl",
-      "title": "«Кричи!» Защитник «Салавата» Щербаков — о необычном собеседовании на драфте НХЛ",
-      "summary": "Защитник уфимского «Салавата Юлаева» Никита Щербаков рассказал, как проходили собеседования с клубами НХЛ перед драфтом.",
-      "content": "Защитник уфимского «Салавата Юлаева» Никита Щербаков рассказал, как проходили собеседования с клубами НХЛ перед драфтом.",
-      "image": "https://img.championat.com/news/big/l/q/krichi-zaschitnik-salavata-scherbakov-o-neobychnom-sobesedovanii-na-drafte-nhl_17928254011682901100.jpg",
-      "publishedAt": "2026-10-24T07:03:44Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670234-krichi-zaschitnik-salavata-scherbakov-o-neobychnom-sobesedovanii-na-drafte-nhl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "Салават Юлаев",
-        "Лос-Анджелес Кингз",
-        "Советский спорт"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev",
-        "nhl:lak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670150",
-      "slug": "metallurg-sibir-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-24-oktyabrya-2026",
-      "title": "«Металлург» — «Сибирь»: во сколько начало матча КХЛ, где смотреть трансляцию",
-      "summary": "Сегодня, 24 октября, в Магнитогорске на стадионе «Арена-Металлург» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Металлург» примет новосибирскую «Сиби...",
-      "content": "Сегодня, 24 октября, в Магнитогорске на стадионе «Арена-Металлург» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Металлург» примет новосибирскую «Сибирь».",
-      "image": "https://img.championat.com/news/big/e/s/metallurg-sibir-vo-skolko-nachalo-matcha-khl-gde-smotret-translyaciyu_17928203341003766425.jpg",
-      "publishedAt": "2026-10-24T06:40:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670150-metallurg-sibir-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-24-oktyabrya-2026.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Сибирь"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
     }
   ]
 }
