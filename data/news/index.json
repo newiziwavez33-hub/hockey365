@@ -1,6 +1,207 @@
 {
   "news": [
     {
+      "id": "news-6671224",
+      "slug": "rezultaty-matchej-mhl-na-24-oktyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 24 октября 2026 года",
+      "summary": "Сегодня, 24 октября, прошли шесть матчей OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 24 октября, прошли шесть матчей OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-10-24T20:55:07Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6671224-rezultaty-matchej-mhl-na-24-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Омские Ястребы",
+        "МХК Белые Медведи",
+        "Крылья Советов",
+        "МХК Чайка",
+        "МХК Авто",
+        "МХК Сибирские Снайперы",
+        "МХК Амурские Тигры",
+        "МХК Мамонты Югры",
+        "МХК Ирбис Казань"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6671206",
+      "slug": "rezultaty-matchej-vhl-na-24-oktyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 24 октября 2026 года",
+      "summary": "Сегодня, 24 октября, состоялись семь матчей OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 24 октября, состоялись семь матчей OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-24T20:45:27Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6671206-rezultaty-matchej-vhl-na-24-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Югра",
+        "Рубин",
+        "Торос",
+        "Рязань",
+        "Ижсталь",
+        "Зауралье",
+        "Молот-Прикамье",
+        "Динамо Санкт-Петербург",
+        "Звезда",
+        "МХК Олимпия",
+        "Омские Крылья",
+        "АКМ",
+        "СКА-ВМФ",
+        "Калуга"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6671184",
+      "slug": "rezultaty-matchej-khl-na-24-oktyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 24 октября 2026 года",
+      "summary": "Сегодня, 24 октября, прошли очередные матчи регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 24 октября, прошли очередные матчи регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-24T20:35:06Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6671184-rezultaty-matchej-khl-na-24-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Сибирь",
+        "Динамо Минск",
+        "Торпедо"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:metallurg-mg",
+        "khl:sibir",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6671172",
+      "slug": "genmenedzher-nyu-dzhersi-o-hellebajke-on-bezuslovno-sdelaet-nas-silnee",
+      "title": "Генменеджер «Нью-Джерси» — о Хеллебайке: он, безусловно, сделает нас сильнее",
+      "summary": "Генеральный менеджер «Нью-Джерси Дэвилз» Санни Мехта прокомментировал переход вратаря Коннора Хеллебайка из «Виннипег Джетс».",
+      "content": "Генеральный менеджер «Нью-Джерси Дэвилз» Санни Мехта прокомментировал переход вратаря Коннора Хеллебайка из «Виннипег Джетс».",
+      "image": "https://img.championat.com/news/big/j/n/genmenedzher-nyu-dzhersi-o-hellebajke-on-bezuslovno-sdelaet-nas-silnee_1792872853439801175.jpg",
+      "publishedAt": "2026-10-24T20:14:14Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6671172-genmenedzher-nyu-dzhersi-o-hellebajke-on-bezuslovno-sdelaet-nas-silnee.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Нью-Джерси Дэвилз",
+        "Виннипег Джетс",
+        "Коннор Хеллебайк",
+        "Санни Мехта"
+      ],
+      "relatedTeamIds": [
+        "nhl:njd",
+        "nhl:wpg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6670324",
+      "slug": "vashington-kepitalz-baffalo-sejbrz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachnetsya-v-2-00-msk",
+      "title": "«Вашингтон» — «Баффало»: онлайн-трансляция матча НХЛ начнётся в 2:00 мск",
+      "summary": "В ночь на 25 октября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "content": "В ночь на 25 октября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/z/j/vashington-baffalo-onlajn-translyaciya-matcha-nhl-nachnyotsya-v-2-00-msk_1792829816931156345.jpg",
+      "publishedAt": "2026-10-24T20:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6670324-vashington-kepitalz-baffalo-sejbrz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachnetsya-v-2-00-msk.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Баффало Сэйбрз"
+      ],
+      "relatedTeamIds": [
+        "nhl:buf",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6671146",
+      "slug": "filadelfiya-flajerz-anahajm-daks-rezultat-matcha-24-oktyabrya-2026-goda-schet-4-5-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "Дубль Мичкова не помог «Филадельфии» победить «Анахайм»",
+      "summary": "Сегодня, 24 октября, в Филадельфии, США, на стадионе «Иксфинити Мобайл Арена» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Филадельфия Флайерз» принимала «Анахайм Дакс».",
+      "content": "Сегодня, 24 октября, в Филадельфии, США, на стадионе «Иксфинити Мобайл Арена» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Филадельфия Флайерз» принимала «Анахайм Дакс».",
+      "image": "https://img.championat.com/news/big/u/w/dubl-michkova-ne-pomog-filadelfii-pobedit-anahajm_17928724931069510816.jpg",
+      "publishedAt": "2026-10-24T19:54:11Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6671146-filadelfiya-flajerz-anahajm-daks-rezultat-matcha-24-oktyabrya-2026-goda-schet-4-5-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Филадельфия Флайерз",
+        "Анахайм Дакс",
+        "Матвей Мичков"
+      ],
+      "relatedTeamIds": [
+        "nhl:ana",
+        "nhl:phi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6671110",
+      "slug": "kolorado-vystavil-napadayuschego-georgiya-merkulova-na-draft-otkazov",
+      "title": "«Колорадо» выставил нападающего Георгия Меркулова на драфт отказов",
+      "summary": "Российский нападающий «Колорадо Эвеланш» Георгий Меркулов выставлен на драфт отказов.",
+      "content": "Российский нападающий «Колорадо Эвеланш» Георгий Меркулов выставлен на драфт отказов.",
+      "image": "https://img.championat.com/news/big/v/w/kolorado-vystavil-napadayuschego-georgiya-merkulova-na-draft-otkazov_17928706311075098957.jpg",
+      "publishedAt": "2026-10-24T19:37:12Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6671110-kolorado-vystavil-napadayuschego-georgiya-merkulova-na-draft-otkazov.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Колорадо Эвеланш",
+        "Георгий Меркулов"
+      ],
+      "relatedTeamIds": [
+        "nhl:col"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6671084",
+      "slug": "glavnyj-trener-torpedo-isakov-vyskazalsya-o-porazhenii-ot-minskogo-dinamo",
+      "title": "Главный тренер «Торпедо» Исаков высказался о поражении от минского «Динамо»",
+      "summary": "Главный тренер «Торпедо» Алексей Исаков прокомментировал поражение от минского «Динамо» в овертайме со счётом 1:2.",
+      "content": "Главный тренер «Торпедо» Алексей Исаков прокомментировал поражение от минского «Динамо» в овертайме со счётом 1:2.",
+      "image": "https://img.championat.com/news/big/j/c/glavnyj-trener-torpedo-isako.jpg",
+      "publishedAt": "2026-10-24T19:13:47Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6671084-glavnyj-trener-torpedo-isakov-vyskazalsya-o-porazhenii-ot-minskogo-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Динамо Минск",
+        "Торпедо",
+        "Алексей Исаков"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:ska",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6671058",
       "slug": "amur-predstavil-novuyu-formu-dlya-dalnevostochnogo-derbi",
       "title": "«Амур» представил новую форму для дальневосточного дерби",
@@ -536,185 +737,6 @@
         "khl:torpedo"
       ],
       "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670512",
-      "slug": "mne-ne-nado-nichego-lomat-komanda-na-pervom-meste-shafranov-o-naznachenii-v-metallurg",
-      "title": "«Мне не надо ничего ломать, команда на первом месте». Шафранов о назначении в «Металлург»",
-      "summary": "Новый главный тренер «Металлурга» Константин Шафранов высказался о своём назначении в магнитогорский клуб.",
-      "content": "Новый главный тренер «Металлурга» Константин Шафранов высказался о своём назначении в магнитогорский клуб.",
-      "image": "https://img.championat.com/news/big/g/l/mne-ne-nado-nichego-lomat-komanda-na-pervom-meste-shafranov-o-naznachenii-v-metallurg_17928415922126208694.jpg",
-      "publishedAt": "2026-10-24T11:47:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670512-mne-ne-nado-nichego-lomat-komanda-na-pervom-meste-shafranov-o-naznachenii-v-metallurg.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Спорт-экспресс",
-        "Константин Шафранов"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670154",
-      "slug": "metallurg-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Металлург» — «Сибирь»: онлайн-трансляция матча КХЛ началась",
-      "summary": "Сегодня, 24 октября, в Магнитогорске на стадионе «Арена-Металлург» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Металлург» принимает новосибирскую «Си...",
-      "content": "Сегодня, 24 октября, в Магнитогорске на стадионе «Арена-Металлург» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Металлург» принимает новосибирскую «Сибирь».",
-      "image": "https://img.championat.com/news/big/u/s/metallurg-sibir-onlajn-translyaciya-matcha-khl-nachalas_17928204972127004987.jpg",
-      "publishedAt": "2026-10-24T11:30:14Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670154-metallurg-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Сибирь"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670460",
-      "slug": "ne-hvatilo-smelosti-smirilsya-s-rolyu-vechnogo-assistenta-karandin-o-vladimire-vorobyove",
-      "title": "«Не хватило смелости. Смирился с ролью вечного ассистента». Карандин о Владимире Воробьёве",
-      "summary": "Бывший арбитр Юрий Карандин оценил уход Владимира Воробьёва из магнитогорского «Металлурга».",
-      "content": "Бывший арбитр Юрий Карандин оценил уход Владимира Воробьёва из магнитогорского «Металлурга».",
-      "image": "https://img.championat.com/news/big/s/n/ne-hvatilo-smelosti-smirilsya-s-rolyu-vechnogo-assistenta-karandin-o-vladimire-vorobyove_17928387831990926462.jpg",
-      "publishedAt": "2026-10-24T11:07:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670460-ne-hvatilo-smelosti-smirilsya-s-rolyu-vechnogo-assistenta-karandin-o-vladimire-vorobyove.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Владимир Воробьёв",
-        "Юрий Карандин"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670452",
-      "slug": "zaschitnik-salavata-yulaeva-scherbakov-kozlov-govorit-chto-ne-sobiraetsya-uhodit",
-      "title": "Защитник «Салавата Юлаева» Щербаков: Козлов говорит, что не собирается уходить",
-      "summary": "Защитник уфимского «Салавата Юлаева» Никита Щербаков заявил, что слухи о возможном уходе главного тренера Виктора Козлова не влияют на команду.",
-      "content": "Защитник уфимского «Салавата Юлаева» Никита Щербаков заявил, что слухи о возможном уходе главного тренера Виктора Козлова не влияют на команду.",
-      "image": "https://img.championat.com/news/big/z/l/zaschitnik-salavata-yulaeva-.jpg",
-      "publishedAt": "2026-10-24T10:44:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670452-zaschitnik-salavata-yulaeva-scherbakov-kozlov-govorit-chto-ne-sobiraetsya-uhodit.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Советский спорт",
-        "Виктор Козлов"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670434",
-      "slug": "vesma-udivlyon-ego-naznacheniem-mihail-fisenko-o-shafranove-v-metallurge",
-      "title": "«Весьма удивлён его назначением». Михаил Фисенко — о Шафранове в «Металлурге»",
-      "summary": "Бывший нападающий «Ак Барса» Михаил Фисенко оценил назначение Константина Шафранова главным тренером «Металлурга».",
-      "content": "Бывший нападающий «Ак Барса» Михаил Фисенко оценил назначение Константина Шафранова главным тренером «Металлурга».",
-      "image": "https://img.championat.com/news/big/j/b/vesma-udivlyon-ego-naznacheniem-mihail-fisenko-o-shafranove-v-metallurge_17928367741070700623.jpg",
-      "publishedAt": "2026-10-24T10:13:14Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670434-vesma-udivlyon-ego-naznacheniem-mihail-fisenko-o-shafranove-v-metallurge.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Михаил Фисенко",
-        "Константин Шафранов"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670410",
-      "slug": "pro-ego-igru-ya-mogu-skazat-vau-napadayuschij-metallurga-mihail-fyodorov-o-rempale",
-      "title": "«Про его игру могу сказать «вау». Нападающий «Металлурга» Михаил Фёдоров — о Ремпале",
-      "summary": "Нападающий «Металлурга» Михаил Фёдоров высоко оценил игру форварда уфимского «Салавата Юлаева» Шелдона Ремпала.",
-      "content": "Нападающий «Металлурга» Михаил Фёдоров высоко оценил игру форварда уфимского «Салавата Юлаева» Шелдона Ремпала.",
-      "image": "https://img.championat.com/news/big/e/d/pro-ego-igru-mogu-skazat-vau-napadayuschij-metallurga-mihail-fyodorov-o-rempale_1792835842600332270.jpg",
-      "publishedAt": "2026-10-24T09:50:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670410-pro-ego-igru-ya-mogu-skazat-vau-napadayuschij-metallurga-mihail-fyodorov-o-rempale.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Металлург Мг",
-        "Шелдон Ремпал",
-        "Михаил Фёдоров"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670394",
-      "slug": "yurov-v-razdevalke-minnesoty-nas-menyayut-mestami-chtoby-my-ne-tolko-na-russkom-obschalis",
-      "title": "Юров: в раздевалке «Миннесоты» нас меняют местами, чтобы мы не только на русском общались",
-      "summary": "Нападающий «Миннесоты Уайлд» Данила Юров заявил, что персонал команды иногда рассаживает российских игроков клуба.",
-      "content": "Нападающий «Миннесоты Уайлд» Данила Юров заявил, что персонал команды иногда рассаживает российских игроков клуба.",
-      "image": "https://img.championat.com/news/big/r/g/yurov-v-razdevalke-minnesoty-nas-menyayut-mestami-chtoby-my-ne-tolko-na-russkom-obschalis_1792834227688290447.jpg",
-      "publishedAt": "2026-10-24T09:34:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670394-yurov-v-razdevalke-minnesoty-nas-menyayut-mestami-chtoby-my-ne-tolko-na-russkom-obschalis.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Миннесота Уайлд",
-        "Данила Юров"
-      ],
-      "relatedTeamIds": [
-        "nhl:min"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6670368",
-      "slug": "lebryun-nikishin-po-prezhnemu-hochet-obmena-no-karolina-gotova-predlozhit-kontrakt",
-      "title": "Лебрюн: Никишин по-прежнему хочет обмена, но «Каролина» готова предложить контракт",
-      "summary": "Журналист Пьер Лебрюн в статье на сайте The Athletic поделился информацией вокруг ситуации с защитником «Каролины Харрикейнз» Александром Никишиным, который продолжает находиться без контракта на этот сезон.",
-      "content": "Журналист Пьер Лебрюн в статье на сайте The Athletic поделился информацией вокруг ситуации с защитником «Каролины Харрикейнз» Александром Никишиным, который продолжает находиться без контракта на этот сезон.",
-      "image": "https://img.championat.com/news/big/n/n/lebryun-nikishin-po-prezhnemu-hochet-obmena-no-karolina-gotova-predlozhit-kontrakt_17928327321623617456.jpg",
-      "publishedAt": "2026-10-24T09:18:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6670368-lebryun-nikishin-po-prezhnemu-hochet-obmena-no-karolina-gotova-predlozhit-kontrakt.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Каролина Харрикейнз",
-        "Александр Никишин",
-        "Пьер Лебрюн"
-      ],
-      "relatedTeamIds": [
-        "nhl:car"
-      ],
-      "relatedPlayerIds": [
-        "khl:p_nikishin"
-      ]
     }
   ]
 }

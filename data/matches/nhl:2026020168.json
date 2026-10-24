@@ -6,264 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-24T17:00:00Z",
-  "status": "INTERMISSION",
-  "period": 2,
-  "clock": "05:45",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:phi",
-    "score": 3,
+    "score": 4,
     "periods": [],
-    "shots": 21
+    "shots": null
   },
   "away": {
     "id": "nhl:ana",
-    "score": 3,
+    "score": 5,
     "periods": [],
-    "shots": 21
+    "shots": null
   },
   "arena": "Xfinity Mobile Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "05:42",
-      "team": "away",
-      "playerId": "nhl:p_8481605",
-      "playerName": "Jackson LaCombe",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 95
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "13:41",
-      "team": "away",
-      "playerId": "nhl:p_8478421",
-      "playerName": "A.J. Greer",
-      "minutes": 2,
-      "reason": "instigator",
-      "order": 198
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "13:41",
-      "team": "away",
-      "playerId": "nhl:p_8482118",
-      "playerName": "Sam Colangelo",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 200
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "13:41",
-      "team": "away",
-      "playerId": "nhl:p_8478421",
-      "playerName": "A.J. Greer",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 202
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "13:41",
-      "team": "home",
-      "playerId": "nhl:p_8483760",
-      "playerName": "Hunter McDonald",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 204
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "13:41",
-      "team": "away",
-      "playerId": "nhl:p_8478421",
-      "playerName": "A.J. Greer",
-      "minutes": 10,
-      "reason": "instigator-misconduct",
-      "order": 206
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "13:59",
-      "team": "home",
-      "playerId": "nhl:p_8484387",
-      "playerName": "Matvei Michkov",
-      "assists": [
-        "nhl:p_8482142",
-        "nhl:p_8481533"
-      ],
-      "score": "1-0",
-      "order": 211
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "15:02",
-      "team": "home",
-      "playerId": "nhl:p_8485406",
-      "playerName": "Porter Martone",
-      "assists": [
-        "nhl:p_8477948",
-        "nhl:p_8481533"
-      ],
-      "score": "2-0",
-      "order": 226
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "16:53",
-      "team": "home",
-      "playerId": "nhl:p_8480220",
-      "playerName": "Noah Cates",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 254
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "17:41",
-      "team": "away",
-      "playerId": "nhl:p_8481605",
-      "playerName": "Jackson LaCombe",
-      "minutes": 2,
-      "reason": "slashing",
-      "order": 264
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "05:48",
-      "team": "away",
-      "playerId": "nhl:p_8481605",
-      "playerName": "Jackson LaCombe",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 376
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "08:38",
-      "team": "away",
-      "playerId": "nhl:p_8484153",
-      "playerName": "Leo Carlsson",
-      "assists": [
-        "nhl:p_8483445"
-      ],
-      "score": "2-1",
-      "order": 406
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "09:47",
-      "team": "away",
-      "playerId": "nhl:p_8484153",
-      "playerName": "Leo Carlsson",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 421
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "13:07",
-      "team": "away",
-      "playerId": "nhl:p_8478421",
-      "playerName": "A.J. Greer",
-      "assists": [
-        "nhl:p_8485512",
-        "nhl:p_8483482"
-      ],
-      "score": "2-2",
-      "order": 455
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "13:52",
-      "team": "home",
-      "playerId": "nhl:p_8476461",
-      "playerName": "Sean Couturier",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 472
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "15:04",
-      "team": "home",
-      "playerId": "nhl:p_8482159",
-      "playerName": "Tyson Foerster",
-      "assists": [
-        "nhl:p_8476372"
-      ],
-      "score": "3-2",
-      "order": 482
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "16:19",
-      "team": "away",
-      "playerId": "nhl:p_8481538",
-      "playerName": "Judd Caulfield",
-      "assists": [
-        "nhl:p_8473986",
-        "nhl:p_8483482"
-      ],
-      "score": "3-3",
-      "order": 497
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "19:17",
-      "team": "home",
-      "playerId": "nhl:p_8478569",
-      "playerName": "Noel Acciari",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 537
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      21,
-      21
-    ],
-    "shotsOnGoal": [
-      21,
-      21
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020168/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020168/play-by-play"
-    ],
-    "fetchedAt": "2026-10-24T19:02:58.817376+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -271,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/ana-vs-phi/2026/10/24/2026020168",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/ana-vs-phi/2026/10/24/2026020168",
-    "verifiedAt": "2026-10-24T19:02:58.817481Z"
+    "verifiedAt": "2026-10-24T21:30:24.642454Z"
   }
 }
