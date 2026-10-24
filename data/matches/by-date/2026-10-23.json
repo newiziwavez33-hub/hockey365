@@ -59,7 +59,7 @@
       "stageId": 407,
       "eventId": 3000839,
       "matchId": "902172",
-      "fetchedAt": "2026-10-24T00:37:50.050853Z"
+      "fetchedAt": "2026-10-24T05:00:03.217472Z"
     }
   },
   {
@@ -122,7 +122,7 @@
       "stageId": 407,
       "eventId": 3000847,
       "matchId": "902174",
-      "fetchedAt": "2026-10-24T00:37:50.050853Z"
+      "fetchedAt": "2026-10-24T05:00:03.217472Z"
     }
   },
   {
@@ -185,7 +185,7 @@
       "stageId": 407,
       "eventId": 3000835,
       "matchId": "902171",
-      "fetchedAt": "2026-10-24T00:37:50.050853Z"
+      "fetchedAt": "2026-10-24T05:00:03.217472Z"
     }
   },
   {
@@ -216,7 +216,7 @@
     "away": {
       "id": "khl:dynamo-msk",
       "name": "Динамо М",
-      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/8/original/dynamo_msk_2019__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdi/team_pics/8/original/dynamo_msk_2019__200x200.png",
       "score": 1,
       "periods": [
         0,
@@ -250,7 +250,7 @@
       "stageId": 407,
       "eventId": 3000851,
       "matchId": "902175",
-      "fetchedAt": "2026-10-24T00:37:50.050853Z"
+      "fetchedAt": "2026-10-24T05:00:03.217472Z"
     }
   },
   {
@@ -268,7 +268,7 @@
     "home": {
       "id": "khl:spartak",
       "name": "Спартак",
-      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/18/original/spartak_2015__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-19.webcaster.pro/fc/sdc2/team_pics/18/original/spartak_2015__200x200.png",
       "score": 3,
       "periods": [
         0,
@@ -280,7 +280,7 @@
     "away": {
       "id": "khl:severstal",
       "name": "Северсталь",
-      "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/42/original/severstal_2021__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/42/original/severstal_2021__200x200.png",
       "score": 1,
       "periods": [
         1,
@@ -313,7 +313,7 @@
       "stageId": 407,
       "eventId": 3000843,
       "matchId": "902173",
-      "fetchedAt": "2026-10-24T00:37:50.050853Z"
+      "fetchedAt": "2026-10-24T05:00:03.217472Z"
     }
   },
   {
@@ -324,85 +324,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-24T00:00:00Z",
-    "status": "LIVE",
-    "period": 1,
-    "clock": "07:08",
-    "finishedIn": null,
+    "status": "FINISHED",
+    "period": 3,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:chi",
       "score": 1,
       "periods": [],
-      "shots": 7
+      "shots": null
     },
     "away": {
       "id": "nhl:mtl",
-      "score": 0,
+      "score": 4,
       "periods": [],
-      "shots": 3
+      "shots": null
     },
     "arena": "United Center",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "04:23",
-        "team": "home",
-        "playerId": "nhl:p_8484144",
-        "playerName": "Connor Bedard",
-        "assists": [
-          "nhl:p_8474141"
-        ],
-        "score": "1-0",
-        "order": 67
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "04:49",
-        "team": "home",
-        "playerId": "nhl:p_8484144",
-        "playerName": "Connor Bedard",
-        "minutes": 2,
-        "reason": "elbowing",
-        "order": 77
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "12:10",
-        "team": "away",
-        "playerId": "nhl:p_8483515",
-        "playerName": "Juraj Slafkovský",
-        "minutes": 2,
-        "reason": "elbowing",
-        "order": 168
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        7,
-        3
-      ],
-      "shotsOnGoal": [
-        7,
-        3
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020166/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020166/play-by-play"
-      ],
-      "fetchedAt": "2026-10-24T00:37:48.068017+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -410,7 +356,7 @@
       "url": "https://www.nhl.com/gamecenter/mtl-vs-chi/2026/10/23/2026020166",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/mtl-vs-chi/2026/10/23/2026020166",
-      "verifiedAt": "2026-10-24T00:37:48.068089Z"
+      "verifiedAt": "2026-10-24T05:00:00.276201Z"
     }
   },
   {
@@ -421,19 +367,19 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-24T01:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
+    "status": "FINISHED",
+    "period": 3,
     "clock": null,
-    "finishedIn": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:col",
-      "score": null,
+      "score": 6,
       "periods": [],
       "shots": null
     },
     "away": {
       "id": "nhl:tbl",
-      "score": null,
+      "score": 3,
       "periods": [],
       "shots": null
     },
@@ -453,7 +399,7 @@
       "url": "https://www.nhl.com/gamecenter/tbl-vs-col/2026/10/23/2026020167",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/tbl-vs-col/2026/10/23/2026020167",
-      "verifiedAt": "2026-10-24T00:37:48.068378Z"
+      "verifiedAt": "2026-10-24T05:00:00.276468Z"
     }
   }
 ]
