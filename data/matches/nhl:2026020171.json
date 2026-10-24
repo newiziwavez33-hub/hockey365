@@ -6,31 +6,100 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-24T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 1,
+  "clock": "08:30",
   "finishedIn": null,
   "home": {
     "id": "nhl:ott",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 4
   },
   "away": {
     "id": "nhl:nyr",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 2
   },
   "arena": "Canadian Tire Centre",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "05:34",
+      "team": "home",
+      "playerId": "nhl:p_8480208",
+      "playerName": "Drake Batherson",
+      "assists": [
+        "nhl:p_8482105",
+        "nhl:p_8482245"
+      ],
+      "score": "1-0",
+      "order": 91
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "06:40",
+      "team": "home",
+      "playerId": "nhl:p_8482116",
+      "playerName": "Tim Stützle",
+      "assists": [
+        "nhl:p_8480188",
+        "nhl:p_8473512"
+      ],
+      "score": "2-0",
+      "order": 106
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "09:22",
+      "team": "home",
+      "playerId": "nhl:p_8482245",
+      "playerName": "Artem Zub",
+      "minutes": 2,
+      "reason": "high-sticking",
+      "order": 136
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "09:57",
+      "team": "away",
+      "playerId": "nhl:p_8481604",
+      "playerName": "Pavel Dorofeyev",
+      "minutes": 2,
+      "reason": "high-sticking",
+      "order": 144
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      4,
+      2
+    ],
+    "shotsOnGoal": [
+      4,
+      2
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020171/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020171/play-by-play"
+    ],
+    "fetchedAt": "2026-10-24T23:33:55.753318+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +107,6 @@
     "url": "https://www.nhl.com/gamecenter/nyr-vs-ott/2026/10/24/2026020171",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/nyr-vs-ott/2026/10/24/2026020171",
-    "verifiedAt": "2026-10-24T21:30:24.741937Z"
+    "verifiedAt": "2026-10-24T23:33:55.753383Z"
   }
 }

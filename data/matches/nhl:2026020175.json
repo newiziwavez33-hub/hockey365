@@ -6,21 +6,21 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-24T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 1,
+  "clock": "07:07",
   "finishedIn": null,
   "home": {
     "id": "nhl:stl",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 6
   },
   "away": {
     "id": "nhl:car",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 7
   },
   "arena": "Enterprise Center",
   "officials": {
@@ -29,8 +29,26 @@
   },
   "events": [],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      6,
+      7
+    ],
+    "shotsOnGoal": [
+      6,
+      7
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020175/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020175/play-by-play"
+    ],
+    "fetchedAt": "2026-10-24T23:33:55.962346+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +56,6 @@
     "url": "https://www.nhl.com/gamecenter/car-vs-stl/2026/10/24/2026020175",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/car-vs-stl/2026/10/24/2026020175",
-    "verifiedAt": "2026-10-24T21:30:24.742281Z"
+    "verifiedAt": "2026-10-24T23:33:55.962408Z"
   }
 }

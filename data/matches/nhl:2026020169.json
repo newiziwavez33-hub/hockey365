@@ -6,125 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-24T19:30:00Z",
-  "status": "LIVE",
+  "status": "FINISHED",
   "period": 3,
-  "clock": "10:00",
-  "finishedIn": null,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:njd",
-    "score": 2,
+    "score": 3,
     "periods": [],
-    "shots": 22
+    "shots": null
   },
   "away": {
     "id": "nhl:lak",
     "score": 1,
     "periods": [],
-    "shots": 10
+    "shots": null
   },
   "arena": "Prudential Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "03:09",
-      "team": "home",
-      "playerId": "nhl:p_8477488",
-      "playerName": "Brett Pesce",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 53
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "15:58",
-      "team": "away",
-      "playerId": "nhl:p_8475208",
-      "playerName": "Brian Dumoulin",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 210
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "13:25",
-      "team": "away",
-      "playerId": "nhl:p_8476872",
-      "playerName": "Scott Laughton",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 411
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "15:57",
-      "team": "away",
-      "playerId": "nhl:p_8476872",
-      "playerName": "Scott Laughton",
-      "assists": [
-        "nhl:p_8477960",
-        "nhl:p_8481732"
-      ],
-      "score": "0-1",
-      "order": 436
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "18:43",
-      "team": "home",
-      "playerId": "nhl:p_8477511",
-      "playerName": "Anthony Mantha",
-      "assists": [
-        "nhl:p_8480003",
-        "nhl:p_8478542"
-      ],
-      "score": "1-1",
-      "order": 463
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "08:08",
-      "team": "home",
-      "playerId": "nhl:p_8477488",
-      "playerName": "Brett Pesce",
-      "assists": [
-        "nhl:p_8482146",
-        "nhl:p_8481721"
-      ],
-      "score": "2-1",
-      "order": 585
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      22,
-      10
-    ],
-    "shotsOnGoal": [
-      22,
-      10
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020169/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020169/play-by-play"
-    ],
-    "fetchedAt": "2026-10-24T21:30:24.741414+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -132,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/lak-vs-njd/2026/10/24/2026020169",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/lak-vs-njd/2026/10/24/2026020169",
-    "verifiedAt": "2026-10-24T21:30:24.741506Z"
+    "verifiedAt": "2026-10-24T23:33:55.662324Z"
   }
 }
