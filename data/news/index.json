@@ -1,6 +1,271 @@
 {
   "news": [
     {
+      "id": "news-6672494",
+      "slug": "rezultaty-matchej-mhl-na-25-oktyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 25 октября 2026 года",
+      "summary": "Сегодня, 25 октября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 25 октября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-25T20:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6672494-rezultaty-matchej-mhl-na-25-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Красная Армия",
+        "МХК Омские Ястребы",
+        "МХК СКА-1946",
+        "МХК Стальные Лисы",
+        "МХК Толпар",
+        "Крылья Советов",
+        "МХК Чайка",
+        "МХК Авто",
+        "МХК Алмаз",
+        "МХК Сибирские Снайперы",
+        "МХК Амурские Тигры",
+        "МХК Динамо",
+        "МХК Ирбис Казань",
+        "МХК Сахалинские Акулы",
+        "Молот",
+        "МХК Тайфун",
+        "МХК Красноярские Рыси"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6672492",
+      "slug": "rezultaty-matchej-vhl-na-25-oktyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 25 октября 2026 года",
+      "summary": "Сегодня, 25 октября, прошли шесть матчей OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 25 октября, прошли шесть матчей OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-25T20:40:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6672492-rezultaty-matchej-vhl-na-25-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Металлург Нк",
+        "Нефтяник Альметьевск",
+        "Барс",
+        "Сокол Красноярск",
+        "Челмет",
+        "Южный Урал Орск",
+        "Кристалл Саратов",
+        "Горняк",
+        "Норильск",
+        "Тамбов",
+        "Магнитка"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6672490",
+      "slug": "rezultaty-matchej-khl-na-25-oktyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 25 октября 2026 года",
+      "summary": "Сегодня, 25 октября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 25 октября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/p/g/rezultaty-matchej-khl-na-25-oktyabrya-2026-goda_1792955350683270111.jpg",
+      "publishedAt": "2026-10-25T20:30:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6672490-rezultaty-matchej-khl-na-25-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "ЦСКА",
+        "Ак Барс",
+        "Салават Юлаев",
+        "Локомотив",
+        "Спартак",
+        "Северсталь",
+        "Амур",
+        "Адмирал",
+        "Сочи",
+        "Лада",
+        "Шанхайские Драконы (Куньлунь Ред Стар)"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral",
+        "khl:ak-bars",
+        "khl:amur",
+        "khl:cska",
+        "khl:kunlun",
+        "khl:lada",
+        "khl:lokomotiv",
+        "khl:salavat-yulaev",
+        "khl:severstal",
+        "khl:ska",
+        "khl:sochi",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6672482",
+      "slug": "teatr-v-hokkee-krasiv-kogda-on-dayot-rezultat-varickij-ob-uvolnenii-larionova-iz-ska",
+      "title": "«Театр в хоккее красив, когда он даёт результат». Варицкий об увольнении Ларионова из СКА",
+      "summary": "Бывший генеральный менеджер «Витязя» Игорь Варицкий высказался об увольнении Игоря Ларионова с поста главного тренера СКА.",
+      "content": "Бывший генеральный менеджер «Витязя» Игорь Варицкий высказался об увольнении Игоря Ларионова с поста главного тренера СКА.",
+      "image": "https://img.championat.com/news/big/w/j/teatr-v-hokkee-krasiv-kogda-.jpg",
+      "publishedAt": "2026-10-25T20:20:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6672482-teatr-v-hokkee-krasiv-kogda-on-dayot-rezultat-varickij-ob-uvolnenii-larionova-iz-ska.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "РБ Спорт",
+        "Игорь Ларионов",
+        "Игорь Варицкий"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6672474",
+      "slug": "vajsfeld-shafranov-horoshij-chelovek-a-glavnyj-trener-ne-dolzhen-byt-horoshim",
+      "title": "Вайсфельд: Шафранов — хороший человек, а главный тренер не должен быть хорошим",
+      "summary": "Известный хоккейный эксперт и функционер Леонид Вайсфельд высказался о назначении Константина Шафранова на пост главного тренера магнитогорского «Металлурга».",
+      "content": "Известный хоккейный эксперт и функционер Леонид Вайсфельд высказался о назначении Константина Шафранова на пост главного тренера магнитогорского «Металлурга».",
+      "image": "https://img.championat.com/news/big/v/z/vajsfeld-shafranov-horoshij-chelovek-a-glavnyj-trener-ne-dolzhen-byt-horoshim_179295465499092104.jpg",
+      "publishedAt": "2026-10-25T20:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6672474-vajsfeld-shafranov-horoshij-chelovek-a-glavnyj-trener-ne-dolzhen-byt-horoshim.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Советский спорт",
+        "Леонид Вайсфельд",
+        "Константин Шафранов"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6672410",
+      "slug": "rebyata-igrali-dovolno-neploho-zhamnov-vyskazalsya-o-porazhenii-spartaka-ot-shanhaya",
+      "title": "«Ребята играли довольно неплохо». Жамнов высказался о поражении «Спартака» от «Шанхая»",
+      "summary": "Главный тренер «Спартака» Алексей Жамнов высказался о поражении в матче с «Шанхайскими Драконами» (3:4 Б), в котором красно-белые вели со счётом 3:1 в середине третьего периода.",
+      "content": "Главный тренер «Спартака» Алексей Жамнов высказался о поражении в матче с «Шанхайскими Драконами» (3:4 Б), в котором красно-белые вели со счётом 3:1 в середине третьего периода.",
+      "image": "https://img.championat.com/news/big/q/e/rebyata-igrali-dovolno-neplo.jpg",
+      "publishedAt": "2026-10-25T19:40:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6672410-rebyata-igrali-dovolno-neploho-zhamnov-vyskazalsya-o-porazhenii-spartaka-ot-shanhaya.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Спартак",
+        "Шанхайские Драконы (Куньлунь Ред Стар)",
+        "Алексей Жамнов"
+      ],
+      "relatedTeamIds": [
+        "khl:kunlun",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6672404",
+      "slug": "lav-o-matche-so-spartakom-neveroyatnaya-pobeda-eto-pokazyvaet-harakter-komandy",
+      "title": "Лав — о матче со «Спартаком»: невероятная победа, это показывает характер команды",
+      "summary": "Главный тренер «Шанхайских Драконов» Митч Лав назвал невероятной волевую победу в гостевом матче со «Спартаком» (4:3 Б).",
+      "content": "Главный тренер «Шанхайских Драконов» Митч Лав назвал невероятной волевую победу в гостевом матче со «Спартаком» (4:3 Б).",
+      "image": "https://img.championat.com/news/big/m/j/lav-o-matche-so-spartakom-ne.jpg",
+      "publishedAt": "2026-10-25T19:20:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6672404-lav-o-matche-so-spartakom-neveroyatnaya-pobeda-eto-pokazyvaet-harakter-komandy.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Спартак",
+        "Шанхайские Драконы (Куньлунь Ред Стар)",
+        "Митч Лав"
+      ],
+      "relatedTeamIds": [
+        "khl:kunlun",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6672456",
+      "slug": "dazhe-ne-znayu-kakoe-mesto-zanimaem-nikitin-ob-igre-cska-v-tekuschem-sezone",
+      "title": "«Даже не знаю, какое место занимаем». Никитин — об игре ЦСКА в текущем сезоне",
+      "summary": "Главный тренер ЦСКА Игорь Никитин заявил, что фокусируется на процессе становления игры, а не на текущем месте команды в турнирной таблице.",
+      "content": "Главный тренер ЦСКА Игорь Никитин заявил, что фокусируется на процессе становления игры, а не на текущем месте команды в турнирной таблице.",
+      "image": "https://img.championat.com/news/big/n/k/dazhe-ne-znayu-kakoe-mesto-z.jpg",
+      "publishedAt": "2026-10-25T19:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6672456-dazhe-ne-znayu-kakoe-mesto-zanimaem-nikitin-ob-igre-cska-v-tekuschem-sezone.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Игорь Никитин"
+      ],
+      "relatedTeamIds": [
+        "khl:cska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6672444",
+      "slug": "samolyubie-nikto-ne-otmenyal-nikitin-ocenil-gostevuyu-pobedu-cska-v-derbi-so-ska",
+      "title": "«Самолюбие никто не отменял». Никитин оценил гостевую победу ЦСКА в дерби со СКА",
+      "summary": "Главный тренер ЦСКА Игорь Никитин оценил победу в армейском дерби со СКА (3:1) и отметил игру команды в первых двух периодах.",
+      "content": "Главный тренер ЦСКА Игорь Никитин оценил победу в армейском дерби со СКА (3:1) и отметил игру команды в первых двух периодах.",
+      "image": "https://img.championat.com/news/big/i/d/samolyubie-nikto-ne-otmenyal-nikitin-ocenil-gostevuyu-pobedu-cska-v-derbi-so-ska_17929535101157155986.jpg",
+      "publishedAt": "2026-10-25T18:50:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6672444-samolyubie-nikto-ne-otmenyal-nikitin-ocenil-gostevuyu-pobedu-cska-v-derbi-so-ska.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "ЦСКА",
+        "Игорь Никитин"
+      ],
+      "relatedTeamIds": [
+        "khl:cska",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6672422",
+      "slug": "andrej-razin-rasskazal-kak-otprazdnoval-svoj-den-rozhdeniya-na-operacionnom-stole",
+      "title": "Андрей Разин рассказал, как отпраздновал свой день рождения на операционном столе",
+      "summary": "Главный тренер СКА Андрей Разин рассказал, что в свой день рождения перенёс операцию.",
+      "content": "Главный тренер СКА Андрей Разин рассказал, что в свой день рождения перенёс операцию.",
+      "image": "https://img.championat.com/news/big/s/c/andrej-razin-rasskazal-kak-otprazdnoval-svoj-den-rozhdeniya-na-operacionnom-stole_1792952058149995837.jpg",
+      "publishedAt": "2026-10-25T18:40:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6672422-andrej-razin-rasskazal-kak-otprazdnoval-svoj-den-rozhdeniya-na-operacionnom-stole.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Андрей Разин"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6672418",
       "slug": "razin-otvetil-na-vopros-chego-ne-hvataet-ska-chtoby-konkurirovat-s-cska",
       "title": "Разин ответил на вопрос, чего не хватает СКА, чтобы конкурировать с ЦСКА",
@@ -478,243 +743,6 @@
         "khl:sochi"
       ],
       "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6671962",
-      "slug": "grigorij-panin-stal-samym-dolgoigrayuschim-zaschitnikom-v-istorii-khl",
-      "title": "Григорий Панин стал самым долгоиграющим защитником в истории КХЛ",
-      "summary": "Капитан «Салавата Юлаева» Григорий Панин проводит свой 1002-й матч в Континентальной хоккейной лиге.",
-      "content": "Капитан «Салавата Юлаева» Григорий Панин проводит свой 1002-й матч в Континентальной хоккейной лиге.",
-      "image": "https://img.championat.com/news/big/v/m/grigorij-panin-stal-samym-do.jpg",
-      "publishedAt": "2026-10-25T12:53:10Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6671962-grigorij-panin-stal-samym-dolgoigrayuschim-zaschitnikom-v-istorii-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Салават Юлаев",
-        "Григорий Панин",
-        "Евгений Бирюков"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6671952",
-      "slug": "salavat-yulaev-provyol-ceremoniyu-v-chest-1000-go-matcha-panina-v-khl",
-      "title": "«Салават Юлаев» провёл церемонию в честь 1000-го матча Панина в КХЛ",
-      "summary": "«Салават Юлаев» чествовал капитана команды Григория Панина, который провёл 1000-й матч в Континентальной хоккейной лиге.",
-      "content": "«Салават Юлаев» чествовал капитана команды Григория Панина, который провёл 1000-й матч в Континентальной хоккейной лиге.",
-      "image": "https://img.championat.com/news/big/l/l/salavat-yulaev-provyol-cerem.jpg",
-      "publishedAt": "2026-10-25T12:41:18Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6671952-salavat-yulaev-provyol-ceremoniyu-v-chest-1000-go-matcha-panina-v-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Ак Барс",
-        "Салават Юлаев",
-        "Григорий Панин"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6671928",
-      "slug": "bratash-o-porazhenii-ot-amura-byla-i-nerealizaciya-i-igra-vratarej-i-nevezenie",
-      "title": "Браташ — о поражении от «Амура»: была и нереализация, и игра вратарей, и невезение",
-      "summary": "Главный тренер «Адмирала» Олег Браташ прокомментировал поражение от «Амура» (0:3) в первом дальневосточном дерби сезона.",
-      "content": "Главный тренер «Адмирала» Олег Браташ прокомментировал поражение от «Амура» (0:3) в первом дальневосточном дерби сезона.",
-      "image": "https://img.championat.com/news/big/j/i/bratash-o-porazhenii-ot-amur.jpg",
-      "publishedAt": "2026-10-25T12:28:20Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6671928-bratash-o-porazhenii-ot-amura-byla-i-nerealizaciya-i-igra-vratarej-i-nevezenie.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Амур",
-        "Адмирал",
-        "Олег Браташ"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:amur"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6671912",
-      "slug": "glavnyj-trener-amura-andrievskij-ocenil-pobedu-nad-admiralom",
-      "title": "Главный тренер «Амура» Андриевский оценил победу над «Адмиралом»",
-      "summary": "Главный тренер «Амура» Александр Андриевский высказался о домашней победе над «Адмиралом» со счётом 3:0.",
-      "content": "Главный тренер «Амура» Александр Андриевский высказался о домашней победе над «Адмиралом» со счётом 3:0.",
-      "image": "https://img.championat.com/news/big/x/f/glavnyj-trener-amura-andriev.jpg",
-      "publishedAt": "2026-10-25T12:07:18Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6671912-glavnyj-trener-amura-andrievskij-ocenil-pobedu-nad-admiralom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Амур",
-        "Адмирал",
-        "Александр Андриевский"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:amur"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6671852",
-      "slug": "nyulander-zabrosil-300-yu-shajbu-v-nhl-i-vyshel-na-shestoe-mesto-v-istorii-toronto-po-golam",
-      "title": "Нюландер забросил 300-ю шайбу в НХЛ и вышел на шестое место в истории «Торонто» по голам",
-      "summary": "Нападающий «Торонто Мэйпл Лифс» Вильям Нюландер достиг отметки в 300 голов в регулярных чемпионатах НХЛ.",
-      "content": "Нападающий «Торонто Мэйпл Лифс» Вильям Нюландер достиг отметки в 300 голов в регулярных чемпионатах НХЛ.",
-      "image": "https://img.championat.com/news/big/u/m/nyulander-zabrosil-300-yu-shajbu-v-nhl-i-vyshel-na-shestoe-mesto-v-istorii-toronto-po-gola_17929285622047604466.jpg",
-      "publishedAt": "2026-10-25T11:42:50Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6671852-nyulander-zabrosil-300-yu-shajbu-v-nhl-i-vyshel-na-shestoe-mesto-v-istorii-toronto-po-golam.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Эдмонтон Ойлерз",
-        "Торонто Мэйпл Лифс",
-        "Остон Мэттьюс",
-        "Вильям Нюландер",
-        "Филип Форсберг"
-      ],
-      "relatedTeamIds": [
-        "nhl:edm",
-        "nhl:tor"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8479318"
-      ]
-    },
-    {
-      "id": "news-6671836",
-      "slug": "salavat-yulaev-ak-bars-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Салават Юлаев» — «Ак Барс»: онлайн-трансляция матча КХЛ началась",
-      "summary": "В эти минуты в Уфе на стадионе «Уфа-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Салават Юлаев» принимает казанский «Ак Барс».",
-      "content": "В эти минуты в Уфе на стадионе «Уфа-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Салават Юлаев» принимает казанский «Ак Барс».",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-25T11:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6671836-salavat-yulaev-ak-bars-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Салават Юлаев"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6671812",
-      "slug": "spartak-shanhajskie-drakony-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-17-00-msk",
-      "title": "«Спартак» — «Шанхайские Драконы»: онлайн-трансляция матча КХЛ начнётся в 17:00 мск",
-      "summary": "Сегодня, 25 октября, в Москве на стадионе «Мегаспорт» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Спартак» примет «Шанхайских Драконов».",
-      "content": "Сегодня, 25 октября, в Москве на стадионе «Мегаспорт» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Спартак» примет «Шанхайских Драконов».",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-25T11:10:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6671812-spartak-shanhajskie-drakony-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-17-00-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Спартак",
-        "Шанхайские Драконы (Куньлунь Ред Стар)"
-      ],
-      "relatedTeamIds": [
-        "khl:kunlun",
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6671764",
-      "slug": "ska-cska-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-17-00-msk",
-      "title": "СКА — ЦСКА: онлайн-трансляция матча КХЛ начнётся в 17:00 мск",
-      "summary": "Сегодня, 25 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет московский ЦСКА.",
-      "content": "Сегодня, 25 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА примет московский ЦСКА.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-10-25T11:00:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6671764-ska-cska-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-17-00-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "ЦСКА"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6671818",
-      "slug": "pastrnyak-povtoril-dostizhenie-berzherona-po-golam-za-boston",
-      "title": "Пастрняк повторил достижение Бержерона по голам за «Бостон»",
-      "summary": "Нападающий «Бостон Брюинз» Давид Пастрняк отметился голом в матче регулярного чемпионата НХЛ с «Сан-Хосе Шаркс» (6:4).",
-      "content": "Нападающий «Бостон Брюинз» Давид Пастрняк отметился голом в матче регулярного чемпионата НХЛ с «Сан-Хосе Шаркс» (6:4).",
-      "image": "https://img.championat.com/news/big/y/h/pastrnyak-povtoril-dostizhenie-berzherona-po-golam-za-boston_17929251931044587557.jpg",
-      "publishedAt": "2026-10-25T10:46:40Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6671818-pastrnyak-povtoril-dostizhenie-berzherona-po-golam-za-boston.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Бостон Брюинз",
-        "Сан-Хосе Шаркс",
-        "Давид Пастрняк",
-        "Патрис Бержерон",
-        "Фил Эспозито"
-      ],
-      "relatedTeamIds": [
-        "nhl:bos",
-        "nhl:sjs"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6671790",
-      "slug": "ovechkin-aktiviroval-bonus-v-4-75-mln-posle-10-j-igry-sezona-nhl",
-      "title": "Овечкин активировал бонус в $ 4,75 млн после 10-й игры сезона НХЛ",
-      "summary": "Российский капитан «Вашингтон Кэпиталз» Александр Овечкин активировал свой бонус в размере $ 4,75 млн после 10 проведённых матчей в сезоне-2026/2027 Национальной хоккейной лиги.",
-      "content": "Российский капитан «Вашингтон Кэпиталз» Александр Овечкин активировал свой бонус в размере $ 4,75 млн после 10 проведённых матчей в сезоне-2026/2027 Национальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/m/f/ovechkin-aktiviroval-bonus-v-4-75-mln-posle-10-j-igry-sezona-nhl_17929237591285555008.jpg",
-      "publishedAt": "2026-10-25T10:22:43Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6671790-ovechkin-aktiviroval-bonus-v-4-75-mln-posle-10-j-igry-sezona-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Баффало Сэйбрз"
-      ],
-      "relatedTeamIds": [
-        "nhl:buf",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
     }
   ]
 }
