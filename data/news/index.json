@@ -1,6 +1,55 @@
 {
   "news": [
     {
+      "id": "news-6672596",
+      "slug": "chikago-blekhouks-florida-panterz-rezultat-matcha-25-oktyabrya-2026-schet-2-3-nhl-2026-2027",
+      "title": "«Чикаго» уступил «Флориде» в НХЛ, Канцеров отметился голом",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором встречались «Чикаго Блэкхоукс» и «Флорида Пантерз».",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором встречались «Чикаго Блэкхоукс» и «Флорида Пантерз».",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-10-25T21:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6672596-chikago-blekhouks-florida-panterz-rezultat-matcha-25-oktyabrya-2026-schet-2-3-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Флорида Пантерз",
+        "Чикаго Блэкхоукс",
+        "Дмитрий Куликов",
+        "Роман Канцеров"
+      ],
+      "relatedTeamIds": [
+        "nhl:chi",
+        "nhl:fla"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6672606",
+      "slug": "aleksandr-nikishin-podpisal-odnoletnij-kontrakt-s-karolinoj-s-zarplatoj-3-mln",
+      "title": "Александр Никишин подписал однолетний контракт с «Каролиной» с зарплатой $ 3 млн",
+      "summary": "«Каролина Харрикейнз» на официальном сайте объявила о подписании однолетнего контракта с защитником Александром Никишиным.",
+      "content": "«Каролина Харрикейнз» на официальном сайте объявила о подписании однолетнего контракта с защитником Александром Никишиным.",
+      "image": "https://img.championat.com/news/big/n/h/aleksandr-nikishin-podpisal-odnoletnij-kontrakt-s-karolinoj-s-zarplatoj-3-mln_17929627191171267363.jpg",
+      "publishedAt": "2026-10-25T21:12:01Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6672606-aleksandr-nikishin-podpisal-odnoletnij-kontrakt-s-karolinoj-s-zarplatoj-3-mln.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Каролина Харрикейнз",
+        "Александр Никишин",
+        "Эрик Тулски"
+      ],
+      "relatedTeamIds": [
+        "nhl:car"
+      ],
+      "relatedPlayerIds": [
+        "khl:p_nikishin"
+      ]
+    },
+    {
       "id": "news-6672494",
       "slug": "rezultaty-matchej-mhl-na-25-oktyabrya-2026-goda",
       "title": "Результаты матчей МХЛ на 25 октября 2026 года",
@@ -696,51 +745,6 @@
       "relatedTeamIds": [
         "khl:cska",
         "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6672020",
-      "slug": "salavat-yulaev-ak-bars-rezultat-matcha-25-oktyabrya-2026-goda-schet-1-2-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Салават Юлаев» проиграл «Ак Барсу» в «зелёном дерби». Хмелевски забил первый гол в сезоне",
-      "summary": "В Уфе на стадионе «Уфа-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Салават Юлаев» принимал казанский «Ак Барс».",
-      "content": "В Уфе на стадионе «Уфа-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Салават Юлаев» принимал казанский «Ак Барс».",
-      "image": "https://img.championat.com/news/big/h/d/salavat-yulaev-proigral-ak-barsu-v-zelyonom-derbi-hmelevski-zabil-pervyj-gol-v-sezone_17929349791561315747.jpg",
-      "publishedAt": "2026-10-25T13:48:38Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6672020-salavat-yulaev-ak-bars-rezultat-matcha-25-oktyabrya-2026-goda-schet-1-2-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Салават Юлаев",
-        "Александр Хмелевски"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6672002",
-      "slug": "lada-sochi-rezultat-matcha-25-oktyabrya-2026-goda-schet-3-4-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Лада» проиграла «Сочи» и опустилась на последнее место Западной конференции КХЛ",
-      "summary": "Сегодня, 25 октября, в Тольятти на стадионе «Лада-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Лада» принимала «Сочи».",
-      "content": "Сегодня, 25 октября, в Тольятти на стадионе «Лада-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Лада» принимала «Сочи».",
-      "image": "https://img.championat.com/news/big/p/n/lada-proigrala-sochi-i-opustilas-na-poslednee-mesto-zapadnoj-konferencii-khl_17929337971836849191.jpg",
-      "publishedAt": "2026-10-25T13:12:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6672002-lada-sochi-rezultat-matcha-25-oktyabrya-2026-goda-schet-3-4-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Сочи",
-        "Лада"
-      ],
-      "relatedTeamIds": [
-        "khl:lada",
-        "khl:sochi"
       ],
       "relatedPlayerIds": []
     }
