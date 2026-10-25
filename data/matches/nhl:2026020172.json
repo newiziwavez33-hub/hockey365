@@ -7,20 +7,20 @@
   "seriesGame": null,
   "utcDate": "2026-10-24T23:00:00Z",
   "status": "LIVE",
-  "period": 1,
-  "clock": "06:43",
+  "period": 3,
+  "clock": "02:24",
   "finishedIn": null,
   "home": {
     "id": "nhl:pit",
-    "score": 0,
+    "score": 1,
     "periods": [],
-    "shots": 8
+    "shots": 33
   },
   "away": {
     "id": "nhl:nsh",
-    "score": 1,
+    "score": 2,
     "periods": [],
-    "shots": 5
+    "shots": 25
   },
   "arena": "PPG Paints Arena",
   "officials": {
@@ -41,17 +41,65 @@
       ],
       "score": "0-1",
       "order": 135
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "17:16",
+      "team": "away",
+      "playerId": "nhl:p_8474600",
+      "playerName": "Roman Josi",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 230
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "00:18",
+      "team": "home",
+      "playerId": "nhl:p_8480980",
+      "playerName": "Connor Dewar",
+      "assists": [
+        "nhl:p_8481725"
+      ],
+      "score": "1-1",
+      "order": 271
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "06:40",
+      "team": "away",
+      "playerId": "nhl:p_8481593",
+      "playerName": "Jayden Struble",
+      "assists": [
+        "nhl:p_8481535"
+      ],
+      "score": "1-2",
+      "order": 358
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "10:44",
+      "team": "home",
+      "playerId": "nhl:p_8480980",
+      "playerName": "Connor Dewar",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 667
     }
   ],
   "lineups": null,
   "stats": {
     "shots": [
-      8,
-      5
+      33,
+      25
     ],
     "shotsOnGoal": [
-      8,
-      5
+      33,
+      25
     ]
   },
   "h2h": [],
@@ -62,7 +110,7 @@
       "https://api-web.nhle.com/v1/gamecenter/2026020172/boxscore",
       "https://api-web.nhle.com/v1/gamecenter/2026020172/play-by-play"
     ],
-    "fetchedAt": "2026-10-24T23:33:55.815682+00:00"
+    "fetchedAt": "2026-10-25T01:31:55.766860+00:00"
   },
   "broadcast": {
     "type": "external",
@@ -71,6 +119,6 @@
     "url": "https://www.nhl.com/gamecenter/nsh-vs-pit/2026/10/24/2026020172",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/nsh-vs-pit/2026/10/24/2026020172",
-    "verifiedAt": "2026-10-24T23:33:55.815744Z"
+    "verifiedAt": "2026-10-25T01:31:55.766997Z"
   }
 }

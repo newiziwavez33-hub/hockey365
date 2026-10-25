@@ -7,20 +7,20 @@
   "seriesGame": null,
   "utcDate": "2026-10-24T23:00:00Z",
   "status": "LIVE",
-  "period": 1,
-  "clock": "08:30",
+  "period": 3,
+  "clock": "05:25",
   "finishedIn": null,
   "home": {
     "id": "nhl:ott",
-    "score": 2,
+    "score": 5,
     "periods": [],
-    "shots": 4
+    "shots": 21
   },
   "away": {
     "id": "nhl:nyr",
-    "score": 0,
+    "score": 3,
     "periods": [],
-    "shots": 2
+    "shots": 23
   },
   "arena": "Canadian Tire Centre",
   "officials": {
@@ -65,7 +65,7 @@
       "playerName": "Artem Zub",
       "minutes": 2,
       "reason": "high-sticking",
-      "order": 136
+      "order": 141
     },
     {
       "type": "PENALTY",
@@ -76,18 +76,156 @@
       "playerName": "Pavel Dorofeyev",
       "minutes": 2,
       "reason": "high-sticking",
-      "order": 144
+      "order": 151
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "01:47",
+      "team": "home",
+      "playerId": "nhl:p_8480208",
+      "playerName": "Drake Batherson",
+      "assists": [
+        "nhl:p_8481528",
+        "nhl:p_8481606"
+      ],
+      "score": "3-0",
+      "order": 325
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "03:45",
+      "team": "away",
+      "playerId": "nhl:p_8476468",
+      "playerName": "J.T. Miller",
+      "minutes": 2,
+      "reason": "boarding",
+      "order": 351
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "09:20",
+      "team": "away",
+      "playerId": "nhl:p_8480434",
+      "playerName": "Sean Durzi",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 425
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "10:07",
+      "team": "away",
+      "playerId": "nhl:p_8482157",
+      "playerName": "Will Cuylle",
+      "assists": [
+        "nhl:p_8483690",
+        "nhl:p_8479323"
+      ],
+      "score": "3-1",
+      "order": 431
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "11:21",
+      "team": "home",
+      "playerId": "nhl:p_8481528",
+      "playerName": "Dylan Cozens",
+      "assists": [
+        "nhl:p_8480208",
+        "nhl:p_8484759"
+      ],
+      "score": "4-1",
+      "order": 447
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "12:54",
+      "team": "away",
+      "playerId": "nhl:p_8476468",
+      "playerName": "J.T. Miller",
+      "assists": [
+        "nhl:p_8479323",
+        "nhl:p_8477416"
+      ],
+      "score": "4-2",
+      "order": 464
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "14:39",
+      "team": "home",
+      "playerId": "nhl:p_8481596",
+      "playerName": "Shane Pinto",
+      "minutes": 2,
+      "reason": "slashing",
+      "order": 484
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "18:47",
+      "team": "away",
+      "playerId": "nhl:p_8478882",
+      "playerName": "Vladislav Gavrikov",
+      "minutes": 2,
+      "reason": "high-sticking",
+      "order": 533
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "18:47",
+      "team": "home",
+      "playerId": "nhl:p_8480208",
+      "playerName": "Drake Batherson",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 535
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "19:34",
+      "team": "away",
+      "playerId": "nhl:p_8482109",
+      "playerName": "Alexis Lafrenière",
+      "assists": [
+        "nhl:p_8476468"
+      ],
+      "score": "4-3",
+      "order": 543
+    },
+    {
+      "type": "GOAL",
+      "period": 3,
+      "time": "13:38",
+      "team": "home",
+      "playerId": "nhl:p_8482105",
+      "playerName": "Jake Sanderson",
+      "assists": [
+        "nhl:p_8482092",
+        "nhl:p_8478020"
+      ],
+      "score": "5-3",
+      "order": 720
     }
   ],
   "lineups": null,
   "stats": {
     "shots": [
-      4,
-      2
+      21,
+      23
     ],
     "shotsOnGoal": [
-      4,
-      2
+      21,
+      23
     ]
   },
   "h2h": [],
@@ -98,7 +236,7 @@
       "https://api-web.nhle.com/v1/gamecenter/2026020171/boxscore",
       "https://api-web.nhle.com/v1/gamecenter/2026020171/play-by-play"
     ],
-    "fetchedAt": "2026-10-24T23:33:55.753318+00:00"
+    "fetchedAt": "2026-10-25T01:31:55.680453+00:00"
   },
   "broadcast": {
     "type": "external",
@@ -107,6 +245,6 @@
     "url": "https://www.nhl.com/gamecenter/nyr-vs-ott/2026/10/24/2026020171",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/nyr-vs-ott/2026/10/24/2026020171",
-    "verifiedAt": "2026-10-24T23:33:55.753383Z"
+    "verifiedAt": "2026-10-25T01:31:55.680565Z"
   }
 }

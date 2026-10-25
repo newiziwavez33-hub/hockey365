@@ -7,20 +7,20 @@
   "seriesGame": null,
   "utcDate": "2026-10-24T23:00:00Z",
   "status": "LIVE",
-  "period": 1,
-  "clock": "07:44",
+  "period": 3,
+  "clock": "07:03",
   "finishedIn": null,
   "home": {
     "id": "nhl:bos",
-    "score": 1,
+    "score": 5,
     "periods": [],
-    "shots": 10
+    "shots": 33
   },
   "away": {
     "id": "nhl:sjs",
-    "score": 1,
+    "score": 4,
     "periods": [],
-    "shots": 6
+    "shots": 24
   },
   "arena": "TD Garden",
   "officials": {
@@ -61,22 +61,279 @@
       "playerId": "nhl:p_8485402",
       "playerName": "Michael Misa",
       "assists": [
-        "nhl:p_8478874",
-        "nhl:p_8475726"
+        "nhl:p_8475726",
+        "nhl:p_8476885"
       ],
       "score": "1-1",
       "order": 84
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "12:16",
+      "team": "home",
+      "playerId": "nhl:p_8483489",
+      "playerName": "Fraser Minten",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 174
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "02:43",
+      "team": "away",
+      "playerId": "nhl:p_8480848",
+      "playerName": "Ty Dellandrea",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 300
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "08:20",
+      "team": "home",
+      "playerId": "nhl:p_8482177",
+      "playerName": "Marat Khusnutdinov",
+      "assists": [
+        "nhl:p_8479987",
+        "nhl:p_8483489"
+      ],
+      "score": "2-1",
+      "order": 358
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "09:29",
+      "team": "home",
+      "playerId": "nhl:p_8477507",
+      "playerName": "Nikita Zadorov",
+      "minutes": 2,
+      "reason": "slashing",
+      "order": 367
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "10:40",
+      "team": "away",
+      "playerId": "nhl:p_8478975",
+      "playerName": "Mason Marchment",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 380
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "12:42",
+      "team": "away",
+      "playerId": "nhl:p_8475200",
+      "playerName": "Dmitry Orlov",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 401
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "13:34",
+      "team": "away",
+      "playerId": "nhl:p_8480748",
+      "playerName": "Kiefer Sherwood",
+      "score": "2-2",
+      "order": 413
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "15:37",
+      "team": "away",
+      "playerId": "nhl:p_8480891",
+      "playerName": "Michael Kesselring",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 434
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "15:37",
+      "team": "home",
+      "playerId": "nhl:p_8480355",
+      "playerName": "Mark Kastelic",
+      "minutes": 2,
+      "reason": "boarding",
+      "order": 436
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "15:37",
+      "team": "away",
+      "playerId": "nhl:p_8480891",
+      "playerName": "Michael Kesselring",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 438
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "15:37",
+      "team": "home",
+      "playerId": "nhl:p_8480355",
+      "playerName": "Mark Kastelic",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 440
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "02:38",
+      "team": "home",
+      "playerId": "nhl:p_8479661",
+      "playerName": "Tanner Jeannot",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 540
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "02:38",
+      "team": "away",
+      "playerId": "nhl:p_8482859",
+      "playerName": "Zack Ostapchuk",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 542
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "03:13",
+      "team": "home",
+      "playerId": "nhl:p_8477496",
+      "playerName": "Elias Lindholm",
+      "minutes": 2,
+      "reason": "slashing",
+      "order": 550
+    },
+    {
+      "type": "GOAL",
+      "period": 3,
+      "time": "04:03",
+      "team": "away",
+      "playerId": "nhl:p_8475200",
+      "playerName": "Dmitry Orlov",
+      "assists": [
+        "nhl:p_8486103",
+        "nhl:p_8478975"
+      ],
+      "score": "2-3",
+      "order": 556
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "06:19",
+      "team": "home",
+      "playerId": "nhl:p_8477956",
+      "playerName": "David Pastrnak",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 589
+    },
+    {
+      "type": "GOAL",
+      "period": 3,
+      "time": "08:27",
+      "team": "home",
+      "playerId": "nhl:p_8477956",
+      "playerName": "David Pastrnak",
+      "assists": [
+        "nhl:p_8482175"
+      ],
+      "score": "3-3",
+      "order": 621
+    },
+    {
+      "type": "GOAL",
+      "period": 3,
+      "time": "09:07",
+      "team": "home",
+      "playerId": "nhl:p_8485395",
+      "playerName": "James Hagens",
+      "assists": [
+        "nhl:p_8477496"
+      ],
+      "score": "4-3",
+      "order": 633
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "10:32",
+      "team": "away",
+      "playerId": "nhl:p_8482700",
+      "playerName": "Nolan Allan",
+      "minutes": 4,
+      "reason": "high-sticking-double-minor",
+      "order": 651
+    },
+    {
+      "type": "GOAL",
+      "period": 3,
+      "time": "12:00",
+      "team": "home",
+      "playerId": "nhl:p_8483489",
+      "playerName": "Fraser Minten",
+      "assists": [
+        "nhl:p_8482175",
+        "nhl:p_8479999"
+      ],
+      "score": "5-3",
+      "order": 668
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "12:12",
+      "team": "home",
+      "playerId": "nhl:p_8485395",
+      "playerName": "James Hagens",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 676
+    },
+    {
+      "type": "GOAL",
+      "period": 3,
+      "time": "12:27",
+      "team": "away",
+      "playerId": "nhl:p_8484227",
+      "playerName": "Will Smith",
+      "assists": [
+        "nhl:p_8476885",
+        "nhl:p_8484801"
+      ],
+      "score": "5-4",
+      "order": 681
     }
   ],
   "lineups": null,
   "stats": {
     "shots": [
-      10,
-      6
+      33,
+      24
     ],
     "shotsOnGoal": [
-      10,
-      6
+      33,
+      24
     ]
   },
   "h2h": [],
@@ -87,7 +344,7 @@
       "https://api-web.nhle.com/v1/gamecenter/2026020170/boxscore",
       "https://api-web.nhle.com/v1/gamecenter/2026020170/play-by-play"
     ],
-    "fetchedAt": "2026-10-24T23:33:55.708100+00:00"
+    "fetchedAt": "2026-10-25T01:31:55.592402+00:00"
   },
   "broadcast": {
     "type": "external",
@@ -96,6 +353,6 @@
     "url": "https://www.nhl.com/gamecenter/sjs-vs-bos/2026/10/24/2026020170",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/sjs-vs-bos/2026/10/24/2026020170",
-    "verifiedAt": "2026-10-24T23:33:55.708174Z"
+    "verifiedAt": "2026-10-25T01:31:55.592522Z"
   }
 }

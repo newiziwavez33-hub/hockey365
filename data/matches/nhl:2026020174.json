@@ -7,20 +7,20 @@
   "seriesGame": null,
   "utcDate": "2026-10-24T23:00:00Z",
   "status": "LIVE",
-  "period": 1,
-  "clock": "07:28",
+  "period": 3,
+  "clock": "04:29",
   "finishedIn": null,
   "home": {
     "id": "nhl:cbj",
     "score": 1,
     "periods": [],
-    "shots": 4
+    "shots": 18
   },
   "away": {
     "id": "nhl:vgk",
-    "score": 0,
+    "score": 1,
     "periods": [],
-    "shots": 4
+    "shots": 25
   },
   "arena": "Nationwide Arena",
   "officials": {
@@ -37,7 +37,7 @@
       "playerName": "Ryan Lomberg",
       "minutes": 2,
       "reason": "tripping",
-      "order": 90
+      "order": 88
     },
     {
       "type": "GOAL",
@@ -51,18 +51,54 @@
         "nhl:p_8477501"
       ],
       "score": "1-0",
-      "order": 173
+      "order": 175
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "17:13",
+      "team": "away",
+      "playerId": "nhl:p_8476881",
+      "playerName": "Tomas Hertl",
+      "assists": [
+        "nhl:p_8483890",
+        "nhl:p_8484803"
+      ],
+      "score": "1-1",
+      "order": 245
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "03:17",
+      "team": "away",
+      "playerId": "nhl:p_8475343",
+      "playerName": "Nic Dowd",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 565
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "06:01",
+      "team": "away",
+      "playerId": "nhl:p_8478468",
+      "playerName": "Jeremy Lauzon",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 598
     }
   ],
   "lineups": null,
   "stats": {
     "shots": [
-      4,
-      4
+      18,
+      25
     ],
     "shotsOnGoal": [
-      4,
-      4
+      18,
+      25
     ]
   },
   "h2h": [],
@@ -73,7 +109,7 @@
       "https://api-web.nhle.com/v1/gamecenter/2026020174/boxscore",
       "https://api-web.nhle.com/v1/gamecenter/2026020174/play-by-play"
     ],
-    "fetchedAt": "2026-10-24T23:33:55.913575+00:00"
+    "fetchedAt": "2026-10-25T01:31:55.949533+00:00"
   },
   "broadcast": {
     "type": "external",
@@ -82,6 +118,6 @@
     "url": "https://www.nhl.com/gamecenter/vgk-vs-cbj/2026/10/24/2026020174",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/vgk-vs-cbj/2026/10/24/2026020174",
-    "verifiedAt": "2026-10-24T23:33:55.913644Z"
+    "verifiedAt": "2026-10-25T01:31:55.949650Z"
   }
 }
