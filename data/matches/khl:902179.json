@@ -6,32 +6,24 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-25T14:00:00Z",
-  "status": "LIVE",
-  "period": 3,
+  "status": "FINISHED",
+  "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "SO",
   "home": {
     "id": "khl:spartak",
     "name": "Спартак",
     "logo": "https://thumbs.webcaster.pro/rec-2-19.webcaster.pro/fc/sdc2/team_pics/18/original/spartak_2015__200x200.png",
     "score": 3,
-    "periods": [
-      0,
-      2,
-      1
-    ],
+    "periods": [],
     "shots": null
   },
   "away": {
     "id": "khl:dragons",
     "name": "Драконы",
     "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdh/team_pics/315/original/Shanghai_Dragons_2026_500x500_NEW_(1).png",
-    "score": 1,
-    "periods": [
-      1,
-      0,
-      0
-    ],
+    "score": 4,
+    "periods": [],
     "shots": null
   },
   "arena": null,
@@ -58,6 +50,6 @@
     "stageId": 407,
     "eventId": 3000867,
     "matchId": "902179",
-    "fetchedAt": "2026-10-25T15:47:51.680609Z"
+    "fetchedAt": "2026-10-25T18:34:03.723277Z"
   }
 }
