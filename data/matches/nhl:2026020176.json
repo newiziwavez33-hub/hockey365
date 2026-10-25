@@ -6,215 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-24T23:00:00Z",
-  "status": "LIVE",
+  "status": "FINISHED",
   "period": 3,
-  "clock": "06:21",
-  "finishedIn": null,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:edm",
-    "score": 1,
+    "score": 2,
     "periods": [],
-    "shots": 25
+    "shots": null
   },
   "away": {
     "id": "nhl:tor",
-    "score": 4,
+    "score": 7,
     "periods": [],
-    "shots": 25
+    "shots": null
   },
   "arena": "Rogers Place",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "03:33",
-      "team": "away",
-      "playerId": "nhl:p_8478458",
-      "playerName": "Jack Roslovic",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 66
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "14:16",
-      "team": "away",
-      "playerId": "nhl:p_8478458",
-      "playerName": "Jack Roslovic",
-      "score": "0-1",
-      "order": 205
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "19:04",
-      "team": "away",
-      "playerId": "nhl:p_8479442",
-      "playerName": "Troy Stecher",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 274
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "19:04",
-      "team": "home",
-      "playerId": "nhl:p_8480029",
-      "playerName": "Alex Formenton",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 276
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "05:29",
-      "team": "away",
-      "playerId": "nhl:p_8479318",
-      "playerName": "Auston Matthews",
-      "assists": [
-        "nhl:p_8484158",
-        "nhl:p_8478458"
-      ],
-      "score": "0-2",
-      "order": 370
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "06:23",
-      "team": "away",
-      "playerId": "nhl:p_8479442",
-      "playerName": "Troy Stecher",
-      "assists": [
-        "nhl:p_8480893",
-        "nhl:p_8476853"
-      ],
-      "score": "0-3",
-      "order": 382
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "13:11",
-      "team": "home",
-      "playerId": "nhl:p_8476473",
-      "playerName": "Connor Murphy",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 472
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "13:11",
-      "team": "away",
-      "playerId": "nhl:p_8479968",
-      "playerName": "Vinni Lettieri",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 474
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "14:39",
-      "team": "away",
-      "playerId": "nhl:p_8484158",
-      "playerName": "Easton Cowan",
-      "minutes": 2,
-      "reason": "slashing",
-      "order": 495
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "18:05",
-      "team": "away",
-      "playerId": "nhl:p_8477426",
-      "playerName": "Nick Paul",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 537
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "18:05",
-      "team": "home",
-      "playerId": "nhl:p_8486161",
-      "playerName": "Owen Michaels",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 539
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "19:04",
-      "team": "home",
-      "playerId": "nhl:p_8477934",
-      "playerName": "Leon Draisaitl",
-      "assists": [
-        "nhl:p_8478402",
-        "nhl:p_8480803"
-      ],
-      "score": "1-3",
-      "order": 552
-    },
-    {
-      "type": "PENALTY",
-      "period": 3,
-      "time": "05:45",
-      "team": "home",
-      "playerId": "nhl:p_8482703",
-      "playerName": "Colton Dach",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 658
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "05:59",
-      "team": "away",
-      "playerId": "nhl:p_8477939",
-      "playerName": "William Nylander",
-      "assists": [
-        "nhl:p_8478178",
-        "nhl:p_8480893"
-      ],
-      "score": "1-4",
-      "order": 663
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      25,
-      25
-    ],
-    "shotsOnGoal": [
-      25,
-      25
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020176/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020176/play-by-play"
-    ],
-    "fetchedAt": "2026-10-25T01:31:56.127216+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -222,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/tor-vs-edm/2026/10/24/2026020176",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/tor-vs-edm/2026/10/24/2026020176",
-    "verifiedAt": "2026-10-25T01:31:56.127329Z"
+    "verifiedAt": "2026-10-25T06:41:47.704366Z"
   }
 }
