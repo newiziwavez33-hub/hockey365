@@ -6,24 +6,30 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-25T11:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "LIVE",
+  "period": 2,
   "clock": null,
   "finishedIn": null,
   "home": {
     "id": "khl:lada",
     "name": "Лада",
-    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/105/original/Lada_logo_2026_200x200_NEW.png",
-    "score": null,
-    "periods": [],
+    "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdn/team_pics/105/original/Lada_logo_2026_200x200_NEW.png",
+    "score": 1,
+    "periods": [
+      1,
+      0
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:sochi",
     "name": "ХК Сочи",
     "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/113/original/hc_sochi_2024__200x200_new.png",
-    "score": null,
-    "periods": [],
+    "score": 2,
+    "periods": [
+      2,
+      0
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +56,6 @@
     "stageId": 407,
     "eventId": 3000883,
     "matchId": "902183",
-    "fetchedAt": "2026-10-25T06:41:49.279288Z"
+    "fetchedAt": "2026-10-25T11:59:47.523421Z"
   }
 }
