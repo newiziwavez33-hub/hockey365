@@ -6,24 +6,32 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-26T14:00:00Z",
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:avtomobilist",
     "name": "Автомобилист",
     "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/56/original/avtomobilist__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 4,
+    "periods": [
+      2,
+      1,
+      1
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:barys",
     "name": "Барыс",
     "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/46/original/barys_2022_head_only__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 1,
+    "periods": [
+      0,
+      1,
+      0
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000887,
     "matchId": "902184",
-    "fetchedAt": "2026-10-26T12:53:13.009923Z"
+    "fetchedAt": "2026-10-26T18:53:53.785726Z"
   }
 }

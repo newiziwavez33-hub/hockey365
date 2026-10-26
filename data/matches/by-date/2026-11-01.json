@@ -14,7 +14,7 @@
     "home": {
       "id": "khl:admiral",
       "name": "Адмирал",
-      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/61/original/admiral_2024_200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdg/team_pics/61/original/admiral_2024_200x200.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -22,7 +22,7 @@
     "away": {
       "id": "khl:amur",
       "name": "Амур",
-      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/12/original/amur_2015__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-2.webcaster.pro/fc/sdc/team_pics/12/original/amur_2015__200x200.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -51,7 +51,7 @@
       "stageId": 407,
       "eventId": 3000999,
       "matchId": "902212",
-      "fetchedAt": "2026-10-26T12:53:13.009923Z"
+      "fetchedAt": "2026-10-26T18:53:53.785726Z"
     }
   },
   {
@@ -77,7 +77,7 @@
     "away": {
       "id": "khl:neftekhimik",
       "name": "Нефтехимик",
-      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/36/original/neftekhimik_2022__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-19.webcaster.pro/fc/sdc2/team_pics/36/original/neftekhimik_2022__200x200.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -106,7 +106,7 @@
       "stageId": 407,
       "eventId": 3000975,
       "matchId": "902206",
-      "fetchedAt": "2026-10-26T12:53:13.009923Z"
+      "fetchedAt": "2026-10-26T18:53:53.785726Z"
     }
   },
   {
@@ -161,7 +161,7 @@
       "stageId": 407,
       "eventId": 3000979,
       "matchId": "902207",
-      "fetchedAt": "2026-10-26T12:53:13.009923Z"
+      "fetchedAt": "2026-10-26T18:53:53.785726Z"
     }
   },
   {
@@ -179,7 +179,7 @@
     "home": {
       "id": "khl:traktor",
       "name": "Трактор",
-      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdb/team_pics/28/original/traktor_2020__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/28/original/traktor_2020__200x200.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -216,7 +216,7 @@
       "stageId": 407,
       "eventId": 3000987,
       "matchId": "902209",
-      "fetchedAt": "2026-10-26T12:53:13.009923Z"
+      "fetchedAt": "2026-10-26T18:53:53.785726Z"
     }
   },
   {
@@ -242,7 +242,7 @@
     "away": {
       "id": "khl:spartak",
       "name": "Спартак",
-      "logo": "https://thumbs.webcaster.pro/rec-2-19.webcaster.pro/fc/sdc2/team_pics/18/original/spartak_2015__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/18/original/spartak_2015__200x200.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -271,7 +271,7 @@
       "stageId": 407,
       "eventId": 3000983,
       "matchId": "902208",
-      "fetchedAt": "2026-10-26T12:53:13.009923Z"
+      "fetchedAt": "2026-10-26T18:53:53.785726Z"
     }
   },
   {
@@ -326,7 +326,7 @@
       "stageId": 407,
       "eventId": 3000991,
       "matchId": "902210",
-      "fetchedAt": "2026-10-26T12:53:13.009923Z"
+      "fetchedAt": "2026-10-26T18:53:53.785726Z"
     }
   },
   {
@@ -381,7 +381,222 @@
       "stageId": 407,
       "eventId": 3000995,
       "matchId": "902211",
-      "fetchedAt": "2026-10-26T12:53:13.009923Z"
+      "fetchedAt": "2026-10-26T18:53:53.785726Z"
+    }
+  },
+  {
+    "id": "nhl:2026020227",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-01T18:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:car",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:wpg",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Lenovo Center",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/wpg-vs-car/2026/11/01/2026020227",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/wpg-vs-car/2026/11/01/2026020227",
+      "verifiedAt": "2026-10-26T18:53:51.984670Z"
+    }
+  },
+  {
+    "id": "nhl:2026020228",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-01T20:30:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:wsh",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:min",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Capital One Arena",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/min-vs-wsh/2026/11/01/2026020228",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/min-vs-wsh/2026/11/01/2026020228",
+      "verifiedAt": "2026-10-26T18:53:51.984752Z"
+    }
+  },
+  {
+    "id": "nhl:2026020229",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-01T21:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:phi",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:uta",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Xfinity Mobile Arena",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/uta-vs-phi/2026/11/01/2026020229",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/uta-vs-phi/2026/11/01/2026020229",
+      "verifiedAt": "2026-10-26T18:53:51.984799Z"
+    }
+  },
+  {
+    "id": "nhl:2026020230",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-01T23:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:nyr",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:edm",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Madison Square Garden",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/edm-vs-nyr/2026/11/01/2026020230",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/edm-vs-nyr/2026/11/01/2026020230",
+      "verifiedAt": "2026-10-26T18:53:51.984841Z"
+    }
+  },
+  {
+    "id": "nhl:2026020231",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-02T01:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:ana",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:ott",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Honda Center",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/ott-vs-ana/2026/11/01/2026020231",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/ott-vs-ana/2026/11/01/2026020231",
+      "verifiedAt": "2026-10-26T18:53:51.984916Z"
     }
   }
 ]

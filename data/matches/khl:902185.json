@@ -6,24 +6,32 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-26T16:30:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "LIVE",
+  "period": 3,
   "clock": null,
   "finishedIn": null,
   "home": {
     "id": "khl:dynamo-msk",
     "name": "Динамо М",
     "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/8/original/dynamo_msk_2019__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 2,
+    "periods": [
+      1,
+      1,
+      0
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:avangard",
     "name": "Авангард",
     "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/10/original/Avangard_2026_500x500_NEW.png",
-    "score": null,
-    "periods": [],
+    "score": 2,
+    "periods": [
+      0,
+      0,
+      2
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000891,
     "matchId": "902185",
-    "fetchedAt": "2026-10-26T12:53:13.009923Z"
+    "fetchedAt": "2026-10-26T18:53:53.785726Z"
   }
 }
