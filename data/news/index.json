@@ -1,6 +1,297 @@
 {
   "news": [
     {
+      "id": "news-6673852",
+      "slug": "rezultaty-matchej-mhl-na-26-oktyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 26 октября 2026 года",
+      "summary": "Сегодня, 26 октября, прошли три матча OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 26 октября, прошли три матча OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-10-26T20:55:16Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6673852-rezultaty-matchej-mhl-na-26-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Снежные Барсы",
+        "Молот",
+        "МХК Спутник Альметьевск",
+        "МХК Красноярские Рыси"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6673844",
+      "slug": "rezultaty-matchej-vhl-na-26-oktyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 26 октября 2026 года",
+      "summary": "Сегодня, 26 октября, состоялись пять матчей OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 26 октября, состоялись пять матчей OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-26T20:50:08Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6673844-rezultaty-matchej-vhl-na-26-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Югра",
+        "Рубин",
+        "Торос",
+        "Ижсталь",
+        "Зауралье",
+        "Молот-Прикамье",
+        "Динамо Санкт-Петербург",
+        "АКМ",
+        "СКА-ВМФ",
+        "Калуга"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6673808",
+      "slug": "rezultaty-matchej-khl-na-26-oktyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 26 октября 2026 года",
+      "summary": "Сегодня, 26 октября, прошли очередные матчи регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 26 октября, прошли очередные матчи регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-26T20:45:51Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6673808-rezultaty-matchej-khl-na-26-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Динамо Москва",
+        "Трактор",
+        "Сибирь",
+        "Автомобилист",
+        "Барыс"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:avtomobilist",
+        "khl:barys",
+        "khl:dynamo-msk",
+        "khl:sibir",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6673836",
+      "slug": "za-50-let-nikogda-ne-videl-takoj-situacii-gi-bushe-o-problemah-avangarda-s-sostavom",
+      "title": "«За 50 лет никогда не видел такой ситуации». Ги Буше — о проблемах «Авангарда» с составом",
+      "summary": "Главный тренер «Авангарда» Ги Буше после победы над московским «Динамо» (3:2 ОТ) заявил, что любит сложности и видит в них возможности.",
+      "content": "Главный тренер «Авангарда» Ги Буше после победы над московским «Динамо» (3:2 ОТ) заявил, что любит сложности и видит в них возможности.",
+      "image": "https://img.championat.com/news/big/l/c/za-50-let-nikogda-ne-videl-t.jpg",
+      "publishedAt": "2026-10-26T20:44:26Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6673836-za-50-let-nikogda-ne-videl-takoj-situacii-gi-bushe-o-problemah-avangarda-s-sostavom.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Динамо Москва",
+        "Ги Буше"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6673828",
+      "slug": "tambiev-kogda-v-atake-dinamo-poyavitsya-konkurenciya-togda-u-menya-budut-drugie-rychagi",
+      "title": "Тамбиев: когда в атаке «Динамо» появится конкуренция, тогда у меня будут другие рычаги",
+      "summary": "Главный тренер московского «Динамо» Леонид Тамбиев ответил, есть ли психологическая составляющая в последних поражениях команды.",
+      "content": "Главный тренер московского «Динамо» Леонид Тамбиев ответил, есть ли психологическая составляющая в последних поражениях команды.",
+      "image": "https://img.championat.com/news/big/x/x/tambiev-kogda-v-atake-dinamo.jpg",
+      "publishedAt": "2026-10-26T20:41:13Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6673828-tambiev-kogda-v-atake-dinamo-poyavitsya-konkurenciya-togda-u-menya-budut-drugie-rychagi.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Динамо Москва",
+        "Леонид Тамбиев"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6673826",
+      "slug": "leonid-tambiev-soglasilsya-s-tem-chto-poterya-dzhordana-uila-yavlyaetsya-fatalnoj-dlya-dinamo",
+      "title": "Леонид Тамбиев согласился с тем, что потеря Джордана Уила является фатальной для «Динамо»",
+      "summary": "Главный тренер московского «Динамо» Леонид Тамбиев после поражения от «Авангарда» (2:3 ОТ) заявил, что потеря нападающего Джордана Уила очень ощутима.",
+      "content": "Главный тренер московского «Динамо» Леонид Тамбиев после поражения от «Авангарда» (2:3 ОТ) заявил, что потеря нападающего Джордана Уила очень ощутима.",
+      "image": "https://img.championat.com/news/big/j/r/leonid-tambiev-soglasilsya-s.jpg",
+      "publishedAt": "2026-10-26T20:38:03Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6673826-leonid-tambiev-soglasilsya-s-tem-chto-poterya-dzhordana-uila-yavlyaetsya-fatalnoj-dlya-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Динамо Москва",
+        "Леонид Тамбиев",
+        "Джордан Уил"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6673820",
+      "slug": "proyavlenie-haraktera-nasha-vizitnaya-kartochka-bushe-o-volevoj-pobede-nad-dinamo",
+      "title": "«Проявление характера — наша визитная карточка». Буше — о волевой победе над «Динамо»",
+      "summary": "Главный тренер «Авангарда» Ги Буше прокомментировал волевую победу над московским «Динамо» (3:2 ОТ).",
+      "content": "Главный тренер «Авангарда» Ги Буше прокомментировал волевую победу над московским «Динамо» (3:2 ОТ).",
+      "image": "https://img.championat.com/news/big/u/m/proyavlenie-haraktera-nasha-.jpg",
+      "publishedAt": "2026-10-26T20:34:17Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6673820-proyavlenie-haraktera-nasha-vizitnaya-kartochka-bushe-o-volevoj-pobede-nad-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Динамо Москва",
+        "Ги Буше"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6673814",
+      "slug": "glavnyj-trener-moskovskogo-dinamo-nazval-prichinu-porazheniya-v-matche-s-avangardom",
+      "title": "Главный тренер московского «Динамо» назвал причину поражения в матче с «Авангардом»",
+      "summary": "Главный тренер московского «Динамо» Леонид Тамбиев после поражения от «Авангарда» (2:3 ОТ) заявил, что его команде не хватает надёжных игроков на концовку игры.",
+      "content": "Главный тренер московского «Динамо» Леонид Тамбиев после поражения от «Авангарда» (2:3 ОТ) заявил, что его команде не хватает надёжных игроков на концовку игры.",
+      "image": "https://img.championat.com/news/big/f/g/glavnyj-trener-moskovskogo-d.jpg",
+      "publishedAt": "2026-10-26T20:24:36Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6673814-glavnyj-trener-moskovskogo-dinamo-nazval-prichinu-porazheniya-v-matche-s-avangardom.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Динамо Москва",
+        "Леонид Тамбиев"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6673786",
+      "slug": "karberi-ob-ovechkine-ego-rol-vyhodit-daleko-za-ramki-zabroshennyh-shajb",
+      "title": "Карбери — об Овечкине: его роль выходит далеко за рамки заброшенных шайб",
+      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался о роли российского нападающего Александра Овечкина в команде.",
+      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался о роли российского нападающего Александра Овечкина в команде.",
+      "image": "https://img.championat.com/news/big/j/a/karberi-ob-ovechkine-ego-rol-vyhodit-daleko-za-ramki-zabroshennyh-shajb_17930448761138658805.jpg",
+      "publishedAt": "2026-10-26T20:01:18Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6673786-karberi-ob-ovechkine-ego-rol-vyhodit-daleko-za-ramki-zabroshennyh-shajb.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Спенсер Карбери"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6673754",
+      "slug": "forvard-edmontona-drajzajtl-priznan-pervoj-zvezdoj-nedeli-v-nhl",
+      "title": "Форвард «Эдмонтона» Драйзайтль признан первой звездой недели в НХЛ",
+      "summary": "Первой звездой прошедшей игровой недели в Национальной хоккейной лиге признан немецкий нападающий «Эдмонтон Ойлерз» Леон Драйзайтль.",
+      "content": "Первой звездой прошедшей игровой недели в Национальной хоккейной лиге признан немецкий нападающий «Эдмонтон Ойлерз» Леон Драйзайтль.",
+      "image": "https://img.championat.com/news/big/j/l/forvard-edmontona-drajzajtl-priznan-pervoj-zvezdoj-nedeli-v-nhl_1793043373618871115.jpg",
+      "publishedAt": "2026-10-26T19:36:21Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6673754-forvard-edmontona-drajzajtl-priznan-pervoj-zvezdoj-nedeli-v-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Эдмонтон Ойлерз",
+        "Монреаль Канадиенс",
+        "Калгари Флэймз",
+        "Леон Драйзайтль"
+      ],
+      "relatedTeamIds": [
+        "nhl:cgy",
+        "nhl:edm",
+        "nhl:mtl"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6673744",
+      "slug": "vratar-nyu-dzhersi-hellebajk-gotov-igrat-uzhe-segodnya-no-ne-ya-prinimayu-reshenie",
+      "title": "Вратарь «Нью-Джерси» Хеллебайк: готов играть уже сегодня, но не я принимаю решение",
+      "summary": "Голкипер «Нью-Джерси Дэвилз» Коннор Хеллебайк заявил, что он готов играть уже сегодня.",
+      "content": "Голкипер «Нью-Джерси Дэвилз» Коннор Хеллебайк заявил, что он готов играть уже сегодня.",
+      "image": "https://img.championat.com/news/big/d/f/vratar-nyu-dzhersi-hellebajk-gotov-igrat-uzhe-segodnya-no-ne-ya-prinimayu-reshenie_17930422951635049637.jpg",
+      "publishedAt": "2026-10-26T19:18:16Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6673744-vratar-nyu-dzhersi-hellebajk-gotov-igrat-uzhe-segodnya-no-ne-ya-prinimayu-reshenie.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Нью-Джерси Дэвилз",
+        "Виннипег Джетс",
+        "Коннор Хеллебайк"
+      ],
+      "relatedTeamIds": [
+        "nhl:njd",
+        "nhl:wpg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6673714",
+      "slug": "dinamo-m-avangard-rezultat-matcha-26-oktyabrya-2026-goda-schet-2-3-ot-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "«Авангард» отыгрался с 0:2 и одолел московское «Динамо» в овертайме",
+      "summary": "Сегодня, 26 октября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» принимало омский...",
+      "content": "Сегодня, 26 октября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» принимало омский «Авангард».",
+      "image": "https://img.championat.com/news/big/y/g/avangard-otygralsya-s-0-2-i-odolel-moskovskoe-dinamo-v-overtajme_1793041258776469502.jpg",
+      "publishedAt": "2026-10-26T19:00:59Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6673714-dinamo-m-avangard-rezultat-matcha-26-oktyabrya-2026-goda-schet-2-3-ot-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "Авангард",
+        "Динамо Москва"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6673676",
       "slug": "gordon-prokommentiroval-pobedu-traktora-nad-sibiryu",
       "title": "Гордон прокомментировал победу «Трактора» над «Сибирью»",
@@ -440,294 +731,6 @@
         "khl:dynamo-mns"
       ],
       "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6672544",
-      "slug": "dinamo-m-avangard-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk",
-      "title": "«Динамо» М — «Авангард»: онлайн-трансляция матча КХЛ начнётся в 19:30 мск",
-      "summary": "Сегодня, 26 октября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» примет омский «А...",
-      "content": "Сегодня, 26 октября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» примет омский «Авангард».",
-      "image": "https://img.championat.com/news/big/i/o/dinamo-m-avangard-onlajn-translyaciya-matcha-khl-nachnyotsya-v-19-30-msk_17929581801777814447.jpg",
-      "publishedAt": "2026-10-26T13:30:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6672544-dinamo-m-avangard-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Динамо Москва"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6673320",
-      "slug": "gretcki-videnie-ploschadki-razvito-u-kucherova-luchshe-chem-u-kogo-libo-drugogo-v-hokkee",
-      "title": "Гретцки: видение площадки развито у Кучерова лучше, чем у кого-либо другого в хоккее",
-      "summary": "Легендарный канадский экс-хоккеист Уэйн Гретцки высказался о преимуществах российского нападающего «Тампа-Бэй Лайтнинг» Никиты Кучерова.",
-      "content": "Легендарный канадский экс-хоккеист Уэйн Гретцки высказался о преимуществах российского нападающего «Тампа-Бэй Лайтнинг» Никиты Кучерова.",
-      "image": "https://img.championat.com/news/big/u/v/gretcki-videnie-ploschadki-razvito-u-kucherova-luchshe-chem-u-kogo-libo-drugogo-v-hokkee_1793020283788312752.jpg",
-      "publishedAt": "2026-10-26T13:11:25Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6673320-gretcki-videnie-ploschadki-razvito-u-kucherova-luchshe-chem-u-kogo-libo-drugogo-v-hokkee.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Тампа-Бэй Лайтнинг",
-        "Никита Кучеров",
-        "Уэйн Гретцки"
-      ],
-      "relatedTeamIds": [
-        "nhl:tbl"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453"
-      ]
-    },
-    {
-      "id": "news-6672988",
-      "slug": "eto-brosaetsya-v-glaza-plyuschev-o-prichinah-problem-v-igre-traktora-i-avangarda",
-      "title": "«Это бросается в глаза». Плющев — о причинах проблем в игре «Трактора» и «Авангарда»",
-      "summary": "Заслуженный тренер России Владимир Плющев высказался о ситуации в «Авангарде» и «Тракторе», которые обосновались в нижней части таблицы Восточной конференции КХЛ.",
-      "content": "Заслуженный тренер России Владимир Плющев высказался о ситуации в «Авангарде» и «Тракторе», которые обосновались в нижней части таблицы Восточной конференции КХЛ.",
-      "image": "https://img.championat.com/news/big/a/s/eto-brosaetsya-v-glaza-plyus.jpg",
-      "publishedAt": "2026-10-26T12:50:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6672988-eto-brosaetsya-v-glaza-plyuschev-o-prichinah-problem-v-igre-traktora-i-avangarda.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Трактор",
-        "Владимир Плющев",
-        "Ги Буше",
-        "Скотт Гордон"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6673278",
-      "slug": "inogda-eto-razdrazhaet-sergachyov-otmetil-otlichitelnuyu-osobennost-nikity-kucherova",
-      "title": "«Иногда это раздражает». Сергачёв отметил отличительную особенность Никиты Кучерова",
-      "summary": "Защитник «Юты Маммот» Михаил Сергачёв поделился опытом игры с нападающим Никитой Кучеровым на протяжении семи сезонов в «Тампа-Бэй Лайтнинг».",
-      "content": "Защитник «Юты Маммот» Михаил Сергачёв поделился опытом игры с нападающим Никитой Кучеровым на протяжении семи сезонов в «Тампа-Бэй Лайтнинг».",
-      "image": "https://img.championat.com/news/big/x/b/inogda-eto-razdrazhaet-sergachyov-otmetil-otlichitelnuyu-osobennost-nikity-kucherova_17930171501613703541.jpg",
-      "publishedAt": "2026-10-26T12:40:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6673278-inogda-eto-razdrazhaet-sergachyov-otmetil-otlichitelnuyu-osobennost-nikity-kucherova.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Тампа-Бэй Лайтнинг",
-        "Никита Кучеров",
-        "Михаил Сергачёв",
-        "Юта Маммот"
-      ],
-      "relatedTeamIds": [
-        "nhl:tbl",
-        "nhl:uta"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453"
-      ]
-    },
-    {
-      "id": "news-6673266",
-      "slug": "khl-opredelila-luchshih-igrokov-sedmoj-nedeli-sezona-2026-2027",
-      "title": "КХЛ определила лучших игроков седьмой недели сезона-2026/2027",
-      "summary": "Комиссия по определению лучших хоккеистов определила лауреатов седьмой недели Фонбет Чемпионата КХЛ сезона-2026/2027 в четырёх номинациях.",
-      "content": "Комиссия по определению лучших хоккеистов определила лауреатов седьмой недели Фонбет Чемпионата КХЛ сезона-2026/2027 в четырёх номинациях.",
-      "image": "https://img.championat.com/news/big/p/s/khl-opredelila-luchshih-igro.jpg",
-      "publishedAt": "2026-10-26T12:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6673266-khl-opredelila-luchshih-igrokov-sedmoj-nedeli-sezona-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Автомобилист",
-        "Адмирал",
-        "Сочи",
-        "Евгений Аликин",
-        "Либор Шулак",
-        "Пётр Андреянов",
-        "Матвей Гуськов"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:avtomobilist",
-        "khl:sochi"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6672950",
-      "slug": "kuinn-hyuz-vyskazalsya-o-vozmozhnom-perehode-k-svoim-bratyam-v-nyu-dzhersi",
-      "title": "Куинн Хьюз высказался о возможном переходе к своим братьям в «Нью-Джерси»",
-      "summary": "Защитник «Миннесоты Уайлд» Куинн Хьюз высказался о возможном переходе в «Нью-Джерси Дэвилз», где уже играют его братья — Люк и Джек Хьюзы.",
-      "content": "Защитник «Миннесоты Уайлд» Куинн Хьюз высказался о возможном переходе в «Нью-Джерси Дэвилз», где уже играют его братья — Люк и Джек Хьюзы.",
-      "image": "https://img.championat.com/news/big/e/o/kuinn-hyuz-vyskazalsya-o-vozmozhnom-perehode-k-svoim-bratyam-v-nyu-dzhersi_1792998360419224123.jpg",
-      "publishedAt": "2026-10-26T12:15:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6672950-kuinn-hyuz-vyskazalsya-o-vozmozhnom-perehode-k-svoim-bratyam-v-nyu-dzhersi.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Миннесота Уайлд",
-        "Нью-Джерси Дэвилз",
-        "Джек Хьюз",
-        "Куинн Хьюз",
-        "Люк Хьюз"
-      ],
-      "relatedTeamIds": [
-        "nhl:min",
-        "nhl:njd"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6673000",
-      "slug": "davydov-nazval-shodstva-v-rabote-gatiyatulina-i-bilyaletdinova-v-ak-barse",
-      "title": "Давыдов назвал сходства в работе Гатиятулина и Билялетдинова в «Ак Барсе»",
-      "summary": "Трёхкратный олимпийский чемпион Виталий Давыдов положительно оценил работу главного тренера «Ак Барса» Анвара Гатиятулина.",
-      "content": "Трёхкратный олимпийский чемпион Виталий Давыдов положительно оценил работу главного тренера «Ак Барса» Анвара Гатиятулина.",
-      "image": "https://img.championat.com/news/big/a/t/davydov-nazval-shodstva-v-ra.jpg",
-      "publishedAt": "2026-10-26T12:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6673000-davydov-nazval-shodstva-v-rabote-gatiyatulina-i-bilyaletdinova-v-ak-barse.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Зинэтула Билялетдинов",
-        "Анвар Гатиятулин",
-        "Виталий Давыдов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6672996",
-      "slug": "morozov-o-1000-matchah-panina-v-khl-otlichnyj-primer-dlya-molodyh-hokkeistov",
-      "title": "Морозов — о 1000 матчах Панина в КХЛ: отличный пример для молодых хоккеистов",
-      "summary": "Президент КХЛ Алексей Морозов перед матчем «Салавата Юлаева» с «Ак Барсом» (1:2) высказался о капитане уфимского клуба Григории Панине и вручил ему памятную медаль за 1000 матчей в лиге.",
-      "content": "Президент КХЛ Алексей Морозов перед матчем «Салавата Юлаева» с «Ак Барсом» (1:2) высказался о капитане уфимского клуба Григории Панине и вручил ему памятную медаль за 1000 матчей в лиге.",
-      "image": "https://img.championat.com/news/big/d/v/morozov-o-1000-matchah-panina-v-khl-otlichnyj-primer-dlya-molodyh-hokkeistov_17930005161240929136.jpg",
-      "publishedAt": "2026-10-26T11:40:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6672996-morozov-o-1000-matchah-panina-v-khl-otlichnyj-primer-dlya-molodyh-hokkeistov.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Алексей Морозов",
-        "Григорий Панин"
-      ],
-      "relatedTeamIds": [
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6673132",
-      "slug": "forvard-dinamo-ocenil-rezultaty-komandy-i-podelilsya-ozhidaniyami-ot-dueli-s-maklaudom",
-      "title": "Форвард «Динамо» оценил результаты команды и поделился ожиданиями от дуэли с Маклаудом",
-      "summary": "Центральный нападающий московского «Динамо» Максим Летунов оценил результаты команды в сезоне и высказался о предстоящем матче с «Авангардом».",
-      "content": "Центральный нападающий московского «Динамо» Максим Летунов оценил результаты команды в сезоне и высказался о предстоящем матче с «Авангардом».",
-      "image": "https://img.championat.com/news/big/k/l/forvard-dinamo-ocenil-rezultaty-komandy-i-podelilsya-ozhidaniyami-ot-dueli-s-maklaudom_17930093702065217488.jpg",
-      "publishedAt": "2026-10-26T11:20:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6673132-forvard-dinamo-ocenil-rezultaty-komandy-i-podelilsya-ozhidaniyami-ot-dueli-s-maklaudom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Авангард",
-        "Динамо Москва",
-        "Майкл Маклауд",
-        "Максим Летунов"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6672532",
-      "slug": "traktor-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-17-00-msk",
-      "title": "«Трактор» — «Сибирь»: онлайн-трансляция матча КХЛ начнётся в 17:00 мск",
-      "summary": "Сегодня, 26 октября, в Челябинске пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Трактором» и новосибирской «Сибирью».",
-      "content": "Сегодня, 26 октября, в Челябинске пройдёт матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Трактором» и новосибирской «Сибирью».",
-      "image": "https://img.championat.com/news/big/p/m/traktor-sibir-onlajn-translyaciya-matcha-khl-nachnyotsya-v-17-00-msk_17929575901435588078.jpg",
-      "publishedAt": "2026-10-26T11:00:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6672532-traktor-sibir-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-17-00-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Сибирь"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6672974",
-      "slug": "300-golov-eto-solidnaya-cifra-marchenko-ocenil-dostizhenie-nyulandera-za-toronto",
-      "title": "«300 голов — это солидная цифра». Марченко оценил достижение Нюландера за «Торонто»",
-      "summary": "Нападающий «Торонто Мэйпл Лифс» Кирилл Марченко высказался о достижении Вильямом Нюландером отметки в 300 голов в НХЛ.",
-      "content": "Нападающий «Торонто Мэйпл Лифс» Кирилл Марченко высказался о достижении Вильямом Нюландером отметки в 300 голов в НХЛ.",
-      "image": "https://img.championat.com/news/big/n/o/300-golov-eto-solidnaya-cifra-marchenko-ocenil-dostizhenie-nyulandera-za-toronto_1792999201130933495.jpg",
-      "publishedAt": "2026-10-26T10:40:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6672974-300-golov-eto-solidnaya-cifra-marchenko-ocenil-dostizhenie-nyulandera-za-toronto.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Торонто Мэйпл Лифс",
-        "Кирилл Марченко",
-        "Вильям Нюландер"
-      ],
-      "relatedTeamIds": [
-        "nhl:tor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6672972",
-      "slug": "nikto-ne-zasluzhivaet-etogo-bolshe-nego-pojnt-o-rekorde-kucherova-po-ochkam-za-tampu",
-      "title": "«Никто не заслуживает этого больше него». Пойнт — о рекорде Кучерова по очкам за «Тампу»",
-      "summary": "Нападающий «Тампа-Бэй Лайтнинг» Брейден Пойнт высказался о том, что Никита Кучеров стал лучшим бомбардиром в истории клуба.",
-      "content": "Нападающий «Тампа-Бэй Лайтнинг» Брейден Пойнт высказался о том, что Никита Кучеров стал лучшим бомбардиром в истории клуба.",
-      "image": "https://img.championat.com/news/big/q/b/nikto-ne-zasluzhivaet-etogo-bolshe-nego-pojnt-o-rekorde-kucherova-po-ochkam-za-tampu_179300511265630337.jpg",
-      "publishedAt": "2026-10-26T10:20:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6672972-nikto-ne-zasluzhivaet-etogo-bolshe-nego-pojnt-o-rekorde-kucherova-po-ochkam-za-tampu.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Тампа-Бэй Лайтнинг",
-        "Никита Кучеров",
-        "Брейден Пойнт"
-      ],
-      "relatedTeamIds": [
-        "nhl:tbl"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453"
-      ]
     }
   ]
 }
