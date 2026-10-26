@@ -6,31 +6,100 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-25T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "INTERMISSION",
+  "period": 2,
+  "clock": "06:11",
   "finishedIn": null,
   "home": {
     "id": "nhl:wpg",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 21
   },
   "away": {
     "id": "nhl:mtl",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 15
   },
   "arena": "Princess Auto Stadium",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "16:14",
+      "team": "away",
+      "playerId": "nhl:p_8478851",
+      "playerName": "Alexandre Carrier",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 234
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "07:19",
+      "team": "away",
+      "playerId": "nhl:p_8483457",
+      "playerName": "Lane Hutson",
+      "assists": [
+        "nhl:p_8480865",
+        "nhl:p_8481540"
+      ],
+      "score": "0-1",
+      "order": 375
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "11:04",
+      "team": "away",
+      "playerId": "nhl:p_8482087",
+      "playerName": "Kaiden Guhle",
+      "assists": [
+        "nhl:p_8481540",
+        "nhl:p_8483515"
+      ],
+      "score": "0-2",
+      "order": 426
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "12:53",
+      "team": "away",
+      "playerId": "nhl:p_8481618",
+      "playerName": "Alex Newhook",
+      "minutes": 2,
+      "reason": "high-sticking",
+      "order": 448
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      21,
+      15
+    ],
+    "shotsOnGoal": [
+      21,
+      15
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020182/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020182/play-by-play"
+    ],
+    "fetchedAt": "2026-10-26T01:11:24.630144+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +107,6 @@
     "url": "https://www.nhl.com/gamecenter/mtl-vs-wpg/2026/10/25/2026020182",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/mtl-vs-wpg/2026/10/25/2026020182",
-    "verifiedAt": "2026-10-25T23:14:02.806227Z"
+    "verifiedAt": "2026-10-26T01:11:24.630292Z"
   }
 }

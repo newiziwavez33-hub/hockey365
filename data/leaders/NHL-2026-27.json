@@ -100,12 +100,6 @@
     ],
     "gaa": [
       {
-        "playerId": "nhl:p_8479979",
-        "playerName": "Jake Oettinger",
-        "teamId": "nhl:dal",
-        "value": 1.23
-      },
-      {
         "playerId": "nhl:p_8476999",
         "playerName": "Linus Ullmark",
         "teamId": "nhl:ott",
@@ -116,6 +110,12 @@
         "playerName": "Daniil Tarasov",
         "teamId": "nhl:det",
         "value": 1.4
+      },
+      {
+        "playerId": "nhl:p_8479979",
+        "playerName": "Jake Oettinger",
+        "teamId": "nhl:dal",
+        "value": 1.43
       },
       {
         "playerId": "nhl:p_8480022",
@@ -153,13 +153,13 @@
         "playerId": "nhl:p_8479979",
         "playerName": "Jake Oettinger",
         "teamId": "nhl:dal",
-        "value": 0.939
+        "value": 0.93
       },
       {
-        "playerId": "nhl:p_8478009",
-        "playerName": "Ilya Sorokin",
-        "teamId": "nhl:nyi",
-        "value": 0.934
+        "playerId": "nhl:p_8478048",
+        "playerName": "Igor Shesterkin",
+        "teamId": "nhl:nyr",
+        "value": 0.927
       }
     ]
   }

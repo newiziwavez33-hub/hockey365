@@ -1,6 +1,29 @@
 {
   "news": [
     {
+      "id": "news-6672708",
+      "slug": "dallas-starz-nyu-jork-ajlenders-rezultat-matcha-26-oktyabrya-2026-schet-6-3-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "«Айлендерс» с Сорокиным проиграли «Далласу» в матче с девятью голами",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Даллас Старз» принимал «Нью-Йорк Айлендерс».",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Даллас Старз» принимал «Нью-Йорк Айлендерс».",
+      "image": "https://img.championat.com/news/big/o/u/ajlenders-s-sorokinym-proigrali-dallasu-v-matche-s-devyatyu-golami_17929746971661282277.jpg",
+      "publishedAt": "2026-10-26T00:31:39Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6672708-dallas-starz-nyu-jork-ajlenders-rezultat-matcha-26-oktyabrya-2026-schet-6-3-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Даллас Старз",
+        "Нью-Йорк Айлендерс",
+        "Илья Сорокин"
+      ],
+      "relatedTeamIds": [
+        "nhl:dal",
+        "nhl:nyi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6672596",
       "slug": "chikago-blekhouks-florida-panterz-rezultat-matcha-25-oktyabrya-2026-schet-2-3-nhl-2026-2027",
       "title": "«Чикаго» уступил «Флориде» в НХЛ, Канцеров отметился голом",
@@ -725,28 +748,6 @@
       "relatedPlayerIds": [
         "nhl:p_8476453"
       ]
-    },
-    {
-      "id": "news-6671924",
-      "slug": "ska-cska-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "СКА — ЦСКА: онлайн-трансляция матча КХЛ началась",
-      "summary": "В эти минуты в Санкт-Петербурге на стадионе «СКА Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимает московский ЦСКА.",
-      "content": "В эти минуты в Санкт-Петербурге на стадионе «СКА Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимает московский ЦСКА.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-10-25T14:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6671924-ska-cska-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "ЦСКА"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
     }
   ]
 }

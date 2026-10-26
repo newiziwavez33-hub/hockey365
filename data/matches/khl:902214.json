@@ -1,0 +1,55 @@
+{
+  "id": "khl:902214",
+  "compId": "KHL",
+  "season": "2026/27",
+  "stage": "regular",
+  "round": null,
+  "seriesGame": null,
+  "utcDate": "2026-11-02T16:00:00Z",
+  "status": "SCHEDULED",
+  "period": null,
+  "clock": null,
+  "finishedIn": null,
+  "home": {
+    "id": "khl:lokomotiv",
+    "name": "Локомотив",
+    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdl/team_pics/26/original/lokomotiv_2022__200x200.png",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "away": {
+    "id": "khl:lada",
+    "name": "Лада",
+    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/105/original/Lada_logo_2026_200x200_NEW.png",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "arena": null,
+  "officials": {
+    "referees": [],
+    "linesmen": []
+  },
+  "events": [],
+  "lineups": null,
+  "stats": null,
+  "h2h": [],
+  "source": {
+    "provider": "KHL mobile backend",
+    "official": true,
+    "verified": true,
+    "verifiedMatches": true,
+    "licenseConfirmed": false,
+    "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+    "endpoints": [
+      "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
+      "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+      "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
+    ],
+    "stageId": 407,
+    "eventId": 3001007,
+    "matchId": "902214",
+    "fetchedAt": "2026-10-26T01:11:27.357089Z"
+  }
+}
