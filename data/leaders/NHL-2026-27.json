@@ -16,6 +16,12 @@
         "value": 23
       },
       {
+        "playerId": "nhl:p_8478864",
+        "playerName": "Kirill Kaprizov",
+        "teamId": "nhl:min",
+        "value": 21
+      },
+      {
         "playerId": "nhl:p_8480803",
         "playerName": "Evan Bouchard",
         "teamId": "nhl:edm",
@@ -25,16 +31,16 @@
         "playerId": "nhl:p_8477492",
         "playerName": "Nathan MacKinnon",
         "teamId": "nhl:col",
-        "value": 20
-      },
+        "value": 21
+      }
+    ],
+    "goals": [
       {
         "playerId": "nhl:p_8478864",
         "playerName": "Kirill Kaprizov",
         "teamId": "nhl:min",
-        "value": 19
-      }
-    ],
-    "goals": [
+        "value": 13
+      },
       {
         "playerId": "nhl:p_8477934",
         "playerName": "Leon Draisaitl",
@@ -42,10 +48,10 @@
         "value": 12
       },
       {
-        "playerId": "nhl:p_8478864",
-        "playerName": "Kirill Kaprizov",
-        "teamId": "nhl:min",
-        "value": 12
+        "playerId": "nhl:p_8477476",
+        "playerName": "Artturi Lehkonen",
+        "teamId": "nhl:col",
+        "value": 10
       },
       {
         "playerId": "nhl:p_8479318",
@@ -57,12 +63,6 @@
         "playerId": "nhl:p_8482109",
         "playerName": "Alexis Lafrenière",
         "teamId": "nhl:nyr",
-        "value": 9
-      },
-      {
-        "playerId": "nhl:p_8477476",
-        "playerName": "Artturi Lehkonen",
-        "teamId": "nhl:col",
         "value": 9
       }
     ],
@@ -89,7 +89,7 @@
         "playerId": "nhl:p_8477492",
         "playerName": "Nathan MacKinnon",
         "teamId": "nhl:col",
-        "value": 13
+        "value": 14
       },
       {
         "playerId": "nhl:p_8478403",
