@@ -6,169 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-27T00:30:00Z",
-  "status": "LIVE",
-  "period": 2,
-  "clock": "19:25",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:cgy",
-    "score": 3,
+    "score": 5,
     "periods": [],
-    "shots": 12
+    "shots": null
   },
   "away": {
     "id": "nhl:tor",
-    "score": 0,
+    "score": 2,
     "periods": [],
-    "shots": 8
+    "shots": null
   },
   "arena": "Scotiabank Saddledome",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "04:56",
-      "team": "away",
-      "playerId": "nhl:p_8477541",
-      "playerName": "Dakota Mermis",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 76
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "10:05",
-      "team": "home",
-      "playerId": "nhl:p_8484860",
-      "playerName": "Matvei Gridin",
-      "assists": [
-        "nhl:p_8481028",
-        "nhl:p_8483495"
-      ],
-      "score": "1-0",
-      "order": 149
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "11:50",
-      "team": "home",
-      "playerId": "nhl:p_8474150",
-      "playerName": "Mikael Backlund",
-      "assists": [
-        "nhl:p_8482679",
-        "nhl:p_8480797"
-      ],
-      "score": "2-0",
-      "order": 167
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "12:09",
-      "team": "home",
-      "playerId": "nhl:p_8482445",
-      "playerName": "Devin Cooley",
-      "minutes": 2,
-      "reason": "delaying-game-illegal-play-by-goalie",
-      "order": 170
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "16:48",
-      "team": "away",
-      "playerId": "nhl:p_8479772",
-      "playerName": "Zack MacEwen",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 222
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "16:48",
-      "team": "home",
-      "playerId": "nhl:p_8478136",
-      "playerName": "Jake Middleton",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 224
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "19:42",
-      "team": "away",
-      "playerId": "nhl:p_8484158",
-      "playerName": "Easton Cowan",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 268
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "19:42",
-      "team": "away",
-      "playerId": "nhl:p_8484158",
-      "playerName": "Easton Cowan",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 270
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "19:42",
-      "team": "home",
-      "playerId": "nhl:p_8481028",
-      "playerName": "Martin Pospisil",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 272
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "00:25",
-      "team": "home",
-      "playerId": "nhl:p_8484860",
-      "playerName": "Matvei Gridin",
-      "assists": [
-        "nhl:p_8484768",
-        "nhl:p_8482445"
-      ],
-      "score": "3-0",
-      "order": 287
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      12,
-      8
-    ],
-    "shotsOnGoal": [
-      12,
-      8
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020186/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020186/play-by-play"
-    ],
-    "fetchedAt": "2026-10-27T01:44:53.757073+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -176,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/tor-vs-cgy/2026/10/26/2026020186",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/tor-vs-cgy/2026/10/26/2026020186",
-    "verifiedAt": "2026-10-27T01:44:53.757160Z"
+    "verifiedAt": "2026-10-27T06:51:14.043443Z"
   }
 }

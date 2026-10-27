@@ -6,239 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-26T23:00:00Z",
-  "status": "LIVE",
+  "status": "FINISHED",
   "period": 3,
-  "clock": "02:57",
-  "finishedIn": null,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:nyr",
     "score": 3,
     "periods": [],
-    "shots": 25
+    "shots": null
   },
   "away": {
     "id": "nhl:lak",
     "score": 6,
     "periods": [],
-    "shots": 26
+    "shots": null
   },
   "arena": "Madison Square Garden",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "01:15",
-      "team": "away",
-      "playerId": "nhl:p_8483406",
-      "playerName": "Taylor Ward",
-      "assists": [
-        "nhl:p_8474563",
-        "nhl:p_8479675"
-      ],
-      "score": "0-1",
-      "order": 26
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "04:52",
-      "team": "away",
-      "playerId": "nhl:p_8482730",
-      "playerName": "Brandt Clarke",
-      "assists": [
-        "nhl:p_8476872",
-        "nhl:p_8476469"
-      ],
-      "score": "0-2",
-      "order": 73
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "13:01",
-      "team": "home",
-      "playerId": "nhl:p_8476468",
-      "playerName": "J.T. Miller",
-      "assists": [
-        "nhl:p_8481789"
-      ],
-      "score": "1-2",
-      "order": 177
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "17:32",
-      "team": "away",
-      "playerId": "nhl:p_8474563",
-      "playerName": "Drew Doughty",
-      "assists": [
-        "nhl:p_8476441",
-        "nhl:p_8478550"
-      ],
-      "score": "1-3",
-      "order": 244
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "01:16",
-      "team": "home",
-      "playerId": "nhl:p_8482073",
-      "playerName": "Braden Schneider",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 316
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "01:30",
-      "team": "away",
-      "playerId": "nhl:p_8478550",
-      "playerName": "Artemi Panarin",
-      "assists": [
-        "nhl:p_8476979",
-        "nhl:p_8482155"
-      ],
-      "score": "1-4",
-      "order": 321
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "06:54",
-      "team": "away",
-      "playerId": "nhl:p_8479998",
-      "playerName": "Mikey Anderson",
-      "assists": [
-        "nhl:p_8470621"
-      ],
-      "score": "1-5",
-      "order": 406
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "08:10",
-      "team": "away",
-      "playerId": "nhl:p_8474563",
-      "playerName": "Drew Doughty",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 419
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "08:10",
-      "team": "home",
-      "playerId": "nhl:p_8476468",
-      "playerName": "J.T. Miller",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 421
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "12:40",
-      "team": "away",
-      "playerId": "nhl:p_8475208",
-      "playerName": "Brian Dumoulin",
-      "minutes": 2,
-      "reason": "slashing",
-      "order": 476
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "13:05",
-      "team": "home",
-      "playerId": "nhl:p_8479323",
-      "playerName": "Adam Fox",
-      "assists": [
-        "nhl:p_8481604",
-        "nhl:p_8482109"
-      ],
-      "score": "2-5",
-      "order": 486
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "18:53",
-      "team": "home",
-      "playerId": "nhl:p_8483690",
-      "playerName": "Noah Laba",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 567
-    },
-    {
-      "type": "PENALTY",
-      "period": 3,
-      "time": "01:58",
-      "team": "home",
-      "playerId": "nhl:p_8485957",
-      "playerName": "Alberts Smits",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 612
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "16:08",
-      "team": "home",
-      "playerId": "nhl:p_8481789",
-      "playerName": "Tye Kartye",
-      "assists": [
-        "nhl:p_8480434"
-      ],
-      "score": "3-5",
-      "order": 785
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "16:37",
-      "team": "away",
-      "playerId": "nhl:p_8476441",
-      "playerName": "Joel Edmundson",
-      "assists": [
-        "nhl:p_8474563",
-        "nhl:p_8482155"
-      ],
-      "score": "3-6",
-      "order": 797
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      25,
-      26
-    ],
-    "shotsOnGoal": [
-      25,
-      26
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020185/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020185/play-by-play"
-    ],
-    "fetchedAt": "2026-10-27T01:44:53.690991+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -246,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/lak-vs-nyr/2026/10/26/2026020185",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/lak-vs-nyr/2026/10/26/2026020185",
-    "verifiedAt": "2026-10-27T01:44:53.691129Z"
+    "verifiedAt": "2026-10-27T06:51:14.043173Z"
   }
 }
