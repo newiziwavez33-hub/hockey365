@@ -1,6 +1,418 @@
 {
   "news": [
     {
+      "id": "news-6675252",
+      "slug": "aleksandr-nikishin-vpervye-prokommentiroval-vozvraschenie-v-sostav-karoliny",
+      "title": "Александр Никишин впервые прокомментировал возвращение в состав «Каролины»",
+      "summary": "Защитник «Каролины Харрикейнз» Александр Никишин высказался о возвращении в расположение команды после подписания нового контракта.",
+      "content": "Защитник «Каролины Харрикейнз» Александр Никишин высказался о возвращении в расположение команды после подписания нового контракта.",
+      "image": "https://img.championat.com/news/big/p/n/aleksandr-nikishin-vpervye-prokommentiroval-vozvraschenie-v-sostav-karoliny_17931397471908678936.jpg",
+      "publishedAt": "2026-10-27T22:22:35Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675252-aleksandr-nikishin-vpervye-prokommentiroval-vozvraschenie-v-sostav-karoliny.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Каролина Харрикейнз",
+        "Александр Никишин"
+      ],
+      "relatedTeamIds": [
+        "nhl:car"
+      ],
+      "relatedPlayerIds": [
+        "khl:p_nikishin"
+      ]
+    },
+    {
+      "id": "news-6675106",
+      "slug": "rezultaty-matchej-mhl-na-27-oktyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 27 октября 2026 года",
+      "summary": "Сегодня, 27 октября, состоялись очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 27 октября, состоялись очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-27T20:51:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675106-rezultaty-matchej-mhl-na-27-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Красная Армия",
+        "МХК Спартак",
+        "МХК Белые Медведи",
+        "МХК Кузнецкие Медведи",
+        "МХК Алмаз",
+        "МХК Снежные Барсы"
+      ],
+      "relatedTeamIds": [
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675132",
+      "slug": "horoshij-poluchilsya-match-vesyolyj-boevoj-grishin-vyskazalsya-o-porazhenii-ot-metallurga",
+      "title": "«Хороший получился матч, весёлый, боевой». Гришин высказался о поражении от «Металлурга»",
+      "summary": "Главный тренер «Нефтехимика» Игорь Гришин высказался о поражении в матче с магнитогорским «Металлургом» (2:3 ОТ).",
+      "content": "Главный тренер «Нефтехимика» Игорь Гришин высказался о поражении в матче с магнитогорским «Металлургом» (2:3 ОТ).",
+      "image": "https://img.championat.com/news/big/o/i/horoshij-poluchilsya-match-v.jpg",
+      "publishedAt": "2026-10-27T20:45:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675132-horoshij-poluchilsya-match-vesyolyj-boevoj-grishin-vyskazalsya-o-porazhenii-ot-metallurga.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Нефтехимик",
+        "Игорь Гришин"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg",
+        "khl:neftekhimik"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675102",
+      "slug": "rezultaty-matchej-vhl-na-27-oktyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 27 октября 2026 года",
+      "summary": "Сегодня, 27 октября, прошли три матча OLIMPBET Чемпионата России ВХЛ.",
+      "content": "Сегодня, 27 октября, прошли три матча OLIMPBET Чемпионата России ВХЛ.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-27T20:40:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675102-rezultaty-matchej-vhl-na-27-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Металлург Нк",
+        "Сокол Красноярск",
+        "Челмет",
+        "Горняк",
+        "Магнитка"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675164",
+      "slug": "razin-sravnil-oshibku-pleshkova-s-golom-propuschennym-filimonovym-v-igre-s-ukrainoj",
+      "title": "Разин сравнил ошибку Плешкова с голом, пропущенным Филимоновым в игре с Украиной",
+      "summary": "Главный тренер СКА Андрей Разин высказался об ошибке голкипера СКА Артемия Плешкова в моменте с победным голом «Торпедо» за 14 секунд до конца матча.",
+      "content": "Главный тренер СКА Андрей Разин высказался об ошибке голкипера СКА Артемия Плешкова в моменте с победным голом «Торпедо» за 14 секунд до конца матча.",
+      "image": "https://img.championat.com/news/big/k/l/razin-sravnil-oshibku-pleshk.jpg",
+      "publishedAt": "2026-10-27T20:35:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675164-razin-sravnil-oshibku-pleshkova-s-golom-propuschennym-filimonovym-v-igre-s-ukrainoj.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Футбол",
+        "Сборная России — Футбол",
+        "СКА",
+        "Торпедо",
+        "Сборная Украины — Футбол",
+        "Андрей Разин",
+        "Александр Филимонов",
+        "Артемий Плешков"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675094",
+      "slug": "rezultaty-matchej-khl-na-27-oktyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 27 октября 2026 года",
+      "summary": "Сегодня, 27 октября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 27 октября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/g/r/rezultaty-matchej-khl-na-27-oktyabrya-2026-goda_17931294071779126365.jpg",
+      "publishedAt": "2026-10-27T20:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675094-rezultaty-matchej-khl-na-27-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Салават Юлаев",
+        "Металлург Мг",
+        "Торпедо",
+        "Нефтехимик",
+        "Адмирал",
+        "Сочи",
+        "Лада"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral",
+        "khl:lada",
+        "khl:metallurg-mg",
+        "khl:neftekhimik",
+        "khl:salavat-yulaev",
+        "khl:ska",
+        "khl:sochi",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675156",
+      "slug": "razin-o-fizicheskom-sostoyanii-ska-nichego-ballonchiki-pobegaem-vsyo-vstanet-na-svoi-mesta",
+      "title": "Разин — о физическом состоянии СКА: ничего, баллончики побегаем, всё встанет на свои места",
+      "summary": "Главный тренер СКА Андрей Разин заявил, что планирует подтянуть физические кондиции хоккеистов.",
+      "content": "Главный тренер СКА Андрей Разин заявил, что планирует подтянуть физические кондиции хоккеистов.",
+      "image": "https://img.championat.com/news/big/b/b/razin-o-fizicheskom-sostoyanii-ska-nichego-ballonchiki-pobegaem-vsyo-vstanet-na-svoi-mesta_1793132893225892942.jpg",
+      "publishedAt": "2026-10-27T20:25:26Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675156-razin-o-fizicheskom-sostoyanii-ska-nichego-ballonchiki-pobegaem-vsyo-vstanet-na-svoi-mesta.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Торпедо",
+        "Андрей Разин"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675136",
+      "slug": "razin-o-propuschennoj-shajbe-za-14-sekund-do-konca-kak-v-pervyj-klass-zashyol-oshiblis-vse",
+      "title": "Разин — о пропущенной шайбе за 14 секунд до конца: как в первый класс зашёл. Ошиблись все",
+      "summary": "Главный тренер СКА Андрей Разин заявил, что в моменте с победным голом «Торпедо» за 14 секунд до конца ошиблись сразу несколько игроков петербургской команды.",
+      "content": "Главный тренер СКА Андрей Разин заявил, что в моменте с победным голом «Торпедо» за 14 секунд до конца ошиблись сразу несколько игроков петербургской команды.",
+      "image": "https://img.championat.com/news/big/q/v/razin-o-propuschennoj-shajbe-za-14-sekund-do-konca-kak-v-pervyj-klass-zashyol-oshiblis-vse_17931319782073025069.jpg",
+      "publishedAt": "2026-10-27T20:08:15Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675136-razin-o-propuschennoj-shajbe-za-14-sekund-do-konca-kak-v-pervyj-klass-zashyol-oshiblis-vse.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Торпедо",
+        "Андрей Разин"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675134",
+      "slug": "tak-vytaschit-match-i-tak-bezdarno-ego-slit-razin-o-porazhenii-ska-ot-torpedo",
+      "title": "«Так вытащить матч — и так бездарно его слить». Разин — о поражении СКА от «Торпедо»",
+      "summary": "Главный тренер СКА Андрей Разин высказался о поражении в матче с «Торпедо» (3:4).",
+      "content": "Главный тренер СКА Андрей Разин высказался о поражении в матче с «Торпедо» (3:4).",
+      "image": "https://img.championat.com/news/big/v/b/tak-vytaschit-match-i-tak-bezdarno-ego-slit-razin-o-porazhenii-ska-ot-torpedo_17931316431357727837.jpg",
+      "publishedAt": "2026-10-27T20:03:39Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675134-tak-vytaschit-match-i-tak-bezdarno-ego-slit-razin-o-porazhenii-ska-ot-torpedo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Торпедо",
+        "Андрей Разин"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675124",
+      "slug": "vzyali-vazhnye-dva-ochka-shafranov-vyskazalsya-o-pobede-metallurga-nad-neftehimikom",
+      "title": "«Взяли важные два очка». Шафранов высказался о победе «Металлурга» над «Нефтехимиком»",
+      "summary": "Главный тренер «Металлурга» Константин Шафранов оценил победу в гостевой встрече с нижнекамским «Нефтехимиком» (3:2 ОТ).",
+      "content": "Главный тренер «Металлурга» Константин Шафранов оценил победу в гостевой встрече с нижнекамским «Нефтехимиком» (3:2 ОТ).",
+      "image": "https://img.championat.com/news/big/p/r/vzyali-vazhnye-dva-ochka-shafranov-vyskazalsya-o-pobede-metallurga-nad-neftehimikom_17931311212049092615.jpg",
+      "publishedAt": "2026-10-27T19:58:54Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675124-vzyali-vazhnye-dva-ochka-shafranov-vyskazalsya-o-pobede-metallurga-nad-neftehimikom.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Нефтехимик",
+        "Константин Шафранов"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg",
+        "khl:neftekhimik"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675118",
+      "slug": "isakov-rasskazal-kak-izmenilas-igra-ska-posle-prihoda-andreya-razina",
+      "title": "Исаков рассказал, как изменилась игра СКА после прихода Андрея Разина",
+      "summary": "Главный тренер «Торпедо» Алексей Исаков рассказал, что изменилось в игре СКА с приходом нового главного тренера Андрея Разина, и отметил схожесть с игрой магнитогорского «Металлурга».",
+      "content": "Главный тренер «Торпедо» Алексей Исаков рассказал, что изменилось в игре СКА с приходом нового главного тренера Андрея Разина, и отметил схожесть с игрой магнитогорского «Металлурга».",
+      "image": "https://img.championat.com/news/big/b/c/isakov-rasskazal-kak-izmenil.jpg",
+      "publishedAt": "2026-10-27T19:51:59Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675118-isakov-rasskazal-kak-izmenilas-igra-ska-posle-prihoda-andreya-razina.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Металлург Мг",
+        "Торпедо",
+        "Андрей Разин",
+        "Алексей Исаков"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg",
+        "khl:ska",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675108",
+      "slug": "isakov-o-pobede-torpedo-nad-ska-nemnogo-validolnyj-match-osobenno-koncovka",
+      "title": "Исаков — о победе «Торпедо» над СКА: немного валидольный матч, особенно концовка",
+      "summary": "Главный тренер «Торпедо» Алексей Исаков прокомментировал победу в матче со СКА (4:3), в котором нижегородская команда забросила победную шайбу за 14 секунд до конца третьего периода.",
+      "content": "Главный тренер «Торпедо» Алексей Исаков прокомментировал победу в матче со СКА (4:3), в котором нижегородская команда забросила победную шайбу за 14 секунд до конца третьего периода.",
+      "image": "https://img.championat.com/news/big/v/k/isakov-o-pobede-torpedo-nad-.jpg",
+      "publishedAt": "2026-10-27T19:39:47Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675108-isakov-o-pobede-torpedo-nad-ska-nemnogo-validolnyj-match-osobenno-koncovka.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Торпедо",
+        "Алексей Исаков"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675088",
+      "slug": "uzhasnyj-rezultat-my-silno-rasstroeny-forvard-salavata-o-porazhenii-ot-sochi",
+      "title": "«Ужасный результат. Мы сильно расстроены». Форвард «Салавата» — о поражении от «Сочи»",
+      "summary": "Нападающий «Салавата Юлаева» Мэттью Маджио поделился эмоциями от домашнего поражения в матче с «Сочи» (1:2).",
+      "content": "Нападающий «Салавата Юлаева» Мэттью Маджио поделился эмоциями от домашнего поражения в матче с «Сочи» (1:2).",
+      "image": "https://img.championat.com/news/big/u/p/uzhasnyj-rezultat-my-silno-rasstroeny-forvard-salavata-o-porazhenii-ot-sochi_17931290361130852335.jpg",
+      "publishedAt": "2026-10-27T19:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675088-uzhasnyj-rezultat-my-silno-rasstroeny-forvard-salavata-o-porazhenii-ot-sochi.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Салават Юлаев",
+        "Сочи",
+        "Мэттью Маджио"
+      ],
+      "relatedTeamIds": [
+        "khl:salavat-yulaev",
+        "khl:sochi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675068",
+      "slug": "video-pobednogo-gola-torpedo-posle-oshibki-vratarya-ska-za-14-sekund-do-konca-matcha",
+      "title": "Видео победного гола «Торпедо» после ошибки вратаря СКА за 14 секунд до конца матча",
+      "summary": "Сегодня, 27 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимал нижегородское «Торпедо».",
+      "content": "Сегодня, 27 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимал нижегородское «Торпедо».",
+      "image": "https://img.championat.com/news/big/m/n/video-pobednogo-gola-torpedo.jpg",
+      "publishedAt": "2026-10-27T19:02:35Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675068-video-pobednogo-gola-torpedo-posle-oshibki-vratarya-ska-za-14-sekund-do-konca-matcha.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "СКА",
+        "Торпедо",
+        "Артемий Плешков",
+        "Егор Виноградов"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675032",
+      "slug": "neftehimik-metallurg-rezultat-matcha-27-oktyabrya-2026-goda-schet-2-3-ot-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "«Металлург» обыграл «Нефтехимик» в матче лидеров Восточной конференции КХЛ",
+      "summary": "Сегодня, 27 октября, в Нижнекамске на стадионе «Нефтехим-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Нефтехимик» принимал магнитогорский «Мет...",
+      "content": "Сегодня, 27 октября, в Нижнекамске на стадионе «Нефтехим-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Нефтехимик» принимал магнитогорский «Металлург».",
+      "image": "https://img.championat.com/news/big/n/i/metallurg-obygral-neftehimik-v-matche-liderov-vostochnoj-konferencii-khl_1793125057336440089.jpg",
+      "publishedAt": "2026-10-27T18:51:24Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675032-neftehimik-metallurg-rezultat-matcha-27-oktyabrya-2026-goda-schet-2-3-ot-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Нефтехимик"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg",
+        "khl:neftekhimik"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675016",
+      "slug": "ska-torpedo-rezultat-matcha-27-oktyabrya-2026-goda-schet-3-4-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "СКА уступил «Торпедо», пропустив шайбу за 14 секунд до конца матча при равном счёте",
+      "summary": "Сегодня, 27 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимал нижегородское «Торпедо».",
+      "content": "Сегодня, 27 октября, в Санкт-Петербурге на стадионе «СКА Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный СКА принимал нижегородское «Торпедо».",
+      "image": "https://img.championat.com/news/big/t/f/ska-ustupil-torpedo-propustiv-shajbu-za-14-sekund-do-konca-matcha-pri-ravnom-schyote_1793126973434305482.jpg",
+      "publishedAt": "2026-10-27T18:49:34Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675016-ska-torpedo-rezultat-matcha-27-oktyabrya-2026-goda-schet-3-4-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Торпедо"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675002",
+      "slug": "forvard-salavata-o-porazhenii-ot-sochi-ne-hvatilo-agressii-i-nacelennosti-na-vorota",
+      "title": "Форвард «Салавата» — о поражении от «Сочи»: не хватило агрессии и нацеленности на ворота",
+      "summary": "Нападающий «Салавата Юлаева» Максим Загребин прокомментировал поражение в матче с «Сочи» (1:2).",
+      "content": "Нападающий «Салавата Юлаева» Максим Загребин прокомментировал поражение в матче с «Сочи» (1:2).",
+      "image": "https://img.championat.com/news/big/r/b/forvard-salavata-o-porazhenii-ot-sochi-ne-hvatilo-agressii-i-nacelennosti-na-vorota_17931241991565596524.jpg",
+      "publishedAt": "2026-10-27T18:25:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675002-forvard-salavata-o-porazhenii-ot-sochi-ne-hvatilo-agressii-i-nacelennosti-na-vorota.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Салават Юлаев",
+        "Сочи"
+      ],
+      "relatedTeamIds": [
+        "khl:salavat-yulaev",
+        "khl:sochi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6674988",
       "slug": "konnor-hellebajk-debyutiruet-za-nyu-dzhersi-v-vyezdnom-matche-s-dallasom",
       "title": "Коннор Хеллебайк дебютирует за «Нью-Джерси» в выездном матче с «Далласом»",
@@ -315,384 +727,6 @@
       "relatedTeamIds": [
         "khl:ska",
         "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6674686",
-      "slug": "on-mog-eschyo-igrat-no-organizm-ne-obmanesh-yurov-o-poslednem-sezone-ovechkina-v-nhl",
-      "title": "«Он мог ещё играть, но организм не обманешь». Юров — о последнем сезоне Овечкина в НХЛ",
-      "summary": "Нападающий «Миннесоты Уайлд» Данила Юров высказался о завершении карьеры в НХЛ капитана «Вашингтон Кэпиталз» Александра Овечкина.",
-      "content": "Нападающий «Миннесоты Уайлд» Данила Юров высказался о завершении карьеры в НХЛ капитана «Вашингтон Кэпиталз» Александра Овечкина.",
-      "image": "https://img.championat.com/news/big/z/a/on-mog-eschyo-igrat-no-organizm-ne-obmanesh-yurov-o-poslednem-sezone-ovechkina-v-nhl_179310726087892277.jpg",
-      "publishedAt": "2026-10-27T13:21:00Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674686-on-mog-eschyo-igrat-no-organizm-ne-obmanesh-yurov-o-poslednem-sezone-ovechkina-v-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Миннесота Уайлд",
-        "Данила Юров"
-      ],
-      "relatedTeamIds": [
-        "nhl:min",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6674362",
-      "slug": "trener-iz-kazani-rasskazal-o-nostalgii-po-tatarskoj-kuhne-posle-pereezda-v-sloveniyu",
-      "title": "Тренер из Казани рассказал о ностальгии по татарской кухне после переезда в Словению",
-      "summary": "Экс-игрок и ветеран «Ак Барса», работающий в Словении, Ильдар Рахматуллин рассказал, что скучает по татарской кухне.",
-      "content": "Экс-игрок и ветеран «Ак Барса», работающий в Словении, Ильдар Рахматуллин рассказал, что скучает по татарской кухне.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-27T12:50:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674362-trener-iz-kazani-rasskazal-o-nostalgii-po-tatarskoj-kuhne-posle-pereezda-v-sloveniyu.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Ак Барс"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6674624",
-      "slug": "vajsfeld-est-bolshie-somneniya-chto-bushe-smozhet-vyvesti-avangard-iz-krizisa",
-      "title": "Вайсфельд: есть большие сомнения, что Буше сможет вывести «Авангард» из кризиса",
-      "summary": "Известный хоккейный эксперт и функционер Леонид Вайсфельд сомневается, что канадский главный тренер омского «Авангарда» Ги Буше сможет вернуть «ястребов» на победные рельсы.",
-      "content": "Известный хоккейный эксперт и функционер Леонид Вайсфельд сомневается, что канадский главный тренер омского «Авангарда» Ги Буше сможет вернуть «ястребов» на победные рельсы.",
-      "image": "https://img.championat.com/news/big/f/i/vajsfeld-est-bolshie-somneni.jpg",
-      "publishedAt": "2026-10-27T12:38:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674624-vajsfeld-est-bolshie-somneniya-chto-bushe-smozhet-vyvesti-avangard-iz-krizisa.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Советский спорт",
-        "Леонид Вайсфельд",
-        "Ги Буше"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6674360",
-      "slug": "emu-tyazhelo-rossijskij-trener-rasskazal-o-rabote-s-ukrainskim-hokkeistom",
-      "title": "«Ему тяжело». Российский тренер рассказал о работе с украинским хоккеистом",
-      "summary": "Экс-игрок и ветеран «Ак Барса», работающий в Словении, Ильдар Рахматуллин рассказал о работе с украинским хоккеистом.",
-      "content": "Экс-игрок и ветеран «Ак Барса», работающий в Словении, Ильдар Рахматуллин рассказал о работе с украинским хоккеистом.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-27T12:25:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674360-emu-tyazhelo-rossijskij-trener-rasskazal-o-rabote-s-ukrainskim-hokkeistom.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Ак Барс"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6674564",
-      "slug": "glotov-razin-skazal-chto-ska-ne-hvataet-fiziki-ya-s-nim-soglashus",
-      "title": "Глотов: Разин сказал, что СКА не хватает физики. Я с ним соглашусь",
-      "summary": "Нападающий СКА Василий Глотов высказался о поражении от ЦСКА (1:3) и заявил, что клубу с берегов Невы не хватает физики.",
-      "content": "Нападающий СКА Василий Глотов высказался о поражении от ЦСКА (1:3) и заявил, что клубу с берегов Невы не хватает физики.",
-      "image": "https://img.championat.com/news/big/t/r/glotov-razin-skazal-chto-ska-ne-hvataet-fiziki-ya-s-nim-soglashus_1793101768354756886.jpg",
-      "publishedAt": "2026-10-27T12:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674564-glotov-razin-skazal-chto-ska-ne-hvataet-fiziki-ya-s-nim-soglashus.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "СКА",
-        "ЦСКА",
-        "Андрей Разин",
-        "Василий Глотов"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6674358",
-      "slug": "pereehavshij-30-let-nazad-v-sloveniyu-rossijskij-hokkeist-rasskazal-o-zhizni-v-strane",
-      "title": "Переехавший 30 лет назад в Словению российский хоккеист рассказал о жизни в стране",
-      "summary": "Экс-игрок и ветеран «Ак Барса», работающий в Словении, Ильдар Рахматуллин рассказал о жизни в европейской стране.",
-      "content": "Экс-игрок и ветеран «Ак Барса», работающий в Словении, Ильдар Рахматуллин рассказал о жизни в европейской стране.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-27T12:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674358-pereehavshij-30-let-nazad-v-sloveniyu-rossijskij-hokkeist-rasskazal-o-zhizni-v-strane.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Ак Барс"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6674518",
-      "slug": "pavel-zubov-naznachen-na-post-glavnogo-trenera-ryazan-vdv",
-      "title": "Павел Зубов назначен на пост главного тренера «Рязань-ВДВ»",
-      "summary": "Пресс-служба хоккейного клуба «Рязань-ВДВ» объявила о назначении Павла Зубова на должность главного тренера команды.",
-      "content": "Пресс-служба хоккейного клуба «Рязань-ВДВ» объявила о назначении Павла Зубова на должность главного тренера команды.",
-      "image": "https://img.championat.com/news/big/r/a/pavel-zubov-naznachen-na-post-glavnogo-trenera-ryazan-vdv_17930992491909160412.jpg",
-      "publishedAt": "2026-10-27T11:47:08Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674518-pavel-zubov-naznachen-na-post-glavnogo-trenera-ryazan-vdv.html",
-      "tags": [
-        "Хоккей",
-        "ВХЛ",
-        "Рязань",
-        "Павел Зубов"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6674352",
-      "slug": "slovenskij-trener-o-kopitare-on-legenda",
-      "title": "Словенский тренер — о Копитаре: он легенда",
-      "summary": "Экс-игрок и ветеран «Ак Барса», работающий в Словении, Ильдар Рахматуллин высказался о легендарном словенском хоккеисте Анже Копитаре.",
-      "content": "Экс-игрок и ветеран «Ак Барса», работающий в Словении, Ильдар Рахматуллин высказался о легендарном словенском хоккеисте Анже Копитаре.",
-      "image": "https://img.championat.com/news/big/n/y/slovenskij-trener-o-kopitare-on-legenda_1793092614660444062.jpg",
-      "publishedAt": "2026-10-27T11:35:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674352-slovenskij-trener-o-kopitare-on-legenda.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Эксклюзив",
-        "Ак Барс",
-        "Анже Копитар"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6674526",
-      "slug": "veteran-spartaka-my-mozhem-pojti-po-stopam-lokomotiva",
-      "title": "Ветеран «Спартака»: мы можем пойти по стопам «Локомотива»",
-      "summary": "Бывший нападающий и ветеран «Спартака» Алексей Костылев оценил игру красно-белых в текущем сезоне КХЛ.",
-      "content": "Бывший нападающий и ветеран «Спартака» Алексей Костылев оценил игру красно-белых в текущем сезоне КХЛ.",
-      "image": "https://img.championat.com/news/big/c/k/veteran-spartaka-my-mozhem-p.jpg",
-      "publishedAt": "2026-10-27T11:20:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674526-veteran-spartaka-my-mozhem-pojti-po-stopam-lokomotiva.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Спартак"
-      ],
-      "relatedTeamIds": [
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6674350",
-      "slug": "ya-ego-treniroval-slovenskij-trener-o-yunoshestve-agenta-alyoshi-pilko",
-      "title": "«Я его тренировал». Словенский тренер — о юношестве агента Алёши Пилко",
-      "summary": "Экс-игрок и ветеран «Ак Барса», работающий в Словении, Ильдар Рахматуллин рассказал о юношестве хоккейного агента Алёши Пилко.",
-      "content": "Экс-игрок и ветеран «Ак Барса», работающий в Словении, Ильдар Рахматуллин рассказал о юношестве хоккейного агента Алёши Пилко.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-27T11:10:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674350-ya-ego-treniroval-slovenskij-trener-o-yunoshestve-agenta-alyoshi-pilko.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Ак Барс",
-        "Алёша Пилко"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6674480",
-      "slug": "ya-provyol-horoshij-match-vratar-toronto-sergej-bobrovskij-o-2-5-ot-kalgari",
-      "title": "«Я провёл хороший матч». Вратарь «Торонто» Сергей Бобровский — о 2:5 от «Калгари»",
-      "summary": "Российский вратарь «Торонто Мэйпл Лифс» Сергей Бобровский прокомментировал свою игру во встрече с «Калгари Флэймз».",
-      "content": "Российский вратарь «Торонто Мэйпл Лифс» Сергей Бобровский прокомментировал свою игру во встрече с «Калгари Флэймз».",
-      "image": "https://img.championat.com/news/big/n/x/ya-provyol-horoshij-match-vratar-toronto-sergej-bobrovskij-o-2-5-ot-kalgari_1793097114212881208.jpg",
-      "publishedAt": "2026-10-27T11:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674480-ya-provyol-horoshij-match-vratar-toronto-sergej-bobrovskij-o-2-5-ot-kalgari.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Торонто Мэйпл Лифс",
-        "Сергей Бобровский",
-        "Калгари Флэймз"
-      ],
-      "relatedTeamIds": [
-        "nhl:cgy",
-        "nhl:fla",
-        "nhl:tor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6674348",
-      "slug": "rabotayuschij-v-slovenii-rossijskij-trener-podelilsya-detalyami-o-hokkee-v-strane",
-      "title": "Работающий в Словении российский тренер поделился деталями о хоккее в стране",
-      "summary": "Экс-игрок и ветеран «Ак Барса», работающий в Словении, Ильдар Рахматуллин поделился деталями о хоккее в стране.",
-      "content": "Экс-игрок и ветеран «Ак Барса», работающий в Словении, Ильдар Рахматуллин поделился деталями о хоккее в стране.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-27T10:45:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674348-rabotayuschij-v-slovenii-rossijskij-trener-podelilsya-detalyami-o-hokkee-v-strane.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Ак Барс"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6674468",
-      "slug": "vozrast-igraet-svoyu-rol-sushinskij-o-golevoj-zasuhe-ovechkina",
-      "title": "«Возраст играет свою роль». Сушинский — о голевой засухе Овечкина",
-      "summary": "Чемпион мира Максим Сушинский высказался о голевой засухе российского нападающего «Вашингтон Кэпиталз» Александра Овечкина.",
-      "content": "Чемпион мира Максим Сушинский высказался о голевой засухе российского нападающего «Вашингтон Кэпиталз» Александра Овечкина.",
-      "image": "https://img.championat.com/news/big/w/w/vozrast-igraet-svoyu-rol-sushinskij-o-golevoj-zasuhe-ovechkina_1793096421297811395.jpg",
-      "publishedAt": "2026-10-27T10:33:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674468-vozrast-igraet-svoyu-rol-sushinskij-o-golevoj-zasuhe-ovechkina.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Советский спорт",
-        "Максим Сушинский"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6674344",
-      "slug": "rossijskij-eks-igrok-rasskazal-populyaren-li-hokkej-v-slovenii",
-      "title": "Российский экс-игрок рассказал, популярен ли хоккей в Словении",
-      "summary": "Экс-игрок и ветеран «Ак Барса» Ильдар Рахматуллин рассказал, что из себя представляет хоккей в Словении.",
-      "content": "Экс-игрок и ветеран «Ак Барса» Ильдар Рахматуллин рассказал, что из себя представляет хоккей в Словении.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-27T10:20:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674344-rossijskij-eks-igrok-rasskazal-populyaren-li-hokkej-v-slovenii.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Ак Барс"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6674412",
-      "slug": "pozhelaniya-vyglyadeli-ochen-zhyostkimi-kravchuk-o-peregovorah-nikishina-i-karoliny",
-      "title": "«Пожелания выглядели очень жёсткими». Кравчук — о переговорах Никишина и «Каролины»",
-      "summary": "Двукратный олимпийский чемпион Игорь Кравчук высказался о новом контракте российского защитника Александра Никишина с «Каролиной Харрикейнз».",
-      "content": "Двукратный олимпийский чемпион Игорь Кравчук высказался о новом контракте российского защитника Александра Никишина с «Каролиной Харрикейнз».",
-      "image": "https://img.championat.com/news/big/k/w/pozhelaniya-vyglyadeli-ochen-zhyostkimi-kravchuk-o-peregovorah-nikishina-i-karoliny_1793094154306580368.jpg",
-      "publishedAt": "2026-10-27T10:07:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674412-pozhelaniya-vyglyadeli-ochen-zhyostkimi-kravchuk-o-peregovorah-nikishina-i-karoliny.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Каролина Харрикейнз",
-        "Александр Никишин",
-        "Игорь Кравчук"
-      ],
-      "relatedTeamIds": [
-        "nhl:car"
-      ],
-      "relatedPlayerIds": [
-        "khl:p_nikishin"
-      ]
-    },
-    {
-      "id": "news-6674340",
-      "slug": "eks-igrok-ak-barsa-rahmatullin-obyasnil-pochemu-ostalsya-zhit-i-rabotat-v-slovenii",
-      "title": "Экс-игрок «Ак Барса» Рахматуллин объяснил, почему остался жить и работать в Словении",
-      "summary": "Экс-игрок и ветеран «Ак Барса» Ильдар Рахматуллин объяснил, почему остался жить и работать в Словении.",
-      "content": "Экс-игрок и ветеран «Ак Барса» Ильдар Рахматуллин объяснил, почему остался жить и работать в Словении.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-27T09:55:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674340-eks-igrok-ak-barsa-rahmatullin-obyasnil-pochemu-ostalsya-zhit-i-rabotat-v-slovenii.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Ак Барс"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6674390",
-      "slug": "livo-nikakoj-nervoznosti-v-avangarde-net-my-verim-drug-v-druga",
-      "title": "Ливо: никакой нервозности в «Авангарде» нет, мы верим друг в друга",
-      "summary": "Нападающий омского «Авангарда» Джош Ливо рассказал, как команда реагирует на неудачный старт сезона и положение в турнирной таблице Восточной конференции.",
-      "content": "Нападающий омского «Авангарда» Джош Ливо рассказал, как команда реагирует на неудачный старт сезона и положение в турнирной таблице Восточной конференции.",
-      "image": "https://img.championat.com/news/big/d/m/livo-nikakoj-nervoznosti-v-a.jpg",
-      "publishedAt": "2026-10-27T09:43:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6674390-livo-nikakoj-nervoznosti-v-avangarde-net-my-verim-drug-v-druga.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Джош Ливо"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard"
       ],
       "relatedPlayerIds": []
     }
