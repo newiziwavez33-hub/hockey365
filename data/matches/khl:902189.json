@@ -6,24 +6,32 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-27T16:30:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "LIVE",
+  "period": 3,
   "clock": null,
   "finishedIn": null,
   "home": {
     "id": "khl:neftekhimik",
     "name": "Нефтехимик",
     "logo": "https://thumbs.webcaster.pro/rec-2-19.webcaster.pro/fc/sdc2/team_pics/36/original/neftekhimik_2022__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 1,
+    "periods": [
+      0,
+      0,
+      1
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:metallurg-mg",
     "name": "Металлург Мг",
-    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/30/original/metallurg_mg_2020__200x200.png",
-    "score": null,
-    "periods": [],
+    "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sda/team_pics/30/original/metallurg_mg_2020__200x200.png",
+    "score": 2,
+    "periods": [
+      1,
+      1,
+      0
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000907,
     "matchId": "902189",
-    "fetchedAt": "2026-10-27T12:46:30.444658Z"
+    "fetchedAt": "2026-10-27T18:20:59.262994Z"
   }
 }
