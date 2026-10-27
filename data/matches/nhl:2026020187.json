@@ -6,21 +6,21 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-27T01:30:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 1,
+  "clock": "15:58",
   "finishedIn": null,
   "home": {
     "id": "nhl:edm",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 2
   },
   "away": {
     "id": "nhl:det",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 1
   },
   "arena": "Rogers Place",
   "officials": {
@@ -29,8 +29,26 @@
   },
   "events": [],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      2,
+      1
+    ],
+    "shotsOnGoal": [
+      2,
+      1
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020187/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020187/play-by-play"
+    ],
+    "fetchedAt": "2026-10-27T01:44:53.806816+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +56,6 @@
     "url": "https://www.nhl.com/gamecenter/det-vs-edm/2026/10/26/2026020187",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/det-vs-edm/2026/10/26/2026020187",
-    "verifiedAt": "2026-10-26T22:55:22.137402Z"
+    "verifiedAt": "2026-10-27T01:44:53.806862Z"
   }
 }

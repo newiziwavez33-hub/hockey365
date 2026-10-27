@@ -1,6 +1,31 @@
 {
   "news": [
     {
+      "id": "news-6674022",
+      "slug": "panarin-zabrosil-pervuyu-shajbu-v-vorota-rejndzhers-posle-perehoda-v-los-andzheles",
+      "title": "Панарин забросил первую шайбу в ворота «Рейнджерс» после перехода в «Лос-Анджелес»",
+      "summary": "В эти минуты проходит очередной матч регулярного чемпионата Национальной хоккейной лиги, в котором «Нью-Йорк Рейнджерс» принимает «Лос-Анджелес Кингз».",
+      "content": "В эти минуты проходит очередной матч регулярного чемпионата Национальной хоккейной лиги, в котором «Нью-Йорк Рейнджерс» принимает «Лос-Анджелес Кингз».",
+      "image": "https://img.championat.com/news/big/u/a/panarin-zabrosil-pervuyu-shajbu-v-vorota-rejndzhers-posle-perehoda-v-los-andzheles_1793061707461789364.jpg",
+      "publishedAt": "2026-10-27T00:41:56Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6674022-panarin-zabrosil-pervuyu-shajbu-v-vorota-rejndzhers-posle-perehoda-v-los-andzheles.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Нью-Йорк Рейнджерс",
+        "Артемий Панарин",
+        "Лос-Анджелес Кингз"
+      ],
+      "relatedTeamIds": [
+        "nhl:lak",
+        "nhl:nyr"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478550"
+      ]
+    },
+    {
       "id": "news-6673852",
       "slug": "rezultaty-matchej-mhl-na-26-oktyabrya-2026-goda",
       "title": "Результаты матчей МХЛ на 26 октября 2026 года",
@@ -707,28 +732,6 @@
         "khl:metallurg-mg",
         "khl:ska",
         "nhl:min"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6673332",
-      "slug": "plyuschev-vyskazalsya-ob-igre-minskogo-dinamo-pod-rukovodstvom-brylina",
-      "title": "Плющев высказался об игре минского «Динамо» под руководством Брылина",
-      "summary": "Заслуженный тренер России Владимир Плющев оценил работу главного тренера минского «Динамо» Сергея Брылина.",
-      "content": "Заслуженный тренер России Владимир Плющев оценил работу главного тренера минского «Динамо» Сергея Брылина.",
-      "image": "https://img.championat.com/news/big/m/u/plyuschev-vyskazalsya-ob-igr.jpg",
-      "publishedAt": "2026-10-26T13:32:37Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6673332-plyuschev-vyskazalsya-ob-igre-minskogo-dinamo-pod-rukovodstvom-brylina.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Минск",
-        "Владимир Плющев",
-        "Сергей Брылин"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-mns"
       ],
       "relatedPlayerIds": []
     }
