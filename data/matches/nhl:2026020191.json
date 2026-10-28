@@ -6,31 +6,119 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-28T00:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 2,
+  "clock": "06:11",
   "finishedIn": null,
   "home": {
     "id": "nhl:stl",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 21
   },
   "away": {
     "id": "nhl:mtl",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 15
   },
   "arena": "Enterprise Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "05:36",
+      "team": "home",
+      "playerId": "nhl:p_8484164",
+      "playerName": "Dalibor Dvorsky",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 82
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "14:58",
+      "team": "away",
+      "playerId": "nhl:p_8482775",
+      "playerName": "Oliver Kapanen",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 221
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "01:53",
+      "team": "home",
+      "playerId": "nhl:p_8481013",
+      "playerName": "Jonatan Berggren",
+      "minutes": 2,
+      "reason": "closing-hand-on-puck",
+      "order": 311
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "06:34",
+      "team": "home",
+      "playerId": "nhl:p_8480023",
+      "playerName": "Robert Thomas",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 366
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "08:37",
+      "team": "away",
+      "playerId": "nhl:p_8482737",
+      "playerName": "Zachary Bolduc",
+      "assists": [
+        "nhl:p_8476875",
+        "nhl:p_8480074"
+      ],
+      "score": "0-1",
+      "order": 386
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "13:16",
+      "team": "away",
+      "playerId": "nhl:p_8482087",
+      "playerName": "Kaiden Guhle",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 451
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      21,
+      15
+    ],
+    "shotsOnGoal": [
+      21,
+      15
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020191/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020191/play-by-play"
+    ],
+    "fetchedAt": "2026-10-28T01:30:15.657217+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +126,6 @@
     "url": "https://www.nhl.com/gamecenter/mtl-vs-stl/2026/10/27/2026020191",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/mtl-vs-stl/2026/10/27/2026020191",
-    "verifiedAt": "2026-10-27T22:25:13.460301Z"
+    "verifiedAt": "2026-10-28T01:30:15.657305Z"
   }
 }
