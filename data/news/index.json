@@ -1,6 +1,308 @@
 {
   "news": [
     {
+      "id": "news-6676512",
+      "slug": "forvard-toronto-nuzhno-pytatsya-zamenit-kirilla-marchenko",
+      "title": "Форвард «Торонто»: нужно пытаться заменить Кирилла Марченко",
+      "summary": "Нападающий «Торонто Мэйпл Лифс» Джек Рословик высказался о травме российского нападающего Кирилла Марченко.",
+      "content": "Нападающий «Торонто Мэйпл Лифс» Джек Рословик высказался о травме российского нападающего Кирилла Марченко.",
+      "image": "https://img.championat.com/news/big/o/r/forvard-toronto-nuzhno-pytatsya-zamenit-kirilla-marchenko_17932254941718335046.jpg",
+      "publishedAt": "2026-10-28T22:11:37Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6676512-forvard-toronto-nuzhno-pytatsya-zamenit-kirilla-marchenko.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Торонто Мэйпл Лифс",
+        "Кирилл Марченко",
+        "Джек Рословик"
+      ],
+      "relatedTeamIds": [
+        "nhl:tor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6676420",
+      "slug": "rezultaty-matchej-mhl-na-28-oktyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 28 октября 2026 года",
+      "summary": "Сегодня, 28 октября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 28 октября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-10-28T20:55:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6676420-rezultaty-matchej-mhl-na-28-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Реактор",
+        "МХК Амурские Тигры",
+        "МХК Сахалинские Акулы",
+        "МХК Тайфун"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6676418",
+      "slug": "rezultaty-matchej-vhl-na-28-oktyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 28 октября 2026 года",
+      "summary": "Сегодня, 28 октября, прошли четыре матча OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 28 октября, прошли четыре матча OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-10-28T20:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6676418-rezultaty-matchej-vhl-na-28-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Югра",
+        "Рубин",
+        "Торос",
+        "Буран",
+        "Молот",
+        "СКА-ВМФ",
+        "Калуга"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6676416",
+      "slug": "rezultaty-matchej-khl-na-28-oktyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 28 октября 2026 года",
+      "summary": "Сегодня, 28 октября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 28 октября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/t/c/rezultaty-matchej-khl-na-28-oktyabrya-2026-goda_179321854337346291.jpg",
+      "publishedAt": "2026-10-28T20:40:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6676416-rezultaty-matchej-khl-na-28-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Авангард",
+        "Динамо Москва",
+        "Ак Барс",
+        "Трактор",
+        "Динамо Минск",
+        "Барыс",
+        "Амур"
+      ],
+      "relatedTeamIds": [
+        "khl:ak-bars",
+        "khl:amur",
+        "khl:avangard",
+        "khl:barys",
+        "khl:cska",
+        "khl:dynamo-mns",
+        "khl:dynamo-msk",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6675644",
+      "slug": "vashington-kepitalz-filadelfiya-flajerz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachnetsya-v-2-30-msk",
+      "title": "«Вашингтон» — «Филадельфия»: онлайн-трансляция матча НХЛ начнётся в 2:30 мск",
+      "summary": "В ночь на 29 октября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "content": "В ночь на 29 октября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/o/p/vashington-filadelfiya-onlajn-translyaciya-matcha-nhl-nachnyotsya-v-2-30-msk_17931790771472129763.jpg",
+      "publishedAt": "2026-10-28T20:30:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675644-vashington-kepitalz-filadelfiya-flajerz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachnetsya-v-2-30-msk.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Филадельфия Флайерз"
+      ],
+      "relatedTeamIds": [
+        "nhl:phi",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6676406",
+      "slug": "vtoroj-period-byl-hudshim-v-sezone-gordon-o-krupnom-porazhenii-traktora-ot-cska",
+      "title": "«Второй период был худшим в сезоне». Гордон — о крупном поражении «Трактора» от ЦСКА",
+      "summary": "Главный тренер «Трактора» Скотт Гордон прокомментировал поражение от ЦСКА (1:5) в Москве.",
+      "content": "Главный тренер «Трактора» Скотт Гордон прокомментировал поражение от ЦСКА (1:5) в Москве.",
+      "image": "https://img.championat.com/news/big/u/p/vtoroj-period-byl-hudshim-v-.jpg",
+      "publishedAt": "2026-10-28T20:20:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6676406-vtoroj-period-byl-hudshim-v-sezone-gordon-o-krupnom-porazhenii-traktora-ot-cska.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Трактор",
+        "Скотт Гордон"
+      ],
+      "relatedTeamIds": [
+        "khl:cska",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6676402",
+      "slug": "nikitin-nastraivaem-rebyat-na-to-chto-cska-chestnaya-komanda-pobedu-nado-zasluzhit",
+      "title": "Никитин: настраиваем ребят на то, что ЦСКА — честная команда, победу надо заслужить",
+      "summary": "Главный тренер ЦСКА Игорь Никитин оценил победный матч с «Трактором» (5:1).",
+      "content": "Главный тренер ЦСКА Игорь Никитин оценил победный матч с «Трактором» (5:1).",
+      "image": "https://img.championat.com/news/big/j/s/nikitin-nastraivaem-rebyat-n.jpg",
+      "publishedAt": "2026-10-28T20:10:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6676402-nikitin-nastraivaem-rebyat-na-to-chto-cska-chestnaya-komanda-pobedu-nado-zasluzhit.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Трактор",
+        "Игорь Никитин"
+      ],
+      "relatedTeamIds": [
+        "khl:cska",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6676398",
+      "slug": "glavnyj-trener-minskogo-dinamo-brylin-rasskazal-o-minimalnom-porazhenii-ot-barysa",
+      "title": "Главный тренер минского «Динамо» Брылин рассказал о минимальном поражении от «Барыса»",
+      "summary": "Главный тренер минского «Динамо» Сергей Брылин прокомментировал итог встречи с астанинским «Барысом» (0:1).",
+      "content": "Главный тренер минского «Динамо» Сергей Брылин прокомментировал итог встречи с астанинским «Барысом» (0:1).",
+      "image": "https://img.championat.com/news/big/i/p/glavnyj-trener-minskogo-dina.jpg",
+      "publishedAt": "2026-10-28T20:02:19Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6676398-glavnyj-trener-minskogo-dinamo-brylin-rasskazal-o-minimalnom-porazhenii-ot-barysa.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Барыс",
+        "Сергей Брылин"
+      ],
+      "relatedTeamIds": [
+        "khl:barys",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6676374",
+      "slug": "tambiev-ob-uvolnenii-svoego-pomoschnika-rukovodstvo-reshilo-vstryahnut-komandu",
+      "title": "Тамбиев — об увольнении своего помощника: руководство решило встряхнуть команду",
+      "summary": "Главный тренер московского «Динамо» Леонид Тамбиев прокомментировал уход из команды своего помощника Андрея Банады.",
+      "content": "Главный тренер московского «Динамо» Леонид Тамбиев прокомментировал уход из команды своего помощника Андрея Банады.",
+      "image": "https://img.championat.com/news/big/d/h/tambiev-ob-uvolnenii-svoego-pomoschnika-rukovodstvo-reshilo-vstryahnut-komandu_17932168791152207024.jpg",
+      "publishedAt": "2026-10-28T19:42:50Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6676374-tambiev-ob-uvolnenii-svoego-pomoschnika-rukovodstvo-reshilo-vstryahnut-komandu.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Леонид Тамбиев"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6676370",
+      "slug": "poka-tak-znachit-bolshe-ne-zasluzhil-tambiev-o-krikah-fanatov-dinamo-v-ego-adres",
+      "title": "«Пока так. Значит, больше не заслужил». Тамбиев — о криках фанатов «Динамо» в его адрес",
+      "summary": "Главный тренер московского «Динамо» Леонид Тамбиев прокомментировал крики болельщиков бело-голубых с требованием уволить специалиста из клуба.",
+      "content": "Главный тренер московского «Динамо» Леонид Тамбиев прокомментировал крики болельщиков бело-голубых с требованием уволить специалиста из клуба.",
+      "image": "https://img.championat.com/news/big/f/r/poka-tak-znachit-bolshe-ne-zasluzhil-tambiev-o-krikah-fanatov-dinamo-v-ego-adres_1793216803660603216.jpg",
+      "publishedAt": "2026-10-28T19:41:00Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6676370-poka-tak-znachit-bolshe-ne-zasluzhil-tambiev-o-krikah-fanatov-dinamo-v-ego-adres.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Леонид Тамбиев"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6676368",
+      "slug": "lyubye-slova-sejchas-budut-zvuchat-kak-otmazka-andrievskij-o-porazhenii-ot-dinamo",
+      "title": "«Любые слова сейчас будут звучать как отмазка». Андриевский — о поражении от «Динамо»",
+      "summary": "Главный тренер «Амура» Александр Андриевский высказался о поражении от московского «Динамо» (1:2).",
+      "content": "Главный тренер «Амура» Александр Андриевский высказался о поражении от московского «Динамо» (1:2).",
+      "image": "https://img.championat.com/news/big/m/l/lyubye-slova-sejchas-budut-z.jpg",
+      "publishedAt": "2026-10-28T19:37:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6676368-lyubye-slova-sejchas-budut-zvuchat-kak-otmazka-andrievskij-o-porazhenii-ot-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Амур",
+        "Александр Андриевский"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6676354",
+      "slug": "ska-pokinul-zonu-plej-off-v-zapadnoj-konferencii-khl",
+      "title": "СКА покинул зону плей-офф в Западной конференции КХЛ",
+      "summary": "Санкт-петербургский СКА после сегодняшних матчей регулярного сезона Континентальной хоккейной лиги покинул зону плей-офф в Западной конференции.",
+      "content": "Санкт-петербургский СКА после сегодняшних матчей регулярного сезона Континентальной хоккейной лиги покинул зону плей-офф в Западной конференции.",
+      "image": "https://img.championat.com/news/big/f/u/ska-pokinul-zonu-plej-off-v-zapadnoj-konferencii-khl_1793215921208318073.jpg",
+      "publishedAt": "2026-10-28T19:35:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6676354-ska-pokinul-zonu-plej-off-v-zapadnoj-konferencii-khl.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6676362",
+      "slug": "leonid-tambiev-prokommentiroval-trudnuyu-pobedu-moskovskogo-dinamo-nad-amurom",
+      "title": "Леонид Тамбиев прокомментировал трудную победу московского «Динамо» над «Амуром»",
+      "summary": "Главный тренер московского «Динамо» Леонид Тамбиев оценил победный матч с «Амуром» (2:1).",
+      "content": "Главный тренер московского «Динамо» Леонид Тамбиев оценил победный матч с «Амуром» (2:1).",
+      "image": "https://img.championat.com/news/big/n/d/leonid-tambiev-prokommentiro.jpg",
+      "publishedAt": "2026-10-28T19:34:32Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6676362-leonid-tambiev-prokommentiroval-trudnuyu-pobedu-moskovskogo-dinamo-nad-amurom.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Амур",
+        "Леонид Тамбиев"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6676340",
       "slug": "forvard-toronto-kirill-marchenko-vybyl-na-neskolko-nedel",
       "title": "Форвард «Торонто» Кирилл Марченко выбыл на несколько недель",
@@ -404,312 +706,6 @@
       "relatedTeamIds": [
         "khl:ak-bars",
         "khl:avangard"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6676080",
-      "slug": "trojka-kaprizova-s-otryvom-lidiruet-po-minutam-bez-propuschennyh-shajb-v-formate-5-na-5",
-      "title": "Тройка Капризова с отрывом лидирует по минутам без пропущенных шайб в формате «5 на 5»",
-      "summary": "Атакующая тройка «Миннесоты Уайлд» Кирилл Капризов — Йоэль Эрикссон Эк — Мэтт Болди с большим отрывом лидирует по количеству минут без пропущенных шайб в формате «5 на 5».",
-      "content": "Атакующая тройка «Миннесоты Уайлд» Кирилл Капризов — Йоэль Эрикссон Эк — Мэтт Болди с большим отрывом лидирует по количеству минут без пропущенных шайб в формате «5 на 5».",
-      "image": "https://img.championat.com/news/big/s/k/trojka-kaprizova-s-otryvom-lidiruet-po-minutam-bez-propuschennyh-shajb-v-formate-5-na-5_17932019441511575366.jpg",
-      "publishedAt": "2026-10-28T15:46:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6676080-trojka-kaprizova-s-otryvom-lidiruet-po-minutam-bez-propuschennyh-shajb-v-formate-5-na-5.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Флорида Пантерз",
-        "Бостон Брюинз",
-        "Миннесота Уайлд",
-        "Кирилл Капризов",
-        "Давид Пастрняк",
-        "Мэттью Ткачук",
-        "Сэм Беннетт",
-        "Мэтт Болди",
-        "Йоэль Эрикссон Эк",
-        "Картер Верхаге",
-        "Павел Заха"
-      ],
-      "relatedTeamIds": [
-        "nhl:bos",
-        "nhl:fla",
-        "nhl:min"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6676076",
-      "slug": "genmendzher-shanhaya-kovalchuk-legenda-hokkeya-igroki-dolzhny-za-nego-bitsya",
-      "title": "Генменеджер «Шанхая»: Ковальчук — легенда хоккея, игроки должны за него биться",
-      "summary": "Генеральный менеджер «Шанхайских Драконов» Евгений Артюхин рассказал о важной роли Ильи Ковальчука в жизни команды.",
-      "content": "Генеральный менеджер «Шанхайских Драконов» Евгений Артюхин рассказал о важной роли Ильи Ковальчука в жизни команды.",
-      "image": "https://img.championat.com/news/big/r/e/genmenedzher-shanhaya-kovalchuk-legenda-hokkeya-igroki-dolzhny-za-nego-bitsya_17932011351335450702.jpg",
-      "publishedAt": "2026-10-28T15:25:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6676076-genmendzher-shanhaya-kovalchuk-legenda-hokkeya-igroki-dolzhny-za-nego-bitsya.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "РБ Спорт",
-        "Шанхайские Драконы (Куньлунь Ред Стар)",
-        "Илья Ковальчук",
-        "Евгений Артюхин"
-      ],
-      "relatedTeamIds": [
-        "khl:kunlun"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6676044",
-      "slug": "hokkej-vidoizmenilsya-ilya-vorobyov-o-sravnenii-stilej-igry-ovechkina-i-kaprizova",
-      "title": "«Хоккей видоизменился». Илья Воробьёв — о сравнении стилей игры Овечкина и Капризова",
-      "summary": "Бывший главный тренер сборной России Илья Воробьёв заявил, что невозможно сравнить стили игры форварда «Вашингтон Кэпиталз» Александра Овечкина и нападающего «Миннесоты Уайлд» Кирилла Капризова.",
-      "content": "Бывший главный тренер сборной России Илья Воробьёв заявил, что невозможно сравнить стили игры форварда «Вашингтон Кэпиталз» Александра Овечкина и нападающего «Миннесоты Уайлд» Кирилла Капризова.",
-      "image": "https://img.championat.com/news/big/o/b/hokkej-vidoizmenilsya-ilya-vorobyov-o-sravnenii-stilej-igry-ovechkina-i-kaprizova_17931998561552317374.jpg",
-      "publishedAt": "2026-10-28T15:04:32Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6676044-hokkej-vidoizmenilsya-ilya-vorobyov-o-sravnenii-stilej-igry-ovechkina-i-kaprizova.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Миннесота Уайлд",
-        "Кирилл Капризов",
-        "Илья Воробьёв"
-      ],
-      "relatedTeamIds": [
-        "nhl:min",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6676022",
-      "slug": "kozhevnikov-hartli-nichego-ne-sdelal-vsyo-sdelali-dengi-a-ego-schitayut-velikim",
-      "title": "Кожевников: Хартли ничего не сделал — всё сделали деньги, а его считают великим",
-      "summary": "Двукратный олимпийский чемпион по хоккею Александр Кожевников раскритиковал иностранных тренеров в КХЛ, упомянув канадского специалиста Боба Хартли.",
-      "content": "Двукратный олимпийский чемпион по хоккею Александр Кожевников раскритиковал иностранных тренеров в КХЛ, упомянув канадского специалиста Боба Хартли.",
-      "image": "https://img.championat.com/news/big/l/f/kozhevnikov-hartli-nichego-n.jpg",
-      "publishedAt": "2026-10-28T14:46:18Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6676022-kozhevnikov-hartli-nichego-ne-sdelal-vsyo-sdelali-dengi-a-ego-schitayut-velikim.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Александр Кожевников",
-        "Советский спорт",
-        "Боб Хартли"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6675980",
-      "slug": "n-zavaruhin-michkov-obladaet-vsemi-kachestvami-chtoby-stat-odnoj-iz-veduschih-zvyozd-nhl",
-      "title": "Н. Заварухин: Мичков обладает всеми качествами, чтобы стать одной из ведущих звёзд НХЛ",
-      "summary": "Бывший главный тренер «Автомобилиста» Николай Заварухин оценил игру российского нападающего «Филадельфии Флайерз» Матвея Мичкова.",
-      "content": "Бывший главный тренер «Автомобилиста» Николай Заварухин оценил игру российского нападающего «Филадельфии Флайерз» Матвея Мичкова.",
-      "image": "https://img.championat.com/news/big/h/n/n-zavaruhin-michkov-obladaet-vsemi-kachestvami-chtoby-stat-odnoj-iz-veduschih-zvyozd-nhl_17931974592032844446.jpg",
-      "publishedAt": "2026-10-28T14:24:37Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6675980-n-zavaruhin-michkov-obladaet-vsemi-kachestvami-chtoby-stat-odnoj-iz-veduschih-zvyozd-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Филадельфия Флайерз",
-        "Матвей Мичков",
-        "Николай Заварухин"
-      ],
-      "relatedTeamIds": [
-        "nhl:phi"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6675952",
-      "slug": "artemij-pleshkov-mnogo-chto-davit-na-ska-vsem-rebyatam-slozhno",
-      "title": "Артемий Плешков: много что давит на СКА, всем ребятам сложно",
-      "summary": "Вратарь СКА Артемий Плешков высказался о домашнем поражении от нижегородского «Торпедо» (3:4) в регулярном чемпионате.",
-      "content": "Вратарь СКА Артемий Плешков высказался о домашнем поражении от нижегородского «Торпедо» (3:4) в регулярном чемпионате.",
-      "image": "https://img.championat.com/news/big/i/q/artemij-pleshkov-mnogo-chto-.jpg",
-      "publishedAt": "2026-10-28T14:11:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6675952-artemij-pleshkov-mnogo-chto-davit-na-ska-vsem-rebyatam-slozhno.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Торпедо",
-        "Артемий Плешков"
-      ],
-      "relatedTeamIds": [
-        "khl:ska",
-        "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6675926",
-      "slug": "syomin-vse-ponimayut-chto-v-khl-uzhe-ne-uvidyat-togo-ovechkina-kotoryj-byl-ranshe",
-      "title": "Сёмин: все понимают, что в КХЛ уже не увидят того Овечкина, который был раньше",
-      "summary": "Двукратный чемпион мира Александр Сёмин заявил, что российскому форварду «Вашингтон Кэпиталз» Александру Овечкину не стоит проводить полноценный сезон в КХЛ после ухода из НХЛ.",
-      "content": "Двукратный чемпион мира Александр Сёмин заявил, что российскому форварду «Вашингтон Кэпиталз» Александру Овечкину не стоит проводить полноценный сезон в КХЛ после ухода из НХЛ.",
-      "image": "https://img.championat.com/news/big/h/e/syomin-vse-ponimayut-chto-v-khl-uzhe-ne-uvidyat-togo-ovechkina-kotoryj-byl-ranshe_17931946771849691520.jpg",
-      "publishedAt": "2026-10-28T13:48:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6675926-syomin-vse-ponimayut-chto-v-khl-uzhe-ne-uvidyat-togo-ovechkina-kotoryj-byl-ranshe.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Александр Сёмин"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6675382",
-      "slug": "cska-traktor-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk",
-      "title": "ЦСКА — «Трактор»: онлайн-трансляция матча КХЛ начнётся в 19:30 мск",
-      "summary": "Сегодня, 28 октября, в Москве на стадионе «ЦСКА-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный ЦСКА примет челябинский «Трактор».",
-      "content": "Сегодня, 28 октября, в Москве на стадионе «ЦСКА-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный ЦСКА примет челябинский «Трактор».",
-      "image": "https://img.championat.com/news/big/u/s/cska-traktor-onlajn-translyaciya-matcha-khl-nachnyotsya-v-19-30-msk_17931653051898316531.jpg",
-      "publishedAt": "2026-10-28T13:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6675382-cska-traktor-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Трактор"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6675888",
-      "slug": "spartak-zaklyuchil-novyj-kontrakt-s-napadayuschim-ilyoj-kotlyarovym",
-      "title": "«Спартак» заключил новый контракт с нападающим Ильёй Котляровым",
-      "summary": "«Спартак» заключил новый контракт с нападающим Ильёй Котляровым, соглашение подписано на три года.",
-      "content": "«Спартак» заключил новый контракт с нападающим Ильёй Котляровым, соглашение подписано на три года.",
-      "image": "https://img.championat.com/news/big/k/v/spartak-zaklyuchil-novyj-kon.jpg",
-      "publishedAt": "2026-10-28T13:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6675888-spartak-zaklyuchil-novyj-kontrakt-s-napadayuschim-ilyoj-kotlyarovym.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Спартак"
-      ],
-      "relatedTeamIds": [
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6675374",
-      "slug": "ak-bars-avangard-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-00-msk",
-      "title": "«Ак Барс» — «Авангард»: онлайн-трансляция матча КХЛ начнётся в 19:00 мск",
-      "summary": "Сегодня, 28 октября, на льду «Татнефть-Арены» в Казани состоится матч регулярного чемпионата КХЛ.",
-      "content": "Сегодня, 28 октября, на льду «Татнефть-Арены» в Казани состоится матч регулярного чемпионата КХЛ.",
-      "image": "https://img.championat.com/news/big/d/i/ak-bars-avangard-onlajn-translyaciya-matcha-khl-nachnyotsya-v-19-00-msk_1793164873726093251.jpg",
-      "publishedAt": "2026-10-28T13:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6675374-ak-bars-avangard-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-00-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Ак Барс"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:avangard"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6675778",
-      "slug": "nebo-i-zemlya-drugoj-uroven-artyuhin-sravnil-inostrannyh-i-otechestvennyh-trenerov",
-      "title": "«Небо и земля — другой уровень». Артюхин сравнил иностранных и отечественных тренеров",
-      "summary": "Генеральный менеджер «Шанхайских Драконов» Евгений Артюхин поделился впечатлениями от работы с главным тренером Митчем Лавом и сравнил его с российскими специалистами.",
-      "content": "Генеральный менеджер «Шанхайских Драконов» Евгений Артюхин поделился впечатлениями от работы с главным тренером Митчем Лавом и сравнил его с российскими специалистами.",
-      "image": "https://img.championat.com/news/big/y/y/nebo-i-zemlya-drugoj-uroven-artyuhin-sravnil-inostrannyh-i-otechestvennyh-trenerov_17931910072012644072.jpg",
-      "publishedAt": "2026-10-28T12:40:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6675778-nebo-i-zemlya-drugoj-uroven-artyuhin-sravnil-inostrannyh-i-otechestvennyh-trenerov.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "РБ Спорт",
-        "Шанхайские Драконы (Куньлунь Ред Стар)",
-        "Евгений Артюхин",
-        "Митч Лав"
-      ],
-      "relatedTeamIds": [
-        "khl:kunlun"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6675666",
-      "slug": "kozhevnikov-kucherov-legenda-nhl-zhal-chto-nikita-malo-poigral-v-rossii",
-      "title": "Кожевников: Кучеров — легенда НХЛ. Жаль, что Никита мало поиграл в России",
-      "summary": "Двукратный олимпийский чемпион Александр Кожевников высказался об игре форварда «Тампа-Бэй Лайтнинг» Никиты Кучерова.",
-      "content": "Двукратный олимпийский чемпион Александр Кожевников высказался об игре форварда «Тампа-Бэй Лайтнинг» Никиты Кучерова.",
-      "image": "https://img.championat.com/news/big/z/e/kozhevnikov-kucherov-legenda-nhl-zhal-chto-nikita-malo-poigral-v-rossii_17931839211220090436.jpg",
-      "publishedAt": "2026-10-28T12:20:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6675666-kozhevnikov-kucherov-legenda-nhl-zhal-chto-nikita-malo-poigral-v-rossii.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Тампа-Бэй Лайтнинг",
-        "Никита Кучеров",
-        "Александр Кожевников"
-      ],
-      "relatedTeamIds": [
-        "nhl:tbl"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453"
-      ]
-    },
-    {
-      "id": "news-6675662",
-      "slug": "skoro-vsyo-naladitsya-zaschitnik-ska-o-vosmi-porazheniyah-v-poslednih-devyati-matchah",
-      "title": "«Скоро всё наладится». Защитник СКА — о восьми поражениях в последних девяти матчах",
-      "summary": "Защитник СКА Николай Кныжов высказался о поражении от «Торпедо» (3:4), которое стало для команды восьмым в последних девяти играх и третьим в четырёх матчах при Андрее Разине.",
-      "content": "Защитник СКА Николай Кныжов высказался о поражении от «Торпедо» (3:4), которое стало для команды восьмым в последних девяти играх и третьим в четырёх матчах при Андрее Разине.",
-      "image": "https://img.championat.com/news/big/i/o/skoro-vsyo-naladitsya-zaschitnik-ska-o-vosmi-porazheniyah-v-poslednih-devyati-matchah_1793180254200158611.jpg",
-      "publishedAt": "2026-10-28T12:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6675662-skoro-vsyo-naladitsya-zaschitnik-ska-o-vosmi-porazheniyah-v-poslednih-devyati-matchah.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Торпедо",
-        "Николай Кныжов"
-      ],
-      "relatedTeamIds": [
-        "khl:ska",
-        "khl:torpedo"
       ],
       "relatedPlayerIds": []
     }
