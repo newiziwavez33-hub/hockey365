@@ -6,156 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-28T00:00:00Z",
-  "status": "LIVE",
-  "period": 2,
-  "clock": "05:40",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:dal",
-    "score": 0,
+    "score": 1,
     "periods": [],
-    "shots": 8
+    "shots": null
   },
   "away": {
     "id": "nhl:njd",
-    "score": 3,
+    "score": 5,
     "periods": [],
-    "shots": 20
+    "shots": null
   },
   "arena": "American Airlines Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "02:41",
-      "team": "away",
-      "playerId": "nhl:p_8480002",
-      "playerName": "Nico Hischier",
-      "assists": [
-        "nhl:p_8482146",
-        "nhl:p_8480192"
-      ],
-      "score": "0-1",
-      "order": 40
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "02:41",
-      "team": "home",
-      "minutes": 2,
-      "reason": "delaying-game-unsuccessful-challenge",
-      "order": 43
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "00:38",
-      "team": "away",
-      "playerId": "nhl:p_8480002",
-      "playerName": "Nico Hischier",
-      "assists": [
-        "nhl:p_8478414",
-        "nhl:p_8482684"
-      ],
-      "score": "0-2",
-      "order": 286
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "06:02",
-      "team": "home",
-      "playerId": "nhl:p_8479193",
-      "playerName": "Casey DeSmith",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 352
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "11:45",
-      "team": "away",
-      "playerId": "nhl:p_8480003",
-      "playerName": "Jesper Boqvist",
-      "assists": [
-        "nhl:p_8481559",
-        "nhl:p_8481721"
-      ],
-      "score": "0-3",
-      "order": 421
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "12:05",
-      "team": "home",
-      "playerId": "nhl:p_8473994",
-      "playerName": "Jamie Benn",
-      "minutes": 2,
-      "reason": "instigator",
-      "order": 429
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "12:05",
-      "team": "home",
-      "playerId": "nhl:p_8473994",
-      "playerName": "Jamie Benn",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 431
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "12:05",
-      "team": "away",
-      "playerId": "nhl:p_8475455",
-      "playerName": "Brenden Dillon",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 433
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "12:05",
-      "team": "home",
-      "playerId": "nhl:p_8473994",
-      "playerName": "Jamie Benn",
-      "minutes": 10,
-      "reason": "instigator-misconduct",
-      "order": 435
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      8,
-      20
-    ],
-    "shotsOnGoal": [
-      8,
-      20
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020193/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020193/play-by-play"
-    ],
-    "fetchedAt": "2026-10-28T01:30:15.912289+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -163,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/njd-vs-dal/2026/10/27/2026020193",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/njd-vs-dal/2026/10/27/2026020193",
-    "verifiedAt": "2026-10-28T01:30:15.912369Z"
+    "verifiedAt": "2026-10-28T07:14:16.002321Z"
   }
 }

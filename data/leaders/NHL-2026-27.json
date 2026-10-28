@@ -19,7 +19,7 @@
         "playerId": "nhl:p_8478864",
         "playerName": "Kirill Kaprizov",
         "teamId": "nhl:min",
-        "value": 21
+        "value": 23
       },
       {
         "playerId": "nhl:p_8480803",
@@ -39,7 +39,7 @@
         "playerId": "nhl:p_8478864",
         "playerName": "Kirill Kaprizov",
         "teamId": "nhl:min",
-        "value": 13
+        "value": 14
       },
       {
         "playerId": "nhl:p_8477934",
@@ -74,28 +74,28 @@
         "value": 26
       },
       {
+        "playerId": "nhl:p_8479314",
+        "playerName": "Matthew Tkachuk",
+        "teamId": "nhl:fla",
+        "value": 16
+      },
+      {
         "playerId": "nhl:p_8479323",
         "playerName": "Adam Fox",
         "teamId": "nhl:nyr",
         "value": 16
       },
       {
+        "playerId": "nhl:p_8480800",
+        "playerName": "Quinn Hughes",
+        "teamId": "nhl:min",
+        "value": 15
+      },
+      {
         "playerId": "nhl:p_8480803",
         "playerName": "Evan Bouchard",
         "teamId": "nhl:edm",
         "value": 14
-      },
-      {
-        "playerId": "nhl:p_8477492",
-        "playerName": "Nathan MacKinnon",
-        "teamId": "nhl:col",
-        "value": 14
-      },
-      {
-        "playerId": "nhl:p_8478403",
-        "playerName": "Jack Eichel",
-        "teamId": "nhl:vgk",
-        "value": 13
       }
     ],
     "gaa": [
@@ -118,16 +118,16 @@
         "value": 1.43
       },
       {
-        "playerId": "nhl:p_8481611",
-        "playerName": "Pyotr Kochetkov",
-        "teamId": "nhl:car",
-        "value": 1.7
-      },
-      {
         "playerId": "nhl:p_8484170",
         "playerName": "Jacob Fowler",
         "teamId": "nhl:mtl",
-        "value": 1.79
+        "value": 1.54
+      },
+      {
+        "playerId": "nhl:p_8481611",
+        "playerName": "Pyotr Kochetkov",
+        "teamId": "nhl:car",
+        "value": 1.62
       }
     ],
     "svPct": [
@@ -136,6 +136,12 @@
         "playerName": "Linus Ullmark",
         "teamId": "nhl:ott",
         "value": 0.945
+      },
+      {
+        "playerId": "nhl:p_8484170",
+        "playerName": "Jacob Fowler",
+        "teamId": "nhl:mtl",
+        "value": 0.942
       },
       {
         "playerId": "nhl:p_8480193",
@@ -154,12 +160,6 @@
         "playerName": "Igor Shesterkin",
         "teamId": "nhl:nyr",
         "value": 0.927
-      },
-      {
-        "playerId": "nhl:p_8484170",
-        "playerName": "Jacob Fowler",
-        "teamId": "nhl:mtl",
-        "value": 0.924
       }
     ]
   }

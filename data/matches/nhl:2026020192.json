@@ -6,193 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-28T00:00:00Z",
-  "status": "LIVE",
-  "period": 2,
-  "clock": "06:12",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 5,
+  "clock": null,
+  "finishedIn": "SO",
   "home": {
     "id": "nhl:nsh",
-    "score": 2,
+    "score": 3,
     "periods": [],
-    "shots": 12
+    "shots": null
   },
   "away": {
     "id": "nhl:nyi",
-    "score": 3,
+    "score": 4,
     "periods": [],
-    "shots": 13
+    "shots": null
   },
   "arena": "Bridgestone Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "01:16",
-      "team": "away",
-      "playerId": "nhl:p_8482516",
-      "playerName": "Matthew Kessel",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 28
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "01:47",
-      "team": "home",
-      "playerId": "nhl:p_8474600",
-      "playerName": "Roman Josi",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 36
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "03:07",
-      "team": "away",
-      "playerId": "nhl:p_8477407",
-      "playerName": "Anthony Duclair",
-      "assists": [
-        "nhl:p_8476419",
-        "nhl:p_8477950"
-      ],
-      "score": "0-1",
-      "order": 53
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "08:07",
-      "team": "away",
-      "playerId": "nhl:p_8475170",
-      "playerName": "Brayden Schenn",
-      "assists": [
-        "nhl:p_8476292"
-      ],
-      "score": "0-2",
-      "order": 130
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "08:56",
-      "team": "home",
-      "minutes": 2,
-      "reason": "too-many-men-on-the-ice",
-      "order": 140
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "10:31",
-      "team": "away",
-      "playerId": "nhl:p_8477407",
-      "playerName": "Anthony Duclair",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 159
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "13:07",
-      "team": "home",
-      "playerId": "nhl:p_8484241",
-      "playerName": "Matthew Wood",
-      "minutes": 2,
-      "reason": "slashing",
-      "order": 195
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "15:32",
-      "team": "away",
-      "playerId": "nhl:p_8476292",
-      "playerName": "Ondrej Palat",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 228
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "01:08",
-      "team": "away",
-      "playerId": "nhl:p_8477500",
-      "playerName": "Bo Horvat",
-      "assists": [
-        "nhl:p_8485366",
-        "nhl:p_8481601"
-      ],
-      "score": "0-3",
-      "order": 300
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "09:28",
-      "team": "away",
-      "playerId": "nhl:p_8475170",
-      "playerName": "Brayden Schenn",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 394
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "09:42",
-      "team": "home",
-      "playerId": "nhl:p_8476887",
-      "playerName": "Filip Forsberg",
-      "assists": [
-        "nhl:p_8476539",
-        "nhl:p_8474564"
-      ],
-      "score": "1-3",
-      "order": 399
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "13:02",
-      "team": "home",
-      "playerId": "nhl:p_8477021",
-      "playerName": "Alexander Kerfoot",
-      "assists": [
-        "nhl:p_8481535"
-      ],
-      "score": "2-3",
-      "order": 449
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      12,
-      13
-    ],
-    "shotsOnGoal": [
-      12,
-      13
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020192/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020192/play-by-play"
-    ],
-    "fetchedAt": "2026-10-28T01:30:15.775830+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -200,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/nyi-vs-nsh/2026/10/27/2026020192",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/nyi-vs-nsh/2026/10/27/2026020192",
-    "verifiedAt": "2026-10-28T01:30:15.775906Z"
+    "verifiedAt": "2026-10-28T07:14:16.002267Z"
   }
 }
