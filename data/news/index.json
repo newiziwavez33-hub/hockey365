@@ -1,6 +1,84 @@
 {
   "news": [
     {
+      "id": "news-6676574",
+      "slug": "aleksej-protas-vyshel-na-chetvyortoe-mesto-v-istorii-nhl",
+      "title": "Алексей Протас вышел на четвёртое место в истории снайперов-белорусов в НХЛ",
+      "summary": "Нападающий Алексей Протас отметился голом в матче регулярного чемпионата Национальной хоккейной лиги между «Вашингтон Кэпиталз» и «Филадельфией Флайерз» (5:2) и вошёл в историю среди белорусских игроков в истории лиги.",
+      "content": "Нападающий Алексей Протас отметился голом в матче регулярного чемпионата Национальной хоккейной лиги между «Вашингтон Кэпиталз» и «Филадельфией Флайерз» (5:2) и вошёл в историю среди белорусских игроков в истории лиги.",
+      "image": "https://img.championat.com/news/big/o/h/aleksej-protas-vyshel-na-chetvyortoe-mesto-v-istorii-snajperov-belorusov-v-nhl_17932405151401815803.jpg",
+      "publishedAt": "2026-10-29T02:21:46Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6676574-aleksej-protas-vyshel-na-chetvyortoe-mesto-v-istorii-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Статистика",
+        "Филадельфия Флайерз",
+        "Алексей Протас",
+        "Михаил Грабовский"
+      ],
+      "relatedTeamIds": [
+        "nhl:phi",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6676572",
+      "slug": "vashington-kepitalz-filadelfieya-flajerz-rezultat-matcha-29-oktyabrya-2026-schet-4-2-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "«Вашингтон» с Овечкиным уверенно обыграл аутсайдера НХЛ «Филадельфию». Мичков забил",
+      "summary": "В ночь с 28 на 29 октября завершился матч регулярного чемпионата Национальной хоккейной лиги между «Вашингтон Кэпиталз» и «Филадельфией Флайерз».",
+      "content": "В ночь с 28 на 29 октября завершился матч регулярного чемпионата Национальной хоккейной лиги между «Вашингтон Кэпиталз» и «Филадельфией Флайерз».",
+      "image": "https://img.championat.com/news/big/b/n/vashington-s-ovechkinym-uverenno-obygral-autsajdera-nhl-filadelfiyu-michkov-zabil_1793239838678383838.jpg",
+      "publishedAt": "2026-10-29T02:10:40Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6676572-vashington-kepitalz-filadelfieya-flajerz-rezultat-matcha-29-oktyabrya-2026-schet-4-2-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Филадельфия Флайерз",
+        "Матвей Мичков",
+        "Алексей Протас",
+        "Шон Кутюрье",
+        "Алекс Так",
+        "Джордан Кайру"
+      ],
+      "relatedTeamIds": [
+        "nhl:phi",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6675646",
+      "slug": "vashington-kepitalz-filadelfiya-flajerz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachalas",
+      "title": "«Вашингтон» — «Филадельфия»: онлайн-трансляция матча НХЛ началась",
+      "summary": "В ночь на 29 октября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "content": "В ночь на 29 октября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/z/b/vashington-filadelfiya-onlajn-translyaciya-matcha-nhl-nachalas_17931791241966833760.jpg",
+      "publishedAt": "2026-10-28T23:30:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6675646-vashington-kepitalz-filadelfiya-flajerz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachalas.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Филадельфия Флайерз"
+      ],
+      "relatedTeamIds": [
+        "nhl:phi",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6676512",
       "slug": "forvard-toronto-nuzhno-pytatsya-zamenit-kirilla-marchenko",
       "title": "Форвард «Торонто»: нужно пытаться заменить Кирилла Марченко",
@@ -639,73 +717,6 @@
       ],
       "relatedTeamIds": [
         "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6675386",
-      "slug": "cska-traktor-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "ЦСКА — «Трактор»: онлайн-трансляция матча КХЛ началась",
-      "summary": "Сегодня, 28 октября, в Москве на стадионе «ЦСКА-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный ЦСКА принимает челябинский «Трактор».",
-      "content": "Сегодня, 28 октября, в Москве на стадионе «ЦСКА-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный ЦСКА принимает челябинский «Трактор».",
-      "image": "https://img.championat.com/news/big/t/c/cska-traktor-onlajn-translyaciya-matcha-khl-nachalas_17931653921168724735.jpg",
-      "publishedAt": "2026-10-28T16:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6675386-cska-traktor-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Трактор"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6676128",
-      "slug": "est-komanda-i-net-rezultata-maklyukov-ob-igre-ska-v-poslednih-matchah",
-      "title": "«Есть команда и нет результата». Маклюков — об игре СКА в последних матчах",
-      "summary": "Защитник СКА Алексей Маклюков высказался о работе под руководством Андрея Разина.",
-      "content": "Защитник СКА Алексей Маклюков высказался о работе под руководством Андрея Разина.",
-      "image": "https://img.championat.com/news/big/e/k/est-komanda-i-net-rezultata-maklyukov-ob-igre-ska-v-poslednih-matchah_17932036751377646698.jpg",
-      "publishedAt": "2026-10-28T16:16:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6676128-est-komanda-i-net-rezultata-maklyukov-ob-igre-ska-v-poslednih-matchah.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Sport24",
-        "Андрей Разин",
-        "Алексей Маклюков"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6675388",
-      "slug": "ak-bars-avangard-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Ак Барс» — «Авангард»: онлайн-трансляция матча КХЛ началась",
-      "summary": "Сегодня, 28 октября, на льду «Татнефть-Арены» в Казани проходит матч регулярного чемпионата КХЛ.",
-      "content": "Сегодня, 28 октября, на льду «Татнефть-Арены» в Казани проходит матч регулярного чемпионата КХЛ.",
-      "image": "https://img.championat.com/news/big/s/q/ak-bars-avangard-onlajn-translyaciya-matcha-khl-nachalas_17931654881916770248.jpg",
-      "publishedAt": "2026-10-28T16:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6675388-ak-bars-avangard-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Ак Барс"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:avangard"
       ],
       "relatedPlayerIds": []
     }
