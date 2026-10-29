@@ -7,24 +7,32 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-29T12:30:00Z",
-    "status": "SCHEDULED",
+    "status": "FINISHED",
     "period": null,
     "clock": null,
-    "finishedIn": null,
+    "finishedIn": "REG",
     "home": {
       "id": "khl:sibir",
       "name": "Сибирь",
-      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/24/original/sibir_rus__200x200.png",
-      "score": null,
-      "periods": [],
+      "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/24/original/sibir_rus__200x200.png",
+      "score": 5,
+      "periods": [
+        1,
+        3,
+        1
+      ],
       "shots": null
     },
     "away": {
       "id": "khl:metallurg-mg",
       "name": "Металлург Мг",
       "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sda/team_pics/30/original/metallurg_mg_2020__200x200.png",
-      "score": null,
-      "periods": [],
+      "score": 2,
+      "periods": [
+        0,
+        1,
+        1
+      ],
       "shots": null
     },
     "arena": null,
@@ -51,7 +59,7 @@
       "stageId": 407,
       "eventId": 3000935,
       "matchId": "902196",
-      "fetchedAt": "2026-10-29T08:51:01.570754Z"
+      "fetchedAt": "2026-10-29T15:38:50.138470Z"
     }
   },
   {
@@ -62,24 +70,30 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-29T14:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
+    "status": "LIVE",
+    "period": 10,
     "clock": null,
     "finishedIn": null,
     "home": {
       "id": "khl:avtomobilist",
       "name": "Автомобилист",
       "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/56/original/avtomobilist__200x200.png",
-      "score": null,
-      "periods": [],
+      "score": 2,
+      "periods": [
+        2,
+        0
+      ],
       "shots": null
     },
     "away": {
       "id": "khl:torpedo",
       "name": "Торпедо",
       "logo": "https://thumbs.webcaster.pro/rec-1-1.webcaster.pro/fc/sda/team_pics/22/original/Torpedo_2025_200x200_NEW.png",
-      "score": null,
-      "periods": [],
+      "score": 1,
+      "periods": [
+        0,
+        1
+      ],
       "shots": null
     },
     "arena": null,
@@ -106,7 +120,7 @@
       "stageId": 407,
       "eventId": 3000931,
       "matchId": "902195",
-      "fetchedAt": "2026-10-29T08:51:01.570754Z"
+      "fetchedAt": "2026-10-29T15:38:50.138470Z"
     }
   },
   {
@@ -132,7 +146,7 @@
     "away": {
       "id": "khl:sochi",
       "name": "ХК Сочи",
-      "logo": "https://thumbs.webcaster.pro/rec-2-13.webcaster.pro/fc/sda/team_pics/113/original/hc_sochi_2024__200x200_new.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/113/original/hc_sochi_2024__200x200_new.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -161,7 +175,7 @@
       "stageId": 407,
       "eventId": 3000939,
       "matchId": "902197",
-      "fetchedAt": "2026-10-29T08:51:01.570754Z"
+      "fetchedAt": "2026-10-29T15:38:50.138470Z"
     }
   },
   {
@@ -187,7 +201,7 @@
     "away": {
       "id": "khl:spartak",
       "name": "Спартак",
-      "logo": "https://thumbs.webcaster.pro/rec-2-19.webcaster.pro/fc/sdc2/team_pics/18/original/spartak_2015__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/18/original/spartak_2015__200x200.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -216,7 +230,7 @@
       "stageId": 407,
       "eventId": 3000947,
       "matchId": "902199",
-      "fetchedAt": "2026-10-29T08:51:01.570754Z"
+      "fetchedAt": "2026-10-29T15:38:50.138470Z"
     }
   },
   {
@@ -234,7 +248,7 @@
     "home": {
       "id": "khl:neftekhimik",
       "name": "Нефтехимик",
-      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/36/original/neftekhimik_2022__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-19.webcaster.pro/fc/sdc2/team_pics/36/original/neftekhimik_2022__200x200.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -271,7 +285,7 @@
       "stageId": 407,
       "eventId": 3000943,
       "matchId": "902198",
-      "fetchedAt": "2026-10-29T08:51:01.570754Z"
+      "fetchedAt": "2026-10-29T15:38:50.138470Z"
     }
   },
   {
@@ -314,7 +328,7 @@
       "url": "https://www.nhl.com/gamecenter/wpg-vs-tbl/2026/10/29/2026020204",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/wpg-vs-tbl/2026/10/29/2026020204",
-      "verifiedAt": "2026-10-29T08:50:59.221898Z"
+      "verifiedAt": "2026-10-29T15:38:47.758231Z"
     }
   },
   {
@@ -357,7 +371,7 @@
       "url": "https://www.nhl.com/gamecenter/uta-vs-pit/2026/10/29/2026020205",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/uta-vs-pit/2026/10/29/2026020205",
-      "verifiedAt": "2026-10-29T08:50:59.221972Z"
+      "verifiedAt": "2026-10-29T15:38:47.758387Z"
     }
   },
   {
@@ -400,7 +414,7 @@
       "url": "https://www.nhl.com/gamecenter/cbj-vs-car/2026/10/29/2026020206",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/cbj-vs-car/2026/10/29/2026020206",
-      "verifiedAt": "2026-10-29T08:50:59.222040Z"
+      "verifiedAt": "2026-10-29T15:38:47.758526Z"
     }
   },
   {
@@ -443,7 +457,7 @@
       "url": "https://www.nhl.com/gamecenter/chi-vs-det/2026/10/29/2026020203",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/chi-vs-det/2026/10/29/2026020203",
-      "verifiedAt": "2026-10-29T08:50:59.222099Z"
+      "verifiedAt": "2026-10-29T15:38:47.758661Z"
     }
   },
   {
@@ -486,7 +500,7 @@
       "url": "https://www.nhl.com/gamecenter/bos-vs-stl/2026/10/29/2026020207",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/bos-vs-stl/2026/10/29/2026020207",
-      "verifiedAt": "2026-10-29T08:50:59.222153Z"
+      "verifiedAt": "2026-10-29T15:38:47.758794Z"
     }
   },
   {
@@ -529,7 +543,7 @@
       "url": "https://www.nhl.com/gamecenter/wsh-vs-nsh/2026/10/29/2026020208",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/wsh-vs-nsh/2026/10/29/2026020208",
-      "verifiedAt": "2026-10-29T08:50:59.222208Z"
+      "verifiedAt": "2026-10-29T15:38:47.758979Z"
     }
   },
   {
@@ -572,7 +586,7 @@
       "url": "https://www.nhl.com/gamecenter/mtl-vs-dal/2026/10/29/2026020209",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/mtl-vs-dal/2026/10/29/2026020209",
-      "verifiedAt": "2026-10-29T08:50:59.222274Z"
+      "verifiedAt": "2026-10-29T15:38:47.759120Z"
     }
   },
   {
@@ -615,7 +629,7 @@
       "url": "https://www.nhl.com/gamecenter/nyi-vs-min/2026/10/29/2026020210",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/nyi-vs-min/2026/10/29/2026020210",
-      "verifiedAt": "2026-10-29T08:50:59.222337Z"
+      "verifiedAt": "2026-10-29T15:38:47.759258Z"
     }
   },
   {
@@ -658,7 +672,7 @@
       "url": "https://www.nhl.com/gamecenter/buf-vs-ana/2026/10/29/2026020211",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/buf-vs-ana/2026/10/29/2026020211",
-      "verifiedAt": "2026-10-29T08:50:59.222453Z"
+      "verifiedAt": "2026-10-29T15:38:47.759395Z"
     }
   },
   {
@@ -701,7 +715,7 @@
       "url": "https://www.nhl.com/gamecenter/ott-vs-lak/2026/10/29/2026020212",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/ott-vs-lak/2026/10/29/2026020212",
-      "verifiedAt": "2026-10-29T08:50:59.222512Z"
+      "verifiedAt": "2026-10-29T15:38:47.759583Z"
     }
   },
   {
@@ -744,7 +758,7 @@
       "url": "https://www.nhl.com/gamecenter/van-vs-sjs/2026/10/29/2026020213",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/van-vs-sjs/2026/10/29/2026020213",
-      "verifiedAt": "2026-10-29T08:50:59.222571Z"
+      "verifiedAt": "2026-10-29T15:38:47.759714Z"
     }
   }
 ]

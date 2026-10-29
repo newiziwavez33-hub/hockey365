@@ -6,24 +6,30 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-29T14:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "LIVE",
+  "period": 10,
   "clock": null,
   "finishedIn": null,
   "home": {
     "id": "khl:avtomobilist",
     "name": "Автомобилист",
     "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/56/original/avtomobilist__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 2,
+    "periods": [
+      2,
+      0
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:torpedo",
     "name": "Торпедо",
     "logo": "https://thumbs.webcaster.pro/rec-1-1.webcaster.pro/fc/sda/team_pics/22/original/Torpedo_2025_200x200_NEW.png",
-    "score": null,
-    "periods": [],
+    "score": 1,
+    "periods": [
+      0,
+      1
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +56,6 @@
     "stageId": 407,
     "eventId": 3000931,
     "matchId": "902195",
-    "fetchedAt": "2026-10-29T08:51:01.570754Z"
+    "fetchedAt": "2026-10-29T15:38:50.138470Z"
   }
 }

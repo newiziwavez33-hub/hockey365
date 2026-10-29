@@ -6,24 +6,32 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-29T12:30:00Z",
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:sibir",
     "name": "Сибирь",
-    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/24/original/sibir_rus__200x200.png",
-    "score": null,
-    "periods": [],
+    "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/24/original/sibir_rus__200x200.png",
+    "score": 5,
+    "periods": [
+      1,
+      3,
+      1
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:metallurg-mg",
     "name": "Металлург Мг",
     "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sda/team_pics/30/original/metallurg_mg_2020__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 2,
+    "periods": [
+      0,
+      1,
+      1
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000935,
     "matchId": "902196",
-    "fetchedAt": "2026-10-29T08:51:01.570754Z"
+    "fetchedAt": "2026-10-29T15:38:50.138470Z"
   }
 }
