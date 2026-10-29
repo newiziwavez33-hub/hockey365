@@ -6,121 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-29T00:30:00Z",
-  "status": "LIVE",
+  "status": "FINISHED",
   "period": 3,
-  "clock": "20:00",
-  "finishedIn": null,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:edm",
-    "score": 2,
+    "score": 4,
     "periods": [],
-    "shots": 16
+    "shots": null
   },
   "away": {
     "id": "nhl:cgy",
     "score": 0,
     "periods": [],
-    "shots": 19
+    "shots": null
   },
   "arena": "Rogers Place",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "05:04",
-      "team": "home",
-      "playerId": "nhl:p_8480834",
-      "playerName": "Ty Emberson",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 78
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "05:04",
-      "team": "away",
-      "playerId": "nhl:p_8482747",
-      "playerName": "Brennan Othmann",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 80
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "07:46",
-      "team": "home",
-      "playerId": "nhl:p_8478472",
-      "playerName": "Mathieu Joseph",
-      "assists": [
-        "nhl:p_8478402",
-        "nhl:p_8480803"
-      ],
-      "score": "1-0",
-      "order": 118
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "16:09",
-      "team": "away",
-      "playerId": "nhl:p_8480797",
-      "playerName": "Joel Farabee",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 251
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "19:48",
-      "team": "home",
-      "playerId": "nhl:p_8482703",
-      "playerName": "Colton Dach",
-      "minutes": 2,
-      "reason": "interference-goalkeeper",
-      "order": 296
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "04:52",
-      "team": "home",
-      "playerId": "nhl:p_8475218",
-      "playerName": "Mattias Ekholm",
-      "assists": [
-        "nhl:p_8476454"
-      ],
-      "score": "2-0",
-      "order": 369
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      16,
-      19
-    ],
-    "shotsOnGoal": [
-      16,
-      19
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020200/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020200/play-by-play"
-    ],
-    "fetchedAt": "2026-10-29T02:33:25.611191+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -128,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/cgy-vs-edm/2026/10/28/2026020200",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/cgy-vs-edm/2026/10/28/2026020200",
-    "verifiedAt": "2026-10-29T02:33:25.611281Z"
+    "verifiedAt": "2026-10-29T08:50:59.221207Z"
   }
 }

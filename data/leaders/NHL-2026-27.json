@@ -7,7 +7,7 @@
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
         "teamId": "nhl:edm",
-        "value": 34
+        "value": 36
       },
       {
         "playerId": "nhl:p_8477934",
@@ -22,16 +22,16 @@
         "value": 23
       },
       {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 21
+        "playerId": "nhl:p_8479318",
+        "playerName": "Auston Matthews",
+        "teamId": "nhl:tor",
+        "value": 23
       },
       {
         "playerId": "nhl:p_8477492",
         "playerName": "Nathan MacKinnon",
         "teamId": "nhl:col",
-        "value": 21
+        "value": 22
       }
     ],
     "goals": [
@@ -48,16 +48,16 @@
         "value": 12
       },
       {
+        "playerId": "nhl:p_8479318",
+        "playerName": "Auston Matthews",
+        "teamId": "nhl:tor",
+        "value": 10
+      },
+      {
         "playerId": "nhl:p_8477476",
         "playerName": "Artturi Lehkonen",
         "teamId": "nhl:col",
         "value": 10
-      },
-      {
-        "playerId": "nhl:p_8479318",
-        "playerName": "Auston Matthews",
-        "teamId": "nhl:tor",
-        "value": 9
       },
       {
         "playerId": "nhl:p_8477939",
@@ -71,7 +71,7 @@
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
         "teamId": "nhl:edm",
-        "value": 26
+        "value": 28
       },
       {
         "playerId": "nhl:p_8479314",
@@ -86,16 +86,16 @@
         "value": 16
       },
       {
+        "playerId": "nhl:p_8480803",
+        "playerName": "Evan Bouchard",
+        "teamId": "nhl:edm",
+        "value": 15
+      },
+      {
         "playerId": "nhl:p_8480800",
         "playerName": "Quinn Hughes",
         "teamId": "nhl:min",
         "value": 15
-      },
-      {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 14
       }
     ],
     "gaa": [
