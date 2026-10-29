@@ -1,0 +1,43 @@
+{
+  "id": "nhl:2026020248",
+  "compId": "NHL",
+  "season": "2026/27",
+  "stage": "regular",
+  "round": null,
+  "seriesGame": null,
+  "utcDate": "2026-11-05T00:30:00Z",
+  "status": "SCHEDULED",
+  "period": null,
+  "clock": null,
+  "finishedIn": null,
+  "home": {
+    "id": "nhl:fla",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "away": {
+    "id": "nhl:chi",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "arena": "Amerant Bank Arena",
+  "officials": {
+    "referees": [],
+    "linesmen": []
+  },
+  "events": [],
+  "lineups": null,
+  "stats": null,
+  "h2h": [],
+  "broadcast": {
+    "type": "external",
+    "verified": true,
+    "provider": "NHL.com",
+    "url": "https://www.nhl.com/gamecenter/chi-vs-fla/2026/11/04/2026020248",
+    "sourceName": "NHL.com Gamecenter",
+    "sourceUrl": "https://www.nhl.com/gamecenter/chi-vs-fla/2026/11/04/2026020248",
+    "verifiedAt": "2026-10-29T20:34:52.183063Z"
+  }
+}

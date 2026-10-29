@@ -1,0 +1,43 @@
+{
+  "id": "nhl:2026020250",
+  "compId": "NHL",
+  "season": "2026/27",
+  "stage": "regular",
+  "round": null,
+  "seriesGame": null,
+  "utcDate": "2026-11-05T03:00:00Z",
+  "status": "SCHEDULED",
+  "period": null,
+  "clock": null,
+  "finishedIn": null,
+  "home": {
+    "id": "nhl:sea",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "away": {
+    "id": "nhl:cgy",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "arena": "Climate Pledge Arena",
+  "officials": {
+    "referees": [],
+    "linesmen": []
+  },
+  "events": [],
+  "lineups": null,
+  "stats": null,
+  "h2h": [],
+  "broadcast": {
+    "type": "external",
+    "verified": true,
+    "provider": "NHL.com",
+    "url": "https://www.nhl.com/gamecenter/cgy-vs-sea/2026/11/04/2026020250",
+    "sourceName": "NHL.com Gamecenter",
+    "sourceUrl": "https://www.nhl.com/gamecenter/cgy-vs-sea/2026/11/04/2026020250",
+    "verifiedAt": "2026-10-29T20:34:52.183319Z"
+  }
+}
