@@ -10,16 +10,16 @@
         "value": 36
       },
       {
+        "playerId": "nhl:p_8478864",
+        "playerName": "Kirill Kaprizov",
+        "teamId": "nhl:min",
+        "value": 24
+      },
+      {
         "playerId": "nhl:p_8477934",
         "playerName": "Leon Draisaitl",
         "teamId": "nhl:edm",
         "value": 24
-      },
-      {
-        "playerId": "nhl:p_8478864",
-        "playerName": "Kirill Kaprizov",
-        "teamId": "nhl:min",
-        "value": 23
       },
       {
         "playerId": "nhl:p_8479318",
@@ -60,10 +60,10 @@
         "value": 10
       },
       {
-        "playerId": "nhl:p_8477939",
-        "playerName": "William Nylander",
-        "teamId": "nhl:tor",
-        "value": 9
+        "playerId": "nhl:p_8478398",
+        "playerName": "Kyle Connor",
+        "teamId": "nhl:wpg",
+        "value": 10
       }
     ],
     "assists": [
@@ -80,6 +80,12 @@
         "value": 16
       },
       {
+        "playerId": "nhl:p_8480800",
+        "playerName": "Quinn Hughes",
+        "teamId": "nhl:min",
+        "value": 16
+      },
+      {
         "playerId": "nhl:p_8479323",
         "playerName": "Adam Fox",
         "teamId": "nhl:nyr",
@@ -89,12 +95,6 @@
         "playerId": "nhl:p_8480803",
         "playerName": "Evan Bouchard",
         "teamId": "nhl:edm",
-        "value": 15
-      },
-      {
-        "playerId": "nhl:p_8480800",
-        "playerName": "Quinn Hughes",
-        "teamId": "nhl:min",
         "value": 15
       }
     ],
@@ -112,12 +112,6 @@
         "value": 1.4
       },
       {
-        "playerId": "nhl:p_8479979",
-        "playerName": "Jake Oettinger",
-        "teamId": "nhl:dal",
-        "value": 1.43
-      },
-      {
         "playerId": "nhl:p_8484170",
         "playerName": "Jacob Fowler",
         "teamId": "nhl:mtl",
@@ -127,7 +121,13 @@
         "playerId": "nhl:p_8481611",
         "playerName": "Pyotr Kochetkov",
         "teamId": "nhl:car",
-        "value": 1.62
+        "value": 1.66
+      },
+      {
+        "playerId": "nhl:p_8479979",
+        "playerName": "Jake Oettinger",
+        "teamId": "nhl:dal",
+        "value": 1.69
       }
     ],
     "svPct": [
@@ -150,16 +150,16 @@
         "value": 0.94
       },
       {
-        "playerId": "nhl:p_8479979",
-        "playerName": "Jake Oettinger",
-        "teamId": "nhl:dal",
-        "value": 0.929
-      },
-      {
         "playerId": "nhl:p_8478048",
         "playerName": "Igor Shesterkin",
         "teamId": "nhl:nyr",
         "value": 0.927
+      },
+      {
+        "playerId": "nhl:p_8480981",
+        "playerName": "Joel Hofer",
+        "teamId": "nhl:stl",
+        "value": 0.923
       }
     ]
   }
