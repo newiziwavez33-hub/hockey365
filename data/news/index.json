@@ -1,6 +1,643 @@
 {
   "news": [
     {
+      "id": "news-6679010",
+      "slug": "boss-nhl-otvetil-povliyaet-li-reshenie-cas-o-dopuske-rossii-na-sostav-uchastnikov-kubka-mira",
+      "title": "Босс НХЛ ответил, повлияет ли решение CAS о допуске России на состав участников Кубка мира",
+      "summary": "Вице-комиссионер НХЛ Билл Дэйли ответил на вопрос, как решение Спортивного арбитражного суда (CAS) о допуске сборных России к международным соревнованиям повлияет на состав участников Кубка мира 2028 года.",
+      "content": "Вице-комиссионер НХЛ Билл Дэйли ответил на вопрос, как решение Спортивного арбитражного суда (CAS) о допуске сборных России к международным соревнованиям повлияет на состав участников Кубка мира 2028 года.",
+      "image": "https://img.championat.com/news/big/c/k/boss-nhl-otvetil-povliyaet-li-reshenie-cas-o-dopuske-rossii-na-sostav-uchastnikov-kubka-mi_1793380150769943734.jpg",
+      "publishedAt": "2026-10-30T17:09:15Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6679010-boss-nhl-otvetil-povliyaet-li-reshenie-cas-o-dopuske-rossii-na-sostav-uchastnikov-kubka-mira.html",
+      "tags": [
+        "НХЛ",
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "Кубок мира — Хоккей",
+        "Пьер Лебрюн",
+        "Билл Дэйли"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6679004",
+      "slug": "federaciya-hokkeya-kanady-zaprosila-razyasneniya-u-iihf-po-vozmozhnomu-uchastiyu-rossii-na-mchm",
+      "title": "Федерация хоккея Канады запросила разъяснения у ИИХФ по возможному участию России на МЧМ",
+      "summary": "Федерация хоккея Канады добивается ясности относительно возможного возвращения России на молодёжный чемпионат мира, который пройдёт в канадских городах Эдмонтоне и Ред-Дире с 26 декабря 2026 года по 5 января 2027-го.",
+      "content": "Федерация хоккея Канады добивается ясности относительно возможного возвращения России на молодёжный чемпионат мира, который пройдёт в канадских городах Эдмонтоне и Ред-Дире с 26 декабря 2026 года по 5 января 2027-го.",
+      "image": "https://img.championat.com/news/big/y/o/federaciya-hokkeya-kanady-zaprosila-razyasneniya-u-iihf-po-vozmozhnomu-uchastiyu-rossii-na_1793379091973533658.jpg",
+      "publishedAt": "2026-10-30T16:51:38Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6679004-federaciya-hokkeya-kanady-zaprosila-razyasneniya-u-iihf-po-vozmozhnomu-uchastiyu-rossii-na-mchm.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Молодёжная сборная России — Хоккей",
+        "МЧМ-2027"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678988",
+      "slug": "napadayuschij-stefan-da-kosta-stal-igrokom-minskogo-dinamo",
+      "title": "Нападающий Стефан Да Коста стал игроком минского «Динамо»",
+      "summary": "Минское «Динамо» официально объявило о подписании контракта с нападающим Стефаном Да Костой.",
+      "content": "Минское «Динамо» официально объявило о подписании контракта с нападающим Стефаном Да Костой.",
+      "image": "https://img.championat.com/news/big/s/w/napadayuschij-stefan-da-kost.jpg",
+      "publishedAt": "2026-10-30T16:33:23Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678988-napadayuschij-stefan-da-kosta-stal-igrokom-minskogo-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Минск",
+        "Стефан Да Коста"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678976",
+      "slug": "cska-obyavil-o-prodlenii-kontrakta-s-zaschitnikom-dzheremi-roem",
+      "title": "ЦСКА объявил о продлении контракта с защитником Джереми Роем",
+      "summary": "Защитник Джереми Рой продлил контракт с ЦСКА, сообщает пресс-служба армейского клуба.",
+      "content": "Защитник Джереми Рой продлил контракт с ЦСКА, сообщает пресс-служба армейского клуба.",
+      "image": "https://img.championat.com/news/big/c/z/cska-obyavil-o-prodlenii-kon.jpg",
+      "publishedAt": "2026-10-30T16:21:18Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678976-cska-obyavil-o-prodlenii-kontrakta-s-zaschitnikom-dzheremi-roem.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Джереми Рой"
+      ],
+      "relatedTeamIds": [
+        "khl:cska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678128",
+      "slug": "dinamo-mn-traktor-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
+      "title": "«Динамо» Мн — «Трактор»: онлайн-трансляция матча КХЛ началась",
+      "summary": "Сегодня, 30 октября, в Минске на стадионе «Минск-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» принимает «Трактор».",
+      "content": "Сегодня, 30 октября, в Минске на стадионе «Минск-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» принимает «Трактор».",
+      "image": "https://img.championat.com/news/big/d/y/dinamo-mn-traktor-onlajn-translyaciya-matcha-khl-nachalas_17933393761223015188.jpg",
+      "publishedAt": "2026-10-30T16:10:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678128-dinamo-mn-traktor-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Трактор",
+        "Динамо Минск"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678962",
+      "slug": "vsecelo-podderzhivaem-eto-reshenie-federacii-hokkeya-belarusi-o-dopuske-sbornyh-rossii",
+      "title": "«Всецело поддерживаем это решение». Федерация хоккея Беларуси — о допуске сборных России",
+      "summary": "Федерация хоккея Беларуси опубликовала заявление относительно решения Спортивного арбитражного суда (CAS) по возвращению сборных России на международную арену.",
+      "content": "Федерация хоккея Беларуси опубликовала заявление относительно решения Спортивного арбитражного суда (CAS) по возвращению сборных России на международную арену.",
+      "image": "https://img.championat.com/news/big/t/s/vsecelo-podderzhivaem-eto-reshenie-federaciya-hokkeya-belarusi-o-dopuske-sbornyh-rossii_1793376516180032581.jpg",
+      "publishedAt": "2026-10-30T16:08:07Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678962-vsecelo-podderzhivaem-eto-reshenie-federacii-hokkeya-belarusi-o-dopuske-sbornyh-rossii.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "Отстранение России",
+        "Сборная Беларуси — Хоккей"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678122",
+      "slug": "severstal-spartak-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
+      "title": "«Северсталь» — «Спартак»: онлайн-трансляция матча КХЛ началась",
+      "summary": "Сегодня, 30 октября, в Череповце на стадионе «Ледовый дворец» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Северсталь» принимает «Спартак».",
+      "content": "Сегодня, 30 октября, в Череповце на стадионе «Ледовый дворец» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Северсталь» принимает «Спартак».",
+      "image": "https://img.championat.com/news/big/y/g/severstal-spartak-onlajn-translyaciya-matcha-khl-nachalas_17933390221408707343.jpg",
+      "publishedAt": "2026-10-30T16:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678122-severstal-spartak-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Спартак",
+        "Северсталь"
+      ],
+      "relatedTeamIds": [
+        "khl:severstal",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678942",
+      "slug": "uvazhaem-reshenie-mezhdunarodnyh-organov-federaciya-hokkeya-slovakii-o-dopuske-rossii",
+      "title": "«Уважаем решение международных органов». Федерация хоккея Словакии — о допуске России",
+      "summary": "Федерация хоккея Словакии прокомментировала решение Спортивного арбитражного суда (CAS) о допуске российских команд до международных турниров.",
+      "content": "Федерация хоккея Словакии прокомментировала решение Спортивного арбитражного суда (CAS) о допуске российских команд до международных турниров.",
+      "image": "https://img.championat.com/news/big/h/z/uvazhaem-reshenie-mezhdunarodnyh-organov-federaciya-hokkeya-slovakii-o-dopuske-rossii_17933755901718468966.jpg",
+      "publishedAt": "2026-10-30T15:53:11Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678942-uvazhaem-reshenie-mezhdunarodnyh-organov-federaciya-hokkeya-slovakii-o-dopuske-rossii.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "Отстранение России",
+        "Сборная Словакии — Хоккей"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678924",
+      "slug": "v-finlyandii-otvetili-kakaya-sbornaya-mozhet-poteryat-mesto-na-chm-iz-za-vozvrascheniya-rossii",
+      "title": "В Финляндии ответили, какая сборная может потерять место на ЧМ из-за возвращения России",
+      "summary": "Председатель Финского хоккейного союза Хейкки Хиетанен ответил на вопрос, какая сборная может потерять место в элитном дивизионе чемпионата мира из-за возвращения России.",
+      "content": "Председатель Финского хоккейного союза Хейкки Хиетанен ответил на вопрос, какая сборная может потерять место в элитном дивизионе чемпионата мира из-за возвращения России.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-10-30T15:32:22Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678924-v-finlyandii-otvetili-kakaya-sbornaya-mozhet-poteryat-mesto-na-chm-iz-za-vozvrascheniya-rossii.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "Отстранение России",
+        "Сборная Украины — Хоккей",
+        "ЧМ-2027"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678900",
+      "slug": "zaschitnik-sochi-baldaev-diskvalificirovan-na-dva-matcha-za-ataku-v-golovu",
+      "title": "Защитник «Сочи» Балдаев дисквалифицирован на два матча за атаку в голову",
+      "summary": "Защитник «Сочи» Виктор Балдаев дисквалифицирован на два матча и оштрафован по итогам игры регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027 с «Локомотивом» (2:6).",
+      "content": "Защитник «Сочи» Виктор Балдаев дисквалифицирован на два матча и оштрафован по итогам игры регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027 с «Локомотивом» (2:6).",
+      "image": "https://img.championat.com/news/big/s/f/zaschitnik-sochi-baldaev-dis.jpg",
+      "publishedAt": "2026-10-30T15:11:14Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678900-zaschitnik-sochi-baldaev-diskvalificirovan-na-dva-matcha-za-ataku-v-golovu.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "Локомотив",
+        "Сочи"
+      ],
+      "relatedTeamIds": [
+        "khl:lokomotiv",
+        "khl:sochi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678864",
+      "slug": "tretyak-byla-dogovoryonnost-chto-iihf-i-my-posleduem-lyubomu-resheniyu-cas",
+      "title": "Третьяк: была договорённость, что ИИХФ и мы последуем любому решению CAS",
+      "summary": "Президент Федерации хоккея России Владислав Третьяк заявил, что сейчас будет вестись работа с ИИХФ о дальнейшем участии российских сборных на международных турнирах.",
+      "content": "Президент Федерации хоккея России Владислав Третьяк заявил, что сейчас будет вестись работа с ИИХФ о дальнейшем участии российских сборных на международных турнирах.",
+      "image": "https://img.championat.com/news/big/e/d/tretyak-byla-dogovoryonnost-.jpg",
+      "publishedAt": "2026-10-30T15:00:06Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678864-tretyak-byla-dogovoryonnost-chto-iihf-i-my-posleduem-lyubomu-resheniyu-cas.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Эксклюзив",
+        "Сборная России — Хоккей",
+        "Отстранение России",
+        "Владислав Третьяк"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678098",
+      "slug": "lada-avangard-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
+      "title": "«Лада» — «Авангард»: онлайн-трансляция матча КХЛ началась",
+      "summary": "Сегодня, 30 октября, в Тольятти на стадионе «Лада-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Лада» принимает «Авангард».",
+      "content": "Сегодня, 30 октября, в Тольятти на стадионе «Лада-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Лада» принимает «Авангард».",
+      "image": "https://img.championat.com/news/big/d/m/lada-avangard-onlajn-translyaciya-matcha-khl-nachalas_17933378971241915637.jpg",
+      "publishedAt": "2026-10-30T15:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678098-lada-avangard-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Лада"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:lada"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678878",
+      "slug": "forvard-moskovskogo-dinamo-nik-merkli-vybyl-na-poltora-mesyaca-iz-za-travmy",
+      "title": "Форвард московского «Динамо» Ник Меркли выбыл на полтора месяца из-за травмы",
+      "summary": "Нападающий московского «Динамо» Ник Меркли внесён в список травмированных.",
+      "content": "Нападающий московского «Динамо» Ник Меркли внесён в список травмированных.",
+      "image": "https://img.championat.com/news/big/g/n/forvard-moskovskogo-dinamo-n.jpg",
+      "publishedAt": "2026-10-30T14:55:16Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678878-forvard-moskovskogo-dinamo-nik-merkli-vybyl-na-poltora-mesyaca-iz-za-travmy.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Травмы — хоккей",
+        "Ник Меркли"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678844",
+      "slug": "nasha-komanda-etot-match-vyigrala-tretyak-o-dopuske-sbornoj-rossii",
+      "title": "«Наша команда этот матч выиграла». Третьяк — о допуске сборной России",
+      "summary": "Президент Федерации хоккея России Владислав Третьяк прокомментировал решение Спортивного арбитражного суда (CAS), обязавшего Международную федерацию хоккея (ИИХФ) допустить российские сборные к международным соревнова...",
+      "content": "Президент Федерации хоккея России Владислав Третьяк прокомментировал решение Спортивного арбитражного суда (CAS), обязавшего Международную федерацию хоккея (ИИХФ) допустить российские сборные к международным соревнованиям.",
+      "image": "https://img.championat.com/news/big/t/n/nasha-komanda-etot-match-vyi.jpg",
+      "publishedAt": "2026-10-30T14:40:10Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678844-nasha-komanda-etot-match-vyigrala-tretyak-o-dopuske-sbornoj-rossii.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Эксклюзив",
+        "Сборная России — Хоккей",
+        "Отстранение России",
+        "Владислав Третьяк"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678826",
+      "slug": "v-shvecii-isklyuchili-veroyatnost-bojkota-chm-po-hokkeyu-iz-za-vozmozhnogo-uchastiya-rossii",
+      "title": "В Швеции исключили вероятность бойкота ЧМ по хоккею из-за возможного участия России",
+      "summary": "Председатель Федерации хоккея Швеции Андерс Ларссон заявил, что страна не будет бойкотировать чемпионат мира 2027 года в случае участия в турнире российской команды.",
+      "content": "Председатель Федерации хоккея Швеции Андерс Ларссон заявил, что страна не будет бойкотировать чемпионат мира 2027 года в случае участия в турнире российской команды.",
+      "image": "https://img.championat.com/news/big/o/u/v-shvecii-isklyuchili-veroyatnost-bojkota-chm-po-hokkeyu-iz-za-vozmozhnogo-uchastiya-rossi_1793370486812630229.jpg",
+      "publishedAt": "2026-10-30T14:28:13Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678826-v-shvecii-isklyuchili-veroyatnost-bojkota-chm-po-hokkeyu-iz-za-vozmozhnogo-uchastiya-rossii.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "Сборная Швеции — Хоккей",
+        "Отстранение России",
+        "ЧМ-2027"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678828",
+      "slug": "v-rfb-ocenili-vozmozhnost-povtorit-put-rossijskogo-hokkeya-cherez-cas",
+      "title": "В РФБ оценили возможность повторить путь российского хоккея через CAS",
+      "summary": "Генеральный секретарь Российской федерации баскетбола (РФБ) Владимир Дячок прокомментировал решение Спортивного арбитражного суда (CAS), обязавшего Международную федерацию хоккея (IIHF) допустить российские сборные к ...",
+      "content": "Генеральный секретарь Российской федерации баскетбола (РФБ) Владимир Дячок прокомментировал решение Спортивного арбитражного суда (CAS), обязавшего Международную федерацию хоккея (IIHF) допустить российские сборные к международным соревнованиям.",
+      "image": "https://img.championat.com/news/big/a/r/v-rfb-ocenili-vozmozhnost-po.jpg",
+      "publishedAt": "2026-10-30T14:27:21Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/basketball/news-6678828-v-rfb-ocenili-vozmozhnost-povtorit-put-rossijskogo-hokkeya-cherez-cas.html",
+      "tags": [
+        "Баскетбол",
+        "Прочие турниры",
+        "Хоккей",
+        "Сборная России — Хоккей",
+        "Матч ТВ",
+        "Мужская сборная России — Баскетбол",
+        "Отстранение России",
+        "Владимир Дячок"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678802",
+      "slug": "eto-vyzyvaet-osoboe-vozmuschenie-federaciya-hokkeya-ukrainy-o-dopuske-sbornyh-rossii",
+      "title": "«Это вызывает особое возмущение». Федерация хоккея Украины — о допуске сборных России",
+      "summary": "Федерация хоккея Украины отреагировала на решение Спортивного арбитражного суда (CAS) о допуске российских команд к международным соревнованиям.",
+      "content": "Федерация хоккея Украины отреагировала на решение Спортивного арбитражного суда (CAS) о допуске российских команд к международным соревнованиям.",
+      "image": "https://img.championat.com/news/big/a/f/eto-vyzyvaet-osoboe-vozmuschenie-federaciya-hokkeya-ukrainy-o-dopuske-sbornyh-rossii_17933694071642844466.jpg",
+      "publishedAt": "2026-10-30T14:10:08Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678802-eto-vyzyvaet-osoboe-vozmuschenie-federaciya-hokkeya-ukrainy-o-dopuske-sbornyh-rossii.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "Отстранение России",
+        "Сборная Украины — Хоккей"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678750",
+      "slug": "sbornaya-ukrainy-mozhet-lishitsya-mesta-na-chm-2027-po-hokkeyu-iz-za-vozvrascheniya-rossii",
+      "title": "Сборная Украины может лишиться места на ЧМ-2027 по хоккею из-за возвращения России",
+      "summary": "Сборная Украины может потерять место в элитном дивизионе чемпионата мира по хоккею 2027 года после решения Спортивного арбитражного суда (CAS) о допуске российских команд к международным соревнованиям.",
+      "content": "Сборная Украины может потерять место в элитном дивизионе чемпионата мира по хоккею 2027 года после решения Спортивного арбитражного суда (CAS) о допуске российских команд к международным соревнованиям.",
+      "image": "https://img.championat.com/news/big/j/n/sbornaya-ukrainy-mozhet-lishitsya-mesta-na-chm-2027-po-hokkeyu-iz-za-vozvrascheniya-rossii_1793368149572703432.jpg",
+      "publishedAt": "2026-10-30T13:49:16Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678750-sbornaya-ukrainy-mozhet-lishitsya-mesta-na-chm-2027-po-hokkeyu-iz-za-vozvrascheniya-rossii.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "Отстранение России",
+        "Сборная Казахстана — Хоккей",
+        "Сборная Украины — Хоккей",
+        "ЧМ-2027"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678726",
+      "slug": "v-shvecii-prizvali-bojkotirovat-chm-po-hokkeyu-v-sluchae-uchastiya-sbornoj-rossii",
+      "title": "В Швеции призвали бойкотировать ЧМ по хоккею в случае участия сборной России",
+      "summary": "Генеральный менеджер шведского «Юргордена», а также хоккейный эксперт Никлас Викегард негативно отреагировал на решение Спортивного арбитражного суда (CAS) о допуске сборной России к турнирам под эгидой Международной ...",
+      "content": "Генеральный менеджер шведского «Юргордена», а также хоккейный эксперт Никлас Викегард негативно отреагировал на решение Спортивного арбитражного суда (CAS) о допуске сборной России к турнирам под эгидой Международной федерации хоккея (ИИХФ).",
+      "image": "https://img.championat.com/news/big/q/c/v-shvecii-prizvali-bojkotirovat-chm-po-hokkeyu-v-sluchae-uchastiya-sbornoj-rossii_1793367291720900780.jpg",
+      "publishedAt": "2026-10-30T13:34:52Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678726-v-shvecii-prizvali-bojkotirovat-chm-po-hokkeyu-v-sluchae-uchastiya-sbornoj-rossii.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "Сборная Швеции — Хоккей",
+        "Отстранение России"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678714",
+      "slug": "schitov-dumayu-rossii-v-iihf-budut-vstavlyat-palki-v-kolyosa",
+      "title": "Щитов: думаю, России в ИИХФ будут вставлять палки в колёса",
+      "summary": "Бывший защитник клубов КХЛ Никита Щитов прокомментировал допуск российских сборных к международным соревнованиям и выразил сомнение, что возвращение команд пройдёт без дополнительных препятствий.",
+      "content": "Бывший защитник клубов КХЛ Никита Щитов прокомментировал допуск российских сборных к международным соревнованиям и выразил сомнение, что возвращение команд пройдёт без дополнительных препятствий.",
+      "image": "https://img.championat.com/news/big/d/p/schitov-dumayu-rossii-v-iihf-budut-vstavlyat-palki-v-kolyosa_179336599523107295.jpg",
+      "publishedAt": "2026-10-30T13:13:22Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678714-schitov-dumayu-rossii-v-iihf-budut-vstavlyat-palki-v-kolyosa.html",
+      "tags": [
+        "КХЛ",
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "Александр Овечкин",
+        "Отстранение России",
+        "ИИХФ",
+        "Никита Щитов"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6678126",
+      "slug": "dinamo-mn-traktor-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-10-msk",
+      "title": "«Динамо» Мн — «Трактор»: онлайн-трансляция матча КХЛ начнётся в 19:10 мск",
+      "summary": "Сегодня, 30 октября, в Минске на стадионе «Минск-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» сыграет с «Трактором».",
+      "content": "Сегодня, 30 октября, в Минске на стадионе «Минск-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» сыграет с «Трактором».",
+      "image": "https://img.championat.com/news/big/n/w/dinamo-mn-traktor-onlajn-translyaciya-matcha-khl-nachnyotsya-v-19-10-msk_17933393241008690288.jpg",
+      "publishedAt": "2026-10-30T13:10:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678126-dinamo-mn-traktor-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-10-msk.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Трактор",
+        "Динамо Минск"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678118",
+      "slug": "severstal-spartak-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-00-msk",
+      "title": "«Северсталь» — «Спартак»: онлайн-трансляция матча КХЛ начнётся в 19:00 мск",
+      "summary": "Сегодня, 30 октября, в Череповце на стадионе «Ледовый дворец» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Северсталь» примет «Спартак».",
+      "content": "Сегодня, 30 октября, в Череповце на стадионе «Ледовый дворец» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Северсталь» примет «Спартак».",
+      "image": "https://img.championat.com/news/big/m/f/severstal-spartak-onlajn-translyaciya-matcha-khl-nachnyotsya-v-19-00-msk_17933389601793576194.jpg",
+      "publishedAt": "2026-10-30T13:00:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678118-severstal-spartak-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-00-msk.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Спартак",
+        "Северсталь"
+      ],
+      "relatedTeamIds": [
+        "khl:severstal",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678700",
+      "slug": "sovet-iihf-na-kotorom-obsudyat-reshenie-cas-po-rossii-projdyot-2-3-noyabrya",
+      "title": "Совет ИИХФ, на котором обсудят решение CAS по России, пройдёт 2-3 ноября",
+      "summary": "Заседание совета Международной федерации хоккея (ИИХФ), на котором обсудят решение Спортивного арбитражного суда (CAS) по допуску россиян на турниры ИИХФ, пройдёт в начале следующей недели.",
+      "content": "Заседание совета Международной федерации хоккея (ИИХФ), на котором обсудят решение Спортивного арбитражного суда (CAS) по допуску россиян на турниры ИИХФ, пройдёт в начале следующей недели.",
+      "image": "https://img.championat.com/news/big/c/c/sovet-iihf-na-kotorom-obsudyat-reshenie-cas-po-rossii-projdyot-2-3-noyabrya_17933646511906487460.jpg",
+      "publishedAt": "2026-10-30T12:55:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678700-sovet-iihf-na-kotorom-obsudyat-reshenie-cas-po-rossii-projdyot-2-3-noyabrya.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "ИИХФ"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678694",
+      "slug": "zdorovo-chto-takoe-reshenie-prinyali-igor-varickij-o-dopuske-sbornyh-rossii",
+      "title": "«Здорово, что такое решение приняли». Игорь Варицкий — о допуске сборных России",
+      "summary": "Бывший генеральный менеджер «Витязя» Игорь Варицкий высказался о решении Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
+      "content": "Бывший генеральный менеджер «Витязя» Игорь Варицкий высказался о решении Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
+      "image": "https://img.championat.com/news/big/b/i/zdorovo-chto-takoe-reshenie-prinyali-igor-varickij-o-dopuske-sbornyh-rossii_17933643751651506507.jpg",
+      "publishedAt": "2026-10-30T12:50:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678694-zdorovo-chto-takoe-reshenie-prinyali-igor-varickij-o-dopuske-sbornyh-rossii.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Эксклюзив",
+        "Сборная России — Хоккей",
+        "Игорь Варицкий"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678656",
+      "slug": "eks-trener-chehii-ruzhichka-davajte-chestno-chm-tolko-proigryvaet-ot-otsutstviya-rossii",
+      "title": "Экс-тренер Чехии Ружичка: давайте честно — ЧМ только проигрывает от отсутствия России",
+      "summary": "Бывший главный тренер сборной Чехии Владимир Ружичка высказался об уровне чемпионата мира на фоне решения Спортивного арбитражного суда (CAS) допустить сборные России до турниров.",
+      "content": "Бывший главный тренер сборной Чехии Владимир Ружичка высказался об уровне чемпионата мира на фоне решения Спортивного арбитражного суда (CAS) допустить сборные России до турниров.",
+      "image": "https://img.championat.com/news/big/l/w/eks-trener-chehii-ruzhichka-davajte-chestno-chm-tolko-proigryvaet-ot-otsutstviya-rossii_1793365304571675506.jpg",
+      "publishedAt": "2026-10-30T12:45:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678656-eks-trener-chehii-ruzhichka-davajte-chestno-chm-tolko-proigryvaet-ot-otsutstviya-rossii.html",
+      "tags": [
+        "Хоккей",
+        "ЧМ по хоккею 2026",
+        "Сборная России — Хоккей",
+        "Сборная Чехии — Хоккей",
+        "ЧМ-2027"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678638",
+      "slug": "degtyaryov-o-dopuske-rossii-predstoit-kropotlivaya-rabota-po-raschistke-kalendarya",
+      "title": "Дегтярёв — о допуске России: предстоит кропотливая работа по расчистке календаря",
+      "summary": "Министр спорта России Михаил Дегтярёв высказался о турнирах, на которых могут сыграть национальные команды после решения Спортивного арбитражного суда (CAS) о допуске.",
+      "content": "Министр спорта России Михаил Дегтярёв высказался о турнирах, на которых могут сыграть национальные команды после решения Спортивного арбитражного суда (CAS) о допуске.",
+      "image": "https://img.championat.com/news/big/j/w/degtyaryov-o-dopuske-rossii-.jpg",
+      "publishedAt": "2026-10-30T12:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678638-degtyaryov-o-dopuske-rossii-predstoit-kropotlivaya-rabota-po-raschistke-kalendarya.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "ИИХФ",
+        "Михаил Дегтярёв"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678628",
+      "slug": "fazel-zayavil-chto-nuzhno-perenosit-turniry-esli-sbornoj-rossii-ne-budut-vydavat-vizy",
+      "title": "Фазель заявил, что нужно переносить турниры, если сборной России не будут выдавать визы",
+      "summary": "Бывший президент Международной федерации хоккея (ИИХФ) Рене Фазель оценил, насколько тяжело будет интегрировать сборные России на утверждённые международные турниры.",
+      "content": "Бывший президент Международной федерации хоккея (ИИХФ) Рене Фазель оценил, насколько тяжело будет интегрировать сборные России на утверждённые международные турниры.",
+      "image": "https://img.championat.com/news/big/i/v/fazel-zayavil-chto-nuzhno-pe.jpg",
+      "publishedAt": "2026-10-30T12:20:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678628-fazel-zayavil-chto-nuzhno-perenosit-turniry-esli-sbornoj-rossii-ne-budut-vydavat-vizy.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "ИИХФ",
+        "Рене Фазель"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678600",
+      "slug": "v-latvii-ozhidayut-reshenij-iihf-v-strane-zakonodatelno-zaprescheno-igrat-s-rossiyanami",
+      "title": "В Латвии ожидают решений ИИХФ, в стране законодательно запрещено играть с россиянами",
+      "summary": "Президент Федерации хоккея Латвии Айгарс Калвитис сообщил, что сейчас нет никаких дополнительных комментариев по поводу решения Спортивного арбитражного суда (CAS) о возвращении сборной России на международные соревно...",
+      "content": "Президент Федерации хоккея Латвии Айгарс Калвитис сообщил, что сейчас нет никаких дополнительных комментариев по поводу решения Спортивного арбитражного суда (CAS) о возвращении сборной России на международные соревнования.",
+      "image": "https://img.championat.com/news/big/l/b/v-latvii-ozhidayut-reshenij-iihf-v-strane-zakonodatelno-zaprescheno-igrat-s-rossiyanami_1793361185986979777.jpg",
+      "publishedAt": "2026-10-30T12:10:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678600-v-latvii-ozhidayut-reshenij-iihf-v-strane-zakonodatelno-zaprescheno-igrat-s-rossiyanami.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "Сборная Латвии — Хоккей"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678094",
+      "slug": "lada-avangard-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-18-00-msk",
+      "title": "«Лада» — «Авангард»: онлайн-трансляция матча КХЛ начнётся в 18:00 мск",
+      "summary": "Сегодня, 30 октября, в Тольятти на стадионе «Лада-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Лада» примет «Авангард».",
+      "content": "Сегодня, 30 октября, в Тольятти на стадионе «Лада-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Лада» примет «Авангард».",
+      "image": "https://img.championat.com/news/big/g/x/lada-avangard-onlajn-translyaciya-matcha-khl-nachnyotsya-v-18-00-msk_1793337839700252086.jpg",
+      "publishedAt": "2026-10-30T12:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678094-lada-avangard-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-18-00-msk.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Лада"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:lada"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6678586",
+      "slug": "spisok-turnirov-do-kotoryh-dopuscheny-sbornye-rossii-v-sezone-2026-2027",
+      "title": "Список турниров, до которых допущены сборные России по хоккею в сезоне-2026/2027",
+      "summary": "Сегодня, 30 октября, решением Спортивного арбитражного суда (CAS) сборные России по хоккею были допущены к международным соревнованиям с текущего сезона.",
+      "content": "Сегодня, 30 октября, решением Спортивного арбитражного суда (CAS) сборные России по хоккею были допущены к международным соревнованиям с текущего сезона.",
+      "image": "https://img.championat.com/news/big/p/i/spisok-turnirov-do-kotoryh-dopuscheny-sbornye-rossii-po-hokkeyu-v-sezone-2026-2027_1793361273512657952.jpg",
+      "publishedAt": "2026-10-30T11:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6678586-spisok-turnirov-do-kotoryh-dopuscheny-sbornye-rossii-v-sezone-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "ЧМ по хоккею 2026",
+        "Сборная России — Хоккей",
+        "Молодёжная сборная России — Хоккей",
+        "Юниорская сборная России — Хоккей",
+        "Чемпионат мира - Хоккей",
+        "ЧМ-2027",
+        "МЧМ-2027"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6678580",
       "slug": "khl-prezhdevremenno-govorit-o-vozmozhnyh-izmeneniyah-v-strukture-kalendarya",
       "title": "КХЛ: преждевременно говорить о возможных изменениях в структуре календаря",
@@ -16,665 +653,6 @@
         "ЧМ-2027"
       ],
       "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678560",
-      "slug": "federaciya-hokkeya-chehii-raskritikovala-reshenie-cas-o-dopuske-sbornyh-rossii",
-      "title": "Федерация хоккея Чехии раскритиковала решение CAS о допуске сборных России",
-      "summary": "Федерация хоккея Чехии выступила с официальным заявлением после решения Спортивного арбитражного суда (CAS), обязавшего Международную федерацию хоккея (ИИХФ) допустить российские сборные к международным соревнованиям.",
-      "content": "Федерация хоккея Чехии выступила с официальным заявлением после решения Спортивного арбитражного суда (CAS), обязавшего Международную федерацию хоккея (ИИХФ) допустить российские сборные к международным соревнованиям.",
-      "image": "https://img.championat.com/news/big/o/q/federaciya-hokkeya-chehii-raskritikovala-reshenie-cas-o-dopuske-sbornyh-rossii_17933589511076152036.jpg",
-      "publishedAt": "2026-10-30T11:30:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678560-federaciya-hokkeya-chehii-raskritikovala-reshenie-cas-o-dopuske-sbornyh-rossii.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "Сборная Чехии — Хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678566",
-      "slug": "insajder-nhl-dreger-rasskazal-o-srokah-prinyatiya-resheniya-po-uchastnikam-kubka-mira-2028",
-      "title": "Инсайдер НХЛ Дрегер рассказал о сроках принятия решения по участникам Кубка мира — 2028",
-      "summary": "Инсайдер НХЛ Даррен Дрегер, комментируя решение Спортивного арбитражного суда допустить сборные России к международным соревнованиям, рассказал о сроках принятия решения по участникам Кубка мира — 2028.",
-      "content": "Инсайдер НХЛ Даррен Дрегер, комментируя решение Спортивного арбитражного суда допустить сборные России к международным соревнованиям, рассказал о сроках принятия решения по участникам Кубка мира — 2028.",
-      "image": "https://img.championat.com/news/big/u/q/insajder-nhl-dreger-rasskazal-o-srokah-prinyatiya-resheniya-po-uchastnikam-kubka-mira-2028_1793359221618245637.jpg",
-      "publishedAt": "2026-10-30T11:20:47Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678566-insajder-nhl-dreger-rasskazal-o-srokah-prinyatiya-resheniya-po-uchastnikam-kubka-mira-2028.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Сборная России — Хоккей",
-        "Кубок мира — Хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678546",
-      "slug": "cas-ostavil-na-usmotrenie-iihf-reshenie-po-statusu-uchastiya-rossijskih-hokkeistov",
-      "title": "CAS оставил на усмотрение ИИХФ решение по статусу участия российских хоккеистов",
-      "summary": "Спортивный арбитражный суд (CAS) оставил на усмотрение Международной федерации хоккея (IIHF) вопрос формата допуска российских сборных — в нейтральном статусе или с национальными символами, говорится в заявлении орган...",
-      "content": "Спортивный арбитражный суд (CAS) оставил на усмотрение Международной федерации хоккея (IIHF) вопрос формата допуска российских сборных — в нейтральном статусе или с национальными символами, говорится в заявлении организации.",
-      "image": "https://img.championat.com/news/big/s/a/cas-ostavil-na-usmotrenie-iihf-reshenie-po-statusu-uchastiya-rossijskih-hokkeistov_1793358498909465438.jpg",
-      "publishedAt": "2026-10-30T11:20:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678546-cas-ostavil-na-usmotrenie-iihf-reshenie-po-statusu-uchastiya-rossijskih-hokkeistov.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "ИИХФ"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678558",
-      "slug": "khl-privetstvovala-reshenie-cas-dopustit-sbornye-rossii-na-mezhdunarodnye-sorevnovaniya",
-      "title": "КХЛ приветствовала решение CAS допустить сборные России на международные соревнования",
-      "summary": "Континентальная хоккейная лига отреагировала на решение Спортивного арбитража суда (CAS) допустить сборные России на международные соревнования.",
-      "content": "Континентальная хоккейная лига отреагировала на решение Спортивного арбитража суда (CAS) допустить сборные России на международные соревнования.",
-      "image": "https://img.championat.com/news/big/z/v/khl-privetstvovala-reshenie-cas-dopustit-sbornye-rossii-na-mezhdunarodnye-sorevnovaniya_1793358743975091118.jpg",
-      "publishedAt": "2026-10-30T11:12:54Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678558-khl-privetstvovala-reshenie-cas-dopustit-sbornye-rossii-na-mezhdunarodnye-sorevnovaniya.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Сборная России — Хоккей",
-        "ФХР",
-        "ИИХФ"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678486",
-      "slug": "fishka-obaldennaya-kozhevnikov-predlozhil-organizovat-match-rossii-s-ssha-ili-kanadoj",
-      "title": "«Фишка обалденная!» Кожевников предложил организовать матч России с США или Канадой",
-      "summary": "Двукратный олимпийский чемпион Александр Кожевников предложил организовать матч сборной России с командами США или Канады.",
-      "content": "Двукратный олимпийский чемпион Александр Кожевников предложил организовать матч сборной России с командами США или Канады.",
-      "image": "https://img.championat.com/news/big/o/o/fishka-obaldennaya-kozhevnikov-predlozhil-organizovat-match-rossii-s-ssha-ili-kanadoj_1793356564811309857.jpg",
-      "publishedAt": "2026-10-30T11:00:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678486-fishka-obaldennaya-kozhevnikov-predlozhil-organizovat-match-rossii-s-ssha-ili-kanadoj.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Сборная России — Хоккей",
-        "Сборная Канады — Хоккей",
-        "Сборная США — Хоккей",
-        "Александр Кожевников"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678518",
-      "slug": "v-rfs-pozdravili-fhr-s-resheniem-o-dopuske-sbornyh-rossii-k-mezhdunarodnym-turniram",
-      "title": "В РФС поздравили ФХР с решением о допуске сборных России к международным турнирам",
-      "summary": "Генеральный секретарь РФС Максим Митрофанов высказался о решении CAS обязать ИИХФ допустить сборные России по хоккею к международным соревнованиям.",
-      "content": "Генеральный секретарь РФС Максим Митрофанов высказался о решении CAS обязать ИИХФ допустить сборные России по хоккею к международным соревнованиям.",
-      "image": "https://img.championat.com/news/big/p/s/v-rfs-pozdravili-fhr-s-reshe.jpg",
-      "publishedAt": "2026-10-30T10:55:40Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/football/news-6678518-v-rfs-pozdravili-fhr-s-resheniem-o-dopuske-sbornyh-rossii-k-mezhdunarodnym-turniram.html",
-      "tags": [
-        "Футбол",
-        "РПЛ",
-        "Сборная России",
-        "Хоккей",
-        "ЧМ по хоккею 2026",
-        "МЧМ по хоккею 2026",
-        "Сборная России — Хоккей",
-        "РФС",
-        "Молодёжная сборная России — Хоккей",
-        "Отстранение России",
-        "ФХР",
-        "Юниорская сборная России — Хоккей",
-        "Максим Митрофанов",
-        "Женская сборная России — Хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678502",
-      "slug": "v-germanii-ocenili-kak-dopusk-sbornoj-rossii-povliyaet-na-organizaciyu-chm-2027",
-      "title": "В Германии оценили, как допуск сборной России повлияет на организацию ЧМ-2027",
-      "summary": "Председатель правления Немецкого хоккейного союза (DEB) Франк Лутц отреагировал на решение Спортивного арбитражного суда (CAS) о допуске российских команд к международным соревнованиям.",
-      "content": "Председатель правления Немецкого хоккейного союза (DEB) Франк Лутц отреагировал на решение Спортивного арбитражного суда (CAS) о допуске российских команд к международным соревнованиям.",
-      "image": "https://img.championat.com/news/big/r/g/v-germanii-ocenili-kak-dopusk-sbornoj-rossii-povliyaet-na-organizaciyu-chm-2027_17933572161606812783.jpg",
-      "publishedAt": "2026-10-30T10:47:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678502-v-germanii-ocenili-kak-dopusk-sbornoj-rossii-povliyaet-na-organizaciyu-chm-2027.html",
-      "tags": [
-        "Хоккей",
-        "ЧМ по хоккею 2026",
-        "Сборная России — Хоккей",
-        "Сборная Германии — Хоккей",
-        "ЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678492",
-      "slug": "ne-budu-delat-zayavlenij-lyuk-tardif-o-dopuske-sbornoj-rossii-na-mezhdunarodnuyu-arenu",
-      "title": "«Не буду делать заявлений». Люк Тардиф — о допуске сборной России на международную арену",
-      "summary": "Бывший президент Международной федерации хоккея Люк Тардиф не стал комментировать решение Спортивного арбитражного суда (CAS) о допуске сборной России до международных турниров.",
-      "content": "Бывший президент Международной федерации хоккея Люк Тардиф не стал комментировать решение Спортивного арбитражного суда (CAS) о допуске сборной России до международных турниров.",
-      "image": "https://img.championat.com/news/big/f/l/ne-budu-delat-zayavlenij-lyuk-tardif-o-dopuske-sbornoj-rossii-na-mezhdunarodnuyu-arenu_17933567111002366068.jpg",
-      "publishedAt": "2026-10-30T10:38:39Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678492-ne-budu-delat-zayavlenij-lyuk-tardif-o-dopuske-sbornoj-rossii-na-mezhdunarodnuyu-arenu.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Сборная России — Хоккей",
-        "ИИХФ",
-        "Люк Тардиф"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678476",
-      "slug": "kozhevnikov-shavki-skunsy-chehi-shvedy-finny-latvijcy-vstavlyayut-rossii-palki-v-kolyosa",
-      "title": "Кожевников: шавки, скунсы — чехи, шведы, финны, латвийцы — вставляют России палки в колёса",
-      "summary": "Двукратный олимпийский чемпион Александр Кожевников оценил решение Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "content": "Двукратный олимпийский чемпион Александр Кожевников оценил решение Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "image": "https://img.championat.com/news/big/c/m/kozhevnikov-shavki-skunsy-chehi-shvedy-finny-latvijcy-vstavlyayut-rossii-palki-v-kolyosa_1793356425254130705.jpg",
-      "publishedAt": "2026-10-30T10:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678476-kozhevnikov-shavki-skunsy-chehi-shvedy-finny-latvijcy-vstavlyayut-rossii-palki-v-kolyosa.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Сборная России — Хоккей",
-        "Александр Кожевников"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678458",
-      "slug": "v-finlyandii-predostavyat-igrokam-pravo-otkazatsya-ot-matchej-so-sbornoj-rossii",
-      "title": "В Финляндии предоставят игрокам право отказаться от матчей со сборной России",
-      "summary": "Член совета директоров Ассоциации хоккея Финляндии Хейкки Хиетанен оценил решение Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "content": "Член совета директоров Ассоциации хоккея Финляндии Хейкки Хиетанен оценил решение Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "image": "https://img.championat.com/news/big/j/r/v-finlyandii-predostavyat-igrokam-pravo-otkazatsya-ot-matchej-so-sbornoj-rossii_17933553751274549028.jpg",
-      "publishedAt": "2026-10-30T10:17:23Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678458-v-finlyandii-predostavyat-igrokam-pravo-otkazatsya-ot-matchej-so-sbornoj-rossii.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "Сборная Финляндии — Хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678426",
-      "slug": "plyuschev-o-reshenii-cas-dopustit-rossiyu-eto-prosto-tak-ne-otpustyat-budut-vstavlyat-shipy",
-      "title": "Плющев — о решении CAS допустить Россию: это просто так не отпустят, будут вставлять шипы",
-      "summary": "Заслуженный тренер России Владимир Плющев высказался о решении Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "content": "Заслуженный тренер России Владимир Плющев высказался о решении Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "image": "https://img.championat.com/news/big/w/x/plyuschev-o-reshenii-cas-dopustit-rossiyu-eto-prosto-tak-ne-otpustyat-budut-vstavlyat-ship_17933542901128546907.jpg",
-      "publishedAt": "2026-10-30T09:58:30Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678426-plyuschev-o-reshenii-cas-dopustit-rossiyu-eto-prosto-tak-ne-otpustyat-budut-vstavlyat-shipy.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Сборная России — Хоккей",
-        "Владимир Плющев"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678406",
-      "slug": "cas-vystupila-s-zayavleniem-o-dopuske-sbornyh-rossii-po-hokkeyu-na-mezhdunarodnuyu-arenu",
-      "title": "CAS выступил с заявлением о допуске сборных России по хоккею на международную арену",
-      "summary": "Пресс-служба Спортивного арбитражного суда (CAS) выступила с заявлением о допуске сборных России по хоккею на международную арену.",
-      "content": "Пресс-служба Спортивного арбитражного суда (CAS) выступила с заявлением о допуске сборных России по хоккею на международную арену.",
-      "image": "https://img.championat.com/news/big/o/q/cas-vystupil-s-zayavleniem-o-dopuske-sbornyh-rossii-po-hokkeyu-na-mezhdunarodnuyu-arenu_17933541702094243674.jpg",
-      "publishedAt": "2026-10-30T09:54:37Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678406-cas-vystupila-s-zayavleniem-o-dopuske-sbornyh-rossii-po-hokkeyu-na-mezhdunarodnuyu-arenu.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "ФХР",
-        "ИИХФ",
-        "МЧМ-2027",
-        "ЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678402",
-      "slug": "guberniev-o-reshenii-cas-v-polzuyu-hokkeistov-vsegda-govoril-ih-nado-taskat-po-sudam",
-      "title": "Губерниев — о решении CAS в пользу хоккеистов: всегда говорил — их надо таскать по судам",
-      "summary": "Российский комментатор Дмитрий Губерниев оценил решение Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "content": "Российский комментатор Дмитрий Губерниев оценил решение Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "image": "https://img.championat.com/news/big/v/n/guberniev-o-reshenii-cas-v-polzu-hokkeistov-vsegda-govoril-ih-nado-taskat-po-sudam_1793353865438201683.jpg",
-      "publishedAt": "2026-10-30T09:49:42Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678402-guberniev-o-reshenii-cas-v-polzuyu-hokkeistov-vsegda-govoril-ih-nado-taskat-po-sudam.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Сборная России — Хоккей",
-        "Дмитрий Губерниев"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678394",
-      "slug": "nadeemsya-na-konstruktivnoe-vzaimodejstvie-s-iihf-rotenberg-o-dopuske-sbornoj-rossii",
-      "title": "«Надеемся на конструктивное взаимодействие с ИИХФ». Ротенберг — о допуске сборной России",
-      "summary": "Первый вице-президент Федерации хоккея России (ФХР) Роман Ротенберг оценил решение Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "content": "Первый вице-президент Федерации хоккея России (ФХР) Роман Ротенберг оценил решение Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "image": "https://img.championat.com/news/big/p/p/nadeemsya-na-konstruktivnoe-.jpg",
-      "publishedAt": "2026-10-30T09:47:53Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678394-nadeemsya-na-konstruktivnoe-vzaimodejstvie-s-iihf-rotenberg-o-dopuske-sbornoj-rossii.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "Роман Ротенберг",
-        "ФХР",
-        "ИИХФ"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678384",
-      "slug": "vyacheslav-bykov-prokommentiroval-reshenie-cas-vernut-rossiyu-v-mezhdunarodnye-sorevnovaniya",
-      "title": "Вячеслав Быков прокомментировал решение CAS вернуть Россию в международные соревнования",
-      "summary": "Бывший тренер сборной России Вячеслав Быков высказался о решении Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "content": "Бывший тренер сборной России Вячеслав Быков высказался о решении Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "image": "https://img.championat.com/news/big/c/r/vyacheslav-bykov-prokommentiroval-reshenie-cas-vernut-rossiyu-v-mezhdunarodnye-sorevnovani_1793353273694652412.jpg",
-      "publishedAt": "2026-10-30T09:41:33Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678384-vyacheslav-bykov-prokommentiroval-reshenie-cas-vernut-rossiyu-v-mezhdunarodnye-sorevnovaniya.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Сборная России — Хоккей",
-        "Вячеслав Быков"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678382",
-      "slug": "sumasshedshaya-novost-sushinskij-o-reshenii-cas-dopustit-sbornuyu-rossii-do-sorevnovanij",
-      "title": "«Сумасшедшая новость!» Сушинский — о решении CAS допустить сборную России до соревнований",
-      "summary": "Чемпион мира Максим Сушинский высказался о решении Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "content": "Чемпион мира Максим Сушинский высказался о решении Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "image": "https://img.championat.com/news/big/g/f/sumasshedshaya-novost-sushin.jpg",
-      "publishedAt": "2026-10-30T09:39:10Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678382-sumasshedshaya-novost-sushinskij-o-reshenii-cas-dopustit-sbornuyu-rossii-do-sorevnovanij.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Сборная России — Хоккей",
-        "ИИХФ",
-        "Максим Сушинский"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678380",
-      "slug": "dementev-rasskazal-kogda-zhdat-pervogo-poyavleniya-sbornoj-rossii-na-mezhdunarodnom-turnire",
-      "title": "Дементьев рассказал, когда ждать первого появления сборной России на международном турнире",
-      "summary": "Агент Алексей Дементьев оценил, когда ждать первого появления сборной России на международном турнире.",
-      "content": "Агент Алексей Дементьев оценил, когда ждать первого появления сборной России на международном турнире.",
-      "image": "https://img.championat.com/news/big/u/r/dementev-rasskazal-kogda-zhdat-pervogo-poyavleniya-sbornoj-rossii-na-mezhdunarodnom-turnir_17933529011823954042.jpg",
-      "publishedAt": "2026-10-30T09:35:08Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678380-dementev-rasskazal-kogda-zhdat-pervogo-poyavleniya-sbornoj-rossii-na-mezhdunarodnom-turnire.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Эксклюзив",
-        "Сборная России — Хоккей",
-        "Алексей Дементьев"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678376",
-      "slug": "fhr-ocenila-reshenie-cas-dopustit-sbornye-rossii-k-mezhdunarodnym-sorevnovaniyam",
-      "title": "ФХР оценила решение CAS допустить сборные России к международным соревнованиям",
-      "summary": "Федерация хоккея России оценила решение Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "content": "Федерация хоккея России оценила решение Спортивного арбитражного суда (CAS) допустить сборные России к международным соревнованиям.",
-      "image": "https://img.championat.com/news/big/d/s/fhr-ocenila-reshenie-cas-dopustit-sbornye-rossii-k-mezhdunarodnym-sorevnovaniyam_1793352810852898184.jpg",
-      "publishedAt": "2026-10-30T09:33:42Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678376-fhr-ocenila-reshenie-cas-dopustit-sbornye-rossii-k-mezhdunarodnym-sorevnovaniyam.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "ФХР",
-        "ИИХФ"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678366",
-      "slug": "iihf-vystupila-s-zayavleniem-o-dopuske-sbornyh-rossii-na-mezhdunarodnuyu-arenu",
-      "title": "ИИХФ выступила с заявлением о допуске сборных России на международную арену",
-      "summary": "Международная федерация хоккея (ИИХФ) выступила с заявлением о допуске сборных России на международную арену",
-      "content": "Международная федерация хоккея (ИИХФ) выступила с заявлением о допуске сборных России на международную арену",
-      "image": "https://img.championat.com/news/big/a/n/iihf-vystupila-s-zayavleniem-o-dopuske-sbornyh-rossii-na-mezhdunarodnuyu-arenu_17933526531199573615.jpg",
-      "publishedAt": "2026-10-30T09:31:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678366-iihf-vystupila-s-zayavleniem-o-dopuske-sbornyh-rossii-na-mezhdunarodnuyu-arenu.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "ИИХФ",
-        "МЧМ-2027",
-        "ЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678360",
-      "slug": "sbornye-rossii-po-hokkeyu-dopuscheny-k-mezhdunarodnym-sorevnovaniyam-s-tekuschego-sezona",
-      "title": "Сборные России по хоккею допущены к международным соревнованиям с текущего сезона",
-      "summary": "Сборные России по хоккею допущены к международным соревнованиям с текущего сезона.",
-      "content": "Сборные России по хоккею допущены к международным соревнованиям с текущего сезона.",
-      "image": "https://img.championat.com/news/big/x/b/sbornye-rossii-po-hokkeyu-dopuscheny-k-mezhdunarodnym-sorevnovaniyam-s-tekuschego-sezona_1793352343672550873.jpg",
-      "publishedAt": "2026-10-30T09:26:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678360-sbornye-rossii-po-hokkeyu-dopuscheny-k-mezhdunarodnym-sorevnovaniyam-s-tekuschego-sezona.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "Отстранение России",
-        "ФХР",
-        "ИИХФ"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678348",
-      "slug": "mnogoe-zavisit-ot-rukovodstva-regiona-prezident-khl-o-buduschem-lady",
-      "title": "«Многое зависит от руководства региона». Президент КХЛ — о будущем «Лады»",
-      "summary": "Президент Континентальной хоккейной лиги Алексей Морозов высказался о будущем тольяттинской «Лады» в КХЛ.",
-      "content": "Президент Континентальной хоккейной лиги Алексей Морозов высказался о будущем тольяттинской «Лады» в КХЛ.",
-      "image": "https://img.championat.com/news/big/i/b/mnogoe-zavisit-ot-rukovodstva-regiona-prezident-khl-o-buduschem-lady_17933516341618532261.jpg",
-      "publishedAt": "2026-10-30T09:18:07Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678348-mnogoe-zavisit-ot-rukovodstva-regiona-prezident-khl-o-buduschem-lady.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Лада",
-        "Алексей Морозов"
-      ],
-      "relatedTeamIds": [
-        "khl:lada"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678354",
-      "slug": "cas-obyazal-iihf-dopustit-sbornye-rossii-po-hokkeyu-k-mezhdunarodnym-sorevnovaniyam",
-      "title": "CAS обязал ИИХФ допустить сборные России по хоккею к международным соревнованиям",
-      "summary": "CAS обязал ИИХФ допустить сборные России по хоккею к международным соревнованиям.",
-      "content": "CAS обязал ИИХФ допустить сборные России по хоккею к международным соревнованиям.",
-      "image": "https://img.championat.com/news/big/j/o/cas-obyazal-iihf-dopustit-sbornye-rossii-po-hokkeyu-k-mezhdunarodnym-sorevnovaniyam_17933519801101428915.jpg",
-      "publishedAt": "2026-10-30T09:16:10Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678354-cas-obyazal-iihf-dopustit-sbornye-rossii-po-hokkeyu-k-mezhdunarodnym-sorevnovaniyam.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "ФХР",
-        "ИИХФ",
-        "Михаил Дегтярёв",
-        "ЧМ-2027",
-        "МЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678142",
-      "slug": "raspisanie-matchej-nhl-v-noch-na-31-oktyabrya-2026-goda",
-      "title": "Расписание матчей НХЛ в ночь на 31 октября 2026 года",
-      "summary": "В ночь на 31 октября пройдут очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
-      "content": "В ночь на 31 октября пройдут очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/h/b/raspisanie-matchej-nhl-v-noch-na-31-oktyabrya-2026-goda_17933406031526881267.jpg",
-      "publishedAt": "2026-10-30T09:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678142-raspisanie-matchej-nhl-v-noch-na-31-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Флорида Пантерз",
-        "Вегас Голден Найтс",
-        "Нью-Джерси Дэвилз",
-        "Виннипег Джетс",
-        "Калгари Флэймз",
-        "Сиэтл Кракен"
-      ],
-      "relatedTeamIds": [
-        "nhl:cgy",
-        "nhl:fla",
-        "nhl:njd",
-        "nhl:sea",
-        "nhl:vgk",
-        "nhl:wpg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678302",
-      "slug": "kozhevnikov-o-tambieve-ne-hochu-nikogo-rugat-belo-golubye-tribuny-uzhe-vsyo-skazali",
-      "title": "Кожевников — о Тамбиеве: не хочу никого ругать — бело-голубые трибуны уже всё сказали",
-      "summary": "Двукратный олимпийский чемпион Александр Кожевников подверг критике работу главного тренера московского «Динамо» Леонида Тамбиева.",
-      "content": "Двукратный олимпийский чемпион Александр Кожевников подверг критике работу главного тренера московского «Динамо» Леонида Тамбиева.",
-      "image": "https://img.championat.com/news/big/v/n/kozhevnikov-o-tambieve-ne-hochu-nikogo-rugat-belo-golubye-tribuny-uzhe-vsyo-skazali_1793349525796502736.jpg",
-      "publishedAt": "2026-10-30T08:34:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678302-kozhevnikov-o-tambieve-ne-hochu-nikogo-rugat-belo-golubye-tribuny-uzhe-vsyo-skazali.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Александр Кожевников",
-        "Леонид Тамбиев"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678288",
-      "slug": "ne-nazval-by-eto-yamoj-grigorenko-o-turnirnom-polozhenii-traktora",
-      "title": "«Не назвал бы это ямой». Григоренко — о турнирном положении «Трактора»",
-      "summary": "Нападающий «Трактора» Михаил Григоренко высказался о турнирном положении челябинского клуба.",
-      "content": "Нападающий «Трактора» Михаил Григоренко высказался о турнирном положении челябинского клуба.",
-      "image": "https://img.championat.com/news/big/w/s/ne-nazval-by-eto-yamoj-grigo.jpg",
-      "publishedAt": "2026-10-30T08:15:54Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678288-ne-nazval-by-eto-yamoj-grigorenko-o-turnirnom-polozhenii-traktora.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Матч ТВ",
-        "Трактор",
-        "Михаил Григоренко"
-      ],
-      "relatedTeamIds": [
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678264",
-      "slug": "morozov-fazel-skazal-chto-ego-izbranie-rajndlya-eto-navernoe-luchshee-reshenie-dlya-rossii",
-      "title": "Морозов: Фазель сказал, что избрание Райндля — это, наверное, лучшее решение для России",
-      "summary": "Президент КХЛ Алексей Морозов высказался о назначении немца Франца Райндля на пост президента Международной федерации хоккея (ИИХФ).",
-      "content": "Президент КХЛ Алексей Морозов высказался о назначении немца Франца Райндля на пост президента Международной федерации хоккея (ИИХФ).",
-      "image": "https://img.championat.com/news/big/y/c/morozov-fazel-skazal-chto-izbranie-rajndlya-eto-navernoe-luchshee-reshenie-dlya-rossii_17933471271895425526.jpg",
-      "publishedAt": "2026-10-30T07:51:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678264-morozov-fazel-skazal-chto-ego-izbranie-rajndlya-eto-navernoe-luchshee-reshenie-dlya-rossii.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Алексей Морозов",
-        "ИИХФ",
-        "Рене Фазель",
-        "Франц Райндль"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6678226",
-      "slug": "o-bez-voprosov-on-budet-tam-glavnyj-trener-tampy-o-kucherove-v-zale-slavy",
-      "title": "«О, без вопросов, он будет там». Главный тренер «Тампы» — о Кучерове в Зале славы",
-      "summary": "Главный тренер «Тампа-Бэй Лайтнинг» Джон Купер выразил уверенность в том, что российский форвард Никита Кучеров в будущем попадёт в Зал хоккейной славы.",
-      "content": "Главный тренер «Тампа-Бэй Лайтнинг» Джон Купер выразил уверенность в том, что российский форвард Никита Кучеров в будущем попадёт в Зал хоккейной славы.",
-      "image": "https://img.championat.com/news/big/l/g/o-bez-voprosov-on-budet-tam-glavnyj-trener-tampy-o-kucherove-v-zale-slavy_17933447231189817415.jpg",
-      "publishedAt": "2026-10-30T07:34:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678226-o-bez-voprosov-on-budet-tam-glavnyj-trener-tampy-o-kucherove-v-zale-slavy.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Тампа-Бэй Лайтнинг",
-        "Никита Кучеров",
-        "Джон Купер"
-      ],
-      "relatedTeamIds": [
-        "nhl:tbl"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453"
-      ]
-    },
-    {
-      "id": "news-6678204",
-      "slug": "ovechkin-vstretilsya-s-byvshim-trenerom-vashingtona-trotcem-i-poluchil-v-podarok-gitaru",
-      "title": "Овечкин встретился с бывшим тренером «Вашингтона» Тротцем и получил в подарок гитару",
-      "summary": "Капитан «Вашингтон Кэпиталз» Александр Овечкин сыграл последний матч в Нэшвилле в рамках регулярного сезона Национальной хоккейной лиги.",
-      "content": "Капитан «Вашингтон Кэпиталз» Александр Овечкин сыграл последний матч в Нэшвилле в рамках регулярного сезона Национальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/r/l/ovechkin-vstretilsya-s-byvshim-trenerom-vashingtona-trotcem-i-poluchil-v-podarok-gitaru_17933436631607256704.jpg",
-      "publishedAt": "2026-10-30T07:17:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678204-ovechkin-vstretilsya-s-byvshim-trenerom-vashingtona-trotcem-i-poluchil-v-podarok-gitaru.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Фото",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Нэшвилл Предаторз",
-        "Барри Тротц",
-        "Роман Йози"
-      ],
-      "relatedTeamIds": [
-        "nhl:nsh",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6678102",
-      "slug": "panarin-sravnyalsya-s-fyodorovym-po-ochkam-s-uchyotom-plej-off-za-pervye-12-sezonov-v-nhl",
-      "title": "Панарин сравнялся с Фёдоровым по очкам с учётом плей-офф за первые 12 сезонов в НХЛ",
-      "summary": "Российский нападающий «Лос-Анджелес Кингз» Артемий Панарин во встрече регулярного сезона с «Оттавой Сенаторз» записал на свой счёт гол и результативную передачу.",
-      "content": "Российский нападающий «Лос-Анджелес Кингз» Артемий Панарин во встрече регулярного сезона с «Оттавой Сенаторз» записал на свой счёт гол и результативную передачу.",
-      "image": "https://img.championat.com/news/big/o/c/panarin-sravnyalsya-s-fyodorovym-po-ochkam-s-uchyotom-plej-off-za-pervye-12-sezonov-v-nhl_1793338379952062928.jpg",
-      "publishedAt": "2026-10-30T07:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678102-panarin-sravnyalsya-s-fyodorovym-po-ochkam-s-uchyotom-plej-off-za-pervye-12-sezonov-v-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Тампа-Бэй Лайтнинг",
-        "Никита Кучеров",
-        "Артемий Панарин",
-        "Лос-Анджелес Кингз",
-        "Оттава Сенаторз",
-        "Сергей Фёдоров — хоккей",
-        "Яри Курри"
-      ],
-      "relatedTeamIds": [
-        "nhl:lak",
-        "nhl:nyr",
-        "nhl:ott",
-        "nhl:tbl"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453",
-        "nhl:p_8478550"
-      ]
-    },
-    {
-      "id": "news-6678124",
-      "slug": "dinamo-mn-traktor-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-30-oktyabrya-2026",
-      "title": "«Динамо» Мн — «Трактор»: во сколько начало матча КХЛ, где смотреть трансляцию",
-      "summary": "Сегодня, 30 октября, в Минске на стадионе «Минск-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» сыграет с «Трактором».",
-      "content": "Сегодня, 30 октября, в Минске на стадионе «Минск-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» сыграет с «Трактором».",
-      "image": "https://img.championat.com/news/big/i/j/dinamo-mn-traktor-vo-skolko-nachalo-matcha-khl-gde-smotret-translyaciyu_17933392021642809245.jpg",
-      "publishedAt": "2026-10-30T06:40:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6678124-dinamo-mn-traktor-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-30-oktyabrya-2026.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Динамо Минск"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-mns",
-        "khl:traktor"
-      ],
       "relatedPlayerIds": []
     }
   ]
