@@ -6,21 +6,21 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-30T00:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 1,
+  "clock": "15:50",
   "finishedIn": null,
   "home": {
     "id": "nhl:stl",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 2
   },
   "away": {
     "id": "nhl:bos",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 2
   },
   "arena": "Enterprise Center",
   "officials": {
@@ -29,8 +29,26 @@
   },
   "events": [],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      2,
+      2
+    ],
+    "shotsOnGoal": [
+      2,
+      2
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020207/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020207/play-by-play"
+    ],
+    "fetchedAt": "2026-10-30T00:15:41.931451+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +56,6 @@
     "url": "https://www.nhl.com/gamecenter/bos-vs-stl/2026/10/29/2026020207",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/bos-vs-stl/2026/10/29/2026020207",
-    "verifiedAt": "2026-10-29T20:34:52.171455Z"
+    "verifiedAt": "2026-10-30T00:15:41.931516Z"
   }
 }
