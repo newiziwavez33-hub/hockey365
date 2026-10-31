@@ -6,31 +6,201 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-30T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "INTERMISSION",
+  "period": 2,
+  "clock": "02:46",
   "finishedIn": null,
   "home": {
     "id": "nhl:fla",
-    "score": null,
+    "score": 3,
     "periods": [],
-    "shots": null
+    "shots": 21
   },
   "away": {
     "id": "nhl:wpg",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 17
   },
   "arena": "Amerant Bank Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "02:04",
+      "team": "home",
+      "playerId": "nhl:p_8478147",
+      "playerName": "Bokondji Imama",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 38
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "02:04",
+      "team": "away",
+      "playerId": "nhl:p_8482459",
+      "playerName": "Tyrel Bauer",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 40
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "11:54",
+      "team": "home",
+      "playerId": "nhl:p_8482113",
+      "playerName": "Anton Lundell",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 169
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "17:58",
+      "team": "away",
+      "playerId": "nhl:p_8486025",
+      "playerName": "Viggo Björck",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 250
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "18:15",
+      "team": "home",
+      "playerId": "nhl:p_8477933",
+      "playerName": "Sam Reinhart",
+      "assists": [
+        "nhl:p_8477409",
+        "nhl:p_8477495"
+      ],
+      "score": "1-0",
+      "order": 255
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "02:38",
+      "team": "home",
+      "playerId": "nhl:p_8482113",
+      "playerName": "Anton Lundell",
+      "assists": [
+        "nhl:p_8477495"
+      ],
+      "score": "2-0",
+      "order": 315
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "07:57",
+      "team": "home",
+      "playerId": "nhl:p_8475179",
+      "playerName": "Dmitry Kulikov",
+      "minutes": 2,
+      "reason": "delaying-game-puck-over-glass",
+      "order": 375
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "07:57",
+      "team": "home",
+      "minutes": 2,
+      "reason": "delaying-game-unsuccessful-challenge",
+      "order": 379
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "09:51",
+      "team": "away",
+      "playerId": "nhl:p_8478398",
+      "playerName": "Kyle Connor",
+      "assists": [
+        "nhl:p_8476460",
+        "nhl:p_8480145"
+      ],
+      "score": "2-1",
+      "order": 399
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "13:03",
+      "team": "home",
+      "playerId": "nhl:p_8477903",
+      "playerName": "Garnet Hathaway",
+      "minutes": 2,
+      "reason": "high-sticking",
+      "order": 445
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "15:16",
+      "team": "away",
+      "playerId": "nhl:p_8480289",
+      "playerName": "Morgan Barron",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 472
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "15:24",
+      "team": "home",
+      "playerId": "nhl:p_8477495",
+      "playerName": "Seth Jones",
+      "assists": [
+        "nhl:p_8477933"
+      ],
+      "score": "3-1",
+      "order": 478
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "18:36",
+      "team": "away",
+      "playerId": "nhl:p_8476331",
+      "playerName": "Dylan DeMelo",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 522
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      21,
+      17
+    ],
+    "shotsOnGoal": [
+      21,
+      17
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020215/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020215/play-by-play"
+    ],
+    "fetchedAt": "2026-10-31T00:59:08.619072+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +208,6 @@
     "url": "https://www.nhl.com/gamecenter/wpg-vs-fla/2026/10/30/2026020215",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/wpg-vs-fla/2026/10/30/2026020215",
-    "verifiedAt": "2026-10-30T21:31:41.706924Z"
+    "verifiedAt": "2026-10-31T00:59:08.619229Z"
   }
 }

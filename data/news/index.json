@@ -1,6 +1,77 @@
 {
   "news": [
     {
+      "id": "news-6679374",
+      "slug": "vegas-golden-najts-nyu-dzhersi-devilz-rezultat-matcha-25-maya-2026-schyot-2-5-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "Дубль Грицюка помог «Нью-Джерси» переиграть «Вегас» в НХЛ. Барбашёв забил",
+      "summary": "В ночь с 30 на 31 октября в Парадайсе на стадионе «Ти-Мобайл Арена» прошёл матч регулярного чемпионата Национальной хоккейной лиги, в котором «Вегас Голден Найтс» принимал «Нью-Джерси Дэвилз».",
+      "content": "В ночь с 30 на 31 октября в Парадайсе на стадионе «Ти-Мобайл Арена» прошёл матч регулярного чемпионата Национальной хоккейной лиги, в котором «Вегас Голден Найтс» принимал «Нью-Джерси Дэвилз».",
+      "image": "https://img.championat.com/news/big/z/o/dubl-gricyuka-pomog-nyu-dzhersi-pereigrat-vegas-v-nhl-barbashyov-zabil_17934067481076801654.jpg",
+      "publishedAt": "2026-10-31T00:39:06Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6679374-vegas-golden-najts-nyu-dzhersi-devilz-rezultat-matcha-25-maya-2026-schyot-2-5-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Вегас Голден Найтс",
+        "Нью-Джерси Дэвилз",
+        "Иван Барбашёв",
+        "Арсений Грицюк",
+        "Джек Хьюз",
+        "Марк Стоун",
+        "Люк Хьюз"
+      ],
+      "relatedTeamIds": [
+        "nhl:njd",
+        "nhl:vgk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6679366",
+      "slug": "v-federacii-hokkeya-ukrainy-sdelali-zayavlenie-otnositelno-dopuska-sbornoj-rossii",
+      "title": "В Федерации хоккея Украины сделали заявление относительно допуска сборной России",
+      "summary": "Президент Федерации хоккея Украины Сергей Мазур прокомментировал решение Спортивного арбитражного суда (CAS) в Лозанне вернуть российские сборные к международным соревнованиям.",
+      "content": "Президент Федерации хоккея Украины Сергей Мазур прокомментировал решение Спортивного арбитражного суда (CAS) в Лозанне вернуть российские сборные к международным соревнованиям.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-10-30T23:25:17Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6679366-v-federacii-hokkeya-ukrainy-sdelali-zayavlenie-otnositelno-dopuska-sbornoj-rossii.html",
+      "tags": [
+        "Хоккей",
+        "ЧМ по хоккею 2026",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "Отстранение России",
+        "Арбитраж",
+        "Сборная Украины — Хоккей"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6679364",
+      "slug": "glava-federacii-hokkeya-shvecii-kazhdyj-god-my-postanovlyali-chto-rossiya-ne-mozhet-uchastvovat",
+      "title": "Глава Федерации хоккея Швеции: каждый год мы постановляли, что Россия не может участвовать",
+      "summary": "Председатель Федерации хоккея Швеции Андрес Ларссон сообщил, что высказал мнение относительно вердикта Спортивного арбитражного суда (CAS), который допустил сборную России к международным турнирам.",
+      "content": "Председатель Федерации хоккея Швеции Андрес Ларссон сообщил, что высказал мнение относительно вердикта Спортивного арбитражного суда (CAS), который допустил сборную России к международным турнирам.",
+      "image": "https://img.championat.com/news/big/o/r/glava-federacii-hokkeya-shvecii-kazhdyj-god-my-postanovlyali-chto-rossiya-ne-mozhet-uchast_17934019452128439074.jpg",
+      "publishedAt": "2026-10-30T23:12:26Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6679364-glava-federacii-hokkeya-shvecii-kazhdyj-god-my-postanovlyali-chto-rossiya-ne-mozhet-uchastvovat.html",
+      "tags": [
+        "Хоккей",
+        "ЧМ по хоккею 2026",
+        "Сборная России — Хоккей",
+        "Сборная Швеции — Футбол",
+        "ИИХФ",
+        "Арбитраж"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6679296",
       "slug": "rezultaty-matchej-mhl-na-30-oktyabrya-2026-goda",
       "title": "Результаты матчей МХЛ на 30 октября 2026 года",
@@ -642,71 +713,6 @@
         "Авангард",
         "Лада",
         "Ги Буше"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:lada"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679050",
-      "slug": "federaciya-hokkeya-avstrii-vyrazila-nedovolstvo-iz-za-dopuska-sbornoj-rossii",
-      "title": "Федерация хоккея Австрии выразила недовольство из-за допуска сборной России",
-      "summary": "Федерация хоккея Австрии отреагировала на решение Спортивного арбитражного суда (CAS) о допуске сборной России на международные турниры.",
-      "content": "Федерация хоккея Австрии отреагировала на решение Спортивного арбитражного суда (CAS) о допуске сборной России на международные турниры.",
-      "image": "https://img.championat.com/news/big/t/m/federaciya-hokkeya-avstrii-vyrazila-nedovolstvo-iz-za-dopuska-sbornoj-rossii_17933828541818235424.jpg",
-      "publishedAt": "2026-10-30T17:54:25Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679050-federaciya-hokkeya-avstrii-vyrazila-nedovolstvo-iz-za-dopuska-sbornoj-rossii.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "Отстранение России",
-        "Сборная Австрии — Хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679040",
-      "slug": "avtomobilist-predstavil-unikalnye-mednye-shajby-sozdannye-igrokami-komandy",
-      "title": "«Автомобилист» представил уникальные медные шайбы, созданные игроками команды",
-      "summary": "«Автомобилист» представил уникальные медные шайбы, созданные игроками команды совместно с уральскими металлургами.",
-      "content": "«Автомобилист» представил уникальные медные шайбы, созданные игроками команды совместно с уральскими металлургами.",
-      "image": "https://img.championat.com/news/big/y/h/avtomobilist-predstavil-unikalnye-mednye-shajby-sozdannye-igrokami-komandy_17933820752041103715.jpg",
-      "publishedAt": "2026-10-30T17:41:16Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679040-avtomobilist-predstavil-unikalnye-mednye-shajby-sozdannye-igrokami-komandy.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Фото",
-        "Автомобилист",
-        "Илья Карпухин"
-      ],
-      "relatedTeamIds": [
-        "khl:avtomobilist"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679018",
-      "slug": "lada-avangard-rezultat-matcha-30-oktyabrya-2026-goda-schet-3-2-ot-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Авангард» потерпел поражение от «Лады» в овертайме",
-      "summary": "Сегодня, 30 октября, в Тольятти на стадионе «Лада-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Лада» принимала омский «Авангард».",
-      "content": "Сегодня, 30 октября, в Тольятти на стадионе «Лада-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Лада» принимала омский «Авангард».",
-      "image": "https://img.championat.com/news/big/t/v/avangard-poterpel-porazhenie-ot-lady-v-overtajme_17933835611692025678.jpg",
-      "publishedAt": "2026-10-30T17:29:51Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679018-lada-avangard-rezultat-matcha-30-oktyabrya-2026-goda-schet-3-2-ot-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Авангард",
-        "Лада"
       ],
       "relatedTeamIds": [
         "khl:avangard",
