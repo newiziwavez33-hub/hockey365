@@ -48,6 +48,12 @@
         "value": 12
       },
       {
+        "playerId": "nhl:p_8478398",
+        "playerName": "Kyle Connor",
+        "teamId": "nhl:wpg",
+        "value": 11
+      },
+      {
         "playerId": "nhl:p_8479318",
         "playerName": "Auston Matthews",
         "teamId": "nhl:tor",
@@ -57,12 +63,6 @@
         "playerId": "nhl:p_8477476",
         "playerName": "Artturi Lehkonen",
         "teamId": "nhl:col",
-        "value": 10
-      },
-      {
-        "playerId": "nhl:p_8478398",
-        "playerName": "Kyle Connor",
-        "teamId": "nhl:wpg",
         "value": 10
       }
     ],
@@ -86,16 +86,16 @@
         "value": 16
       },
       {
+        "playerId": "nhl:p_8477495",
+        "playerName": "Seth Jones",
+        "teamId": "nhl:fla",
+        "value": 16
+      },
+      {
         "playerId": "nhl:p_8479323",
         "playerName": "Adam Fox",
         "teamId": "nhl:nyr",
         "value": 16
-      },
-      {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 15
       }
     ],
     "gaa": [

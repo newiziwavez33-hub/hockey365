@@ -6,122 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-31T00:00:00Z",
-  "status": "INTERMISSION",
-  "period": 1,
-  "clock": "02:59",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:cgy",
-    "score": 1,
+    "score": 6,
     "periods": [],
-    "shots": 5
+    "shots": null
   },
   "away": {
     "id": "nhl:sea",
-    "score": 1,
+    "score": 2,
     "periods": [],
-    "shots": 10
+    "shots": null
   },
   "arena": "Scotiabank Saddledome",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "01:46",
-      "team": "away",
-      "playerId": "nhl:p_8480876",
-      "playerName": "Curtis Douglas",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 33
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "01:46",
-      "team": "home",
-      "playerId": "nhl:p_8483609",
-      "playerName": "Adam Klapka",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 35
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "01:46",
-      "team": "away",
-      "playerId": "nhl:p_8480876",
-      "playerName": "Curtis Douglas",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 37
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "02:32",
-      "team": "home",
-      "playerId": "nhl:p_8480028",
-      "playerName": "Morgan Frost",
-      "assists": [
-        "nhl:p_8480797",
-        "nhl:p_8482679"
-      ],
-      "score": "1-0",
-      "order": 45
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "11:34",
-      "team": "away",
-      "playerId": "nhl:p_8477919",
-      "playerName": "Frederick Gaudreau",
-      "assists": [
-        "nhl:p_8482713",
-        "nhl:p_8476905"
-      ],
-      "score": "1-1",
-      "order": 170
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "11:37",
-      "team": "home",
-      "playerId": "nhl:p_8484234",
-      "playerName": "Aydar Suniev",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 174
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      5,
-      10
-    ],
-    "shotsOnGoal": [
-      5,
-      10
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020216/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020216/play-by-play"
-    ],
-    "fetchedAt": "2026-10-31T00:59:08.683557+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -129,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/sea-vs-cgy/2026/10/30/2026020216",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/sea-vs-cgy/2026/10/30/2026020216",
-    "verifiedAt": "2026-10-31T00:59:08.683658Z"
+    "verifiedAt": "2026-10-31T06:44:25.278457Z"
   }
 }
