@@ -1,11 +1,164 @@
 {
   "news": [
     {
+      "id": "news-6680632",
+      "slug": "san-hose-sharks-ottava-senatorz-rezultat-matcha-1-noyabrya-2026-goda-schet-1-5-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "Ассист Зуба помог «Оттаве» крупно обыграть «Сан-Хосе» в НХЛ. У Орлова — «-2»",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором встречались «Сан-Хосе Шаркс» и «Оттава Сенаторз».",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором встречались «Сан-Хосе Шаркс» и «Оттава Сенаторз».",
+      "image": "https://img.championat.com/news/big/a/n/assist-zuba-pomog-ottave-krupno-obygrat-san-hose-v-nhl-u-orlova-2_17934873061687153662.jpg",
+      "publishedAt": "2026-10-31T22:55:10Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680632-san-hose-sharks-ottava-senatorz-rezultat-matcha-1-noyabrya-2026-goda-schet-1-5-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Сан-Хосе Шаркс",
+        "Оттава Сенаторз",
+        "Дмитрий Орлов",
+        "Ярослав Аскаров",
+        "Артём Зуб",
+        "Тим Штюцле",
+        "Дилан Козенс",
+        "Дрейк Батерсон",
+        "Шейн Пинто"
+      ],
+      "relatedTeamIds": [
+        "nhl:ott",
+        "nhl:sjs"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680628",
+      "slug": "los-andzheles-kingz-baffalo-sejbrz-rezultat-matcha-31-oktyabrya-2026-schet-2-3-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "«Лос-Анджелес» с Панариным проиграл «Баффало» в матче НХЛ",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Лос-Анджелес Кингз» принимал «Баффало Сэйбрз».",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Лос-Анджелес Кингз» принимал «Баффало Сэйбрз».",
+      "image": "https://img.championat.com/news/big/g/s/los-andzheles-s-panarinym-proigral-baffalo-v-matche-nhl_17934870111525821836.jpg",
+      "publishedAt": "2026-10-31T22:50:13Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680628-los-andzheles-kingz-baffalo-sejbrz-rezultat-matcha-31-oktyabrya-2026-schet-2-3-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Артемий Панарин",
+        "Лос-Анджелес Кингз",
+        "Баффало Сэйбрз"
+      ],
+      "relatedTeamIds": [
+        "nhl:buf",
+        "nhl:lak",
+        "nhl:nyr"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478550"
+      ]
+    },
+    {
+      "id": "news-6680582",
+      "slug": "rezultaty-matchej-mhl-na-31-oktyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 31 октября 2026 года",
+      "summary": "Сегодня, 31 октября, прошли четыре матча OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 31 октября, прошли четыре матча OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-31T20:58:25Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680582-rezultaty-matchej-mhl-na-31-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Спартак",
+        "МХК Омские Ястребы",
+        "МХК Кузнецкие Медведи",
+        "Крылья Советов",
+        "МХК Мамонты Югры",
+        "МХК Динамо-Шинник",
+        "МХК Динамо",
+        "МХК Ирбис Казань"
+      ],
+      "relatedTeamIds": [
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680578",
+      "slug": "rezultaty-matchej-vhl-na-31-oktyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 31 октября 2026 года",
+      "summary": "Сегодня, 31 октября, состоялись три матча OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 31 октября, состоялись три матча OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-10-31T20:55:22Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680578-rezultaty-matchej-vhl-na-31-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Барс",
+        "Рязань",
+        "Горняк"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680570",
+      "slug": "rezultaty-matchej-khl-na-31-oktyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 31 октября 2026 года",
+      "summary": "Сегодня, 31 октября, состоялся один матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 31 октября, состоялся один матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-10-31T20:53:14Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680570-rezultaty-matchej-khl-na-31-oktyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Автомобилист"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680552",
+      "slug": "neshvill-predatorz-tampa-bej-lajtning-rezultat-matcha-31-oktyabrya-2026-goda-schet-5-4-b-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "«Тампа» проиграла «Нэшвиллу» в серии буллитов, на счету Кучерова три передачи",
+      "summary": "Сегодня, 31 октября, в Нэшвилле, США, на стадионе «Ю-Би-Эс-Арена» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Нэшвилл Предаторз» принимал «Тампа-Бэй Лайтнинг».",
+      "content": "Сегодня, 31 октября, в Нэшвилле, США, на стадионе «Ю-Би-Эс-Арена» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Нэшвилл Предаторз» принимал «Тампа-Бэй Лайтнинг».",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-10-31T20:50:52Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680552-neshvill-predatorz-tampa-bej-lajtning-rezultat-matcha-31-oktyabrya-2026-goda-schet-5-4-b-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Тампа-Бэй Лайтнинг",
+        "Никита Кучеров",
+        "Нэшвилл Предаторз",
+        "Андрей Василевский",
+        "Илья Михеев"
+      ],
+      "relatedTeamIds": [
+        "nhl:nsh",
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
       "id": "news-6680550",
       "slug": "nyu-jork-ajlenders-edmonton-ojlerz-rezultat-matcha-31-oktyabrya-2026-goda-schet-0-4-regulyarnyj-chempionat-nhl-2026-2027",
       "title": "«Эдмонтон» всухую обыграл «Айлендерс», Подколзин забил гол",
-      "summary": "Сегодня, 31 октября, в Элмонте (США) на стадионе «Ю-Би-Эс-Арена» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Нью-Йорк Айлендерс» принимал «Эдмонтон Ойлерз».",
-      "content": "Сегодня, 31 октября, в Элмонте (США) на стадионе «Ю-Би-Эс-Арена» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Нью-Йорк Айлендерс» принимал «Эдмонтон Ойлерз».",
+      "summary": "Сегодня, 31 октября, в Элмонте, США, на стадионе «Ю-Би-Эс-Арена» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Нью-Йорк Айлендерс» принимал «Эдмонтон Ойлерз».",
+      "content": "Сегодня, 31 октября, в Элмонте, США, на стадионе «Ю-Би-Эс-Арена» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Нью-Йорк Айлендерс» принимал «Эдмонтон Ойлерз».",
       "image": "assets/images/news_nhl_season.jpg",
       "publishedAt": "2026-10-31T20:37:25Z",
       "source": "Чемпионат • Хоккей",
@@ -13,9 +166,12 @@
       "tags": [
         "Хоккей",
         "НХЛ",
+        "Видео",
         "Эдмонтон Ойлерз",
         "Нью-Йорк Айлендерс",
-        "Василий Подколзин"
+        "Илья Сорокин",
+        "Василий Подколзин",
+        "Шакир Мухамадуллин"
       ],
       "relatedTeamIds": [
         "nhl:edm",
@@ -39,6 +195,8 @@
         "Видео",
         "Бостон Брюинз",
         "Чикаго Блэкхоукс",
+        "Никита Задоров",
+        "Марат Хуснутдинов",
         "Роман Канцеров"
       ],
       "relatedTeamIds": [
@@ -595,143 +753,6 @@
         "Александр Лукашенко"
       ],
       "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6680032",
-      "slug": "minskoe-dinamo-vernulo-kovgorenyu-iz-farm-kluba-pered-vstrechej-s-moskovskim-dinamo",
-      "title": "Минское «Динамо» вернуло Ковгореню из фарм-клуба перед встречей с московским «Динамо»",
-      "summary": "Минское «Динамо» сообщило о возвращении в свой состав защитника Тимофея Ковгорени из фарм-клуба «Динамо-Молодечно».",
-      "content": "Минское «Динамо» сообщило о возвращении в свой состав защитника Тимофея Ковгорени из фарм-клуба «Динамо-Молодечно».",
-      "image": "https://img.championat.com/news/big/p/d/minskoe-dinamo-vernulo-kovgorenyu-iz-farm-kluba-pered-vstrechej-s-moskovskim-dinamo_17934526891392564543.jpg",
-      "publishedAt": "2026-10-31T13:18:11Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6680032-minskoe-dinamo-vernulo-kovgorenyu-iz-farm-kluba-pered-vstrechej-s-moskovskim-dinamo.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "МХЛ",
-        "Динамо Москва",
-        "Динамо Минск",
-        "МХК Динамо-Шинник",
-        "МХК Динамо",
-        "Николя Мелош",
-        "Андрей Никонов"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-mns",
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6680004",
-      "slug": "agent-nikity-kucherova-otreagiroval-na-vozmozhnyj-uhod-forvarda-iz-tampy",
-      "title": "Агент Никиты Кучерова отреагировал на возможный уход форварда из «Тампы»",
-      "summary": "Агент российского нападающего «Тампа-Бэй Лайтнинг» Никиты Кучерова Дэн Мильштейн отреагировал на возможный уход форварда из стана «молний».",
-      "content": "Агент российского нападающего «Тампа-Бэй Лайтнинг» Никиты Кучерова Дэн Мильштейн отреагировал на возможный уход форварда из стана «молний».",
-      "image": "https://img.championat.com/news/big/g/n/agent-nikity-kucherova-otreagiroval-na-vozmozhnyj-uhod-forvarda-iz-tampy_17934511141153250493.jpg",
-      "publishedAt": "2026-10-31T12:52:18Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6680004-agent-nikity-kucherova-otreagiroval-na-vozmozhnyj-uhod-forvarda-iz-tampy.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Эксклюзив",
-        "Тампа-Бэй Лайтнинг",
-        "Никита Кучеров",
-        "Дэн Мильштейн"
-      ],
-      "relatedTeamIds": [
-        "nhl:tbl"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453"
-      ]
-    },
-    {
-      "id": "news-6679974",
-      "slug": "deputaty-evroparlamenta-napravili-pismo-s-trebovaniem-vnov-otstranit-sbornye-rossii",
-      "title": "Депутаты Европарламента направили письмо с требованием вновь отстранить сборные России",
-      "summary": "Депутаты Европарламента направили официальное письмо с требованием вновь отстранить сборные России по хоккею.",
-      "content": "Депутаты Европарламента направили официальное письмо с требованием вновь отстранить сборные России по хоккею.",
-      "image": "https://img.championat.com/news/big/w/u/deputaty-evroparlamenta-napravili-pismo-s-trebovaniem-vnov-otstranit-sbornye-rossii_17934503651204891469.jpg",
-      "publishedAt": "2026-10-31T12:40:12Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679974-deputaty-evroparlamenta-napravili-pismo-s-trebovaniem-vnov-otstranit-sbornye-rossii.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "ИИХФ",
-        "Франц Райндль"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679962",
-      "slug": "krikunov-sbornaya-rossii-sygrala-by-na-chempionate-mira-s-ukrainoj-nichego-strashnogo",
-      "title": "Крикунов: сборная России сыграла бы на чемпионате мира с Украиной, ничего страшного",
-      "summary": "Бывший главный тренер сборной России Владимир Крикунов высказался о решении Спортивного арбитражного суда (CAS) обязать Международную федерацию хоккея (ИИХФ) допустить российских хоккеистов до международных турниров.",
-      "content": "Бывший главный тренер сборной России Владимир Крикунов высказался о решении Спортивного арбитражного суда (CAS) обязать Международную федерацию хоккея (ИИХФ) допустить российских хоккеистов до международных турниров.",
-      "image": "https://img.championat.com/news/big/s/b/krikunov-sbornaya-rossii-sygrala-by-na-chempionate-mira-s-ukrainoj-nichego-strashnogo_1793449662695068378.jpg",
-      "publishedAt": "2026-10-31T12:35:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679962-krikunov-sbornaya-rossii-sygrala-by-na-chempionate-mira-s-ukrainoj-nichego-strashnogo.html",
-      "tags": [
-        "Хоккей",
-        "ЧМ по хоккею 2026",
-        "Сборная России — Хоккей",
-        "Владимир Крикунов",
-        "Советский спорт",
-        "Сборная Украины — Хоккей",
-        "ЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679950",
-      "slug": "glava-federacii-hokkeya-shvecii-zayavil-chto-rossiya-zamenit-ukrainu-na-chm-2027",
-      "title": "Глава Федерации хоккея Швеции заявил, что Россия заменит Украину на ЧМ-2027",
-      "summary": "Председатель Федерации хоккея Швеции и член совета ИИХФ Андрес Ларссон на фоне допуска сборных России на международные турниры ответил на вопрос, как будет изменён состав участников соревнований.",
-      "content": "Председатель Федерации хоккея Швеции и член совета ИИХФ Андрес Ларссон на фоне допуска сборных России на международные турниры ответил на вопрос, как будет изменён состав участников соревнований.",
-      "image": "https://img.championat.com/news/big/y/p/glava-federacii-hokkeya-shvecii-zayavil-chto-rossiya-zamenit-ukrainu-na-chm-2027_17934486261248788719.jpg",
-      "publishedAt": "2026-10-31T12:16:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679950-glava-federacii-hokkeya-shvecii-zayavil-chto-rossiya-zamenit-ukrainu-na-chm-2027.html",
-      "tags": [
-        "Хоккей",
-        "ЧМ по хоккею 2026",
-        "Сборная России — Хоккей",
-        "Сборная Швеции — Хоккей",
-        "Сборная Украины — Хоккей",
-        "ЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679500",
-      "slug": "avtomobilist-metallurg-mg-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Автомобилист» — «Металлург»: онлайн-трансляция матча КХЛ началась",
-      "summary": "Сегодня, 31 октября, в Екатеринбурге на стадионе «УГМК-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» принимает «Металлург».",
-      "content": "Сегодня, 31 октября, в Екатеринбурге на стадионе «УГМК-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» принимает «Металлург».",
-      "image": "https://img.championat.com/news/big/e/a/avtomobilist-metallurg-onlajn-translyaciya-matcha-khl-nachalas_1793424765703109986.jpg",
-      "publishedAt": "2026-10-31T12:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679500-avtomobilist-metallurg-mg-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Автомобилист"
-      ],
-      "relatedTeamIds": [
-        "khl:avtomobilist",
-        "khl:metallurg-mg"
-      ],
       "relatedPlayerIds": []
     }
   ]

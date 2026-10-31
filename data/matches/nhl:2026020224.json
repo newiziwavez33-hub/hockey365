@@ -6,31 +6,118 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-31T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 1,
+  "clock": "04:40",
   "finishedIn": null,
   "home": {
     "id": "nhl:van",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 8
   },
   "away": {
     "id": "nhl:tor",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 8
   },
   "arena": "Rogers Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "01:23",
+      "team": "away",
+      "playerId": "nhl:p_8477939",
+      "playerName": "William Nylander",
+      "score": "0-1",
+      "order": 26
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "06:38",
+      "team": "away",
+      "playerId": "nhl:p_8479442",
+      "playerName": "Troy Stecher",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 101
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "10:02",
+      "team": "away",
+      "playerId": "nhl:p_8479520",
+      "playerName": "Brandon Duhaime",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 142
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "10:30",
+      "team": "home",
+      "playerId": "nhl:p_8478444",
+      "playerName": "Brock Boeser",
+      "assists": [
+        "nhl:p_8479425",
+        "nhl:p_8483476"
+      ],
+      "score": "1-1",
+      "order": 149
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "11:01",
+      "team": "home",
+      "playerId": "nhl:p_8482055",
+      "playerName": "Drew O'Connor",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 155
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "11:53",
+      "team": "home",
+      "playerId": "nhl:p_8476467",
+      "playerName": "Jamie Oleksiak",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 164
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      8,
+      8
+    ],
+    "shotsOnGoal": [
+      8,
+      8
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020224/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020224/play-by-play"
+    ],
+    "fetchedAt": "2026-10-31T23:43:42.197562+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +125,6 @@
     "url": "https://www.nhl.com/gamecenter/tor-vs-van/2026/10/31/2026020224",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/tor-vs-van/2026/10/31/2026020224",
-    "verifiedAt": "2026-10-31T20:39:56.574912Z"
+    "verifiedAt": "2026-10-31T23:43:42.197623Z"
   }
 }
