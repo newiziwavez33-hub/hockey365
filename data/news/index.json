@@ -1,6 +1,435 @@
 {
   "news": [
     {
+      "id": "news-6680348",
+      "slug": "sushinskij-o-trenere-rossii-na-chm-nikitin-umeet-vystraivat-chempionskie-komandy",
+      "title": "Сушинский — о тренере России на ЧМ: Никитин умеет выстраивать чемпионские команды",
+      "summary": "Чемпион мира Максим Сушинский ответил на вопрос, кто должен руководить сборной России в случае её выступления на чемпионате мира 2027 года.",
+      "content": "Чемпион мира Максим Сушинский ответил на вопрос, кто должен руководить сборной России в случае её выступления на чемпионате мира 2027 года.",
+      "image": "https://img.championat.com/news/big/k/s/sushinskij-o-trenere-rossii-.jpg",
+      "publishedAt": "2026-10-31T17:38:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680348-sushinskij-o-trenere-rossii-na-chm-nikitin-umeet-vystraivat-chempionskie-komandy.html",
+      "tags": [
+        "Хоккей",
+        "ЧМ по хоккею 2026",
+        "Сборная России — Хоккей",
+        "Роман Ротенберг",
+        "Игорь Никитин",
+        "Максим Сушинский",
+        "ЧМ-2027"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680366",
+      "slug": "tyukavin-na-premii-zolotoj-myach-bolel-za-kejna",
+      "title": "Тюкавин: на премии «Золотой мяч» болел за Кейна",
+      "summary": "Нападающий московского «Динамо» Константин Тюкавин высказался об итогах «Золотого мяча» 2026 года.",
+      "content": "Нападающий московского «Динамо» Константин Тюкавин высказался об итогах «Золотого мяча» 2026 года.",
+      "image": "https://img.championat.com/news/big/o/f/tyukavin-na-premii-zolotoj-m.jpg",
+      "publishedAt": "2026-10-31T17:33:51Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/football/news-6680366-tyukavin-na-premii-zolotoj-myach-bolel-za-kejna.html",
+      "tags": [
+        "Футбол",
+        "РПЛ",
+        "Англия",
+        "Германия",
+        "Франция",
+        "Хоккей",
+        "Бавария",
+        "ПСЖ",
+        "Сборная Англии — Футбол",
+        "Матвей Сафонов",
+        "Гарри Кейн",
+        "Константин Тюкавин"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680360",
+      "slug": "tyukavin-otvetil-pozdravil-li-ovechkina-s-resheniem-cas-v-polzu-rossijskogo-hokkeya",
+      "title": "Тюкавин ответил, поздравил ли Овечкина с решением CAS в пользу российского хоккея",
+      "summary": "Нападающий московского «Динамо» Константин Тюкавин рассказал, поздравил ли он капитана клуба НХЛ «Вашингтон Кэпиталз» Александра Овечкина с решением CAS в пользу российского хоккея.",
+      "content": "Нападающий московского «Динамо» Константин Тюкавин рассказал, поздравил ли он капитана клуба НХЛ «Вашингтон Кэпиталз» Александра Овечкина с решением CAS в пользу российского хоккея.",
+      "image": "https://img.championat.com/news/big/y/f/tyukavin-otvetil-pozdravil-l.jpg",
+      "publishedAt": "2026-10-31T17:33:50Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/football/news-6680360-tyukavin-otvetil-pozdravil-li-ovechkina-s-resheniem-cas-v-polzu-rossijskogo-hokkeya.html",
+      "tags": [
+        "Футбол",
+        "РПЛ",
+        "Хоккей",
+        "ЧМ по хоккею 2026",
+        "НХЛ",
+        "Динамо Москва",
+        "Вашингтон Кэпиталз",
+        "Сборная России — Хоккей",
+        "Александр Овечкин",
+        "Константин Тюкавин"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6680334",
+      "slug": "tolko-negativnye-emocii-forvard-avtomobilista-barabanov-o-porazhenii-metallurgu",
+      "title": "«Только негативные эмоции». Форвард «Автомобилиста» Барабанов — о проигрыше «Металлургу»",
+      "summary": "Нападающий «Автомобилиста» Александр Барабанов заявил, что получил неприятные впечатления от игры с «Металлургом» (3:4).",
+      "content": "Нападающий «Автомобилиста» Александр Барабанов заявил, что получил неприятные впечатления от игры с «Металлургом» (3:4).",
+      "image": "https://img.championat.com/news/big/p/u/tolko-negativnye-emocii-forvard-avtomobilista-barabanov-o-proigryshe-metallurgu_1793466939742053073.jpg",
+      "publishedAt": "2026-10-31T17:14:15Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680334-tolko-negativnye-emocii-forvard-avtomobilista-barabanov-o-porazhenii-metallurgu.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Автомобилист",
+        "Sport24",
+        "Александр Барабанов"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680312",
+      "slug": "genmenedzher-kluba-nhl-o-kucherove-teper-eto-liga-zvyozdnyh-igrokov-vsya-vlast-u-nih",
+      "title": "Генменеджер клуба НХЛ — о Кучерове: теперь это лига звёздных игроков — вся власть у них",
+      "summary": "Генеральный менеджер клуба НХЛ, оставшийся анонимным, прокомментировал ситуацию вокруг российского нападающего Никиты Кучерова.",
+      "content": "Генеральный менеджер клуба НХЛ, оставшийся анонимным, прокомментировал ситуацию вокруг российского нападающего Никиты Кучерова.",
+      "image": "https://img.championat.com/news/big/f/w/genmenedzher-kluba-nhl-o-kucherove-teper-eto-liga-zvyozdnyh-igrokov-vsya-vlast-u-nih_17934658821695939976.jpg",
+      "publishedAt": "2026-10-31T16:56:30Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680312-genmenedzher-kluba-nhl-o-kucherove-teper-eto-liga-zvyozdnyh-igrokov-vsya-vlast-u-nih.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Никита Кучеров",
+        "Коннор Хеллебайк",
+        "Дилан Ларкин"
+      ],
+      "relatedTeamIds": [
+        "nhl:tbl",
+        "nhl:wpg"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
+      "id": "news-6680294",
+      "slug": "v-danii-ne-budut-prizyvat-hokkeistov-k-bojkotu-sorevnovanij-v-sluchae-uchastiya-rossii",
+      "title": "В Дании не будут призывать хоккеистов к бойкоту соревнований в случае участия России",
+      "summary": "Председатель Датской спортивной ассоциации Ханс Наторп отреагировал на решение Спортивного арбитражного суда (CAS) допустить российские хоккейные сборные на международные соревнования.",
+      "content": "Председатель Датской спортивной ассоциации Ханс Наторп отреагировал на решение Спортивного арбитражного суда (CAS) допустить российские хоккейные сборные на международные соревнования.",
+      "image": "https://img.championat.com/news/big/l/g/v-danii-ne-budut-prizyvat-hokkeistov-k-bojkotu-sorevnovanij-v-sluchae-uchastiya-rossii_17934645071866833879.jpg",
+      "publishedAt": "2026-10-31T16:35:08Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680294-v-danii-ne-budut-prizyvat-hokkeistov-k-bojkotu-sorevnovanij-v-sluchae-uchastiya-rossii.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "Сборная Дании — Хоккей"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680276",
+      "slug": "vratar-kalgari-kuli-mozhet-propustit-neskolko-nedel-iz-za-travmy",
+      "title": "Вратарь «Калгари» Кули может пропустить несколько недель из-за травмы",
+      "summary": "Вратарь «Калгари Флэймз» Девин Кули может пропустить несколько недель из-за травмы нижней части тела.",
+      "content": "Вратарь «Калгари Флэймз» Девин Кули может пропустить несколько недель из-за травмы нижней части тела.",
+      "image": "https://img.championat.com/news/big/c/t/vratar-kalgari-kuli-mozhet-propustit-neskolko-nedel-iz-za-travmy_1793463826660577448.jpg",
+      "publishedAt": "2026-10-31T16:17:10Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680276-vratar-kalgari-kuli-mozhet-propustit-neskolko-nedel-iz-za-travmy.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Эдмонтон Ойлерз",
+        "Калгари Флэймз",
+        "Травмы — хоккей",
+        "Сиэтл Кракен",
+        "Дастин Вольф"
+      ],
+      "relatedTeamIds": [
+        "nhl:cgy",
+        "nhl:edm",
+        "nhl:sea"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680252",
+      "slug": "lada-obyavila-ob-uhode-napadayuschego-ostapa-safina",
+      "title": "«Лада» объявила об уходе нападающего Остапа Сафина",
+      "summary": "Нападающий Остап Сафин покидает «Ладу», сообщает пресс-служба тольяттинского клуба.",
+      "content": "Нападающий Остап Сафин покидает «Ладу», сообщает пресс-служба тольяттинского клуба.",
+      "image": "https://img.championat.com/news/big/i/b/lada-obyavila-ob-uhode-napadayuschego-ostapa-safina_17934622871674968565.jpg",
+      "publishedAt": "2026-10-31T15:58:08Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680252-lada-obyavila-ob-uhode-napadayuschego-ostapa-safina.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Лада",
+        "Остап Сафин"
+      ],
+      "relatedTeamIds": [
+        "khl:lada"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680220",
+      "slug": "lada-zaklyuchila-polnocennyj-kontrakt-s-forvardom-vyacheslavom-osnovinym",
+      "title": "«Лада» заключила полноценный контракт с форвардом Вячеславом Основиным",
+      "summary": "Нападающий Вячеслав Основин продолжит выступление в «Ладе», сообщает пресс-служба тольяттинского клуба.",
+      "content": "Нападающий Вячеслав Основин продолжит выступление в «Ладе», сообщает пресс-служба тольяттинского клуба.",
+      "image": "https://img.championat.com/news/big/t/d/lada-zaklyuchila-polnocennyj-kontrakt-s-forvardom-vyacheslavom-osnovinym_1793461026461451345.jpg",
+      "publishedAt": "2026-10-31T15:37:07Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680220-lada-zaklyuchila-polnocennyj-kontrakt-s-forvardom-vyacheslavom-osnovinym.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Лада",
+        "Вячеслав Основин"
+      ],
+      "relatedTeamIds": [
+        "khl:lada"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680192",
+      "slug": "insajder-nhl-lebryun-nazval-kluby-v-kotorye-mozhet-perejti-kucherov",
+      "title": "Инсайдер НХЛ Лебрюн назвал клубы, в которые может перейти Кучеров",
+      "summary": "Журналист и инсайдер Пьер Лебрюн в статье для The Athletic поделился мыслями на предмет возможного обмена российского нападающего Никиты Кучерова из «Тампа-Бэй Лайтнинг».",
+      "content": "Журналист и инсайдер Пьер Лебрюн в статье для The Athletic поделился мыслями на предмет возможного обмена российского нападающего Никиты Кучерова из «Тампа-Бэй Лайтнинг».",
+      "image": "https://img.championat.com/news/big/s/u/insajder-nhl-lebryun-nazval-kluby-v-kotorye-mozhet-perejti-kucherov_1793460272519102497.jpg",
+      "publishedAt": "2026-10-31T15:24:34Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680192-insajder-nhl-lebryun-nazval-kluby-v-kotorye-mozhet-perejti-kucherov.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Монреаль Канадиенс",
+        "Никита Кучеров",
+        "Вегас Голден Найтс",
+        "Детройт Ред Уингз",
+        "Пьер Лебрюн",
+        "Дилан Ларкин",
+        "Келли Маккриммон"
+      ],
+      "relatedTeamIds": [
+        "nhl:det",
+        "nhl:mtl",
+        "nhl:tbl",
+        "nhl:vgk"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
+      "id": "news-6680210",
+      "slug": "kudashov-o-porazhenii-avtomobilista-ot-metallurga-ne-slozhili-ruki-segodnya",
+      "title": "Кудашов — о поражении «Автомобилиста» от «Металлурга»: не сложили руки сегодня",
+      "summary": "Главный тренер «Автомобилиста» Алексей Кудашов высказался о домашнем поражении от «Металлурга» со счётом 3:4.",
+      "content": "Главный тренер «Автомобилиста» Алексей Кудашов высказался о домашнем поражении от «Металлурга» со счётом 3:4.",
+      "image": "https://img.championat.com/news/big/m/z/kudashov-o-porazhenii-avtomo.jpg",
+      "publishedAt": "2026-10-31T15:18:06Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680210-kudashov-o-porazhenii-avtomobilista-ot-metallurga-ne-slozhili-ruki-segodnya.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Автомобилист",
+        "Алексей Кудашов",
+        "Адам Ружичка"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680202",
+      "slug": "glavnyj-trener-metallurga-shafranov-ocenil-pobedu-nad-avtomobilistom",
+      "title": "Главный тренер «Металлурга» Шафранов оценил победу над «Автомобилистом»",
+      "summary": "Главный тренер «Металлурга» Константин Шафранов прокомментировал гостевую победу над «Автомобилистом» со счётом 4:3.",
+      "content": "Главный тренер «Металлурга» Константин Шафранов прокомментировал гостевую победу над «Автомобилистом» со счётом 4:3.",
+      "image": "https://img.championat.com/news/big/m/r/glavnyj-trener-metallurga-shafranov-ocenil-pobedu-nad-avtomobilistom_179345952636851071.jpg",
+      "publishedAt": "2026-10-31T15:12:12Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680202-glavnyj-trener-metallurga-shafranov-ocenil-pobedu-nad-avtomobilistom.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Автомобилист",
+        "Константин Шафранов"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680172",
+      "slug": "forvard-ottavy-hodzhson-diskvalificirovan-na-dva-matcha-za-tolchok-sopernika-na-bort",
+      "title": "Форвард «Оттавы» Ходжсон дисквалифицирован на два матча за толчок соперника на борт",
+      "summary": "Нападающий «Оттавы Сенаторз» Хейдэн Ходжсон дисквалифицирован на два матча регулярного чемпионата Национальной хоккейной лиги.",
+      "content": "Нападающий «Оттавы Сенаторз» Хейдэн Ходжсон дисквалифицирован на два матча регулярного чемпионата Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/b/w/forvard-ottavy-hodzhson-diskvalificirovan-na-dva-matcha-za-tolchok-sopernika-na-bort_17934583981419075316.jpg",
+      "publishedAt": "2026-10-31T14:53:18Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680172-forvard-ottavy-hodzhson-diskvalificirovan-na-dva-matcha-za-tolchok-sopernika-na-bort.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Сан-Хосе Шаркс",
+        "Лос-Анджелес Кингз",
+        "Оттава Сенаторз",
+        "Анахайм Дакс"
+      ],
+      "relatedTeamIds": [
+        "nhl:ana",
+        "nhl:lak",
+        "nhl:ott",
+        "nhl:sjs"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680116",
+      "slug": "avtomobilist-metallurg-rezultat-matcha-31-oktyabrya-2026-goda-schet-3-4-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "«Металлург» в гостях одержал победу над «Автомобилистом»",
+      "summary": "Сегодня, 31 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» принимал магнитогорский «Мет...",
+      "content": "Сегодня, 31 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» принимал магнитогорский «Металлург».",
+      "image": "https://img.championat.com/news/big/j/b/metallurg-v-gostyah-oderzhal-pobedu-nad-avtomobilistom_17934567671535957322.jpg",
+      "publishedAt": "2026-10-31T14:26:13Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680116-avtomobilist-metallurg-rezultat-matcha-31-oktyabrya-2026-goda-schet-3-4-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "Металлург Мг",
+        "Автомобилист"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680110",
+      "slug": "v-detrojte-obyasnili-pochemu-klub-ne-mozhet-obmenyat-dilana-larkina",
+      "title": "В «Детройте» объяснили, почему клуб не может обменять Дилана Ларкина",
+      "summary": "Исполняющий обязанности генерального менеджера «Детройта» Шон Хоркофф рассказал о сложностях в вопросе обмена нападающего Дилана Ларкина.",
+      "content": "Исполняющий обязанности генерального менеджера «Детройта» Шон Хоркофф рассказал о сложностях в вопросе обмена нападающего Дилана Ларкина.",
+      "image": "https://img.championat.com/news/big/c/c/v-detrojte-obyasnili-pochemu-klub-ne-mozhet-obmenyat-dilana-larkina_17934555131143374896.jpg",
+      "publishedAt": "2026-10-31T14:05:14Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680110-v-detrojte-obyasnili-pochemu-klub-ne-mozhet-obmenyat-dilana-larkina.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Детройт Ред Уингз",
+        "Дилан Ларкин"
+      ],
+      "relatedTeamIds": [
+        "nhl:det"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680086",
+      "slug": "ministr-sporta-chehii-ne-soglasilsya-s-resheniem-cas-o-dopuske-rossii",
+      "title": "Министр спорта Чехии не согласился с решением CAS о допуске России",
+      "summary": "Министр спорта Чехии Борис Штястны прокомментировал решение Спортивного арбитражного суда (CAS) допустить российские сборные на международные соревнования.",
+      "content": "Министр спорта Чехии Борис Штястны прокомментировал решение Спортивного арбитражного суда (CAS) допустить российские сборные на международные соревнования.",
+      "image": "https://img.championat.com/news/big/v/d/ministr-sporta-chehii-ne-soglasilsya-s-resheniem-cas-o-dopuske-rossii_1793454847250953070.jpg",
+      "publishedAt": "2026-10-31T13:54:07Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680086-ministr-sporta-chehii-ne-soglasilsya-s-resheniem-cas-o-dopuske-rossii.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "Сборная Чехии — Хоккей"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680064",
+      "slug": "komanda-lukashenko-s-krupnym-schyotom-obygrala-sbornuyu-grodnenskoj-oblasti",
+      "title": "Команда Лукашенко с крупным счётом обыграла сборную Гродненской области",
+      "summary": "Хоккейная команда президента Беларуси обыграла сборную Гродненской области в стартовом матче 20-го сезона Республиканской хоккейной лиги со счётом 12:8.",
+      "content": "Хоккейная команда президента Беларуси обыграла сборную Гродненской области в стартовом матче 20-го сезона Республиканской хоккейной лиги со счётом 12:8.",
+      "image": "https://img.championat.com/news/big/t/m/komanda-lukashenko-s-krupnym-schyotom-obygrala-sbornuyu-grodnenskoj-oblasti_17934537801757678389.jpg",
+      "publishedAt": "2026-10-31T13:36:26Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680064-komanda-lukashenko-s-krupnym-schyotom-obygrala-sbornuyu-grodnenskoj-oblasti.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Александр Лукашенко"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6680032",
+      "slug": "minskoe-dinamo-vernulo-kovgorenyu-iz-farm-kluba-pered-vstrechej-s-moskovskim-dinamo",
+      "title": "Минское «Динамо» вернуло Ковгореню из фарм-клуба перед встречей с московским «Динамо»",
+      "summary": "Минское «Динамо» сообщило о возвращении в свой состав защитника Тимофея Ковгорени из фарм-клуба «Динамо-Молодечно».",
+      "content": "Минское «Динамо» сообщило о возвращении в свой состав защитника Тимофея Ковгорени из фарм-клуба «Динамо-Молодечно».",
+      "image": "https://img.championat.com/news/big/p/d/minskoe-dinamo-vernulo-kovgorenyu-iz-farm-kluba-pered-vstrechej-s-moskovskim-dinamo_17934526891392564543.jpg",
+      "publishedAt": "2026-10-31T13:18:11Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6680032-minskoe-dinamo-vernulo-kovgorenyu-iz-farm-kluba-pered-vstrechej-s-moskovskim-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "МХЛ",
+        "Динамо Москва",
+        "Динамо Минск",
+        "МХК Динамо-Шинник",
+        "МХК Динамо",
+        "Николя Мелош",
+        "Андрей Никонов"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6680004",
       "slug": "agent-nikity-kucherova-otreagiroval-na-vozmozhnyj-uhod-forvarda-iz-tampy",
       "title": "Агент Никиты Кучерова отреагировал на возможный уход форварда из «Тампы»",
@@ -277,496 +706,6 @@
       ],
       "relatedTeamIds": [],
       "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679772",
-      "slug": "vajsfeld-tampa-dolzhna-udivit-kucherova-summoj-kontrakta",
-      "title": "Вайсфельд: «Тампа» должна удивить Кучерова суммой контракта",
-      "summary": "Известный хоккейный эксперт и функционер Леонид Вайсфельд отреагировал на запрос обмена от нападающего «Тампы-Бэй Лайтнинг» Никиты Кучерова.",
-      "content": "Известный хоккейный эксперт и функционер Леонид Вайсфельд отреагировал на запрос обмена от нападающего «Тампы-Бэй Лайтнинг» Никиты Кучерова.",
-      "image": "https://img.championat.com/news/big/v/a/vajsfeld-tampa-dolzhna-udivit-kucherova-summoj-kontrakta_17934385211883778689.jpg",
-      "publishedAt": "2026-10-31T09:33:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679772-vajsfeld-tampa-dolzhna-udivit-kucherova-summoj-kontrakta.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Тампа-Бэй Лайтнинг",
-        "Никита Кучеров",
-        "Советский спорт",
-        "Леонид Вайсфельд"
-      ],
-      "relatedTeamIds": [
-        "nhl:tbl"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453"
-      ]
-    },
-    {
-      "id": "news-6679498",
-      "slug": "avtomobilist-metallurg-mg-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-15-00-msk",
-      "title": "«Автомобилист» — «Металлург»: онлайн-трансляция матча КХЛ начнётся в 15:00 мск",
-      "summary": "Сегодня, 31 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» примет «Металлург».",
-      "content": "Сегодня, 31 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» примет «Металлург».",
-      "image": "https://img.championat.com/news/big/y/i/avtomobilist-metallurg-onlajn-translyaciya-matcha-khl-nachnyotsya-v-15-00-msk_17934247176162312.jpg",
-      "publishedAt": "2026-10-31T09:10:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679498-avtomobilist-metallurg-mg-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-15-00-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Автомобилист"
-      ],
-      "relatedTeamIds": [
-        "khl:avtomobilist",
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679494",
-      "slug": "raspisanie-matchej-nhl-v-noch-na-1-noyabrya-2026-goda",
-      "title": "Расписание матчей НХЛ в ночь на 1 ноября 2026 года",
-      "summary": "Вечером 31 октября и в ночь на 1 ноября пройдут очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
-      "content": "Вечером 31 октября и в ночь на 1 ноября пройдут очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/t/g/raspisanie-matchej-nhl-v-noch-na-1-noyabrya-2026-goda_1793424484692884062.jpg",
-      "publishedAt": "2026-10-31T09:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679494-raspisanie-matchej-nhl-v-noch-na-1-noyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Тампа-Бэй Лайтнинг",
-        "Питтсбург Пингвинз",
-        "Эдмонтон Ойлерз",
-        "Торонто Мэйпл Лифс",
-        "Колорадо Эвеланш",
-        "Бостон Брюинз",
-        "Монреаль Канадиенс",
-        "Коламбус Блю Джекетс",
-        "Сент-Луис Блюз",
-        "Даллас Старз",
-        "Нью-Йорк Айлендерс",
-        "Чикаго Блэкхоукс",
-        "Ванкувер Кэнакс",
-        "Сан-Хосе Шаркс",
-        "Детройт Ред Уингз",
-        "Лос-Анджелес Кингз",
-        "Оттава Сенаторз",
-        "Нэшвилл Предаторз",
-        "Калгари Флэймз",
-        "Баффало Сэйбрз"
-      ],
-      "relatedTeamIds": [
-        "nhl:bos",
-        "nhl:buf",
-        "nhl:cbj",
-        "nhl:cgy",
-        "nhl:chi",
-        "nhl:col",
-        "nhl:dal",
-        "nhl:det",
-        "nhl:edm",
-        "nhl:lak",
-        "nhl:mtl",
-        "nhl:nsh",
-        "nhl:nyi",
-        "nhl:ott",
-        "nhl:pit",
-        "nhl:sjs",
-        "nhl:stl",
-        "nhl:tbl",
-        "nhl:tor",
-        "nhl:van"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679700",
-      "slug": "spiker-parlamenta-chehii-podderzhal-dopusk-rossijskih-hokkeistov-na-mezhdunarodnuyu-arenu",
-      "title": "Спикер парламента Чехии поддержал допуск российских хоккеистов на международную арену",
-      "summary": "Спикер Палаты депутатов парламента Чехии и лидер правящего движения SPD («Свобода и прямая демократия») Томио Окамура поддержал решение Спортивного арбитражного суда (CAS) о немедленном возвращении российских хоккеист...",
-      "content": "Спикер Палаты депутатов парламента Чехии и лидер правящего движения SPD («Свобода и прямая демократия») Томио Окамура поддержал решение Спортивного арбитражного суда (CAS) о немедленном возвращении российских хоккеистов к международным соревнованиям.",
-      "image": "https://img.championat.com/news/big/w/u/spiker-parlamenta-chehii-podderzhal-dopusk-rossijskih-hokkeistov-na-mezhdunarodnuyu-arenu_1793434727879176975.jpg",
-      "publishedAt": "2026-10-31T08:44:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679700-spiker-parlamenta-chehii-podderzhal-dopusk-rossijskih-hokkeistov-na-mezhdunarodnuyu-arenu.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679710",
-      "slug": "kanada-sohranit-zapret-na-uchastie-rossiyan-v-turnirah-na-territorii-strany",
-      "title": "Канада сохранит запрет на участие россиян в турнирах на территории страны",
-      "summary": "Государственный секретарь Канады по спорту Адам ван Кеверден оценил решение Спортивного арбитражного суда (CAS) допустить сборные России на международные соревнования.",
-      "content": "Государственный секретарь Канады по спорту Адам ван Кеверден оценил решение Спортивного арбитражного суда (CAS) допустить сборные России на международные соревнования.",
-      "image": "https://img.championat.com/news/big/g/o/kanada-sohranit-zapret-na-uchastie-rossiyan-v-turnirah-na-territorii-strany_17934353121387603124.jpg",
-      "publishedAt": "2026-10-31T08:30:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679710-kanada-sohranit-zapret-na-uchastie-rossiyan-v-turnirah-na-territorii-strany.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "Молодёжная сборная России — Хоккей",
-        "МЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679684",
-      "slug": "prinimayu-eto-kak-fakt-gashek-o-dopuske-sbornyh-rossii-po-hokkeyu",
-      "title": "«Принимаю это как факт». Гашек — о допуске сборных России по хоккею",
-      "summary": "Бывший вратарь сборной Чехии Доминик Гашек поделился мнением после решения Спортивного арбитражного суда (CAS) допустить российские сборные на международные соревнования.",
-      "content": "Бывший вратарь сборной Чехии Доминик Гашек поделился мнением после решения Спортивного арбитражного суда (CAS) допустить российские сборные на международные соревнования.",
-      "image": "https://img.championat.com/news/big/y/z/prinimayu-eto-kak-fakt-gashek-o-dopuske-sbornyh-rossii-po-hokkeyu_1793433674118347569.jpg",
-      "publishedAt": "2026-10-31T08:11:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679684-prinimayu-eto-kak-fakt-gashek-o-dopuske-sbornyh-rossii-po-hokkeyu.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "Доминик Гашек"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679660",
-      "slug": "video-aleksandru-ovechkinu-ustroili-ovaciyu-na-arene-neshvilla",
-      "title": "Видео: Александру Овечкину устроили овацию на арене «Нэшвилла»",
-      "summary": "Капитан «Вашингтон Кэпиталз» Александр Овечкин провёл последний матч в Нэшвилле в регулярных чемпионатах Национальной хоккейной лиги.",
-      "content": "Капитан «Вашингтон Кэпиталз» Александр Овечкин провёл последний матч в Нэшвилле в регулярных чемпионатах Национальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/o/d/video-aleksandru-ovechkinu-ustroili-ovaciyu-na-arene-neshvilla_1793432439869937545.jpg",
-      "publishedAt": "2026-10-31T07:50:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679660-video-aleksandru-ovechkinu-ustroili-ovaciyu-na-arene-neshvilla.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Видео",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Нэшвилл Предаторз"
-      ],
-      "relatedTeamIds": [
-        "nhl:nsh",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6679632",
-      "slug": "svetlov-est-nadezhda-chto-politika-iihf-s-prihodom-rajndlya-stanet-bolee-spokojnoj",
-      "title": "Светлов: есть надежда, что политика ИИХФ с приходом Райндля станет более спокойной",
-      "summary": "Олимпийский чемпион Сергей Светлов высказался о решении Спортивного арбитражного суда (CAS), обязавшего Международную федерацию хоккея (ИИХФ) допустить сборные России к международным соревнованиям.",
-      "content": "Олимпийский чемпион Сергей Светлов высказался о решении Спортивного арбитражного суда (CAS), обязавшего Международную федерацию хоккея (ИИХФ) допустить сборные России к международным соревнованиям.",
-      "image": "https://img.championat.com/news/big/l/h/svetlov-est-nadezhda-chto-politika-iihf-s-prihodom-rajndlya-stanet-bolee-spokojnoj_17934316571020210108.jpg",
-      "publishedAt": "2026-10-31T07:27:45Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679632-svetlov-est-nadezhda-chto-politika-iihf-s-prihodom-rajndlya-stanet-bolee-spokojnoj.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "ИИХФ",
-        "Сергей Светлов",
-        "Франц Райндль",
-        "ЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679602",
-      "slug": "schitov-ne-kazhdyj-zahochet-pojti-v-dinamo-potomu-chto-s-rukovodstvom-budet-ochen-tyazhelo",
-      "title": "Щитов: не каждый захочет пойти в «Динамо», потому что с руководством будет очень тяжело",
-      "summary": "Бывший защитник клубов КХЛ Никита Щитов оценил положение главного тренера московского «Динамо» Леонида Тамбиева и рассказал о возможных сложностях с поиском нового специалиста.",
-      "content": "Бывший защитник клубов КХЛ Никита Щитов оценил положение главного тренера московского «Динамо» Леонида Тамбиева и рассказал о возможных сложностях с поиском нового специалиста.",
-      "image": "https://img.championat.com/news/big/x/c/schitov-ne-kazhdyj-zahochet-.jpg",
-      "publishedAt": "2026-10-31T07:08:15Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679602-schitov-ne-kazhdyj-zahochet-pojti-v-dinamo-potomu-chto-s-rukovodstvom-budet-ochen-tyazhelo.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Леонид Тамбиев",
-        "Никита Щитов"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679550",
-      "slug": "takogo-ne-bylo-yakovlev-o-tom-chto-igroki-metallurga-yakoby-zhalovalis-na-razina",
-      "title": "«Такого не было». Яковлев — о том, что игроки «Металлурга» якобы жаловались на Разина",
-      "summary": "Защитник «Металлурга» Егор Яковлев высказался о ситуации с главным тренером Андреем Разиным, который сначала был отстранён, а затем покинул магнитогорский клуб.",
-      "content": "Защитник «Металлурга» Егор Яковлев высказался о ситуации с главным тренером Андреем Разиным, который сначала был отстранён, а затем покинул магнитогорский клуб.",
-      "image": "https://img.championat.com/news/big/s/v/takogo-ne-bylo-yakovlev-o-to.jpg",
-      "publishedAt": "2026-10-31T06:49:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679550-takogo-ne-bylo-yakovlev-o-tom-chto-igroki-metallurga-yakoby-zhalovalis-na-razina.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Андрей Разин",
-        "Егор Яковлев"
-      ],
-      "relatedTeamIds": [
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679492",
-      "slug": "30-oktyabrya-glavnye-novosti-sporta-futbol-liga-1-superliga-turciya-hokkej-nhl-basketbol-nba-rezultaty-tennis-atp",
-      "title": "Кучеров запросил обмен из «Тампы», разгромная победа «ПСЖ» с Сафоновым. Главное к утру",
-      "summary": "Российский форвард «Тампа-Бэй Лайтнинг» Никита Кучеров запросил обмен из клуба, «ПСЖ» разгромил «Гавр» в чемпионате Франции — вратарь Матвей Сафонов пропустил один мяч, тренер «Реала Сосьедад» заявил о травме полузащи...",
-      "content": "Российский форвард «Тампа-Бэй Лайтнинг» Никита Кучеров запросил обмен из клуба, «ПСЖ» разгромил «Гавр» в чемпионате Франции — вратарь Матвей Сафонов пропустил один мяч, тренер «Реала Сосьедад» заявил о травме полузащитника Арсена Захаряна.",
-      "image": "https://img.championat.com/news/big/j/w/kucherov-zaprosil-obmen-iz-tampy-razgromnaya-pobeda-pszh-s-safonovym-glavnoe-k-utru_1793425487417952957.jpg",
-      "publishedAt": "2026-10-31T06:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679492-30-oktyabrya-glavnye-novosti-sporta-futbol-liga-1-superliga-turciya-hokkej-nhl-basketbol-nba-rezultaty-tennis-atp.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Футбол",
-        "Франция",
-        "Теннис",
-        "ATP",
-        "Баскетбол",
-        "НБА",
-        "ПСЖ",
-        "Лос-Анджелес Лейкерс",
-        "Даниил Медведев",
-        "Травмы — футбол",
-        "Голден Стэйт Уорриорз",
-        "Тампа-Бэй Лайтнинг",
-        "Переходы — Хоккей",
-        "Бостон Селтикс",
-        "Бруклин Нетс",
-        "Карлос Алькарас — теннис",
-        "Чикаго Буллз",
-        "Никита Кучеров",
-        "Стефен Карри",
-        "Реал Сосьедад",
-        "Калгари Флэймз",
-        "Детройт Пистонс",
-        "Галатасарай",
-        "Матвей Сафонов",
-        "Лука Дончич",
-        "Егор Дёмин",
-        "Алексей Батраков",
-        "Арсен Захарян",
-        "Сиэтл Кракен",
-        "Джейсон Тейтум",
-        "Лига 1",
-        "Итоговый чемпионат ATP",
-        "Гавр",
-        "Ашраф Хакими",
-        "Коньяспор",
-        "Пэйтон Притчард",
-        "Матвей Гридин",
-        "Суперлига – Турция",
-        "Айдар Суниев"
-      ],
-      "relatedTeamIds": [
-        "nhl:bos",
-        "nhl:cgy",
-        "nhl:chi",
-        "nhl:det",
-        "nhl:lak",
-        "nhl:sea",
-        "nhl:tbl"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453"
-      ]
-    },
-    {
-      "id": "news-6679508",
-      "slug": "v-yanvare-stop-list-dolzhen-sokratitsya-dreger-o-vozmozhnom-obmene-malkina",
-      "title": "«В январе стоп-лист должен сократиться». Дрегер — о возможном обмене Малкина",
-      "summary": "Инсайдер Даррен Дрегер высказался о возможности обмена российского форварда «Питтсбург Пингвинз» Евгения Малкина.",
-      "content": "Инсайдер Даррен Дрегер высказался о возможности обмена российского форварда «Питтсбург Пингвинз» Евгения Малкина.",
-      "image": "https://img.championat.com/news/big/c/u/v-yanvare-stop-list-dolzhen-sokratitsya-dreger-o-vozmozhnom-obmene-malkina_17934261961154514897.jpg",
-      "publishedAt": "2026-10-31T06:20:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679508-v-yanvare-stop-list-dolzhen-sokratitsya-dreger-o-vozmozhnom-obmene-malkina.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Питтсбург Пингвинз",
-        "Евгений Малкин",
-        "Даррен Дрегер"
-      ],
-      "relatedTeamIds": [
-        "nhl:pit"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679496",
-      "slug": "avtomobilist-metallurg-mg-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-31-oktyabrya-2026",
-      "title": "«Автомобилист» — «Металлург»: во сколько начало матча КХЛ, где смотреть трансляцию",
-      "summary": "Сегодня, 31 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» примет «Металлург».",
-      "content": "Сегодня, 31 октября, в Екатеринбурге на стадионе «УГМК-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Автомобилист» примет «Металлург».",
-      "image": "https://img.championat.com/news/big/d/b/avtomobilist-metallurg-vo-skolko-nachalo-matcha-khl-gde-smotret-translyaciyu_17934246341916095420.jpg",
-      "publishedAt": "2026-10-31T06:10:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679496-avtomobilist-metallurg-mg-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-31-oktyabrya-2026.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Автомобилист"
-      ],
-      "relatedTeamIds": [
-        "khl:avtomobilist",
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679478",
-      "slug": "raspisanie-matchej-mhl-na-31-oktyabrya-2026-goda",
-      "title": "Расписание матчей МХЛ на 31 октября 2026 года",
-      "summary": "Сегодня, 31 октября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
-      "content": "Сегодня, 31 октября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-10-31T05:55:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679478-raspisanie-matchej-mhl-na-31-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "МХЛ",
-        "МХК Спартак",
-        "МХК Омские Ястребы",
-        "МХК Кузнецкие Медведи",
-        "Крылья Советов",
-        "МХК Мамонты Югры",
-        "МХК Динамо-Шинник",
-        "МХК Динамо",
-        "МХК Ирбис Казань"
-      ],
-      "relatedTeamIds": [
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679472",
-      "slug": "raspisanie-matchej-vhl-na-31-oktyabrya-2026-goda",
-      "title": "Расписание матчей ВХЛ на 31 октября 2026 года",
-      "summary": "Сегодня, 31 октября, пройдут два матча OLIMPBET Чемпионата России — ВХЛ.",
-      "content": "Сегодня, 31 октября, пройдут два матча OLIMPBET Чемпионата России — ВХЛ.",
-      "image": "assets/images/hero_banner.jpg",
-      "publishedAt": "2026-10-31T05:40:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679472-raspisanie-matchej-vhl-na-31-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "ВХЛ",
-        "Барс",
-        "Рязань",
-        "Горняк"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679470",
-      "slug": "raspisanie-matchej-khl-na-31-oktyabrya-2026-goda",
-      "title": "Расписание матчей КХЛ на 31 октября 2026 года",
-      "summary": "Сегодня, 31 октября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Сегодня, 31 октября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/x/o/raspisanie-matchej-khl-na-31-oktyabrya-2026-goda_17934233312107640024.jpg",
-      "publishedAt": "2026-10-31T05:20:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679470-raspisanie-matchej-khl-na-31-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Автомобилист"
-      ],
-      "relatedTeamIds": [
-        "khl:avtomobilist",
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679468",
-      "slug": "rezultaty-matchej-nhl-na-31-oktyabrya-2026-goda",
-      "title": "Результаты матчей НХЛ на 31 октября 2026 года",
-      "summary": "В ночь на 31 октября прошли очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
-      "content": "В ночь на 31 октября прошли очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/m/m/rezultaty-matchej-nhl-na-31-oktyabrya-2026-goda_179342309323232008.jpg",
-      "publishedAt": "2026-10-31T05:10:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679468-rezultaty-matchej-nhl-na-31-oktyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Флорида Пантерз",
-        "Вегас Голден Найтс",
-        "Нью-Джерси Дэвилз",
-        "Виннипег Джетс",
-        "Калгари Флэймз",
-        "Сиэтл Кракен"
-      ],
-      "relatedTeamIds": [
-        "nhl:cgy",
-        "nhl:fla",
-        "nhl:njd",
-        "nhl:sea",
-        "nhl:vgk",
-        "nhl:wpg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6679454",
-      "slug": "insajder-predpolozhil-kakie-kluby-popytayutsya-podpisat-nikitu-kucherova",
-      "title": "Инсайдер предположил, какие клубы попытаются подписать Никиту Кучерова",
-      "summary": "Две команды могут проявить интерес к российскому нападающему «Тампа-Бэй Лайтнинг» Никите Кучерову, если эти клубы входят в список предпочтительных вариантов самого хоккеиста.",
-      "content": "Две команды могут проявить интерес к российскому нападающему «Тампа-Бэй Лайтнинг» Никите Кучерову, если эти клубы входят в список предпочтительных вариантов самого хоккеиста.",
-      "image": "https://img.championat.com/news/big/y/g/insajder-predpolozhil-kakie-kluby-popytayutsya-podpisat-nikitu-kucherova_17934201821223726046.jpg",
-      "publishedAt": "2026-10-31T04:46:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6679454-insajder-predpolozhil-kakie-kluby-popytayutsya-podpisat-nikitu-kucherova.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Тампа-Бэй Лайтнинг",
-        "Нью-Йорк Рейнджерс",
-        "Чикаго Блэкхоукс",
-        "Никита Кучеров"
-      ],
-      "relatedTeamIds": [
-        "nhl:chi",
-        "nhl:nyr",
-        "nhl:tbl"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453"
-      ]
     }
   ]
 }

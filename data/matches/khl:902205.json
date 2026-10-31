@@ -6,18 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-10-31T12:00:00Z",
-  "status": "LIVE",
-  "period": 2,
+  "status": "FINISHED",
+  "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:avtomobilist",
     "name": "Автомобилист",
     "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/56/original/avtomobilist__200x200.png",
-    "score": 1,
+    "score": 3,
     "periods": [
       0,
-      1
+      1,
+      2
     ],
     "shots": null
   },
@@ -25,10 +26,11 @@
     "id": "khl:metallurg-mg",
     "name": "Металлург Мг",
     "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/30/original/metallurg_mg_2020__200x200.png",
-    "score": 0,
+    "score": 4,
     "periods": [
       0,
-      0
+      2,
+      2
     ],
     "shots": null
   },
@@ -56,6 +58,6 @@
     "stageId": 407,
     "eventId": 3000971,
     "matchId": "902205",
-    "fetchedAt": "2026-10-31T13:06:42.451131Z"
+    "fetchedAt": "2026-10-31T17:40:26.683967Z"
   }
 }
