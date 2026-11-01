@@ -14,7 +14,7 @@
     "home": {
       "id": "khl:avtomobilist",
       "name": "Автомобилист",
-      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/56/original/avtomobilist__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sdc/team_pics/56/original/avtomobilist__200x200.png",
       "score": 3,
       "periods": [
         0,
@@ -59,7 +59,7 @@
       "stageId": 407,
       "eventId": 3000971,
       "matchId": "902205",
-      "fetchedAt": "2026-10-31T23:43:44.280480Z"
+      "fetchedAt": "2026-11-01T02:36:23.138601Z"
     }
   },
   {
@@ -102,7 +102,7 @@
       "url": "https://www.nhl.com/gamecenter/chi-vs-bos/2026/10/31/2026020217",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/chi-vs-bos/2026/10/31/2026020217",
-      "verifiedAt": "2026-10-31T23:43:42.054524Z"
+      "verifiedAt": "2026-11-01T02:36:20.549646Z"
     }
   },
   {
@@ -145,7 +145,7 @@
       "url": "https://www.nhl.com/gamecenter/stl-vs-det/2026/10/31/2026020218",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/stl-vs-det/2026/10/31/2026020218",
-      "verifiedAt": "2026-10-31T23:43:42.054769Z"
+      "verifiedAt": "2026-11-01T02:36:20.549895Z"
     }
   },
   {
@@ -188,7 +188,7 @@
       "url": "https://www.nhl.com/gamecenter/tbl-vs-nsh/2026/10/31/2026020219",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/tbl-vs-nsh/2026/10/31/2026020219",
-      "verifiedAt": "2026-10-31T23:43:42.054858Z"
+      "verifiedAt": "2026-11-01T02:36:20.550049Z"
     }
   },
   {
@@ -231,7 +231,7 @@
       "url": "https://www.nhl.com/gamecenter/edm-vs-nyi/2026/10/31/2026020220",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/edm-vs-nyi/2026/10/31/2026020220",
-      "verifiedAt": "2026-10-31T23:43:42.054935Z"
+      "verifiedAt": "2026-11-01T02:36:20.550228Z"
     }
   },
   {
@@ -274,7 +274,7 @@
       "url": "https://www.nhl.com/gamecenter/buf-vs-lak/2026/10/31/2026020221",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/buf-vs-lak/2026/10/31/2026020221",
-      "verifiedAt": "2026-10-31T23:43:42.055020Z"
+      "verifiedAt": "2026-11-01T02:36:20.550438Z"
     }
   },
   {
@@ -317,7 +317,7 @@
       "url": "https://www.nhl.com/gamecenter/ott-vs-sjs/2026/10/31/2026020222",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/ott-vs-sjs/2026/10/31/2026020222",
-      "verifiedAt": "2026-10-31T23:43:42.055084Z"
+      "verifiedAt": "2026-11-01T02:36:20.550599Z"
     }
   },
   {
@@ -328,146 +328,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-31T23:00:00Z",
-    "status": "LIVE",
-    "period": 1,
-    "clock": "07:01",
-    "finishedIn": null,
+    "status": "FINISHED",
+    "period": 3,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:mtl",
-      "score": 2,
+      "score": 5,
       "periods": [],
-      "shots": 8
+      "shots": null
     },
     "away": {
       "id": "nhl:pit",
-      "score": 2,
+      "score": 4,
       "periods": [],
-      "shots": 6
+      "shots": null
     },
     "arena": "Centre Bell",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "01:21",
-        "team": "home",
-        "playerId": "nhl:p_8480865",
-        "playerName": "Noah Dobson",
-        "minutes": 2,
-        "reason": "tripping",
-        "order": 27
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "02:08",
-        "team": "away",
-        "playerId": "nhl:p_8474578",
-        "playerName": "Erik Karlsson",
-        "assists": [
-          "nhl:p_8471675",
-          "nhl:p_8478438"
-        ],
-        "score": "0-1",
-        "order": 36
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "02:41",
-        "team": "home",
-        "playerId": "nhl:p_8482775",
-        "playerName": "Oliver Kapanen",
-        "assists": [
-          "nhl:p_8483424",
-          "nhl:p_8484403"
-        ],
-        "score": "1-1",
-        "order": 44
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "03:05",
-        "team": "home",
-        "playerId": "nhl:p_8476981",
-        "playerName": "Josh Anderson",
-        "score": "2-1",
-        "order": 50
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "07:28",
-        "team": "away",
-        "playerId": "nhl:p_8478438",
-        "playerName": "Tommy Novak",
-        "assists": [
-          "nhl:p_8476483",
-          "nhl:p_8471675"
-        ],
-        "score": "2-2",
-        "order": 93
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "09:05",
-        "team": "home",
-        "playerId": "nhl:p_8484403",
-        "playerName": "Florian Xhekaj",
-        "minutes": 2,
-        "reason": "roughing",
-        "order": 113
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "09:05",
-        "team": "away",
-        "playerId": "nhl:p_8482758",
-        "playerName": "Ville Koivunen",
-        "minutes": 2,
-        "reason": "roughing",
-        "order": 115
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "12:59",
-        "team": "away",
-        "playerId": "nhl:p_8471215",
-        "playerName": "Evgeni Malkin",
-        "minutes": 2,
-        "reason": "tripping",
-        "order": 164
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        8,
-        6
-      ],
-      "shotsOnGoal": [
-        8,
-        6
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020223/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020223/play-by-play"
-      ],
-      "fetchedAt": "2026-10-31T23:43:42.124357+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -475,7 +360,7 @@
       "url": "https://www.nhl.com/gamecenter/pit-vs-mtl/2026/10/31/2026020223",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/pit-vs-mtl/2026/10/31/2026020223",
-      "verifiedAt": "2026-10-31T23:43:42.124402Z"
+      "verifiedAt": "2026-11-01T02:36:20.550787Z"
     }
   },
   {
@@ -486,118 +371,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-10-31T23:00:00Z",
-    "status": "LIVE",
-    "period": 1,
-    "clock": "04:40",
-    "finishedIn": null,
+    "status": "FINISHED",
+    "period": 3,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:van",
-      "score": 1,
+      "score": 2,
       "periods": [],
-      "shots": 8
+      "shots": null
     },
     "away": {
       "id": "nhl:tor",
-      "score": 1,
+      "score": 4,
       "periods": [],
-      "shots": 8
+      "shots": null
     },
     "arena": "Rogers Arena",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "01:23",
-        "team": "away",
-        "playerId": "nhl:p_8477939",
-        "playerName": "William Nylander",
-        "score": "0-1",
-        "order": 26
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "06:38",
-        "team": "away",
-        "playerId": "nhl:p_8479442",
-        "playerName": "Troy Stecher",
-        "minutes": 2,
-        "reason": "tripping",
-        "order": 101
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "10:02",
-        "team": "away",
-        "playerId": "nhl:p_8479520",
-        "playerName": "Brandon Duhaime",
-        "minutes": 2,
-        "reason": "tripping",
-        "order": 142
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "10:30",
-        "team": "home",
-        "playerId": "nhl:p_8478444",
-        "playerName": "Brock Boeser",
-        "assists": [
-          "nhl:p_8479425",
-          "nhl:p_8483476"
-        ],
-        "score": "1-1",
-        "order": 149
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "11:01",
-        "team": "home",
-        "playerId": "nhl:p_8482055",
-        "playerName": "Drew O'Connor",
-        "minutes": 2,
-        "reason": "hooking",
-        "order": 155
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "11:53",
-        "team": "home",
-        "playerId": "nhl:p_8476467",
-        "playerName": "Jamie Oleksiak",
-        "minutes": 2,
-        "reason": "tripping",
-        "order": 164
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        8,
-        8
-      ],
-      "shotsOnGoal": [
-        8,
-        8
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020224/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020224/play-by-play"
-      ],
-      "fetchedAt": "2026-10-31T23:43:42.197562+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -605,7 +403,7 @@
       "url": "https://www.nhl.com/gamecenter/tor-vs-van/2026/10/31/2026020224",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/tor-vs-van/2026/10/31/2026020224",
-      "verifiedAt": "2026-10-31T23:43:42.197623Z"
+      "verifiedAt": "2026-11-01T02:36:20.550956Z"
     }
   },
   {
@@ -616,31 +414,123 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-11-01T00:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
-    "clock": null,
+    "status": "LIVE",
+    "period": 3,
+    "clock": "00:57",
     "finishedIn": null,
     "home": {
       "id": "nhl:dal",
-      "score": null,
+      "score": 2,
       "periods": [],
-      "shots": null
+      "shots": 16
     },
     "away": {
       "id": "nhl:cbj",
-      "score": null,
+      "score": 1,
       "periods": [],
-      "shots": null
+      "shots": 26
     },
     "arena": "American Airlines Center",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [],
+    "events": [
+      {
+        "type": "PENALTY",
+        "period": 1,
+        "time": "01:43",
+        "team": "away",
+        "playerId": "nhl:p_8482982",
+        "playerName": "Jet Greaves",
+        "minutes": 2,
+        "reason": "delaying-game-puck-over-glass",
+        "order": 34
+      },
+      {
+        "type": "GOAL",
+        "period": 1,
+        "time": "02:16",
+        "team": "home",
+        "playerId": "nhl:p_8478420",
+        "playerName": "Mikko Rantanen",
+        "assists": [
+          "nhl:p_8482740",
+          "nhl:p_8480027"
+        ],
+        "score": "1-0",
+        "order": 46
+      },
+      {
+        "type": "GOAL",
+        "period": 1,
+        "time": "19:59",
+        "team": "home",
+        "playerId": "nhl:p_8481581",
+        "playerName": "Thomas Harley",
+        "assists": [
+          "nhl:p_8484938",
+          "nhl:p_8480036"
+        ],
+        "score": "2-0",
+        "order": 288
+      },
+      {
+        "type": "PENALTY",
+        "period": 2,
+        "time": "06:58",
+        "team": "home",
+        "playerId": "nhl:p_8480878",
+        "playerName": "Nils Lundkvist",
+        "minutes": 2,
+        "reason": "hooking",
+        "order": 375
+      },
+      {
+        "type": "PENALTY",
+        "period": 2,
+        "time": "12:26",
+        "team": "away",
+        "minutes": 2,
+        "reason": "too-many-men-on-the-ice",
+        "order": 436
+      },
+      {
+        "type": "GOAL",
+        "period": 3,
+        "time": "06:21",
+        "team": "away",
+        "playerId": "nhl:p_8476923",
+        "playerName": "Damon Severson",
+        "assists": [
+          "nhl:p_8478460",
+          "nhl:p_8482660"
+        ],
+        "score": "2-1",
+        "order": 594
+      }
+    ],
     "lineups": null,
-    "stats": null,
+    "stats": {
+      "shots": [
+        16,
+        26
+      ],
+      "shotsOnGoal": [
+        16,
+        26
+      ]
+    },
     "h2h": [],
+    "source": {
+      "provider": "NHL Web API",
+      "official": true,
+      "endpoints": [
+        "https://api-web.nhle.com/v1/gamecenter/2026020225/boxscore",
+        "https://api-web.nhle.com/v1/gamecenter/2026020225/play-by-play"
+      ],
+      "fetchedAt": "2026-11-01T02:36:20.748525+00:00"
+    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -648,7 +538,7 @@
       "url": "https://www.nhl.com/gamecenter/cbj-vs-dal/2026/10/31/2026020225",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/cbj-vs-dal/2026/10/31/2026020225",
-      "verifiedAt": "2026-10-31T23:43:42.197899Z"
+      "verifiedAt": "2026-11-01T02:36:20.748642Z"
     }
   },
   {
@@ -659,31 +549,64 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-11-01T02:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
-    "clock": null,
+    "status": "LIVE",
+    "period": 1,
+    "clock": "04:51",
     "finishedIn": null,
     "home": {
       "id": "nhl:col",
-      "score": null,
+      "score": 1,
       "periods": [],
-      "shots": null
+      "shots": 9
     },
     "away": {
       "id": "nhl:cgy",
-      "score": null,
+      "score": 0,
       "periods": [],
-      "shots": null
+      "shots": 3
     },
     "arena": "Ball Arena",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [],
+    "events": [
+      {
+        "type": "GOAL",
+        "period": 1,
+        "time": "14:13",
+        "team": "home",
+        "playerId": "nhl:p_8477492",
+        "playerName": "Nathan MacKinnon",
+        "assists": [
+          "nhl:p_8480069",
+          "nhl:p_8480039"
+        ],
+        "score": "1-0",
+        "order": 191
+      }
+    ],
     "lineups": null,
-    "stats": null,
+    "stats": {
+      "shots": [
+        9,
+        3
+      ],
+      "shotsOnGoal": [
+        9,
+        3
+      ]
+    },
     "h2h": [],
+    "source": {
+      "provider": "NHL Web API",
+      "official": true,
+      "endpoints": [
+        "https://api-web.nhle.com/v1/gamecenter/2026020226/boxscore",
+        "https://api-web.nhle.com/v1/gamecenter/2026020226/play-by-play"
+      ],
+      "fetchedAt": "2026-11-01T02:36:20.813759+00:00"
+    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -691,7 +614,7 @@
       "url": "https://www.nhl.com/gamecenter/cgy-vs-col/2026/10/31/2026020226",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/cgy-vs-col/2026/10/31/2026020226",
-      "verifiedAt": "2026-10-31T23:43:42.197972Z"
+      "verifiedAt": "2026-11-01T02:36:20.813850Z"
     }
   }
 ]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "khl:902238",
+    "compId": "KHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-08T07:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "khl:amur",
+      "name": "Амур",
+      "logo": "https://thumbs.webcaster.pro/rec-2-2.webcaster.pro/fc/sdc/team_pics/12/original/amur_2015__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "khl:barys",
+      "name": "Барыс",
+      "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/46/original/barys_2022_head_only__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": null,
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "source": {
+      "provider": "KHL mobile backend",
+      "official": true,
+      "verified": true,
+      "verifiedMatches": true,
+      "licenseConfirmed": false,
+      "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+      "endpoints": [
+        "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
+      ],
+      "stageId": 407,
+      "eventId": 3001103,
+      "matchId": "902238",
+      "fetchedAt": "2026-11-01T02:36:23.138601Z"
+    }
+  },
+  {
+    "id": "khl:902236",
+    "compId": "KHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-08T11:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "khl:neftekhimik",
+      "name": "Нефтехимик",
+      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/36/original/neftekhimik_2022__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "khl:lokomotiv",
+      "name": "Локомотив",
+      "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sda/team_pics/26/original/lokomotiv_2022__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": null,
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "source": {
+      "provider": "KHL mobile backend",
+      "official": true,
+      "verified": true,
+      "verifiedMatches": true,
+      "licenseConfirmed": false,
+      "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+      "endpoints": [
+        "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
+      ],
+      "stageId": 407,
+      "eventId": 3001095,
+      "matchId": "902236",
+      "fetchedAt": "2026-11-01T02:36:23.138601Z"
+    }
+  },
+  {
+    "id": "khl:902237",
+    "compId": "KHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-08T11:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "khl:traktor",
+      "name": "Трактор",
+      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdb/team_pics/28/original/traktor_2020__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "khl:avtomobilist",
+      "name": "Автомобилист",
+      "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sdc/team_pics/56/original/avtomobilist__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": null,
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "source": {
+      "provider": "KHL mobile backend",
+      "official": true,
+      "verified": true,
+      "verifiedMatches": true,
+      "licenseConfirmed": false,
+      "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+      "endpoints": [
+        "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
+      ],
+      "stageId": 407,
+      "eventId": 3001099,
+      "matchId": "902237",
+      "fetchedAt": "2026-11-01T02:36:23.138601Z"
+    }
+  },
+  {
+    "id": "khl:902235",
+    "compId": "KHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-08T14:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "khl:sochi",
+      "name": "ХК Сочи",
+      "logo": "https://thumbs.webcaster.pro/rec-2-13.webcaster.pro/fc/sda/team_pics/113/original/hc_sochi_2024__200x200_new.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "khl:dynamo-mns",
+      "name": "Динамо Мн",
+      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/38/original/dinamo_mn_2019_alternative__200x200.png",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": null,
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "source": {
+      "provider": "KHL mobile backend",
+      "official": true,
+      "verified": true,
+      "verifiedMatches": true,
+      "licenseConfirmed": false,
+      "endpoint": "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+      "endpoints": [
+        "https://khl.api.webcaster.pro/api/khl_mobile/data.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/events_v2.json",
+        "https://khl.api.webcaster.pro/api/khl_mobile/teams_v2.json"
+      ],
+      "stageId": 407,
+      "eventId": 3001091,
+      "matchId": "902235",
+      "fetchedAt": "2026-11-01T02:36:23.138601Z"
+    }
+  }
+]

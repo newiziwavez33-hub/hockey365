@@ -25,7 +25,7 @@
         "playerId": "nhl:p_8479318",
         "playerName": "Auston Matthews",
         "teamId": "nhl:tor",
-        "value": 23
+        "value": 24
       },
       {
         "playerId": "nhl:p_8480803",
@@ -48,21 +48,21 @@
         "value": 12
       },
       {
+        "playerId": "nhl:p_8479318",
+        "playerName": "Auston Matthews",
+        "teamId": "nhl:tor",
+        "value": 11
+      },
+      {
         "playerId": "nhl:p_8478398",
         "playerName": "Kyle Connor",
         "teamId": "nhl:wpg",
         "value": 11
       },
       {
-        "playerId": "nhl:p_8479318",
-        "playerName": "Auston Matthews",
+        "playerId": "nhl:p_8477939",
+        "playerName": "William Nylander",
         "teamId": "nhl:tor",
-        "value": 10
-      },
-      {
-        "playerId": "nhl:p_8479420",
-        "playerName": "Tage Thompson",
-        "teamId": "nhl:buf",
         "value": 10
       }
     ],
@@ -112,12 +112,6 @@
         "value": 1.4
       },
       {
-        "playerId": "nhl:p_8484170",
-        "playerName": "Jacob Fowler",
-        "teamId": "nhl:mtl",
-        "value": 1.54
-      },
-      {
         "playerId": "nhl:p_8481611",
         "playerName": "Pyotr Kochetkov",
         "teamId": "nhl:car",
@@ -128,6 +122,12 @@
         "playerName": "Jake Oettinger",
         "teamId": "nhl:dal",
         "value": 1.69
+      },
+      {
+        "playerId": "nhl:p_8478048",
+        "playerName": "Igor Shesterkin",
+        "teamId": "nhl:nyr",
+        "value": 1.79
       }
     ],
     "svPct": [
@@ -138,16 +138,16 @@
         "value": 0.945
       },
       {
-        "playerId": "nhl:p_8484170",
-        "playerName": "Jacob Fowler",
-        "teamId": "nhl:mtl",
-        "value": 0.942
-      },
-      {
         "playerId": "nhl:p_8480193",
         "playerName": "Daniil Tarasov",
         "teamId": "nhl:det",
         "value": 0.94
+      },
+      {
+        "playerId": "nhl:p_8484170",
+        "playerName": "Jacob Fowler",
+        "teamId": "nhl:mtl",
+        "value": 0.932
       },
       {
         "playerId": "nhl:p_8480022",
