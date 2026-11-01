@@ -19,7 +19,7 @@
         "playerId": "nhl:p_8478864",
         "playerName": "Kirill Kaprizov",
         "teamId": "nhl:min",
-        "value": 24
+        "value": 25
       },
       {
         "playerId": "nhl:p_8479318",
@@ -39,7 +39,7 @@
         "playerId": "nhl:p_8478864",
         "playerName": "Kirill Kaprizov",
         "teamId": "nhl:min",
-        "value": 14
+        "value": 15
       },
       {
         "playerId": "nhl:p_8477934",
@@ -80,15 +80,15 @@
         "value": 16
       },
       {
-        "playerId": "nhl:p_8479314",
-        "playerName": "Matthew Tkachuk",
-        "teamId": "nhl:fla",
-        "value": 16
-      },
-      {
         "playerId": "nhl:p_8480800",
         "playerName": "Quinn Hughes",
         "teamId": "nhl:min",
+        "value": 16
+      },
+      {
+        "playerId": "nhl:p_8479314",
+        "playerName": "Matthew Tkachuk",
+        "teamId": "nhl:fla",
         "value": 16
       },
       {
@@ -112,16 +112,16 @@
         "value": 1.4
       },
       {
+        "playerId": "nhl:p_8481611",
+        "playerName": "Pyotr Kochetkov",
+        "teamId": "nhl:car",
+        "value": 1.49
+      },
+      {
         "playerId": "nhl:p_8479979",
         "playerName": "Jake Oettinger",
         "teamId": "nhl:dal",
         "value": 1.63
-      },
-      {
-        "playerId": "nhl:p_8481611",
-        "playerName": "Pyotr Kochetkov",
-        "teamId": "nhl:car",
-        "value": 1.66
       },
       {
         "playerId": "nhl:p_8478048",
@@ -150,16 +150,16 @@
         "value": 0.932
       },
       {
+        "playerId": "nhl:p_8481611",
+        "playerName": "Pyotr Kochetkov",
+        "teamId": "nhl:car",
+        "value": 0.929
+      },
+      {
         "playerId": "nhl:p_8480022",
         "playerName": "Michael DiPietro",
         "teamId": "nhl:bos",
         "value": 0.929
-      },
-      {
-        "playerId": "nhl:p_8478048",
-        "playerName": "Igor Shesterkin",
-        "teamId": "nhl:nyr",
-        "value": 0.927
       }
     ]
   }
