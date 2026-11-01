@@ -28,10 +28,10 @@
         "value": 24
       },
       {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 23
+        "playerId": "nhl:p_8477492",
+        "playerName": "Nathan MacKinnon",
+        "teamId": "nhl:col",
+        "value": 24
       }
     ],
     "goals": [
@@ -48,6 +48,12 @@
         "value": 12
       },
       {
+        "playerId": "nhl:p_8477476",
+        "playerName": "Artturi Lehkonen",
+        "teamId": "nhl:col",
+        "value": 12
+      },
+      {
         "playerId": "nhl:p_8479318",
         "playerName": "Auston Matthews",
         "teamId": "nhl:tor",
@@ -58,12 +64,6 @@
         "playerName": "Kyle Connor",
         "teamId": "nhl:wpg",
         "value": 11
-      },
-      {
-        "playerId": "nhl:p_8477939",
-        "playerName": "William Nylander",
-        "teamId": "nhl:tor",
-        "value": 10
       }
     ],
     "assists": [
@@ -112,16 +112,16 @@
         "value": 1.4
       },
       {
+        "playerId": "nhl:p_8479979",
+        "playerName": "Jake Oettinger",
+        "teamId": "nhl:dal",
+        "value": 1.63
+      },
+      {
         "playerId": "nhl:p_8481611",
         "playerName": "Pyotr Kochetkov",
         "teamId": "nhl:car",
         "value": 1.66
-      },
-      {
-        "playerId": "nhl:p_8479979",
-        "playerName": "Jake Oettinger",
-        "teamId": "nhl:dal",
-        "value": 1.69
       },
       {
         "playerId": "nhl:p_8478048",
