@@ -21,7 +21,7 @@
       "pts": 24,
       "plusMinus": 7,
       "pim": 12,
-      "shots": 57
+      "shots": 58
     }
   ],
   "career": [],
@@ -29,6 +29,6 @@
     "provider": "NHL Web API",
     "official": true,
     "endpoint": "https://api-web.nhle.com/v1/player/8477492/landing",
-    "fetchedAt": "2026-11-02T10:04:20.220426+00:00"
+    "fetchedAt": "2026-11-02T20:15:53.335133+00:00"
   }
 }

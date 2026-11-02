@@ -106,12 +106,6 @@
         "value": 1.33
       },
       {
-        "playerId": "nhl:p_8480193",
-        "playerName": "Daniil Tarasov",
-        "teamId": "nhl:det",
-        "value": 1.4
-      },
-      {
         "playerId": "nhl:p_8481611",
         "playerName": "Pyotr Kochetkov",
         "teamId": "nhl:car",
@@ -128,6 +122,12 @@
         "playerName": "Igor Shesterkin",
         "teamId": "nhl:nyr",
         "value": 1.79
+      },
+      {
+        "playerId": "nhl:p_8484170",
+        "playerName": "Jacob Fowler",
+        "teamId": "nhl:mtl",
+        "value": 1.84
       }
     ],
     "svPct": [
@@ -136,12 +136,6 @@
         "playerName": "Linus Ullmark",
         "teamId": "nhl:ott",
         "value": 0.945
-      },
-      {
-        "playerId": "nhl:p_8480193",
-        "playerName": "Daniil Tarasov",
-        "teamId": "nhl:det",
-        "value": 0.94
       },
       {
         "playerId": "nhl:p_8484170",
@@ -156,10 +150,16 @@
         "value": 0.929
       },
       {
-        "playerId": "nhl:p_8480022",
-        "playerName": "Michael DiPietro",
-        "teamId": "nhl:bos",
-        "value": 0.929
+        "playerId": "nhl:p_8478048",
+        "playerName": "Igor Shesterkin",
+        "teamId": "nhl:nyr",
+        "value": 0.927
+      },
+      {
+        "playerId": "nhl:p_8479979",
+        "playerName": "Jake Oettinger",
+        "teamId": "nhl:dal",
+        "value": 0.921
       }
     ]
   }
