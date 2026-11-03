@@ -1,6 +1,282 @@
 {
   "news": [
     {
+      "id": "news-6683554",
+      "slug": "nachalo-poluchilos-dlya-nas-oshelomlyayuschim-trener-vashingtona-o-matche-s-minnesotoj",
+      "title": "«Начало получилось для нас ошеломляющим». Тренер «Вашингтона» — о матче с «Миннесотой»",
+      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался о неудачном старте матча для команды в игре регулярного чемпионата Национальной хоккейной лиги с «Миннесотой Уайлд» (1:5).",
+      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался о неудачном старте матча для команды в игре регулярного чемпионата Национальной хоккейной лиги с «Миннесотой Уайлд» (1:5).",
+      "image": "https://img.championat.com/news/big/i/y/nachalo-poluchilos-dlya-nas-oshelomlyayuschim-trener-vashingtona-o-matche-s-minnesotoj_17936699411481205601.jpg",
+      "publishedAt": "2026-11-03T01:39:03Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6683554-nachalo-poluchilos-dlya-nas-oshelomlyayuschim-trener-vashingtona-o-matche-s-minnesotoj.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Миннесота Уайлд",
+        "Спенсер Карбери"
+      ],
+      "relatedTeamIds": [
+        "nhl:min",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6683502",
+      "slug": "k-schastyu-on-promahnulsya-vratar-minnesoty-ob-upuschennom-momente-ovechkina",
+      "title": "«К счастью, он промахнулся». Вратарь «Миннесоты» — об упущенном моменте Овечкина",
+      "summary": "Вратарь «Миннесоты Уайлд» Йеспер Валльстедт высказался о нереализованном моменте российского нападающего «Вашингтон Кэпиталз» Александра Овечкина в минувшем матче регулярного чемпионата НХЛ.",
+      "content": "Вратарь «Миннесоты Уайлд» Йеспер Валльстедт высказался о нереализованном моменте российского нападающего «Вашингтон Кэпиталз» Александра Овечкина в минувшем матче регулярного чемпионата НХЛ.",
+      "image": "https://img.championat.com/news/big/c/d/k-schastyu-on-promahnulsya-vratar-minnesoty-ob-upuschennom-momente-ovechkina_1793661729234690816.jpg",
+      "publishedAt": "2026-11-02T23:22:10Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6683502-k-schastyu-on-promahnulsya-vratar-minnesoty-ob-upuschennom-momente-ovechkina.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Миннесота Уайлд",
+        "Йеспер Валльстедт"
+      ],
+      "relatedTeamIds": [
+        "nhl:min",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6683488",
+      "slug": "on-ne-budet-bojkotirovat-matchi-ili-sryvat-trenirovki-fridman-o-kucherove",
+      "title": "«Он не будет бойкотировать матчи или срывать тренировки». Фридман – о Кучерове",
+      "summary": "Инсайдер НХЛ Эллиотт Фридман высказался о российском нападающем «Тампа-Бэй Лайтнинг».",
+      "content": "Инсайдер НХЛ Эллиотт Фридман высказался о российском нападающем «Тампа-Бэй Лайтнинг».",
+      "image": "https://img.championat.com/news/big/h/b/on-ne-budet-bojkotirovat-matchi-ili-sryvat-trenirovki-fridman-o-kucherove_17936602201852143419.jpg",
+      "publishedAt": "2026-11-02T22:57:01Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6683488-on-ne-budet-bojkotirovat-matchi-ili-sryvat-trenirovki-fridman-o-kucherove.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Никита Кучеров",
+        "Эллиотт Фридман"
+      ],
+      "relatedTeamIds": [
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
+      "id": "news-6683476",
+      "slug": "kucherov-soobschil-chto-odnoklubniki-pervymi-uznali-ot-nego-o-zaprose-na-obmen-iz-tampy",
+      "title": "Кучеров сообщил, что одноклубники первыми узнали от него о запросе на обмен из «Тампы»",
+      "summary": "Российский нападающий «Тампа-Бэй Лайтнинг» Никита Кучеров заявил, что первым рассказал о желании покинуть клуб своим партнёрам по команде.",
+      "content": "Российский нападающий «Тампа-Бэй Лайтнинг» Никита Кучеров заявил, что первым рассказал о желании покинуть клуб своим партнёрам по команде.",
+      "image": "https://img.championat.com/news/big/m/e/kucherov-soobschil-chto-odnoklubniki-pervymi-uznali-ot-nego-o-zaprose-na-obmen-iz-tampy_17936579051140936807.jpg",
+      "publishedAt": "2026-11-02T22:18:26Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6683476-kucherov-soobschil-chto-odnoklubniki-pervymi-uznali-ot-nego-o-zaprose-na-obmen-iz-tampy.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Никита Кучеров"
+      ],
+      "relatedTeamIds": [
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
+      "id": "news-6683474",
+      "slug": "trener-vashingtona-nazval-prichinu-krupnogo-porazheniya-komandy-v-matche-s-minnesotoj",
+      "title": "Тренер «Вашингтона» назвал причину крупного поражения команды в матче с «Миннесотой»",
+      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался о крупном поражении команды в матче с «Миннесотой Уайлд» (1:5) в регулярном чемпионате НХЛ.",
+      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался о крупном поражении команды в матче с «Миннесотой Уайлд» (1:5) в регулярном чемпионате НХЛ.",
+      "image": "https://img.championat.com/news/big/w/d/trener-vashingtona-nazval-prichinu-krupnogo-porazheniya-komandy-v-matche-s-minnesotoj_1793657469753518175.jpg",
+      "publishedAt": "2026-11-02T22:11:17Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6683474-trener-vashingtona-nazval-prichinu-krupnogo-porazheniya-komandy-v-matche-s-minnesotoj.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Миннесота Уайлд",
+        "Спенсер Карбери"
+      ],
+      "relatedTeamIds": [
+        "nhl:min",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6683418",
+      "slug": "rezultaty-matchej-mhl-na-2-noyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 2 ноября 2026 года",
+      "summary": "Сегодня, 2 ноября, прошли три матча OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 2 ноября, прошли три матча OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-11-02T20:56:21Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6683418-rezultaty-matchej-mhl-na-2-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Чайка",
+        "МХК Реактор",
+        "МХК Мамонты Югры",
+        "МХК Сахалинские Акулы",
+        "МХК Красноярские Рыси"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6683410",
+      "slug": "rezultaty-matchej-vhl-na-2-noyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 2 ноября 2026 года",
+      "summary": "Сегодня, 2 ноября, состоялись три матча OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 2 ноября, состоялись три матча OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-11-02T20:53:31Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6683410-rezultaty-matchej-vhl-na-2-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Химик",
+        "Барс",
+        "Сокол Красноярск",
+        "Омские Крылья",
+        "АКМ",
+        "Магнитка"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6683378",
+      "slug": "rezultaty-matchej-khl-na-2-noyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 2 ноября 2026 года",
+      "summary": "Сегодня, 2 ноября, состоялись два матча регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 2 ноября, состоялись два матча регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-11-02T20:50:31Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6683378-rezultaty-matchej-khl-na-2-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Ак Барс",
+        "Локомотив",
+        "Лада"
+      ],
+      "relatedTeamIds": [
+        "khl:ak-bars",
+        "khl:lada",
+        "khl:lokomotiv",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6683402",
+      "slug": "agent-kucherova-nikita-lyubit-svoih-tovarischej-po-komande-i-tampu-on-hotel-by-ostatsya",
+      "title": "Агент Кучерова: Никита любит своих товарищей по команде и «Тампу», он хотел бы остаться",
+      "summary": "Агент Дэн Мильштейн, представляющий интересы российского нападающего «Тампа-Бэй Лайтнинг» Никиты Кучерова, прокомментировал информацию, что игрок якобы считает, что команда уже выжала из себя всё, с ней невозможно поб...",
+      "content": "Агент Дэн Мильштейн, представляющий интересы российского нападающего «Тампа-Бэй Лайтнинг» Никиты Кучерова, прокомментировал информацию, что игрок якобы считает, что команда уже выжала из себя всё, с ней невозможно победить.",
+      "image": "https://img.championat.com/news/big/y/z/agent-kucherova-nikita-lyubit-svoih-tovarischej-po-komande-i-tampu-on-hotel-by-ostatsya_17936525651073592884.jpg",
+      "publishedAt": "2026-11-02T20:49:29Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6683402-agent-kucherova-nikita-lyubit-svoih-tovarischej-po-komande-i-tampu-on-hotel-by-ostatsya.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Никита Кучеров",
+        "Дэн Мильштейн"
+      ],
+      "relatedTeamIds": [
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
+      "id": "news-6683394",
+      "slug": "andrej-razin-vyskazalsya-o-perspektivah-igorya-larionova-mladshego-v-komande",
+      "title": "Андрей Разин высказался о перспективах Игоря Ларионова-младшего в СКА",
+      "summary": "Главный тренер СКА Андрей Разин ответил на вопрос о перспективах нападающего Игоря Ларионова-младшего в команде.",
+      "content": "Главный тренер СКА Андрей Разин ответил на вопрос о перспективах нападающего Игоря Ларионова-младшего в команде.",
+      "image": "https://img.championat.com/news/big/t/d/andrej-razin-vyskazalsya-o-perspektivah-igorya-larionova-mladshego-v-ska_1793651800426825382.jpg",
+      "publishedAt": "2026-11-02T20:36:23Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6683394-andrej-razin-vyskazalsya-o-perspektivah-igorya-larionova-mladshego-v-komande.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Андрей Разин",
+        "Игорь Ларионов-младший"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6683382",
+      "slug": "federaciya-hokkeya-finlyandii-nachalsya-poisk-sposobov-ne-dopustit-rossiyu-k-uchastiyu-na-chm",
+      "title": "Федерация хоккея Финляндии: начался поиск способов не допустить Россию к участию в ЧМ",
+      "summary": "Федерация хоккея Финляндии опубликовала новое сообщение на фоне допуска сборных России к международным турнирам.",
+      "content": "Федерация хоккея Финляндии опубликовала новое сообщение на фоне допуска сборных России к международным турнирам.",
+      "image": "https://img.championat.com/news/big/l/u/federaciya-hokkeya-finlyandii-nachalsya-poisk-sposobov-ne-dopustit-rossiyu-k-uchastiyu-v-c_1793651678383175705.jpg",
+      "publishedAt": "2026-11-02T20:31:31Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6683382-federaciya-hokkeya-finlyandii-nachalsya-poisk-sposobov-ne-dopustit-rossiyu-k-uchastiyu-na-chm.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Сборная России — Хоккей",
+        "Сборная Финляндии — Хоккей",
+        "ЧМ-2027"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6683374",
+      "slug": "chehiya-ne-vydast-vizy-rossijskim-hokkeistkam-dlya-uchastiya-na-yuchm-2027",
+      "title": "Чехия не выдаст визы российским хоккеисткам для участия на ЮЧМ-2027",
+      "summary": "Российские хоккеистки не получат визы в Чехию для участия в юниорском чемпионате мира.",
+      "content": "Российские хоккеистки не получат визы в Чехию для участия в юниорском чемпионате мира.",
+      "image": "https://img.championat.com/news/big/e/j/chehiya-ne-vydast-vizy-rossijskim-hokkeistkam-dlya-uchastiya-na-yuchm-2027_1793650575373153878.jpg",
+      "publishedAt": "2026-11-02T20:16:16Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6683374-chehiya-ne-vydast-vizy-rossijskim-hokkeistkam-dlya-uchastiya-na-yuchm-2027.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Женский хоккей"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6683364",
       "slug": "yarullin-o-naznachenii-kapitanom-ak-barsa-mechty-posle-30-let-uletuchivayutsya",
       "title": "Яруллин — о назначении капитаном «Ак Барса»: мечты после 30 лет улетучиваются",
@@ -427,287 +703,6 @@
       ],
       "relatedTeamIds": [
         "khl:metallurg-mg",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6683268",
-      "slug": "glavnyj-trener-ska-razin-vyskazalsya-o-pobede-komandy-v-gostevoj-igre-s-ak-barsom",
-      "title": "Главный тренер СКА Разин высказался о победе команды в гостевой игре с «Ак Барсом»",
-      "summary": "Главный тренер СКА Андрей Разин прокомментировал победу над «Ак Барсом» (4:3) в матче регулярного чемпионата Фонбет КХЛ.",
-      "content": "Главный тренер СКА Андрей Разин прокомментировал победу над «Ак Барсом» (4:3) в матче регулярного чемпионата Фонбет КХЛ.",
-      "image": "https://img.championat.com/news/big/b/d/glavnyj-trener-ska-razin-vyskazalsya-o-pobede-komandy-v-gostevoj-igre-s-ak-barsom_17936455281872501344.jpg",
-      "publishedAt": "2026-11-02T18:52:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683268-glavnyj-trener-ska-razin-vyskazalsya-o-pobede-komandy-v-gostevoj-igre-s-ak-barsom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Ак Барс",
-        "Андрей Разин"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6683260",
-      "slug": "nhl-nazvala-tryoh-zvezd-proshedshej-igrovoj-nedeli",
-      "title": "НХЛ назвала трёх звезд прошедшей игровой недели",
-      "summary": "Национальная хоккейная лига определила лучших хоккеистов прошедшей игровой недели.",
-      "content": "Национальная хоккейная лига определила лучших хоккеистов прошедшей игровой недели.",
-      "image": "https://img.championat.com/news/big/h/m/nhl-nazvala-tryoh-zvezd-proshedshej-igrovoj-nedeli_179364528852909808.jpg",
-      "publishedAt": "2026-11-02T18:48:16Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683260-nhl-nazvala-tryoh-zvezd-proshedshej-igrovoj-nedeli.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Эдмонтон Ойлерз",
-        "Баффало Сэйбрз",
-        "Анахайм Дакс",
-        "Тейдж Томпсон",
-        "Тристан Джерри",
-        "Лео Карлссон"
-      ],
-      "relatedTeamIds": [
-        "nhl:ana",
-        "nhl:buf",
-        "nhl:edm"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6683234",
-      "slug": "lokomotiv-lada-rezultat-matcha-2-noyabrya-2026-goda-schet-0-1-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Локомотив» уступил с минимальным счётом «Ладе» в домашнем матче",
-      "summary": "Сегодня, 2 ноября, в Ярославле на стадионе «Арена-2000-Локомотив» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Локомотив» принимал тольяттинскую «Ладу».",
-      "content": "Сегодня, 2 ноября, в Ярославле на стадионе «Арена-2000-Локомотив» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Локомотив» принимал тольяттинскую «Ладу».",
-      "image": "https://img.championat.com/news/big/y/y/lokomotiv-ustupil-s-minimalnym-schyotom-lade-v-domashnem-matche_17936440162054660268.jpg",
-      "publishedAt": "2026-11-02T18:21:52Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683234-lokomotiv-lada-rezultat-matcha-2-noyabrya-2026-goda-schet-0-1-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Локомотив",
-        "Лада"
-      ],
-      "relatedTeamIds": [
-        "khl:lada",
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6683228",
-      "slug": "ak-bars-ska-rezultat-matcha-2-noyabrya-2026-goda-schet-3-4-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "СКА дважды отыгрался по ходу матча и победил «Ак Барс» в Казани",
-      "summary": "Сегодня, 2 ноября, в Казани на стадионе «Татнефть-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Ак Барс» принимал санкт-петербургский СКА.",
-      "content": "Сегодня, 2 ноября, в Казани на стадионе «Татнефть-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Ак Барс» принимал санкт-петербургский СКА.",
-      "image": "https://img.championat.com/news/big/c/y/ska-dvazhdy-otygralsya-po-hodu-matcha-i-pobedil-ak-bars-v-kazani_1793644112259051268.jpg",
-      "publishedAt": "2026-11-02T18:20:49Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683228-ak-bars-ska-rezultat-matcha-2-noyabrya-2026-goda-schet-3-4-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "СКА",
-        "Ак Барс"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6683216",
-      "slug": "forvard-tampa-bej-hagel-kucherov-lyubit-etot-gorod-on-sdelal-dlya-nego-vsyo-chto-mog",
-      "title": "Форвард «Тампа-Бэй» Хагель: Кучеров любит этот город. Он сделал для него всё, что мог",
-      "summary": "Нападающий «Тампа-Бэй Лайтнинг» Брэндон Хагель прокомментировал ситуацию с форвардом команды Никитой Кучеровым.",
-      "content": "Нападающий «Тампа-Бэй Лайтнинг» Брэндон Хагель прокомментировал ситуацию с форвардом команды Никитой Кучеровым.",
-      "image": "https://img.championat.com/news/big/w/v/forvard-tampa-bej-hagel-kucherov-lyubit-etot-gorod-on-sdelal-dlya-nego-vsyo-chto-mog_1793642717189048798.jpg",
-      "publishedAt": "2026-11-02T18:05:18Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683216-forvard-tampa-bej-hagel-kucherov-lyubit-etot-gorod-on-sdelal-dlya-nego-vsyo-chto-mog.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Тампа-Бэй Лайтнинг",
-        "Никита Кучеров",
-        "Брэндон Хагель"
-      ],
-      "relatedTeamIds": [
-        "nhl:tbl"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453"
-      ]
-    },
-    {
-      "id": "news-6683198",
-      "slug": "delo-nikogda-ne-bylo-v-dengah-kucherov-o-svoyom-zaprose-na-obmen-iz-tampy",
-      "title": "«Дело никогда не было в деньгах». Кучеров — о своём запросе на обмен из «Тампы»",
-      "summary": "Российский нападающий «Тампа-Бэй Лайтнинг» Никита Кучеров подробно рассказал о причинах, по которым он запросил обмен из клуба.",
-      "content": "Российский нападающий «Тампа-Бэй Лайтнинг» Никита Кучеров подробно рассказал о причинах, по которым он запросил обмен из клуба.",
-      "image": "https://img.championat.com/news/big/s/k/delo-nikogda-ne-bylo-v-dengah-kucherov-o-svoyom-zaprose-na-obmen-iz-tampy_17936416441722004835.jpg",
-      "publishedAt": "2026-11-02T17:47:30Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683198-delo-nikogda-ne-bylo-v-dengah-kucherov-o-svoyom-zaprose-na-obmen-iz-tampy.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Тампа-Бэй Лайтнинг",
-        "Никита Кучеров",
-        "Жюльен БрисБуа"
-      ],
-      "relatedTeamIds": [
-        "nhl:tbl"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453"
-      ]
-    },
-    {
-      "id": "news-6683180",
-      "slug": "napadayuschij-cska-savchuk-vyskazalsya-o-svoyom-obmene-iz-lady",
-      "title": "Нападающий ЦСКА Савчук высказался о своём обмене из «Лады»",
-      "summary": "Нападающий ЦСКА Райли Савчук прокомментировал свой обмен из «Лады» и рассказал о своей адаптации в новом клубе.",
-      "content": "Нападающий ЦСКА Райли Савчук прокомментировал свой обмен из «Лады» и рассказал о своей адаптации в новом клубе.",
-      "image": "https://img.championat.com/news/big/e/g/napadayuschij-cska-savchuk-vyskazalsya-o-svoyom-obmene-iz-lady_17936407491725248140.jpg",
-      "publishedAt": "2026-11-02T17:32:31Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683180-napadayuschij-cska-savchuk-vyskazalsya-o-svoyom-obmene-iz-lady.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Лада",
-        "Райли Савчук"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:lada"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6683156",
-      "slug": "fridman-o-kucherove-delo-ne-stolko-v-predlozhenii-skolko-v-tempe-peregovorov",
-      "title": "Фридман — о Кучерове: дело не столько в предложении, сколько в темпе переговоров",
-      "summary": "Инсайдер НХЛ Эллиотт Фридман поделился информацией о ситуации российского нападающего Никиты Кучерова в «Тампа-Бэй Лайтнинг».",
-      "content": "Инсайдер НХЛ Эллиотт Фридман поделился информацией о ситуации российского нападающего Никиты Кучерова в «Тампа-Бэй Лайтнинг».",
-      "image": "https://img.championat.com/news/big/x/e/fridman-o-kucherove-delo-ne-stolko-v-predlozhenii-skolko-v-tempe-peregovorov_1793639307699174686.jpg",
-      "publishedAt": "2026-11-02T17:08:32Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683156-fridman-o-kucherove-delo-ne-stolko-v-predlozhenii-skolko-v-tempe-peregovorov.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Тампа-Бэй Лайтнинг",
-        "Никита Кучеров",
-        "Эллиотт Фридман"
-      ],
-      "relatedTeamIds": [
-        "nhl:tbl"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453"
-      ]
-    },
-    {
-      "id": "news-6683120",
-      "slug": "filipp-arzamazov-voshyol-v-trenerskij-shtab-severstali",
-      "title": "Филипп Арзамазов вошёл в тренерский штаб «Северстали»",
-      "summary": "Филипп Арзамазов вошёл в тренерский штаб «Северстали», сообщает пресс-служба череповецкого клуба.",
-      "content": "Филипп Арзамазов вошёл в тренерский штаб «Северстали», сообщает пресс-служба череповецкого клуба.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-11-02T16:45:23Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683120-filipp-arzamazov-voshyol-v-trenerskij-shtab-severstali.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Северсталь"
-      ],
-      "relatedTeamIds": [
-        "khl:severstal"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6683102",
-      "slug": "malkin-propustil-trenirovku-pittsburga-iz-za-travmy-nizhnej-chasti-tela",
-      "title": "Малкин пропустил тренировку «Питтсбурга» из-за травмы нижней части тела",
-      "summary": "Российский нападающий «Питтсбург Пингвинз» Евгений Малкин пропустил тренировку с командой из-за травмы нижней части тела, по этой же причине отсутствовал и защитник Кейдан Корчак.",
-      "content": "Российский нападающий «Питтсбург Пингвинз» Евгений Малкин пропустил тренировку с командой из-за травмы нижней части тела, по этой же причине отсутствовал и защитник Кейдан Корчак.",
-      "image": "https://img.championat.com/news/big/q/w/malkin-propustil-trenirovku-pittsburga-iz-za-travmy-nizhnej-chasti-tela_17936366761125952058.jpg",
-      "publishedAt": "2026-11-02T16:24:38Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683102-malkin-propustil-trenirovku-pittsburga-iz-za-travmy-nizhnej-chasti-tela.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Питтсбург Пингвинз",
-        "Евгений Малкин",
-        "Вегас Голден Найтс",
-        "Травмы — хоккей"
-      ],
-      "relatedTeamIds": [
-        "nhl:pit",
-        "nhl:vgk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6683084",
-      "slug": "kommodor-o-vinnipege-arniel-nikakoj-ne-lider-on-neudachnik-i-vsegda-im-byl",
-      "title": "Коммодор — о «Виннипеге»: Арниел никакой не лидер. Он неудачник и всегда им был",
-      "summary": "Бывший защитник клубов НХЛ Майк Коммодор заявил, что «Виннипег Джетс» должен уволить главного тренера команды Скотта Арниела.",
-      "content": "Бывший защитник клубов НХЛ Майк Коммодор заявил, что «Виннипег Джетс» должен уволить главного тренера команды Скотта Арниела.",
-      "image": "https://img.championat.com/news/big/q/s/kommodor-o-vinnipege-arniel-nikakoj-ne-lider-on-neudachnik-i-vsegda-im-byl_1793636740408750763.jpg",
-      "publishedAt": "2026-11-02T16:03:19Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683084-kommodor-o-vinnipege-arniel-nikakoj-ne-lider-on-neudachnik-i-vsegda-im-byl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Каролина Харрикейнз",
-        "Виннипег Джетс",
-        "Скотт Арниел",
-        "Майк Коммодор"
-      ],
-      "relatedTeamIds": [
-        "nhl:car",
-        "nhl:wpg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6681936",
-      "slug": "ak-bars-ska-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Ак Барс» — СКА: онлайн-трансляция матча КХЛ началась",
-      "summary": "Сегодня, 2 ноября, на льду «Татнефть-Арены» в Казани проходит матч регулярного чемпионата КХЛ.",
-      "content": "Сегодня, 2 ноября, на льду «Татнефть-Арены» в Казани проходит матч регулярного чемпионата КХЛ.",
-      "image": "https://img.championat.com/news/big/q/b/ak-bars-ska-onlajn-translyaciya-matcha-khl-nachalas_17935628791841458209.jpg",
-      "publishedAt": "2026-11-02T16:00:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6681936-ak-bars-ska-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Ак Барс"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
         "khl:ska"
       ],
       "relatedPlayerIds": []
