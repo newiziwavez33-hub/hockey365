@@ -6,29 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-03T16:30:00Z",
-  "status": "LIVE",
-  "period": 2,
+  "status": "FINISHED",
+  "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:sochi",
     "name": "ХК Сочи",
-    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/113/original/hc_sochi_2024__200x200_new.png",
-    "score": 0,
+    "logo": "https://thumbs.webcaster.pro/rec-2-13.webcaster.pro/fc/sda/team_pics/113/original/hc_sochi_2024__200x200_new.png",
+    "score": 1,
     "periods": [
       0,
-      0
+      0,
+      1
     ],
     "shots": null
   },
   "away": {
     "id": "khl:neftekhimik",
     "name": "Нефтехимик",
-    "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/36/original/neftekhimik_2022__200x200.png",
-    "score": 0,
+    "logo": "https://thumbs.webcaster.pro/rec-2-19.webcaster.pro/fc/sdc2/team_pics/36/original/neftekhimik_2022__200x200.png",
+    "score": 2,
     "periods": [
       0,
-      0
+      1,
+      1
     ],
     "shots": null
   },
@@ -56,6 +58,6 @@
     "stageId": 407,
     "eventId": 3001023,
     "matchId": "902218",
-    "fetchedAt": "2026-11-03T17:21:18.359383Z"
+    "fetchedAt": "2026-11-03T22:23:22.699895Z"
   }
 }

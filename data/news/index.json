@@ -1,6 +1,380 @@
 {
   "news": [
     {
+      "id": "news-6684846",
+      "slug": "mitch-lav-igrat-s-severstalyu-eto-stress",
+      "title": "Митч Лав: играть с «Северсталью» — это стресс",
+      "summary": "Главный тренер «Шанхайских Драконов» Митч Лав прокомментировал победу своей команды над «Северсталью» (3:1) во встрече регулярного чемпионата КХЛ.",
+      "content": "Главный тренер «Шанхайских Драконов» Митч Лав прокомментировал победу своей команды над «Северсталью» (3:1) во встрече регулярного чемпионата КХЛ.",
+      "image": "https://img.championat.com/news/big/q/g/mitch-lav-igrat-s-severstaly.jpg",
+      "publishedAt": "2026-11-03T21:21:25Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6684846-mitch-lav-igrat-s-severstalyu-eto-stress.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Северсталь",
+        "Шанхайские Драконы (Куньлунь Ред Стар)",
+        "Митч Лав"
+      ],
+      "relatedTeamIds": [
+        "khl:kunlun",
+        "khl:severstal"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6683978",
+      "slug": "vashington-kepitalz-dallas-starz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachnetsya-v-3-00-msk",
+      "title": "«Вашингтон» — «Даллас»: онлайн-трансляция матча НХЛ начнётся в 3:00 мск",
+      "summary": "В ночь на 4 ноября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "content": "В ночь на 4 ноября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/v/t/vashington-dallas-onlajn-translyaciya-matcha-nhl-nachnyotsya-v-3-00-msk_1793698097792367015.jpg",
+      "publishedAt": "2026-11-03T21:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6683978-vashington-kepitalz-dallas-starz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachnetsya-v-3-00-msk.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Даллас Старз"
+      ],
+      "relatedTeamIds": [
+        "nhl:dal",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6684700",
+      "slug": "rezultaty-matchej-mhl-na-3-noyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 3 ноября 2026 года",
+      "summary": "Сегодня, 3 ноября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 3 ноября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-11-03T20:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6684700-rezultaty-matchej-mhl-na-3-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Локо",
+        "МХК Белые Медведи",
+        "МХК Кузнецкие Медведи",
+        "МХК Реактор",
+        "МХК Сибирские Снайперы",
+        "МХК Динамо Санкт-Петербург",
+        "МХК Красноярские Рыси"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6684694",
+      "slug": "rezultaty-matchej-vhl-na-3-noyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 3 ноября 2026 года",
+      "summary": "Сегодня, 3 ноября, прошли пять матчей OLIMPBET Чемпионата России ВХЛ.",
+      "content": "Сегодня, 3 ноября, прошли пять матчей OLIMPBET Чемпионата России ВХЛ.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-11-03T20:40:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6684694-rezultaty-matchej-vhl-na-3-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Рубин",
+        "Нефтяник Альметьевск",
+        "Южный Урал Орск",
+        "Ижсталь",
+        "Рязань",
+        "Кристалл Саратов",
+        "Динамо Санкт-Петербург",
+        "Норильск",
+        "Тамбов"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6684690",
+      "slug": "rezultaty-matchej-khl-na-3-noyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 3 ноября 2026 года",
+      "summary": "Сегодня, 3 ноября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 3 ноября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/x/o/rezultaty-matchej-khl-na-3-noyabrya-2026-goda_17937324991402350961.jpg",
+      "publishedAt": "2026-11-03T20:30:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6684690-rezultaty-matchej-khl-na-3-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Металлург Мг",
+        "Северсталь",
+        "Нефтехимик",
+        "Сочи",
+        "Шанхайские Драконы (Куньлунь Ред Стар)"
+      ],
+      "relatedTeamIds": [
+        "khl:cska",
+        "khl:kunlun",
+        "khl:metallurg-mg",
+        "khl:neftekhimik",
+        "khl:severstal",
+        "khl:sochi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6684748",
+      "slug": "shajka-vospitannaya-milliarderami-kozhevnikov-ob-otkaze-stran-evropy-igrat-s-rossiej",
+      "title": "«Шайка, воспитанная миллиардерами». Кожевников — об отказе стран Европы играть с Россией",
+      "summary": "Двукратный олимпийский чемпион Александр Кожевников прокомментировал нежелание Швеции, Финляндии и ряда других европейских стран проводить игры с Россией.",
+      "content": "Двукратный олимпийский чемпион Александр Кожевников прокомментировал нежелание Швеции, Финляндии и ряда других европейских стран проводить игры с Россией.",
+      "image": "https://img.championat.com/news/big/b/b/shajka-vospitannaya-milliard.jpg",
+      "publishedAt": "2026-11-03T20:15:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6684748-shajka-vospitannaya-milliarderami-kozhevnikov-ob-otkaze-stran-evropy-igrat-s-rossiej.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Сборная России — Хоккей",
+        "Александр Кожевников",
+        "ИИХФ",
+        "ЧМ-2027"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6684724",
+      "slug": "kanadskij-forvard-cska-savchuk-nadeemsya-s-zhenoj-kak-mozhno-bolshe-posmotret-rossiyu",
+      "title": "Канадский форвард ЦСКА Савчук: надеемся с женой как можно больше посмотреть Россию",
+      "summary": "Нападающий ЦСКА Райли Савчук поделился впечатлениями от игры в России.",
+      "content": "Нападающий ЦСКА Райли Савчук поделился впечатлениями от игры в России.",
+      "image": "https://img.championat.com/news/big/b/j/kanadskij-forvard-cska-savchuk-nadeemsya-s-zhenoj-kak-mozhno-bolshe-posmotret-rossiyu_17937341071299134630.jpg",
+      "publishedAt": "2026-11-03T20:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6684724-kanadskij-forvard-cska-savchuk-nadeemsya-s-zhenoj-kak-mozhno-bolshe-posmotret-rossiyu.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Райли Савчук"
+      ],
+      "relatedTeamIds": [
+        "khl:cska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6684710",
+      "slug": "nam-eschyo-predstoit-neprostoj-put-kasatonov-o-dopuske-hokkejnoj-sbornoj-rossii",
+      "title": "«Нам ещё предстоит непростой путь». Касатонов — о допуске хоккейной сборной России",
+      "summary": "Двукратный олимпийский чемпион Алексей Касатонов поделился мыслями после допуска России на международные турниры.",
+      "content": "Двукратный олимпийский чемпион Алексей Касатонов поделился мыслями после допуска России на международные турниры.",
+      "image": "https://img.championat.com/news/big/y/g/nam-eschyo-predstoit-neprostoj-put-kasatonov-o-dopuske-hokkejnoj-sbornoj-rossii_1793733425701863103.jpg",
+      "publishedAt": "2026-11-03T19:35:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6684710-nam-eschyo-predstoit-neprostoj-put-kasatonov-o-dopuske-hokkejnoj-sbornoj-rossii.html",
+      "tags": [
+        "Хоккей",
+        "ЧМ по хоккею 2027",
+        "Сборная России — Хоккей",
+        "Советский спорт",
+        "Алексей Касатонов",
+        "ЧМ-2027"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6684678",
+      "slug": "v-federacii-hokkeya-kanady-otreagirovali-na-bojkot-sbornoj-rossii-ot-evropejskih-stran",
+      "title": "В Федерации хоккея Канады отреагировали на бойкот сборной России от европейских стран",
+      "summary": "Федерация хоккея Канады дала комментарий об отказе играть со сборной России ряда европейских стран.",
+      "content": "Федерация хоккея Канады дала комментарий об отказе играть со сборной России ряда европейских стран.",
+      "image": "https://img.championat.com/news/big/v/t/v-federacii-hokkeya-kanady-otreagirovali-na-bojkot-sbornoj-rossii-ot-evropejskih-stran_1793733059978335086.jpg",
+      "publishedAt": "2026-11-03T19:10:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6684678-v-federacii-hokkeya-kanady-otreagirovali-na-bojkot-sbornoj-rossii-ot-evropejskih-stran.html",
+      "tags": [
+        "Хоккей",
+        "МЧМ по хоккею 2027",
+        "Сборная России — Хоккей",
+        "Сборная Канады — Хоккей",
+        "Молодёжная сборная России — Хоккей",
+        "МЧМ-2027"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6684624",
+      "slug": "shanhajskie-drakony-severstal-rezultat-matcha-3-noyabrya-2026-goda-schet-3-1-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "Дубль Яшкина принёс «Шанхайским Драконам» победу в матче с «Северсталью»",
+      "summary": "Сегодня, 3 ноября, в Санкт-Петербурге на стадионе «СКА Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором «Шанхайские Драконы» принимали череповецкую «Северс...",
+      "content": "Сегодня, 3 ноября, в Санкт-Петербурге на стадионе «СКА Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором «Шанхайские Драконы» принимали череповецкую «Северсталь».",
+      "image": "https://img.championat.com/news/big/o/e/dubl-yashkina-prinyos-shanhajskim-drakonam-pobedu-v-matche-s-severstalyu_1793730545682912053.jpg",
+      "publishedAt": "2026-11-03T18:50:33Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6684624-shanhajskie-drakony-severstal-rezultat-matcha-3-noyabrya-2026-goda-schet-3-1-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Северсталь",
+        "Шанхайские Драконы (Куньлунь Ред Стар)",
+        "Дмитрий Яшкин"
+      ],
+      "relatedTeamIds": [
+        "khl:kunlun",
+        "khl:severstal",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6684616",
+      "slug": "sochi-neftehimik-rezultat-matcha-3-noyabrya-2026-goda-schet-1-2-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "«Нефтехимик» выиграл у «Сочи» благодаря голу на последних минутах матча",
+      "summary": "Сегодня, 3 ноября, в Сочи на стадионе «Большой» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Сочи» принимал нижнекамский «Нефтехимик».",
+      "content": "Сегодня, 3 ноября, в Сочи на стадионе «Большой» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Сочи» принимал нижнекамский «Нефтехимик».",
+      "image": "https://img.championat.com/news/big/d/t/neftehimik-vyigral-u-sochi-b.jpg",
+      "publishedAt": "2026-11-03T18:44:53Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6684616-sochi-neftehimik-rezultat-matcha-3-noyabrya-2026-goda-schet-1-2-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Нефтехимик",
+        "Сочи"
+      ],
+      "relatedTeamIds": [
+        "khl:neftekhimik",
+        "khl:sochi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6684596",
+      "slug": "glavnyj-trener-metallurga-izvinilsya-pered-bolelschikami-za-porazhenie-ot-cska",
+      "title": "Главный тренер «Металлурга» извинился перед болельщиками за поражение от ЦСКА",
+      "summary": "Главный тренер «Металлурга» Константин Шафранов прокомментировал поражение в домашнем матче с ЦСКА со счётом 3:7.",
+      "content": "Главный тренер «Металлурга» Константин Шафранов прокомментировал поражение в домашнем матче с ЦСКА со счётом 3:7.",
+      "image": "https://img.championat.com/news/big/m/x/glavnyj-trener-metallurga-izvinilsya-pered-bolelschikami-za-porazhenie-ot-cska_17937278112057311726.jpg",
+      "publishedAt": "2026-11-03T18:20:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6684596-glavnyj-trener-metallurga-izvinilsya-pered-bolelschikami-za-porazhenie-ot-cska.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Металлург Мг",
+        "Константин Шафранов"
+      ],
+      "relatedTeamIds": [
+        "khl:cska",
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6683972",
+      "slug": "vashington-kepitalz-dallas-starz-vo-skolko-nachalo-matcha-nhl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-4-noyabrya",
+      "title": "«Вашингтон» — «Даллас»: во сколько начало матча НХЛ, где смотреть трансляцию",
+      "summary": "В ночь на 4 ноября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "content": "В ночь на 4 ноября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/c/e/vashington-dallas-vo-skolko-nachalo-matcha-nhl-gde-smotret-translyaciyu_1793698026518013273.jpg",
+      "publishedAt": "2026-11-03T18:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6683972-vashington-kepitalz-dallas-starz-vo-skolko-nachalo-matcha-nhl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-4-noyabrya.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Даллас Старз"
+      ],
+      "relatedTeamIds": [
+        "nhl:dal",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6684588",
+      "slug": "nikitin-ob-otsutstvii-golov-u-savchuka-eto-nado-pereterpet-harakter-proyavit",
+      "title": "Никитин — об отсутствии голов у Савчука: это надо перетерпеть, характер проявить",
+      "summary": "Главный тренер ЦСКА Игорь Никитин высказался о слабой результативности новичка команды Райли Савчука.",
+      "content": "Главный тренер ЦСКА Игорь Никитин высказался о слабой результативности новичка команды Райли Савчука.",
+      "image": "https://img.championat.com/news/big/t/f/nikitin-ob-otsutstvii-golov-.jpg",
+      "publishedAt": "2026-11-03T17:55:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6684588-nikitin-ob-otsutstvii-golov-u-savchuka-eto-nado-pereterpet-harakter-proyavit.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Игорь Никитин",
+        "Райли Савчук"
+      ],
+      "relatedTeamIds": [
+        "khl:cska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6684578",
+      "slug": "samootdacha-byla-na-urovne-nikitin-vyskazalsya-o-volevoj-pobede-cska-nad-metallurgom",
+      "title": "«Самоотдача была на уровне». Никитин высказался о волевой победе ЦСКА над «Металлургом»",
+      "summary": "Главный тренер ЦСКА Игорь Никитин оценил волевую победу в гостевой встрече с магнитогорским «Металлургом» (7:3).",
+      "content": "Главный тренер ЦСКА Игорь Никитин оценил волевую победу в гостевой встрече с магнитогорским «Металлургом» (7:3).",
+      "image": "https://img.championat.com/news/big/m/a/samootdacha-byla-na-urovne-n.jpg",
+      "publishedAt": "2026-11-03T17:45:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6684578-samootdacha-byla-na-urovne-nikitin-vyskazalsya-o-volevoj-pobede-cska-nad-metallurgom.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Металлург Мг",
+        "Игорь Никитин"
+      ],
+      "relatedTeamIds": [
+        "khl:cska",
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6684562",
+      "slug": "evgenij-malkin-propustit-neskolko-dnej-iz-za-travmy-nizhnej-chasti-tela",
+      "title": "Евгений Малкин пропустит несколько дней из-за травмы нижней части тела",
+      "summary": "Российский нападающий «Питтсбург Пингвинз» Евгений Малкин выбыл из строя на несколько дней из-за травмы нижней части тела, по этой же причине будет отсутствовать и защитник Кейдан Корчак.",
+      "content": "Российский нападающий «Питтсбург Пингвинз» Евгений Малкин выбыл из строя на несколько дней из-за травмы нижней части тела, по этой же причине будет отсутствовать и защитник Кейдан Корчак.",
+      "image": "https://img.championat.com/news/big/p/v/evgenij-malkin-propustit-neskolko-dnej-iz-za-travmy-nizhnej-chasti-tela_17937259781600385422.jpg",
+      "publishedAt": "2026-11-03T17:25:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6684562-evgenij-malkin-propustit-neskolko-dnej-iz-za-travmy-nizhnej-chasti-tela.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Питтсбург Пингвинз",
+        "Евгений Малкин",
+        "Вегас Голден Найтс",
+        "Травмы — хоккей",
+        "Дэн Мьюз"
+      ],
+      "relatedTeamIds": [
+        "nhl:pit",
+        "nhl:vgk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6684550",
       "slug": "ministr-sporta-rossii-vyskazalsya-o-bojkote-hokkejnoj-sbornoj-so-storony-evropejskih-stran",
       "title": "Министр спорта России высказался о бойкоте хоккейной сборной со стороны европейских стран",
@@ -327,414 +701,6 @@
         "ЧМ-2027"
       ],
       "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6684198",
-      "slug": "nam-interesno-tretyak-o-vozmozhnoj-rabote-ovechkina-v-fhr",
-      "title": "«Нам интересно». Третьяк — о возможной работе Овечкина в ФХР",
-      "summary": "Президент Федерации хоккея России (ФХР) Владислав Третьяк заявил, что организация заинтересована в сотрудничестве с нападающим «Вашингтон Кэпиталз» Александром Овечкиным по завершении его игровой карьеры.",
-      "content": "Президент Федерации хоккея России (ФХР) Владислав Третьяк заявил, что организация заинтересована в сотрудничестве с нападающим «Вашингтон Кэпиталз» Александром Овечкиным по завершении его игровой карьеры.",
-      "image": "https://img.championat.com/news/big/p/r/nam-interesno-tretyak-o-vozmozhnoj-rabote-ovechkina-v-fhr_17937096651205632520.jpg",
-      "publishedAt": "2026-11-03T12:50:10Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6684198-nam-interesno-tretyak-o-vozmozhnoj-rabote-ovechkina-v-fhr.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Владислав Третьяк",
-        "ФХР"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6684182",
-      "slug": "eto-dolzhen-byt-horoshij-motivator-kasatonov-o-trenere-sbornoj-rossii",
-      "title": "«Это должен быть хороший мотиватор». Касатонов — о тренере сборной России",
-      "summary": "Двукратный олимпийский чемпион и генеральный директор Ночной хоккейной лиги Алексей Касатонов заявил, что после допуска сборной России по хоккею на международную арену ждёт от команды только побед.",
-      "content": "Двукратный олимпийский чемпион и генеральный директор Ночной хоккейной лиги Алексей Касатонов заявил, что после допуска сборной России по хоккею на международную арену ждёт от команды только побед.",
-      "image": "https://img.championat.com/news/big/b/e/eto-dolzhen-byt-horoshij-motivator-kasatonov-o-trenere-sbornoj-rossii_1793709400649733825.jpg",
-      "publishedAt": "2026-11-03T12:34:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6684182-eto-dolzhen-byt-horoshij-motivator-kasatonov-o-trenere-sbornoj-rossii.html",
-      "tags": [
-        "Хоккей",
-        "ЧМ по хоккею 2027",
-        "Сборная России — Хоккей",
-        "Советский спорт",
-        "Алексей Касатонов",
-        "ЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6684168",
-      "slug": "genmenedzher-kolambusa-zayavil-ob-interese-komand-k-forvardu-dmitriyu-voronkovu",
-      "title": "Генменеджер «Коламбуса» заявил об интересе команд к форварду Дмитрию Воронкову",
-      "summary": "Генеральный менеджер «Коламбус Блю Джекетс» Дон Уодделл прокомментировал ситуацию с возможным обменом российского нападающего Дмитрия Воронкова.",
-      "content": "Генеральный менеджер «Коламбус Блю Джекетс» Дон Уодделл прокомментировал ситуацию с возможным обменом российского нападающего Дмитрия Воронкова.",
-      "image": "https://img.championat.com/news/big/h/p/genmenedzher-kolambusa-zayavil-ob-interese-komand-k-forvardu-dmitriyu-voronkovu_1793707781198454317.jpg",
-      "publishedAt": "2026-11-03T12:17:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6684168-genmenedzher-kolambusa-zayavil-ob-interese-komand-k-forvardu-dmitriyu-voronkovu.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Коламбус Блю Джекетс",
-        "Дмитрий Воронков",
-        "Дон Уодделл"
-      ],
-      "relatedTeamIds": [
-        "nhl:cbj"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6684138",
-      "slug": "glotov-rasskazal-o-perestrojke-komandy-posle-prihoda-v-ska-andreya-razina",
-      "title": "Глотов рассказал о перестройке команды после прихода в СКА Андрея Разина",
-      "summary": "Нападающий СКА Василий Глотов после победы над «Ак Барсом» (4:3) рассказал о перестройке армейской команды после прихода главного тренера Андрея Разина.",
-      "content": "Нападающий СКА Василий Глотов после победы над «Ак Барсом» (4:3) рассказал о перестройке армейской команды после прихода главного тренера Андрея Разина.",
-      "image": "https://img.championat.com/news/big/q/f/glotov-rasskazal-o-perestrojke-komandy-posle-prihoda-v-ska-andreya-razina_17937062081207652142.jpg",
-      "publishedAt": "2026-11-03T12:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6684138-glotov-rasskazal-o-perestrojke-komandy-posle-prihoda-v-ska-andreya-razina.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "СКА",
-        "Ак Барс",
-        "Василий Глотов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6684148",
-      "slug": "finskij-sponsor-chm-po-hokkeyu-ugrozhaet-prekratit-sotrudnichestvo-esli-rossiya-sygraet",
-      "title": "Финский спонсор ЧМ по хоккею угрожает прекратить сотрудничество, если Россия сыграет",
-      "summary": "Финская компания Nokian Tyres объявила, что откажется от спонсорства чемпионата мира по хоккею следующей весной, если Россия примет участие в турнире.",
-      "content": "Финская компания Nokian Tyres объявила, что откажется от спонсорства чемпионата мира по хоккею следующей весной, если Россия примет участие в турнире.",
-      "image": "https://img.championat.com/news/big/x/r/finskij-sponsor-chm-po-hokkeyu-ugrozhaet-prekratit-sotrudnichestvo-esli-rossiya-sygraet_1793706692557117836.jpg",
-      "publishedAt": "2026-11-03T11:51:47Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6684148-finskij-sponsor-chm-po-hokkeyu-ugrozhaet-prekratit-sotrudnichestvo-esli-rossiya-sygraet.html",
-      "tags": [
-        "Хоккей",
-        "ЧМ по хоккею 2027",
-        "Сборная России — Хоккей",
-        "ЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6684128",
-      "slug": "shvedskaya-hokkejnaya-liga-rekomendovala-izbegat-kommentariev-po-rossijskomu-voprosu",
-      "title": "Шведская хоккейная лига рекомендовала избегать комментариев по «российскому вопросу»",
-      "summary": "Шведская хоккейная лига (SHL) оказалась в центре громкого скандала после рассылки письма, в котором клубам и хоккеистам рекомендовалось молчать и избегать публичных комментариев по «российскому вопросу».",
-      "content": "Шведская хоккейная лига (SHL) оказалась в центре громкого скандала после рассылки письма, в котором клубам и хоккеистам рекомендовалось молчать и избегать публичных комментариев по «российскому вопросу».",
-      "image": "https://img.championat.com/news/big/j/g/shvedskaya-hokkejnaya-liga-rekomendovala-izbegat-kommentariev-po-rossijskomu-voprosu_17937059312043187856.jpg",
-      "publishedAt": "2026-11-03T11:39:26Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6684128-shvedskaya-hokkejnaya-liga-rekomendovala-izbegat-kommentariev-po-rossijskomu-voprosu.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "Сборная Швеции — Хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6684054",
-      "slug": "khl-predstavila-simvolicheskie-sbornye-zvyozd-i-novichkov-v-oktyabre",
-      "title": "КХЛ представила символические сборные звёзд и новичков в октябре",
-      "summary": "Континентальная хоккейная лига представила символические сборные второго месяца сезона-2026/2027.",
-      "content": "Континентальная хоккейная лига представила символические сборные второго месяца сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/l/s/khl-predstavila-simvolicheskie-sbornye-zvyozd-i-novichkov-v-oktyabre_17937016851796574913.jpg",
-      "publishedAt": "2026-11-03T11:18:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6684054-khl-predstavila-simvolicheskie-sbornye-zvyozd-i-novichkov-v-oktyabre.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Салават Юлаев",
-        "Металлург Мг",
-        "Локомотив",
-        "Трактор",
-        "Барыс",
-        "Северсталь",
-        "Амур",
-        "Сочи",
-        "Никита Гусев",
-        "Нэйтан Тодд",
-        "Пётр Андреянов",
-        "Валерий Орехов",
-        "Иоаннис Калдис",
-        "Андрей Шутов",
-        "Матвей Котков",
-        "Джастин Бэйли"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:barys",
-        "khl:lokomotiv",
-        "khl:metallurg-mg",
-        "khl:salavat-yulaev",
-        "khl:severstal",
-        "khl:sochi",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": [
-        "khl:p_gusev"
-      ]
-    },
-    {
-      "id": "news-6683668",
-      "slug": "metallurg-cska-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-17-00-msk",
-      "title": "«Металлург» — ЦСКА: онлайн-трансляция матча КХЛ начнётся в 17:00 мск",
-      "summary": "Сегодня, 3 ноября, в Магнитогорске на стадионе «Арена-Металлург» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Металлург» примет ЦСКА.",
-      "content": "Сегодня, 3 ноября, в Магнитогорске на стадионе «Арена-Металлург» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Металлург» примет ЦСКА.",
-      "image": "https://img.championat.com/news/big/d/f/metallurg-cska-onlajn-translyaciya-matcha-khl-nachnyotsya-v-17-00-msk_1793683843366883563.jpg",
-      "publishedAt": "2026-11-03T11:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683668-metallurg-cska-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-17-00-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Металлург Мг"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6684092",
-      "slug": "sbornaya-norvegii-otkazalas-igrat-s-rossiej-na-chempionate-mira-po-hokkeyu-2027",
-      "title": "Сборная Норвегии отказалась играть с Россией на чемпионате мира по хоккею — 2027",
-      "summary": "Пресс-служба Федерации хоккея Норвегии выступила с официальным заявлением, в котором сказано, что национальная команда не будет играть со сборной России на чемпионате мира по хоккею — 2027.",
-      "content": "Пресс-служба Федерации хоккея Норвегии выступила с официальным заявлением, в котором сказано, что национальная команда не будет играть со сборной России на чемпионате мира по хоккею — 2027.",
-      "image": "https://img.championat.com/news/big/v/i/sbornaya-norvegii-otkazalas-igrat-s-rossiej-na-chempionate-mira-po-hokkeyu-2027_17937034401493279400.jpg",
-      "publishedAt": "2026-11-03T10:57:49Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6684092-sbornaya-norvegii-otkazalas-igrat-s-rossiej-na-chempionate-mira-po-hokkeyu-2027.html",
-      "tags": [
-        "Хоккей",
-        "ЧМ по хоккею 2027",
-        "Сборная России — Хоккей",
-        "Сборная Норвегии — Хоккей",
-        "ЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6684068",
-      "slug": "moskovskoe-dinamo-podalo-zapros-v-khl-na-povedenie-veduschego-na-minsk-arene",
-      "title": "Московское «Динамо» подало запрос в КХЛ на поведение ведущего на «Минск-Арене»",
-      "summary": "Как стало «Чемпионату», московское «Динамо» приняло решение не оставлять без внимания провокационное поведение ведущего на «Минск-Арене» во время последнего матча с минским «Динамо» (4:0).",
-      "content": "Как стало «Чемпионату», московское «Динамо» приняло решение не оставлять без внимания провокационное поведение ведущего на «Минск-Арене» во время последнего матча с минским «Динамо» (4:0).",
-      "image": "https://img.championat.com/news/big/o/a/moskovskoe-dinamo-podalo-zap.jpg",
-      "publishedAt": "2026-11-03T10:42:21Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6684068-moskovskoe-dinamo-podalo-zapros-v-khl-na-povedenie-veduschego-na-minsk-arene.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Динамо Москва",
-        "Динамо Минск",
-        "Андрей Никонов"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-mns",
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6684038",
-      "slug": "tam-situaciya-inaya-shemberg-obyasnil-pochemu-otstranyali-sbornye-rossii-no-ne-ssha",
-      "title": "«Там ситуация иная». Шемберг объяснил, почему отстраняли сборные России, но не США",
-      "summary": "Бывший пресс-секретарь Международной федерации хоккея (ИИХФ) Шимон Шемберг рассказал, почему ИИХФ ранее отстранила сборные России, но не команды США, сравнивая участие стран в международных конфликтах.",
-      "content": "Бывший пресс-секретарь Международной федерации хоккея (ИИХФ) Шимон Шемберг рассказал, почему ИИХФ ранее отстранила сборные России, но не команды США, сравнивая участие стран в международных конфликтах.",
-      "image": "https://img.championat.com/news/big/j/s/tam-situaciya-inaya-shemberg-obyasnil-pochemu-otstranyali-sbornye-rossii-no-ne-ssha_1793701021642051481.jpg",
-      "publishedAt": "2026-11-03T10:27:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6684038-tam-situaciya-inaya-shemberg-obyasnil-pochemu-otstranyali-sbornye-rossii-no-ne-ssha.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "Сборная США — Хоккей",
-        "ИИХФ"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6684024",
-      "slug": "v-lyuboe-vremya-gotov-rabotat-roman-rotenberg-o-vozmozhnom-vozvraschenii-v-khl",
-      "title": "«В любое время готов работать». Роман Ротенберг — о возможном возвращении в КХЛ",
-      "summary": "Первый вице-президент Федерации хоккея России Роман Ротенберг ответил на вопрос о возможном возвращении к работе в Континентальной хоккейной лиге.",
-      "content": "Первый вице-президент Федерации хоккея России Роман Ротенберг ответил на вопрос о возможном возвращении к работе в Континентальной хоккейной лиге.",
-      "image": "https://img.championat.com/news/big/n/n/v-lyuboe-vremya-gotov-rabota.jpg",
-      "publishedAt": "2026-11-03T10:11:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6684024-v-lyuboe-vremya-gotov-rabotat-roman-rotenberg-o-vozmozhnom-vozvraschenii-v-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Роман Ротенберг",
-        "ФХР"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6683984",
-      "slug": "zharovskij-i-privalov-sygrayut-za-molodyozhnuyu-sbornuyu-rossii-na-kubke-buduschego",
-      "title": "Жаровский и Привалов сыграют за молодёжную сборную России на Кубке Будущего",
-      "summary": "Нападающий «Салавата Юлаева» Александр Жаровский и форвард ЦСКА Назар Привалов сыграют за молодёжную сборную России на Кубке Будущего, сообщает пресс-служба Федерации хоккея России.",
-      "content": "Нападающий «Салавата Юлаева» Александр Жаровский и форвард ЦСКА Назар Привалов сыграют за молодёжную сборную России на Кубке Будущего, сообщает пресс-служба Федерации хоккея России.",
-      "image": "https://img.championat.com/news/big/n/b/zharovskij-i-privalov-sygrayut-za-molodyozhnuyu-sbornuyu-rossii-na-kubke-buduschego_17936987151801640507.jpg",
-      "publishedAt": "2026-11-03T09:48:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683984-zharovskij-i-privalov-sygrayut-za-molodyozhnuyu-sbornuyu-rossii-na-kubke-buduschego.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "ЦСКА",
-        "Салават Юлаев",
-        "Молодёжная сборная России — Хоккей",
-        "Александр Жаровский",
-        "Назар Привалов"
-      ],
-      "relatedTeamIds": [
-        "khl:cska",
-        "khl:salavat-yulaev"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6683968",
-      "slug": "andrej-stas-prokommentiroval-smenu-kapitana-v-ak-barse",
-      "title": "Андрей Стась прокомментировал смену капитана в «Ак Барсе»",
-      "summary": "Нападающий «Ак Барса» Андрей Стась после поражения от СКА (3:4) в матче регулярного чемпионата подвёл итоги встречи, а также рассказал, как воспринял смену капитана в казанском клубе.",
-      "content": "Нападающий «Ак Барса» Андрей Стась после поражения от СКА (3:4) в матче регулярного чемпионата подвёл итоги встречи, а также рассказал, как воспринял смену капитана в казанском клубе.",
-      "image": "https://img.championat.com/news/big/l/y/andrej-stas-prokommentiroval-smenu-kapitana-v-ak-barse_17936978631687072620.jpg",
-      "publishedAt": "2026-11-03T09:29:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683968-andrej-stas-prokommentiroval-smenu-kapitana-v-ak-barse.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Ак Барс",
-        "Андрей Стась"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6683936",
-      "slug": "kravchuk-o-dopuske-rossii-kanadcy-tolko-obradovalis-takomu-resheniyu-no-politiki-mnogo",
-      "title": "Кравчук — о допуске России: канадцы только обрадовались такому решению, но политики много",
-      "summary": "Двукратный олимпийский чемпион Игорь Кравчук оценил настроения в Канаде после допуска сборной России на международные соревнования.",
-      "content": "Двукратный олимпийский чемпион Игорь Кравчук оценил настроения в Канаде после допуска сборной России на международные соревнования.",
-      "image": "https://img.championat.com/news/big/f/r/kravchuk-o-dopuske-rossii-kanadcy-tolko-obradovalis-takomu-resheniyu-no-politiki-mnogo_1793696919880015286.jpg",
-      "publishedAt": "2026-11-03T09:10:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683936-kravchuk-o-dopuske-rossii-kanadcy-tolko-obradovalis-takomu-resheniyu-no-politiki-mnogo.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "Игорь Кравчук"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6683684",
-      "slug": "raspisanie-matchej-nhl-v-noch-na-4-noyabrya-2026-goda",
-      "title": "Расписание матчей НХЛ в ночь на 4 ноября 2026 года",
-      "summary": "В ночь на 4 ноября пройдут очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
-      "content": "В ночь на 4 ноября пройдут очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/t/n/raspisanie-matchej-nhl-v-noch-na-4-noyabrya-2026-goda_17936847581514712636.jpg",
-      "publishedAt": "2026-11-03T09:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6683684-raspisanie-matchej-nhl-v-noch-na-4-noyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Тампа-Бэй Лайтнинг",
-        "Питтсбург Пингвинз",
-        "Нью-Йорк Рейнджерс",
-        "Эдмонтон Ойлерз",
-        "Торонто Мэйпл Лифс",
-        "Колорадо Эвеланш",
-        "Каролина Харрикейнз",
-        "Монреаль Канадиенс",
-        "Коламбус Блю Джекетс",
-        "Миннесота Уайлд",
-        "Филадельфия Флайерз",
-        "Сент-Луис Блюз",
-        "Даллас Старз",
-        "Вегас Голден Найтс",
-        "Нью-Джерси Дэвилз",
-        "Ванкувер Кэнакс",
-        "Детройт Ред Уингз",
-        "Нэшвилл Предаторз",
-        "Виннипег Джетс",
-        "Анахайм Дакс",
-        "Юта Маммот"
-      ],
-      "relatedTeamIds": [
-        "nhl:ana",
-        "nhl:car",
-        "nhl:cbj",
-        "nhl:col",
-        "nhl:dal",
-        "nhl:det",
-        "nhl:edm",
-        "nhl:min",
-        "nhl:mtl",
-        "nhl:njd",
-        "nhl:nsh",
-        "nhl:nyr",
-        "nhl:phi",
-        "nhl:pit",
-        "nhl:stl",
-        "nhl:tbl",
-        "nhl:tor",
-        "nhl:uta",
-        "nhl:van",
-        "nhl:vgk",
-        "nhl:wpg",
-        "nhl:wsh"
-      ],
       "relatedPlayerIds": []
     }
   ]
