@@ -6,31 +6,241 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-04T00:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 3,
+  "clock": "05:36",
   "finishedIn": null,
   "home": {
     "id": "nhl:wsh",
-    "score": null,
+    "score": 4,
     "periods": [],
-    "shots": null
+    "shots": 20
   },
   "away": {
     "id": "nhl:dal",
-    "score": null,
+    "score": 6,
     "periods": [],
-    "shots": null
+    "shots": 23
   },
   "arena": "Capital One Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "08:56",
+      "team": "away",
+      "playerId": "nhl:p_8481641",
+      "playerName": "Joel Kiviranta",
+      "assists": [
+        "nhl:p_8476889",
+        "nhl:p_8481581"
+      ],
+      "score": "0-1",
+      "order": 109
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "13:34",
+      "team": "away",
+      "playerId": "nhl:p_8481581",
+      "playerName": "Thomas Harley",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 168
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "18:54",
+      "team": "home",
+      "playerId": "nhl:p_8476880",
+      "playerName": "Tom Wilson",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 235
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "00:23",
+      "team": "away",
+      "playerId": "nhl:p_8480027",
+      "playerName": "Jason Robertson",
+      "assists": [
+        "nhl:p_8482740",
+        "nhl:p_8478449"
+      ],
+      "score": "0-2",
+      "order": 252
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "03:18",
+      "team": "away",
+      "playerId": "nhl:p_8480027",
+      "playerName": "Jason Robertson",
+      "assists": [
+        "nhl:p_8484938",
+        "nhl:p_8474574"
+      ],
+      "score": "0-3",
+      "order": 287
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "05:43",
+      "team": "away",
+      "playerId": "nhl:p_8480027",
+      "playerName": "Jason Robertson",
+      "assists": [
+        "nhl:p_8481581",
+        "nhl:p_8478449"
+      ],
+      "score": "0-4",
+      "order": 319
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "07:34",
+      "team": "home",
+      "minutes": 2,
+      "reason": "too-many-men-on-the-ice",
+      "order": 341
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "09:30",
+      "team": "away",
+      "minutes": 2,
+      "reason": "too-many-men-on-the-ice",
+      "order": 358
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "11:00",
+      "team": "home",
+      "playerId": "nhl:p_8479385",
+      "playerName": "Jordan Kyrou",
+      "assists": [
+        "nhl:p_8478440",
+        "nhl:p_8484873"
+      ],
+      "score": "1-4",
+      "order": 376
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "14:50",
+      "team": "away",
+      "playerId": "nhl:p_8478420",
+      "playerName": "Mikko Rantanen",
+      "assists": [
+        "nhl:p_8482740",
+        "nhl:p_8473994"
+      ],
+      "score": "1-5",
+      "order": 422
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "16:58",
+      "team": "home",
+      "playerId": "nhl:p_8476432",
+      "playerName": "Boone Jenner",
+      "assists": [
+        "nhl:p_8484186",
+        "nhl:p_8480796"
+      ],
+      "score": "2-5",
+      "order": 442
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "18:20",
+      "team": "away",
+      "playerId": "nhl:p_8483425",
+      "playerName": "Lian Bichsel",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 456
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "19:30",
+      "team": "home",
+      "playerId": "nhl:p_8479345",
+      "playerName": "Jakob Chychrun",
+      "assists": [
+        "nhl:p_8478440",
+        "nhl:p_8479385"
+      ],
+      "score": "3-5",
+      "order": 470
+    },
+    {
+      "type": "GOAL",
+      "period": 3,
+      "time": "01:23",
+      "team": "away",
+      "playerId": "nhl:p_8478449",
+      "playerName": "Roope Hintz",
+      "assists": [
+        "nhl:p_8476902",
+        "nhl:p_8480027"
+      ],
+      "score": "3-6",
+      "order": 497
+    },
+    {
+      "type": "GOAL",
+      "period": 3,
+      "time": "12:55",
+      "team": "home",
+      "playerId": "nhl:p_8482088",
+      "playerName": "Justin Sourdif",
+      "assists": [
+        "nhl:p_8478463",
+        "nhl:p_8484999"
+      ],
+      "score": "4-6",
+      "order": 625
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      20,
+      23
+    ],
+    "shotsOnGoal": [
+      20,
+      23
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020243/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020243/play-by-play"
+    ],
+    "fetchedAt": "2026-11-04T02:28:29.653897+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +248,6 @@
     "url": "https://www.nhl.com/gamecenter/dal-vs-wsh/2026/11/03/2026020243",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/dal-vs-wsh/2026/11/03/2026020243",
-    "verifiedAt": "2026-11-03T22:23:18.727646Z"
+    "verifiedAt": "2026-11-04T02:28:29.654011Z"
   }
 }

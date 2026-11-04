@@ -6,31 +6,183 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-04T00:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 3,
+  "clock": "09:20",
   "finishedIn": null,
   "home": {
     "id": "nhl:mtl",
-    "score": null,
+    "score": 4,
     "periods": [],
-    "shots": null
+    "shots": 19
   },
   "away": {
     "id": "nhl:wpg",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 34
   },
   "arena": "Centre Bell",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "03:05",
+      "team": "home",
+      "playerId": "nhl:p_8483424",
+      "playerName": "Owen Beck",
+      "assists": [
+        "nhl:p_8484403",
+        "nhl:p_8482964"
+      ],
+      "score": "1-0",
+      "order": 46
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "07:25",
+      "team": "home",
+      "playerId": "nhl:p_8480865",
+      "playerName": "Noah Dobson",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 110
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "11:15",
+      "team": "away",
+      "playerId": "nhl:p_8480145",
+      "playerName": "Neal Pionk",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 159
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "18:18",
+      "team": "home",
+      "playerId": "nhl:p_8476981",
+      "playerName": "Josh Anderson",
+      "assists": [
+        "nhl:p_8475184",
+        "nhl:p_8482087"
+      ],
+      "score": "2-0",
+      "order": 248
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "02:18",
+      "team": "away",
+      "playerId": "nhl:p_8483510",
+      "playerName": "Elias Salomonsson",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 298
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "03:03",
+      "team": "away",
+      "playerId": "nhl:p_8480289",
+      "playerName": "Morgan Barron",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 306
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "04:00",
+      "team": "home",
+      "playerId": "nhl:p_8481540",
+      "playerName": "Cole Caufield",
+      "assists": [
+        "nhl:p_8480865",
+        "nhl:p_8483515"
+      ],
+      "score": "3-0",
+      "order": 314
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "05:59",
+      "team": "home",
+      "playerId": "nhl:p_8483457",
+      "playerName": "Lane Hutson",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 339
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "16:04",
+      "team": "home",
+      "playerId": "nhl:p_8482964",
+      "playerName": "Arber Xhekaj",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 472
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "00:15",
+      "team": "away",
+      "playerId": "nhl:p_8476460",
+      "playerName": "Mark Scheifele",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 526
+    },
+    {
+      "type": "GOAL",
+      "period": 3,
+      "time": "00:46",
+      "team": "home",
+      "playerId": "nhl:p_8481540",
+      "playerName": "Cole Caufield",
+      "assists": [
+        "nhl:p_8483457",
+        "nhl:p_8483515"
+      ],
+      "score": "4-0",
+      "order": 531
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      19,
+      34
+    ],
+    "shotsOnGoal": [
+      19,
+      34
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020237/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020237/play-by-play"
+    ],
+    "fetchedAt": "2026-11-04T02:28:29.339516+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +190,6 @@
     "url": "https://www.nhl.com/gamecenter/wpg-vs-mtl/2026/11/03/2026020237",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/wpg-vs-mtl/2026/11/03/2026020237",
-    "verifiedAt": "2026-11-03T22:23:18.726941Z"
+    "verifiedAt": "2026-11-04T02:28:29.339630Z"
   }
 }

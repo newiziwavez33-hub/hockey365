@@ -6,31 +6,208 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-04T00:30:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 3,
+  "clock": "20:00",
   "finishedIn": null,
   "home": {
     "id": "nhl:njd",
-    "score": null,
+    "score": 3,
     "periods": [],
-    "shots": null
+    "shots": 24
   },
   "away": {
     "id": "nhl:edm",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 12
   },
   "arena": "Prudential Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "08:29",
+      "team": "away",
+      "playerId": "nhl:p_8480803",
+      "playerName": "Evan Bouchard",
+      "assists": [
+        "nhl:p_8475218",
+        "nhl:p_8476454"
+      ],
+      "score": "0-1",
+      "order": 124
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "15:53",
+      "team": "away",
+      "playerId": "nhl:p_8482703",
+      "playerName": "Colton Dach",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 220
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "19:00",
+      "team": "home",
+      "playerId": "nhl:p_8479996",
+      "playerName": "Cody Glass",
+      "minutes": 2,
+      "reason": "slashing",
+      "order": 259
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "07:34",
+      "team": "away",
+      "playerId": "nhl:p_8476473",
+      "playerName": "Connor Murphy",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 386
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "07:42",
+      "team": "home",
+      "playerId": "nhl:p_8477015",
+      "playerName": "Connor Brown",
+      "assists": [
+        "nhl:p_8481559",
+        "nhl:p_8482684"
+      ],
+      "score": "1-1",
+      "order": 392
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "14:50",
+      "team": "home",
+      "playerId": "nhl:p_8481559",
+      "playerName": "Jack Hughes",
+      "assists": [
+        "nhl:p_8476462",
+        "nhl:p_8479407"
+      ],
+      "score": "2-1",
+      "order": 482
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "15:00",
+      "team": "away",
+      "playerId": "nhl:p_8478013",
+      "playerName": "Jake Walman",
+      "minutes": 2,
+      "reason": "elbowing",
+      "order": 486
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "15:35",
+      "team": "home",
+      "playerId": "nhl:p_8481559",
+      "playerName": "Jack Hughes",
+      "assists": [
+        "nhl:p_8477015",
+        "nhl:p_8480002"
+      ],
+      "score": "3-1",
+      "order": 496
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "16:01",
+      "team": "away",
+      "playerId": "nhl:p_8480842",
+      "playerName": "Filip Hallander",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 502
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "18:01",
+      "team": "home",
+      "playerId": "nhl:p_8477511",
+      "playerName": "Anthony Mantha",
+      "minutes": 2,
+      "reason": "slashing",
+      "order": 526
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "18:16",
+      "team": "away",
+      "playerId": "nhl:p_8476454",
+      "playerName": "Ryan Nugent-Hopkins",
+      "assists": [
+        "nhl:p_8480803",
+        "nhl:p_8477953"
+      ],
+      "score": "3-2",
+      "order": 532
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "18:57",
+      "team": "home",
+      "playerId": "nhl:p_8481721",
+      "playerName": "Arseny Gritsyuk",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 538
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "19:49",
+      "team": "home",
+      "playerId": "nhl:p_8480002",
+      "playerName": "Nico Hischier",
+      "minutes": 2,
+      "reason": "delaying-game-puck-over-glass",
+      "order": 549
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      24,
+      12
+    ],
+    "shotsOnGoal": [
+      24,
+      12
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020239/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020239/play-by-play"
+    ],
+    "fetchedAt": "2026-11-04T02:28:29.803959+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +215,6 @@
     "url": "https://www.nhl.com/gamecenter/edm-vs-njd/2026/11/03/2026020239",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/edm-vs-njd/2026/11/03/2026020239",
-    "verifiedAt": "2026-11-03T22:23:18.727889Z"
+    "verifiedAt": "2026-11-04T02:28:29.804066Z"
   }
 }
