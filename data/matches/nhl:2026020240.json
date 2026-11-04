@@ -6,166 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-04T00:00:00Z",
-  "status": "LIVE",
+  "status": "FINISHED",
   "period": 3,
-  "clock": "09:08",
-  "finishedIn": null,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:nyr",
-    "score": 2,
+    "score": 3,
     "periods": [],
-    "shots": 29
+    "shots": null
   },
   "away": {
     "id": "nhl:stl",
-    "score": 0,
+    "score": 1,
     "periods": [],
-    "shots": 26
+    "shots": null
   },
   "arena": "Madison Square Garden",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "07:44",
-      "team": "home",
-      "playerId": "nhl:p_8482666",
-      "playerName": "Scott Morrow",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 112
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "11:29",
-      "team": "home",
-      "playerId": "nhl:p_8482877",
-      "playerName": "Jaroslav Chmelar",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 154
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "14:41",
-      "team": "away",
-      "playerId": "nhl:p_8484188",
-      "playerName": "Theo Lindstein",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 195
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "19:06",
-      "team": "home",
-      "playerId": "nhl:p_8476468",
-      "playerName": "J.T. Miller",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 253
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "01:49",
-      "team": "home",
-      "playerId": "nhl:p_8479323",
-      "playerName": "Adam Fox",
-      "assists": [
-        "nhl:p_8481789",
-        "nhl:p_8476468"
-      ],
-      "score": "1-0",
-      "order": 291
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "15:20",
-      "team": "away",
-      "playerId": "nhl:p_8482089",
-      "playerName": "Jake Neighbours",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 476
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "18:18",
-      "team": "home",
-      "playerId": "nhl:p_8483690",
-      "playerName": "Noah Laba",
-      "minutes": 2,
-      "reason": "slashing",
-      "order": 519
-    },
-    {
-      "type": "PENALTY",
-      "period": 3,
-      "time": "01:17",
-      "team": "away",
-      "playerId": "nhl:p_8481580",
-      "playerName": "Connor McMichael",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 563
-    },
-    {
-      "type": "PENALTY",
-      "period": 3,
-      "time": "04:42",
-      "team": "home",
-      "playerId": "nhl:p_8476459",
-      "playerName": "Mika Zibanejad",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 603
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "09:01",
-      "team": "home",
-      "playerId": "nhl:p_8477416",
-      "playerName": "Oliver Bjorkstrand",
-      "assists": [
-        "nhl:p_8480009",
-        "nhl:p_8482157"
-      ],
-      "score": "2-0",
-      "order": 655
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      29,
-      26
-    ],
-    "shotsOnGoal": [
-      29,
-      26
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020240/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020240/play-by-play"
-    ],
-    "fetchedAt": "2026-11-04T02:28:29.479893+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -173,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/stl-vs-nyr/2026/11/03/2026020240",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/stl-vs-nyr/2026/11/03/2026020240",
-    "verifiedAt": "2026-11-04T02:28:29.480013Z"
+    "verifiedAt": "2026-11-04T09:40:39.792900Z"
   }
 }
