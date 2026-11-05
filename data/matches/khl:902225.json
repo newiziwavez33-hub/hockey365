@@ -6,24 +6,30 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-05T16:30:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "LIVE",
+  "period": 2,
   "clock": null,
   "finishedIn": null,
   "home": {
     "id": "khl:sochi",
     "name": "ХК Сочи",
     "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/113/original/hc_sochi_2024__200x200_new.png",
-    "score": null,
-    "periods": [],
+    "score": 0,
+    "periods": [
+      0,
+      0
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:severstal",
     "name": "Северсталь",
-    "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/42/original/severstal_2021__200x200.png",
-    "score": null,
-    "periods": [],
+    "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/42/original/severstal_2021__200x200.png",
+    "score": 4,
+    "periods": [
+      1,
+      3
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +56,6 @@
     "stageId": 407,
     "eventId": 3001051,
     "matchId": "902225",
-    "fetchedAt": "2026-11-05T09:56:14.471034Z"
+    "fetchedAt": "2026-11-05T17:48:11.594576Z"
   }
 }
