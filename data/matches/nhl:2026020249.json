@@ -6,19 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-05T03:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "FINISHED",
+  "period": 3,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:lak",
-    "score": null,
+    "score": 7,
     "periods": [],
     "shots": null
   },
   "away": {
     "id": "nhl:sjs",
-    "score": null,
+    "score": 2,
     "periods": [],
     "shots": null
   },
@@ -38,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/sjs-vs-lak/2026/11/04/2026020249",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/sjs-vs-lak/2026/11/04/2026020249",
-    "verifiedAt": "2026-11-05T02:52:02.517767Z"
+    "verifiedAt": "2026-11-05T09:56:12.450156Z"
   }
 }
