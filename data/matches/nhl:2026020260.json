@@ -6,31 +6,317 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-06T01:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "INTERMISSION",
+  "period": 2,
+  "clock": "06:45",
   "finishedIn": null,
   "home": {
     "id": "nhl:edm",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 17
   },
   "away": {
     "id": "nhl:ana",
-    "score": null,
+    "score": 4,
     "periods": [],
-    "shots": null
+    "shots": 14
   },
   "arena": "Rogers Place",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "03:50",
+      "team": "home",
+      "playerId": "nhl:p_8480803",
+      "playerName": "Evan Bouchard",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 61
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "08:06",
+      "team": "home",
+      "playerId": "nhl:p_8481617",
+      "playerName": "Vasily Podkolzin",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 116
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "08:06",
+      "team": "home",
+      "playerId": "nhl:p_8481617",
+      "playerName": "Vasily Podkolzin",
+      "minutes": 2,
+      "reason": "instigator",
+      "order": 118
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "08:06",
+      "team": "away",
+      "playerId": "nhl:p_8481563",
+      "playerName": "Drew Helleson",
+      "minutes": 2,
+      "reason": "unsportsmanlike-conduct",
+      "order": 120
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "08:06",
+      "team": "home",
+      "playerId": "nhl:p_8481617",
+      "playerName": "Vasily Podkolzin",
+      "minutes": 10,
+      "reason": "game-misconduct",
+      "order": 122
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "09:26",
+      "team": "away",
+      "playerId": "nhl:p_8483445",
+      "playerName": "Cutter Gauthier",
+      "assists": [
+        "nhl:p_8481605",
+        "nhl:p_8484153"
+      ],
+      "score": "0-1",
+      "order": 133
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "13:21",
+      "team": "home",
+      "playerId": "nhl:p_8479368",
+      "playerName": "Max Jones",
+      "minutes": 2,
+      "reason": "cross-checking",
+      "order": 195
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "16:38",
+      "team": "away",
+      "playerId": "nhl:p_8483521",
+      "playerName": "Noah Warren",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 245
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "16:52",
+      "team": "home",
+      "playerId": "nhl:p_8476454",
+      "playerName": "Ryan Nugent-Hopkins",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 250
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "16:52",
+      "team": "away",
+      "playerId": "nhl:p_8485512",
+      "playerName": "Tim Washe",
+      "minutes": 2,
+      "reason": "unsportsmanlike-conduct",
+      "order": 252
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "16:52",
+      "team": "home",
+      "playerId": "nhl:p_8477953",
+      "playerName": "Kasperi Kapanen",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 254
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "16:52",
+      "team": "away",
+      "playerId": "nhl:p_8483490",
+      "playerName": "Pavel Mintyukov",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 256
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "19:33",
+      "team": "away",
+      "playerId": "nhl:p_8481605",
+      "playerName": "Jackson LaCombe",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 286
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "19:41",
+      "team": "home",
+      "playerId": "nhl:p_8480803",
+      "playerName": "Evan Bouchard",
+      "assists": [
+        "nhl:p_8478402",
+        "nhl:p_8476454"
+      ],
+      "score": "1-1",
+      "order": 292
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "00:50",
+      "team": "home",
+      "playerId": "nhl:p_8480842",
+      "playerName": "Filip Hallander",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 317
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "02:34",
+      "team": "home",
+      "playerId": "nhl:p_8478402",
+      "playerName": "Connor McDavid",
+      "assists": [
+        "nhl:p_8477934",
+        "nhl:p_8475218"
+      ],
+      "score": "2-1",
+      "order": 337
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "03:37",
+      "team": "away",
+      "playerId": "nhl:p_8483490",
+      "playerName": "Pavel Mintyukov",
+      "assists": [
+        "nhl:p_8484762",
+        "nhl:p_8481563"
+      ],
+      "score": "2-2",
+      "order": 354
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "04:31",
+      "team": "away",
+      "minutes": 2,
+      "reason": "too-many-men-on-the-ice",
+      "order": 365
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "04:46",
+      "team": "home",
+      "minutes": 2,
+      "reason": "unsportsmanlike-conduct-sitting-on-boards",
+      "order": 371
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "06:15",
+      "team": "away",
+      "playerId": "nhl:p_8483490",
+      "playerName": "Pavel Mintyukov",
+      "assists": [
+        "nhl:p_8481538",
+        "nhl:p_8475798"
+      ],
+      "score": "2-3",
+      "order": 390
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "09:47",
+      "team": "away",
+      "playerId": "nhl:p_8483521",
+      "playerName": "Noah Warren",
+      "minutes": 2,
+      "reason": "cross-checking",
+      "order": 446
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "13:06",
+      "team": "home",
+      "playerId": "nhl:p_8476454",
+      "playerName": "Ryan Nugent-Hopkins",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 493
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "19:22",
+      "team": "away",
+      "playerId": "nhl:p_8484762",
+      "playerName": "Beckett Sennecke",
+      "assists": [
+        "nhl:p_8483482",
+        "nhl:p_8483490"
+      ],
+      "score": "2-4",
+      "order": 561
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      17,
+      14
+    ],
+    "shotsOnGoal": [
+      17,
+      14
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020260/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020260/play-by-play"
+    ],
+    "fetchedAt": "2026-11-06T02:59:24.361117+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +324,6 @@
     "url": "https://www.nhl.com/gamecenter/ana-vs-edm/2026/11/05/2026020260",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/ana-vs-edm/2026/11/05/2026020260",
-    "verifiedAt": "2026-11-05T22:55:30.795601Z"
+    "verifiedAt": "2026-11-06T02:59:24.361203Z"
   }
 }
