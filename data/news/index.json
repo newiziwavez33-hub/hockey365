@@ -1,6 +1,230 @@
 {
   "news": [
     {
+      "id": "news-6690278",
+      "slug": "rezultaty-matchej-mhl-na-7-noyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 7 ноября 2026 года",
+      "summary": "Сегодня, 7 ноября, прошли шесть матчей OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 7 ноября, прошли шесть матчей OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-11-07T20:58:21Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6690278-rezultaty-matchej-mhl-na-7-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Спартак",
+        "МХК Локо",
+        "МХК СКА-1946",
+        "МХК Толпар",
+        "МХК Белые Медведи",
+        "МХК Авто",
+        "МХК Мамонты Югры",
+        "МХК Динамо",
+        "МХК Динамо Санкт-Петербург",
+        "МХК Тайфун"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6690276",
+      "slug": "rezultaty-matchej-vhl-na-7-noyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 7 ноября 2026 года",
+      "summary": "Сегодня, 7 ноября, состоялись три матча OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 7 ноября, состоялись три матча OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-11-07T20:52:11Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6690276-rezultaty-matchej-vhl-na-7-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Нефтяник Альметьевск",
+        "Ижсталь",
+        "Кристалл Саратов",
+        "АКМ",
+        "ЦСК ВВС",
+        "Калуга"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6690268",
+      "slug": "rezultaty-matchej-khl-na-7-noyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 7 ноября 2026 года",
+      "summary": "Сегодня, 7 ноября, состоялись два матча регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 7 ноября, состоялись два матча регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-11-07T20:49:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6690268-rezultaty-matchej-khl-na-7-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Авангард",
+        "Динамо Москва",
+        "Сибирь",
+        "Торпедо"
+      ],
+      "relatedTeamIds": [
+        "khl:avangard",
+        "khl:dynamo-msk",
+        "khl:sibir",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6690246",
+      "slug": "neshvill-predatorz-sent-luis-blyuz-rezultat-matcha-7-noyabrya-2026-goda-schet-3-1-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "Гол и передача Стэмкоса принесли «Нэшвиллу» победу над «Сент-Луисом», россияне — без очков",
+      "summary": "Сегодня, 7 ноября, в Нэшвилле, США, на стадионе «Бриджстоун-Арена» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Нэшвилл Предаторз» принимал «Сент-Луис Блюз».",
+      "content": "Сегодня, 7 ноября, в Нэшвилле, США, на стадионе «Бриджстоун-Арена» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Нэшвилл Предаторз» принимал «Сент-Луис Блюз».",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-11-07T20:43:08Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6690246-neshvill-predatorz-sent-luis-blyuz-rezultat-matcha-7-noyabrya-2026-goda-schet-3-1-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Сент-Луис Блюз",
+        "Нэшвилл Предаторз",
+        "Павел Бучневич",
+        "Стивен Стэмкос",
+        "Алексей Торопченко"
+      ],
+      "relatedTeamIds": [
+        "nhl:nsh",
+        "nhl:stl"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6690254",
+      "slug": "aleksandr-ovechkin-ne-smog-otlichitsya-v-10-m-matche-nhl-podryad",
+      "title": "Александр Овечкин не смог отличиться в 10-м матче НХЛ подряд",
+      "summary": "Российский нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин не отметился результативными действиями в матче регулярного чемпионата НХЛ с «Флоридой Пантерз» (4:3).",
+      "content": "Российский нападающий и капитан «Вашингтон Кэпиталз» Александр Овечкин не отметился результативными действиями в матче регулярного чемпионата НХЛ с «Флоридой Пантерз» (4:3).",
+      "image": "https://img.championat.com/news/big/h/t/aleksandr-ovechkin-ne-smog-otlichitsya-v-10-m-matche-nhl-podryad_17940841401843233233.jpg",
+      "publishedAt": "2026-11-07T20:42:23Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6690254-aleksandr-ovechkin-ne-smog-otlichitsya-v-10-m-matche-nhl-podryad.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Флорида Пантерз"
+      ],
+      "relatedTeamIds": [
+        "nhl:fla",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6690226",
+      "slug": "vashington-kepitalz-florida-panterz-rezultat-matcha-7-noyabrya-2026-goda-schet-4-3-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "«Вашингтон» одержал домашнюю победу над «Флоридой», Овечкин очков не набрал",
+      "summary": "Сегодня, 7 ноября, в Вашингтоне, США, на стадионе «Кэпитал Уан-Арена» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Вашингтон Кэпиталз» принимал «Флориду Пантерз».",
+      "content": "Сегодня, 7 ноября, в Вашингтоне, США, на стадионе «Кэпитал Уан-Арена» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Вашингтон Кэпиталз» принимал «Флориду Пантерз».",
+      "image": "https://img.championat.com/news/big/c/x/vashington-oderzhal-domashnyuyu-pobedu-nad-floridoj-ovechkin-ochkov-ne-nabral_17940825421767081434.jpg",
+      "publishedAt": "2026-11-07T20:15:45Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6690226-vashington-kepitalz-florida-panterz-rezultat-matcha-7-noyabrya-2026-goda-schet-4-3-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Флорида Пантерз",
+        "Дмитрий Куликов"
+      ],
+      "relatedTeamIds": [
+        "nhl:fla",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6690204",
+      "slug": "tak-povtoril-redkoe-dostizhenie-pokoryavsheesya-v-vashingtone-lish-troim-vklyuchaya-ovechkina",
+      "title": "Так повторил редкое достижение, покорявшееся в «Вашингтоне» лишь троим, включая Овечкина",
+      "summary": "Нападающий «Вашингтон Кэпиталз» Алекс Так отметился заброшенной шайбой в матче регулярного чемпионата НХЛ с «Флоридой Пантерз».",
+      "content": "Нападающий «Вашингтон Кэпиталз» Алекс Так отметился заброшенной шайбой в матче регулярного чемпионата НХЛ с «Флоридой Пантерз».",
+      "image": "https://img.championat.com/news/big/z/e/tak-povtoril-redkoe-dostizhenie-pokoryavsheesya-v-vashingtone-lish-troim-vklyuchaya-ovechk_1794082647943239807.jpg",
+      "publishedAt": "2026-11-07T20:04:18Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6690204-tak-povtoril-redkoe-dostizhenie-pokoryavsheesya-v-vashingtone-lish-troim-vklyuchaya-ovechkina.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Алекс Так"
+      ],
+      "relatedTeamIds": [
+        "nhl:fla",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6690188",
+      "slug": "molodyozhnaya-sbornaya-shvejcarii-otkazalas-ot-uchastiya-v-matchah-s-rossiej-na-mchm-2027",
+      "title": "Молодёжная сборная Швейцарии отказалась от участия в матчах с Россией на МЧМ-2027",
+      "summary": "Молодёжная сборная Швейцарии официально отказалась принимать участие в матчах с командой России на молодёжном чемпионате мира 2027 года.",
+      "content": "Молодёжная сборная Швейцарии официально отказалась принимать участие в матчах с командой России на молодёжном чемпионате мира 2027 года.",
+      "image": "https://img.championat.com/news/big/n/n/molodyozhnaya-sbornaya-shvejcarii-otkazalas-ot-uchastiya-v-matchah-s-rossiej-na-mchm-2027_17940806471686666800.jpg",
+      "publishedAt": "2026-11-07T19:44:09Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6690188-molodyozhnaya-sbornaya-shvejcarii-otkazalas-ot-uchastiya-v-matchah-s-rossiej-na-mchm-2027.html",
+      "tags": [
+        "Хоккей",
+        "МЧМ по хоккею 2027",
+        "Молодёжная сборная России — Хоккей",
+        "Молодёжная сборная Швейцарии — Хоккей",
+        "МЧМ-2027"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6690178",
+      "slug": "s-samogo-nachala-matcha-my-dominirovali-shavin-o-pobede-torpedo-nad-moskovskim-dinamo",
+      "title": "«С самого начала матча мы доминировали». Шавин о победе «Торпедо» над московским «Динамо»",
+      "summary": "Нападающий «Торпедо» Никита Шавин прокомментировал домашнюю победу над московским «Динамо» со счётом 4:3 и высказался о своём голе.",
+      "content": "Нападающий «Торпедо» Никита Шавин прокомментировал домашнюю победу над московским «Динамо» со счётом 4:3 и высказался о своём голе.",
+      "image": "https://img.championat.com/news/big/z/k/s-samogo-nachala-matcha-my-dominirovali-shavin-o-pobede-torpedo-nad-moskovskim-dinamo_17940800991242215658.jpg",
+      "publishedAt": "2026-11-07T19:29:16Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6690178-s-samogo-nachala-matcha-my-dominirovali-shavin-o-pobede-torpedo-nad-moskovskim-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Торпедо"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk",
+        "khl:torpedo"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6690164",
       "slug": "glavnyj-trener-torpedo-isakov-ocenil-pobedu-nad-moskovskim-dinamo",
       "title": "Главный тренер «Торпедо» Исаков оценил победу над московским «Динамо»",
@@ -499,214 +723,6 @@
         "khl:avangard",
         "khl:sibir"
       ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6689816",
-      "slug": "glavnyj-trener-sibiri-obyasnil-rasstavanie-s-tejlorom-bekom",
-      "title": "Главный тренер «Сибири» объяснил расставание с Тейлором Беком",
-      "summary": "Главный тренер «Сибири» Ярослав Люзенков ответил на вопрос о расторжении контракта с нападающим Тейлором Беком.",
-      "content": "Главный тренер «Сибири» Ярослав Люзенков ответил на вопрос о расторжении контракта с нападающим Тейлором Беком.",
-      "image": "https://img.championat.com/news/big/h/r/glavnyj-trener-sibiri-obyasnil-rasstavanie-s-tejlorom-bekom_1794060986708352471.jpg",
-      "publishedAt": "2026-11-07T14:16:27Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6689816-glavnyj-trener-sibiri-obyasnil-rasstavanie-s-tejlorom-bekom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Сибирь",
-        "Тейлор Бек",
-        "Ярослав Люзенков"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6689808",
-      "slug": "est-takie-istiny-lyuzenkov-vyskazalsya-o-porazhenii-sibiri-v-omske",
-      "title": "«Есть такие истины…» Люзенков высказался о поражении «Сибири» в Омске",
-      "summary": "Главный тренер «Сибири» Ярослав Люзенков прокомментировал гостевое поражение от «Авангарда» со счётом 3:4 в овертайме.",
-      "content": "Главный тренер «Сибири» Ярослав Люзенков прокомментировал гостевое поражение от «Авангарда» со счётом 3:4 в овертайме.",
-      "image": "https://img.championat.com/news/big/d/g/est-takie-istiny-lyuzenkov-v.jpg",
-      "publishedAt": "2026-11-07T14:11:53Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6689808-est-takie-istiny-lyuzenkov-vyskazalsya-o-porazhenii-sibiri-v-omske.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Сибирь",
-        "Ярослав Люзенков"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6689804",
-      "slug": "glavnyj-trener-sibiri-vyskazalsya-o-vozmozhnom-perehode-v-klub-evandera-kejna",
-      "title": "Главный тренер «Сибири» высказался о возможном переходе в клуб Эвандера Кейна",
-      "summary": "Главный тренер «Сибири» Ярослав Люзенков прокомментировал информацию о возможном переходе в клуб нападающего Эвандера Кейна.",
-      "content": "Главный тренер «Сибири» Ярослав Люзенков прокомментировал информацию о возможном переходе в клуб нападающего Эвандера Кейна.",
-      "image": "https://img.championat.com/news/big/v/a/glavnyj-trener-sibiri-vyskazalsya-o-vozmozhnom-perehode-v-klub-evandera-kejna_17940605311404059847.jpg",
-      "publishedAt": "2026-11-07T14:08:52Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6689804-glavnyj-trener-sibiri-vyskazalsya-o-vozmozhnom-perehode-v-klub-evandera-kejna.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "Сибирь",
-        "Эвандер Кейн",
-        "Ярослав Люзенков"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6689184",
-      "slug": "torpedo-dinamo-m-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Торпедо» — «Динамо» М: онлайн-трансляция матча КХЛ началась",
-      "summary": "Сегодня, 7 ноября, в Нижнем Новгороде на стадионе «Волга-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Торпедо» принимает московское «Динамо».",
-      "content": "Сегодня, 7 ноября, в Нижнем Новгороде на стадионе «Волга-Арена» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Торпедо» принимает московское «Динамо».",
-      "image": "https://img.championat.com/news/big/m/u/torpedo-dinamo-m-onlajn-translyaciya-matcha-khl-nachalas_17940297331025967286.jpg",
-      "publishedAt": "2026-11-07T14:00:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6689184-torpedo-dinamo-m-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Торпедо"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk",
-        "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6689784",
-      "slug": "patrik-marun-kucherov-zasluzhivaet-zaproshennyh-deneg-on-dal-tampe-vsyo-chto-oni-hoteli",
-      "title": "Патрик Марун: Кучеров заслуживает запрошенных денег. Он дал «Тампе» всё, что они хотели",
-      "summary": "Бывший нападающий «Тампа-Бэй Лайтнинг» Патрик Марун поделился мыслями о ситуации вокруг российского форварда команды Никиты Кучерова, который запросил обмен из клуба.",
-      "content": "Бывший нападающий «Тампа-Бэй Лайтнинг» Патрик Марун поделился мыслями о ситуации вокруг российского форварда команды Никиты Кучерова, который запросил обмен из клуба.",
-      "image": "https://img.championat.com/news/big/w/h/patrik-marun-kucherov-zasluzhivaet-zaproshennyh-deneg-on-dal-tampe-vsyo-chto-oni-hoteli_1794059969568806087.jpg",
-      "publishedAt": "2026-11-07T13:59:30Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6689784-patrik-marun-kucherov-zasluzhivaet-zaproshennyh-deneg-on-dal-tampe-vsyo-chto-oni-hoteli.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Тампа-Бэй Лайтнинг",
-        "Никита Кучеров",
-        "Патрик Марун"
-      ],
-      "relatedTeamIds": [
-        "nhl:tbl"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8476453"
-      ]
-    },
-    {
-      "id": "news-6689768",
-      "slug": "sibir-proigrala-chetvyortyj-gostevoj-match-v-khl-podryad-ustupiv-avangardu",
-      "title": "«Сибирь» проиграла четвёртый гостевой матч в КХЛ подряд, уступив «Авангарду»",
-      "summary": "«Сибирь» потерпела поражение от «Авангарда» в овертайме со счётом 3:4 и проиграла свой четвёртый гостевой матч в регулярном чемпионате Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "«Сибирь» потерпела поражение от «Авангарда» в овертайме со счётом 3:4 и проиграла свой четвёртый гостевой матч в регулярном чемпионате Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/y/q/sibir-proigrala-chetvyortyj-.jpg",
-      "publishedAt": "2026-11-07T13:47:18Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6689768-sibir-proigrala-chetvyortyj-gostevoj-match-v-khl-podryad-ustupiv-avangardu.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Авангард",
-        "Металлург Мг",
-        "Трактор",
-        "Сибирь"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:metallurg-mg",
-        "khl:sibir",
-        "khl:ska",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6689730",
-      "slug": "avangard-sibir-rezultat-matcha-7-noyabrya-2026-goda-schet-4-3-ot-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Авангард» упустил преимущество в две шайбы, но одолел «Сибирь» в овертайме",
-      "summary": "Сегодня, 7 ноября, в Омске на стадионе «Джи-Драйв-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Авангард» принимал новосибирскую «Сибирь».",
-      "content": "Сегодня, 7 ноября, в Омске на стадионе «Джи-Драйв-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Авангард» принимал новосибирскую «Сибирь».",
-      "image": "https://img.championat.com/news/big/y/t/avangard-upustil-preimuschestvo-v-dve-shajby-no-odolel-sibir-v-overtajme_17940601471283627258.jpg",
-      "publishedAt": "2026-11-07T13:32:51Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6689730-avangard-sibir-rezultat-matcha-7-noyabrya-2026-goda-schet-4-3-ot-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Авангард",
-        "Сибирь"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6689720",
-      "slug": "forvard-dinamo-sikyura-polozhitelno-ocenil-reshenie-cas-po-rossijskim-hokkeistam",
-      "title": "Форвард «Динамо» Сикьюра положительно оценил решение CAS по российским хоккеистам",
-      "summary": "Нападающий московского «Динамо» Дилан Сикьюра высказался о решении Спортивного арбитражного суда (CAS) отменить отстранение российских сборных от международных соревнований под эгидой ИИХФ.",
-      "content": "Нападающий московского «Динамо» Дилан Сикьюра высказался о решении Спортивного арбитражного суда (CAS) отменить отстранение российских сборных от международных соревнований под эгидой ИИХФ.",
-      "image": "https://img.championat.com/news/big/s/h/forvard-dinamo-sikyura-poloz.jpg",
-      "publishedAt": "2026-11-07T13:07:25Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6689720-forvard-dinamo-sikyura-polozhitelno-ocenil-reshenie-cas-po-rossijskim-hokkeistam.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Сборная России — Хоккей",
-        "Молодёжная сборная России — Хоккей",
-        "Дилан Сикьюра"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6689610",
-      "slug": "neponyatno-zachem-on-lezet-v-politiku-kamenskij-o-slovah-gretcki-pro-rossiyan",
-      "title": "«Непонятно, зачем он лезет в политику». Каменский — о словах Гретцки про россиян",
-      "summary": "Олимпийский чемпион и обладатель Кубка Стэнли Валерий Каменский оценил слова канадского экс-хоккеиста Уэйна Гретцки, который поддержал премьер-министра Канады Марка Карни в отказе выдачи виз российским хоккеистам.",
-      "content": "Олимпийский чемпион и обладатель Кубка Стэнли Валерий Каменский оценил слова канадского экс-хоккеиста Уэйна Гретцки, который поддержал премьер-министра Канады Марка Карни в отказе выдачи виз российским хоккеистам.",
-      "image": "https://img.championat.com/news/big/z/a/neponyatno-zachem-on-lezet-v-politiku-kamenskij-o-slovah-gretcki-pro-rossiyan_1794051752552181208.jpg",
-      "publishedAt": "2026-11-07T12:43:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6689610-neponyatno-zachem-on-lezet-v-politiku-kamenskij-o-slovah-gretcki-pro-rossiyan.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Сборная России — Хоккей",
-        "Уэйн Гретцки",
-        "Валерий Каменский"
-      ],
-      "relatedTeamIds": [],
       "relatedPlayerIds": []
     }
   ]

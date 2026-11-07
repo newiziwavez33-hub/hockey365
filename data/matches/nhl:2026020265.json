@@ -6,188 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-07T17:30:00Z",
-  "status": "INTERMISSION",
-  "period": 2,
-  "clock": "08:18",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:wsh",
-    "score": 3,
+    "score": 4,
     "periods": [],
-    "shots": 16
+    "shots": null
   },
   "away": {
     "id": "nhl:fla",
-    "score": 2,
+    "score": 3,
     "periods": [],
-    "shots": 21
+    "shots": null
   },
   "arena": "Capital One Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "02:21",
-      "team": "home",
-      "playerId": "nhl:p_8481030",
-      "playerName": "Jack St. Ivany",
-      "score": "1-0",
-      "order": 40
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "03:13",
-      "team": "away",
-      "playerId": "nhl:p_8480801",
-      "playerName": "Brady Tkachuk",
-      "assists": [
-        "nhl:p_8479314"
-      ],
-      "score": "1-1",
-      "order": 55
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "05:04",
-      "team": "away",
-      "playerId": "nhl:p_8477933",
-      "playerName": "Sam Reinhart",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 81
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "08:55",
-      "team": "home",
-      "playerId": "nhl:p_8476880",
-      "playerName": "Tom Wilson",
-      "minutes": 5,
-      "reason": "boarding",
-      "order": 129
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "08:55",
-      "team": "home",
-      "playerId": "nhl:p_8476880",
-      "playerName": "Tom Wilson",
-      "minutes": 10,
-      "reason": "game-misconduct",
-      "order": 131
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "10:00",
-      "team": "away",
-      "playerId": "nhl:p_8480801",
-      "playerName": "Brady Tkachuk",
-      "assists": [
-        "nhl:p_8479314",
-        "nhl:p_8477495"
-      ],
-      "score": "1-2",
-      "order": 141
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "17:29",
-      "team": "away",
-      "playerId": "nhl:p_8477409",
-      "playerName": "Carter Verhaeghe",
-      "minutes": 2,
-      "reason": "holding-the-stick",
-      "order": 240
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "04:39",
-      "team": "home",
-      "playerId": "nhl:p_8477949",
-      "playerName": "Alex Tuch",
-      "score": "2-2",
-      "order": 336
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "06:48",
-      "team": "home",
-      "playerId": "nhl:p_8478911",
-      "playerName": "Matt Roy",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 359
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "14:55",
-      "team": "home",
-      "playerId": "nhl:p_8481656",
-      "playerName": "Aliaksei Protas",
-      "assists": [
-        "nhl:p_8479400",
-        "nhl:p_8484186"
-      ],
-      "score": "3-2",
-      "order": 451
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "15:45",
-      "team": "home",
-      "playerId": "nhl:p_8480796",
-      "playerName": "Martin Fehérváry",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 459
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "15:45",
-      "team": "away",
-      "playerId": "nhl:p_8479314",
-      "playerName": "Matthew Tkachuk",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 461
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      16,
-      21
-    ],
-    "shotsOnGoal": [
-      16,
-      21
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020265/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020265/play-by-play"
-    ],
-    "fetchedAt": "2026-11-07T19:22:55.188280+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -195,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/fla-vs-wsh/2026/11/07/2026020265",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/fla-vs-wsh/2026/11/07/2026020265",
-    "verifiedAt": "2026-11-07T19:22:55.188380Z"
+    "verifiedAt": "2026-11-07T22:50:02.571065Z"
   }
 }
