@@ -6,217 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-07T00:00:00Z",
-  "status": "INTERMISSION",
-  "period": 2,
-  "clock": "04:03",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:buf",
     "score": 5,
     "periods": [],
-    "shots": 33
+    "shots": null
   },
   "away": {
     "id": "nhl:cbj",
-    "score": 1,
+    "score": 2,
     "periods": [],
-    "shots": 18
+    "shots": null
   },
   "arena": "KeyBank Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "01:45",
-      "team": "away",
-      "playerId": "nhl:p_8476923",
-      "playerName": "Damon Severson",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 38
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "06:50",
-      "team": "home",
-      "playerId": "nhl:p_8482097",
-      "playerName": "Jack Quinn",
-      "assists": [
-        "nhl:p_8482671",
-        "nhl:p_8479982"
-      ],
-      "score": "1-0",
-      "order": 106
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "16:00",
-      "team": "away",
-      "playerId": "nhl:p_8482660",
-      "playerName": "Kent Johnson",
-      "assists": [
-        "nhl:p_8477497",
-        "nhl:p_8483485"
-      ],
-      "score": "1-1",
-      "order": 212
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "16:18",
-      "team": "away",
-      "playerId": "nhl:p_8478856",
-      "playerName": "Conor Garland",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 221
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "16:18",
-      "team": "home",
-      "playerId": "nhl:p_8484145",
-      "playerName": "Zach Benson",
-      "minutes": 2,
-      "reason": "embellishment",
-      "order": 224
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "18:10",
-      "team": "home",
-      "playerId": "nhl:p_8480064",
-      "playerName": "Josh Norris",
-      "assists": [
-        "nhl:p_8482671"
-      ],
-      "score": "2-1",
-      "order": 247
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "19:23",
-      "team": "away",
-      "playerId": "nhl:p_8476923",
-      "playerName": "Damon Severson",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 273
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "01:34",
-      "team": "home",
-      "minutes": 2,
-      "reason": "too-many-men-on-the-ice",
-      "order": 303
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "04:30",
-      "team": "home",
-      "playerId": "nhl:p_8480839",
-      "playerName": "Rasmus Dahlin",
-      "assists": [
-        "nhl:p_8481522",
-        "nhl:p_8482671"
-      ],
-      "score": "3-1",
-      "order": 342
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "09:46",
-      "team": "home",
-      "playerId": "nhl:p_8480064",
-      "playerName": "Josh Norris",
-      "assists": [
-        "nhl:p_8484145",
-        "nhl:p_8479420"
-      ],
-      "score": "4-1",
-      "order": 405
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "10:53",
-      "team": "home",
-      "playerId": "nhl:p_8482659",
-      "playerName": "Josh Doan",
-      "assists": [
-        "nhl:p_8483500",
-        "nhl:p_8482097"
-      ],
-      "score": "5-1",
-      "order": 423
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "10:53",
-      "team": "away",
-      "minutes": 2,
-      "reason": "delaying-game-unsuccessful-challenge",
-      "order": 426
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "13:01",
-      "team": "away",
-      "playerId": "nhl:p_8479371",
-      "playerName": "Dante Fabbro",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 449
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "15:24",
-      "team": "home",
-      "playerId": "nhl:p_8482671",
-      "playerName": "Owen Power",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 481
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      33,
-      18
-    ],
-    "shotsOnGoal": [
-      33,
-      18
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020262/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020262/play-by-play"
-    ],
-    "fetchedAt": "2026-11-07T02:03:32.606865+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -224,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/cbj-vs-buf/2026/11/06/2026020262",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/cbj-vs-buf/2026/11/06/2026020262",
-    "verifiedAt": "2026-11-07T02:03:32.606974Z"
+    "verifiedAt": "2026-11-07T08:39:43.242092Z"
   }
 }

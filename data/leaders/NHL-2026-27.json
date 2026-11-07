@@ -16,6 +16,12 @@
         "value": 31
       },
       {
+        "playerId": "nhl:p_8478864",
+        "playerName": "Kirill Kaprizov",
+        "teamId": "nhl:min",
+        "value": 30
+      },
+      {
         "playerId": "nhl:p_8480803",
         "playerName": "Evan Bouchard",
         "teamId": "nhl:edm",
@@ -26,12 +32,6 @@
         "playerName": "Nathan MacKinnon",
         "teamId": "nhl:col",
         "value": 27
-      },
-      {
-        "playerId": "nhl:p_8478864",
-        "playerName": "Kirill Kaprizov",
-        "teamId": "nhl:min",
-        "value": 26
       }
     ],
     "goals": [
@@ -39,7 +39,7 @@
         "playerId": "nhl:p_8478864",
         "playerName": "Kirill Kaprizov",
         "teamId": "nhl:min",
-        "value": 15
+        "value": 16
       },
       {
         "playerId": "nhl:p_8477934",
@@ -54,16 +54,16 @@
         "value": 13
       },
       {
+        "playerId": "nhl:p_8483445",
+        "playerName": "Cutter Gauthier",
+        "teamId": "nhl:ana",
+        "value": 12
+      },
+      {
         "playerId": "nhl:p_8477476",
         "playerName": "Artturi Lehkonen",
         "teamId": "nhl:col",
         "value": 12
-      },
-      {
-        "playerId": "nhl:p_8479318",
-        "playerName": "Auston Matthews",
-        "teamId": "nhl:tor",
-        "value": 11
       }
     ],
     "assists": [
@@ -83,6 +83,12 @@
         "playerId": "nhl:p_8484153",
         "playerName": "Leo Carlsson",
         "teamId": "nhl:ana",
+        "value": 20
+      },
+      {
+        "playerId": "nhl:p_8480800",
+        "playerName": "Quinn Hughes",
+        "teamId": "nhl:min",
         "value": 19
       },
       {
@@ -90,12 +96,6 @@
         "playerName": "Adam Fox",
         "teamId": "nhl:nyr",
         "value": 19
-      },
-      {
-        "playerId": "nhl:p_8477492",
-        "playerName": "Nathan MacKinnon",
-        "teamId": "nhl:col",
-        "value": 18
       }
     ],
     "gaa": [
