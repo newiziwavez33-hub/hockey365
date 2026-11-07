@@ -6,31 +6,113 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-07T01:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "INTERMISSION",
+  "period": 1,
+  "clock": "03:53",
   "finishedIn": null,
   "home": {
     "id": "nhl:cgy",
-    "score": null,
+    "score": 3,
     "periods": [],
-    "shots": null
+    "shots": 11
   },
   "away": {
     "id": "nhl:ana",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 6
   },
   "arena": "Scotiabank Saddledome",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "02:23",
+      "team": "home",
+      "playerId": "nhl:p_8482766",
+      "playerName": "William Stromgren",
+      "assists": [
+        "nhl:p_8484768",
+        "nhl:p_8482165"
+      ],
+      "score": "1-0",
+      "order": 39
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "02:50",
+      "team": "away",
+      "playerId": "nhl:p_8482408",
+      "playerName": "Jeff Malott",
+      "score": "1-1",
+      "order": 45
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "16:29",
+      "team": "home",
+      "playerId": "nhl:p_8477810",
+      "playerName": "Joel Hanley",
+      "assists": [
+        "nhl:p_8480028",
+        "nhl:p_8483495"
+      ],
+      "score": "2-1",
+      "order": 216
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "18:36",
+      "team": "away",
+      "playerId": "nhl:p_8484762",
+      "playerName": "Beckett Sennecke",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 245
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "19:02",
+      "team": "home",
+      "playerId": "nhl:p_8480797",
+      "playerName": "Joel Farabee",
+      "assists": [
+        "nhl:p_8484768",
+        "nhl:p_8480028"
+      ],
+      "score": "3-1",
+      "order": 253
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      11,
+      6
+    ],
+    "shotsOnGoal": [
+      11,
+      6
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020264/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020264/play-by-play"
+    ],
+    "fetchedAt": "2026-11-07T02:03:32.769820+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +120,6 @@
     "url": "https://www.nhl.com/gamecenter/ana-vs-cgy/2026/11/06/2026020264",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/ana-vs-cgy/2026/11/06/2026020264",
-    "verifiedAt": "2026-11-06T22:22:38.841636Z"
+    "verifiedAt": "2026-11-07T02:03:32.769939Z"
   }
 }
