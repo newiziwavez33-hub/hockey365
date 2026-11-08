@@ -6,24 +6,30 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-08T14:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "LIVE",
+  "period": 2,
   "clock": null,
   "finishedIn": null,
   "home": {
     "id": "khl:sochi",
     "name": "ХК Сочи",
     "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/113/original/hc_sochi_2024__200x200_new.png",
-    "score": null,
-    "periods": [],
+    "score": 0,
+    "periods": [
+      0,
+      0
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:dynamo-mns",
     "name": "Динамо Мн",
-    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/38/original/dinamo_mn_2019_alternative__200x200.png",
-    "score": null,
-    "periods": [],
+    "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/38/original/dinamo_mn_2019_alternative__200x200.png",
+    "score": 0,
+    "periods": [
+      0,
+      0
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +56,6 @@
     "stageId": 407,
     "eventId": 3001091,
     "matchId": "902235",
-    "fetchedAt": "2026-11-08T08:08:51.132113Z"
+    "fetchedAt": "2026-11-08T15:06:59.029665Z"
   }
 }
