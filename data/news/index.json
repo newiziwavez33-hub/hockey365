@@ -1,6 +1,223 @@
 {
   "news": [
     {
+      "id": "news-6691754",
+      "slug": "ya-byl-k-etomu-luchshe-podgotovlen-vasilevskij-o-zhelanii-kucherova-pokinut-tampu",
+      "title": "«Я был к этому лучше подготовлен». Василевский – о желании Кучерова покинуть «Тампу»",
+      "summary": "Российский голкипер «Тампа-Бэй Лайтнинг» Андрей Василевский высказался о ситуации вокруг партнёра по команде соотечественника Никиты Кучерова, который заявил, что хочет покинуть клуб.",
+      "content": "Российский голкипер «Тампа-Бэй Лайтнинг» Андрей Василевский высказался о ситуации вокруг партнёра по команде соотечественника Никиты Кучерова, который заявил, что хочет покинуть клуб.",
+      "image": "https://img.championat.com/news/big/u/c/ya-byl-k-etomu-luchshe-podgotovlen-vasilevskij-o-zhelanii-kucherova-pokinut-tampu_17941766241014468908.jpg",
+      "publishedAt": "2026-11-08T22:23:45Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6691754-ya-byl-k-etomu-luchshe-podgotovlen-vasilevskij-o-zhelanii-kucherova-pokinut-tampu.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Никита Кучеров",
+        "Андрей Василевский"
+      ],
+      "relatedTeamIds": [
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
+      "id": "news-6691664",
+      "slug": "boston-bryuinz-florida-panterz-rezultat-matcha-8-noyabrya-2026-goda-schet-4-1-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "«Бостон» с крупным счётом обыграл «Флориду», Задоров набрал 17 минут штрафа",
+      "summary": "В ночь на 9 ноября в Бостоне, США, на стадионе «Ти-Ди Гарден» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Бостон Брюинз» принимал «Флориду Пантерз».",
+      "content": "В ночь на 9 ноября в Бостоне, США, на стадионе «Ти-Ди Гарден» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Бостон Брюинз» принимал «Флориду Пантерз».",
+      "image": "https://img.championat.com/news/big/h/j/boston-s-krupnym-schyotom-obygral-floridu-zadorov-nabral-17-minut-shtrafa_1794170954373083323.jpg",
+      "publishedAt": "2026-11-08T21:06:53Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6691664-boston-bryuinz-florida-panterz-rezultat-matcha-8-noyabrya-2026-goda-schet-4-1-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Флорида Пантерз",
+        "Бостон Брюинз",
+        "Никита Задоров",
+        "Марат Хуснутдинов"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:fla"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6691488",
+      "slug": "rezultaty-matchej-mhl-na-8-noyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 8 ноября 2026 года",
+      "summary": "Сегодня, 8 ноября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 8 ноября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-11-08T20:50:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6691488-rezultaty-matchej-mhl-na-8-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Красная Армия",
+        "МХК Спартак",
+        "МХК Локо",
+        "МХК Алмаз",
+        "МХК Мамонты Югры",
+        "МХК Динамо",
+        "МХК Ирбис Казань",
+        "МХК Тайфун"
+      ],
+      "relatedTeamIds": [
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6691482",
+      "slug": "rezultaty-matchej-vhl-na-8-noyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 8 ноября 2026 года",
+      "summary": "Сегодня, 8 ноября, прошли восемь матчей OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 8 ноября, прошли восемь матчей OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-11-08T20:40:06Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6691482-rezultaty-matchej-vhl-na-8-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Металлург Нк",
+        "Югра",
+        "Рубин",
+        "Торос",
+        "Сокол Красноярск",
+        "Дизель",
+        "Челмет",
+        "Зауралье",
+        "Молот-Прикамье",
+        "Динамо Санкт-Петербург",
+        "Звезда",
+        "Горняк",
+        "Тамбов",
+        "Магнитка",
+        "СКА-ВМФ"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6691476",
+      "slug": "rezultaty-matchej-khl-na-8-noyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 8 ноября 2026 года",
+      "summary": "Сегодня, 8 ноября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 8 ноября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-11-08T20:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6691476-rezultaty-matchej-khl-na-8-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Локомотив",
+        "Трактор",
+        "Динамо Минск",
+        "Автомобилист",
+        "Барыс",
+        "Нефтехимик",
+        "Амур",
+        "Сочи"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:avtomobilist",
+        "khl:barys",
+        "khl:dynamo-mns",
+        "khl:lokomotiv",
+        "khl:neftekhimik",
+        "khl:sochi",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6691636",
+      "slug": "vratar-ilya-samsonov-vpervye-s-2019-goda-sygral-na-nol-v-ahl",
+      "title": "Вратарь Илья Самсонов впервые с 2019 года сыграл «на ноль» в АХЛ",
+      "summary": "Российский голкипер Илья Самсонов впервые с 2019 года сыграл «на ноль» в АХЛ.",
+      "content": "Российский голкипер Илья Самсонов впервые с 2019 года сыграл «на ноль» в АХЛ.",
+      "image": "https://img.championat.com/news/big/l/u/vratar-ilya-samsonov-vpervye-s-2019-goda-sygral-na-nol-v-ahl_1794169087266542321.jpg",
+      "publishedAt": "2026-11-08T20:20:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6691636-vratar-ilya-samsonov-vpervye-s-2019-goda-sygral-na-nol-v-ahl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Сан-Хосе Шаркс",
+        "Илья Самсонов"
+      ],
+      "relatedTeamIds": [
+        "nhl:sjs"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6691432",
+      "slug": "forvard-vashingtona-tom-uilson-ne-budet-nakazan-za-tolchok-na-bort-igroka-floridy",
+      "title": "Форвард «Вашингтона» Том Уилсон не будет наказан за толчок на борт игрока «Флориды»",
+      "summary": "Нападающий «Вашингтон Кэпиталз» Том Уилсон не будет дополнительно наказан за силовой приём против форварда «Флориды Пантерз» Сандиса Вилманиса.",
+      "content": "Нападающий «Вашингтон Кэпиталз» Том Уилсон не будет дополнительно наказан за силовой приём против форварда «Флориды Пантерз» Сандиса Вилманиса.",
+      "image": "https://img.championat.com/news/big/t/n/forvard-vashingtona-tom-uilson-ne-budet-nakazan-za-tolchok-na-bort-igroka-floridy_17941593261114608591.jpg",
+      "publishedAt": "2026-11-08T20:00:06Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6691432-forvard-vashingtona-tom-uilson-ne-budet-nakazan-za-tolchok-na-bort-igroka-floridy.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Вашингтон Кэпиталз",
+        "Флорида Пантерз",
+        "Том Уилсон"
+      ],
+      "relatedTeamIds": [
+        "nhl:fla",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6691570",
+      "slug": "stemkos-vyshel-na-pyatoe-mesto-v-istorii-nhl-po-golam-v-bolshinstve-ovechkin-rekordsmen",
+      "title": "Стэмкос вышел на пятое место в истории НХЛ по голам в большинстве. Овечкин — рекордсмен",
+      "summary": "Нападающий «Нэшвилл Предаторз» Стивен Стэмкос забросил 248-ю шайбу в большинстве за карьеру в регулярных чемпионатах НХЛ.",
+      "content": "Нападающий «Нэшвилл Предаторз» Стивен Стэмкос забросил 248-ю шайбу в большинстве за карьеру в регулярных чемпионатах НХЛ.",
+      "image": "https://img.championat.com/news/big/m/u/stemkos-vyshel-na-pyatoe-mesto-v-istorii-nhl-po-golam-v-bolshinstve-ovechkin-rekordsmen_17941656272065089433.jpg",
+      "publishedAt": "2026-11-08T19:45:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6691570-stemkos-vyshel-na-pyatoe-mesto-v-istorii-nhl-po-golam-v-bolshinstve-ovechkin-rekordsmen.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Александр Овечкин",
+        "Нэшвилл Предаторз",
+        "Стивен Стэмкос",
+        "Бретт Халл",
+        "Фил Эспозито",
+        "Люк Робитайл"
+      ],
+      "relatedTeamIds": [
+        "nhl:nsh",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
       "id": "news-6691550",
       "slug": "nado-chtoby-szadi-kto-to-s-knutom-stoyal-vajsfeld-ob-igre-minskogo-dinamo-pri-bryline",
       "title": "«Надо, чтобы сзади кто-то с кнутом стоял». Вайсфельд — об игре «Динамо» Минск при Брылине",
@@ -528,184 +745,6 @@
         "Юниорская сборная России — Хоккей",
         "Молодёжная сборная Казахстана — Хоккей",
         "Кубок Будущего"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6691002",
-      "slug": "stydno-tak-proigryvat-kapitan-chikago-bedard-o-2-9-ot-karoliny",
-      "title": "«Стыдно так проигрывать». Капитан «Чикаго» Бедард — о 2:9 от «Каролины»",
-      "summary": "Капитан «Чикаго Блэкхоукс» Коннор Бедард раскритиковал игру команды после разгромного поражения от «Каролины Харрикейнз» (2:9) в регулярном чемпионате НХЛ.",
-      "content": "Капитан «Чикаго Блэкхоукс» Коннор Бедард раскритиковал игру команды после разгромного поражения от «Каролины Харрикейнз» (2:9) в регулярном чемпионате НХЛ.",
-      "image": "https://img.championat.com/news/big/q/u/stydno-tak-proigryvat-kapitan-chikago-bedard-o-2-9-ot-karoliny_17941401231585512210.jpg",
-      "publishedAt": "2026-11-08T12:15:25Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6691002-stydno-tak-proigryvat-kapitan-chikago-bedard-o-2-9-ot-karoliny.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Каролина Харрикейнз",
-        "Чикаго Блэкхоукс",
-        "Коннор Бедард"
-      ],
-      "relatedTeamIds": [
-        "nhl:car",
-        "nhl:chi"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6691008",
-      "slug": "azarenko-sdelala-sovmestnoe-foto-s-ovechkinym-i-bratyami-protasami",
-      "title": "Азаренко сделала совместное фото с Овечкиным и братьями Протасами",
-      "summary": "Чемпионка двух турниров «Большого шлема», бывшая первая ракетка мира белорусская теннисистка Виктория Азаренко сделала общее фото с хоккеистами клуба Национальной хоккейной лиги «Вашингтон Кэпиталз» – нападающими Ильё...",
-      "content": "Чемпионка двух турниров «Большого шлема», бывшая первая ракетка мира белорусская теннисистка Виктория Азаренко сделала общее фото с хоккеистами клуба Национальной хоккейной лиги «Вашингтон Кэпиталз» – нападающими Ильёй и Алексеем Протасами, а также Александром Овечкиным.",
-      "image": "https://img.championat.com/news/big/m/g/azarenko-sdelala-sovmestnoe-foto-s-ovechkinym-i-bratyami-protasami_17941399652110206136.jpg",
-      "publishedAt": "2026-11-08T12:11:44Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/tennis/news-6691008-azarenko-sdelala-sovmestnoe-foto-s-ovechkinym-i-bratyami-protasami.html",
-      "tags": [
-        "Теннис",
-        "WTA",
-        "Хоккей",
-        "НХЛ",
-        "Фото",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Виктория Азаренко",
-        "Алексей Протас",
-        "Илья Протас"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6690964",
-      "slug": "larionov-zayavil-chto-poka-ne-poluchal-predlozheniya-vozglavit-sbornuyu-rossii-na-mchm-2027",
-      "title": "Ларионов заявил, что пока не получал предложения возглавить сборную России на МЧМ-2027",
-      "summary": "Двукратный олимпийский чемпион, трёхкратный обладатель Кубка Стэнли Игорь Ларионов рассказал, что пока не получал предложения возглавить сборную России на молодёжном чемпионате мира по хоккею 2027 года.",
-      "content": "Двукратный олимпийский чемпион, трёхкратный обладатель Кубка Стэнли Игорь Ларионов рассказал, что пока не получал предложения возглавить сборную России на молодёжном чемпионате мира по хоккею 2027 года.",
-      "image": "https://img.championat.com/news/big/w/z/larionov-zayavil-chto-poka-n.jpg",
-      "publishedAt": "2026-11-08T11:51:25Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6690964-larionov-zayavil-chto-poka-ne-poluchal-predlozheniya-vozglavit-sbornuyu-rossii-na-mchm-2027.html",
-      "tags": [
-        "Хоккей",
-        "МЧМ по хоккею 2027",
-        "Молодёжная сборная России — Хоккей",
-        "Игорь Ларионов",
-        "МЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6690942",
-      "slug": "glavnyj-trener-barysa-kravec-vyskazalsya-o-porazhenii-ot-amura",
-      "title": "Главный тренер «Барыса» Кравец высказался о поражении от «Амура»",
-      "summary": "Главный тренер «Барыса» Михаил Кравец прокомментировал поражение от «Амура» (0:2) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Главный тренер «Барыса» Михаил Кравец прокомментировал поражение от «Амура» (0:2) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/l/x/glavnyj-trener-barysa-kravec.jpg",
-      "publishedAt": "2026-11-08T11:36:13Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6690942-glavnyj-trener-barysa-kravec-vyskazalsya-o-porazhenii-ot-amura.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Барыс",
-        "Амур",
-        "Михаил Кравец"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:barys"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6690920",
-      "slug": "andrievskij-o-pobede-amura-nad-barysom-tyazhyolaya-igra-dazhe-skazal-by-ochen-tyazhyolaya",
-      "title": "Андриевский — о победе «Амура» над «Барысом»: тяжёлая игра, даже сказал бы, очень тяжёлая",
-      "summary": "Главный тренер «Амура» Александр Андриевский прокомментировал домашнюю победу над «Барысом» со счётом 2:0.",
-      "content": "Главный тренер «Амура» Александр Андриевский прокомментировал домашнюю победу над «Барысом» со счётом 2:0.",
-      "image": "https://img.championat.com/news/big/j/b/andrievskij-o-pobede-amura-n.jpg",
-      "publishedAt": "2026-11-08T11:18:15Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6690920-andrievskij-o-pobede-amura-nad-barysom-tyazhyolaya-igra-dazhe-skazal-by-ochen-tyazhyolaya.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Барыс",
-        "Амур",
-        "Александр Андриевский"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:barys"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6690904",
-      "slug": "v-norvegii-zayavili-chto-nadeyutsya-sygrat-na-mchm-2027-nesmotrya-na-reshenie-iihf",
-      "title": "В Норвегии заявили, что надеются сыграть на МЧМ-2027, несмотря на решение ИИХФ",
-      "summary": "Генеральный секретарь Норвежского хоккейного союза (NIHF) Петтер Сальстен заявил, что страна надеется принять участие в МЧМ-2027, несмотря на исключение молодёжной сборной Норвегии из состава участников после допуска ...",
-      "content": "Генеральный секретарь Норвежского хоккейного союза (NIHF) Петтер Сальстен заявил, что страна надеется принять участие в МЧМ-2027, несмотря на исключение молодёжной сборной Норвегии из состава участников после допуска России.",
-      "image": "https://img.championat.com/news/big/p/g/v-norvegii-zayavili-chto-nadeyutsya-sygrat-na-mchm-2027-nesmotrya-na-reshenie-iihf_1794136498698437908.jpg",
-      "publishedAt": "2026-11-08T11:06:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6690904-v-norvegii-zayavili-chto-nadeyutsya-sygrat-na-mchm-2027-nesmotrya-na-reshenie-iihf.html",
-      "tags": [
-        "Хоккей",
-        "МЧМ по хоккею 2027",
-        "Молодёжная сборная России — Хоккей",
-        "МЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6690776",
-      "slug": "traktor-avtomobilist-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas",
-      "title": "«Трактор» — «Автомобилист»: онлайн-трансляция матча КХЛ началась",
-      "summary": "В эти минуты в Челябинске на стадионе «Арена-Трактор имени Валерия Белоусова» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Трактор» принимает екатерин...",
-      "content": "В эти минуты в Челябинске на стадионе «Арена-Трактор имени Валерия Белоусова» проходит матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Трактор» принимает екатеринбургский «Автомобилист».",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-11-08T11:00:07Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6690776-traktor-avtomobilist-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachalas.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Автомобилист"
-      ],
-      "relatedTeamIds": [
-        "khl:avtomobilist",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6690890",
-      "slug": "iihf-uvedomila-norvezhskij-hokkejnyj-soyuz-ob-isklyuchenii-s-mchm-2027",
-      "title": "ИИХФ уведомила Норвежский хоккейный союз об исключении из МЧМ-2027",
-      "summary": "Норвежский хоккейный союз (NIHF) получил уведомление от Международной федерации хоккея (ИИХФ) об исключении из числа участников элитного дивизиона молодёжного чемпионата мира 2027 года.",
-      "content": "Норвежский хоккейный союз (NIHF) получил уведомление от Международной федерации хоккея (ИИХФ) об исключении из числа участников элитного дивизиона молодёжного чемпионата мира 2027 года.",
-      "image": "assets/images/hero_banner.jpg",
-      "publishedAt": "2026-11-08T10:48:13Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6690890-iihf-uvedomila-norvezhskij-hokkejnyj-soyuz-ob-isklyuchenii-s-mchm-2027.html",
-      "tags": [
-        "Хоккей",
-        "МЧМ по хоккею 2027",
-        "Молодёжная сборная России — Хоккей",
-        "МЧМ-2027"
       ],
       "relatedTeamIds": [],
       "relatedPlayerIds": []
