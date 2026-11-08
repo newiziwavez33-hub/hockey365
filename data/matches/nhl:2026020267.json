@@ -6,113 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-07T22:00:00Z",
-  "status": "INTERMISSION",
-  "period": 1,
-  "clock": "14:06",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:sea",
-    "score": 0,
+    "score": 3,
     "periods": [],
-    "shots": 10
+    "shots": null
   },
   "away": {
     "id": "nhl:nyr",
-    "score": 3,
+    "score": 4,
     "periods": [],
-    "shots": 11
+    "shots": null
   },
   "arena": "Climate Pledge Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "01:35",
-      "team": "away",
-      "playerId": "nhl:p_8484210",
-      "playerName": "Gabe Perreault",
-      "assists": [
-        "nhl:p_8476459",
-        "nhl:p_8482109"
-      ],
-      "score": "0-1",
-      "order": 29
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "07:15",
-      "team": "home",
-      "playerId": "nhl:p_8484800",
-      "playerName": "Berkly Catton",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 105
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "09:05",
-      "team": "away",
-      "playerId": "nhl:p_8481789",
-      "playerName": "Tye Kartye",
-      "assists": [
-        "nhl:p_8479323",
-        "nhl:p_8477416"
-      ],
-      "score": "0-2",
-      "order": 124
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "13:53",
-      "team": "away",
-      "playerId": "nhl:p_8482877",
-      "playerName": "Jaroslav Chmelar",
-      "assists": [
-        "nhl:p_8483690"
-      ],
-      "score": "0-3",
-      "order": 183
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "15:30",
-      "team": "away",
-      "playerId": "nhl:p_8482157",
-      "playerName": "Will Cuylle",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 207
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      10,
-      11
-    ],
-    "shotsOnGoal": [
-      10,
-      11
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020267/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020267/play-by-play"
-    ],
-    "fetchedAt": "2026-11-07T22:50:02.626041+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -120,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/nyr-vs-sea/2026/11/07/2026020267",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/nyr-vs-sea/2026/11/07/2026020267",
-    "verifiedAt": "2026-11-07T22:50:02.626115Z"
+    "verifiedAt": "2026-11-08T01:53:39.502257Z"
   }
 }
