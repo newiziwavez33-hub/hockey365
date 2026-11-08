@@ -6,182 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-08T01:00:00Z",
-  "status": "INTERMISSION",
-  "period": 1,
-  "clock": "10:46",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:dal",
-    "score": 3,
+    "score": 4,
     "periods": [],
-    "shots": 14
+    "shots": null
   },
   "away": {
     "id": "nhl:sjs",
-    "score": 1,
+    "score": 3,
     "periods": [],
-    "shots": 10
+    "shots": null
   },
   "arena": "American Airlines Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "07:22",
-      "team": "away",
-      "playerId": "nhl:p_8485402",
-      "playerName": "Michael Misa",
-      "assists": [
-        "nhl:p_8484801",
-        "nhl:p_8484227"
-      ],
-      "score": "0-1",
-      "order": 108
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "07:46",
-      "team": "home",
-      "playerId": "nhl:p_8478420",
-      "playerName": "Mikko Rantanen",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 113
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "07:46",
-      "team": "away",
-      "playerId": "nhl:p_8478975",
-      "playerName": "Mason Marchment",
-      "minutes": 2,
-      "reason": "embellishment",
-      "order": 115
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "08:06",
-      "team": "away",
-      "playerId": "nhl:p_8476885",
-      "playerName": "Jacob Trouba",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 121
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "09:16",
-      "team": "home",
-      "playerId": "nhl:p_8478449",
-      "playerName": "Roope Hintz",
-      "assists": [
-        "nhl:p_8482740",
-        "nhl:p_8481581"
-      ],
-      "score": "1-1",
-      "order": 137
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "11:44",
-      "team": "home",
-      "playerId": "nhl:p_8474102",
-      "playerName": "David Perron",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 170
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "15:17",
-      "team": "home",
-      "playerId": "nhl:p_8473994",
-      "playerName": "Jamie Benn",
-      "assists": [
-        "nhl:p_8478449"
-      ],
-      "score": "2-1",
-      "order": 216
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "16:32",
-      "team": "away",
-      "playerId": "nhl:p_8478975",
-      "playerName": "Mason Marchment",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 232
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "16:51",
-      "team": "home",
-      "playerId": "nhl:p_8480027",
-      "playerName": "Jason Robertson",
-      "assists": [
-        "nhl:p_8478420",
-        "nhl:p_8481581"
-      ],
-      "score": "3-1",
-      "order": 239
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "16:59",
-      "team": "home",
-      "playerId": "nhl:p_8479351",
-      "playerName": "Sam Steel",
-      "minutes": 2,
-      "reason": "boarding",
-      "order": 244
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "18:23",
-      "team": "home",
-      "playerId": "nhl:p_8483425",
-      "playerName": "Lian Bichsel",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 259
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      14,
-      10
-    ],
-    "shotsOnGoal": [
-      14,
-      10
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020272/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020272/play-by-play"
-    ],
-    "fetchedAt": "2026-11-08T01:53:40.274589+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -189,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/sjs-vs-dal/2026/11/07/2026020272",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/sjs-vs-dal/2026/11/07/2026020272",
-    "verifiedAt": "2026-11-08T01:53:40.274659Z"
+    "verifiedAt": "2026-11-08T08:08:49.907783Z"
   }
 }
