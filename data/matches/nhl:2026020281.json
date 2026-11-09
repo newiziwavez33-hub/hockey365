@@ -6,31 +6,177 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-09T00:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 3,
+  "clock": "05:24",
   "finishedIn": null,
   "home": {
     "id": "nhl:cgy",
-    "score": null,
+    "score": 3,
     "periods": [],
-    "shots": null
+    "shots": 20
   },
   "away": {
     "id": "nhl:phi",
-    "score": null,
+    "score": 3,
     "periods": [],
-    "shots": null
+    "shots": 29
   },
   "arena": "Scotiabank Saddledome",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "12:46",
+      "team": "away",
+      "playerId": "nhl:p_8484142",
+      "playerName": "Denver Barkey",
+      "assists": [
+        "nhl:p_8476461",
+        "nhl:p_8482142"
+      ],
+      "score": "0-1",
+      "order": 194
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "15:26",
+      "team": "home",
+      "playerId": "nhl:p_8484768",
+      "playerName": "Zayne Parekh",
+      "assists": [
+        "nhl:p_8482165",
+        "nhl:p_8481068"
+      ],
+      "score": "1-1",
+      "order": 223
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "02:16",
+      "team": "away",
+      "playerId": "nhl:p_8478569",
+      "playerName": "Noel Acciari",
+      "assists": [
+        "nhl:p_8476372",
+        "nhl:p_8476461"
+      ],
+      "score": "1-2",
+      "order": 328
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "05:59",
+      "team": "home",
+      "playerId": "nhl:p_8480727",
+      "playerName": "Zach Whitecloud",
+      "assists": [
+        "nhl:p_8484234",
+        "nhl:p_8481068"
+      ],
+      "score": "2-2",
+      "order": 379
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "07:21",
+      "team": "home",
+      "playerId": "nhl:p_8480028",
+      "playerName": "Morgan Frost",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 401
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "13:45",
+      "team": "home",
+      "playerId": "nhl:p_8484768",
+      "playerName": "Zayne Parekh",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 485
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "15:07",
+      "team": "away",
+      "playerId": "nhl:p_8480015",
+      "playerName": "Owen Tippett",
+      "assists": [
+        "nhl:p_8477989",
+        "nhl:p_8484148"
+      ],
+      "score": "2-3",
+      "order": 502
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "18:07",
+      "team": "away",
+      "playerId": "nhl:p_8485406",
+      "playerName": "Porter Martone",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 544
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "06:43",
+      "team": "home",
+      "playerId": "nhl:p_8484234",
+      "playerName": "Aydar Suniev",
+      "minutes": 2,
+      "reason": "high-sticking",
+      "order": 664
+    },
+    {
+      "type": "GOAL",
+      "period": 3,
+      "time": "08:27",
+      "team": "home",
+      "playerId": "nhl:p_8480797",
+      "playerName": "Joel Farabee",
+      "assists": [
+        "nhl:p_8481028"
+      ],
+      "score": "3-3",
+      "order": 683
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      20,
+      29
+    ],
+    "shotsOnGoal": [
+      20,
+      29
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020281/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020281/play-by-play"
+    ],
+    "fetchedAt": "2026-11-09T02:36:15.729703+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +184,6 @@
     "url": "https://www.nhl.com/gamecenter/phi-vs-cgy/2026/11/08/2026020281",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/phi-vs-cgy/2026/11/08/2026020281",
-    "verifiedAt": "2026-11-08T23:06:10.243837Z"
+    "verifiedAt": "2026-11-09T02:36:15.729800Z"
   }
 }

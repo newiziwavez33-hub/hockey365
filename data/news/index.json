@@ -1,6 +1,105 @@
 {
   "news": [
     {
+      "id": "news-6691844",
+      "slug": "ne-znayu-zasluzhivayu-li-ya-kontrakt-na-25-mln-vasilevskij-o-svoyom-buduschem-v-tampe",
+      "title": "«Не знаю, заслуживаю ли я контракт на $ 25 млн». Василевский – о своём будущем в «Тампе»",
+      "summary": "Российский голкипер «Тампа-Бэй Лайтнинг» Андрей Василевский высказался о своём контракте в клубе.",
+      "content": "Российский голкипер «Тампа-Бэй Лайтнинг» Андрей Василевский высказался о своём контракте в клубе.",
+      "image": "https://img.championat.com/news/big/h/n/ne-znayu-zasluzhivayu-li-ya-kontrakt-na-25-mln-vasilevskij-o-svoyom-buduschem-v-tampe_1794189283458483012.jpg",
+      "publishedAt": "2026-11-09T01:54:44Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6691844-ne-znayu-zasluzhivayu-li-ya-kontrakt-na-25-mln-vasilevskij-o-svoyom-buduschem-v-tampe.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Андрей Василевский"
+      ],
+      "relatedTeamIds": [
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6691840",
+      "slug": "vinnipeg-dzhets-tampa-bej-lajtning-rezultat-matcha-9-noyabrya-2026-schyot-4-3-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "«Тампа» с Кучеровым отыгралась с 0:3, но уступила «Виннипегу». У Михеева — ассист",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Виннипег Джетс» принимал «Тампа-Бэй Лайтнинг».",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Виннипег Джетс» принимал «Тампа-Бэй Лайтнинг».",
+      "image": "https://img.championat.com/news/big/n/h/tampa-s-kucherovym-otygralas-s-0-3-no-ustupila-vinnipegu-u-miheeva-assist_1794188642925184349.jpg",
+      "publishedAt": "2026-11-09T01:44:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6691840-vinnipeg-dzhets-tampa-bej-lajtning-rezultat-matcha-9-noyabrya-2026-schyot-4-3-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Тампа-Бэй Лайтнинг",
+        "Никита Кучеров",
+        "Виннипег Джетс",
+        "Андрей Василевский",
+        "Илья Михеев",
+        "Марк Шайфли",
+        "Брэндон Хагель",
+        "Коул Перфетти"
+      ],
+      "relatedTeamIds": [
+        "nhl:tbl",
+        "nhl:wpg"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
+      "id": "news-6691788",
+      "slug": "ne-hochu-vmeshivatsya-vasilevskij-o-situacii-kucherova-v-tampe",
+      "title": "«Не хочу вмешиваться». Василевский – о ситуации Кучерова в «Тампе»",
+      "summary": "Российский голкипер «Тампа-Бэй Лайтнинг» Андрей Василевский надеется, что клуб сможет уладить вопрос вокруг российского нападающего Никиты Кучерова, который ранее выразил желание покинуть команду.",
+      "content": "Российский голкипер «Тампа-Бэй Лайтнинг» Андрей Василевский надеется, что клуб сможет уладить вопрос вокруг российского нападающего Никиты Кучерова, который ранее выразил желание покинуть команду.",
+      "image": "https://img.championat.com/news/big/s/q/ne-hochu-vmeshivatsya-vasilevskij-o-situacii-kucherova-v-tampe_17941800511514088369.jpg",
+      "publishedAt": "2026-11-08T23:20:53Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6691788-ne-hochu-vmeshivatsya-vasilevskij-o-situacii-kucherova-v-tampe.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Никита Кучеров",
+        "Андрей Василевский"
+      ],
+      "relatedTeamIds": [
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
+      "id": "news-6691778",
+      "slug": "baffalo-sejbrz-vegas-golden-najts-rezultat-matcha-9-noyabrya-2026-schet-1-4-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "Две передачи Барбашёва помогли «Вегасу» обыграть «Баффало»",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Баффало Сэйбрз» принимал «Вегас Голден Найтс».",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Баффало Сэйбрз» принимал «Вегас Голден Найтс».",
+      "image": "https://img.championat.com/news/big/h/n/dve-peredachi-barbashyova-pomogli-vegasu-obygrat-baffalo_1794179226343501151.jpg",
+      "publishedAt": "2026-11-08T23:07:09Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6691778-baffalo-sejbrz-vegas-golden-najts-rezultat-matcha-9-noyabrya-2026-schet-1-4-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вегас Голден Найтс",
+        "Баффало Сэйбрз",
+        "Иван Барбашёв"
+      ],
+      "relatedTeamIds": [
+        "nhl:buf",
+        "nhl:vgk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6691754",
       "slug": "ya-byl-k-etomu-luchshe-podgotovlen-vasilevskij-o-zhelanii-kucherova-pokinut-tampu",
       "title": "«Я был к этому лучше подготовлен». Василевский – о желании Кучерова покинуть «Тампу»",
@@ -660,93 +759,6 @@
         "khl:avtomobilist",
         "khl:traktor"
       ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6691062",
-      "slug": "traktor-avtomobilist-rezultat-matcha-8-noyabrya-2026-goda-schet-2-3-b-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Автомобилист» отыгрался с 0:2 и одержал волевую победу над «Трактором»",
-      "summary": "Сегодня, 8 ноября, в Челябинске на стадионе «Арена-Трактор имени Валерия Белоусова» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Трактор» принимал «А...",
-      "content": "Сегодня, 8 ноября, в Челябинске на стадионе «Арена-Трактор имени Валерия Белоусова» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Трактор» принимал «Автомобилист».",
-      "image": "https://img.championat.com/news/big/y/d/avtomobilist-otygralsya-s-0-2-i-oderzhal-volevuyu-pobedu-nad-traktorom_17941439401262748777.jpg",
-      "publishedAt": "2026-11-08T13:23:00Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6691062-traktor-avtomobilist-rezultat-matcha-8-noyabrya-2026-goda-schet-2-3-b-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Автомобилист"
-      ],
-      "relatedTeamIds": [
-        "khl:avtomobilist",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6691072",
-      "slug": "neftehimik-lokomotiv-rezultat-matcha-8-noyabrya-2026-goda-schet-1-5-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Локомотив» с крупным счётом обыграл «Нефтехимик» в гостевом матче КХЛ",
-      "summary": "Сегодня, 8 ноября, в Нижнекамске на стадионе «Нефтехим-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Нефтехимик» принимал ярославский «Локомотив».",
-      "content": "Сегодня, 8 ноября, в Нижнекамске на стадионе «Нефтехим-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Нефтехимик» принимал ярославский «Локомотив».",
-      "image": "https://img.championat.com/news/big/i/b/lokomotiv-s-krupnym-schyotom-obygral-neftehimik-v-gostevom-matche-khl_1794143385701551161.jpg",
-      "publishedAt": "2026-11-08T13:21:11Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6691072-neftehimik-lokomotiv-rezultat-matcha-8-noyabrya-2026-goda-schet-1-5-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Локомотив",
-        "Нефтехимик"
-      ],
-      "relatedTeamIds": [
-        "khl:lokomotiv",
-        "khl:neftekhimik"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6691030",
-      "slug": "kamenskij-o-dopuske-sbornyh-rossii-zakon-i-pravda-na-nashej-storone",
-      "title": "Каменский — о допуске сборных России: закон и правда на нашей стороне",
-      "summary": "Олимпийский чемпион и обладатель Кубка Стэнли Валерий Каменский выразил уверенность, что вопрос с допуском российских команд к международным турнирам решится в ближайшее время, поскольку закон на стороне России.",
-      "content": "Олимпийский чемпион и обладатель Кубка Стэнли Валерий Каменский выразил уверенность, что вопрос с допуском российских команд к международным турнирам решится в ближайшее время, поскольку закон на стороне России.",
-      "image": "https://img.championat.com/news/big/d/i/kamenskij-o-dopuske-sbornyh-.jpg",
-      "publishedAt": "2026-11-08T12:45:08Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6691030-kamenskij-o-dopuske-sbornyh-rossii-zakon-i-pravda-na-nashej-storone.html",
-      "tags": [
-        "Хоккей",
-        "ЧМ по хоккею 2027",
-        "МЧМ по хоккею 2027",
-        "Сборная России — Хоккей",
-        "Молодёжная сборная России — Хоккей",
-        "Валерий Каменский",
-        "ЧМ-2027",
-        "МЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6691018",
-      "slug": "rossiya-u18-krupno-obygrala-molodyozhnuyu-sbornuyu-kazahstana-na-kubke-buduschego",
-      "title": "Россия U18 крупно обыграла молодёжную сборную Казахстана на Кубке Будущего",
-      "summary": "Сегодня, 8 ноября, в Санкт-Петербурге на стадионе «Юбилейный» прошёл матч Кубка Будущего между юниорской сборной России U18 и молодёжной командой Казахстана.",
-      "content": "Сегодня, 8 ноября, в Санкт-Петербурге на стадионе «Юбилейный» прошёл матч Кубка Будущего между юниорской сборной России U18 и молодёжной командой Казахстана.",
-      "image": "assets/images/hero_banner.jpg",
-      "publishedAt": "2026-11-08T12:21:46Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6691018-rossiya-u18-krupno-obygrala-molodyozhnuyu-sbornuyu-kazahstana-na-kubke-buduschego.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Юниорская сборная России — Хоккей",
-        "Молодёжная сборная Казахстана — Хоккей",
-        "Кубок Будущего"
-      ],
-      "relatedTeamIds": [],
       "relatedPlayerIds": []
     }
   ]

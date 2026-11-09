@@ -6,31 +6,158 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-09T01:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 2,
+  "clock": "04:53",
   "finishedIn": null,
   "home": {
     "id": "nhl:ana",
-    "score": null,
+    "score": 3,
     "periods": [],
-    "shots": null
+    "shots": 16
   },
   "away": {
     "id": "nhl:pit",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 20
   },
   "arena": "Honda Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "06:27",
+      "team": "away",
+      "playerId": "nhl:p_8481527",
+      "playerName": "Kaedan Korczak",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 96
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "08:27",
+      "team": "home",
+      "playerId": "nhl:p_8475798",
+      "playerName": "Mikael Granlund",
+      "assists": [
+        "nhl:p_8483445",
+        "nhl:p_8481605"
+      ],
+      "score": "1-0",
+      "order": 112
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "09:20",
+      "team": "away",
+      "playerId": "nhl:p_8471675",
+      "playerName": "Sidney Crosby",
+      "minutes": 2,
+      "reason": "slashing",
+      "order": 122
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "14:37",
+      "team": "home",
+      "playerId": "nhl:p_8483482",
+      "playerName": "Tristan Luneau",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 199
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "00:20",
+      "team": "home",
+      "playerId": "nhl:p_8484153",
+      "playerName": "Leo Carlsson",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 279
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "00:43",
+      "team": "home",
+      "playerId": "nhl:p_8473986",
+      "playerName": "Alex Killorn",
+      "minutes": 4,
+      "reason": "high-sticking-double-minor",
+      "order": 284
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "05:05",
+      "team": "away",
+      "playerId": "nhl:p_8481582",
+      "playerName": "Nick Robertson",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 335
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "06:28",
+      "team": "home",
+      "playerId": "nhl:p_8483445",
+      "playerName": "Cutter Gauthier",
+      "assists": [
+        "nhl:p_8475798",
+        "nhl:p_8481605"
+      ],
+      "score": "2-0",
+      "order": 344
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "09:11",
+      "team": "home",
+      "playerId": "nhl:p_8483445",
+      "playerName": "Cutter Gauthier",
+      "assists": [
+        "nhl:p_8475798",
+        "nhl:p_8484762"
+      ],
+      "score": "3-0",
+      "order": 384
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      16,
+      20
+    ],
+    "shotsOnGoal": [
+      16,
+      20
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020282/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020282/play-by-play"
+    ],
+    "fetchedAt": "2026-11-09T02:36:15.848899+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +165,6 @@
     "url": "https://www.nhl.com/gamecenter/pit-vs-ana/2026/11/08/2026020282",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/pit-vs-ana/2026/11/08/2026020282",
-    "verifiedAt": "2026-11-08T23:06:10.244000Z"
+    "verifiedAt": "2026-11-09T02:36:15.848976Z"
   }
 }
