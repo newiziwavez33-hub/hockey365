@@ -48,16 +48,16 @@
         "value": 16
       },
       {
+        "playerId": "nhl:p_8483445",
+        "playerName": "Cutter Gauthier",
+        "teamId": "nhl:ana",
+        "value": 15
+      },
+      {
         "playerId": "nhl:p_8478398",
         "playerName": "Kyle Connor",
         "teamId": "nhl:wpg",
         "value": 13
-      },
-      {
-        "playerId": "nhl:p_8483445",
-        "playerName": "Cutter Gauthier",
-        "teamId": "nhl:ana",
-        "value": 12
       },
       {
         "playerId": "nhl:p_8477476",
@@ -86,15 +86,15 @@
         "value": 21
       },
       {
+        "playerId": "nhl:p_8481605",
+        "playerName": "Jackson LaCombe",
+        "teamId": "nhl:ana",
+        "value": 21
+      },
+      {
         "playerId": "nhl:p_8477492",
         "playerName": "Nathan MacKinnon",
         "teamId": "nhl:col",
-        "value": 20
-      },
-      {
-        "playerId": "nhl:p_8484153",
-        "playerName": "Leo Carlsson",
-        "teamId": "nhl:ana",
         "value": 20
       }
     ],
@@ -118,15 +118,15 @@
         "value": 1.79
       },
       {
+        "playerId": "nhl:p_8476945",
+        "playerName": "Connor Hellebuyck",
+        "teamId": "nhl:njd",
+        "value": 1.96
+      },
+      {
         "playerId": "nhl:p_8479979",
         "playerName": "Jake Oettinger",
         "teamId": "nhl:dal",
-        "value": 1.99
-      },
-      {
-        "playerId": "nhl:p_8482661",
-        "playerName": "Jesper Wallstedt",
-        "teamId": "nhl:min",
         "value": 1.99
       }
     ],
