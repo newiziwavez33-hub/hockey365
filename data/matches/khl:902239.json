@@ -6,24 +6,32 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-09T16:00:00Z",
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:ak-bars",
     "name": "Ак Барс",
     "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdc/team_pics/40/original/ak_bars_2022__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 5,
+    "periods": [
+      3,
+      1,
+      1
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:torpedo",
     "name": "Торпедо",
     "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sdc/team_pics/22/original/Torpedo_2025_200x200_NEW.png",
-    "score": null,
-    "periods": [],
+    "score": 2,
+    "periods": [
+      1,
+      0,
+      1
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +58,6 @@
     "stageId": 407,
     "eventId": 3001107,
     "matchId": "902239",
-    "fetchedAt": "2026-11-09T10:15:57.795258Z"
+    "fetchedAt": "2026-11-09T20:48:04.345190Z"
   }
 }

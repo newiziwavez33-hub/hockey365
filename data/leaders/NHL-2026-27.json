@@ -112,22 +112,22 @@
         "value": 1.67
       },
       {
-        "playerId": "nhl:p_8478048",
-        "playerName": "Igor Shesterkin",
-        "teamId": "nhl:nyr",
-        "value": 1.79
-      },
-      {
-        "playerId": "nhl:p_8476945",
-        "playerName": "Connor Hellebuyck",
-        "teamId": "nhl:njd",
-        "value": 1.96
-      },
-      {
         "playerId": "nhl:p_8479979",
         "playerName": "Jake Oettinger",
         "teamId": "nhl:dal",
         "value": 1.99
+      },
+      {
+        "playerId": "nhl:p_8482661",
+        "playerName": "Jesper Wallstedt",
+        "teamId": "nhl:min",
+        "value": 1.99
+      },
+      {
+        "playerId": "nhl:p_8480193",
+        "playerName": "Daniil Tarasov",
+        "teamId": "nhl:det",
+        "value": 2.1
       }
     ],
     "svPct": [
@@ -138,21 +138,9 @@
         "value": 0.945
       },
       {
-        "playerId": "nhl:p_8478048",
-        "playerName": "Igor Shesterkin",
-        "teamId": "nhl:nyr",
-        "value": 0.927
-      },
-      {
         "playerId": "nhl:p_8484170",
         "playerName": "Jacob Fowler",
         "teamId": "nhl:mtl",
-        "value": 0.925
-      },
-      {
-        "playerId": "nhl:p_8480022",
-        "playerName": "Michael DiPietro",
-        "teamId": "nhl:bos",
         "value": 0.925
       },
       {
@@ -160,6 +148,18 @@
         "playerName": "Jesper Wallstedt",
         "teamId": "nhl:min",
         "value": 0.922
+      },
+      {
+        "playerId": "nhl:p_8481611",
+        "playerName": "Pyotr Kochetkov",
+        "teamId": "nhl:car",
+        "value": 0.92
+      },
+      {
+        "playerId": "nhl:p_8480280",
+        "playerName": "Jeremy Swayman",
+        "teamId": "nhl:bos",
+        "value": 0.92
       }
     ]
   }
