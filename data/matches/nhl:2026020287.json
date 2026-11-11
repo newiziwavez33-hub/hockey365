@@ -6,31 +6,151 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-11T00:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 4,
+  "clock": "04:47",
   "finishedIn": null,
   "home": {
     "id": "nhl:mtl",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 28
   },
   "away": {
     "id": "nhl:min",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 23
   },
   "arena": "Centre Bell",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "10:46",
+      "team": "away",
+      "playerId": "nhl:p_8477451",
+      "playerName": "Ryan Hartman",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 164
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "20:00",
+      "team": "home",
+      "playerId": "nhl:p_8476981",
+      "playerName": "Josh Anderson",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 277
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "20:00",
+      "team": "away",
+      "playerId": "nhl:p_8473422",
+      "playerName": "Nick Foligno",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 279
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "04:58",
+      "team": "away",
+      "playerId": "nhl:p_8476874",
+      "playerName": "Olli Maatta",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 340
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "14:45",
+      "team": "home",
+      "playerId": "nhl:p_8481523",
+      "playerName": "Kirby Dach",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 451
+    },
+    {
+      "type": "GOAL",
+      "period": 3,
+      "time": "02:53",
+      "team": "away",
+      "playerId": "nhl:p_8481553",
+      "playerName": "Bobby Brink",
+      "score": "0-1",
+      "order": 552
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "07:20",
+      "team": "home",
+      "playerId": "nhl:p_8476981",
+      "playerName": "Josh Anderson",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 604
+    },
+    {
+      "type": "GOAL",
+      "period": 3,
+      "time": "18:22",
+      "team": "home",
+      "playerId": "nhl:p_8480018",
+      "playerName": "Nick Suzuki",
+      "assists": [
+        "nhl:p_8481540",
+        "nhl:p_8483457"
+      ],
+      "score": "1-1",
+      "order": 742
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "19:04",
+      "team": "home",
+      "playerId": "nhl:p_8481540",
+      "playerName": "Cole Caufield",
+      "minutes": 2,
+      "reason": "slashing",
+      "order": 752
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      28,
+      23
+    ],
+    "shotsOnGoal": [
+      28,
+      23
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020287/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020287/play-by-play"
+    ],
+    "fetchedAt": "2026-11-11T02:56:36.087985+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +158,6 @@
     "url": "https://www.nhl.com/gamecenter/min-vs-mtl/2026/11/10/2026020287",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/min-vs-mtl/2026/11/10/2026020287",
-    "verifiedAt": "2026-11-10T23:30:03.904313Z"
+    "verifiedAt": "2026-11-11T02:56:36.088154Z"
   }
 }
