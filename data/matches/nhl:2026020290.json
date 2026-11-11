@@ -6,125 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-11T01:00:00Z",
-  "status": "INTERMISSION",
-  "period": 2,
-  "clock": "06:00",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:stl",
-    "score": 2,
+    "score": 3,
     "periods": [],
-    "shots": 25
+    "shots": null
   },
   "away": {
     "id": "nhl:det",
-    "score": 1,
+    "score": 2,
     "periods": [],
-    "shots": 12
+    "shots": null
   },
   "arena": "Enterprise Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "19:47",
-      "team": "away",
-      "playerId": "nhl:p_8477429",
-      "playerName": "Andrew Copp",
-      "assists": [
-        "nhl:p_8475279",
-        "nhl:p_8482078"
-      ],
-      "score": "0-1",
-      "order": 295
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "00:37",
-      "team": "home",
-      "playerId": "nhl:p_8480459",
-      "playerName": "Pius Suter",
-      "assists": [
-        "nhl:p_8480281",
-        "nhl:p_8478443"
-      ],
-      "score": "1-1",
-      "order": 309
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "02:34",
-      "team": "home",
-      "playerId": "nhl:p_8482111",
-      "playerName": "Justin Barron",
-      "assists": [
-        "nhl:p_8480023",
-        "nhl:p_8483516"
-      ],
-      "score": "2-1",
-      "order": 337
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "11:46",
-      "team": "home",
-      "playerId": "nhl:p_8477527",
-      "playerName": "Ross Johnston",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 462
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "11:46",
-      "team": "away",
-      "playerId": "nhl:p_8477971",
-      "playerName": "Andreas Englund",
-      "minutes": 5,
-      "reason": "fighting",
-      "order": 464
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "19:18",
-      "team": "away",
-      "playerId": "nhl:p_8480326",
-      "playerName": "Sheldon Dries",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 569
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      25,
-      12
-    ],
-    "shotsOnGoal": [
-      25,
-      12
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020290/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020290/play-by-play"
-    ],
-    "fetchedAt": "2026-11-11T02:56:36.206982+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -132,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/det-vs-stl/2026/11/10/2026020290",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/det-vs-stl/2026/11/10/2026020290",
-    "verifiedAt": "2026-11-11T02:56:36.207081Z"
+    "verifiedAt": "2026-11-11T10:12:12.728038Z"
   }
 }
