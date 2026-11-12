@@ -6,97 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-12T03:00:00Z",
-  "status": "LIVE",
-  "period": 2,
-  "clock": "11:40",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 5,
+  "clock": null,
+  "finishedIn": "SO",
   "home": {
     "id": "nhl:sjs",
-    "score": 0,
+    "score": 2,
     "periods": [],
-    "shots": 18
+    "shots": null
   },
   "away": {
     "id": "nhl:pit",
-    "score": 1,
+    "score": 3,
     "periods": [],
-    "shots": 12
+    "shots": null
   },
   "arena": "SAP Center at San Jose",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "06:46",
-      "team": "home",
-      "playerId": "nhl:p_8476885",
-      "playerName": "Jacob Trouba",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 103
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "08:57",
-      "team": "away",
-      "playerId": "nhl:p_8479398",
-      "playerName": "Samuel Girard",
-      "assists": [
-        "nhl:p_8471215",
-        "nhl:p_8471724"
-      ],
-      "score": "0-1",
-      "order": 128
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "15:27",
-      "team": "away",
-      "playerId": "nhl:p_8471215",
-      "playerName": "Evgeni Malkin",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 217
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "01:30",
-      "team": "away",
-      "playerId": "nhl:p_8485414",
-      "playerName": "Ben Kindel",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 296
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      18,
-      12
-    ],
-    "shotsOnGoal": [
-      18,
-      12
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020298/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020298/play-by-play"
-    ],
-    "fetchedAt": "2026-11-12T04:20:44.335422+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -104,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/pit-vs-sjs/2026/11/11/2026020298",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/pit-vs-sjs/2026/11/11/2026020298",
-    "verifiedAt": "2026-11-12T04:20:44.335516Z"
+    "verifiedAt": "2026-11-12T12:56:35.656343Z"
   }
 }
