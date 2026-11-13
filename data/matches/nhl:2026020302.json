@@ -6,31 +6,99 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-13T00:30:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "INTERMISSION",
+  "period": 1,
+  "clock": "05:09",
   "finishedIn": null,
   "home": {
     "id": "nhl:fla",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 6
   },
   "away": {
     "id": "nhl:det",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 14
   },
   "arena": "Amerant Bank Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "03:52",
+      "team": "home",
+      "playerId": "nhl:p_8477933",
+      "playerName": "Sam Reinhart",
+      "assists": [
+        "nhl:p_8477409",
+        "nhl:p_8477495"
+      ],
+      "score": "1-0",
+      "order": 63
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "04:07",
+      "team": "away",
+      "playerId": "nhl:p_8477456",
+      "playerName": "J.T. Compher",
+      "assists": [
+        "nhl:p_8482802",
+        "nhl:p_8481542"
+      ],
+      "score": "1-1",
+      "order": 67
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "05:28",
+      "team": "home",
+      "playerId": "nhl:p_8477903",
+      "playerName": "Garnet Hathaway",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 90
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "13:14",
+      "team": "away",
+      "playerId": "nhl:p_8477971",
+      "playerName": "Andreas Englund",
+      "score": "1-2",
+      "order": 176
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      6,
+      14
+    ],
+    "shotsOnGoal": [
+      6,
+      14
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020302/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020302/play-by-play"
+    ],
+    "fetchedAt": "2026-11-13T01:27:11.171896+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +106,6 @@
     "url": "https://www.nhl.com/gamecenter/det-vs-fla/2026/11/12/2026020302",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/det-vs-fla/2026/11/12/2026020302",
-    "verifiedAt": "2026-11-12T20:36:52.931692Z"
+    "verifiedAt": "2026-11-13T01:27:11.171964Z"
   }
 }
