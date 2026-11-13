@@ -6,19 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-13T03:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "FINISHED",
+  "period": 3,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:lak",
-    "score": null,
+    "score": 2,
     "periods": [],
     "shots": null
   },
   "away": {
     "id": "nhl:nyi",
-    "score": null,
+    "score": 5,
     "periods": [],
     "shots": null
   },
@@ -38,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/nyi-vs-lak/2026/11/12/2026020308",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/nyi-vs-lak/2026/11/12/2026020308",
-    "verifiedAt": "2026-11-13T01:27:11.290970Z"
+    "verifiedAt": "2026-11-13T08:27:44.841460Z"
   }
 }
