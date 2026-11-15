@@ -6,31 +6,141 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-15T01:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 3,
+  "clock": "13:00",
   "finishedIn": null,
   "home": {
     "id": "nhl:dal",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 22
   },
   "away": {
     "id": "nhl:buf",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 16
   },
   "arena": "American Airlines Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "04:47",
+      "team": "home",
+      "playerId": "nhl:p_8480878",
+      "playerName": "Nils Lundkvist",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 75
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "09:23",
+      "team": "away",
+      "playerId": "nhl:p_8483468",
+      "playerName": "Jiri Kulich",
+      "minutes": 2,
+      "reason": "slashing",
+      "order": 133
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "09:59",
+      "team": "home",
+      "playerId": "nhl:p_8482740",
+      "playerName": "Wyatt Johnston",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 140
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "14:56",
+      "team": "away",
+      "playerId": "nhl:p_8484145",
+      "playerName": "Zach Benson",
+      "minutes": 2,
+      "reason": "slashing",
+      "order": 213
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "17:18",
+      "team": "home",
+      "playerId": "nhl:p_8473994",
+      "playerName": "Jamie Benn",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 236
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "03:59",
+      "team": "away",
+      "playerId": "nhl:p_8483468",
+      "playerName": "Jiri Kulich",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 322
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "16:23",
+      "team": "home",
+      "playerId": "nhl:p_8473994",
+      "playerName": "Jamie Benn",
+      "assists": [
+        "nhl:p_8484829",
+        "nhl:p_8480878"
+      ],
+      "score": "1-0",
+      "order": 465
+    },
+    {
+      "type": "PENALTY",
+      "period": 3,
+      "time": "04:36",
+      "team": "home",
+      "playerId": "nhl:p_8480027",
+      "playerName": "Jason Robertson",
+      "minutes": 2,
+      "reason": "slashing",
+      "order": 577
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      22,
+      16
+    ],
+    "shotsOnGoal": [
+      22,
+      16
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020322/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020322/play-by-play"
+    ],
+    "fetchedAt": "2026-11-15T03:12:24.757398+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +148,6 @@
     "url": "https://www.nhl.com/gamecenter/buf-vs-dal/2026/11/14/2026020322",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/buf-vs-dal/2026/11/14/2026020322",
-    "verifiedAt": "2026-11-14T23:51:20.021479Z"
+    "verifiedAt": "2026-11-15T03:12:24.757471Z"
   }
 }

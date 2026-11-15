@@ -1,6 +1,390 @@
 {
   "news": [
     {
+      "id": "news-6699890",
+      "slug": "filadelfiya-obygrala-kolambus-michkov-i-voronkov-zabili-po-golu",
+      "title": "«Филадельфия» обыграла «Коламбус», Мичков и Воронков забили по голу",
+      "summary": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Коламбус Блю Джекетс» принимал «Филадельфию Флайерз».",
+      "content": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Коламбус Блю Джекетс» принимал «Филадельфию Флайерз».",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-11-15T03:08:03Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699890-filadelfiya-obygrala-kolambus-michkov-i-voronkov-zabili-po-golu.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Коламбус Блю Джекетс",
+        "Филадельфия Флайерз",
+        "Матвей Мичков",
+        "Дмитрий Воронков"
+      ],
+      "relatedTeamIds": [
+        "nhl:cbj",
+        "nhl:phi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6699888",
+      "slug": "gol-svechkova-pomog-kolorado-bez-makara-i-makkinnona-obygrat-monreal",
+      "title": "Гол Свечкова помог «Колорадо» без Макара и Маккиннона обыграть «Монреаль»",
+      "summary": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Монреаль Канадиенс» принимал «Колорадо Эвеланш».",
+      "content": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Монреаль Канадиенс» принимал «Колорадо Эвеланш».",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-11-15T03:02:20Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699888-gol-svechkova-pomog-kolorado-bez-makara-i-makkinnona-obygrat-monreal.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Колорадо Эвеланш",
+        "Монреаль Канадиенс",
+        "Фёдор Свечков"
+      ],
+      "relatedTeamIds": [
+        "nhl:col",
+        "nhl:mtl"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6699886",
+      "slug": "peredacha-chinahova-ne-pomogla-pittsburgu-izbezhat-porazheniya-v-matche-s-ottavoj",
+      "title": "Передача Чинахова не помогла «Питтсбургу» избежать поражения в матче с «Оттавой»",
+      "summary": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Питтсбург Пингвинз» принимал «Оттаву Сенаторз».",
+      "content": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Питтсбург Пингвинз» принимал «Оттаву Сенаторз».",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-11-15T02:56:07Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699886-peredacha-chinahova-ne-pomogla-pittsburgu-izbezhat-porazheniya-v-matche-s-ottavoj.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Питтсбург Пингвинз",
+        "Оттава Сенаторз",
+        "Егор Чинахов"
+      ],
+      "relatedTeamIds": [
+        "nhl:ott",
+        "nhl:pit"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6699884",
+      "slug": "vashington-ustupil-nyu-dzhersi-v-matche-s-11-shajbami-ovechkin-ochkov-ne-nabral",
+      "title": "«Вашингтон» уступил «Нью-Джерси» в матче с 11 шайбами. Овечкин очков не набрал",
+      "summary": "Сегодня, 15 ноября, в Вашингтоне, США, на стадионе «Кэпитал Уан-Арена» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Вашингтон Кэпиталз» принимал «Нью-Джерси Дэвилз».",
+      "content": "Сегодня, 15 ноября, в Вашингтоне, США, на стадионе «Кэпитал Уан-Арена» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Вашингтон Кэпиталз» принимал «Нью-Джерси Дэвилз».",
+      "image": "https://img.championat.com/news/big/p/z/vashington-ustupil-nyu-dzhersi-v-matche-s-11-shajbami-ovechkin-ochkov-ne-nabral_1794712052678052693.jpg",
+      "publishedAt": "2026-11-15T02:51:25Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699884-vashington-ustupil-nyu-dzhersi-v-matche-s-11-shajbami-ovechkin-ochkov-ne-nabral.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Нью-Джерси Дэвилз",
+        "Арсений Грицюк",
+        "Алексей Протас"
+      ],
+      "relatedTeamIds": [
+        "nhl:njd",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6699882",
+      "slug": "dva-assista-kaprizova-i-dubl-yurova-pomogli-minnesote-so-schyotom-6-2-obygrat-boston",
+      "title": "Два ассиста Капризова и дубль Юрова помогли «Миннесоте» со счётом 6:2 обыграть «Бостон»",
+      "summary": "Сегодня, 15 ноября, в Бостоне, США, на стадионе «Ти-Ди Гарден» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Бостон Брюинз» принимал «Миннесоту Уайлд».",
+      "content": "Сегодня, 15 ноября, в Бостоне, США, на стадионе «Ти-Ди Гарден» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Бостон Брюинз» принимал «Миннесоту Уайлд».",
+      "image": "https://img.championat.com/news/big/z/y/dva-assista-kaprizova-i-dubl-yurova-pomogli-minnesote-so-schyotom-6-2-obygrat-boston_17947115862059005558.jpg",
+      "publishedAt": "2026-11-15T02:49:20Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699882-dva-assista-kaprizova-i-dubl-yurova-pomogli-minnesote-so-schyotom-6-2-obygrat-boston.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Бостон Брюинз",
+        "Миннесота Уайлд",
+        "Кирилл Капризов",
+        "Никита Задоров",
+        "Давид Пастрняк",
+        "Яков Тренин",
+        "Данила Юров",
+        "Куинн Хьюз"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:min"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6699880",
+      "slug": "florida-nanesla-porazhenie-sent-luisu-dmitrij-kulikov-stal-avtorom-pobednogo-gola",
+      "title": "«Флорида» нанесла поражение «Сент-Луису», Дмитрий Куликов стал автором победного гола",
+      "summary": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Сент-Луис Блюз» принимал «Флориду Пантерз».",
+      "content": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Сент-Луис Блюз» принимал «Флориду Пантерз».",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-11-15T02:46:43Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699880-florida-nanesla-porazhenie-sent-luisu-dmitrij-kulikov-stal-avtorom-pobednogo-gola.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Флорида Пантерз",
+        "Сент-Луис Блюз",
+        "Дмитрий Куликов"
+      ],
+      "relatedTeamIds": [
+        "nhl:fla",
+        "nhl:stl"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6699876",
+      "slug": "gol-bushara-s-peredachi-makdevida-pomog-edmontonu-obygrat-toronto-so-schyotom-1-0",
+      "title": "Гол Бушара с передачи Макдэвида помог «Эдмонтону» обыграть «Торонто» со счётом 1:0",
+      "summary": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Торонто Мэйпл Лифс» принимал «Эдмонтон Ойлерз».",
+      "content": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Торонто Мэйпл Лифс» принимал «Эдмонтон Ойлерз».",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-11-15T02:41:36Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699876-gol-bushara-s-peredachi-makdevida-pomog-edmontonu-obygrat-toronto-so-schyotom-1-0.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Эдмонтон Ойлерз",
+        "Торонто Мэйпл Лифс",
+        "Коннор Макдэвид",
+        "Эван Бушар"
+      ],
+      "relatedTeamIds": [
+        "nhl:edm",
+        "nhl:tor"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478402"
+      ]
+    },
+    {
+      "id": "news-6699870",
+      "slug": "suhar-daniila-tarasova-pomog-detrojtu-pereigrat-tampa-bej",
+      "title": "«Сухарь» Даниила Тарасова помог «Детройту» переиграть «Тампа-Бэй»",
+      "summary": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Тампа-Бэй Лайтнинг» принимал «Детройт Ред Уингз».",
+      "content": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Тампа-Бэй Лайтнинг» принимал «Детройт Ред Уингз».",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-11-15T02:36:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699870-suhar-daniila-tarasova-pomog-detrojtu-pereigrat-tampa-bej.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Детройт Ред Уингз",
+        "Даниил Тарасов-1999"
+      ],
+      "relatedTeamIds": [
+        "nhl:det",
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6699860",
+      "slug": "konnor-makdevid-okazalsya-v-shage-ot-povtoreniya-dostizheniya-deni-hitli-21-letnej-davnosti",
+      "title": "Коннор Макдэвид оказался в шаге от повторения достижения Дэни Хитли 21-летней давности",
+      "summary": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Торонто Мэйпл Лифс» принимает «Эдмонтон Ойлерз».",
+      "content": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Торонто Мэйпл Лифс» принимает «Эдмонтон Ойлерз».",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-11-15T02:08:40Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699860-konnor-makdevid-okazalsya-v-shage-ot-povtoreniya-dostizheniya-deni-hitli-21-letnej-davnosti.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Эдмонтон Ойлерз",
+        "Торонто Мэйпл Лифс",
+        "Коннор Макдэвид",
+        "Дэни Хитли"
+      ],
+      "relatedTeamIds": [
+        "nhl:edm",
+        "nhl:tor"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478402"
+      ]
+    },
+    {
+      "id": "news-6699858",
+      "slug": "makdevid-stal-luchshim-v-nhl-v-xxi-veke-po-skorosti-dostizheniya-50-ochkov-v-odnom-sezone",
+      "title": "Макдэвид стал лучшим в НХЛ в XXI веке по скорости достижения 50 очков в одном сезоне",
+      "summary": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Торонто Мэйпл Лифс» принимает «Эдмонтон Ойлерз».",
+      "content": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Торонто Мэйпл Лифс» принимает «Эдмонтон Ойлерз».",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-11-15T02:03:31Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699858-makdevid-stal-luchshim-v-nhl-v-xxi-veke-po-skorosti-dostizheniya-50-ochkov-v-odnom-sezone.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Эдмонтон Ойлерз",
+        "Торонто Мэйпл Лифс",
+        "Коннор Макдэвид",
+        "Уэйн Гретцки",
+        "Марио Лемье",
+        "Майк Босси"
+      ],
+      "relatedTeamIds": [
+        "nhl:edm",
+        "nhl:tor"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478402"
+      ]
+    },
+    {
+      "id": "news-6699852",
+      "slug": "konnor-makdevid-stal-pervym-igrokom-v-nyneshnem-sezone-nhl-nabravshim-50-ochkov",
+      "title": "Коннор Макдэвид стал первым игроком в нынешнем сезоне НХЛ, набравшим 50 очков",
+      "summary": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Торонто Мэйпл Лифс» принимает «Эдмонтон Ойлерз».",
+      "content": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Торонто Мэйпл Лифс» принимает «Эдмонтон Ойлерз».",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-11-15T01:52:25Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699852-konnor-makdevid-stal-pervym-igrokom-v-nyneshnem-sezone-nhl-nabravshim-50-ochkov.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Эдмонтон Ойлерз",
+        "Торонто Мэйпл Лифс",
+        "Коннор Макдэвид"
+      ],
+      "relatedTeamIds": [
+        "nhl:edm",
+        "nhl:tor"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478402"
+      ]
+    },
+    {
+      "id": "news-6699844",
+      "slug": "kirill-kaprizov-ustanovil-novyj-rekord-minnesoty-sovmestno-s-partnyorom-po-komande",
+      "title": "Кирилл Капризов установил новый рекорд «Миннесоты» совместно с партнёром по команде",
+      "summary": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Бостон Брюинз» принимает «Миннесоту Уайлд».",
+      "content": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Бостон Брюинз» принимает «Миннесоту Уайлд».",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-11-15T01:42:01Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699844-kirill-kaprizov-ustanovil-novyj-rekord-minnesoty-sovmestno-s-partnyorom-po-komande.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Бостон Брюинз",
+        "Миннесота Уайлд",
+        "Кирилл Капризов",
+        "Куинн Хьюз"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:min"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6699842",
+      "slug": "41-letnij-byorns-stal-14-m-igrokom-v-istorii-nhl-sygravshim-1600-matchej-v-lige",
+      "title": "41-летний Бёрнс стал 14-м игроком в истории НХЛ, сыгравшим 1600 матчей в лиге",
+      "summary": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Монреаль Канадиенс» принимает «Колорадо Эвеланш».",
+      "content": "В очередном матче регулярного чемпионата Национальной хоккейной лиги «Монреаль Канадиенс» принимает «Колорадо Эвеланш».",
+      "image": "assets/images/news_nhl_season.jpg",
+      "publishedAt": "2026-11-15T01:35:18Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699842-41-letnij-byorns-stal-14-m-igrokom-v-istorii-nhl-sygravshim-1600-matchej-v-lige.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Колорадо Эвеланш",
+        "Монреаль Канадиенс",
+        "Яромир Ягр",
+        "Горди Хоу",
+        "Джо Торнтон",
+        "Марк Мессье",
+        "Патрик Марло",
+        "Брент Бёрнс",
+        "Рон Фрэнсис",
+        "Марк Рекки",
+        "Крис Челиос"
+      ],
+      "relatedTeamIds": [
+        "nhl:col",
+        "nhl:mtl"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6699796",
+      "slug": "dmitrij-voronkov-zabil-pervyj-gol-v-nyneshnem-sezone-nhl",
+      "title": "Дмитрий Воронков забил первый гол в нынешнем сезоне НХЛ",
+      "summary": "В эти минуты в Коламбусе на садионе «Нейшнвайд-Арена» проходит матч регулярного чемпионата Национальной хоккейной лиги, в котором «Коламбус Блю Джекетс» принимает «Филадельфию Флайерз».",
+      "content": "В эти минуты в Коламбусе на садионе «Нейшнвайд-Арена» проходит матч регулярного чемпионата Национальной хоккейной лиги, в котором «Коламбус Блю Джекетс» принимает «Филадельфию Флайерз».",
+      "image": "https://img.championat.com/news/big/k/g/dmitrij-voronkov-zabil-pervyj-gol-v-nyneshnem-sezone-nhl_1794702762683548759.jpg",
+      "publishedAt": "2026-11-15T00:32:43Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699796-dmitrij-voronkov-zabil-pervyj-gol-v-nyneshnem-sezone-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Коламбус Блю Джекетс",
+        "Филадельфия Флайерз",
+        "Дмитрий Воронков"
+      ],
+      "relatedTeamIds": [
+        "nhl:cbj",
+        "nhl:phi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6699766",
+      "slug": "chikago-blekhouks-vinnipeg-dzhets-rezultat-matcha-15-noyabrya-2026-schyot-4-5-b-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "«Виннипег» отыгрался с 0:4 и одолел «Чикаго» по буллитам. Это шестая подряд победа «Джетс»",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором встречались «Чикаго Блэкхоукс» и «Виннипег Джетс».",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором встречались «Чикаго Блэкхоукс» и «Виннипег Джетс».",
+      "image": "https://img.championat.com/news/big/o/j/vinnipeg-otygralsya-s-0-4-i-odolel-chikago-po-bullitam-eto-shestaya-podryad-pobeda-dzhets_179470077396798859.jpg",
+      "publishedAt": "2026-11-14T23:59:14Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6699766-chikago-blekhouks-vinnipeg-dzhets-rezultat-matcha-15-noyabrya-2026-schyot-4-5-b-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Чикаго Блэкхоукс",
+        "Виннипег Джетс",
+        "Коннор Бедард",
+        "Марк Шайфли",
+        "Кайл Коннор",
+        "Коул Перфетти",
+        "Фрэнк Назар",
+        "Тайлер Бертуцци",
+        "Антон Фронделль"
+      ],
+      "relatedTeamIds": [
+        "nhl:chi",
+        "nhl:wpg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6699718",
       "slug": "svechnikov-s-dublem-priznan-vtoroj-zvezdoj-vynesennogo-v-helsinki-matcha-nhl",
       "title": "Свечников с дублем признан второй звездой вынесенного в Финляндию матча НХЛ",
@@ -388,360 +772,6 @@
       "relatedTeamIds": [
         "khl:amur",
         "khl:sochi"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6698640",
-      "slug": "vashington-kepitalz-nyu-dzhersi-devilz-vo-skolko-nachalo-matcha-nhl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-15-noyabrya",
-      "title": "«Вашингтон» — «Нью-Джерси»: во сколько начало матча НХЛ, где смотреть трансляцию",
-      "summary": "В ночь на 15 ноября продолжится регулярный чемпионат Национальной хоккейной лиги.",
-      "content": "В ночь на 15 ноября продолжится регулярный чемпионат Национальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/s/v/vashington-nyu-dzhersi-vo-skolko-nachalo-matcha-nhl-gde-smotret-translyaciyu_179463398097925222.jpg",
-      "publishedAt": "2026-11-14T18:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6698640-vashington-kepitalz-nyu-dzhersi-devilz-vo-skolko-nachalo-matcha-nhl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-15-noyabrya.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Нью-Джерси Дэвилз"
-      ],
-      "relatedTeamIds": [
-        "nhl:njd",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6699450",
-      "slug": "forvard-admirala-chezganov-zayavil-chto-izvinilsya-pered-kotlyarovym-za-udar-v-golovu",
-      "title": "Форвард «Адмирала» Чезганов заявил, что извинился перед Котляровым за удар в голову",
-      "summary": "Нападающий «Адмирала» Егор Чезганов рассказал, что принёс извинения форварду «Спартака» Илье Котлярову, которого он ударил клюшкой в голову в матче между командами.",
-      "content": "Нападающий «Адмирала» Егор Чезганов рассказал, что принёс извинения форварду «Спартака» Илье Котлярову, которого он ударил клюшкой в голову в матче между командами.",
-      "image": "https://img.championat.com/news/big/y/a/forvard-admirala-chezganov-z.jpg",
-      "publishedAt": "2026-11-14T17:51:22Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6699450-forvard-admirala-chezganov-zayavil-chto-izvinilsya-pered-kotlyarovym-za-udar-v-golovu.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Спартак",
-        "Адмирал",
-        "Драки"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6699428",
-      "slug": "glavnyj-trener-admirala-bratash-prokommentiroval-porazhenie-ot-spartaka",
-      "title": "Главный тренер «Адмирала» Браташ прокомментировал поражение от «Спартака»",
-      "summary": "Главный тренер «Адмирала» Олег Браташ высказался о поражении от «Спартака» (3:6) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Главный тренер «Адмирала» Олег Браташ высказался о поражении от «Спартака» (3:6) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/q/d/glavnyj-trener-admirala-brat.jpg",
-      "publishedAt": "2026-11-14T17:27:19Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6699428-glavnyj-trener-admirala-bratash-prokommentiroval-porazhenie-ot-spartaka.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Спартак",
-        "Адмирал",
-        "Олег Браташ"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6699418",
-      "slug": "zhamnov-ob-igre-spartaka-s-admiralom-eta-pobeda-nam-ochen-byla-nuzhna-psihologicheski",
-      "title": "Жамнов — об игре «Спартака» с «Адмиралом»: эта победа нам очень была нужна психологически",
-      "summary": "Главный тренер «Спартака» Алексей Жамнов прокомментировал победу над «Адмиралом» (6:3) в матче регулярного чемпионата Фонбет КХЛ.",
-      "content": "Главный тренер «Спартака» Алексей Жамнов прокомментировал победу над «Адмиралом» (6:3) в матче регулярного чемпионата Фонбет КХЛ.",
-      "image": "https://img.championat.com/news/big/h/s/zhamnov-ob-igre-spartaka-s-a.jpg",
-      "publishedAt": "2026-11-14T17:18:38Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6699418-zhamnov-ob-igre-spartaka-s-admiralom-eta-pobeda-nam-ochen-byla-nuzhna-psihologicheski.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Спартак",
-        "Адмирал",
-        "Алексей Жамнов",
-        "Макс Комтуа"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6699392",
-      "slug": "fazel-nazval-ulovkoj-reshenie-iihf-podat-apellyaciyu-na-reshenie-cas-po-dopusku-rossii",
-      "title": "Фазель назвал уловкой решение ИИХФ подать апелляцию на вердикт CAS о допуске России",
-      "summary": "Бывший президент Международной федерации хоккея Рене Фазель выразил мнение, что решение ИИХФ подать апелляцию на вердикт Спортивного арбитражного суда (CAS) по допуску российских хоккеистов можно назвать уловкой.",
-      "content": "Бывший президент Международной федерации хоккея Рене Фазель выразил мнение, что решение ИИХФ подать апелляцию на вердикт Спортивного арбитражного суда (CAS) по допуску российских хоккеистов можно назвать уловкой.",
-      "image": "https://img.championat.com/news/big/v/n/fazel-nazval-ulovkoj-reshenie-iihf-podat-apellyaciyu-na-verdikt-cas-o-dopuske-rossii_17946758441723793833.jpg",
-      "publishedAt": "2026-11-14T16:58:25Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6699392-fazel-nazval-ulovkoj-reshenie-iihf-podat-apellyaciyu-na-reshenie-cas-po-dopusku-rossii.html",
-      "tags": [
-        "Хоккей",
-        "ЧМ по хоккею 2027",
-        "МЧМ по хоккею 2027",
-        "Сборная России — Хоккей",
-        "Молодёжная сборная России — Хоккей",
-        "Отстранение России",
-        "Рене Фазель",
-        "ЧМ-2027",
-        "МЧМ-2027",
-        "Возвращение России в международный хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6699376",
-      "slug": "forvard-ak-barsa-stas-vyskazalsya-o-porazhenii-ot-avtomobilista",
-      "title": "Форвард «Ак Барса» Стась высказался о поражении от «Автомобилиста»",
-      "summary": "Нападающий «Ак Барса» Андрей Стась прокомментировал поражение от «Автомобилиста» (1:5) в матче регулярного чемпионата Фонбет КХЛ.",
-      "content": "Нападающий «Ак Барса» Андрей Стась прокомментировал поражение от «Автомобилиста» (1:5) в матче регулярного чемпионата Фонбет КХЛ.",
-      "image": "https://img.championat.com/news/big/u/v/forvard-ak-barsa-stas-vyskazalsya-o-porazhenii-ot-avtomobilista_1794674048862626472.jpg",
-      "publishedAt": "2026-11-14T16:34:12Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6699376-forvard-ak-barsa-stas-vyskazalsya-o-porazhenii-ot-avtomobilista.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Автомобилист",
-        "Андрей Стась"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:avtomobilist"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6699360",
-      "slug": "lokomotiv-shanhajskie-drakony-rezultat-matcha-14-noyabrya-2026-goda-schet-5-0-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Локомотив» всухую разгромил «Шанхайских Драконов»",
-      "summary": "Сегодня, 14 ноября, в Ярославле на стадионе «Арена-2000-Локомотив» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Локомотив» принимал «Шанхайских Драко...",
-      "content": "Сегодня, 14 ноября, в Ярославле на стадионе «Арена-2000-Локомотив» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Локомотив» принимал «Шанхайских Драконов».",
-      "image": "https://img.championat.com/news/big/n/k/lokomotiv-vsuhuyu-razgromil-shanhajskih-drakonov_1794673337979075472.jpg",
-      "publishedAt": "2026-11-14T16:22:18Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6699360-lokomotiv-shanhajskie-drakony-rezultat-matcha-14-noyabrya-2026-goda-schet-5-0-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Локомотив",
-        "Шанхайские Драконы (Куньлунь Ред Стар)"
-      ],
-      "relatedTeamIds": [
-        "khl:kunlun",
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6699330",
-      "slug": "spartak-admiral-rezultat-matcha-14-noyabrya-2026-goda-schet-6-3-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Спартак» уверенно победил «Адмирал» в матче с девятью шайбами",
-      "summary": "Сегодня, 14 ноября, в Москве на стадионе «Мегаспорт» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Спартак» принимал «Адмирал» из Владивостока.",
-      "content": "Сегодня, 14 ноября, в Москве на стадионе «Мегаспорт» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Спартак» принимал «Адмирал» из Владивостока.",
-      "image": "https://img.championat.com/news/big/n/t/spartak-uverenno-pobedil-admiral-v-matche-s-devyatyu-shajbami_17946722431283632998.jpg",
-      "publishedAt": "2026-11-14T16:04:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6699330-spartak-admiral-rezultat-matcha-14-noyabrya-2026-goda-schet-6-3-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Спартак",
-        "Адмирал"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6699334",
-      "slug": "sochi-amur-rezultat-matcha-14-noyabrya-2026-goda-schet-0-2-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Амур» одержал третью победу подряд, обыграв «Сочи»",
-      "summary": "Сегодня, 14 ноября, в Сочи на стадионе «Большой» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Сочи» принимал хабаровский «Амур».",
-      "content": "Сегодня, 14 ноября, в Сочи на стадионе «Большой» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Сочи» принимал хабаровский «Амур».",
-      "image": "assets/images/news_spartak_traktor.jpg",
-      "publishedAt": "2026-11-14T16:03:03Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6699334-sochi-amur-rezultat-matcha-14-noyabrya-2026-goda-schet-0-2-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Амур",
-        "Сочи"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:sochi"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6699300",
-      "slug": "minnesota-gotova-vymenyat-larkina-na-yurova-i-draft-piki-pervogo-raunda-russo",
-      "title": "«Миннесота» готова выменять Ларкина на Юрова и драфт-пики первого раунда — Руссо",
-      "summary": "Журналист Майкл Руссо поделился мнением о ситуации с желанием «Миннесоты Уайлд» выменять форварда «Детройт Ред Уингз» Дилана Ларкина.",
-      "content": "Журналист Майкл Руссо поделился мнением о ситуации с желанием «Миннесоты Уайлд» выменять форварда «Детройт Ред Уингз» Дилана Ларкина.",
-      "image": "https://img.championat.com/news/big/p/e/minnesota-gotova-vymenyat-larkina-na-yurova-i-draft-piki-pervogo-raunda-russo_17946697391539193113.jpg",
-      "publishedAt": "2026-11-14T15:22:20Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6699300-minnesota-gotova-vymenyat-larkina-na-yurova-i-draft-piki-pervogo-raunda-russo.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Переходы — Хоккей",
-        "Миннесота Уайлд",
-        "Детройт Ред Уингз",
-        "Данила Юров",
-        "Стив Айзерман",
-        "Дилан Ларкин"
-      ],
-      "relatedTeamIds": [
-        "nhl:det",
-        "nhl:min"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6699288",
-      "slug": "kudashov-o-pervoj-shajbe-ruzhichki-v-sezone-gol-nazreval-nichego-udivitelnogo",
-      "title": "Кудашов — о первой шайбе Ружички в сезоне: гол назревал, ничего удивительного",
-      "summary": "Главный тренер «Автомобилиста» Алексей Кудашов высказался о первом голе нападающего команды Адама Ружички в текущем сезоне.",
-      "content": "Главный тренер «Автомобилиста» Алексей Кудашов высказался о первом голе нападающего команды Адама Ружички в текущем сезоне.",
-      "image": "https://img.championat.com/news/big/z/h/kudashov-o-pervoj-shajbe-ruzhichki-v-sezone-gol-nazreval-nichego-udivitelnogo_17946689541768208002.jpg",
-      "publishedAt": "2026-11-14T15:09:15Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6699288-kudashov-o-pervoj-shajbe-ruzhichki-v-sezone-gol-nazreval-nichego-udivitelnogo.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Автомобилист",
-        "Алексей Кудашов",
-        "Майкл Пелино",
-        "Адам Ружичка",
-        "Владимир Галкин"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:avtomobilist"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6699280",
-      "slug": "glavnyj-trener-avtomobilista-kudashov-ocenil-pobedu-nad-ak-barsom",
-      "title": "Главный тренер «Автомобилиста» Кудашов оценил победу над «Ак Барсом»",
-      "summary": "Главный тренер «Автомобилиста» Алексей Кудашов высказался о домашней победе над «Ак Барсом» со счётом 5:1.",
-      "content": "Главный тренер «Автомобилиста» Алексей Кудашов высказался о домашней победе над «Ак Барсом» со счётом 5:1.",
-      "image": "https://img.championat.com/news/big/j/b/glavnyj-trener-avtomobilista.jpg",
-      "publishedAt": "2026-11-14T15:03:28Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6699280-glavnyj-trener-avtomobilista-kudashov-ocenil-pobedu-nad-ak-barsom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Автомобилист",
-        "Алексей Кудашов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:avtomobilist"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6699270",
-      "slug": "gatiyatulin-vyskazalsya-o-porazhenii-ak-barsa-ot-avtomobilista-so-schyotom-1-5",
-      "title": "Гатиятулин высказался о поражении «Ак Барса» от «Автомобилиста» со счётом 1:5",
-      "summary": "Главный тренер «Ак Барса» Анвар Гатиятулин прокомментировал гостевое поражение от «Автомобилиста» (1:5).",
-      "content": "Главный тренер «Ак Барса» Анвар Гатиятулин прокомментировал гостевое поражение от «Автомобилиста» (1:5).",
-      "image": "https://img.championat.com/news/big/o/o/gatiyatulin-vyskazalsya-o-po.jpg",
-      "publishedAt": "2026-11-14T14:58:51Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6699270-gatiyatulin-vyskazalsya-o-porazhenii-ak-barsa-ot-avtomobilista-so-schyotom-1-5.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Автомобилист",
-        "Анвар Гатиятулин"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:avtomobilist"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6699234",
-      "slug": "eks-glava-mok-bah-vyskazalsya-o-vozmozhnom-isklyuchenii-ukrainy-iz-chm-posle-dopuska-rossii",
-      "title": "Экс-глава МОК Бах высказался о возможном исключении Украины из ЧМ после допуска России",
-      "summary": "Бывший президент Международного олимпийского комитета (МОК) Томас Бах высказался о том, что допуск сборной России на ЧМ-2027 может привести к исключению команды Украины из числа участников.",
-      "content": "Бывший президент Международного олимпийского комитета (МОК) Томас Бах высказался о том, что допуск сборной России на ЧМ-2027 может привести к исключению команды Украины из числа участников.",
-      "image": "https://img.championat.com/news/big/v/x/eks-glava-mok-bah-vyskazalsy.jpg",
-      "publishedAt": "2026-11-14T14:47:31Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6699234-eks-glava-mok-bah-vyskazalsya-o-vozmozhnom-isklyuchenii-ukrainy-iz-chm-posle-dopuska-rossii.html",
-      "tags": [
-        "Хоккей",
-        "ЧМ по хоккею 2027",
-        "Сборная России — Хоккей",
-        "МОК",
-        "Томас Бах",
-        "Сборная Украины — Хоккей",
-        "ЧМ-2027",
-        "Возвращение России в международный хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6699224",
-      "slug": "grishin-o-bolshinstve-neftehimika-v-matche-s-avangardom-mne-stydno-bylo-prosto",
-      "title": "Гришин — о большинстве «Нефтехимика» в матче с «Авангардом»: мне стыдно было просто",
-      "summary": "Главный тренер «Нефтехимика» Игорь Гришин после поражения от «Авангарда» (1:5) заявил, что ему было стыдно за большинство своей команды.",
-      "content": "Главный тренер «Нефтехимика» Игорь Гришин после поражения от «Авангарда» (1:5) заявил, что ему было стыдно за большинство своей команды.",
-      "image": "https://img.championat.com/news/big/g/h/grishin-o-bolshinstve-nefteh.jpg",
-      "publishedAt": "2026-11-14T14:32:15Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6699224-grishin-o-bolshinstve-neftehimika-v-matche-s-avangardom-mne-stydno-bylo-prosto.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Нефтехимик",
-        "Игорь Гришин"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard",
-        "khl:neftekhimik"
       ],
       "relatedPlayerIds": []
     }

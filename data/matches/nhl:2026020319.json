@@ -6,19 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-15T00:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "FINISHED",
+  "period": 3,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:cbj",
-    "score": null,
+    "score": 3,
     "periods": [],
     "shots": null
   },
   "away": {
     "id": "nhl:phi",
-    "score": null,
+    "score": 4,
     "periods": [],
     "shots": null
   },
@@ -38,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/phi-vs-cbj/2026/11/14/2026020319",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/phi-vs-cbj/2026/11/14/2026020319",
-    "verifiedAt": "2026-11-14T23:51:20.021150Z"
+    "verifiedAt": "2026-11-15T03:12:24.696758Z"
   }
 }

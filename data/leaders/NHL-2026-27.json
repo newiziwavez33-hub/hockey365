@@ -77,7 +77,7 @@
         "playerId": "nhl:p_8479314",
         "playerName": "Matthew Tkachuk",
         "teamId": "nhl:fla",
-        "value": 24
+        "value": 25
       },
       {
         "playerId": "nhl:p_8480803",
@@ -112,6 +112,12 @@
         "value": 1.62
       },
       {
+        "playerId": "nhl:p_8480193",
+        "playerName": "Daniil Tarasov",
+        "teamId": "nhl:det",
+        "value": 1.84
+      },
+      {
         "playerId": "nhl:p_8482661",
         "playerName": "Jesper Wallstedt",
         "teamId": "nhl:min",
@@ -122,12 +128,6 @@
         "playerName": "Connor Hellebuyck",
         "teamId": "nhl:njd",
         "value": 1.97
-      },
-      {
-        "playerId": "nhl:p_8480193",
-        "playerName": "Daniil Tarasov",
-        "teamId": "nhl:det",
-        "value": 2.1
       }
     ],
     "svPct": [
@@ -138,15 +138,15 @@
         "value": 0.938
       },
       {
+        "playerId": "nhl:p_8480193",
+        "playerName": "Daniil Tarasov",
+        "teamId": "nhl:det",
+        "value": 0.931
+      },
+      {
         "playerId": "nhl:p_8484170",
         "playerName": "Jacob Fowler",
         "teamId": "nhl:mtl",
-        "value": 0.926
-      },
-      {
-        "playerId": "nhl:p_8480981",
-        "playerName": "Joel Hofer",
-        "teamId": "nhl:stl",
         "value": 0.926
       },
       {
