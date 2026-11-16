@@ -6,31 +6,143 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-16T00:30:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "INTERMISSION",
+  "period": 1,
+  "clock": "03:11",
   "finishedIn": null,
   "home": {
     "id": "nhl:phi",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 10
   },
   "away": {
     "id": "nhl:edm",
-    "score": null,
+    "score": 3,
     "periods": [],
-    "shots": null
+    "shots": 8
   },
   "arena": "Xfinity Mobile Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "01:05",
+      "team": "away",
+      "playerId": "nhl:p_8477934",
+      "playerName": "Leon Draisaitl",
+      "minutes": 2,
+      "reason": "slashing",
+      "order": 25
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "06:53",
+      "team": "home",
+      "playerId": "nhl:p_8481122",
+      "playerName": "Simon Benoit",
+      "minutes": 2,
+      "reason": "illegal-check-to-head",
+      "order": 106
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "08:08",
+      "team": "away",
+      "playerId": "nhl:p_8477934",
+      "playerName": "Leon Draisaitl",
+      "assists": [
+        "nhl:p_8478402",
+        "nhl:p_8480803"
+      ],
+      "score": "0-1",
+      "order": 118
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "09:30",
+      "team": "away",
+      "playerId": "nhl:p_8479365",
+      "playerName": "Trent Frederic",
+      "minutes": 2,
+      "reason": "cross-checking",
+      "order": 140
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "12:31",
+      "team": "home",
+      "playerId": "nhl:p_8482142",
+      "playerName": "Jamie Drysdale",
+      "minutes": 2,
+      "reason": "delaying-game-puck-over-glass",
+      "order": 176
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "13:22",
+      "team": "away",
+      "playerId": "nhl:p_8481617",
+      "playerName": "Vasily Podkolzin",
+      "score": "0-2",
+      "order": 183
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "18:32",
+      "team": "away",
+      "playerId": "nhl:p_8475786",
+      "playerName": "Zach Hyman",
+      "assists": [
+        "nhl:p_8478402",
+        "nhl:p_8480803"
+      ],
+      "score": "0-3",
+      "order": 261
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "18:46",
+      "team": "away",
+      "playerId": "nhl:p_8482166",
+      "playerName": "Shakir Mukhamadullin",
+      "minutes": 2,
+      "reason": "delaying-game-puck-over-glass",
+      "order": 265
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      10,
+      8
+    ],
+    "shotsOnGoal": [
+      10,
+      8
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020326/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020326/play-by-play"
+    ],
+    "fetchedAt": "2026-11-16T01:34:26.974654+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +150,6 @@
     "url": "https://www.nhl.com/gamecenter/edm-vs-phi/2026/11/15/2026020326",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/edm-vs-phi/2026/11/15/2026020326",
-    "verifiedAt": "2026-11-15T21:57:40.481246Z"
+    "verifiedAt": "2026-11-16T01:34:26.974725Z"
   }
 }

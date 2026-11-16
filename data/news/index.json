@@ -1,6 +1,55 @@
 {
   "news": [
     {
+      "id": "news-6701150",
+      "slug": "trener-vashingtona-vyskazalsya-o-trebovaniyah-k-svoim-igrokam-upomyanuv-ovechkina",
+      "title": "Тренер «Вашингтона» высказался о требованиях к своим игрокам, упомянув Овечкина",
+      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался о своих игроках после поражения команды со счётом 4:7 в регулярном чемпионате НХЛ.",
+      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери высказался о своих игроках после поражения команды со счётом 4:7 в регулярном чемпионате НХЛ.",
+      "image": "https://img.championat.com/news/big/e/z/trener-vashingtona-vyskazalsya-o-trebovaniyah-k-svoim-igrokam-upomyanuv-ovechkina_17947906561071896842.jpg",
+      "publishedAt": "2026-11-16T00:57:38Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6701150-trener-vashingtona-vyskazalsya-o-trebovaniyah-k-svoim-igrokam-upomyanuv-ovechkina.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Нью-Джерси Дэвилз",
+        "Спенсер Карбери"
+      ],
+      "relatedTeamIds": [
+        "nhl:njd",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6701124",
+      "slug": "trener-vashingtona-vyskazalsya-o-porazhenii-ot-nyu-dzhersi-gde-komanda-propustila-7-shajb",
+      "title": "Тренер «Вашингтона» высказался о поражении от «Нью-Джерси», где команда пропустила 7 шайб",
+      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери прокомментировал поражение команды в матче регулярного чемпионата НХЛ с «Нью-Джерси Дэвилз» (4:7).",
+      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери прокомментировал поражение команды в матче регулярного чемпионата НХЛ с «Нью-Джерси Дэвилз» (4:7).",
+      "image": "https://img.championat.com/news/big/r/b/trener-vashingtona-vyskazalsya-o-porazhenii-ot-nyu-dzhersi-gde-komanda-propustila-7-shajb_17947869581051894067.jpg",
+      "publishedAt": "2026-11-15T23:55:59Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6701124-trener-vashingtona-vyskazalsya-o-porazhenii-ot-nyu-dzhersi-gde-komanda-propustila-7-shajb.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Нью-Джерси Дэвилз",
+        "Спенсер Карбери"
+      ],
+      "relatedTeamIds": [
+        "nhl:njd",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6700968",
       "slug": "napadayuschij-admirala-chezganov-diskvalificirovan-na-chetyre-matcha-za-udar-v-golovu",
       "title": "Нападающий «Адмирала» Чезганов дисквалифицирован на четыре матча за удар в голову",
@@ -708,52 +757,6 @@
         "Ярослав Люзенков"
       ],
       "relatedTeamIds": [
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6700544",
-      "slug": "yaroslav-lyuzenkov-prokommentiroval-trete-porazhenie-sibiri-podryad",
-      "title": "Ярослав Люзенков прокомментировал третье поражение «Сибири» подряд",
-      "summary": "Главный тренер «Сибири» Ярослав Люзенков высказался об итогах матча с московским «Динамо» (1:3).",
-      "content": "Главный тренер «Сибири» Ярослав Люзенков высказался об итогах матча с московским «Динамо» (1:3).",
-      "image": "https://img.championat.com/news/big/e/x/yaroslav-lyuzenkov-prokommen.jpg",
-      "publishedAt": "2026-11-15T14:35:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6700544-yaroslav-lyuzenkov-prokommentiroval-trete-porazhenie-sibiri-podryad.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Сибирь",
-        "Ярослав Люзенков"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6700528",
-      "slug": "orehovskij-o-pobede-nad-sibiryu-samoe-glavnoe-chto-komanda-nachinaet-umet-terpet",
-      "title": "Ореховский — о победе над «Сибирью»: самое главное, что команда начинает уметь терпеть",
-      "summary": "Исполняющий обязанности главного тренера московского «Динамо» Олег Ореховский высказался о победе в гостевом матче с «Сибирью» (3:1).",
-      "content": "Исполняющий обязанности главного тренера московского «Динамо» Олег Ореховский высказался о победе в гостевом матче с «Сибирью» (3:1).",
-      "image": "https://img.championat.com/news/big/r/h/orehovskij-o-pobede-nad-sibi.jpg",
-      "publishedAt": "2026-11-15T14:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6700528-orehovskij-o-pobede-nad-sibiryu-samoe-glavnoe-chto-komanda-nachinaet-umet-terpet.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Сибирь",
-        "Олег Ореховский"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk",
         "khl:sibir"
       ],
       "relatedPlayerIds": []
