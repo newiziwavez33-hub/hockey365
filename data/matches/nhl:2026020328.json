@@ -6,78 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-16T01:00:00Z",
-  "status": "LIVE",
-  "period": 1,
-  "clock": "05:59",
-  "finishedIn": null,
+  "status": "FINISHED",
+  "period": 3,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:ana",
-    "score": 2,
+    "score": 6,
     "periods": [],
-    "shots": 10
+    "shots": null
   },
   "away": {
     "id": "nhl:cgy",
-    "score": 0,
+    "score": 1,
     "periods": [],
-    "shots": 2
+    "shots": null
   },
   "arena": "Honda Center",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "01:16",
-      "team": "home",
-      "playerId": "nhl:p_8482408",
-      "playerName": "Jeff Malott",
-      "assists": [
-        "nhl:p_8484762",
-        "nhl:p_8481563"
-      ],
-      "score": "1-0",
-      "order": 23
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "13:24",
-      "team": "home",
-      "playerId": "nhl:p_8483445",
-      "playerName": "Cutter Gauthier",
-      "assists": [
-        "nhl:p_8482731",
-        "nhl:p_8481538"
-      ],
-      "score": "2-0",
-      "order": 197
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      10,
-      2
-    ],
-    "shotsOnGoal": [
-      10,
-      2
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020328/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020328/play-by-play"
-    ],
-    "fetchedAt": "2026-11-16T01:34:27.107408+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -85,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/cgy-vs-ana/2026/11/15/2026020328",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/cgy-vs-ana/2026/11/15/2026020328",
-    "verifiedAt": "2026-11-16T01:34:27.107474Z"
+    "verifiedAt": "2026-11-16T08:32:26.679495Z"
   }
 }

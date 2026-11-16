@@ -7,13 +7,13 @@
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
         "teamId": "nhl:edm",
-        "value": 50
+        "value": 53
       },
       {
         "playerId": "nhl:p_8477934",
         "playerName": "Leon Draisaitl",
         "teamId": "nhl:edm",
-        "value": 38
+        "value": 41
       },
       {
         "playerId": "nhl:p_8478864",
@@ -25,7 +25,7 @@
         "playerId": "nhl:p_8480803",
         "playerName": "Evan Bouchard",
         "teamId": "nhl:edm",
-        "value": 34
+        "value": 36
       },
       {
         "playerId": "nhl:p_8477492",
@@ -39,6 +39,12 @@
         "playerId": "nhl:p_8477934",
         "playerName": "Leon Draisaitl",
         "teamId": "nhl:edm",
+        "value": 20
+      },
+      {
+        "playerId": "nhl:p_8483445",
+        "playerName": "Cutter Gauthier",
+        "teamId": "nhl:ana",
         "value": 18
       },
       {
@@ -54,12 +60,6 @@
         "value": 17
       },
       {
-        "playerId": "nhl:p_8483445",
-        "playerName": "Cutter Gauthier",
-        "teamId": "nhl:ana",
-        "value": 17
-      },
-      {
         "playerId": "nhl:p_8477476",
         "playerName": "Artturi Lehkonen",
         "teamId": "nhl:col",
@@ -71,7 +71,7 @@
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
         "teamId": "nhl:edm",
-        "value": 39
+        "value": 41
       },
       {
         "playerId": "nhl:p_8479314",
@@ -80,22 +80,22 @@
         "value": 25
       },
       {
+        "playerId": "nhl:p_8480803",
+        "playerName": "Evan Bouchard",
+        "teamId": "nhl:edm",
+        "value": 24
+      },
+      {
         "playerId": "nhl:p_8480800",
         "playerName": "Quinn Hughes",
         "teamId": "nhl:min",
         "value": 23
       },
       {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 22
-      },
-      {
-        "playerId": "nhl:p_8479343",
-        "playerName": "Clayton Keller",
-        "teamId": "nhl:uta",
-        "value": 22
+        "playerId": "nhl:p_8478483",
+        "playerName": "Mitch Marner",
+        "teamId": "nhl:vgk",
+        "value": 23
       }
     ],
     "gaa": [
