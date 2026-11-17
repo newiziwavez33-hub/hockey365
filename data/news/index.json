@@ -1,6 +1,390 @@
 {
   "news": [
     {
+      "id": "news-6702468",
+      "slug": "eks-igrok-vashingtona-uveren-chto-ovechkin-otpravil-menya-obratno-v-farm-klub",
+      "title": "Экс-игрок «Вашингтона»: уверен, что Овечкин отправил меня обратно в фарм-клуб",
+      "summary": "Экс-игрок «Вашингтона» Сами Лепистё считает, что его карьера в клубе не сложилась из-за российского нападающего Александра Овечкина.",
+      "content": "Экс-игрок «Вашингтона» Сами Лепистё считает, что его карьера в клубе не сложилась из-за российского нападающего Александра Овечкина.",
+      "image": "https://img.championat.com/news/big/g/r/eks-igrok-vashingtona-uveren-chto-ovechkin-otpravil-menya-obratno-v-farm-klub_1794878535409349563.jpg",
+      "publishedAt": "2026-11-17T01:22:17Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702468-eks-igrok-vashingtona-uveren-chto-ovechkin-otpravil-menya-obratno-v-farm-klub.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Сами Лепистё"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6702320",
+      "slug": "rezultaty-matchej-mhl-na-16-noyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 16 ноября 2026 года",
+      "summary": "Сегодня, 16 ноября, прошли шесть матчей OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 16 ноября, прошли шесть матчей OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-11-16T20:56:22Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702320-rezultaty-matchej-mhl-na-16-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Спартак",
+        "МХК СКА-1946",
+        "МХК Сибирские Снайперы",
+        "МХК Мамонты Югры",
+        "МХК Снежные Барсы",
+        "МХК Динамо Санкт-Петербург",
+        "МХК Ирбис Казань",
+        "МХК Сахалинские Акулы",
+        "Молот",
+        "МХК Тайфун"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702314",
+      "slug": "rezultaty-matchej-vhl-na-16-noyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 16 ноября 2026 года",
+      "summary": "Сегодня, 16 ноября, состоялись два матча OLIMPBET Чемпионата России ВХЛ.",
+      "content": "Сегодня, 16 ноября, состоялись два матча OLIMPBET Чемпионата России ВХЛ.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-11-16T20:53:09Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702314-rezultaty-matchej-vhl-na-16-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Торос",
+        "Ижсталь",
+        "Молот-Прикамье",
+        "МХК Олимпия"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702310",
+      "slug": "rezultaty-matchej-khl-na-16-noyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 16 ноября 2026 года",
+      "summary": "Сегодня, 16 ноября, состоялись три матча регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 16 ноября, состоялись три матча регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-11-16T20:50:15Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702310-rezultaty-matchej-khl-na-16-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Салават Юлаев",
+        "Локомотив",
+        "Амур",
+        "Адмирал",
+        "Сочи"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral",
+        "khl:amur",
+        "khl:cska",
+        "khl:lokomotiv",
+        "khl:salavat-yulaev",
+        "khl:sochi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702302",
+      "slug": "glavnyj-trener-amura-andrievskij-prokommentiroval-pobedu-nad-cska",
+      "title": "Главный тренер «Амура» Андриевский прокомментировал победу над ЦСКА",
+      "summary": "Главный тренер «Амура» Александр Андриевский высказался о победе над ЦСКА (2:1 Б) в матче регулярного чемпионата Фонбет КХЛ.",
+      "content": "Главный тренер «Амура» Александр Андриевский высказался о победе над ЦСКА (2:1 Б) в матче регулярного чемпионата Фонбет КХЛ.",
+      "image": "https://img.championat.com/news/big/g/y/glavnyj-trener-amura-andriev.jpg",
+      "publishedAt": "2026-11-16T20:48:10Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702302-glavnyj-trener-amura-andrievskij-prokommentiroval-pobedu-nad-cska.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Амур",
+        "Александр Андриевский"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:cska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702298",
+      "slug": "ne-hvatilo-zaryazhennosti-na-zavershenie-nikitin-o-porazhenii-cska-ot-amura",
+      "title": "«Не хватило заряженности на завершение». Никитин — о поражении ЦСКА от «Амура»",
+      "summary": "Главный тренер ЦСКА Игорь Никитин прокомментировал поражение от «Амура» в серии буллитов со счётом 1:2.",
+      "content": "Главный тренер ЦСКА Игорь Никитин прокомментировал поражение от «Амура» в серии буллитов со счётом 1:2.",
+      "image": "https://img.championat.com/news/big/c/a/ne-hvatilo-zaryazhennosti-na.jpg",
+      "publishedAt": "2026-11-16T20:42:11Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702298-ne-hvatilo-zaryazhennosti-na-zavershenie-nikitin-o-porazhenii-cska-ot-amura.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Амур",
+        "Игорь Никитин"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:cska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702296",
+      "slug": "ssha-kanada-rezultat-matcha-16-noyabrya-2026-goda-schet-6-2-zhenskij-chempionat-mira-po-hokkeyu-2026-final",
+      "title": "Женская сборная США стала чемпионом мира по хоккею, победив в финале Канаду",
+      "summary": "Сегодня, 16 ноября, в Хернинге, Дания, на стадионе «КВИК Хоккей-Арена» состоялся финальный матч женского чемпионата мира по хоккею 2026 года, в котором встречались сборные США и Канады.",
+      "content": "Сегодня, 16 ноября, в Хернинге, Дания, на стадионе «КВИК Хоккей-Арена» состоялся финальный матч женского чемпионата мира по хоккею 2026 года, в котором встречались сборные США и Канады.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-11-16T20:36:13Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702296-ssha-kanada-rezultat-matcha-16-noyabrya-2026-goda-schet-6-2-zhenskij-chempionat-mira-po-hokkeyu-2026-final.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Женский хоккей",
+        "Женская сборная США — хоккей",
+        "Женская сборная Канады — хоккей"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702286",
+      "slug": "glavnyj-trener-lokomotiva-kvartalnov-ocenil-pobedu-nad-sochi",
+      "title": "Главный тренер «Локомотива» Квартальнов оценил победу над «Сочи»",
+      "summary": "Главный тренер «Локомотива» Дмитрий Квартальнов высказался о победе над «Сочи» (3:0) в матче регулярного чемпионата Фонбет КХЛ.",
+      "content": "Главный тренер «Локомотива» Дмитрий Квартальнов высказался о победе над «Сочи» (3:0) в матче регулярного чемпионата Фонбет КХЛ.",
+      "image": "https://img.championat.com/news/big/m/l/glavnyj-trener-lokomotiva-kv.jpg",
+      "publishedAt": "2026-11-16T20:31:12Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702286-glavnyj-trener-lokomotiva-kvartalnov-ocenil-pobedu-nad-sochi.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Локомотив",
+        "Сочи",
+        "Дмитрий Квартальнов"
+      ],
+      "relatedTeamIds": [
+        "khl:lokomotiv",
+        "khl:sochi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702268",
+      "slug": "glavnyj-trener-sochi-mironov-prokommentiroval-porazhenie-ot-lokomotiva",
+      "title": "Главный тренер «Сочи» Миронов прокомментировал поражение от «Локомотива»",
+      "summary": "Главный тренер «Сочи» Андрей Миронов высказался о поражении от «Локомотива» (0:3) в матче регулярного чемпионата Фонбет КХЛ.",
+      "content": "Главный тренер «Сочи» Андрей Миронов высказался о поражении от «Локомотива» (0:3) в матче регулярного чемпионата Фонбет КХЛ.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-11-16T20:18:12Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702268-glavnyj-trener-sochi-mironov-prokommentiroval-porazhenie-ot-lokomotiva.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Локомотив",
+        "Сочи",
+        "Андрей Миронов — тренер"
+      ],
+      "relatedTeamIds": [
+        "khl:lokomotiv",
+        "khl:sochi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702260",
+      "slug": "forvard-chikago-kancerov-voshyol-v-top-5-pretendentov-na-kolder-trofi-po-versii-sajta-nhl",
+      "title": "Форвард «Чикаго» Канцеров вошёл в топ-5 претендентов на «Колдер Трофи» по версии сайта НХЛ",
+      "summary": "Российский нападающий «Чикаго Блэкхоукс» Роман Канцеров вошёл в топ-5 претендентов на «Колдер Трофи», который вручается лучшему новичку по итогам регулярного чемпионата Национальной хоккейной лиги.",
+      "content": "Российский нападающий «Чикаго Блэкхоукс» Роман Канцеров вошёл в топ-5 претендентов на «Колдер Трофи», который вручается лучшему новичку по итогам регулярного чемпионата Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/p/p/forvard-chikago-kancerov-voshyol-v-top-5-pretendentov-na-kolder-trofi-po-versii-sajta-nhl_1794859765206460703.jpg",
+      "publishedAt": "2026-11-16T20:09:31Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702260-forvard-chikago-kancerov-voshyol-v-top-5-pretendentov-na-kolder-trofi-po-versii-sajta-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Торонто Мэйпл Лифс",
+        "Бостон Брюинз",
+        "Монреаль Канадиенс",
+        "Чикаго Блэкхоукс",
+        "Вегас Голден Найтс",
+        "Роман Канцеров",
+        "Гэвин Маккенна",
+        "Джеймс Хэгенс"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:chi",
+        "nhl:mtl",
+        "nhl:tor",
+        "nhl:vgk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702248",
+      "slug": "yaromir-yagr-ya-ne-obyavlyal-o-zavershenii-karery-mogu-ujti-tiho-nikomu-nichego-ne-govorya",
+      "title": "Яромир Ягр: я не объявлял о завершении карьеры. Могу уйти тихо, никому ничего не говоря",
+      "summary": "Легендарный чешский хоккеист Яромир Ягр объяснил, почему официально не сообщал о завершении карьеры.",
+      "content": "Легендарный чешский хоккеист Яромир Ягр объяснил, почему официально не сообщал о завершении карьеры.",
+      "image": "https://img.championat.com/news/big/e/h/yaromir-yagr-ya-ne-obyavlyal-o-zavershenii-karery-mogu-ujti-tiho-nikomu-nichego-ne-govorya_17948587841887224538.jpg",
+      "publishedAt": "2026-11-16T19:53:12Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702248-yaromir-yagr-ya-ne-obyavlyal-o-zavershenii-karery-mogu-ujti-tiho-nikomu-nichego-ne-govorya.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры",
+        "Яромир Ягр"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702236",
+      "slug": "kapitan-sbornoj-germanii-zajder-ya-ne-vystupal-avtomaticheski-za-vozvraschenie-rossii-na-chm",
+      "title": "Капитан сборной Германии Зайдер: я не выступал автоматически за возвращение России на ЧМ",
+      "summary": "Защитник «Детройт Ред Уингз» и капитан сборной Германии Мориц Зайдер объяснил свои слова о возможном участии сборных России и Беларуси в чемпионате мира — 2027.",
+      "content": "Защитник «Детройт Ред Уингз» и капитан сборной Германии Мориц Зайдер объяснил свои слова о возможном участии сборных России и Беларуси в чемпионате мира — 2027.",
+      "image": "https://img.championat.com/news/big/n/u/kapitan-sbornoj-germanii-zajder-ya-ne-vystupal-avtomaticheski-za-vozvraschenie-rossii-na-c_17948582481313645654.jpg",
+      "publishedAt": "2026-11-16T19:44:09Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702236-kapitan-sbornoj-germanii-zajder-ya-ne-vystupal-avtomaticheski-za-vozvraschenie-rossii-na-chm.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "ЧМ по хоккею 2027",
+        "Сборная России — Хоккей",
+        "Детройт Ред Уингз",
+        "Сборная Беларуси — Хоккей",
+        "Сборная Германии — Хоккей",
+        "Мориц Зайдер",
+        "ЧМ-2027"
+      ],
+      "relatedTeamIds": [
+        "nhl:det"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702216",
+      "slug": "boris-borin-stal-samym-molodym-avtorom-shajby-amura-v-khl-pobiv-rekord-sergeya-plotnikova",
+      "title": "Борис Борин стал самым молодым автором шайбы «Амура» в КХЛ, побив рекорд Сергея Плотникова",
+      "summary": "Нападающий «Амура» Борис Борин отметился заброшенной шайбой в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027 с ЦСКА (2:1 Б) и стал самым молодым автором гола хабаровского клуба в К...",
+      "content": "Нападающий «Амура» Борис Борин отметился заброшенной шайбой в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027 с ЦСКА (2:1 Б) и стал самым молодым автором гола хабаровского клуба в КХЛ в возрасте 18 лет 152 дней.",
+      "image": "https://img.championat.com/news/big/l/n/boris-borin-stal-samym-molodym-avtorom-shajby-amura-v-khl-pobiv-rekord-sergeya-plotnikova_17948575371022411252.jpg",
+      "publishedAt": "2026-11-16T19:32:29Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702216-boris-borin-stal-samym-molodym-avtorom-shajby-amura-v-khl-pobiv-rekord-sergeya-plotnikova.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Амур",
+        "Сергей Плотников"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:cska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702208",
+      "slug": "trener-admirala-smogli-spasti-prakticheski-beznadyozhnuyu-igru-no-sami-zhe-eyo-pohoronili",
+      "title": "Тренер «Адмирала»: смогли спасти практически безнадёжную игру, но сами же её похоронили",
+      "summary": "Главный тренер «Адмирала» Олег Браташ прокомментировал поражение от «Салавата Юлаева» (5:6).",
+      "content": "Главный тренер «Адмирала» Олег Браташ прокомментировал поражение от «Салавата Юлаева» (5:6).",
+      "image": "https://img.championat.com/news/big/y/m/trener-admirala-smogli-spast.jpg",
+      "publishedAt": "2026-11-16T19:17:32Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702208-trener-admirala-smogli-spasti-prakticheski-beznadyozhnuyu-igru-no-sami-zhe-eyo-pohoronili.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Салават Юлаев",
+        "Адмирал",
+        "Олег Браташ"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral",
+        "khl:salavat-yulaev"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702184",
+      "slug": "prezident-iihf-obyasnil-nedopusk-rossii-na-molodyozhnyj-chempionat-mira-2027",
+      "title": "Президент ИИХФ объяснил недопуск России на молодёжный чемпионат мира — 2027",
+      "summary": "Президент Международной федерации хоккея (ИИХФ) Франц Райндль прокомментировал решение Спортивного арбитражного суда (CAS) о возвращении сборных России на международные соревнования и объяснил недопуск российской кома...",
+      "content": "Президент Международной федерации хоккея (ИИХФ) Франц Райндль прокомментировал решение Спортивного арбитражного суда (CAS) о возвращении сборных России на международные соревнования и объяснил недопуск российской команды на предстоящий молодёжный чемпионат мира в Канаде.",
+      "image": "https://img.championat.com/news/big/i/e/prezident-iihf-obyasnil-nedopusk-rossii-na-molodyozhnyj-chempionat-mira-2027_1794856268270213521.jpg",
+      "publishedAt": "2026-11-16T19:11:19Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702184-prezident-iihf-obyasnil-nedopusk-rossii-na-molodyozhnyj-chempionat-mira-2027.html",
+      "tags": [
+        "Хоккей",
+        "ЧМ по хоккею 2027",
+        "МЧМ по хоккею 2027",
+        "Сборная России — Хоккей",
+        "Молодёжная сборная России — Хоккей",
+        "МЧМ-2027",
+        "ЧМ-2027",
+        "Франц Райндль"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702170",
+      "slug": "cska-amur-rezultat-matcha-16-noyabrya-2026-goda-schet-1-2-b-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "ЦСКА проиграл «Амуру» в серии буллитов, хабаровчане одержали четвёртую победу кряду",
+      "summary": "Сегодня, 16 ноября, в Москве на стадионе «ЦСКА-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный ЦСКА принимал хабаровский «Амур».",
+      "content": "Сегодня, 16 ноября, в Москве на стадионе «ЦСКА-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный ЦСКА принимал хабаровский «Амур».",
+      "image": "https://img.championat.com/news/big/r/j/cska-proigral-amuru-v-serii-bullitov-habarovchane-oderzhali-chetvyortuyu-pobedu-kryadu_17948556541839398175.jpg",
+      "publishedAt": "2026-11-16T19:00:57Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702170-cska-amur-rezultat-matcha-16-noyabrya-2026-goda-schet-1-2-b-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "ЦСКА",
+        "Амур"
+      ],
+      "relatedTeamIds": [
+        "khl:amur",
+        "khl:cska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6702182",
       "slug": "lokomotiv-sochi-rezultat-matcha-16-noyabrya-2026-goda-schet-3-0-regulyarnyj-chempionat-khl-2026-2027",
       "title": "«Локомотив» всухую победил «Сочи» в домашнем матче КХЛ",
@@ -13,6 +397,7 @@
       "tags": [
         "Хоккей",
         "КХЛ",
+        "Видео",
         "Локомотив",
         "Сочи"
       ],
@@ -333,363 +718,6 @@
       ],
       "relatedTeamIds": [
         "khl:cska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701922",
-      "slug": "kanadskij-zaschitnik-lady-millman-priznalsya-chto-priehal-v-rossiyu-po-sovetu-druzej",
-      "title": "Канадский защитник «Лады» Миллман признался, что приехал в Россию по совету друзей",
-      "summary": "Канадский защитник «Лады» Мэйсон Миллман рассказал что не побоялся ехать в Россию благодаря рекомендациям друзей.",
-      "content": "Канадский защитник «Лады» Мэйсон Миллман рассказал что не побоялся ехать в Россию благодаря рекомендациям друзей.",
-      "image": "https://img.championat.com/news/big/y/x/kanadskij-zaschitnik-lady-millman-priznalsya-chto-priehal-v-rossiyu-po-sovetu-druzej_17948411022010084227.jpg",
-      "publishedAt": "2026-11-16T14:58:23Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701922-kanadskij-zaschitnik-lady-millman-priznalsya-chto-priehal-v-rossiyu-po-sovetu-druzej.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Лада",
-        "Мэйсон Миллман"
-      ],
-      "relatedTeamIds": [
-        "khl:lada"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701866",
-      "slug": "eks-vratar-nhl-hatton-vyrazil-mnenie-chto-filadelfiya-ne-obmenyaet-michkova",
-      "title": "Экс-вратарь НХЛ Хаттон выразил мнение, что «Филадельфия» не обменяет Мичкова",
-      "summary": "Бывший вратарь клубов НХЛ Картер Хаттон прокомментировал информацию о возможном уходе российского нападающего Матвея Мичкова из «Филадельфии Флайерз».",
-      "content": "Бывший вратарь клубов НХЛ Картер Хаттон прокомментировал информацию о возможном уходе российского нападающего Матвея Мичкова из «Филадельфии Флайерз».",
-      "image": "https://img.championat.com/news/big/j/f/eks-vratar-nhl-hatton-vyrazil-mnenie-chto-filadelfiya-ne-obmenyaet-michkova_17948396631808466117.jpg",
-      "publishedAt": "2026-11-16T14:34:25Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701866-eks-vratar-nhl-hatton-vyrazil-mnenie-chto-filadelfiya-ne-obmenyaet-michkova.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Филадельфия Флайерз",
-        "Матвей Мичков",
-        "Картер Хаттон"
-      ],
-      "relatedTeamIds": [
-        "nhl:phi"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701706",
-      "slug": "golkiper-hokkejnogo-kluba-cska-priznalsya-chto-u-nego-est-mechta-zabit-gol",
-      "title": "Голкипер хоккейного клуба ЦСКА признался, что у него есть мечта забить гол",
-      "summary": "Голкипер ЦСКА Александр Самонов заявил, что мечтает забить гол.",
-      "content": "Голкипер ЦСКА Александр Самонов заявил, что мечтает забить гол.",
-      "image": "https://img.championat.com/news/big/t/a/golkiper-hokkejnogo-kluba-cs.jpg",
-      "publishedAt": "2026-11-16T14:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701706-golkiper-hokkejnogo-kluba-cska-priznalsya-chto-u-nego-est-mechta-zabit-gol.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "ЦСКА",
-        "Александр Самонов"
-      ],
-      "relatedTeamIds": [
-        "khl:cska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701852",
-      "slug": "sergej-fyodorov-vojdyot-v-trenerskij-shtab-sbornoj-rossii-na-kubke-pervogo-kanala",
-      "title": "Сергей Фёдоров войдёт в тренерский штаб сборной России на Кубке Первого канала",
-      "summary": "Трёхкратный чемпион мира, трёхкратный обладатель Кубка Стэнли Сергей Фёдоров войдёт в тренерский штаб сборной России на Кубке Первого канала.",
-      "content": "Трёхкратный чемпион мира, трёхкратный обладатель Кубка Стэнли Сергей Фёдоров войдёт в тренерский штаб сборной России на Кубке Первого канала.",
-      "image": "https://img.championat.com/news/big/j/x/sergej-fyodorov-vojdyot-v-tr.jpg",
-      "publishedAt": "2026-11-16T14:03:16Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701852-sergej-fyodorov-vojdyot-v-trenerskij-shtab-sbornoj-rossii-na-kubke-pervogo-kanala.html",
-      "tags": [
-        "Хоккей",
-        "Кубок Первого канала",
-        "Сборная России — Хоккей",
-        "Роман Ротенберг",
-        "Сергей Фёдоров — хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701698",
-      "slug": "aleksandr-samonov-rasskazal-o-svoej-kommunikacii-s-igorem-nikitinym",
-      "title": "Александр Самонов рассказал о своей коммуникации с Игорем Никитиным",
-      "summary": "Голкипер ЦСКА Александр Самонов рассказал, как происходит общение с главным тренером команды Игорем Никитиным.",
-      "content": "Голкипер ЦСКА Александр Самонов рассказал, как происходит общение с главным тренером команды Игорем Никитиным.",
-      "image": "https://img.championat.com/news/big/b/n/aleksandr-samonov-rasskazal-.jpg",
-      "publishedAt": "2026-11-16T14:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701698-aleksandr-samonov-rasskazal-o-svoej-kommunikacii-s-igorem-nikitinym.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "ЦСКА",
-        "Игорь Никитин",
-        "Александр Самонов"
-      ],
-      "relatedTeamIds": [
-        "khl:cska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701812",
-      "slug": "forvard-avangarda-yakupov-vylozhil-foto-s-futbolkoj-batrakova-s-avtografom",
-      "title": "Форвард «Авангарда» Якупов выложил фото с футболкой Батракова с автографом",
-      "summary": "Нападающий «Авангарда» Наиль Якупов опубликовал на своей странице в социальной сети фотографию с футболкой российского полузащитника «Галатасарая» Алексея Батракова.",
-      "content": "Нападающий «Авангарда» Наиль Якупов опубликовал на своей странице в социальной сети фотографию с футболкой российского полузащитника «Галатасарая» Алексея Батракова.",
-      "image": "https://img.championat.com/news/big/t/c/forvard-avangarda-yakupov-vy.jpg",
-      "publishedAt": "2026-11-16T13:48:25Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701812-forvard-avangarda-yakupov-vylozhil-foto-s-futbolkoj-batrakova-s-avtografom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Футбол",
-        "Турция",
-        "Фото",
-        "Авангард",
-        "Галатасарай",
-        "Алексей Батраков",
-        "Наиль Якупов"
-      ],
-      "relatedTeamIds": [
-        "khl:avangard"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6700922",
-      "slug": "cska-amur-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk",
-      "title": "ЦСКА — «Амур»: онлайн-трансляция матча КХЛ начнётся в 19:30 мск",
-      "summary": "Сегодня, 16 ноября, в Москве на стадионе «ЦСКА-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором ЦСКА примет на своей площадке хабаровский «Амур».",
-      "content": "Сегодня, 16 ноября, в Москве на стадионе «ЦСКА-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором ЦСКА примет на своей площадке хабаровский «Амур».",
-      "image": "https://img.championat.com/news/big/b/x/cska-amur-onlajn-translyaciya-matcha-khl-nachnyotsya-v-19-30-msk_17947728371388404203.jpg",
-      "publishedAt": "2026-11-16T13:30:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6700922-cska-amur-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Амур"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:cska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701694",
-      "slug": "golkiper-cska-raskryl-o-chyom-ego-prosit-trener-vratarej-armejskogo-kluba",
-      "title": "Голкипер ЦСКА раскрыл, о чём его просит тренер вратарей армейского клуба",
-      "summary": "Голкипер ЦСКА Александр Самонов рассказал о работе с одним из лучших специалистов по вратарской технике Рашитом Давыдовым.",
-      "content": "Голкипер ЦСКА Александр Самонов рассказал о работе с одним из лучших специалистов по вратарской технике Рашитом Давыдовым.",
-      "image": "https://img.championat.com/news/big/c/b/golkiper-cska-raskryl-o-chyo.jpg",
-      "publishedAt": "2026-11-16T13:30:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701694-golkiper-cska-raskryl-o-chyom-ego-prosit-trener-vratarej-armejskogo-kluba.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "ЦСКА",
-        "Александр Самонов",
-        "Рашит Давыдов"
-      ],
-      "relatedTeamIds": [
-        "khl:cska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701804",
-      "slug": "v-germanii-polozhitelno-ocenili-reshenie-iihf-o-nedopuske-rossii-na-mchm-2027",
-      "title": "В Германии положительно оценили решение ИИХФ о недопуске России на МЧМ-2027",
-      "summary": "Федерация хоккея Германии опубликовала заявление после решения Международной федерации хоккея (ИИХФ) не допустить сборную России к участию на МЧМ-2027 из-за позиции правительства Канады.",
-      "content": "Федерация хоккея Германии опубликовала заявление после решения Международной федерации хоккея (ИИХФ) не допустить сборную России к участию на МЧМ-2027 из-за позиции правительства Канады.",
-      "image": "https://img.championat.com/news/big/t/g/v-germanii-polozhitelno-ocenili-reshenie-iihf-o-nedopuske-rossii-na-mchm-2027_17948354591600736478.jpg",
-      "publishedAt": "2026-11-16T13:24:20Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701804-v-germanii-polozhitelno-ocenili-reshenie-iihf-o-nedopuske-rossii-na-mchm-2027.html",
-      "tags": [
-        "Хоккей",
-        "МЧМ по хоккею 2027",
-        "Молодёжная сборная России — Хоккей",
-        "МЧМ-2027"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701690",
-      "slug": "samonov-o-proshlom-sezone-nuzhno-bylo-ponyat-chto-k-chemu-i-kak-voobsche-vsyo-ustroeno-v-cska",
-      "title": "Самонов — о прошлом сезоне: нужно было понять, что к чему и как вообще всё устроено в ЦСКА",
-      "summary": "Голкипер ЦСКА Александр Самонов заявил, что в прошлом сезоне команда привыкала к требованиям нового тренерского штаба под руководством Игоря Никитина.",
-      "content": "Голкипер ЦСКА Александр Самонов заявил, что в прошлом сезоне команда привыкала к требованиям нового тренерского штаба под руководством Игоря Никитина.",
-      "image": "https://img.championat.com/news/big/r/g/samonov-o-proshlom-sezone-nuzhno-bylo-ponyat-chto-k-chemu-i-kak-voobsche-vsyo-ustroeno-v-c_1794829914166709225.jpg",
-      "publishedAt": "2026-11-16T13:00:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701690-samonov-o-proshlom-sezone-nuzhno-bylo-ponyat-chto-k-chemu-i-kak-voobsche-vsyo-ustroeno-v-cska.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "ЦСКА",
-        "Александр Самонов"
-      ],
-      "relatedTeamIds": [
-        "khl:cska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701724",
-      "slug": "sroki-podzhimayut-shansov-nemnogo-plyuschev-o-borbe-za-uchastie-rossii-v-mchm-po-hokkeyu",
-      "title": "«Сроки поджимают, шансов немного». Плющев — о борьбе за участие России в МЧМ по хоккею",
-      "summary": "Заслуженный тренер России Владимир Плющев отреагировал на заявление Международной федерации хоккея о том, что Россия не примет участия в предстоящем молодёжном чемпионате мира в Канаде.",
-      "content": "Заслуженный тренер России Владимир Плющев отреагировал на заявление Международной федерации хоккея о том, что Россия не примет участия в предстоящем молодёжном чемпионате мира в Канаде.",
-      "image": "https://img.championat.com/news/big/p/t/sroki-podzhimayut-shansov-ne.jpg",
-      "publishedAt": "2026-11-16T12:45:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701724-sroki-podzhimayut-shansov-nemnogo-plyuschev-o-borbe-za-uchastie-rossii-v-mchm-po-hokkeyu.html",
-      "tags": [
-        "Хоккей",
-        "МЧМ по хоккею 2027",
-        "Молодёжная сборная России — Хоккей",
-        "ИИХФ",
-        "Владимир Плющев",
-        "Возвращение России в международный хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701688",
-      "slug": "aleksandr-samonov-otvetil-dozrel-li-nyneshnij-cska-do-pobedy-v-kubke-gagarina-2027",
-      "title": "Александр Самонов ответил, дозрел ли нынешний ЦСКА до победы в Кубке Гагарина — 2027",
-      "summary": "Голкипер ЦСКА Александр Самонов высказался о возможности для команды завоевать Кубок Гагарина в текущем сезоне КХЛ.",
-      "content": "Голкипер ЦСКА Александр Самонов высказался о возможности для команды завоевать Кубок Гагарина в текущем сезоне КХЛ.",
-      "image": "https://img.championat.com/news/big/c/o/aleksandr-samonov-otvetil-dozrel-li-nyneshnij-cska-do-pobedy-v-kubke-gagarina-2027_1794832365442287994.jpg",
-      "publishedAt": "2026-11-16T12:30:07Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701688-aleksandr-samonov-otvetil-dozrel-li-nyneshnij-cska-do-pobedy-v-kubke-gagarina-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "ЦСКА",
-        "Александр Самонов"
-      ],
-      "relatedTeamIds": [
-        "khl:cska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701660",
-      "slug": "reshenie-nezakonno-predstavitel-fhr-v-sportivnom-arbitrazhnom-sude-pro-mchm-bez-rossii",
-      "title": "«Решение незаконно». Представитель ФХР в Спортивном арбитражном суде — про МЧМ без России",
-      "summary": "Партнёр международной фирмы Curtis Анна Козьменко, представлявшая в Спортивном арбитражном суде (CAS) интересы Федерации хоккея России (ФХР), высказалась о ситуации с недопуском сборной России на МЧМ-2027 в Канаде.",
-      "content": "Партнёр международной фирмы Curtis Анна Козьменко, представлявшая в Спортивном арбитражном суде (CAS) интересы Федерации хоккея России (ФХР), высказалась о ситуации с недопуском сборной России на МЧМ-2027 в Канаде.",
-      "image": "https://img.championat.com/news/big/n/s/reshenie-nezakonno-predstavitel-fhr-v-sportivnom-arbitrazhnom-sude-pro-mchm-bez-rossii_17948284751208096296.jpg",
-      "publishedAt": "2026-11-16T12:15:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701660-reshenie-nezakonno-predstavitel-fhr-v-sportivnom-arbitrazhnom-sude-pro-mchm-bez-rossii.html",
-      "tags": [
-        "Хоккей",
-        "МЧМ по хоккею 2027",
-        "Матч ТВ",
-        "Молодёжная сборная России — Хоккей",
-        "ИИХФ",
-        "Возвращение России в международный хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701686",
-      "slug": "golkiper-cska-otreagiroval-na-tekuschee-liderstvo-kluba-v-zapadnoj-konferencii-khl",
-      "title": "Голкипер ЦСКА отреагировал на текущее лидерство клуба в Западной конференции КХЛ",
-      "summary": "Голкипер ЦСКА Александр Самонов высказался о лидерстве армейцев в Западной конференции КХЛ.",
-      "content": "Голкипер ЦСКА Александр Самонов высказался о лидерстве армейцев в Западной конференции КХЛ.",
-      "image": "https://img.championat.com/news/big/j/j/golkiper-cska-otreagiroval-n.jpg",
-      "publishedAt": "2026-11-16T12:00:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701686-golkiper-cska-otreagiroval-na-tekuschee-liderstvo-kluba-v-zapadnoj-konferencii-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "ЦСКА",
-        "Александр Самонов"
-      ],
-      "relatedTeamIds": [
-        "khl:cska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701652",
-      "slug": "mark-stoun-povtoril-rekord-dzhonatana-marshesso-po-ochkam-v-istorii-vegasa",
-      "title": "Марк Стоун повторил рекорд Джонатана Маршессо по очкам в истории «Вегаса»",
-      "summary": "Капитан «Вегас Голден Найтс» Марк Стоун забросил шайбу в матче регулярного чемпионата НХЛ с «Ванкувер Кэнакс» (3:6) и вышел на первое место в списке бомбардиров за всю историю клуба.",
-      "content": "Капитан «Вегас Голден Найтс» Марк Стоун забросил шайбу в матче регулярного чемпионата НХЛ с «Ванкувер Кэнакс» (3:6) и вышел на первое место в списке бомбардиров за всю историю клуба.",
-      "image": "https://img.championat.com/news/big/u/k/mark-stoun-povtoril-rekord-dzhonatana-marshesso-po-ochkam-v-istorii-vegasa_17948282101509639164.jpg",
-      "publishedAt": "2026-11-16T11:40:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701652-mark-stoun-povtoril-rekord-dzhonatana-marshesso-po-ochkam-v-istorii-vegasa.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вегас Голден Найтс",
-        "Джек Айкел",
-        "Марк Стоун",
-        "Джонатан Маршессо",
-        "Вильям Карлссон",
-        "Ши Теодор"
-      ],
-      "relatedTeamIds": [
-        "nhl:van",
-        "nhl:vgk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6701572",
-      "slug": "hochetsya-vsyo-razbit-uzhe-lider-ska-ob-emociyah-posle-tryoh-porazhenij-podryad",
-      "title": "«Хочется всё разбить уже». Лидер СКА — об эмоциях после трёх поражений подряд",
-      "summary": "Нападающий СКА Василий Глотов высказался о результатах команды в последних матчах и поддержал главного тренера Андрея Разина, который эмоционально реагирует на неудачи на лавке команды.",
-      "content": "Нападающий СКА Василий Глотов высказался о результатах команды в последних матчах и поддержал главного тренера Андрея Разина, который эмоционально реагирует на неудачи на лавке команды.",
-      "image": "https://img.championat.com/news/big/d/s/hochetsya-vsyo-razbit-uzhe-lider-ska-ob-emociyah-posle-tryoh-porazhenij-podryad_1794823871206149422.jpg",
-      "publishedAt": "2026-11-16T11:15:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6701572-hochetsya-vsyo-razbit-uzhe-lider-ska-ob-emociyah-posle-tryoh-porazhenij-podryad.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "СКА",
-        "Трактор",
-        "Андрей Разин",
-        "Василий Глотов"
-      ],
-      "relatedTeamIds": [
-        "khl:ska",
-        "khl:traktor"
       ],
       "relatedPlayerIds": []
     }
