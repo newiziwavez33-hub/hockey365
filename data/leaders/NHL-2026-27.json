@@ -7,31 +7,31 @@
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
         "teamId": "nhl:edm",
-        "value": 53
+        "value": 55
       },
       {
         "playerId": "nhl:p_8477934",
         "playerName": "Leon Draisaitl",
         "teamId": "nhl:edm",
-        "value": 41
+        "value": 44
       },
       {
         "playerId": "nhl:p_8478864",
         "playerName": "Kirill Kaprizov",
         "teamId": "nhl:min",
-        "value": 37
+        "value": 40
       },
       {
         "playerId": "nhl:p_8480803",
         "playerName": "Evan Bouchard",
         "teamId": "nhl:edm",
-        "value": 36
+        "value": 37
       },
       {
-        "playerId": "nhl:p_8477492",
-        "playerName": "Nathan MacKinnon",
-        "teamId": "nhl:col",
-        "value": 30
+        "playerId": "nhl:p_8479314",
+        "playerName": "Matthew Tkachuk",
+        "teamId": "nhl:fla",
+        "value": 32
       }
     ],
     "goals": [
@@ -39,13 +39,13 @@
         "playerId": "nhl:p_8477934",
         "playerName": "Leon Draisaitl",
         "teamId": "nhl:edm",
-        "value": 20
+        "value": 21
       },
       {
         "playerId": "nhl:p_8483445",
         "playerName": "Cutter Gauthier",
         "teamId": "nhl:ana",
-        "value": 18
+        "value": 21
       },
       {
         "playerId": "nhl:p_8478864",
@@ -71,7 +71,13 @@
         "playerId": "nhl:p_8478402",
         "playerName": "Connor McDavid",
         "teamId": "nhl:edm",
-        "value": 41
+        "value": 42
+      },
+      {
+        "playerId": "nhl:p_8480803",
+        "playerName": "Evan Bouchard",
+        "teamId": "nhl:edm",
+        "value": 25
       },
       {
         "playerId": "nhl:p_8479314",
@@ -80,22 +86,16 @@
         "value": 25
       },
       {
-        "playerId": "nhl:p_8480803",
-        "playerName": "Evan Bouchard",
-        "teamId": "nhl:edm",
-        "value": 24
-      },
-      {
         "playerId": "nhl:p_8480800",
         "playerName": "Quinn Hughes",
         "teamId": "nhl:min",
-        "value": 23
+        "value": 25
       },
       {
-        "playerId": "nhl:p_8479343",
-        "playerName": "Clayton Keller",
-        "teamId": "nhl:uta",
-        "value": 23
+        "playerId": "nhl:p_8481605",
+        "playerName": "Jackson LaCombe",
+        "teamId": "nhl:ana",
+        "value": 24
       }
     ],
     "gaa": [
@@ -103,7 +103,7 @@
         "playerId": "nhl:p_8476999",
         "playerName": "Linus Ullmark",
         "teamId": "nhl:ott",
-        "value": 1.47
+        "value": 1.42
       },
       {
         "playerId": "nhl:p_8481611",
@@ -121,13 +121,13 @@
         "playerId": "nhl:p_8482661",
         "playerName": "Jesper Wallstedt",
         "teamId": "nhl:min",
-        "value": 1.94
+        "value": 1.99
       },
       {
-        "playerId": "nhl:p_8479979",
-        "playerName": "Jake Oettinger",
-        "teamId": "nhl:dal",
-        "value": 2.17
+        "playerId": "nhl:p_8480022",
+        "playerName": "Michael DiPietro",
+        "teamId": "nhl:bos",
+        "value": 2.15
       }
     ],
     "svPct": [
@@ -135,7 +135,7 @@
         "playerId": "nhl:p_8476999",
         "playerName": "Linus Ullmark",
         "teamId": "nhl:ott",
-        "value": 0.939
+        "value": 0.94
       },
       {
         "playerId": "nhl:p_8480193",
@@ -147,7 +147,7 @@
         "playerId": "nhl:p_8482661",
         "playerName": "Jesper Wallstedt",
         "teamId": "nhl:min",
-        "value": 0.926
+        "value": 0.924
       },
       {
         "playerId": "nhl:p_8484170",
@@ -156,10 +156,10 @@
         "value": 0.923
       },
       {
-        "playerId": "nhl:p_8480981",
-        "playerName": "Joel Hofer",
-        "teamId": "nhl:stl",
-        "value": 0.921
+        "playerId": "nhl:p_8480022",
+        "playerName": "Michael DiPietro",
+        "teamId": "nhl:bos",
+        "value": 0.923
       }
     ]
   }
