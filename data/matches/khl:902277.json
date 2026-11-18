@@ -6,10 +6,10 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-18T16:30:00Z",
-  "status": "LIVE",
-  "period": 2,
+  "status": "FINISHED",
+  "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:cska",
     "name": "ЦСКА",
@@ -17,7 +17,8 @@
     "score": 4,
     "periods": [
       3,
-      1
+      1,
+      0
     ],
     "shots": null
   },
@@ -28,7 +29,8 @@
     "score": 2,
     "periods": [
       1,
-      1
+      1,
+      0
     ],
     "shots": null
   },
@@ -56,6 +58,6 @@
     "stageId": 407,
     "eventId": 3001263,
     "matchId": "902277",
-    "fetchedAt": "2026-11-18T17:59:07.024574Z"
+    "fetchedAt": "2026-11-18T23:58:58.020104Z"
   }
 }
