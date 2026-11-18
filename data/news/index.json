@@ -1,6 +1,355 @@
 {
   "news": [
     {
+      "id": "news-6703822",
+      "slug": "macinka-strany-es-ne-vydadut-vizy-rossijskim-hokkeistkam-na-yuniorskij-chm",
+      "title": "Мацинка: страны ЕС не выдадут визы российским хоккеисткам на юниорский ЧМ",
+      "summary": "Министр иностранных дел Чехии Петр Мацинка заявил, что ни одно государство Европейского союза не предоставит въездные документы спортсменкам сборной России для участия в женском юниорском чемпионате мира.",
+      "content": "Министр иностранных дел Чехии Петр Мацинка заявил, что ни одно государство Европейского союза не предоставит въездные документы спортсменкам сборной России для участия в женском юниорском чемпионате мира.",
+      "image": "https://img.championat.com/news/big/a/g/macinka-strany-es-ne-vydadut.jpg",
+      "publishedAt": "2026-11-18T01:27:02Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6703822-macinka-strany-es-ne-vydadut-vizy-rossijskim-hokkeistkam-na-yuniorskij-chm.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6703792",
+      "slug": "nu-eto-ne-veselo-trener-tampy-vyskazalsya-ob-ovechkine-pered-igroj-s-kepitalz-v-nhl",
+      "title": "«Ну, это не весело». Тренер «Тампы» высказался об Овечкине перед игрой с «Кэпиталз» в НХЛ",
+      "summary": "Главный тренер «Тампа-Бэй Лайтнинг» Джон Купер ответил на вопрос журналиста о том, каково это — тренировать команду, зная, что у соперников есть лучший бомбардир в истории регулярных чемпионатов НХЛ форвард «Вашингтон...",
+      "content": "Главный тренер «Тампа-Бэй Лайтнинг» Джон Купер ответил на вопрос журналиста о том, каково это — тренировать команду, зная, что у соперников есть лучший бомбардир в истории регулярных чемпионатов НХЛ форвард «Вашингтон Кэпиталз» Александра Овечкина.",
+      "image": "https://img.championat.com/news/big/w/u/nu-eto-ne-veselo-trener-tampy-vyskazalsya-ob-ovechkine-pered-igroj-s-kepitalz-v-nhl_1794961328675064491.jpg",
+      "publishedAt": "2026-11-18T00:22:10Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6703792-nu-eto-ne-veselo-trener-tampy-vyskazalsya-ob-ovechkine-pered-igroj-s-kepitalz-v-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Тампа-Бэй Лайтнинг",
+        "Джон Купер"
+      ],
+      "relatedTeamIds": [
+        "nhl:tbl",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6703782",
+      "slug": "insajder-seravalli-filadelfiya-vybrala-michkova-v-uscherb-igrokov-sostava-i-trenera",
+      "title": "Инсайдер Серавалли: «Филадельфия» выбрала Мичкова в ущерб игроков состава и тренера",
+      "summary": "Журналист и инсайдер НХЛ Франк Серавалли поделился реакцией по ситуации с будущим российского форварда «Филадельфии Флайерз» Матвея Мичкова на фоне сообщений о разногласии россиянина с одноклубниками и тренерским штабом.",
+      "content": "Журналист и инсайдер НХЛ Франк Серавалли поделился реакцией по ситуации с будущим российского форварда «Филадельфии Флайерз» Матвея Мичкова на фоне сообщений о разногласии россиянина с одноклубниками и тренерским штабом.",
+      "image": "https://img.championat.com/news/big/n/t/insajder-seravalli-filadelfiya-vybrala-michkova-v-uscherb-igrokov-sostava-i-trenera_17949601932141232315.jpg",
+      "publishedAt": "2026-11-18T00:03:14Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6703782-insajder-seravalli-filadelfiya-vybrala-michkova-v-uscherb-igrokov-sostava-i-trenera.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Переходы — Хоккей",
+        "Филадельфия Флайерз",
+        "Матвей Мичков"
+      ],
+      "relatedTeamIds": [
+        "nhl:phi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6703780",
+      "slug": "v-etom-zaklyuchaetsya-glavnaya-slozhnost-insajder-raskryl-problemu-michkova-v-flajerz",
+      "title": "«В этом заключается главная сложность». Инсайдер раскрыл проблему Мичкова в «Флайерз»",
+      "summary": "Журналист и инсайдер НХЛ Эллиотт Фридман сообщил, что у российского форварда «Филадельфии Флайерз» Матвея Мичкова возникли разногласия с рядом одноклубников.",
+      "content": "Журналист и инсайдер НХЛ Эллиотт Фридман сообщил, что у российского форварда «Филадельфии Флайерз» Матвея Мичкова возникли разногласия с рядом одноклубников.",
+      "image": "https://img.championat.com/news/big/l/f/v-etom-zaklyuchaetsya-glavnaya-slozhnost-insajder-raskryl-problemu-michkova-v-flajerz_17949584141760913916.jpg",
+      "publishedAt": "2026-11-17T23:33:35Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6703780-v-etom-zaklyuchaetsya-glavnaya-slozhnost-insajder-raskryl-problemu-michkova-v-flajerz.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Филадельфия Флайерз",
+        "Матвей Мичков",
+        "Эллиотт Фридман"
+      ],
+      "relatedTeamIds": [
+        "nhl:phi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6702636",
+      "slug": "tampa-bej-lajtning-vashington-kepitalz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachnetsya-v-3-30-msk",
+      "title": "«Тампа-Бэй» — «Вашингтон»: онлайн-трансляция матча НХЛ начнётся в 3:30 мск",
+      "summary": "В ночь на 18 ноября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "content": "В ночь на 18 ноября продолжится регулярный чемпионат Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/v/h/tampa-bej-vashington-onlajn-translyaciya-matcha-nhl-nachnyotsya-v-3-30-msk_1794897823980691880.jpg",
+      "publishedAt": "2026-11-17T21:30:06Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6702636-tampa-bej-lajtning-vashington-kepitalz-onlajn-translyaciya-matcha-nhl-sezona-2026-2027-nachnetsya-v-3-30-msk.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Тампа-Бэй Лайтнинг"
+      ],
+      "relatedTeamIds": [
+        "nhl:tbl",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6703646",
+      "slug": "rezultaty-matchej-mhl-na-17-noyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 17 ноября 2026 года",
+      "summary": "Сегодня, 17 ноября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 17 ноября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-11-17T20:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6703646-rezultaty-matchej-mhl-na-17-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "Крылья Советов",
+        "МХК Алмаз",
+        "МХК Динамо-Шинник"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6703642",
+      "slug": "rezultaty-matchej-vhl-na-17-noyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 17 ноября 2026 года",
+      "summary": "Сегодня, 17 ноября, прошли 11 матчей OLIMPBET Чемпионата России ВХЛ.",
+      "content": "Сегодня, 17 ноября, прошли 11 матчей OLIMPBET Чемпионата России ВХЛ.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-11-17T20:40:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6703642-rezultaty-matchej-vhl-na-17-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Металлург Нк",
+        "Югра",
+        "Химик",
+        "Рубин",
+        "Барс",
+        "Сокол Красноярск",
+        "Дизель",
+        "Челмет",
+        "Буран",
+        "Южный Урал Орск",
+        "Зауралье",
+        "Кристалл Саратов",
+        "Динамо Санкт-Петербург",
+        "Звезда",
+        "Омские Крылья",
+        "Горняк",
+        "АКМ",
+        "ЦСК ВВС",
+        "Тамбов",
+        "Магнитка",
+        "СКА-ВМФ",
+        "Калуга"
+      ],
+      "relatedTeamIds": [
+        "khl:metallurg-mg",
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6703634",
+      "slug": "rezultaty-matchej-khl-na-17-noyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 17 ноября 2026 года",
+      "summary": "Сегодня, 17 ноября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 17 ноября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/e/e/rezultaty-matchej-khl-na-17-noyabrya-2026-goda_1794946156172275160.jpg",
+      "publishedAt": "2026-11-17T20:30:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6703634-rezultaty-matchej-khl-na-17-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Ак Барс",
+        "Металлург Мг",
+        "Спартак",
+        "Трактор",
+        "Сибирь",
+        "Динамо Минск",
+        "Автомобилист",
+        "Нефтехимик",
+        "Лада"
+      ],
+      "relatedTeamIds": [
+        "khl:ak-bars",
+        "khl:avtomobilist",
+        "khl:dynamo-mns",
+        "khl:dynamo-msk",
+        "khl:lada",
+        "khl:metallurg-mg",
+        "khl:neftekhimik",
+        "khl:sibir",
+        "khl:spartak",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6703618",
+      "slug": "napadayuschego-metallurga-kozlova-uvezli-v-bolnicu-posle-travmy-v-matche-s-ladoj",
+      "title": "Нападающего «Металлурга» Козлова увезли в больницу после травмы в матче с «Ладой»",
+      "summary": "Главный тренер «Металлурга» Константин Шафранов оценил разгромную победу в матче с «Ладой» (7:2) и заявил, что нападающий Андрей Козлов после игры был доставлен в больницу с подозрением на перелом.",
+      "content": "Главный тренер «Металлурга» Константин Шафранов оценил разгромную победу в матче с «Ладой» (7:2) и заявил, что нападающий Андрей Козлов после игры был доставлен в больницу с подозрением на перелом.",
+      "image": "https://img.championat.com/news/big/x/l/napadayuschego-metallurga-ko.jpg",
+      "publishedAt": "2026-11-17T20:15:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6703618-napadayuschego-metallurga-kozlova-uvezli-v-bolnicu-posle-travmy-v-matche-s-ladoj.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Лада",
+        "Константин Шафранов",
+        "Андрей Козлов"
+      ],
+      "relatedTeamIds": [
+        "khl:lada",
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6703616",
+      "slug": "samaya-slabaya-igra-ne-zveneli-my-segodnya-gorbenko-o-razgrome-lady-ot-metallurga",
+      "title": "«Самая слабая игра, не «звенели» мы сегодня». Горбенко — о разгроме «Лады» от «Металлурга»",
+      "summary": "Главный тренер «Лады» Игорь Горбенко высказался о разгромном поражении в домашнем матче с «Металлургом» (2:7).",
+      "content": "Главный тренер «Лады» Игорь Горбенко высказался о разгромном поражении в домашнем матче с «Металлургом» (2:7).",
+      "image": "https://img.championat.com/news/big/a/w/samaya-slabaya-igra-ne-zveneli-my-segodnya-gorbenko-o-razgrome-lady-ot-metallurga_17949452491812984225.jpg",
+      "publishedAt": "2026-11-17T20:05:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6703616-samaya-slabaya-igra-ne-zveneli-my-segodnya-gorbenko-o-razgrome-lady-ot-metallurga.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Лада",
+        "Игорь Горбенко"
+      ],
+      "relatedTeamIds": [
+        "khl:lada",
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6703606",
+      "slug": "tampa-vruchila-ovechkinu-imennye-sigary-s-izobrazheniem-ego-znamenitogo-prazdnovaniya-gola",
+      "title": "«Тампа» вручила Овечкину именные сигары с изображением его знаменитого празднования гола",
+      "summary": "Персонал и игроки «Тампа-Бэй Лайтнинг» подарили нападающему «Вашингтон Кэпиталз» Александру Овечкину именные сигары.",
+      "content": "Персонал и игроки «Тампа-Бэй Лайтнинг» подарили нападающему «Вашингтон Кэпиталз» Александру Овечкину именные сигары.",
+      "image": "https://img.championat.com/news/big/r/n/tampa-vruchila-ovechkinu-imennye-sigary-s-izobrazheniem-ego-znamenitogo-prazdnovaniya-gola_1794945044892788747.jpg",
+      "publishedAt": "2026-11-17T19:55:07Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6703606-tampa-vruchila-ovechkinu-imennye-sigary-s-izobrazheniem-ego-znamenitogo-prazdnovaniya-gola.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Фото",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Тампа-Бэй Лайтнинг"
+      ],
+      "relatedTeamIds": [
+        "nhl:tbl",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6703596",
+      "slug": "hochu-vyigrat-zdes-kubok-gagarina-safonov-o-pervom-matche-posle-vozvrascheniya-v-ak-bars",
+      "title": "«Хочу выиграть здесь Кубок Гагарина». Сафонов о первом матче после возвращения в «Ак Барс»",
+      "summary": "Нападающий «Ак Барса» Илья Сафонов поделился эмоциями от первого матча после возвращения в казанский клуб.",
+      "content": "Нападающий «Ак Барса» Илья Сафонов поделился эмоциями от первого матча после возвращения в казанский клуб.",
+      "image": "https://img.championat.com/news/big/a/v/hochu-vyigrat-zdes-kubok-gag.jpg",
+      "publishedAt": "2026-11-17T19:45:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6703596-hochu-vyigrat-zdes-kubok-gagarina-safonov-o-pervom-matche-posle-vozvrascheniya-v-ak-bars.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Ак Барс",
+        "Илья Сафонов"
+      ],
+      "relatedTeamIds": [
+        "khl:ak-bars",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6703580",
+      "slug": "bolshoj-master-kotoryj-dobavit-potenciala-v-atake-gatiyatulin-o-podpisanii-dadonova",
+      "title": "«Большой мастер, который добавит потенциала в атаке». Гатиятулин — о подписании Дадонова",
+      "summary": "Главный тренер «Ак Барса» Анвар Гатиятулин прокомментирвоал подписание контракта с нападающим Евгением Дадоновым.",
+      "content": "Главный тренер «Ак Барса» Анвар Гатиятулин прокомментирвоал подписание контракта с нападающим Евгением Дадоновым.",
+      "image": "https://img.championat.com/news/big/w/i/bolshoj-master-kotoryj-dobavit-potenciala-v-atake-gatiyatulin-o-podpisanii-dadonova_1794943647194833204.jpg",
+      "publishedAt": "2026-11-17T19:30:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6703580-bolshoj-master-kotoryj-dobavit-potenciala-v-atake-gatiyatulin-o-podpisanii-dadonova.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Ак Барс",
+        "Евгений Дадонов",
+        "Анвар Гатиятулин"
+      ],
+      "relatedTeamIds": [
+        "khl:ak-bars"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6703574",
+      "slug": "gatiyatulin-vyskazalsya-o-forme-safonova-posle-vozvrascheniya-v-ak-bars",
+      "title": "Гатиятулин высказался о форме Сафонова после возвращения в «Ак Барс»",
+      "summary": "Главный тренер «Ак Барса» Анвар Гатиятулин оценил текущую игровую форму нападающего Ильи Сафонова, который вернулся в казанский клуб после начала сезона в АХЛ.",
+      "content": "Главный тренер «Ак Барса» Анвар Гатиятулин оценил текущую игровую форму нападающего Ильи Сафонова, который вернулся в казанский клуб после начала сезона в АХЛ.",
+      "image": "https://img.championat.com/news/big/w/g/gatiyatulin-vyskazalsya-o-fo.jpg",
+      "publishedAt": "2026-11-17T19:23:50Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6703574-gatiyatulin-vyskazalsya-o-forme-safonova-posle-vozvrascheniya-v-ak-bars.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Ак Барс",
+        "Анвар Гатиятулин",
+        "Илья Сафонов"
+      ],
+      "relatedTeamIds": [
+        "khl:ak-bars"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6703568",
       "slug": "sopernik-byl-racionalnee-gatiyatulin-o-porazhenii-ak-barsa-ot-dinamo-v-kazani",
       "title": "«Соперник был рациональнее». Гатиятулин — о поражении «Ак Барса» от «Динамо» в Казани",
@@ -379,317 +728,6 @@
       ],
       "relatedTeamIds": [
         "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6703334",
-      "slug": "gordon-rasskazal-byl-li-on-lichno-zainteresovan-v-perehode-dadonova-v-traktor",
-      "title": "Гордон рассказал, был ли он лично заинтересован в переходе Дадонова в «Трактор»",
-      "summary": "Главный тренер «Трактора» Скотт Гордон высказался о подписании контракта между «Ак Барсом» и Евгением Дадоновым, который является воспитанником челябинского клуба.",
-      "content": "Главный тренер «Трактора» Скотт Гордон высказался о подписании контракта между «Ак Барсом» и Евгением Дадоновым, который является воспитанником челябинского клуба.",
-      "image": "https://img.championat.com/news/big/p/z/gordon-rasskazal-byl-li-on-l.jpg",
-      "publishedAt": "2026-11-17T16:01:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6703334-gordon-rasskazal-byl-li-on-lichno-zainteresovan-v-perehode-dadonova-v-traktor.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Трактор",
-        "Евгений Дадонов",
-        "Скотт Гордон"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6703326",
-      "slug": "skott-gordon-prokommentiroval-porazhenie-traktora-ot-sibiri",
-      "title": "Скотт Гордон прокомментировал поражение «Трактора» от «Сибири»",
-      "summary": "Главный тренер челябинского «Трактора» Скотт Гордон прокомментировал поражение в гостевой встрече с новосибирской «Сибирью» со счётом 1:4.",
-      "content": "Главный тренер челябинского «Трактора» Скотт Гордон прокомментировал поражение в гостевой встрече с новосибирской «Сибирью» со счётом 1:4.",
-      "image": "https://img.championat.com/news/big/f/a/skott-gordon-prokommentirova.jpg",
-      "publishedAt": "2026-11-17T15:51:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6703326-skott-gordon-prokommentiroval-porazhenie-traktora-ot-sibiri.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Сибирь",
-        "Скотт Гордон"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6703322",
-      "slug": "galchenyuk-rasskazal-kakoj-syurpriz-emu-sdelal-mischenko-posle-perehoda-v-sibir",
-      "title": "Гальченюк рассказал, какой сюрприз ему сделал Мищенко после перехода в «Сибирь»",
-      "summary": "Нападающий «Сибири» Алекс Гальченюк высказался о сюрпризе, который ему приготовил защитник новосибирской команды Иван Мищенко, с которым они ранее вместе выступали за «Амур».",
-      "content": "Нападающий «Сибири» Алекс Гальченюк высказался о сюрпризе, который ему приготовил защитник новосибирской команды Иван Мищенко, с которым они ранее вместе выступали за «Амур».",
-      "image": "https://img.championat.com/news/big/t/w/galchenyuk-rasskazal-kakoj-syurpriz-emu-sdelal-mischenko-posle-perehoda-v-sibir_17949303101427923722.jpg",
-      "publishedAt": "2026-11-17T15:45:11Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6703322-galchenyuk-rasskazal-kakoj-syurpriz-emu-sdelal-mischenko-posle-perehoda-v-sibir.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Сибирь",
-        "Алекс Гальченюк",
-        "Иван Мищенко"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6703316",
-      "slug": "galchenyuk-o-debyute-za-sibir-vazhno-i-priyatno-chto-tebe-doveryayut",
-      "title": "Гальченюк — о дебюте за «Сибирь»: важно и приятно, что тебе доверяют",
-      "summary": "Нападающий «Сибири» Алекс Гальченюк высказался о дебютном матче за новосибирскую команду во встрече с «Трактором» (4:1).",
-      "content": "Нападающий «Сибири» Алекс Гальченюк высказался о дебютном матче за новосибирскую команду во встрече с «Трактором» (4:1).",
-      "image": "https://img.championat.com/news/big/j/l/galchenyuk-o-debyute-za-sibir-vazhno-i-priyatno-chto-tebe-doveryayut_1794929849621777815.jpg",
-      "publishedAt": "2026-11-17T15:40:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6703316-galchenyuk-o-debyute-za-sibir-vazhno-i-priyatno-chto-tebe-doveryayut.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Сибирь",
-        "Алекс Гальченюк"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6703306",
-      "slug": "ne-dumayu-chto-za-mesyac-igrat-razuchilsya-galchenyuk-o-pervom-matche-v-khl-s-14-oktyabrya",
-      "title": "«Не думаю, что за месяц играть разучился». Гальченюк — о первом матче в КХЛ с 14 октября",
-      "summary": "Нападающий «Сибири» Алекс Гальченюк прокомментировал свой первый матч за последний месяц.",
-      "content": "Нападающий «Сибири» Алекс Гальченюк прокомментировал свой первый матч за последний месяц.",
-      "image": "https://img.championat.com/news/big/z/t/ne-dumayu-chto-za-mesyac-igrat-razuchilsya-galchenyuk-o-pervom-matche-v-khl-s-14-oktyabrya_17949297131669893443.jpg",
-      "publishedAt": "2026-11-17T15:35:15Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6703306-ne-dumayu-chto-za-mesyac-igrat-razuchilsya-galchenyuk-o-pervom-matche-v-khl-s-14-oktyabrya.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Сибирь",
-        "Алекс Гальченюк"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6703132",
-      "slug": "absurd-i-debilizm-krepchayut-fetisov-o-nedopuske-rossii-na-mchm-po-hokkeyu",
-      "title": "«Абсурд и дебилизм крепчают». Фетисов — о недопуске России на МЧМ по хоккею",
-      "summary": "Двукратный олимпийский чемпион Вячеслав Фетисов назвал абсурдным решение Международной федерации хоккея не допускать сборную России к участию в молодёжном чемпионате мира — 2026.",
-      "content": "Двукратный олимпийский чемпион Вячеслав Фетисов назвал абсурдным решение Международной федерации хоккея не допускать сборную России к участию в молодёжном чемпионате мира — 2026.",
-      "image": "https://img.championat.com/news/big/z/v/absurd-i-debilizm-krepchayut-fetisov-o-nedopuske-rossii-na-mchm-po-hokkeyu_17949220911379009715.jpg",
-      "publishedAt": "2026-11-17T15:10:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6703132-absurd-i-debilizm-krepchayut-fetisov-o-nedopuske-rossii-na-mchm-po-hokkeyu.html",
-      "tags": [
-        "Хоккей",
-        "МЧМ по хоккею 2027",
-        "Сборная России — Хоккей",
-        "Молодёжная сборная России — Хоккей",
-        "Вячеслав Фетисов",
-        "Возвращение России в международный хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6703232",
-      "slug": "hk-lokomotiv-podpisal-kontrakt-s-napadayuschim-rihardom-panikom",
-      "title": "ХК «Локомотив» подписал контракт с нападающим Рихардом Паником",
-      "summary": "«Локомотив» заключил контракт с нападающим Рихардом Паником.",
-      "content": "«Локомотив» заключил контракт с нападающим Рихардом Паником.",
-      "image": "https://img.championat.com/news/big/o/w/hk-lokomotiv-podpisal-kontrakt-s-napadayuschim-rihardom-panikom_1794926487589427095.jpg",
-      "publishedAt": "2026-11-17T14:41:34Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6703232-hk-lokomotiv-podpisal-kontrakt-s-napadayuschim-rihardom-panikom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Локомотив",
-        "Рихард Паник"
-      ],
-      "relatedTeamIds": [
-        "khl:lokomotiv"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6703204",
-      "slug": "sibir-traktor-rezultat-matcha-17-noyabrya-2026-goda-schet-4-1-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Сибирь» обыграла «Трактор» и прервала серию из трёх поражений",
-      "summary": "Сегодня, 17 ноября, в Новосибирске на стадионе «Сибирь-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Сибирь» принимала челябинский «Трактор».",
-      "content": "Сегодня, 17 ноября, в Новосибирске на стадионе «Сибирь-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Сибирь» принимала челябинский «Трактор».",
-      "image": "https://img.championat.com/news/big/k/g/sibir-obygrala-traktor-i-prervala-seriyu-iz-tryoh-porazhenij_17949255441475756186.jpg",
-      "publishedAt": "2026-11-17T14:37:10Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6703204-sibir-traktor-rezultat-matcha-17-noyabrya-2026-goda-schet-4-1-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Сибирь"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6703156",
-      "slug": "napadayuschij-mihail-malcev-poproschalsya-s-bolelschikami-spartaka",
-      "title": "Нападающий Михаил Мальцев попрощался с болельщиками «Спартака»",
-      "summary": "Нападающий Михаил Мальцев попрощался с болельщиками «Спартака» и анонсировал свой переход в один из уральских клубов КХЛ.",
-      "content": "Нападающий Михаил Мальцев попрощался с болельщиками «Спартака» и анонсировал свой переход в один из уральских клубов КХЛ.",
-      "image": "https://img.championat.com/news/big/n/k/napadayuschij-mihail-malcev-.jpg",
-      "publishedAt": "2026-11-17T14:05:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6703156-napadayuschij-mihail-malcev-poproschalsya-s-bolelschikami-spartaka.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Спартак",
-        "Михаил Мальцев"
-      ],
-      "relatedTeamIds": [
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6703136",
-      "slug": "fhr-osudila-vzlom-sajta-iihf-s-publikaciej-v-podderzhku-sbornoj-rossii",
-      "title": "ФХР осудила взлом сайта ИИХФ с публикацией в поддержку сборной России",
-      "summary": "Федерация хоккея России осудила взлом сайта Международной федерации хоккея.",
-      "content": "Федерация хоккея России осудила взлом сайта Международной федерации хоккея.",
-      "image": "https://img.championat.com/news/big/l/r/fhr-osudila-vzlom-sajta-iihf-s-publikaciej-v-podderzhku-sbornoj-rossii_1794922612722725991.jpg",
-      "publishedAt": "2026-11-17T13:37:00Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6703136-fhr-osudila-vzlom-sajta-iihf-s-publikaciej-v-podderzhku-sbornoj-rossii.html",
-      "tags": [
-        "Хоккей",
-        "ЧМ по хоккею 2027",
-        "Сборная России — Хоккей",
-        "ФХР",
-        "ИИХФ"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6702582",
-      "slug": "ak-bars-dinamo-m-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk",
-      "title": "«Ак Барс» — «Динамо» М: онлайн-трансляция матча КХЛ начнётся в 19:30 мск",
-      "summary": "Сегодня, 17 ноября, в Казани на стадионе «Татнефть-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Ак Барс» примет московское «Динамо».",
-      "content": "Сегодня, 17 ноября, в Казани на стадионе «Татнефть-Арена» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Ак Барс» примет московское «Динамо».",
-      "image": "https://img.championat.com/news/big/i/y/ak-bars-dinamo-m-onlajn-translyaciya-matcha-khl-nachnyotsya-v-19-30-msk_17948940881171755408.jpg",
-      "publishedAt": "2026-11-17T13:30:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6702582-ak-bars-dinamo-m-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Ак Барс"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6703106",
-      "slug": "v-admirale-nazvali-prichinu-rastorzheniya-kontrakta-s-napadayuschim-kajlom-olsonom",
-      "title": "В «Адмирале» назвали причину расторжения контракта с нападающим Кайлом Олсоном",
-      "summary": "Спортивный директор ХК «Адмирал» Александр Ардашев прокомментировал расставание с нападающим Кайлом Олсоном и обмен форварда Егора Черникова из «Автомобилиста».",
-      "content": "Спортивный директор ХК «Адмирал» Александр Ардашев прокомментировал расставание с нападающим Кайлом Олсоном и обмен форварда Егора Черникова из «Автомобилиста».",
-      "image": "https://img.championat.com/news/big/j/v/v-admirale-nazvali-prichinu-rastorzheniya-kontrakta-s-napadayuschim-kajlom-olsonom_1794921000227620185.jpg",
-      "publishedAt": "2026-11-17T13:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6703106-v-admirale-nazvali-prichinu-rastorzheniya-kontrakta-s-napadayuschim-kajlom-olsonom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Автомобилист",
-        "Адмирал",
-        "Александр Ардашев",
-        "Кайл Олсон"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:avtomobilist"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6703064",
-      "slug": "sajt-iihf-vzlomali-i-opublikovali-soobschenie-pro-sbornuyu-rossii",
-      "title": "Сайт ИИХФ взломали и опубликовали сообщение про сборную России",
-      "summary": "Сайт Международной федерации хоккея (ИИХФ) подвергся кибератаке.",
-      "content": "Сайт Международной федерации хоккея (ИИХФ) подвергся кибератаке.",
-      "image": "https://img.championat.com/news/big/w/l/sajt-iihf-vzlomali-i-opublikovali-soobschenie-pro-sbornuyu-rossii_1794919131397964681.jpg",
-      "publishedAt": "2026-11-17T12:55:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6703064-sajt-iihf-vzlomali-i-opublikovali-soobschenie-pro-sbornuyu-rossii.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Фото",
-        "Сборная России — Хоккей",
-        "ИИХФ",
-        "Возвращение России в международный хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6703056",
-      "slug": "spartak-vyjdet-na-blizhajshuyu-igru-s-traurnymi-lentami-v-pamyat-o-yurii-lyapkine",
-      "title": "«Спартак» выйдет на ближайшую игру с траурными лентами в память о Юрии Ляпкине",
-      "summary": "Игроки «Спартака» выйдут на сегодняшнюю игру с «Автомобилистом» с траурными лентами в память об экс-защитнике красно-белых и сборной СССР Юрии Ляпкине, который ушёл из жизни сегодня, 17 ноября.",
-      "content": "Игроки «Спартака» выйдут на сегодняшнюю игру с «Автомобилистом» с траурными лентами в память об экс-защитнике красно-белых и сборной СССР Юрии Ляпкине, который ушёл из жизни сегодня, 17 ноября.",
-      "image": "https://img.championat.com/news/big/s/t/spartak-vyjdet-na-blizhajshuyu-igru-s-traurnymi-lentami-v-pamyat-o-yurii-lyapkine_17949187401324552583.jpg",
-      "publishedAt": "2026-11-17T12:45:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6703056-spartak-vyjdet-na-blizhajshuyu-igru-s-traurnymi-lentami-v-pamyat-o-yurii-lyapkine.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Фото",
-        "Спартак",
-        "Автомобилист"
-      ],
-      "relatedTeamIds": [
-        "khl:avtomobilist",
-        "khl:spartak"
       ],
       "relatedPlayerIds": []
     }
