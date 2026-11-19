@@ -33,93 +33,12 @@
   },
   {
     "type": "team",
-    "id": "khl:ska",
-    "title": "СКА",
-    "subtitle": "Запад • Санкт-Петербург",
-    "logo": "/assets/logos/teams/ska.png",
-    "url": "/team/?id=khl:ska",
-    "tokens": "ска ska saint petersburg ска санкт-петербург ska"
-  },
-  {
-    "type": "team",
-    "id": "nhl:cgy",
-    "title": "Калгари Флэймз",
-    "subtitle": "Западная • Calgary",
-    "logo": "/assets/logos/teams/cgy.svg",
-    "url": "/team/?id=nhl:cgy",
-    "tokens": "калгари флэймз calgary flames cgy calgary kalgari fleymz"
-  },
-  {
-    "type": "team",
-    "id": "nhl:njd",
-    "title": "Нью-Джерси Девилз",
-    "subtitle": "Восточная • New Jersey",
-    "logo": "/assets/logos/teams/njd.svg",
-    "url": "/team/?id=nhl:njd",
-    "tokens": "нью-джерси девилз new jersey devils njd new jersey nyu-dzhersi devilz"
-  },
-  {
-    "type": "team",
-    "id": "nhl:car",
-    "title": "Каролина Харрикейнз",
-    "subtitle": "Восточная • Carolina",
-    "logo": "/assets/logos/teams/car.svg",
-    "url": "/team/?id=nhl:car",
-    "tokens": "каролина харрикейнз carolina hurricanes car carolina karolina kharrikeynz"
-  },
-  {
-    "type": "team",
-    "id": "nhl:vgk",
-    "title": "Вегас Голден Найтс",
-    "subtitle": "Западная • Vegas",
-    "logo": "/assets/logos/teams/vgk.svg",
-    "url": "/team/?id=nhl:vgk",
-    "tokens": "вегас голден найтс vegas golden knights vgk vegas vegas golden nayts"
-  },
-  {
-    "type": "team",
-    "id": "khl:neftekhimik",
-    "title": "Нефтехимик",
-    "subtitle": "Восток • Нижнекамск",
-    "logo": "/assets/logos/teams/neftekhimik.png",
-    "url": "/team/?id=khl:neftekhimik",
-    "tokens": "нефтехимик neftekhimik nizhnekamsk нхк нижнекамск neftekhimik"
-  },
-  {
-    "type": "team",
-    "id": "khl:admiral",
-    "title": "Адмирал",
-    "subtitle": "Восток • Владивосток",
-    "logo": "/assets/logos/teams/admiral.png",
-    "url": "/team/?id=khl:admiral",
-    "tokens": "адмирал admiral vladivostok адм владивосток admiral"
-  },
-  {
-    "type": "team",
-    "id": "nhl:nsh",
-    "title": "Нэшвилл Предаторз",
-    "subtitle": "Западная • Nashville",
-    "logo": "/assets/logos/teams/nsh.svg",
-    "url": "/team/?id=nhl:nsh",
-    "tokens": "нэшвилл предаторз nashville predators nsh nashville neshvill predatorz"
-  },
-  {
-    "type": "team",
-    "id": "khl:lada",
-    "title": "Лада",
-    "subtitle": "Восток • Тольятти",
-    "logo": "/assets/logos/teams/lada.png",
-    "url": "/team/?id=khl:lada",
-    "tokens": "лада lada togliatti лад тольятти lada"
-  },
-  {
-    "type": "team",
-    "id": "khl:traktor",
-    "title": "Трактор",
-    "subtitle": "Восток • Челябинск",
-    "logo": "/assets/logos/teams/traktor.png",
-    "url": "/team/?id=khl:traktor",
-    "tokens": "трактор traktor chelyabinsk трк челябинск traktor"
+    "id": "nhl:det",
+    "title": "Детройт Ред Уингз",
+    "subtitle": "Восточная • Detroit",
+    "logo": "/assets/logos/teams/det.svg",
+    "url": "/team/?id=nhl:det",
+    "tokens": "детройт ред уингз detroit red wings det detroit detroyt red uingz"
   },
   {
     "type": "team",
@@ -132,84 +51,12 @@
   },
   {
     "type": "team",
-    "id": "nhl:edm",
-    "title": "Эдмонтон Ойлерз",
-    "subtitle": "Западная • Edmonton",
-    "logo": "/assets/logos/teams/edm.svg",
-    "url": "/team/?id=nhl:edm",
-    "tokens": "эдмонтон ойлерз edmonton oilers edm edmonton edmonton oylerz"
-  },
-  {
-    "type": "team",
-    "id": "nhl:fla",
-    "title": "Флорида Пантерз",
-    "subtitle": "Восточная • Florida",
-    "logo": "/assets/logos/teams/fla.svg",
-    "url": "/team/?id=nhl:fla",
-    "tokens": "флорида пантерз florida panthers fla florida florida panterz"
-  },
-  {
-    "type": "team",
-    "id": "khl:lokomotiv",
-    "title": "Локомотив",
-    "subtitle": "Запад • Ярославль",
-    "logo": "/assets/logos/teams/lokomotiv.png",
-    "url": "/team/?id=khl:lokomotiv",
-    "tokens": "локомотив lokomotiv yaroslavl лок ярославль lokomotiv"
-  },
-  {
-    "type": "team",
-    "id": "khl:spartak",
-    "title": "Спартак",
-    "subtitle": "Запад • Москва",
-    "logo": "/assets/logos/teams/spartak.png",
-    "url": "/team/?id=khl:spartak",
-    "tokens": "спартак spartak moscow спа москва spartak"
-  },
-  {
-    "type": "team",
-    "id": "nhl:cbj",
-    "title": "Коламбус Блю Джекетс",
-    "subtitle": "Восточная • Columbus",
-    "logo": "/assets/logos/teams/cbj.svg",
-    "url": "/team/?id=nhl:cbj",
-    "tokens": "коламбус блю джекетс columbus blue jackets cbj columbus kolambus blyu dzhekets"
-  },
-  {
-    "type": "team",
-    "id": "nhl:wpg",
-    "title": "Виннипег Джетс",
-    "subtitle": "Западная • Winnipeg",
-    "logo": "/assets/logos/teams/wpg.svg",
-    "url": "/team/?id=nhl:wpg",
-    "tokens": "виннипег джетс winnipeg jets wpg winnipeg vinnipeg dzhets"
-  },
-  {
-    "type": "team",
-    "id": "nhl:lak",
-    "title": "Лос-Анджелес Кингз",
-    "subtitle": "Западная • Los Angeles",
-    "logo": "/assets/logos/teams/lak.svg",
-    "url": "/team/?id=nhl:lak",
-    "tokens": "лос-анджелес кингз los angeles kings lak los angeles los-andzheles kingz"
-  },
-  {
-    "type": "team",
-    "id": "nhl:det",
-    "title": "Детройт Ред Уингз",
-    "subtitle": "Восточная • Detroit",
-    "logo": "/assets/logos/teams/det.svg",
-    "url": "/team/?id=nhl:det",
-    "tokens": "детройт ред уингз detroit red wings det detroit detroyt red uingz"
-  },
-  {
-    "type": "team",
-    "id": "nhl:mtl",
-    "title": "Монреаль Канадиенс",
-    "subtitle": "Восточная • Montréal",
-    "logo": "/assets/logos/teams/mtl.svg",
-    "url": "/team/?id=nhl:mtl",
-    "tokens": "монреаль канадиенс montréal canadiens mtl montréal monreal kanadiens"
+    "id": "nhl:sjs",
+    "title": "Сан-Хосе Шаркс",
+    "subtitle": "Западная • San Jose",
+    "logo": "/assets/logos/teams/sjs.svg",
+    "url": "/team/?id=nhl:sjs",
+    "tokens": "сан-хосе шаркс san jose sharks sjs san jose san-khose sharks"
   },
   {
     "type": "team",
@@ -222,15 +69,6 @@
   },
   {
     "type": "team",
-    "id": "khl:avangard",
-    "title": "Авангард",
-    "subtitle": "Восток • Омск",
-    "logo": "/assets/logos/teams/avangard.png",
-    "url": "/team/?id=khl:avangard",
-    "tokens": "авангард avangard omsk авг омск avangard"
-  },
-  {
-    "type": "team",
     "id": "khl:dynamo-msk",
     "title": "Динамо М",
     "subtitle": "Запад • Москва",
@@ -240,30 +78,12 @@
   },
   {
     "type": "team",
-    "id": "nhl:bos",
-    "title": "Бостон Брюинз",
-    "subtitle": "Восточная • Boston",
-    "logo": "/assets/logos/teams/bos.svg",
-    "url": "/team/?id=nhl:bos",
-    "tokens": "бостон брюинз boston bruins bos boston boston bryuinz"
-  },
-  {
-    "type": "team",
-    "id": "khl:metallurg-mg",
-    "title": "Металлург Мг",
-    "subtitle": "Восток • Магнитогорск",
-    "logo": "/assets/logos/teams/metallurg-mg.png",
-    "url": "/team/?id=khl:metallurg-mg",
-    "tokens": "металлург мг metallurg magnitogorsk ммг магнитогорск metallurg mg"
-  },
-  {
-    "type": "team",
-    "id": "nhl:nyi",
-    "title": "Нью-Йорк Айлендерс",
-    "subtitle": "Восточная • NY Islanders",
-    "logo": "/assets/logos/teams/nyi.svg",
-    "url": "/team/?id=nhl:nyi",
-    "tokens": "нью-йорк айлендерс new york islanders nyi ny islanders nyu-york aylenders"
+    "id": "nhl:vgk",
+    "title": "Вегас Голден Найтс",
+    "subtitle": "Западная • Vegas",
+    "logo": "/assets/logos/teams/vgk.svg",
+    "url": "/team/?id=nhl:vgk",
+    "tokens": "вегас голден найтс vegas golden knights vgk vegas vegas golden nayts"
   },
   {
     "type": "team",
@@ -276,93 +96,12 @@
   },
   {
     "type": "team",
-    "id": "nhl:tbl",
-    "title": "Тампа-Бэй Лайтнинг",
-    "subtitle": "Восточная • Tampa Bay",
-    "logo": "/assets/logos/teams/tbl.svg",
-    "url": "/team/?id=nhl:tbl",
-    "tokens": "тампа-бэй лайтнинг tampa bay lightning tbl tampa bay tampa-bey laytning"
-  },
-  {
-    "type": "team",
-    "id": "nhl:wsh",
-    "title": "Вашингтон Кэпиталз",
-    "subtitle": "Восточная • Washington",
-    "logo": "/assets/logos/teams/wsh.svg",
-    "url": "/team/?id=nhl:wsh",
-    "tokens": "вашингтон кэпиталз washington capitals wsh washington vashington kepitalz"
-  },
-  {
-    "type": "team",
-    "id": "nhl:uta",
-    "title": "Юта Хоккей Клаб",
-    "subtitle": "Западная • Utah",
-    "logo": "/assets/logos/teams/uta.svg",
-    "url": "/team/?id=nhl:uta",
-    "tokens": "юта хоккей клаб utah mammoth uta utah yuta khokkey klab"
-  },
-  {
-    "type": "team",
-    "id": "nhl:min",
-    "title": "Миннесота Уайлд",
-    "subtitle": "Западная • Minnesota",
-    "logo": "/assets/logos/teams/min.svg",
-    "url": "/team/?id=nhl:min",
-    "tokens": "миннесота уайлд minnesota wild min minnesota minnesota uayld"
-  },
-  {
-    "type": "team",
-    "id": "nhl:buf",
-    "title": "Баффало Сейбрз",
-    "subtitle": "Восточная • Buffalo",
-    "logo": "/assets/logos/teams/buf.svg",
-    "url": "/team/?id=nhl:buf",
-    "tokens": "баффало сейбрз buffalo sabres buf buffalo baffalo seybrz"
-  },
-  {
-    "type": "team",
-    "id": "nhl:van",
-    "title": "Ванкувер Кэнакс",
-    "subtitle": "Западная • Vancouver",
-    "logo": "/assets/logos/teams/van.svg",
-    "url": "/team/?id=nhl:van",
-    "tokens": "ванкувер кэнакс vancouver canucks van vancouver vankuver kenaks"
-  },
-  {
-    "type": "team",
-    "id": "khl:severstal",
-    "title": "Северсталь",
-    "subtitle": "Запад • Череповец",
-    "logo": "/assets/logos/teams/severstal.png",
-    "url": "/team/?id=khl:severstal",
-    "tokens": "северсталь severstal cherepovets сев череповец severstal"
-  },
-  {
-    "type": "team",
-    "id": "nhl:nyr",
-    "title": "Нью-Йорк Рейнджерс",
-    "subtitle": "Восточная • NY Rangers",
-    "logo": "/assets/logos/teams/nyr.svg",
-    "url": "/team/?id=nhl:nyr",
-    "tokens": "нью-йорк рейнджерс new york rangers nyr ny rangers nyu-york reyndzhers"
-  },
-  {
-    "type": "team",
-    "id": "nhl:pit",
-    "title": "Питтсбург Пингвинз",
-    "subtitle": "Восточная • Pittsburgh",
-    "logo": "/assets/logos/teams/pit.svg",
-    "url": "/team/?id=nhl:pit",
-    "tokens": "питтсбург пингвинз pittsburgh penguins pit pittsburgh pittsburg pingvinz"
-  },
-  {
-    "type": "team",
-    "id": "nhl:sjs",
-    "title": "Сан-Хосе Шаркс",
-    "subtitle": "Западная • San Jose",
-    "logo": "/assets/logos/teams/sjs.svg",
-    "url": "/team/?id=nhl:sjs",
-    "tokens": "сан-хосе шаркс san jose sharks sjs san jose san-khose sharks"
+    "id": "khl:sochi",
+    "title": "ХК Сочи",
+    "subtitle": "Запад • Сочи",
+    "logo": "/assets/logos/teams/sochi.png",
+    "url": "/team/?id=khl:sochi",
+    "tokens": "хк сочи hc sochi соч сочи khk sochi"
   },
   {
     "type": "team",
@@ -375,21 +114,30 @@
   },
   {
     "type": "team",
-    "id": "khl:avtomobilist",
-    "title": "Автомобилист",
-    "subtitle": "Восток • Екатеринбург",
-    "logo": "/assets/logos/teams/avtomobilist.png",
-    "url": "/team/?id=khl:avtomobilist",
-    "tokens": "автомобилист avtomobilist yekaterinburg авт екатеринбург avtomobilist"
+    "id": "khl:ska",
+    "title": "СКА",
+    "subtitle": "Запад • Санкт-Петербург",
+    "logo": "/assets/logos/teams/ska.png",
+    "url": "/team/?id=khl:ska",
+    "tokens": "ска ska saint petersburg ска санкт-петербург ska"
   },
   {
     "type": "team",
-    "id": "khl:torpedo",
-    "title": "Торпедо",
-    "subtitle": "Запад • Нижний Новгород",
-    "logo": "/assets/logos/teams/torpedo.png",
-    "url": "/team/?id=khl:torpedo",
-    "tokens": "торпедо torpedo nizhny novgorod тор нижний новгород torpedo"
+    "id": "khl:avangard",
+    "title": "Авангард",
+    "subtitle": "Восток • Омск",
+    "logo": "/assets/logos/teams/avangard.png",
+    "url": "/team/?id=khl:avangard",
+    "tokens": "авангард avangard omsk авг омск avangard"
+  },
+  {
+    "type": "team",
+    "id": "nhl:min",
+    "title": "Миннесота Уайлд",
+    "subtitle": "Западная • Minnesota",
+    "logo": "/assets/logos/teams/min.svg",
+    "url": "/team/?id=nhl:min",
+    "tokens": "миннесота уайлд minnesota wild min minnesota minnesota uayld"
   },
   {
     "type": "team",
@@ -402,12 +150,21 @@
   },
   {
     "type": "team",
-    "id": "nhl:ott",
-    "title": "Оттава Сенаторз",
-    "subtitle": "Восточная • Ottawa",
-    "logo": "/assets/logos/teams/ott.svg",
-    "url": "/team/?id=nhl:ott",
-    "tokens": "оттава сенаторз ottawa senators ott ottawa ottava senatorz"
+    "id": "nhl:nyi",
+    "title": "Нью-Йорк Айлендерс",
+    "subtitle": "Восточная • NY Islanders",
+    "logo": "/assets/logos/teams/nyi.svg",
+    "url": "/team/?id=nhl:nyi",
+    "tokens": "нью-йорк айлендерс new york islanders nyi ny islanders nyu-york aylenders"
+  },
+  {
+    "type": "team",
+    "id": "nhl:nsh",
+    "title": "Нэшвилл Предаторз",
+    "subtitle": "Западная • Nashville",
+    "logo": "/assets/logos/teams/nsh.svg",
+    "url": "/team/?id=nhl:nsh",
+    "tokens": "нэшвилл предаторз nashville predators nsh nashville neshvill predatorz"
   },
   {
     "type": "team",
@@ -420,12 +177,237 @@
   },
   {
     "type": "team",
+    "id": "khl:spartak",
+    "title": "Спартак",
+    "subtitle": "Запад • Москва",
+    "logo": "/assets/logos/teams/spartak.png",
+    "url": "/team/?id=khl:spartak",
+    "tokens": "спартак spartak moscow спа москва spartak"
+  },
+  {
+    "type": "team",
+    "id": "khl:metallurg-mg",
+    "title": "Металлург Мг",
+    "subtitle": "Восток • Магнитогорск",
+    "logo": "/assets/logos/teams/metallurg-mg.png",
+    "url": "/team/?id=khl:metallurg-mg",
+    "tokens": "металлург мг metallurg magnitogorsk ммг магнитогорск metallurg mg"
+  },
+  {
+    "type": "team",
     "id": "khl:sibir",
     "title": "Сибирь",
     "subtitle": "Восток • Новосибирск",
     "logo": "/assets/logos/teams/sibir.png",
     "url": "/team/?id=khl:sibir",
     "tokens": "сибирь sibir novosibirsk сиб новосибирск sibir"
+  },
+  {
+    "type": "team",
+    "id": "nhl:cbj",
+    "title": "Коламбус Блю Джекетс",
+    "subtitle": "Восточная • Columbus",
+    "logo": "/assets/logos/teams/cbj.svg",
+    "url": "/team/?id=nhl:cbj",
+    "tokens": "коламбус блю джекетс columbus blue jackets cbj columbus kolambus blyu dzhekets"
+  },
+  {
+    "type": "team",
+    "id": "khl:barys",
+    "title": "Барыс",
+    "subtitle": "Восток • Астана",
+    "logo": "/assets/logos/teams/barys.png",
+    "url": "/team/?id=khl:barys",
+    "tokens": "барыс barys astana бар астана barys"
+  },
+  {
+    "type": "team",
+    "id": "nhl:sea",
+    "title": "Сиэтл Кракен",
+    "subtitle": "Западная • Seattle",
+    "logo": "/assets/logos/teams/sea.svg",
+    "url": "/team/?id=nhl:sea",
+    "tokens": "сиэтл кракен seattle kraken sea seattle sietl kraken"
+  },
+  {
+    "type": "team",
+    "id": "nhl:njd",
+    "title": "Нью-Джерси Девилз",
+    "subtitle": "Восточная • New Jersey",
+    "logo": "/assets/logos/teams/njd.svg",
+    "url": "/team/?id=nhl:njd",
+    "tokens": "нью-джерси девилз new jersey devils njd new jersey nyu-dzhersi devilz"
+  },
+  {
+    "type": "team",
+    "id": "nhl:lak",
+    "title": "Лос-Анджелес Кингз",
+    "subtitle": "Западная • Los Angeles",
+    "logo": "/assets/logos/teams/lak.svg",
+    "url": "/team/?id=nhl:lak",
+    "tokens": "лос-анджелес кингз los angeles kings lak los angeles los-andzheles kingz"
+  },
+  {
+    "type": "team",
+    "id": "khl:severstal",
+    "title": "Северсталь",
+    "subtitle": "Запад • Череповец",
+    "logo": "/assets/logos/teams/severstal.png",
+    "url": "/team/?id=khl:severstal",
+    "tokens": "северсталь severstal cherepovets сев череповец severstal"
+  },
+  {
+    "type": "team",
+    "id": "khl:amur",
+    "title": "Амур",
+    "subtitle": "Восток • Хабаровск",
+    "logo": "/assets/logos/teams/amur.png",
+    "url": "/team/?id=khl:amur",
+    "tokens": "амур amur khabarovsk аму хабаровск amur"
+  },
+  {
+    "type": "team",
+    "id": "khl:admiral",
+    "title": "Адмирал",
+    "subtitle": "Восток • Владивосток",
+    "logo": "/assets/logos/teams/admiral.png",
+    "url": "/team/?id=khl:admiral",
+    "tokens": "адмирал admiral vladivostok адм владивосток admiral"
+  },
+  {
+    "type": "team",
+    "id": "nhl:nyr",
+    "title": "Нью-Йорк Рейнджерс",
+    "subtitle": "Восточная • NY Rangers",
+    "logo": "/assets/logos/teams/nyr.svg",
+    "url": "/team/?id=nhl:nyr",
+    "tokens": "нью-йорк рейнджерс new york rangers nyr ny rangers nyu-york reyndzhers"
+  },
+  {
+    "type": "team",
+    "id": "nhl:tbl",
+    "title": "Тампа-Бэй Лайтнинг",
+    "subtitle": "Восточная • Tampa Bay",
+    "logo": "/assets/logos/teams/tbl.svg",
+    "url": "/team/?id=nhl:tbl",
+    "tokens": "тампа-бэй лайтнинг tampa bay lightning tbl tampa bay tampa-bey laytning"
+  },
+  {
+    "type": "team",
+    "id": "khl:neftekhimik",
+    "title": "Нефтехимик",
+    "subtitle": "Восток • Нижнекамск",
+    "logo": "/assets/logos/teams/neftekhimik.png",
+    "url": "/team/?id=khl:neftekhimik",
+    "tokens": "нефтехимик neftekhimik nizhnekamsk нхк нижнекамск neftekhimik"
+  },
+  {
+    "type": "team",
+    "id": "nhl:uta",
+    "title": "Юта Хоккей Клаб",
+    "subtitle": "Западная • Utah",
+    "logo": "/assets/logos/teams/uta.svg",
+    "url": "/team/?id=nhl:uta",
+    "tokens": "юта хоккей клаб utah mammoth uta utah yuta khokkey klab"
+  },
+  {
+    "type": "team",
+    "id": "nhl:van",
+    "title": "Ванкувер Кэнакс",
+    "subtitle": "Западная • Vancouver",
+    "logo": "/assets/logos/teams/van.svg",
+    "url": "/team/?id=nhl:van",
+    "tokens": "ванкувер кэнакс vancouver canucks van vancouver vankuver kenaks"
+  },
+  {
+    "type": "team",
+    "id": "nhl:fla",
+    "title": "Флорида Пантерз",
+    "subtitle": "Восточная • Florida",
+    "logo": "/assets/logos/teams/fla.svg",
+    "url": "/team/?id=nhl:fla",
+    "tokens": "флорида пантерз florida panthers fla florida florida panterz"
+  },
+  {
+    "type": "team",
+    "id": "nhl:edm",
+    "title": "Эдмонтон Ойлерз",
+    "subtitle": "Западная • Edmonton",
+    "logo": "/assets/logos/teams/edm.svg",
+    "url": "/team/?id=nhl:edm",
+    "tokens": "эдмонтон ойлерз edmonton oilers edm edmonton edmonton oylerz"
+  },
+  {
+    "type": "team",
+    "id": "nhl:cgy",
+    "title": "Калгари Флэймз",
+    "subtitle": "Западная • Calgary",
+    "logo": "/assets/logos/teams/cgy.svg",
+    "url": "/team/?id=nhl:cgy",
+    "tokens": "калгари флэймз calgary flames cgy calgary kalgari fleymz"
+  },
+  {
+    "type": "team",
+    "id": "nhl:car",
+    "title": "Каролина Харрикейнз",
+    "subtitle": "Восточная • Carolina",
+    "logo": "/assets/logos/teams/car.svg",
+    "url": "/team/?id=nhl:car",
+    "tokens": "каролина харрикейнз carolina hurricanes car carolina karolina kharrikeynz"
+  },
+  {
+    "type": "team",
+    "id": "khl:traktor",
+    "title": "Трактор",
+    "subtitle": "Восток • Челябинск",
+    "logo": "/assets/logos/teams/traktor.png",
+    "url": "/team/?id=khl:traktor",
+    "tokens": "трактор traktor chelyabinsk трк челябинск traktor"
+  },
+  {
+    "type": "team",
+    "id": "khl:lokomotiv",
+    "title": "Локомотив",
+    "subtitle": "Запад • Ярославль",
+    "logo": "/assets/logos/teams/lokomotiv.png",
+    "url": "/team/?id=khl:lokomotiv",
+    "tokens": "локомотив lokomotiv yaroslavl лок ярославль lokomotiv"
+  },
+  {
+    "type": "team",
+    "id": "nhl:pit",
+    "title": "Питтсбург Пингвинз",
+    "subtitle": "Восточная • Pittsburgh",
+    "logo": "/assets/logos/teams/pit.svg",
+    "url": "/team/?id=nhl:pit",
+    "tokens": "питтсбург пингвинз pittsburgh penguins pit pittsburgh pittsburg pingvinz"
+  },
+  {
+    "type": "team",
+    "id": "nhl:tor",
+    "title": "Торонто Мейпл Лифс",
+    "subtitle": "Восточная • Toronto",
+    "logo": "/assets/logos/teams/tor.svg",
+    "url": "/team/?id=nhl:tor",
+    "tokens": "торонто мейпл лифс toronto maple leafs tor toronto toronto meypl lifs"
+  },
+  {
+    "type": "team",
+    "id": "khl:vityaz",
+    "title": "Витязь",
+    "subtitle": "Запад • Балашиха",
+    "logo": "/assets/logos/teams/vityaz.png",
+    "url": "/team/?id=khl:vityaz",
+    "tokens": "витязь vityaz balashikha вит балашиха vityaz"
+  },
+  {
+    "type": "team",
+    "id": "nhl:buf",
+    "title": "Баффало Сейбрз",
+    "subtitle": "Восточная • Buffalo",
+    "logo": "/assets/logos/teams/buf.svg",
+    "url": "/team/?id=nhl:buf",
+    "tokens": "баффало сейбрз buffalo sabres buf buffalo baffalo seybrz"
   },
   {
     "type": "team",
@@ -438,12 +420,66 @@
   },
   {
     "type": "team",
-    "id": "khl:vityaz",
-    "title": "Витязь",
-    "subtitle": "Запад • Балашиха",
-    "logo": "/assets/logos/teams/vityaz.png",
-    "url": "/team/?id=khl:vityaz",
-    "tokens": "витязь vityaz balashikha вит балашиха vityaz"
+    "id": "khl:avtomobilist",
+    "title": "Автомобилист",
+    "subtitle": "Восток • Екатеринбург",
+    "logo": "/assets/logos/teams/avtomobilist.png",
+    "url": "/team/?id=khl:avtomobilist",
+    "tokens": "автомобилист avtomobilist yekaterinburg авт екатеринбург avtomobilist"
+  },
+  {
+    "type": "team",
+    "id": "nhl:mtl",
+    "title": "Монреаль Канадиенс",
+    "subtitle": "Восточная • Montréal",
+    "logo": "/assets/logos/teams/mtl.svg",
+    "url": "/team/?id=nhl:mtl",
+    "tokens": "монреаль канадиенс montréal canadiens mtl montréal monreal kanadiens"
+  },
+  {
+    "type": "team",
+    "id": "khl:lada",
+    "title": "Лада",
+    "subtitle": "Восток • Тольятти",
+    "logo": "/assets/logos/teams/lada.png",
+    "url": "/team/?id=khl:lada",
+    "tokens": "лада lada togliatti лад тольятти lada"
+  },
+  {
+    "type": "team",
+    "id": "nhl:ott",
+    "title": "Оттава Сенаторз",
+    "subtitle": "Восточная • Ottawa",
+    "logo": "/assets/logos/teams/ott.svg",
+    "url": "/team/?id=nhl:ott",
+    "tokens": "оттава сенаторз ottawa senators ott ottawa ottava senatorz"
+  },
+  {
+    "type": "team",
+    "id": "nhl:stl",
+    "title": "Сент-Луис Блюз",
+    "subtitle": "Западная • St. Louis",
+    "logo": "/assets/logos/teams/stl.svg",
+    "url": "/team/?id=nhl:stl",
+    "tokens": "сент-луис блюз st. louis blues stl st. louis sent-luis blyuz"
+  },
+  {
+    "type": "team",
+    "id": "nhl:wsh",
+    "title": "Вашингтон Кэпиталз",
+    "subtitle": "Восточная • Washington",
+    "logo": "/assets/logos/teams/wsh.svg",
+    "url": "/team/?id=nhl:wsh",
+    "tokens": "вашингтон кэпиталз washington capitals wsh washington vashington kepitalz"
+  },
+  {
+    "type": "team",
+    "id": "khl:torpedo",
+    "title": "Торпедо",
+    "subtitle": "Запад • Нижний Новгород",
+    "logo": "/assets/logos/teams/torpedo.png",
+    "url": "/team/?id=khl:torpedo",
+    "tokens": "торпедо torpedo nizhny novgorod тор нижний новгород torpedo"
   },
   {
     "type": "team",
@@ -465,42 +501,6 @@
   },
   {
     "type": "team",
-    "id": "nhl:sea",
-    "title": "Сиэтл Кракен",
-    "subtitle": "Западная • Seattle",
-    "logo": "/assets/logos/teams/sea.svg",
-    "url": "/team/?id=nhl:sea",
-    "tokens": "сиэтл кракен seattle kraken sea seattle sietl kraken"
-  },
-  {
-    "type": "team",
-    "id": "nhl:stl",
-    "title": "Сент-Луис Блюз",
-    "subtitle": "Западная • St. Louis",
-    "logo": "/assets/logos/teams/stl.svg",
-    "url": "/team/?id=nhl:stl",
-    "tokens": "сент-луис блюз st. louis blues stl st. louis sent-luis blyuz"
-  },
-  {
-    "type": "team",
-    "id": "khl:barys",
-    "title": "Барыс",
-    "subtitle": "Восток • Астана",
-    "logo": "/assets/logos/teams/barys.png",
-    "url": "/team/?id=khl:barys",
-    "tokens": "барыс barys astana бар астана barys"
-  },
-  {
-    "type": "team",
-    "id": "khl:sochi",
-    "title": "ХК Сочи",
-    "subtitle": "Запад • Сочи",
-    "logo": "/assets/logos/teams/sochi.png",
-    "url": "/team/?id=khl:sochi",
-    "tokens": "хк сочи hc sochi соч сочи khk sochi"
-  },
-  {
-    "type": "team",
     "id": "nhl:col",
     "title": "Колорадо Эвеланш",
     "subtitle": "Западная • Colorado",
@@ -510,77 +510,21 @@
   },
   {
     "type": "team",
-    "id": "khl:amur",
-    "title": "Амур",
-    "subtitle": "Восток • Хабаровск",
-    "logo": "/assets/logos/teams/amur.png",
-    "url": "/team/?id=khl:amur",
-    "tokens": "амур amur khabarovsk аму хабаровск amur"
+    "id": "nhl:bos",
+    "title": "Бостон Брюинз",
+    "subtitle": "Восточная • Boston",
+    "logo": "/assets/logos/teams/bos.svg",
+    "url": "/team/?id=nhl:bos",
+    "tokens": "бостон брюинз boston bruins bos boston boston bryuinz"
   },
   {
     "type": "team",
-    "id": "nhl:tor",
-    "title": "Торонто Мейпл Лифс",
-    "subtitle": "Восточная • Toronto",
-    "logo": "/assets/logos/teams/tor.svg",
-    "url": "/team/?id=nhl:tor",
-    "tokens": "торонто мейпл лифс toronto maple leafs tor toronto toronto meypl lifs"
-  },
-  {
-    "type": "player",
-    "id": "nhl:p_8478550",
-    "title": "Artemi Panarin",
-    "subtitle": "#10 • Позиция: LW",
-    "url": "/player/?id=nhl:p_8478550",
-    "tokens": "artemi panarin artemi panarin lw artemi panarin"
-  },
-  {
-    "type": "player",
-    "id": "khl:p_radulov",
-    "title": "Александр Радулов",
-    "subtitle": "#47 • Позиция: RW",
-    "url": "/player/?id=khl:p_radulov",
-    "tokens": "александр радулов alexander radulov rw aleksandr radulov"
-  },
-  {
-    "type": "player",
-    "id": "khl:p_goldobin",
-    "title": "Николай Голдобин",
-    "subtitle": "#87 • Позиция: RW",
-    "url": "/player/?id=khl:p_goldobin",
-    "tokens": "николай голдобин nikolai goldobin rw nikolay goldobin"
-  },
-  {
-    "type": "player",
-    "id": "nhl:p_8478402",
-    "title": "Connor McDavid",
-    "subtitle": "#97 • Позиция: C",
-    "url": "/player/?id=nhl:p_8478402",
-    "tokens": "connor mcdavid connor mcdavid c connor mcdavid"
-  },
-  {
-    "type": "player",
-    "id": "khl:p_nikishin",
-    "title": "Александр Никишин",
-    "subtitle": "#57 • Позиция: D",
-    "url": "/player/?id=khl:p_nikishin",
-    "tokens": "александр никишин alexander nikishin d aleksandr nikishin"
-  },
-  {
-    "type": "player",
-    "id": "nhl:p_8477492",
-    "title": "Nathan MacKinnon",
-    "subtitle": "#29 • Позиция: C",
-    "url": "/player/?id=nhl:p_8477492",
-    "tokens": "nathan mackinnon nathan mackinnon c nathan mackinnon"
-  },
-  {
-    "type": "player",
-    "id": "khl:p_isaev",
-    "title": "Даниил Исаев",
-    "subtitle": "#92 • Позиция: G",
-    "url": "/player/?id=khl:p_isaev",
-    "tokens": "даниил исаев daniil isayev g daniil isaev"
+    "id": "nhl:wpg",
+    "title": "Виннипег Джетс",
+    "subtitle": "Западная • Winnipeg",
+    "logo": "/assets/logos/teams/wpg.svg",
+    "url": "/team/?id=nhl:wpg",
+    "tokens": "виннипег джетс winnipeg jets wpg winnipeg vinnipeg dzhets"
   },
   {
     "type": "player",
@@ -592,6 +536,14 @@
   },
   {
     "type": "player",
+    "id": "nhl:p_8471214",
+    "title": "Alex Ovechkin",
+    "subtitle": "#8 • Позиция: LW",
+    "url": "/player/?id=nhl:p_8471214",
+    "tokens": "alex ovechkin alex ovechkin lw alex ovechkin"
+  },
+  {
+    "type": "player",
     "id": "khl:p_gusev",
     "title": "Никита Гусев",
     "subtitle": "#97 • Позиция: LW",
@@ -600,11 +552,11 @@
   },
   {
     "type": "player",
-    "id": "nhl:p_8478048",
-    "title": "Igor Shesterkin",
-    "subtitle": "#31 • Позиция: G",
-    "url": "/player/?id=nhl:p_8478048",
-    "tokens": "igor shesterkin igor shesterkin g igor shesterkin"
+    "id": "nhl:p_8478402",
+    "title": "Connor McDavid",
+    "subtitle": "#97 • Позиция: C",
+    "url": "/player/?id=nhl:p_8478402",
+    "tokens": "connor mcdavid connor mcdavid c connor mcdavid"
   },
   {
     "type": "player",
@@ -616,11 +568,43 @@
   },
   {
     "type": "player",
-    "id": "nhl:p_8471214",
-    "title": "Alex Ovechkin",
-    "subtitle": "#8 • Позиция: LW",
-    "url": "/player/?id=nhl:p_8471214",
-    "tokens": "alex ovechkin alex ovechkin lw alex ovechkin"
+    "id": "nhl:p_8478048",
+    "title": "Igor Shesterkin",
+    "subtitle": "#31 • Позиция: G",
+    "url": "/player/?id=nhl:p_8478048",
+    "tokens": "igor shesterkin igor shesterkin g igor shesterkin"
+  },
+  {
+    "type": "player",
+    "id": "khl:p_isaev",
+    "title": "Даниил Исаев",
+    "subtitle": "#92 • Позиция: G",
+    "url": "/player/?id=khl:p_isaev",
+    "tokens": "даниил исаев daniil isayev g daniil isaev"
+  },
+  {
+    "type": "player",
+    "id": "khl:p_nikishin",
+    "title": "Александр Никишин",
+    "subtitle": "#57 • Позиция: D",
+    "url": "/player/?id=khl:p_nikishin",
+    "tokens": "александр никишин alexander nikishin d aleksandr nikishin"
+  },
+  {
+    "type": "player",
+    "id": "nhl:p_8478550",
+    "title": "Artemi Panarin",
+    "subtitle": "#10 • Позиция: LW",
+    "url": "/player/?id=nhl:p_8478550",
+    "tokens": "artemi panarin artemi panarin lw artemi panarin"
+  },
+  {
+    "type": "player",
+    "id": "khl:p_goldobin",
+    "title": "Николай Голдобин",
+    "subtitle": "#87 • Позиция: RW",
+    "url": "/player/?id=khl:p_goldobin",
+    "tokens": "николай голдобин nikolai goldobin rw nikolay goldobin"
   },
   {
     "type": "player",
@@ -629,6 +613,118 @@
     "subtitle": "#34 • Позиция: C",
     "url": "/player/?id=nhl:p_8479318",
     "tokens": "auston matthews auston matthews c auston matthews"
+  },
+  {
+    "type": "player",
+    "id": "khl:p_radulov",
+    "title": "Александр Радулов",
+    "subtitle": "#47 • Позиция: RW",
+    "url": "/player/?id=khl:p_radulov",
+    "tokens": "александр радулов alexander radulov rw aleksandr radulov"
+  },
+  {
+    "type": "player",
+    "id": "nhl:p_8477492",
+    "title": "Nathan MacKinnon",
+    "subtitle": "#29 • Позиция: C",
+    "url": "/player/?id=nhl:p_8477492",
+    "tokens": "nathan mackinnon nathan mackinnon c nathan mackinnon"
+  },
+  {
+    "type": "news",
+    "id": "news-6704990",
+    "title": "Коваленко сбивал Исаева, Гамзина уводили со льда. Фото победы ЦСКА",
+    "subtitle": "18 ноября в Москве на стадионе «ЦСКА-Арена» состоялся матч регулярного чемпионат...",
+    "url": "/news/?id=news-6704990",
+    "tokens": "коваленко сбивал исаева, гамзина уводили со льда. фото победы цска хоккей кхл фото цска локомотив фоторепортаж денис гурьянов николай коваленко даниил исаев рушан рафиков максим соркин дмитрий гамзин"
+  },
+  {
+    "type": "news",
+    "id": "news-6705282",
+    "title": "«Юта» обыграла «Колорадо» и прервала серию из шести поражений. Симашев отметился голом",
+    "subtitle": "В ночь на 19 ноября в Солт-Лейк-Сити, США, на стадионе «Дельта-центр» состоялся ...",
+    "url": "/news/?id=news-6705282",
+    "tokens": "«юта» обыграла «колорадо» и прервала серию из шести поражений. симашев отметился голом хоккей нхл колорадо эвеланш юта маммот дмитрий симашев"
+  },
+  {
+    "type": "news",
+    "id": "news-6705232",
+    "title": "Расписание матчей МХЛ на 19 ноября 2026 года",
+    "subtitle": "Сегодня, 19 ноября, пройдут очередные матчи регулярного чемпионата OLIMPBET Моло...",
+    "url": "/news/?id=news-6705232",
+    "tokens": "расписание матчей мхл на 19 ноября 2026 года хоккей мхл мхк красная армия мхк толпар мхк снежные барсы"
+  },
+  {
+    "type": "news",
+    "id": "news-6705266",
+    "title": "«Ак Барс» — «Спартак»: во сколько начало матча КХЛ, где смотреть трансляцию",
+    "subtitle": "Сегодня, 19 ноября, в Казани на стадионе «Татнефть-Арена» состоится матч регуляр...",
+    "url": "/news/?id=news-6705266",
+    "tokens": "«ак барс» — «спартак»: во сколько начало матча кхл, где смотреть трансляцию хоккей кхл ак барс спартак"
+  },
+  {
+    "type": "news",
+    "id": "news-6705228",
+    "title": "Расписание матчей ВХЛ на 19 ноября 2026 года",
+    "subtitle": "Сегодня, 19 ноября, пройдут восемь матчей OLIMPBET Чемпионата России — ВХЛ....",
+    "url": "/news/?id=news-6705228",
+    "tokens": "расписание матчей вхл на 19 ноября 2026 года хоккей вхл металлург нк югра рубин нефтяник альметьевск барс дизель челмет зауралье кристалл саратов динамо санкт-петербург звезда горняк тамбов магнитка ска-вмф"
+  },
+  {
+    "type": "news",
+    "id": "news-6705254",
+    "title": "«Металлург» — «Трактор»: во сколько начало матча КХЛ, где смотреть трансляцию",
+    "subtitle": "Сегодня, 19 ноября, в Магнитогорске на стадионе «Арена-Металлург» состоится матч...",
+    "url": "/news/?id=news-6705254",
+    "tokens": "«металлург» — «трактор»: во сколько начало матча кхл, где смотреть трансляцию хоккей кхл металлург мг трактор"
+  },
+  {
+    "type": "news",
+    "id": "news-6705240",
+    "title": "Дёмин вновь набрал 22 очка в НБА, Алькарас — в 1/2 финала Итогового. Главное к утру",
+    "subtitle": "22 очка российского защитника Егора Дёмина не помогли «Бруклин Нетс» обыграть «Ч...",
+    "url": "/news/?id=news-6705240",
+    "tokens": "демин вновь набрал 22 очка в нба, алькарас — в 1/2 финала итогового. главное к утру баскетбол нба единая лига футбол англия франция прочие хоккей кхл нхл теннис atp волейбол женская суперлига челси псж цска локомотив тоттенхэм хотспур даниил медведев леброн джеймс допинг амур майами хит бостон селтикс сборная украины — футбол статистика бруклин нетс карлос алькарас — теннис денвер наггетс филадельфия сиксерс бостон брюинз чикаго буллз милуоки бакс шанхайские драконы (куньлунь ред стар) детройт ред уингз орландо мэджик единая лига втб жвк динамо москва яннис адетокунбо статистика нба никола йокич егор демин хвича кварацхелия пбк мба жвк локомотив калининград бк самара фрэнсис тиафо итоговый чемпионат atp михаил мудрик флавио коболли джамал мюррэй бэм адебайо даниил тарасов-1999"
+  },
+  {
+    "type": "news",
+    "id": "news-6705224",
+    "title": "Расписание матчей КХЛ на 19 ноября 2026 года",
+    "subtitle": "Сегодня, 19 ноября, продолжится регулярный чемпионат Фонбет Континентальной хокк...",
+    "url": "/news/?id=news-6705224",
+    "tokens": "расписание матчей кхл на 19 ноября 2026 года хоккей кхл ска ак барс металлург мг спартак трактор нефтехимик"
+  },
+  {
+    "type": "news",
+    "id": "news-6705246",
+    "title": "В «Питтсбурге» сделали заявление о ситуации в клубе и трансферах",
+    "subtitle": "Генеральный менеджер «Питтсбург Пингвинз» Кайл Дубас выступил с заявлением относ...",
+    "url": "/news/?id=news-6705246",
+    "tokens": "в «питтсбурге» сделали заявление о ситуации в клубе и трансферах хоккей нхл переходы — хоккей питтсбург пингвинз кайл дубас"
+  },
+  {
+    "type": "news",
+    "id": "news-6705226",
+    "title": "«Бостон» прервал серию поражений, обыграв «Детройт» в НХЛ. У Тарасова — 27 сейвов",
+    "subtitle": "Завершился очередной матч регулярного чемпионата Национальной хоккейной лиги, в ...",
+    "url": "/news/?id=news-6705226",
+    "tokens": "«бостон» прервал серию поражений, обыграв «детройт» в нхл. у тарасова — 27 сейвов хоккей нхл видео бостон брюинз детройт ред уингз никита задоров давид пастрняк марат хуснутдинов даниил тарасов-1999 лукас рэймонд павел заха кейси миттельштадт джон петерка"
+  },
+  {
+    "type": "news",
+    "id": "news-6705162",
+    "title": "Тренер «Вашингтона» высказался об игре форвардов «Тампы», упомянув Кучерова",
+    "subtitle": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери выделил игру форвардов «Тамп...",
+    "url": "/news/?id=news-6705162",
+    "tokens": "тренер «вашингтона» высказался об игре форвардов «тампы», упомянув кучерова хоккей нхл вашингтон кэпиталз тампа-бэй лайтнинг никита кучеров спенсер карбери"
+  },
+  {
+    "type": "news",
+    "id": "news-6705128",
+    "title": "Тренер «Тампы» похвалил игру Василевского в матче с «Вашингтоном»",
+    "subtitle": "Главный тренер «Тампа-Бэй Лайтнинг» Джон Купер прокомментировал победу команды в...",
+    "url": "/news/?id=news-6705128",
+    "tokens": "тренер «тампы» похвалил игру василевского в матче с «вашингтоном» хоккей нхл вашингтон кэпиталз тампа-бэй лайтнинг андрей василевский джон купер"
   },
   {
     "type": "news",
@@ -781,101 +877,5 @@
     "subtitle": "Главный тренер «Авангарда» Ги Буше прокомментировал победный матч с «Адмиралом» ...",
     "url": "/news/?id=news-6704832",
     "tokens": "«конечно, хотелось бы видеть по 12 голов за вечер». буше — о победе над «адмиралом» хоккей кхл авангард адмирал ги буше"
-  },
-  {
-    "type": "news",
-    "id": "news-6704828",
-    "title": "«Неважно, сколько бросков — 50, 60. Я получал удовольствие». Кульбаков — о матче в Омске",
-    "subtitle": "Вратарь «Адмирала» Иван Кульбаков рассказал о своих эмоциях после матча с «Аванг...",
-    "url": "/news/?id=news-6704828",
-    "tokens": "«неважно, сколько бросков — 50, 60. я получал удовольствие». кульбаков — о матче в омске хоккей кхл авангард адмирал иван кульбаков"
-  },
-  {
-    "type": "news",
-    "id": "news-6704826",
-    "title": "«К сожалению, не так много забили голов». Форвард «Авангарда» — о победе над «Адмиралом»",
-    "subtitle": "Нападающий «Авангарда» Василий Пономарёв оценил победный матч с «Адмиралом» (3:1...",
-    "url": "/news/?id=news-6704826",
-    "tokens": "«к сожалению, не так много забили голов». форвард «авангарда» — о победе над «адмиралом» хоккей кхл авангард адмирал василий пономарев"
-  },
-  {
-    "type": "news",
-    "id": "news-6704802",
-    "title": "Фото: Хаджар, Гасли и Цунода получили джерси «Вегас Голден Найтс»",
-    "subtitle": "Пресс-служба команды Национальной хоккейной лиги (НХЛ) «Вегас Голден Найтс» опуб...",
-    "url": "/news/?id=news-6704802",
-    "tokens": "фото: хаджар, гасли и цунода получили джерси «вегас голден найтс» авто формула-1 хоккей нхл видео фото ред булл вегас голден найтс пьер гасли юки цунода исак хаджар"
-  },
-  {
-    "type": "news",
-    "id": "news-6704818",
-    "title": "Виктор Козлов оценил победный матч «Салавата Юлаева» с «Барысом»",
-    "subtitle": "Главный тренер «Салавата Юлаева» Виктор Козлов оценил победный матч в Уфе с «Бар...",
-    "url": "/news/?id=news-6704818",
-    "tokens": "виктор козлов оценил победный матч «салавата юлаева» с «барысом» хоккей кхл салават юлаев барыс виктор козлов"
-  },
-  {
-    "type": "news",
-    "id": "news-6704792",
-    "title": "«Они готовы хуже остальных». Главный тренер «Адмирала» — об отсутствии двух легионеров",
-    "subtitle": "Главный тренер «Адмирала» Олег Браташ после гостевого поражения от «Авангарда» р...",
-    "url": "/news/?id=news-6704792",
-    "tokens": "«они готовы хуже остальных». главный тренер «адмирала» — об отсутствии двух легионеров хоккей кхл авангард адмирал олег браташ борна рендулич энтони камара"
-  },
-  {
-    "type": "news",
-    "id": "news-6704788",
-    "title": "Браташ — о 43 сейвах Кульбакова: мы ждали нужного момента, чтобы вернуть его в ворота",
-    "subtitle": "Главный тренер «Адмирала» Олег Браташ после гостевого поражения от «Авангарда» (...",
-    "url": "/news/?id=news-6704788",
-    "tokens": "браташ — о 43 сейвах кульбакова: мы ждали нужного момента, чтобы вернуть его в ворота хоккей кхл авангард адмирал олег браташ иван кульбаков"
-  },
-  {
-    "type": "news",
-    "id": "news-6704786",
-    "title": "«Одна из немногих команд в КХЛ». Браташ рассказал об особенной черте «Авангарда»",
-    "subtitle": "Главный тренер «Адмирала» Олег Браташ после гостевого поражения от «Авангарда» р...",
-    "url": "/news/?id=news-6704786",
-    "tokens": "«одна из немногих команд в кхл». браташ рассказал об особенной черте «авангарда» хоккей кхл авангард адмирал олег браташ"
-  },
-  {
-    "type": "news",
-    "id": "news-6704784",
-    "title": "«Мы честно отрабатываем свою зарплату». Браташ — о тренерском штабе «Адмирала»",
-    "subtitle": "Главный тренер «Адмирала» Олег Браташ после гостевого поражения от «Авангарда» (...",
-    "url": "/news/?id=news-6704784",
-    "tokens": "«мы честно отрабатываем свою зарплату». браташ — о тренерском штабе «адмирала» хоккей кхл авангард адмирал олег браташ"
-  },
-  {
-    "type": "news",
-    "id": "news-6704782",
-    "title": "Браташ — после поражения от «Авангарда»: мне не в чем упрекнуть игроков «Адмирала»",
-    "subtitle": "Главный тренер «Адмирала» Олег Браташ прокомментировал гостевое поражение от «Ав...",
-    "url": "/news/?id=news-6704782",
-    "tokens": "браташ — после поражения от «авангарда»: мне не в чем упрекнуть игроков «адмирала» хоккей кхл авангард адмирал олег браташ"
-  },
-  {
-    "type": "news",
-    "id": "news-6704762",
-    "title": "После третьего гола ЦСКА в ворота «Локомотива» на льду произошла массовая потасовка",
-    "subtitle": "В эти минуты в Москве на стадионе «ЦСКА-Арена» проходит матч регулярного чемпион...",
-    "url": "/news/?id=news-6704762",
-    "tokens": "после третьего гола цска в ворота «локомотива» на льду произошла массовая потасовка хоккей кхл видео цска локомотив денис гурьянов николай коваленко георгий иванов — хоккей"
-  },
-  {
-    "type": "news",
-    "id": "news-6704754",
-    "title": "В «Питтсбурге» высказались о возможном будущем Кросби, Малкина и Летанга",
-    "subtitle": "Генеральный менеджер «Питтсбург Пингвинз» Кайл Дубас высказался о возможном буду...",
-    "url": "/news/?id=news-6704754",
-    "tokens": "в «питтсбурге» высказались о возможном будущем кросби, малкина и летанга хоккей нхл питтсбург пингвинз евгений малкин сидни кросби крис летанг кайл дубас"
-  },
-  {
-    "type": "news",
-    "id": "news-6704740",
-    "title": "НХЛ представила формы «Юты» и «Колорадо» для «Зимней классики»",
-    "subtitle": "Национальная хоккейная лига совместно с Fanatics представили форму для «Зимней к...",
-    "url": "/news/?id=news-6704740",
-    "tokens": "нхл представила формы «юты» и «колорадо» для «зимней классики» хоккей нхл фото колорадо эвеланш юта маммот"
   }
 ]
