@@ -28,9 +28,9 @@
         "value": 37
       },
       {
-        "playerId": "nhl:p_8479314",
-        "playerName": "Matthew Tkachuk",
-        "teamId": "nhl:fla",
+        "playerId": "nhl:p_8479318",
+        "playerName": "Auston Matthews",
+        "teamId": "nhl:tor",
         "value": 32
       }
     ],
@@ -48,15 +48,15 @@
         "value": 21
       },
       {
-        "playerId": "nhl:p_8478864",
-        "playerName": "Kirill Kaprizov",
-        "teamId": "nhl:min",
-        "value": 17
-      },
-      {
         "playerId": "nhl:p_8478398",
         "playerName": "Kyle Connor",
         "teamId": "nhl:wpg",
+        "value": 18
+      },
+      {
+        "playerId": "nhl:p_8478864",
+        "playerName": "Kirill Kaprizov",
+        "teamId": "nhl:min",
         "value": 17
       },
       {
@@ -109,7 +109,7 @@
         "playerId": "nhl:p_8481611",
         "playerName": "Pyotr Kochetkov",
         "teamId": "nhl:car",
-        "value": 1.62
+        "value": 1.64
       },
       {
         "playerId": "nhl:p_8480193",
