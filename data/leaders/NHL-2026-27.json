@@ -19,7 +19,7 @@
         "playerId": "nhl:p_8478864",
         "playerName": "Kirill Kaprizov",
         "teamId": "nhl:min",
-        "value": 40
+        "value": 43
       },
       {
         "playerId": "nhl:p_8480803",
@@ -28,10 +28,10 @@
         "value": 37
       },
       {
-        "playerId": "nhl:p_8479318",
-        "playerName": "Auston Matthews",
-        "teamId": "nhl:tor",
-        "value": 32
+        "playerId": "nhl:p_8480800",
+        "playerName": "Quinn Hughes",
+        "teamId": "nhl:min",
+        "value": 34
       }
     ],
     "goals": [
@@ -48,16 +48,16 @@
         "value": 21
       },
       {
+        "playerId": "nhl:p_8478864",
+        "playerName": "Kirill Kaprizov",
+        "teamId": "nhl:min",
+        "value": 18
+      },
+      {
         "playerId": "nhl:p_8478398",
         "playerName": "Kyle Connor",
         "teamId": "nhl:wpg",
         "value": 18
-      },
-      {
-        "playerId": "nhl:p_8478864",
-        "playerName": "Kirill Kaprizov",
-        "teamId": "nhl:min",
-        "value": 17
       },
       {
         "playerId": "nhl:p_8477476",
@@ -74,6 +74,18 @@
         "value": 42
       },
       {
+        "playerId": "nhl:p_8480800",
+        "playerName": "Quinn Hughes",
+        "teamId": "nhl:min",
+        "value": 26
+      },
+      {
+        "playerId": "nhl:p_8478864",
+        "playerName": "Kirill Kaprizov",
+        "teamId": "nhl:min",
+        "value": 25
+      },
+      {
         "playerId": "nhl:p_8480803",
         "playerName": "Evan Bouchard",
         "teamId": "nhl:edm",
@@ -84,18 +96,6 @@
         "playerName": "Matthew Tkachuk",
         "teamId": "nhl:fla",
         "value": 25
-      },
-      {
-        "playerId": "nhl:p_8480800",
-        "playerName": "Quinn Hughes",
-        "teamId": "nhl:min",
-        "value": 25
-      },
-      {
-        "playerId": "nhl:p_8479343",
-        "playerName": "Clayton Keller",
-        "teamId": "nhl:uta",
-        "value": 24
       }
     ],
     "gaa": [
@@ -112,16 +112,16 @@
         "value": 1.64
       },
       {
+        "playerId": "nhl:p_8482661",
+        "playerName": "Jesper Wallstedt",
+        "teamId": "nhl:min",
+        "value": 1.95
+      },
+      {
         "playerId": "nhl:p_8480193",
         "playerName": "Daniil Tarasov",
         "teamId": "nhl:det",
         "value": 1.98
-      },
-      {
-        "playerId": "nhl:p_8482661",
-        "playerName": "Jesper Wallstedt",
-        "teamId": "nhl:min",
-        "value": 1.99
       },
       {
         "playerId": "nhl:p_8480022",
@@ -147,7 +147,7 @@
         "playerId": "nhl:p_8482661",
         "playerName": "Jesper Wallstedt",
         "teamId": "nhl:min",
-        "value": 0.924
+        "value": 0.926
       },
       {
         "playerId": "nhl:p_8484170",
