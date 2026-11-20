@@ -6,24 +6,32 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-20T13:30:00Z",
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:avangard",
     "name": "Авангард",
-    "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sdb/team_pics/10/original/Avangard_2026_500x500_NEW.png",
-    "score": null,
-    "periods": [],
+    "logo": "https://thumbs.webcaster.pro/rec-2-2.webcaster.pro/fc/sdh/team_pics/10/original/Avangard_2026_500x500_NEW.png",
+    "score": 3,
+    "periods": [
+      2,
+      1,
+      0
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:barys",
     "name": "Барыс",
     "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/46/original/barys_2022_head_only__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 1,
+    "periods": [
+      0,
+      1,
+      0
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +58,6 @@
     "stageId": 407,
     "eventId": 3001303,
     "matchId": "902286",
-    "fetchedAt": "2026-11-20T12:13:49.056969Z"
+    "fetchedAt": "2026-11-20T20:21:03.145660Z"
   }
 }

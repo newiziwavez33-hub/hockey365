@@ -22,7 +22,7 @@
     "away": {
       "id": "khl:lokomotiv",
       "name": "Локомотив",
-      "logo": "https://thumbs.webcaster.pro/rec-2-10.webcaster.pro/fc/sda/team_pics/26/original/lokomotiv_2022__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdl/team_pics/26/original/lokomotiv_2022__200x200.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -51,7 +51,7 @@
       "stageId": 407,
       "eventId": 3001395,
       "matchId": "902309",
-      "fetchedAt": "2026-11-20T12:13:49.056969Z"
+      "fetchedAt": "2026-11-20T20:21:03.145660Z"
     }
   },
   {
@@ -69,7 +69,7 @@
     "home": {
       "id": "khl:severstal",
       "name": "Северсталь",
-      "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/42/original/severstal_2021__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/42/original/severstal_2021__200x200.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -77,7 +77,7 @@
     "away": {
       "id": "khl:sibir",
       "name": "Сибирь",
-      "logo": "https://thumbs.webcaster.pro/rec-1-2.webcaster.pro/fc/sda/team_pics/24/original/sibir_rus__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/24/original/sibir_rus__200x200.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -106,7 +106,7 @@
       "stageId": 407,
       "eventId": 3001403,
       "matchId": "902311",
-      "fetchedAt": "2026-11-20T12:13:49.056969Z"
+      "fetchedAt": "2026-11-20T20:21:03.145660Z"
     }
   },
   {
@@ -124,7 +124,7 @@
     "home": {
       "id": "khl:ska",
       "name": "СКА",
-      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdd/team_pics/44/original/SKA_logo_2025_RU_200x200_NEW.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sda/team_pics/44/original/SKA_logo_2025_RU_200x200_NEW.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -161,7 +161,652 @@
       "stageId": 407,
       "eventId": 3001399,
       "matchId": "902310",
-      "fetchedAt": "2026-11-20T12:13:49.056969Z"
+      "fetchedAt": "2026-11-20T20:21:03.145660Z"
+    }
+  },
+  {
+    "id": "nhl:2026020400",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-27T18:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:bos",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:tor",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "TD Garden",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/tor-vs-bos/2026/11/27/2026020400",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/tor-vs-bos/2026/11/27/2026020400",
+      "verifiedAt": "2026-11-20T20:20:59.823807Z"
+    }
+  },
+  {
+    "id": "nhl:2026020401",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-27T18:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:njd",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:cgy",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Prudential Center",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/cgy-vs-njd/2026/11/27/2026020401",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/cgy-vs-njd/2026/11/27/2026020401",
+      "verifiedAt": "2026-11-20T20:20:59.823927Z"
+    }
+  },
+  {
+    "id": "nhl:2026020402",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-27T18:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:nsh",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:uta",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Bridgestone Arena",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/uta-vs-nsh/2026/11/27/2026020402",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/uta-vs-nsh/2026/11/27/2026020402",
+      "verifiedAt": "2026-11-20T20:20:59.824021Z"
+    }
+  },
+  {
+    "id": "nhl:2026020403",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-27T19:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:stl",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:dal",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Enterprise Center",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/dal-vs-stl/2026/11/27/2026020403",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/dal-vs-stl/2026/11/27/2026020403",
+      "verifiedAt": "2026-11-20T20:20:59.824101Z"
+    }
+  },
+  {
+    "id": "nhl:2026020404",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-27T20:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:tbl",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:ott",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Benchmark International Arena",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/ott-vs-tbl/2026/11/27/2026020404",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/ott-vs-tbl/2026/11/27/2026020404",
+      "verifiedAt": "2026-11-20T20:20:59.824175Z"
+    }
+  },
+  {
+    "id": "nhl:2026020405",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-27T20:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:phi",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:van",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Xfinity Mobile Arena",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/van-vs-phi/2026/11/27/2026020405",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/van-vs-phi/2026/11/27/2026020405",
+      "verifiedAt": "2026-11-20T20:20:59.824247Z"
+    }
+  },
+  {
+    "id": "nhl:2026020406",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-27T20:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:wsh",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:fla",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Capital One Arena",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/fla-vs-wsh/2026/11/27/2026020406",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/fla-vs-wsh/2026/11/27/2026020406",
+      "verifiedAt": "2026-11-20T20:20:59.824319Z"
+    }
+  },
+  {
+    "id": "nhl:2026020407",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-27T20:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:cbj",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:det",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Nationwide Arena",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/det-vs-cbj/2026/11/27/2026020407",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/det-vs-cbj/2026/11/27/2026020407",
+      "verifiedAt": "2026-11-20T20:20:59.824390Z"
+    }
+  },
+  {
+    "id": "nhl:2026020408",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-27T21:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:min",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:col",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Grand Casino Arena",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/col-vs-min/2026/11/27/2026020408",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/col-vs-min/2026/11/27/2026020408",
+      "verifiedAt": "2026-11-20T20:20:59.824482Z"
+    }
+  },
+  {
+    "id": "nhl:2026020409",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-27T21:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:ana",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:lak",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Honda Center",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/lak-vs-ana/2026/11/27/2026020409",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/lak-vs-ana/2026/11/27/2026020409",
+      "verifiedAt": "2026-11-20T20:20:59.824561Z"
+    }
+  },
+  {
+    "id": "nhl:2026020410",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-27T21:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:sjs",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:vgk",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "SAP Center at San Jose",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/vgk-vs-sjs/2026/11/27/2026020410",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/vgk-vs-sjs/2026/11/27/2026020410",
+      "verifiedAt": "2026-11-20T20:20:59.824633Z"
+    }
+  },
+  {
+    "id": "nhl:2026020411",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-27T22:30:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:chi",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:nyr",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "United Center",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/nyr-vs-chi/2026/11/27/2026020411",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/nyr-vs-chi/2026/11/27/2026020411",
+      "verifiedAt": "2026-11-20T20:20:59.824707Z"
+    }
+  },
+  {
+    "id": "nhl:2026020412",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-28T00:30:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:nyi",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:wpg",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "UBS Arena",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/wpg-vs-nyi/2026/11/27/2026020412",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/wpg-vs-nyi/2026/11/27/2026020412",
+      "verifiedAt": "2026-11-20T20:20:59.824776Z"
+    }
+  },
+  {
+    "id": "nhl:2026020413",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-28T01:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:buf",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:pit",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "KeyBank Center",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/pit-vs-buf/2026/11/27/2026020413",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/pit-vs-buf/2026/11/27/2026020413",
+      "verifiedAt": "2026-11-20T20:20:59.824849Z"
+    }
+  },
+  {
+    "id": "nhl:2026020414",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-28T01:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:edm",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:sea",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "Rogers Place",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/sea-vs-edm/2026/11/27/2026020414",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/sea-vs-edm/2026/11/27/2026020414",
+      "verifiedAt": "2026-11-20T20:20:59.824918Z"
     }
   }
 ]
