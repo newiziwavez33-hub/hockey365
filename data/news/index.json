@@ -1,6 +1,655 @@
 {
   "news": [
     {
+      "id": "news-6708582",
+      "slug": "sochi-ska-rezultat-matcha-21-noyabrya-2026-goda-schet-2-5-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "Дубль Голдобина помог СКА победить «Сочи»",
+      "summary": "Сегодня, 21 ноября, в Сочи на стадионе «Большой» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Сочи» принимал санкт-петербургский СКА.",
+      "content": "Сегодня, 21 ноября, в Сочи на стадионе «Большой» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Сочи» принимал санкт-петербургский СКА.",
+      "image": "assets/images/news_ska_lokomotiv.jpg",
+      "publishedAt": "2026-11-21T16:19:36Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708582-sochi-ska-rezultat-matcha-21-noyabrya-2026-goda-schet-2-5-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Сочи",
+        "Николай Голдобин"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "khl:sochi"
+      ],
+      "relatedPlayerIds": [
+        "khl:p_goldobin"
+      ]
+    },
+    {
+      "id": "news-6708562",
+      "slug": "fridman-mezhdu-detrojtom-i-larkinym-nakopilos-ogromnoe-kolichestvo-obid",
+      "title": "Фридман: между «Детройтом» и Ларкиным накопилось огромное количество обид",
+      "summary": "Журналист и инсайдер Эллиотт Фридман поделился мнением о ситуации вокруг нападающего Дилана Ларкина и «Детройт Ред Уингз».",
+      "content": "Журналист и инсайдер Эллиотт Фридман поделился мнением о ситуации вокруг нападающего Дилана Ларкина и «Детройт Ред Уингз».",
+      "image": "https://img.championat.com/news/big/h/u/fridman-mezhdu-detrojtom-i-larkinym-nakopilos-ogromnoe-kolichestvo-obid_17952770721237749186.jpg",
+      "publishedAt": "2026-11-21T16:04:33Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708562-fridman-mezhdu-detrojtom-i-larkinym-nakopilos-ogromnoe-kolichestvo-obid.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Детройт Ред Уингз",
+        "Эллиотт Фридман",
+        "Дилан Ларкин"
+      ],
+      "relatedTeamIds": [
+        "nhl:det"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708526",
+      "slug": "forvard-neftehimika-seleznyov-vyskazalsya-o-pobede-nad-spartakom",
+      "title": "Форвард «Нефтехимика» Селезнёв высказался о победе над «Спартаком»",
+      "summary": "Нападающий «Нефтехимика» Григорий Селезнёв поделился своими эмоциями после победы над «Спартаком» (3:1).",
+      "content": "Нападающий «Нефтехимика» Григорий Селезнёв поделился своими эмоциями после победы над «Спартаком» (3:1).",
+      "image": "https://img.championat.com/news/big/a/a/forvard-neftehimika-seleznyo.jpg",
+      "publishedAt": "2026-11-21T15:48:15Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708526-forvard-neftehimika-seleznyov-vyskazalsya-o-pobede-nad-spartakom.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Спартак",
+        "Нефтехимик"
+      ],
+      "relatedTeamIds": [
+        "khl:neftekhimik",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708504",
+      "slug": "v-koncovke-nam-ne-hvatilo-silyonok-zhamnov-o-porazhenii-spartaka-ot-neftehimika",
+      "title": "«В концовке нам не хватило силёнок». Жамнов — о поражении «Спартака» от «Нефтехимика»",
+      "summary": "Главный тренер «Спартака» Алексей Жамнов высказался о поражении от «Нефтехимика» (1:3) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Главный тренер «Спартака» Алексей Жамнов высказался о поражении от «Нефтехимика» (1:3) в матче регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/h/z/v-koncovke-nam-ne-hvatilo-si.jpg",
+      "publishedAt": "2026-11-21T15:27:20Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708504-v-koncovke-nam-ne-hvatilo-silyonok-zhamnov-o-porazhenii-spartaka-ot-neftehimika.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Спартак",
+        "Нефтехимик",
+        "Алексей Жамнов"
+      ],
+      "relatedTeamIds": [
+        "khl:neftekhimik",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708476",
+      "slug": "glavnyj-trener-neftehimika-grishin-ocenil-pobedu-nad-spartakom",
+      "title": "Главный тренер «Нефтехимика» Гришин оценил победу над «Спартаком»",
+      "summary": "Главный тренер «Нефтехимика» Игорь Гришин прокомментировал волевую победу над «Спартаком» со счётом 3:1.",
+      "content": "Главный тренер «Нефтехимика» Игорь Гришин прокомментировал волевую победу над «Спартаком» со счётом 3:1.",
+      "image": "https://img.championat.com/news/big/j/j/glavnyj-trener-neftehimika-g.jpg",
+      "publishedAt": "2026-11-21T15:09:13Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708476-glavnyj-trener-neftehimika-grishin-ocenil-pobedu-nad-spartakom.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Спартак",
+        "Нефтехимик",
+        "Игорь Гришин"
+      ],
+      "relatedTeamIds": [
+        "khl:neftekhimik",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708466",
+      "slug": "neponyatno-zachem-on-eto-skazal-sushinskij-o-podderzhke-gretcki-otstraneniya-rossii",
+      "title": "«Непонятно, зачем он это сказал». Сушинский — о поддержке Гретцки отстранения России",
+      "summary": "Чемпион мира в составе сборной России Максим Сушинский оценил слова Уэйна Гретцки, который поддержал позицию Канады о недопуске молодёжной национальной команды России на МЧМ-2027.",
+      "content": "Чемпион мира в составе сборной России Максим Сушинский оценил слова Уэйна Гретцки, который поддержал позицию Канады о недопуске молодёжной национальной команды России на МЧМ-2027.",
+      "image": "https://img.championat.com/news/big/h/k/neponyatno-zachem-on-eto-ska.jpg",
+      "publishedAt": "2026-11-21T14:54:19Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708466-neponyatno-zachem-on-eto-skazal-sushinskij-o-podderzhke-gretcki-otstraneniya-rossii.html",
+      "tags": [
+        "Хоккей",
+        "МЧМ по хоккею 2027",
+        "Молодёжная сборная России — Хоккей",
+        "Отстранение России",
+        "Уэйн Гретцки",
+        "Максим Сушинский",
+        "МЧМ-2027",
+        "Возвращение России в международный хоккей"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708450",
+      "slug": "cherkas-situaciya-s-ovechkinym-neozhidannaya-no-my-ponimaem-chto-on-uzhe-vozrastnoj-chelovek",
+      "title": "Черкас: ситуация с Овечкиным неожиданная, но мы понимаем, что он уже возрастной человек",
+      "summary": "Бывший главный тренер СКА Сергей Черкас высказался о результативности капитана «Вашингтон Кэпиталз» Александра Овечкина.",
+      "content": "Бывший главный тренер СКА Сергей Черкас высказался о результативности капитана «Вашингтон Кэпиталз» Александра Овечкина.",
+      "image": "https://img.championat.com/news/big/h/p/cherkas-situaciya-s-ovechkinym-neozhidannaya-no-my-ponimaem-chto-on-uzhe-vozrastnoj-chelov_17952715931901340401.jpg",
+      "publishedAt": "2026-11-21T14:33:18Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708450-cherkas-situaciya-s-ovechkinym-neozhidannaya-no-my-ponimaem-chto-on-uzhe-vozrastnoj-chelovek.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Уэйн Гретцки",
+        "Советский спорт",
+        "Сергей Черкас"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6708400",
+      "slug": "vratar-vashingtona-tompson-nazval-tyazhyolym-start-tekuschego-sezona",
+      "title": "Вратарь «Вашингтона» Томпсон назвал тяжёлым старт текущего сезона",
+      "summary": "Голкипер «Вашингтон Кэпиталз» Логан Томпсон прокомментировал свою игру в начале сезона.",
+      "content": "Голкипер «Вашингтон Кэпиталз» Логан Томпсон прокомментировал свою игру в начале сезона.",
+      "image": "https://img.championat.com/news/big/c/m/vratar-vashingtona-tompson-nazval-tyazhyolym-start-tekuschego-sezona_17952703321550149557.jpg",
+      "publishedAt": "2026-11-21T14:12:12Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708400-vratar-vashingtona-tompson-nazval-tyazhyolym-start-tekuschego-sezona.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Логан Томпсон"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708366",
+      "slug": "ak-bars-zaklyuchil-kontrakt-s-napadayuschim-arturom-brovkinym",
+      "title": "«Ак Барс» заключил контракт с нападающим Артуром Бровкиным",
+      "summary": "Нападающий Артур Бровкин подписал односторонний контракт с «Ак Барсом» до конца сезона-2026/2027.",
+      "content": "Нападающий Артур Бровкин подписал односторонний контракт с «Ак Барсом» до конца сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/q/e/ak-bars-zaklyuchil-kontrakt-s-napadayuschim-arturom-brovkinym_17952693072128386768.jpg",
+      "publishedAt": "2026-11-21T13:55:08Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708366-ak-bars-zaklyuchil-kontrakt-s-napadayuschim-arturom-brovkinym.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Ак Барс"
+      ],
+      "relatedTeamIds": [
+        "khl:ak-bars"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708326",
+      "slug": "neftehimik-spartak-rezultat-matcha-21-noyabrya-2026-goda-schet-3-1-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "«Спартак» проиграл «Нефтехимику» в гостевом матче КХЛ",
+      "summary": "Сегодня, 21 ноября, в Нижнекамске на стадионе «Нефтехим-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Нефтехимик» принимал московский «Спартак».",
+      "content": "Сегодня, 21 ноября, в Нижнекамске на стадионе «Нефтехим-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Нефтехимик» принимал московский «Спартак».",
+      "image": "https://img.championat.com/news/big/z/r/spartak-proigral-neftehimiku-v-gostevom-matche-khl_17952680711738489116.jpg",
+      "publishedAt": "2026-11-21T13:34:32Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708326-neftehimik-spartak-rezultat-matcha-21-noyabrya-2026-goda-schet-3-1-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "Спартак",
+        "Нефтехимик"
+      ],
+      "relatedTeamIds": [
+        "khl:neftekhimik",
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708308",
+      "slug": "iihf-nichego-ne-hochet-delat-fetisov-o-dopuske-sbornoj-rossii-na-chm-2027",
+      "title": "«ИИХФ ничего не хочет делать». Фетисов — о допуске сборной России на ЧМ-2027",
+      "summary": "Двукратный олимпийский чемпион Вячеслав Фетисов выразил мнение, что Международная федерация хоккея (ИИХФ) ничего не хочет делать в вопросе допуска сборной России на чемпионат мира 2027 года в Германии.",
+      "content": "Двукратный олимпийский чемпион Вячеслав Фетисов выразил мнение, что Международная федерация хоккея (ИИХФ) ничего не хочет делать в вопросе допуска сборной России на чемпионат мира 2027 года в Германии.",
+      "image": "https://img.championat.com/news/big/y/u/iihf-nichego-ne-hochet-delat.jpg",
+      "publishedAt": "2026-11-21T13:13:13Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708308-iihf-nichego-ne-hochet-delat-fetisov-o-dopuske-sbornoj-rossii-na-chm-2027.html",
+      "tags": [
+        "Хоккей",
+        "ЧМ по хоккею 2027",
+        "Сборная России — Хоккей",
+        "Вячеслав Фетисов",
+        "ЧМ-2027",
+        "Возвращение России в международный хоккей"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708260",
+      "slug": "babaev-opyt-kotoryj-pustovoj-poluchit-v-lokomotive-stanet-bescennym-dlya-ego-razvitiya",
+      "title": "Бабаев: опыт, который Пустовой получит в «Локомотиве», станет бесценным для его развития",
+      "summary": "Хоккейный агент Шуми Бабаев высказался о развитии 17-летнего нападающего ярославского «Локомотива» Андрея Пустового.",
+      "content": "Хоккейный агент Шуми Бабаев высказался о развитии 17-летнего нападающего ярославского «Локомотива» Андрея Пустового.",
+      "image": "https://img.championat.com/news/big/x/g/babaev-opyt-kotoryj-pustovoj.jpg",
+      "publishedAt": "2026-11-21T12:48:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708260-babaev-opyt-kotoryj-pustovoj-poluchit-v-lokomotive-stanet-bescennym-dlya-ego-razvitiya.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Локомотив",
+        "Шуми Бабаев",
+        "Андрей Пустовой"
+      ],
+      "relatedTeamIds": [
+        "khl:lokomotiv"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708248",
+      "slug": "hajrullin-cska-stremitsya-k-urovnyu-lokomotiva-v-krajnem-matche-byla-zaruba",
+      "title": "Хайруллин: ЦСКА стремится к уровню «Локомотива», в крайнем матче была заруба",
+      "summary": "Нападающий ЦСКА Марат Хайруллин высказался о конкуренции армейского клуба с «Локомотивом» в Западной конференции КХЛ.",
+      "content": "Нападающий ЦСКА Марат Хайруллин высказался о конкуренции армейского клуба с «Локомотивом» в Западной конференции КХЛ.",
+      "image": "https://img.championat.com/news/big/d/c/hajrullin-cska-stremitsya-k-.jpg",
+      "publishedAt": "2026-11-21T12:25:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708248-hajrullin-cska-stremitsya-k-urovnyu-lokomotiva-v-krajnem-matche-byla-zaruba.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Локомотив",
+        "Марат Хайруллин"
+      ],
+      "relatedTeamIds": [
+        "khl:cska",
+        "khl:lokomotiv"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708234",
+      "slug": "trener-v-dinamo-byl-s-nim-ochen-strog-no-eto-poshlo-na-polzu-enas-o-pinchuke",
+      "title": "«Тренер в «Динамо» был с ним очень строг, но это пошло на пользу». Энас — о Пинчуке",
+      "summary": "Форвард минского «Динамо» Сэм Энас высказался об игре форварда «Нэшвилл Предаторз» Виталия Пинчука, который ранее покинул белорусский клуб.",
+      "content": "Форвард минского «Динамо» Сэм Энас высказался об игре форварда «Нэшвилл Предаторз» Виталия Пинчука, который ранее покинул белорусский клуб.",
+      "image": "https://img.championat.com/news/big/y/y/trener-v-dinamo-byl-s-nim-ochen-strog-no-eto-poshlo-na-polzu-enas-o-pinchuke_1795262415463187391.jpg",
+      "publishedAt": "2026-11-21T12:03:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708234-trener-v-dinamo-byl-s-nim-ochen-strog-no-eto-poshlo-na-polzu-enas-o-pinchuke.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "НХЛ",
+        "Динамо Минск",
+        "Нэшвилл Предаторз",
+        "Виталий Пинчук",
+        "Сэм Энас"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "nhl:nsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708202",
+      "slug": "silnejshie-dolzhny-igrat-s-silnejshimi-kvartalnov-o-vozvraschenii-sbornoj-rossii",
+      "title": "«Сильнейшие должны играть с сильнейшими». Квартальнов — о возвращении сборной России",
+      "summary": "Главный тренер «Локомотива» Дмитрий Квартальнов заявил, что для развития хоккея в стране сборной России необходимо выступать на международной арене.",
+      "content": "Главный тренер «Локомотива» Дмитрий Квартальнов заявил, что для развития хоккея в стране сборной России необходимо выступать на международной арене.",
+      "image": "https://img.championat.com/news/big/a/u/silnejshie-dolzhny-igrat-s-s.jpg",
+      "publishedAt": "2026-11-21T11:40:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708202-silnejshie-dolzhny-igrat-s-silnejshimi-kvartalnov-o-vozvraschenii-sbornoj-rossii.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Сборная России — Хоккей",
+        "Матч ТВ",
+        "Локомотив",
+        "Дмитрий Квартальнов",
+        "Возвращение России в международный хоккей"
+      ],
+      "relatedTeamIds": [
+        "khl:lokomotiv"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708182",
+      "slug": "v-shvejcarii-vozbudili-ugolovnoe-delo-posle-draki-s-uchastiem-eks-forvarda-vashingtona",
+      "title": "В Швейцарии возбудили уголовное дело после драки с участием экс-форварда «Вашингтона»",
+      "summary": "Швейцарская полиция начала уголовное расследование в отношении канадского нападающего клуба «Ажуа» Дэниэла Карра после драки во время матча чемпионата страны.",
+      "content": "Швейцарская полиция начала уголовное расследование в отношении канадского нападающего клуба «Ажуа» Дэниэла Карра после драки во время матча чемпионата страны.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-11-21T11:18:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708182-v-shvejcarii-vozbudili-ugolovnoe-delo-posle-draki-s-uchastiem-eks-forvarda-vashingtona.html",
+      "tags": [
+        "Хоккей",
+        "Прочие турниры"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6707762",
+      "slug": "sochi-ska-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-17-00-msk",
+      "title": "«Сочи» — СКА: онлайн-трансляция матча КХЛ начнётся в 17:00 мск",
+      "summary": "Сегодня, 21 ноября, в Сочи на стадионе «Большой» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный ХК «Сочи» примет СКА.",
+      "content": "Сегодня, 21 ноября, в Сочи на стадионе «Большой» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный ХК «Сочи» примет СКА.",
+      "image": "https://img.championat.com/news/big/e/l/sochi-ska-onlajn-translyaciya-matcha-khl-nachnyotsya-v-17-00-msk_17952383212142170268.jpg",
+      "publishedAt": "2026-11-21T11:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6707762-sochi-ska-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-17-00-msk.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Сочи"
+      ],
+      "relatedTeamIds": [
+        "khl:ska",
+        "khl:sochi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6707560",
+      "slug": "plan-postroit-katok-v-horvatii-forvard-admirala-o-buduschem-posle-karery",
+      "title": "«План — построить каток в Хорватии». Форвард «Адмирала» — о будущем после карьеры",
+      "summary": "Нападающий «Адмирала» Борна Рендулич рассказал о своих планах на будущее после завершения карьеры.",
+      "content": "Нападающий «Адмирала» Борна Рендулич рассказал о своих планах на будущее после завершения карьеры.",
+      "image": "https://img.championat.com/news/big/q/y/plan-postroit-katok-v-horvatii-forvard-admirala-o-buduschem-posle-karery_17952330111630663024.jpg",
+      "publishedAt": "2026-11-21T10:35:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6707560-plan-postroit-katok-v-horvatii-forvard-admirala-o-buduschem-posle-karery.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "Адмирал",
+        "Борна Рендулич"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708056",
+      "slug": "hajrullin-bolshe-slezhu-za-matveem-korotkim-chem-za-ovechkinym",
+      "title": "Хайруллин: больше слежу за Матвеем Коротким, чем за Овечкиным",
+      "summary": "Нападающий ЦСКА Марат Хайруллин высказался о возможном рекорде по голам с учётом плей-офф НХЛ у российского нападающего «Вашингтон Кэпиталз» Александра Овечкина.",
+      "content": "Нападающий ЦСКА Марат Хайруллин высказался о возможном рекорде по голам с учётом плей-офф НХЛ у российского нападающего «Вашингтон Кэпиталз» Александра Овечкина.",
+      "image": "https://img.championat.com/news/big/v/x/hajrullin-bolshe-slezhu-za-matveem-korotkim-chem-za-ovechkinym_17952536821399425991.jpg",
+      "publishedAt": "2026-11-21T10:23:07Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708056-hajrullin-bolshe-slezhu-za-matveem-korotkim-chem-za-ovechkinym.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "НХЛ",
+        "СКА",
+        "ЦСКА",
+        "Вашингтон Кэпиталз",
+        "Александр Овечкин",
+        "Марат Хайруллин",
+        "Матвей Короткий"
+      ],
+      "relatedTeamIds": [
+        "khl:cska",
+        "khl:ska",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6707554",
+      "slug": "eks-igrok-ska-rendulich-u-demidova-neveroyatnyj-talant-bylo-vidno-superzvezda",
+      "title": "Экс-игрок СКА Рендулич: у Демидова невероятный талант. Было видно — суперзвезда",
+      "summary": "Нападающий «Адмирала» Борна Рендулич заявил, что у российского форварда «Монреаль Канадиенс» Ивана Демидова невероятный талант.",
+      "content": "Нападающий «Адмирала» Борна Рендулич заявил, что у российского форварда «Монреаль Канадиенс» Ивана Демидова невероятный талант.",
+      "image": "https://img.championat.com/news/big/m/a/eks-igrok-ska-rendulich-u-demidova-neveroyatnyj-talant-bylo-vidno-superzvezda_1795233234814503462.jpg",
+      "publishedAt": "2026-11-21T10:10:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6707554-eks-igrok-ska-rendulich-u-demidova-neveroyatnyj-talant-bylo-vidno-superzvezda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "НХЛ",
+        "Эксклюзив",
+        "СКА",
+        "Адмирал",
+        "Монреаль Канадиенс",
+        "Матвей Мичков",
+        "Иван Демидов — хоккей",
+        "Борна Рендулич"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral",
+        "khl:ska",
+        "nhl:mtl",
+        "nhl:phi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708092",
+      "slug": "vladimir-vorobyov-i-evgenij-mihalkevich-voshli-v-trenerskij-shtab-ska",
+      "title": "Владимир Воробьёв и Евгений Михалкевич вошли в тренерский штаб СКА",
+      "summary": "В тренерский штаб СКА вошли два специалиста.",
+      "content": "В тренерский штаб СКА вошли два специалиста.",
+      "image": "https://img.championat.com/news/big/y/y/vladimir-vorobyov-i-evgenij-.jpg",
+      "publishedAt": "2026-11-21T09:50:14Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708092-vladimir-vorobyov-i-evgenij-mihalkevich-voshli-v-trenerskij-shtab-ska.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "СКА",
+        "Владимир Воробьёв"
+      ],
+      "relatedTeamIds": [
+        "khl:ska"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6707548",
+      "slug": "horvatskij-igrok-khl-rossiya-kak-vtoroj-dom-nichto-ne-vyzyvaet-udivleniya",
+      "title": "Хорватский игрок КХЛ: Россия как второй дом, ничто не вызывает удивления",
+      "summary": "Нападающий «Адмирала» Борна Рендулич назвал Россию своим вторым домом и заявил, что больше нет вещей, которые его здесь удивляют.",
+      "content": "Нападающий «Адмирала» Борна Рендулич назвал Россию своим вторым домом и заявил, что больше нет вещей, которые его здесь удивляют.",
+      "image": "https://img.championat.com/news/big/p/z/horvatskij-igrok-khl-rossiya-kak-vtoroj-dom-nichto-ne-vyzyvaet-udivleniya_17952086321704620248.jpg",
+      "publishedAt": "2026-11-21T09:45:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6707548-horvatskij-igrok-khl-rossiya-kak-vtoroj-dom-nichto-ne-vyzyvaet-udivleniya.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "Адмирал",
+        "Борна Рендулич"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6708034",
+      "slug": "ryabykin-dumayu-sud-postaraetsya-zhyostko-nakazat-iihf-za-situaciyu-so-sbornoj-rossii",
+      "title": "Рябыкин: думаю, суд постарается жёстко наказать ИИХФ за ситуацию со сборной России",
+      "summary": "Бывший тренер клубов КХЛ Дмитрий Рябыкин предположил, какие последствия для Международной федерации хоккея (ИИХФ) могут быть за неисполнение решения Спортивного арбитражного суда (CAS).",
+      "content": "Бывший тренер клубов КХЛ Дмитрий Рябыкин предположил, какие последствия для Международной федерации хоккея (ИИХФ) могут быть за неисполнение решения Спортивного арбитражного суда (CAS).",
+      "image": "https://img.championat.com/news/big/d/f/ryabykin-dumayu-sud-postaraetsya-zhyostko-nakazat-iihf-za-situaciyu-so-sbornoj-rossii_17952528831109460471.jpg",
+      "publishedAt": "2026-11-21T09:33:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6708034-ryabykin-dumayu-sud-postaraetsya-zhyostko-nakazat-iihf-za-situaciyu-so-sbornoj-rossii.html",
+      "tags": [
+        "КХЛ",
+        "Хоккей",
+        "ЧМ по хоккею 2027",
+        "Сборная России — Хоккей",
+        "Дмитрий Рябыкин",
+        "ЧМ-2027",
+        "Возвращение России в международный хоккей"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6707534",
+      "slug": "rendulich-o-svoej-igre-v-rossii-rodstvenniki-znayut-kakoj-ya-sumasshedshij",
+      "title": "Рендулич — о своей игре в России: родственники знают, какой я сумасшедший",
+      "summary": "Нападающий «Адмирала» Борна Рендулич заявил, что родственники за него не переживают, потому что знают, какой он сумасшедший.",
+      "content": "Нападающий «Адмирала» Борна Рендулич заявил, что родственники за него не переживают, потому что знают, какой он сумасшедший.",
+      "image": "https://img.championat.com/news/big/m/c/rendulich-o-svoej-igre-v-rossii-rodstvenniki-znayut-kakoj-ya-sumasshedshij_17952341081507082080.jpg",
+      "publishedAt": "2026-11-21T09:20:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6707534-rendulich-o-svoej-igre-v-rossii-rodstvenniki-znayut-kakoj-ya-sumasshedshij.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "Адмирал",
+        "Борна Рендулич"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6707764",
+      "slug": "raspisanie-matchej-nhl-v-noch-na-22-noyabrya-2026-goda",
+      "title": "Расписание матчей НХЛ в ночь на 22 ноября 2026 года",
+      "summary": "Вечером 21 и в ночь на 22 ноября пройдут очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "content": "Вечером 21 и в ночь на 22 ноября пройдут очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/f/g/raspisanie-matchej-nhl-v-noch-na-22-noyabrya-2026-goda_1795238826660870567.jpg",
+      "publishedAt": "2026-11-21T09:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6707764-raspisanie-matchej-nhl-v-noch-na-22-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Питтсбург Пингвинз",
+        "Эдмонтон Ойлерз",
+        "Флорида Пантерз",
+        "Торонто Мэйпл Лифс",
+        "Каролина Харрикейнз",
+        "Бостон Брюинз",
+        "Монреаль Канадиенс",
+        "Коламбус Блю Джекетс",
+        "Миннесота Уайлд",
+        "Филадельфия Флайерз",
+        "Сент-Луис Блюз",
+        "Нью-Йорк Айлендерс",
+        "Чикаго Блэкхоукс",
+        "Вегас Голден Найтс",
+        "Нью-Джерси Дэвилз",
+        "Ванкувер Кэнакс",
+        "Сан-Хосе Шаркс",
+        "Детройт Ред Уингз",
+        "Лос-Анджелес Кингз",
+        "Оттава Сенаторз",
+        "Нэшвилл Предаторз",
+        "Виннипег Джетс",
+        "Калгари Флэймз",
+        "Баффало Сэйбрз",
+        "Анахайм Дакс",
+        "Сиэтл Кракен",
+        "Юта Маммот"
+      ],
+      "relatedTeamIds": [
+        "nhl:ana",
+        "nhl:bos",
+        "nhl:buf",
+        "nhl:car",
+        "nhl:cbj",
+        "nhl:cgy",
+        "nhl:chi",
+        "nhl:det",
+        "nhl:edm",
+        "nhl:fla",
+        "nhl:lak",
+        "nhl:min",
+        "nhl:mtl",
+        "nhl:njd",
+        "nhl:nsh",
+        "nhl:nyi",
+        "nhl:ott",
+        "nhl:phi",
+        "nhl:pit",
+        "nhl:sea",
+        "nhl:sjs",
+        "nhl:stl",
+        "nhl:tor",
+        "nhl:uta",
+        "nhl:van",
+        "nhl:vgk",
+        "nhl:wpg",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6707520",
+      "slug": "sumasshestvie-nadeyus-skoro-etot-bred-zakonchitsya-horvat-iz-khl-ob-otstranenii-rossii",
+      "title": "«Сумасшествие. Надеюсь, скоро этот бред закончится». Хорват из КХЛ — об отстранении России",
+      "summary": "Нападающий «Адмирала» Борна Рендулич рассказал, как на его родине, в Хорватии, реагируют на ситуацию с допуском сборных России до международных соревнований.",
+      "content": "Нападающий «Адмирала» Борна Рендулич рассказал, как на его родине, в Хорватии, реагируют на ситуацию с допуском сборных России до международных соревнований.",
+      "image": "https://img.championat.com/news/big/j/h/sumasshestvie-nadeyus-skoro-etot-bred-zakonchitsya-horvat-iz-khl-ob-otstranenii-rossii_17952078622069329303.jpg",
+      "publishedAt": "2026-11-21T08:55:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6707520-sumasshestvie-nadeyus-skoro-etot-bred-zakonchitsya-horvat-iz-khl-ob-otstranenii-rossii.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "Сборная России — Хоккей",
+        "Адмирал",
+        "Борна Рендулич"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6707970",
       "slug": "horoshaya-komanda-ne-prevraschaetsya-v-kotov-kotorye-vsem-dovolny-kovalenko-o-cska",
       "title": "«Хорошая команда не превращается в котов, которые всем довольны». Коваленко — о ЦСКА",
@@ -110,660 +759,6 @@
       "relatedTeamIds": [
         "khl:neftekhimik",
         "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707488",
-      "slug": "eto-lozh-ya-byl-zol-razdrazhyon-rendulich-o-sluhah-chto-on-byl-pyanym-v-samolyote",
-      "title": "«Это ложь, я был зол, раздражён». Рендулич — о слухах, что он был пьяным в самолёте",
-      "summary": "Нападающий «Адмирала» Борна Рендулич рассказал, читает ли новости о себе, и прокомментировал слухи о том, что однажды его не взяли на выездной матч из-за того, что он якобы сел в самолёт в нетрезвом виде.",
-      "content": "Нападающий «Адмирала» Борна Рендулич рассказал, читает ли новости о себе, и прокомментировал слухи о том, что однажды его не взяли на выездной матч из-за того, что он якобы сел в самолёт в нетрезвом виде.",
-      "image": "https://img.championat.com/news/big/x/v/eto-lozh-ya-byl-zol-razdrazhyon-rendulich-o-sluhah-chto-on-byl-pyanym-v-samolyote_17952061051884828268.jpg",
-      "publishedAt": "2026-11-21T07:40:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707488-eto-lozh-ya-byl-zol-razdrazhyon-rendulich-o-sluhah-chto-on-byl-pyanym-v-samolyote.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Адмирал",
-        "Борна Рендулич"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707894",
-      "slug": "ryabykin-shtab-razina-postepenno-nachinaet-vypravlyat-anarhiyu-kotoroj-osenyu-otlichalsya-ska",
-      "title": "Рябыкин: штаб Разина постепенно начинает выправлять анархию, которой осенью отличался СКА",
-      "summary": "Бывший тренер клубов КХЛ Дмитрий Рябыкин прокомментировал игру СКА при главном тренере Андрее Разине и высказался о ситуации с капитаном армейского клуба Сергеем Плотниковым.",
-      "content": "Бывший тренер клубов КХЛ Дмитрий Рябыкин прокомментировал игру СКА при главном тренере Андрее Разине и высказался о ситуации с капитаном армейского клуба Сергеем Плотниковым.",
-      "image": "https://img.championat.com/news/big/o/k/ryabykin-shtab-razina-postepenno-nachinaet-vypravlyat-anarhiyu-kotoroj-osenyu-otlichalsya-_17952453651584040811.jpg",
-      "publishedAt": "2026-11-21T07:28:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707894-ryabykin-shtab-razina-postepenno-nachinaet-vypravlyat-anarhiyu-kotoroj-osenyu-otlichalsya-ska.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Андрей Разин",
-        "Сергей Плотников"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707480",
-      "slug": "bylo-mnogo-severoamerikancev-kazalos-ya-ne-v-rossii-rendulich-ob-igre-za-shanhaj",
-      "title": "«Было много североамериканцев, казалось, я не в России». Рендулич — об игре за «Шанхай»",
-      "summary": "Нападающий «Адмирала» Борна Рендулич рассказал об игре за «Шанхайских Драконов» и объяснил, почему решил покинуть китайский клуб.",
-      "content": "Нападающий «Адмирала» Борна Рендулич рассказал об игре за «Шанхайских Драконов» и объяснил, почему решил покинуть китайский клуб.",
-      "image": "https://img.championat.com/news/big/h/p/bylo-mnogo-severoamerikancev.jpg",
-      "publishedAt": "2026-11-21T07:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707480-bylo-mnogo-severoamerikancev-kazalos-ya-ne-v-rossii-rendulich-ob-igre-za-shanhaj.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Адмирал",
-        "Шанхайские Драконы (Куньлунь Ред Стар)",
-        "Борна Рендулич"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:kunlun"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707860",
-      "slug": "ya-by-usilil-trenerskij-shtab-gomolyako-pro-igru-ak-barsa-v-sezone",
-      "title": "«Я бы усилил тренерский штаб». Гомоляко — про игру «Ак Барса» в сезоне",
-      "summary": "Бывший спортивный директор «Металлурга» Сергей Гомоляко прокомментировал неудачную игру «Ак Барса» в домашних матчах текущего сезона.",
-      "content": "Бывший спортивный директор «Металлурга» Сергей Гомоляко прокомментировал неудачную игру «Ак Барса» в домашних матчах текущего сезона.",
-      "image": "https://img.championat.com/news/big/z/n/ya-by-usilil-trenerskij-shta.jpg",
-      "publishedAt": "2026-11-21T07:03:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707860-ya-by-usilil-trenerskij-shtab-gomolyako-pro-igru-ak-barsa-v-sezone.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Сергей Гомоляко"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707472",
-      "slug": "horvatskij-forvard-admirala-mogu-obschatsya-s-rossiyanami-na-russkom",
-      "title": "Хорватский форвард «Адмирала»: могу общаться с россиянами на русском",
-      "summary": "Хорватский нападающий «Адмирала» Борна Рендулич ответил, сколько языков знает, и рассказал, что может пообщаться на русском.",
-      "content": "Хорватский нападающий «Адмирала» Борна Рендулич ответил, сколько языков знает, и рассказал, что может пообщаться на русском.",
-      "image": "https://img.championat.com/news/big/f/m/horvatskij-forvard-admirala-mogu-obschatsya-s-rossiyanami-na-russkom_17952054151585332376.jpg",
-      "publishedAt": "2026-11-21T06:50:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707472-horvatskij-forvard-admirala-mogu-obschatsya-s-rossiyanami-na-russkom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Адмирал",
-        "Борна Рендулич"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707772",
-      "slug": "u-nego-novyj-klub-on-eschyo-ne-adaptirovalsya-tretyak-ob-igre-bobrovskogo-za-toronto",
-      "title": "«У него новый клуб, он ещё не адаптировался». Третьяк — об игре Бобровского за «Торонто»",
-      "summary": "Президент Федерации хоккея России, трёхкратный олимпийский чемпион Владислав Третьяк прокомментировал игру российского голкипера «Торонто Мэйпл Лифс» Сергея Бобровского.",
-      "content": "Президент Федерации хоккея России, трёхкратный олимпийский чемпион Владислав Третьяк прокомментировал игру российского голкипера «Торонто Мэйпл Лифс» Сергея Бобровского.",
-      "image": "https://img.championat.com/news/big/f/s/u-nego-novyj-klub-on-eschyo-ne-adaptirovalsya-tretyak-ob-igre-bobrovskogo-za-toronto_17952406041392102981.jpg",
-      "publishedAt": "2026-11-21T06:32:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707772-u-nego-novyj-klub-on-eschyo-ne-adaptirovalsya-tretyak-ob-igre-bobrovskogo-za-toronto.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Торонто Мэйпл Лифс",
-        "Сергей Бобровский",
-        "Владислав Третьяк",
-        "ФХР"
-      ],
-      "relatedTeamIds": [
-        "nhl:fla",
-        "nhl:tor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707722",
-      "slug": "21-noyabrya-glavnye-novosti-sporta-futbol-travmy-hokkej-khl-rezultaty-tennis-itogovyj-turnir-2026-atp-formula-1",
-      "title": "Медведев — в 1/2 финала Итогового чемпионата, Гарри Кейн получил травму. Главное к утру",
-      "summary": "Даниил Медведев одержал победу над Фрэнсисом Тиафо и вышел в полуфинал Итогового турнира ATP — 2026, «Бавария» сделала заявление относительно тяжести травмы обладателя «Золотого мяча» Гарри Кейна, «Ростов» разгромил «...",
-      "content": "Даниил Медведев одержал победу над Фрэнсисом Тиафо и вышел в полуфинал Итогового турнира ATP — 2026, «Бавария» сделала заявление относительно тяжести травмы обладателя «Золотого мяча» Гарри Кейна, «Ростов» разгромил «Крылья Советов» в первом матче 15-го тура РПЛ.",
-      "image": "https://img.championat.com/news/big/y/g/medvedev-v-1-2-finala-itogovogo-chempionata-garri-kejn-poluchil-travmu-glavnoe-k-utru_17952420891934819354.jpg",
-      "publishedAt": "2026-11-21T06:30:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/tennis/news-6707722-21-noyabrya-glavnye-novosti-sporta-futbol-travmy-hokkej-khl-rezultaty-tennis-itogovyj-turnir-2026-atp-formula-1.html",
-      "tags": [
-        "Теннис",
-        "ATP",
-        "Футбол",
-        "РПЛ",
-        "Германия",
-        "Хоккей",
-        "КХЛ",
-        "Баскетбол",
-        "НБА",
-        "Авто",
-        "Формула-1",
-        "Бавария",
-        "Ростов",
-        "ЦСКА",
-        "Крылья Советов",
-        "Локомотив",
-        "Даниил Медведев",
-        "Торпедо",
-        "Макс Ферстаппен",
-        "Северсталь",
-        "Амур",
-        "Бруклин Нетс",
-        "Шанхайские Драконы (Куньлунь Ред Стар)",
-        "Орландо Мэджик",
-        "Гарри Кейн",
-        "Егор Дёмин",
-        "Андреа Кими Антонелли",
-        "Кёльн",
-        "Фрэнсис Тиафо",
-        "Итоговый чемпионат ATP",
-        "Венсан Компани",
-        "Формула-1 Гран-при Лас-Вегаса",
-        "MVP НБА",
-        "MVP"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:cska",
-        "khl:kunlun",
-        "khl:lokomotiv",
-        "khl:severstal",
-        "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707760",
-      "slug": "sochi-ska-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-21-noyabrya-2026",
-      "title": "«Сочи» — СКА: во сколько начало матча КХЛ, где смотреть трансляцию",
-      "summary": "Сегодня, 21 ноября, в Сочи на стадионе «Большой» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный ХК «Сочи» примет СКА.",
-      "content": "Сегодня, 21 ноября, в Сочи на стадионе «Большой» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный ХК «Сочи» примет СКА.",
-      "image": "https://img.championat.com/news/big/l/y/sochi-ska-vo-skolko-nachalo-matcha-khl-gde-smotret-translyaciyu_1795238232606844495.jpg",
-      "publishedAt": "2026-11-21T06:15:10Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707760-sochi-ska-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-21-noyabrya-2026.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Сочи"
-      ],
-      "relatedTeamIds": [
-        "khl:ska",
-        "khl:sochi"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707750",
-      "slug": "raspisanie-matchej-mhl-na-21-noyabrya-2026-goda",
-      "title": "Расписание матчей МХЛ на 21 ноября 2026 года",
-      "summary": "Сегодня, 21 ноября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
-      "content": "Сегодня, 21 ноября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-11-21T05:55:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707750-raspisanie-matchej-mhl-na-21-noyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "МХЛ",
-        "МХК Красная Армия",
-        "МХК Локо",
-        "МХК СКА-1946",
-        "МХК Белые Медведи",
-        "МХК Сибирские Снайперы",
-        "МХК Амурские Тигры",
-        "МХК Мамонты Югры",
-        "МХК Динамо-Шинник",
-        "МХК Динамо",
-        "МХК Красноярские Рыси"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707748",
-      "slug": "raspisanie-matchej-vhl-na-21-noyabrya-2026-goda",
-      "title": "Расписание матчей ВХЛ на 21 ноября 2026 года",
-      "summary": "Сегодня, 21 ноября, пройдут шесть матчей OLIMPBET Чемпионата России — ВХЛ.",
-      "content": "Сегодня, 21 ноября, пройдут шесть матчей OLIMPBET Чемпионата России — ВХЛ.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-11-21T05:40:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707748-raspisanie-matchej-vhl-na-21-noyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "ВХЛ",
-        "Югра",
-        "Рубин",
-        "Нефтяник Альметьевск",
-        "Дизель",
-        "Челмет",
-        "Кристалл Саратов",
-        "Динамо Санкт-Петербург",
-        "Горняк",
-        "Норильск",
-        "СКА-ВМФ",
-        "Калуга"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707754",
-      "slug": "neftehimik-spartak-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-21-noyabrya-2026",
-      "title": "«Нефтехимик» — «Спартак»: во сколько начало матча КХЛ, где смотреть трансляцию",
-      "summary": "Сегодня, 21 ноября, в Нижнекамске состоится матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Нефтехимиком» и «Спартаком».",
-      "content": "Сегодня, 21 ноября, в Нижнекамске состоится матч 19-го сезона Фонбет Континентальной хоккейной лиги между местным «Нефтехимиком» и «Спартаком».",
-      "image": "https://img.championat.com/news/big/o/o/neftehimik-spartak-vo-skolko-nachalo-matcha-khl-gde-smotret-translyaciyu_17952379591568051204.jpg",
-      "publishedAt": "2026-11-21T05:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707754-neftehimik-spartak-vo-skolko-nachalo-matcha-khl-sezona-2026-2027-gde-smotret-pryamuyu-translyaciyu-21-noyabrya-2026.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Спартак",
-        "Нефтехимик"
-      ],
-      "relatedTeamIds": [
-        "khl:neftekhimik",
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707744",
-      "slug": "raspisanie-matchej-khl-na-21-noyabrya-2026-goda",
-      "title": "Расписание матчей КХЛ на 21 ноября 2026 года",
-      "summary": "Сегодня, 21 ноября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Сегодня, 21 ноября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/u/r/raspisanie-matchej-khl-na-21-noyabrya-2026-goda_17952374131025680764.jpg",
-      "publishedAt": "2026-11-21T05:20:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707744-raspisanie-matchej-khl-na-21-noyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "СКА",
-        "Спартак",
-        "Нефтехимик",
-        "Сочи"
-      ],
-      "relatedTeamIds": [
-        "khl:neftekhimik",
-        "khl:ska",
-        "khl:sochi",
-        "khl:spartak"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707466",
-      "slug": "rendulich-moya-cel-igrat-do-40-let-u-menya-ogon-vnutri-mogu-pomoch-lyuboj-komande",
-      "title": "Рендулич: моя цель — играть до 40 лет, у меня огонь внутри, могу помочь любой команде",
-      "summary": "34-летний нападающий «Адмирала» Борна Рендулич заявил, что ещё не задумывался о завершении карьеры, и отметил, что намерен играть до 40 лет.",
-      "content": "34-летний нападающий «Адмирала» Борна Рендулич заявил, что ещё не задумывался о завершении карьеры, и отметил, что намерен играть до 40 лет.",
-      "image": "https://img.championat.com/news/big/s/v/rendulich-moya-cel-igrat-do-40-let-u-menya-ogon-vnutri-mogu-pomoch-lyuboj-komande_17952324671624889562.jpg",
-      "publishedAt": "2026-11-21T05:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707466-rendulich-moya-cel-igrat-do-40-let-u-menya-ogon-vnutri-mogu-pomoch-lyuboj-komande.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Адмирал",
-        "Борна Рендулич"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707640",
-      "slug": "mid-rf-popytki-izolirovat-rossiyu-v-mirovom-sporte-zaranee-obrecheny-na-proval",
-      "title": "МИД РФ: попытки изолировать Россию в мировом спорте заранее обречены на провал",
-      "summary": "В МИД РФ заявили, что любые попытки изолировать или вытеснить Россию из глобального спорта бесперспективны и заранее обречены на провал.",
-      "content": "В МИД РФ заявили, что любые попытки изолировать или вытеснить Россию из глобального спорта бесперспективны и заранее обречены на провал.",
-      "image": "assets/images/hero_banner.jpg",
-      "publishedAt": "2026-11-21T01:13:13Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707640-mid-rf-popytki-izolirovat-rossiyu-v-mirovom-sporte-zaranee-obrecheny-na-proval.html",
-      "tags": [
-        "Хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707634",
-      "slug": "vsyo-bylo-ochen-stranno-sportdirektor-federacii-hokkeya-ukrainy-o-dopuske-rossii-na-mchm",
-      "title": "«Всё было очень странно». Спортдиректор Федерации хоккея Украины — о допуске России на МЧМ",
-      "summary": "Спортивный директор Федерации хоккея Украины Юрий Кириченко высказался о решении Спортивного арбитражного суда (CAS) допустить российские сборные до международных турниров.",
-      "content": "Спортивный директор Федерации хоккея Украины Юрий Кириченко высказался о решении Спортивного арбитражного суда (CAS) допустить российские сборные до международных турниров.",
-      "image": "assets/images/hero_banner.jpg",
-      "publishedAt": "2026-11-21T00:58:50Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707634-vsyo-bylo-ochen-stranno-sportdirektor-federacii-hokkeya-ukrainy-o-dopuske-rossii-na-mchm.html",
-      "tags": [
-        "Хоккей",
-        "ЧМ по хоккею 2027",
-        "Прочие турниры",
-        "МЧМ по хоккею 2027",
-        "Сборная России — Хоккей",
-        "Молодёжная сборная России — Хоккей",
-        "Отстранение России",
-        "ИИХФ",
-        "Арбитраж",
-        "Чемпионат мира - Хоккей",
-        "Сборная Украины — Хоккей",
-        "МЧМ-2027",
-        "Возвращение России в международный хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707636",
-      "slug": "dilan-larkin-poteryal-v-zarplate-bolshe-chem-hellebajk-ozhidaya-obmena",
-      "title": "Дилан Ларкин потерял в зарплате больше, чем Хеллебайк, ожидая обмена",
-      "summary": "Нападающий «Детройт Ред Уингз» Дилан Ларкин установил своеобразный рекорд, потеряв в зарплате больше, чем вратарь Коннор Хеллебайк во время аналогичного конфликта с «Виннипегом».",
-      "content": "Нападающий «Детройт Ред Уингз» Дилан Ларкин установил своеобразный рекорд, потеряв в зарплате больше, чем вратарь Коннор Хеллебайк во время аналогичного конфликта с «Виннипегом».",
-      "image": "assets/images/news_nhl_season.jpg",
-      "publishedAt": "2026-11-21T00:58:31Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707636-dilan-larkin-poteryal-v-zarplate-bolshe-chem-hellebajk-ozhidaya-obmena.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Детройт Ред Уингз",
-        "Коннор Хеллебайк",
-        "Дилан Ларкин"
-      ],
-      "relatedTeamIds": [
-        "nhl:det",
-        "nhl:wpg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707628",
-      "slug": "v-fhu-vyskazalis-o-pozicii-ssha-otnositelno-dopuska-rossii-na-mchm-upomyanuv-trampa",
-      "title": "В ФХУ высказались о позиции США относительно допуска России на МЧМ, упомянув Трампа",
-      "summary": "Спортивный директор Федерации хоккея Украины Юрий Кириченко прокомментировал отношение США к вердикту Спортивного арбитражного суда (CAS) о допуске российских команд на международные соревнования.",
-      "content": "Спортивный директор Федерации хоккея Украины Юрий Кириченко прокомментировал отношение США к вердикту Спортивного арбитражного суда (CAS) о допуске российских команд на международные соревнования.",
-      "image": "assets/images/news_nhl_season.jpg",
-      "publishedAt": "2026-11-21T00:08:08Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707628-v-fhu-vyskazalis-o-pozicii-ssha-otnositelno-dopuska-rossii-na-mchm-upomyanuv-trampa.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "ЧМ по хоккею 2027",
-        "МЧМ по хоккею 2027",
-        "Сборная России — Хоккей",
-        "Молодёжная сборная России — Хоккей",
-        "Отстранение России",
-        "ИИХФ",
-        "Дональд Трамп",
-        "Арбитраж",
-        "Сборная Украины — Хоккей",
-        "Возвращение России в международный хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707542",
-      "slug": "rezultaty-matchej-mhl-na-20-noyabrya-2026-goda",
-      "title": "Результаты матчей МХЛ на 20 ноября 2026 года",
-      "summary": "В пятницу, 20 ноября, прошли пять матчей OLIMPBET Молодёжной хоккейной лиги.",
-      "content": "В пятницу, 20 ноября, прошли пять матчей OLIMPBET Молодёжной хоккейной лиги.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-11-20T21:00:26Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707542-rezultaty-matchej-mhl-na-20-noyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "МХЛ",
-        "МХК Стальные Лисы",
-        "МХК Реактор",
-        "МХК Амурские Тигры",
-        "МХК Динамо Санкт-Петербург",
-        "МХК Ирбис Казань",
-        "МХК Сахалинские Акулы",
-        "Молот"
-      ],
-      "relatedTeamIds": [
-        "khl:ska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707454",
-      "slug": "forvard-admirala-rendulich-vo-vladivostoke-udobno-smotret-matchi-nhl",
-      "title": "Форвард «Адмирала» Рендулич: во Владивостоке удобно смотреть матчи НХЛ",
-      "summary": "Нападающий «Адмирала» Борна Рендулич рассказал, что уже привык к перелётам, а также отметил, что во Владивостоке удобно смотреть матчи НХЛ.",
-      "content": "Нападающий «Адмирала» Борна Рендулич рассказал, что уже привык к перелётам, а также отметил, что во Владивостоке удобно смотреть матчи НХЛ.",
-      "image": "https://img.championat.com/news/big/v/a/forvard-admirala-rendulich-vo-vladivostoke-udobno-smotret-matchi-nhl_17952045431243378104.jpg",
-      "publishedAt": "2026-11-20T21:00:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707454-forvard-admirala-rendulich-vo-vladivostoke-udobno-smotret-matchi-nhl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "Эксклюзив",
-        "Адмирал",
-        "Борна Рендулич"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707530",
-      "slug": "rezultaty-matchej-vhl-na-20-noyabrya-2026-goda",
-      "title": "Результаты матчей ВХЛ на 20 ноября 2026 года",
-      "summary": "Сегодня, 20 ноября, состоялся один матч OLIMPBET Чемпионата России ВХЛ.",
-      "content": "Сегодня, 20 ноября, состоялся один матч OLIMPBET Чемпионата России ВХЛ.",
-      "image": "assets/images/hero_banner.jpg",
-      "publishedAt": "2026-11-20T20:55:49Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707530-rezultaty-matchej-vhl-na-20-noyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "ВХЛ",
-        "Ижсталь",
-        "МХК Олимпия"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707516",
-      "slug": "rezultaty-matchej-khl-na-20-noyabrya-2026-goda",
-      "title": "Результаты матчей КХЛ на 20 ноября 2026 года",
-      "summary": "Сегодня, 20 ноября, состоялись пять матчей регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Сегодня, 20 ноября, состоялись пять матчей регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-11-20T20:45:17Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707516-rezultaty-matchej-khl-na-20-noyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Авангард",
-        "Локомотив",
-        "Сибирь",
-        "Торпедо",
-        "Автомобилист",
-        "Барыс",
-        "Северсталь",
-        "Амур",
-        "Шанхайские Драконы (Куньлунь Ред Стар)"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:avangard",
-        "khl:avtomobilist",
-        "khl:barys",
-        "khl:cska",
-        "khl:kunlun",
-        "khl:lokomotiv",
-        "khl:severstal",
-        "khl:sibir",
-        "khl:torpedo"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707492",
-      "slug": "glavnyj-trener-severstali-kozyrev-ocenil-pobedu-nad-amurom",
-      "title": "Главный тренер «Северстали» Козырев оценил победу над «Амуром»",
-      "summary": "Главный тренер «Северстали» Андрей Козырев прокомментировал победу над «Амуром» (3:2 Б) во встрече регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "content": "Главный тренер «Северстали» Андрей Козырев прокомментировал победу над «Амуром» (3:2 Б) во встрече регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
-      "image": "https://img.championat.com/news/big/j/o/glavnyj-trener-severstali-ko.jpg",
-      "publishedAt": "2026-11-20T20:28:07Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707492-glavnyj-trener-severstali-kozyrev-ocenil-pobedu-nad-amurom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Северсталь",
-        "Амур",
-        "Андрей Козырев"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:severstal"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707486",
-      "slug": "sopernik-vyglyadel-svezhee-glavnyj-trener-amura-o-porazhenii-ot-severstali",
-      "title": "«Соперник выглядел свежее». Главный тренер «Амура» — о поражении от «Северстали»",
-      "summary": "Главный тренер «Амура» Александр Андриевский прокомментировал поражение от «Северстали» со счётом 2:3 в серии буллитов.",
-      "content": "Главный тренер «Амура» Александр Андриевский прокомментировал поражение от «Северстали» со счётом 2:3 в серии буллитов.",
-      "image": "https://img.championat.com/news/big/g/l/sopernik-vyglyadel-svezhee-g.jpg",
-      "publishedAt": "2026-11-20T20:19:17Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707486-sopernik-vyglyadel-svezhee-glavnyj-trener-amura-o-porazhenii-ot-severstali.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Северсталь",
-        "Амур",
-        "Александр Андриевский"
-      ],
-      "relatedTeamIds": [
-        "khl:amur",
-        "khl:severstal"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707448",
-      "slug": "hotel-poznakomitsya-s-etoj-chastyu-rossii-borna-rendulich-o-perehode-v-admiral",
-      "title": "«Хотел познакомиться с этой частью России». Борна Рендулич — о переходе в «Адмирал»",
-      "summary": "Нападающий «Адмирала» Борна Рендулич прокомментировал переход в клуб из Владивостока и объяснил свой выбор.",
-      "content": "Нападающий «Адмирала» Борна Рендулич прокомментировал переход в клуб из Владивостока и объяснил свой выбор.",
-      "image": "https://img.championat.com/news/big/v/r/hotel-poznakomitsya-s-etoj-chastyu-rossii-borna-rendulich-o-perehode-v-admiral_1795204241195887154.jpg",
-      "publishedAt": "2026-11-20T20:00:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707448-hotel-poznakomitsya-s-etoj-chastyu-rossii-borna-rendulich-o-perehode-v-admiral.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Адмирал",
-        "Борна Рендулич"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707440",
-      "slug": "nyu-dzhersi-otpravil-zaschitnika-antona-silaeva-v-ahl",
-      "title": "«Нью-Джерси» отправил защитника Антона Силаева в АХЛ",
-      "summary": "«Нью-Джерси Дэвилз» отправил российского защитника Антона Силаева в «Ютику Кометс» из АХЛ.",
-      "content": "«Нью-Джерси Дэвилз» отправил российского защитника Антона Силаева в «Ютику Кометс» из АХЛ.",
-      "image": "https://img.championat.com/news/big/x/q/nyu-dzhersi-otpravil-zaschitnika-antona-silaeva-v-ahl_17952044741382657776.jpg",
-      "publishedAt": "2026-11-20T19:54:35Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707440-nyu-dzhersi-otpravil-zaschitnika-antona-silaeva-v-ahl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "АХЛ",
-        "Нью-Джерси Дэвилз",
-        "Антон Силаев"
-      ],
-      "relatedTeamIds": [
-        "nhl:njd"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6707416",
-      "slug": "kirill-marchenko-vernulsya-k-trenirovkam-na-ldu-v-polnoj-ekipirovke-posle-travmy",
-      "title": "Кирилл Марченко вернулся к тренировкам на льду в полной экипировке после травмы",
-      "summary": "Российский нападающий «Торонто Мэйпл Лифс» Кирилл Марченко провёл тренировку на льду в полной экипировке.",
-      "content": "Российский нападающий «Торонто Мэйпл Лифс» Кирилл Марченко провёл тренировку на льду в полной экипировке.",
-      "image": "https://img.championat.com/news/big/a/s/kirill-marchenko-vernulsya-k-trenirovkam-na-ldu-v-polnoj-ekipirovke-posle-travmy_1795203190464455896.jpg",
-      "publishedAt": "2026-11-20T19:33:19Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6707416-kirill-marchenko-vernulsya-k-trenirovkam-na-ldu-v-polnoj-ekipirovke-posle-travmy.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Торонто Мэйпл Лифс",
-        "Травмы — хоккей",
-        "Кирилл Марченко"
-      ],
-      "relatedTeamIds": [
-        "nhl:tor"
       ],
       "relatedPlayerIds": []
     }
