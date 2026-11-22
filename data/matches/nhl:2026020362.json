@@ -6,31 +6,181 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-21T23:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 3,
+  "clock": "01:30",
   "finishedIn": null,
   "home": {
     "id": "nhl:nsh",
-    "score": null,
+    "score": 4,
     "periods": [],
-    "shots": null
+    "shots": 29
   },
   "away": {
     "id": "nhl:pit",
-    "score": null,
+    "score": 3,
     "periods": [],
-    "shots": null
+    "shots": 24
   },
   "arena": "Bridgestone Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "03:58",
+      "team": "away",
+      "playerId": "nhl:p_8479398",
+      "playerName": "Samuel Girard",
+      "assists": [
+        "nhl:p_8478438",
+        "nhl:p_8471675"
+      ],
+      "score": "0-1",
+      "order": 57
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "08:01",
+      "team": "away",
+      "playerId": "nhl:p_8478438",
+      "playerName": "Tommy Novak",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 114
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "16:18",
+      "team": "away",
+      "playerId": "nhl:p_8483808",
+      "playerName": "Andrei Kuzmenko",
+      "assists": [
+        "nhl:p_8482475",
+        "nhl:p_8485414"
+      ],
+      "score": "0-2",
+      "order": 212
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "17:26",
+      "team": "home",
+      "playerId": "nhl:p_8476539",
+      "playerName": "Jonathan Marchessault",
+      "assists": [
+        "nhl:p_8476869",
+        "nhl:p_8480246"
+      ],
+      "score": "1-2",
+      "order": 228
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "17:57",
+      "team": "away",
+      "playerId": "nhl:p_8479398",
+      "playerName": "Samuel Girard",
+      "minutes": 2,
+      "reason": "interference-goalkeeper",
+      "order": 236
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "02:25",
+      "team": "home",
+      "playerId": "nhl:p_8476887",
+      "playerName": "Filip Forsberg",
+      "assists": [
+        "nhl:p_8479980",
+        "nhl:p_8481593"
+      ],
+      "score": "2-2",
+      "order": 297
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "02:51",
+      "team": "home",
+      "playerId": "nhl:p_8480246",
+      "playerName": "Nick Perbix",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 303
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "06:22",
+      "team": "home",
+      "playerId": "nhl:p_8483513",
+      "playerName": "Reid Schaefer",
+      "assists": [
+        "nhl:p_8476539",
+        "nhl:p_8476869"
+      ],
+      "score": "3-2",
+      "order": 343
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "13:23",
+      "team": "away",
+      "playerId": "nhl:p_8482148",
+      "playerName": "Hendrix Lapierre",
+      "assists": [
+        "nhl:p_8483487",
+        "nhl:p_8481527"
+      ],
+      "score": "3-3",
+      "order": 419
+    },
+    {
+      "type": "GOAL",
+      "period": 3,
+      "time": "03:31",
+      "team": "home",
+      "playerId": "nhl:p_8481593",
+      "playerName": "Jayden Struble",
+      "assists": [
+        "nhl:p_8474564",
+        "nhl:p_8475158"
+      ],
+      "score": "4-3",
+      "order": 547
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      29,
+      24
+    ],
+    "shotsOnGoal": [
+      29,
+      24
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020362/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020362/play-by-play"
+    ],
+    "fetchedAt": "2026-11-22T01:36:07.363155+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +188,6 @@
     "url": "https://www.nhl.com/gamecenter/pit-vs-nsh/2026/11/21/2026020362",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/pit-vs-nsh/2026/11/21/2026020362",
-    "verifiedAt": "2026-11-21T21:43:46.576279Z"
+    "verifiedAt": "2026-11-22T01:36:07.363256Z"
   }
 }
