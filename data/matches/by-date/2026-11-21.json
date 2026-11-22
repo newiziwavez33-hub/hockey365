@@ -14,7 +14,7 @@
     "home": {
       "id": "khl:neftekhimik",
       "name": "Нефтехимик",
-      "logo": "https://thumbs.webcaster.pro/rec-2-19.webcaster.pro/fc/sdc2/team_pics/36/original/neftekhimik_2022__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/36/original/neftekhimik_2022__200x200.png",
       "score": 3,
       "periods": [
         0,
@@ -59,7 +59,7 @@
       "stageId": 407,
       "eventId": 3001307,
       "matchId": "902287",
-      "fetchedAt": "2026-11-22T01:36:09.356699Z"
+      "fetchedAt": "2026-11-22T08:45:17.762912Z"
     }
   },
   {
@@ -89,7 +89,7 @@
     "away": {
       "id": "khl:ska",
       "name": "СКА",
-      "logo": "https://thumbs.webcaster.pro/rec-2-3.webcaster.pro/fc/sdd/team_pics/44/original/SKA_logo_2025_RU_200x200_NEW.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sda/team_pics/44/original/SKA_logo_2025_RU_200x200_NEW.png",
       "score": 5,
       "periods": [
         1,
@@ -122,7 +122,7 @@
       "stageId": 407,
       "eventId": 3001311,
       "matchId": "902288",
-      "fetchedAt": "2026-11-22T01:36:09.356699Z"
+      "fetchedAt": "2026-11-22T08:45:17.762912Z"
     }
   },
   {
@@ -165,7 +165,7 @@
       "url": "https://www.nhl.com/gamecenter/edm-vs-car/2026/11/21/2026020359",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/edm-vs-car/2026/11/21/2026020359",
-      "verifiedAt": "2026-11-22T01:36:07.224700Z"
+      "verifiedAt": "2026-11-22T08:45:16.751475Z"
     }
   },
   {
@@ -208,7 +208,7 @@
       "url": "https://www.nhl.com/gamecenter/chi-vs-cgy/2026/11/21/2026020360",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/chi-vs-cgy/2026/11/21/2026020360",
-      "verifiedAt": "2026-11-22T01:36:07.224944Z"
+      "verifiedAt": "2026-11-22T08:45:16.751698Z"
     }
   },
   {
@@ -219,199 +219,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-11-21T23:00:00Z",
-    "status": "LIVE",
+    "status": "FINISHED",
     "period": 3,
-    "clock": "01:21",
-    "finishedIn": null,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:fla",
       "score": 4,
       "periods": [],
-      "shots": 30
+      "shots": null
     },
     "away": {
       "id": "nhl:buf",
       "score": 3,
       "periods": [],
-      "shots": 19
+      "shots": null
     },
     "arena": "Amerant Bank Arena",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "03:00",
-        "team": "home",
-        "playerId": "nhl:p_8477935",
-        "playerName": "Sam Bennett",
-        "assists": [
-          "nhl:p_8483771",
-          "nhl:p_8475462"
-        ],
-        "score": "1-0",
-        "order": 46
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "09:56",
-        "team": "away",
-        "playerId": "nhl:p_8483468",
-        "playerName": "Jiri Kulich",
-        "assists": [
-          "nhl:p_8484145",
-          "nhl:p_8479420"
-        ],
-        "score": "1-1",
-        "order": 141
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "10:19",
-        "team": "away",
-        "playerId": "nhl:p_8482896",
-        "playerName": "Tyson Kozak",
-        "minutes": 2,
-        "reason": "high-sticking",
-        "order": 150
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "05:10",
-        "team": "away",
-        "playerId": "nhl:p_8482097",
-        "playerName": "Jack Quinn",
-        "assists": [
-          "nhl:p_8482803",
-          "nhl:p_8484305"
-        ],
-        "score": "1-2",
-        "order": 349
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "05:28",
-        "team": "home",
-        "playerId": "nhl:p_8477935",
-        "playerName": "Sam Bennett",
-        "assists": [
-          "nhl:p_8480185"
-        ],
-        "score": "2-2",
-        "order": 353
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "05:28",
-        "team": "away",
-        "minutes": 2,
-        "reason": "delaying-game-unsuccessful-challenge",
-        "order": 357
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "16:05",
-        "team": "home",
-        "playerId": "nhl:p_8477495",
-        "playerName": "Seth Jones",
-        "minutes": 2,
-        "reason": "interference",
-        "order": 485
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "18:42",
-        "team": "away",
-        "playerId": "nhl:p_8480807",
-        "playerName": "Mattias Samuelsson",
-        "minutes": 2,
-        "reason": "holding",
-        "order": 516
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "19:15",
-        "team": "home",
-        "playerId": "nhl:p_8480801",
-        "playerName": "Brady Tkachuk",
-        "minutes": 2,
-        "reason": "hooking",
-        "order": 525
-      },
-      {
-        "type": "GOAL",
-        "period": 3,
-        "time": "00:48",
-        "team": "home",
-        "playerId": "nhl:p_8477935",
-        "playerName": "Sam Bennett",
-        "assists": [
-          "nhl:p_8477495",
-          "nhl:p_8477933"
-        ],
-        "score": "3-2",
-        "order": 549
-      },
-      {
-        "type": "GOAL",
-        "period": 3,
-        "time": "08:49",
-        "team": "away",
-        "playerId": "nhl:p_8479420",
-        "playerName": "Tage Thompson",
-        "assists": [
-          "nhl:p_8480807"
-        ],
-        "score": "3-3",
-        "order": 651
-      },
-      {
-        "type": "GOAL",
-        "period": 3,
-        "time": "16:42",
-        "team": "home",
-        "playerId": "nhl:p_8483771",
-        "playerName": "Sandis Vilmanis",
-        "assists": [
-          "nhl:p_8477935",
-          "nhl:p_8477495"
-        ],
-        "score": "4-3",
-        "order": 757
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        30,
-        19
-      ],
-      "shotsOnGoal": [
-        30,
-        19
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020361/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020361/play-by-play"
-      ],
-      "fetchedAt": "2026-11-22T01:36:07.288941+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -419,7 +251,7 @@
       "url": "https://www.nhl.com/gamecenter/buf-vs-fla/2026/11/21/2026020361",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/buf-vs-fla/2026/11/21/2026020361",
-      "verifiedAt": "2026-11-22T01:36:07.289043Z"
+      "verifiedAt": "2026-11-22T08:45:16.751820Z"
     }
   },
   {
@@ -430,181 +262,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-11-21T23:00:00Z",
-    "status": "LIVE",
+    "status": "FINISHED",
     "period": 3,
-    "clock": "01:30",
-    "finishedIn": null,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:nsh",
       "score": 4,
       "periods": [],
-      "shots": 29
+      "shots": null
     },
     "away": {
       "id": "nhl:pit",
       "score": 3,
       "periods": [],
-      "shots": 24
+      "shots": null
     },
     "arena": "Bridgestone Arena",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "03:58",
-        "team": "away",
-        "playerId": "nhl:p_8479398",
-        "playerName": "Samuel Girard",
-        "assists": [
-          "nhl:p_8478438",
-          "nhl:p_8471675"
-        ],
-        "score": "0-1",
-        "order": 57
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "08:01",
-        "team": "away",
-        "playerId": "nhl:p_8478438",
-        "playerName": "Tommy Novak",
-        "minutes": 2,
-        "reason": "holding",
-        "order": 114
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "16:18",
-        "team": "away",
-        "playerId": "nhl:p_8483808",
-        "playerName": "Andrei Kuzmenko",
-        "assists": [
-          "nhl:p_8482475",
-          "nhl:p_8485414"
-        ],
-        "score": "0-2",
-        "order": 212
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "17:26",
-        "team": "home",
-        "playerId": "nhl:p_8476539",
-        "playerName": "Jonathan Marchessault",
-        "assists": [
-          "nhl:p_8476869",
-          "nhl:p_8480246"
-        ],
-        "score": "1-2",
-        "order": 228
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "17:57",
-        "team": "away",
-        "playerId": "nhl:p_8479398",
-        "playerName": "Samuel Girard",
-        "minutes": 2,
-        "reason": "interference-goalkeeper",
-        "order": 236
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "02:25",
-        "team": "home",
-        "playerId": "nhl:p_8476887",
-        "playerName": "Filip Forsberg",
-        "assists": [
-          "nhl:p_8479980",
-          "nhl:p_8481593"
-        ],
-        "score": "2-2",
-        "order": 297
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "02:51",
-        "team": "home",
-        "playerId": "nhl:p_8480246",
-        "playerName": "Nick Perbix",
-        "minutes": 2,
-        "reason": "interference",
-        "order": 303
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "06:22",
-        "team": "home",
-        "playerId": "nhl:p_8483513",
-        "playerName": "Reid Schaefer",
-        "assists": [
-          "nhl:p_8476539",
-          "nhl:p_8476869"
-        ],
-        "score": "3-2",
-        "order": 343
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "13:23",
-        "team": "away",
-        "playerId": "nhl:p_8482148",
-        "playerName": "Hendrix Lapierre",
-        "assists": [
-          "nhl:p_8483487",
-          "nhl:p_8481527"
-        ],
-        "score": "3-3",
-        "order": 419
-      },
-      {
-        "type": "GOAL",
-        "period": 3,
-        "time": "03:31",
-        "team": "home",
-        "playerId": "nhl:p_8481593",
-        "playerName": "Jayden Struble",
-        "assists": [
-          "nhl:p_8474564",
-          "nhl:p_8475158"
-        ],
-        "score": "4-3",
-        "order": 547
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        29,
-        24
-      ],
-      "shotsOnGoal": [
-        29,
-        24
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020362/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020362/play-by-play"
-      ],
-      "fetchedAt": "2026-11-22T01:36:07.363155+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -612,7 +294,7 @@
       "url": "https://www.nhl.com/gamecenter/pit-vs-nsh/2026/11/21/2026020362",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/pit-vs-nsh/2026/11/21/2026020362",
-      "verifiedAt": "2026-11-22T01:36:07.363256Z"
+      "verifiedAt": "2026-11-22T08:45:16.751934Z"
     }
   },
   {
@@ -623,202 +305,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-11-22T00:00:00Z",
-    "status": "LIVE",
-    "period": 2,
-    "clock": "05:45",
-    "finishedIn": null,
+    "status": "FINISHED",
+    "period": 3,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:bos",
-      "score": 4,
+      "score": 7,
       "periods": [],
-      "shots": 16
+      "shots": null
     },
     "away": {
       "id": "nhl:wsh",
-      "score": 4,
+      "score": 5,
       "periods": [],
-      "shots": 15
+      "shots": null
     },
     "arena": "TD Garden",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "08:03",
-        "team": "away",
-        "playerId": "nhl:p_8476880",
-        "playerName": "Tom Wilson",
-        "assists": [
-          "nhl:p_8478911",
-          "nhl:p_8476432"
-        ],
-        "score": "0-1",
-        "order": 115
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "12:37",
-        "team": "away",
-        "playerId": "nhl:p_8479345",
-        "playerName": "Jakob Chychrun",
-        "minutes": 2,
-        "reason": "holding",
-        "order": 173
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "12:42",
-        "team": "home",
-        "playerId": "nhl:p_8477496",
-        "playerName": "Elias Lindholm",
-        "assists": [
-          "nhl:p_8477956",
-          "nhl:p_8479325"
-        ],
-        "score": "1-1",
-        "order": 178
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "14:41",
-        "team": "away",
-        "playerId": "nhl:p_8479345",
-        "playerName": "Jakob Chychrun",
-        "minutes": 2,
-        "reason": "delaying-game-puck-over-glass",
-        "order": 206
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "15:58",
-        "team": "away",
-        "playerId": "nhl:p_8477949",
-        "playerName": "Alex Tuch",
-        "score": "1-2",
-        "order": 219
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "02:01",
-        "team": "home",
-        "playerId": "nhl:p_8477956",
-        "playerName": "David Pastrnak",
-        "assists": [
-          "nhl:p_8479987",
-          "nhl:p_8477496"
-        ],
-        "score": "2-2",
-        "order": 304
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "06:23",
-        "team": "home",
-        "playerId": "nhl:p_8479661",
-        "playerName": "Tanner Jeannot",
-        "assists": [
-          "nhl:p_8479325",
-          "nhl:p_8476374"
-        ],
-        "score": "3-2",
-        "order": 360
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "08:54",
-        "team": "home",
-        "playerId": "nhl:p_8477496",
-        "playerName": "Elias Lindholm",
-        "assists": [
-          "nhl:p_8479987",
-          "nhl:p_8480280"
-        ],
-        "score": "4-2",
-        "order": 385
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "10:29",
-        "team": "home",
-        "playerId": "nhl:p_8479325",
-        "playerName": "Charlie McAvoy",
-        "minutes": 2,
-        "reason": "holding",
-        "order": 408
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "10:50",
-        "team": "away",
-        "playerId": "nhl:p_8479400",
-        "playerName": "Pierre-Luc Dubois",
-        "assists": [
-          "nhl:p_8484999",
-          "nhl:p_8484186"
-        ],
-        "score": "4-3",
-        "order": 415
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "11:48",
-        "team": "away",
-        "playerId": "nhl:p_8478440",
-        "playerName": "Dylan Strome",
-        "minutes": 2,
-        "reason": "tripping",
-        "order": 425
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "14:08",
-        "team": "away",
-        "playerId": "nhl:p_8478440",
-        "playerName": "Dylan Strome",
-        "assists": [
-          "nhl:p_8479345",
-          "nhl:p_8481030"
-        ],
-        "score": "4-4",
-        "order": 453
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        16,
-        15
-      ],
-      "shotsOnGoal": [
-        16,
-        15
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020363/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020363/play-by-play"
-      ],
-      "fetchedAt": "2026-11-22T01:36:07.428587+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -826,7 +337,7 @@
       "url": "https://www.nhl.com/gamecenter/wsh-vs-bos/2026/11/21/2026020363",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/wsh-vs-bos/2026/11/21/2026020363",
-      "verifiedAt": "2026-11-22T01:36:07.428672Z"
+      "verifiedAt": "2026-11-22T08:45:16.752045Z"
     }
   },
   {
@@ -837,150 +348,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-11-22T00:00:00Z",
-    "status": "LIVE",
-    "period": 2,
-    "clock": "08:33",
-    "finishedIn": null,
+    "status": "FINISHED",
+    "period": 3,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:tor",
       "score": 3,
       "periods": [],
-      "shots": 18
+      "shots": null
     },
     "away": {
       "id": "nhl:cbj",
-      "score": 1,
+      "score": 4,
       "periods": [],
-      "shots": 23
+      "shots": null
     },
     "arena": "Scotiabank Arena",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "01:16",
-        "team": "away",
-        "playerId": "nhl:p_8475745",
-        "playerName": "Charlie Coyle",
-        "minutes": 2,
-        "reason": "holding",
-        "order": 24
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "06:13",
-        "team": "home",
-        "playerId": "nhl:p_8479772",
-        "playerName": "Zack MacEwen",
-        "minutes": 2,
-        "reason": "slashing",
-        "order": 92
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "11:49",
-        "team": "home",
-        "playerId": "nhl:p_8482525",
-        "playerName": "Ryan Tverberg",
-        "minutes": 2,
-        "reason": "hooking",
-        "order": 155
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "17:26",
-        "team": "away",
-        "playerId": "nhl:p_8478460",
-        "playerName": "Zach Werenski",
-        "minutes": 2,
-        "reason": "tripping",
-        "order": 232
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "18:38",
-        "team": "home",
-        "playerId": "nhl:p_8479318",
-        "playerName": "Auston Matthews",
-        "assists": [
-          "nhl:p_8475166",
-          "nhl:p_8478178"
-        ],
-        "score": "1-0",
-        "order": 242
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "19:43",
-        "team": "away",
-        "playerId": "nhl:p_8476923",
-        "playerName": "Damon Severson",
-        "assists": [
-          "nhl:p_8482660",
-          "nhl:p_8483432"
-        ],
-        "score": "1-1",
-        "order": 257
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "19:55",
-        "team": "home",
-        "playerId": "nhl:p_8476931",
-        "playerName": "Jake McCabe",
-        "assists": [
-          "nhl:p_8478458",
-          "nhl:p_8479442"
-        ],
-        "score": "2-1",
-        "order": 261
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "05:10",
-        "team": "home",
-        "playerId": "nhl:p_8476927",
-        "playerName": "Teddy Blueger",
-        "assists": [
-          "nhl:p_8477541",
-          "nhl:p_8477939"
-        ],
-        "score": "3-1",
-        "order": 333
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        18,
-        23
-      ],
-      "shotsOnGoal": [
-        18,
-        23
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020364/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020364/play-by-play"
-      ],
-      "fetchedAt": "2026-11-22T01:36:07.492488+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -988,7 +380,7 @@
       "url": "https://www.nhl.com/gamecenter/cbj-vs-tor/2026/11/21/2026020364",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/cbj-vs-tor/2026/11/21/2026020364",
-      "verifiedAt": "2026-11-22T01:36:07.492578Z"
+      "verifiedAt": "2026-11-22T08:45:16.752138Z"
     }
   },
   {
@@ -999,117 +391,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-11-22T00:00:00Z",
-    "status": "LIVE",
-    "period": 2,
-    "clock": "05:08",
-    "finishedIn": null,
+    "status": "FINISHED",
+    "period": 3,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:mtl",
-      "score": 1,
+      "score": 3,
       "periods": [],
-      "shots": 17
+      "shots": null
     },
     "away": {
       "id": "nhl:phi",
-      "score": 3,
+      "score": 4,
       "periods": [],
-      "shots": 9
+      "shots": null
     },
     "arena": "Centre Bell",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "10:09",
-        "team": "away",
-        "playerId": "nhl:p_8477989",
-        "playerName": "Christian Dvorak",
-        "assists": [
-          "nhl:p_8481546",
-          "nhl:p_8478439"
-        ],
-        "score": "0-1",
-        "order": 136
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "10:25",
-        "team": "home",
-        "playerId": "nhl:p_8482775",
-        "playerName": "Oliver Kapanen",
-        "assists": [
-          "nhl:p_8482964",
-          "nhl:p_8482132"
-        ],
-        "score": "1-1",
-        "order": 141
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "03:18",
-        "team": "away",
-        "playerId": "nhl:p_8484142",
-        "playerName": "Denver Barkey",
-        "assists": [
-          "nhl:p_8480015",
-          "nhl:p_8485406"
-        ],
-        "score": "1-2",
-        "order": 310
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "07:32",
-        "team": "away",
-        "playerId": "nhl:p_8477499",
-        "playerName": "Rasmus Ristolainen",
-        "assists": [
-          "nhl:p_8484142",
-          "nhl:p_8480015"
-        ],
-        "score": "1-3",
-        "order": 356
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "12:04",
-        "team": "home",
-        "playerId": "nhl:p_8481618",
-        "playerName": "Alex Newhook",
-        "minutes": 2,
-        "reason": "slashing",
-        "order": 416
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        17,
-        9
-      ],
-      "shotsOnGoal": [
-        17,
-        9
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020365/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020365/play-by-play"
-      ],
-      "fetchedAt": "2026-11-22T01:36:07.564986+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -1117,7 +423,7 @@
       "url": "https://www.nhl.com/gamecenter/phi-vs-mtl/2026/11/21/2026020365",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/phi-vs-mtl/2026/11/21/2026020365",
-      "verifiedAt": "2026-11-22T01:36:07.565073Z"
+      "verifiedAt": "2026-11-22T08:45:16.752254Z"
     }
   },
   {
@@ -1128,115 +434,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-11-22T00:00:00Z",
-    "status": "LIVE",
-    "period": 2,
-    "clock": "04:57",
-    "finishedIn": null,
+    "status": "FINISHED",
+    "period": 3,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:ott",
-      "score": 0,
+      "score": 4,
       "periods": [],
-      "shots": 16
+      "shots": null
     },
     "away": {
       "id": "nhl:lak",
-      "score": 1,
+      "score": 2,
       "periods": [],
-      "shots": 11
+      "shots": null
     },
     "arena": "Canadian Tire Centre",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "01:26",
-        "team": "away",
-        "playerId": "nhl:p_8477960",
-        "playerName": "Adrian Kempe",
-        "minutes": 2,
-        "reason": "high-sticking",
-        "order": 28
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "04:18",
-        "team": "away",
-        "playerId": "nhl:p_8475692",
-        "playerName": "Mats Zuccarello",
-        "score": "0-1",
-        "order": 67
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "08:16",
-        "team": "away",
-        "playerId": "nhl:p_8477942",
-        "playerName": "Kevin Fiala",
-        "minutes": 2,
-        "reason": "interference",
-        "order": 125
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "13:25",
-        "team": "home",
-        "playerId": "nhl:p_8478469",
-        "playerName": "Thomas Chabot",
-        "minutes": 2,
-        "reason": "closing-hand-on-puck",
-        "order": 196
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "16:20",
-        "team": "home",
-        "playerId": "nhl:p_8482116",
-        "playerName": "Tim Stützle",
-        "minutes": 2,
-        "reason": "interference",
-        "order": 226
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "07:00",
-        "team": "home",
-        "playerId": "nhl:p_8482245",
-        "playerName": "Artem Zub",
-        "minutes": 2,
-        "reason": "interference",
-        "order": 372
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        16,
-        11
-      ],
-      "shotsOnGoal": [
-        16,
-        11
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020366/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020366/play-by-play"
-      ],
-      "fetchedAt": "2026-11-22T01:36:07.633643+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -1244,7 +466,7 @@
       "url": "https://www.nhl.com/gamecenter/lak-vs-ott/2026/11/21/2026020366",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/lak-vs-ott/2026/11/21/2026020366",
-      "verifiedAt": "2026-11-22T01:36:07.633719Z"
+      "verifiedAt": "2026-11-22T08:45:16.752360Z"
     }
   },
   {
@@ -1255,122 +477,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-11-22T00:00:00Z",
-    "status": "INTERMISSION",
-    "period": 2,
-    "clock": "15:37",
-    "finishedIn": null,
+    "status": "FINISHED",
+    "period": 3,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:det",
-      "score": 1,
+      "score": 2,
       "periods": [],
-      "shots": 10
+      "shots": null
     },
     "away": {
       "id": "nhl:nyi",
-      "score": 1,
+      "score": 3,
       "periods": [],
-      "shots": 12
+      "shots": null
     },
     "arena": "Little Caesars Arena",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "08:39",
-        "team": "home",
-        "playerId": "nhl:p_8484471",
-        "playerName": "Emmitt Finnie",
-        "assists": [
-          "nhl:p_8483464",
-          "nhl:p_8481607"
-        ],
-        "score": "1-0",
-        "order": 144
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "06:22",
-        "team": "home",
-        "playerId": "nhl:p_8475279",
-        "playerName": "Ben Chiarot",
-        "minutes": 2,
-        "reason": "roughing",
-        "order": 391
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "09:10",
-        "team": "away",
-        "playerId": "nhl:p_8476292",
-        "playerName": "Ondrej Palat",
-        "assists": [
-          "nhl:p_8477018",
-          "nhl:p_8479378"
-        ],
-        "score": "1-1",
-        "order": 424
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "19:47",
-        "team": "away",
-        "playerId": "nhl:p_8475170",
-        "playerName": "Brayden Schenn",
-        "minutes": 2,
-        "reason": "roughing",
-        "order": 564
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "19:47",
-        "team": "home",
-        "playerId": "nhl:p_8475279",
-        "playerName": "Ben Chiarot",
-        "minutes": 5,
-        "reason": "fighting",
-        "order": 566
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "19:47",
-        "team": "away",
-        "playerId": "nhl:p_8475170",
-        "playerName": "Brayden Schenn",
-        "minutes": 5,
-        "reason": "fighting",
-        "order": 568
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        10,
-        12
-      ],
-      "shotsOnGoal": [
-        10,
-        12
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020367/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020367/play-by-play"
-      ],
-      "fetchedAt": "2026-11-22T01:36:07.702122+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -1378,7 +509,7 @@
       "url": "https://www.nhl.com/gamecenter/nyi-vs-det/2026/11/21/2026020367",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/nyi-vs-det/2026/11/21/2026020367",
-      "verifiedAt": "2026-11-22T01:36:07.702205Z"
+      "verifiedAt": "2026-11-22T08:45:16.752456Z"
     }
   },
   {
@@ -1389,246 +520,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-11-22T00:00:00Z",
-    "status": "LIVE",
-    "period": 2,
-    "clock": "04:31",
-    "finishedIn": null,
+    "status": "FINISHED",
+    "period": 3,
+    "clock": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:stl",
-      "score": 7,
+      "score": 9,
       "periods": [],
-      "shots": 14
+      "shots": null
     },
     "away": {
       "id": "nhl:njd",
-      "score": 4,
+      "score": 6,
       "periods": [],
-      "shots": 21
+      "shots": null
     },
     "arena": "Enterprise Center",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "01:51",
-        "team": "home",
-        "playerId": "nhl:p_8478443",
-        "playerName": "Brandon Carlo",
-        "assists": [
-          "nhl:p_8482089",
-          "nhl:p_8480023"
-        ],
-        "score": "1-0",
-        "order": 36
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "01:51",
-        "team": "away",
-        "minutes": 2,
-        "reason": "delaying-game-unsuccessful-challenge",
-        "order": 39
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "02:13",
-        "team": "home",
-        "playerId": "nhl:p_8483516",
-        "playerName": "Jimmy Snuggerud",
-        "assists": [
-          "nhl:p_8481598",
-          "nhl:p_8482089"
-        ],
-        "score": "2-0",
-        "order": 44
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "02:40",
-        "team": "home",
-        "playerId": "nhl:p_8476892",
-        "playerName": "Colton Parayko",
-        "minutes": 2,
-        "reason": "high-sticking",
-        "order": 51
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "05:53",
-        "team": "home",
-        "playerId": "nhl:p_8480023",
-        "playerName": "Robert Thomas",
-        "assists": [
-          "nhl:p_8482089",
-          "nhl:p_8481598"
-        ],
-        "score": "3-0",
-        "order": 92
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "08:15",
-        "team": "away",
-        "playerId": "nhl:p_8480003",
-        "playerName": "Jesper Boqvist",
-        "assists": [
-          "nhl:p_8484177",
-          "nhl:p_8477488"
-        ],
-        "score": "3-1",
-        "order": 121
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "09:03",
-        "team": "home",
-        "playerId": "nhl:p_8481598",
-        "playerName": "Philip Broberg",
-        "assists": [
-          "nhl:p_8482077",
-          "nhl:p_8482733"
-        ],
-        "score": "4-1",
-        "order": 130
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "17:06",
-        "team": "away",
-        "playerId": "nhl:p_8478414",
-        "playerName": "Timo Meier",
-        "assists": [
-          "nhl:p_8477488",
-          "nhl:p_8481559"
-        ],
-        "score": "4-2",
-        "order": 230
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "17:10",
-        "team": "home",
-        "playerId": "nhl:p_8484164",
-        "playerName": "Dalibor Dvorsky",
-        "minutes": 2,
-        "reason": "interference",
-        "order": 234
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "18:33",
-        "team": "away",
-        "playerId": "nhl:p_8482684",
-        "playerName": "Luke Hughes",
-        "assists": [
-          "nhl:p_8481559",
-          "nhl:p_8480002"
-        ],
-        "score": "4-3",
-        "order": 246
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "03:55",
-        "team": "home",
-        "playerId": "nhl:p_8477402",
-        "playerName": "Pavel Buchnevich",
-        "assists": [
-          "nhl:p_8478443",
-          "nhl:p_8481013"
-        ],
-        "score": "5-3",
-        "order": 332
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "04:42",
-        "team": "away",
-        "playerId": "nhl:p_8477015",
-        "playerName": "Connor Brown",
-        "assists": [
-          "nhl:p_8478542",
-          "nhl:p_8483695"
-        ],
-        "score": "5-4",
-        "order": 348
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "07:40",
-        "team": "home",
-        "playerId": "nhl:p_8482733",
-        "playerName": "Logan Mailloux",
-        "assists": [
-          "nhl:p_8482089",
-          "nhl:p_8482111"
-        ],
-        "score": "6-4",
-        "order": 392
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "08:16",
-        "team": "away",
-        "playerId": "nhl:p_8475455",
-        "playerName": "Brenden Dillon",
-        "minutes": 2,
-        "reason": "hooking",
-        "order": 403
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "08:59",
-        "team": "home",
-        "playerId": "nhl:p_8482745",
-        "playerName": "Mason McTavish",
-        "assists": [
-          "nhl:p_8482089",
-          "nhl:p_8480023"
-        ],
-        "score": "7-4",
-        "order": 410
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        14,
-        21
-      ],
-      "shotsOnGoal": [
-        14,
-        21
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020368/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020368/play-by-play"
-      ],
-      "fetchedAt": "2026-11-22T01:36:07.769662+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -1636,7 +552,7 @@
       "url": "https://www.nhl.com/gamecenter/njd-vs-stl/2026/11/21/2026020368",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/njd-vs-stl/2026/11/21/2026020368",
-      "verifiedAt": "2026-11-22T01:36:07.769790Z"
+      "verifiedAt": "2026-11-22T08:45:16.752554Z"
     }
   },
   {
@@ -1647,162 +563,31 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-11-22T00:00:00Z",
-    "status": "LIVE",
-    "period": 2,
-    "clock": "09:31",
-    "finishedIn": null,
+    "status": "FINISHED",
+    "period": 5,
+    "clock": null,
+    "finishedIn": "SO",
     "home": {
       "id": "nhl:wpg",
-      "score": 2,
+      "score": 4,
       "periods": [],
-      "shots": 14
+      "shots": null
     },
     "away": {
       "id": "nhl:vgk",
-      "score": 3,
+      "score": 5,
       "periods": [],
-      "shots": 20
+      "shots": null
     },
     "arena": "Canada Life Centre",
     "officials": {
       "referees": [],
       "linesmen": []
     },
-    "events": [
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "00:29",
-        "team": "home",
-        "playerId": "nhl:p_8476392",
-        "playerName": "Adam Lowry",
-        "assists": [
-          "nhl:p_8483510",
-          "nhl:p_8480289"
-        ],
-        "score": "1-0",
-        "order": 13
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "04:51",
-        "team": "home",
-        "playerId": "nhl:p_8478398",
-        "playerName": "Kyle Connor",
-        "minutes": 2,
-        "reason": "tripping",
-        "order": 69
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "08:18",
-        "team": "away",
-        "playerId": "nhl:p_8479353",
-        "playerName": "Brett Howden",
-        "assists": [
-          "nhl:p_8478403"
-        ],
-        "score": "1-1",
-        "order": 116
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "09:45",
-        "team": "away",
-        "playerId": "nhl:p_8478483",
-        "playerName": "Mitch Marner",
-        "assists": [
-          "nhl:p_8484803"
-        ],
-        "score": "1-2",
-        "order": 127
-      },
-      {
-        "type": "PENALTY",
-        "period": 1,
-        "time": "12:55",
-        "team": "away",
-        "playerId": "nhl:p_8478468",
-        "playerName": "Jeremy Lauzon",
-        "minutes": 2,
-        "reason": "cross-checking",
-        "order": 172
-      },
-      {
-        "type": "GOAL",
-        "period": 1,
-        "time": "18:33",
-        "team": "home",
-        "playerId": "nhl:p_8486025",
-        "playerName": "Viggo Björck",
-        "assists": [
-          "nhl:p_8480289",
-          "nhl:p_8480049"
-        ],
-        "score": "2-2",
-        "order": 245
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "01:24",
-        "team": "away",
-        "playerId": "nhl:p_8478483",
-        "playerName": "Mitch Marner",
-        "minutes": 2,
-        "reason": "holding",
-        "order": 281
-      },
-      {
-        "type": "PENALTY",
-        "period": 2,
-        "time": "09:37",
-        "team": "home",
-        "playerId": "nhl:p_8480145",
-        "playerName": "Neal Pionk",
-        "minutes": 2,
-        "reason": "hooking",
-        "order": 374
-      },
-      {
-        "type": "GOAL",
-        "period": 2,
-        "time": "09:51",
-        "team": "away",
-        "playerId": "nhl:p_8476881",
-        "playerName": "Tomas Hertl",
-        "assists": [
-          "nhl:p_8475913",
-          "nhl:p_8478403"
-        ],
-        "score": "2-3",
-        "order": 379
-      }
-    ],
+    "events": [],
     "lineups": null,
-    "stats": {
-      "shots": [
-        14,
-        20
-      ],
-      "shotsOnGoal": [
-        14,
-        20
-      ]
-    },
+    "stats": null,
     "h2h": [],
-    "source": {
-      "provider": "NHL Web API",
-      "official": true,
-      "endpoints": [
-        "https://api-web.nhle.com/v1/gamecenter/2026020369/boxscore",
-        "https://api-web.nhle.com/v1/gamecenter/2026020369/play-by-play"
-      ],
-      "fetchedAt": "2026-11-22T01:36:07.833228+00:00"
-    },
     "broadcast": {
       "type": "external",
       "verified": true,
@@ -1810,7 +595,7 @@
       "url": "https://www.nhl.com/gamecenter/vgk-vs-wpg/2026/11/21/2026020369",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/vgk-vs-wpg/2026/11/21/2026020369",
-      "verifiedAt": "2026-11-22T01:36:07.833316Z"
+      "verifiedAt": "2026-11-22T08:45:16.752645Z"
     }
   },
   {
@@ -1821,19 +606,19 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-11-22T02:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
+    "status": "FINISHED",
+    "period": 3,
     "clock": null,
-    "finishedIn": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:uta",
-      "score": null,
+      "score": 3,
       "periods": [],
       "shots": null
     },
     "away": {
       "id": "nhl:ana",
-      "score": null,
+      "score": 2,
       "periods": [],
       "shots": null
     },
@@ -1853,7 +638,7 @@
       "url": "https://www.nhl.com/gamecenter/ana-vs-uta/2026/11/21/2026020370",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/ana-vs-uta/2026/11/21/2026020370",
-      "verifiedAt": "2026-11-22T01:36:07.833654Z"
+      "verifiedAt": "2026-11-22T08:45:16.752734Z"
     }
   },
   {
@@ -1864,19 +649,19 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-11-22T03:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
+    "status": "FINISHED",
+    "period": 5,
     "clock": null,
-    "finishedIn": null,
+    "finishedIn": "SO",
     "home": {
       "id": "nhl:van",
-      "score": null,
+      "score": 4,
       "periods": [],
       "shots": null
     },
     "away": {
       "id": "nhl:min",
-      "score": null,
+      "score": 3,
       "periods": [],
       "shots": null
     },
@@ -1896,7 +681,7 @@
       "url": "https://www.nhl.com/gamecenter/min-vs-van/2026/11/21/2026020371",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/min-vs-van/2026/11/21/2026020371",
-      "verifiedAt": "2026-11-22T01:36:07.833795Z"
+      "verifiedAt": "2026-11-22T08:45:16.752833Z"
     }
   },
   {
@@ -1907,19 +692,19 @@
     "round": null,
     "seriesGame": null,
     "utcDate": "2026-11-22T03:00:00Z",
-    "status": "SCHEDULED",
-    "period": null,
+    "status": "FINISHED",
+    "period": 3,
     "clock": null,
-    "finishedIn": null,
+    "finishedIn": "REG",
     "home": {
       "id": "nhl:sjs",
-      "score": null,
+      "score": 4,
       "periods": [],
       "shots": null
     },
     "away": {
       "id": "nhl:sea",
-      "score": null,
+      "score": 3,
       "periods": [],
       "shots": null
     },
@@ -1939,7 +724,7 @@
       "url": "https://www.nhl.com/gamecenter/sea-vs-sjs/2026/11/21/2026020372",
       "sourceName": "NHL.com Gamecenter",
       "sourceUrl": "https://www.nhl.com/gamecenter/sea-vs-sjs/2026/11/21/2026020372",
-      "verifiedAt": "2026-11-22T01:36:07.833957Z"
+      "verifiedAt": "2026-11-22T08:45:16.752927Z"
     }
   }
 ]
