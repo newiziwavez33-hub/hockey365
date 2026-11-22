@@ -1,0 +1,43 @@
+{
+  "id": "nhl:2026020423",
+  "compId": "NHL",
+  "season": "2026/27",
+  "stage": "regular",
+  "round": null,
+  "seriesGame": null,
+  "utcDate": "2026-11-29T00:30:00Z",
+  "status": "SCHEDULED",
+  "period": null,
+  "clock": null,
+  "finishedIn": null,
+  "home": {
+    "id": "nhl:phi",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "away": {
+    "id": "nhl:nyi",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "arena": "Xfinity Mobile Arena",
+  "officials": {
+    "referees": [],
+    "linesmen": []
+  },
+  "events": [],
+  "lineups": null,
+  "stats": null,
+  "h2h": [],
+  "broadcast": {
+    "type": "external",
+    "verified": true,
+    "provider": "NHL.com",
+    "url": "https://www.nhl.com/gamecenter/nyi-vs-phi/2026/11/28/2026020423",
+    "sourceName": "NHL.com Gamecenter",
+    "sourceUrl": "https://www.nhl.com/gamecenter/nyi-vs-phi/2026/11/28/2026020423",
+    "verifiedAt": "2026-11-22T22:00:39.703825Z"
+  }
+}
