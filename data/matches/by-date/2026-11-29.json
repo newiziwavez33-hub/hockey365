@@ -51,7 +51,7 @@
       "stageId": 407,
       "eventId": 3001423,
       "matchId": "902316",
-      "fetchedAt": "2026-11-23T10:58:44.654369Z"
+      "fetchedAt": "2026-11-23T22:28:05.590113Z"
     }
   },
   {
@@ -77,7 +77,7 @@
     "away": {
       "id": "khl:barys",
       "name": "Барыс",
-      "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/46/original/barys_2022_head_only__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-1-7.webcaster.pro/fc/sdj/team_pics/46/original/barys_2022_head_only__200x200.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -106,7 +106,7 @@
       "stageId": 407,
       "eventId": 3001427,
       "matchId": "902317",
-      "fetchedAt": "2026-11-23T10:58:44.654369Z"
+      "fetchedAt": "2026-11-23T22:28:05.590113Z"
     }
   },
   {
@@ -124,7 +124,7 @@
     "home": {
       "id": "khl:severstal",
       "name": "Северсталь",
-      "logo": "https://thumbs.webcaster.pro/rec-1-4.webcaster.pro/fc/sdn/team_pics/42/original/severstal_2021__200x200.png",
+      "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/42/original/severstal_2021__200x200.png",
       "score": null,
       "periods": [],
       "shots": null
@@ -161,7 +161,93 @@
       "stageId": 407,
       "eventId": 3001431,
       "matchId": "902318",
-      "fetchedAt": "2026-11-23T10:58:44.654369Z"
+      "fetchedAt": "2026-11-23T22:28:05.590113Z"
+    }
+  },
+  {
+    "id": "nhl:2026020428",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-29T19:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:chi",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:min",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "United Center",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/min-vs-chi/2026/11/29/2026020428",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/min-vs-chi/2026/11/29/2026020428",
+      "verifiedAt": "2026-11-23T22:28:03.168466Z"
+    }
+  },
+  {
+    "id": "nhl:2026020429",
+    "compId": "NHL",
+    "season": "2026/27",
+    "stage": "regular",
+    "round": null,
+    "seriesGame": null,
+    "utcDate": "2026-11-29T22:00:00Z",
+    "status": "SCHEDULED",
+    "period": null,
+    "clock": null,
+    "finishedIn": null,
+    "home": {
+      "id": "nhl:bos",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "away": {
+      "id": "nhl:van",
+      "score": null,
+      "periods": [],
+      "shots": null
+    },
+    "arena": "TD Garden",
+    "officials": {
+      "referees": [],
+      "linesmen": []
+    },
+    "events": [],
+    "lineups": null,
+    "stats": null,
+    "h2h": [],
+    "broadcast": {
+      "type": "external",
+      "verified": true,
+      "provider": "NHL.com",
+      "url": "https://www.nhl.com/gamecenter/van-vs-bos/2026/11/29/2026020429",
+      "sourceName": "NHL.com Gamecenter",
+      "sourceUrl": "https://www.nhl.com/gamecenter/van-vs-bos/2026/11/29/2026020429",
+      "verifiedAt": "2026-11-23T22:28:03.168617Z"
     }
   }
 ]

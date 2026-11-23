@@ -147,19 +147,19 @@
         "playerId": "nhl:p_8482661",
         "playerName": "Jesper Wallstedt",
         "teamId": "nhl:min",
-        "value": 0.923
-      },
-      {
-        "playerId": "nhl:p_8480022",
-        "playerName": "Michael DiPietro",
-        "teamId": "nhl:bos",
-        "value": 0.923
+        "value": 0.924
       },
       {
         "playerId": "nhl:p_8480981",
         "playerName": "Joel Hofer",
         "teamId": "nhl:stl",
         "value": 0.919
+      },
+      {
+        "playerId": "nhl:p_8478009",
+        "playerName": "Ilya Sorokin",
+        "teamId": "nhl:nyi",
+        "value": 0.918
       }
     ]
   }
