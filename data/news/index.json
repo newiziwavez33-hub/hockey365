@@ -1,6 +1,171 @@
 {
   "news": [
     {
+      "id": "news-6710450",
+      "slug": "ne-vyrabotali-komandnuyu-identichnost-trener-vashingtona-posle-pyatogo-porazheniya-podryad",
+      "title": "«Не выработали командную идентичность». Тренер «Вашингтона» после пятого поражения подряд",
+      "summary": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери рассказал, что нужно улучшить команде после поражения в матче с «Бостон Брюинз» (5:7).",
+      "content": "Главный тренер «Вашингтон Кэпиталз» Спенсер Карбери рассказал, что нужно улучшить команде после поражения в матче с «Бостон Брюинз» (5:7).",
+      "image": "https://img.championat.com/news/big/c/u/ne-vyrabotali-komandnuyu-identichnost-trener-vashingtona-posle-pyatogo-porazheniya-podryad_1795398947896550767.jpg",
+      "publishedAt": "2026-11-23T01:55:48Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6710450-ne-vyrabotali-komandnuyu-identichnost-trener-vashingtona-posle-pyatogo-porazheniya-podryad.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Бостон Брюинз",
+        "Спенсер Карбери"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6710422",
+      "slug": "tampa-bej-lajtning-baffalo-sejbrz-rezultat-matcha-23-noyabrya-2026-schet-2-6-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "Гол Кучерова не спас «Тампу» от крупного поражения в матче с «Баффало»",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Тампа-Бэй Лайтнинг» принимал «Баффало Сэйбрз».",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги, в котором «Тампа-Бэй Лайтнинг» принимал «Баффало Сэйбрз».",
+      "image": "https://img.championat.com/news/big/m/u/gol-kucherova-ne-spas-tampu-ot-krupnogo-porazheniya-v-matche-s-baffalo_17953943671594581913.jpg",
+      "publishedAt": "2026-11-23T00:39:29Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6710422-tampa-bej-lajtning-baffalo-sejbrz-rezultat-matcha-23-noyabrya-2026-schet-2-6-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Никита Кучеров",
+        "Баффало Сэйбрз"
+      ],
+      "relatedTeamIds": [
+        "nhl:buf",
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
+      "id": "news-6710418",
+      "slug": "video-yubilejnogo-10-gola-nikity-kucherova-v-nhl-2026-2027",
+      "title": "Видео 10-го гола Никиты Кучерова в НХЛ — 2026/2027",
+      "summary": "Нападающий «Тампа-Бэй Лайтнинг» Никита Кучеров отметился заброшенной шайбой в матче регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027 с «Баффало Сэйбрз», который проходит в эти минуты на стадионе «Бе...",
+      "content": "Нападающий «Тампа-Бэй Лайтнинг» Никита Кучеров отметился заброшенной шайбой в матче регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027 с «Баффало Сэйбрз», который проходит в эти минуты на стадионе «Бенчмарк Интернейшнл-Арена» в американской Тампе.",
+      "image": "https://img.championat.com/news/big/f/p/video-10-go-gola-nikity-kucherova-v-nhl-2026-2027_17953944651391448416.jpg",
+      "publishedAt": "2026-11-23T00:35:38Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6710418-video-yubilejnogo-10-gola-nikity-kucherova-v-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Тампа-Бэй Лайтнинг",
+        "Никита Кучеров",
+        "Баффало Сэйбрз",
+        "Джон Карлсон",
+        "Джейк Гюнцель"
+      ],
+      "relatedTeamIds": [
+        "nhl:buf",
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
+      "id": "news-6710414",
+      "slug": "kucherov-6-j-rossiyanin-dostigshij-10-golov-v-tekuschem-sezone-nhl-v-liderah-kaprizov",
+      "title": "Кучеров — 6-й россиянин, достигший 10 голов в текущем сезоне НХЛ. В лидерах — Капризов",
+      "summary": "Нападающий «Тампа-Бэй Лайтнинг» Никита Кучеров отметился голом в матче регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027 с «Баффало Сэйбрз», который проходит в эти минуты и улучшил своё положение в г...",
+      "content": "Нападающий «Тампа-Бэй Лайтнинг» Никита Кучеров отметился голом в матче регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027 с «Баффало Сэйбрз», который проходит в эти минуты и улучшил своё положение в гонке снайперов из России в НХЛ.",
+      "image": "https://img.championat.com/news/big/n/k/kucherov-6-j-rossiyanin-dostigshij-10-golov-v-tekuschem-sezone-nhl-v-liderah-kaprizov_1795393871696808397.jpg",
+      "publishedAt": "2026-11-23T00:31:12Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6710414-kucherov-6-j-rossiyanin-dostigshij-10-golov-v-tekuschem-sezone-nhl-v-liderah-kaprizov.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Тампа-Бэй Лайтнинг",
+        "Статистика",
+        "Эдмонтон Ойлерз",
+        "Каролина Харрикейнз",
+        "Миннесота Уайлд",
+        "Филадельфия Флайерз",
+        "Чикаго Блэкхоукс",
+        "Никита Кучеров",
+        "Баффало Сэйбрз",
+        "Кирилл Капризов",
+        "Андрей Свечников",
+        "Матвей Мичков",
+        "Василий Подколзин",
+        "Роман Канцеров"
+      ],
+      "relatedTeamIds": [
+        "nhl:buf",
+        "nhl:car",
+        "nhl:chi",
+        "nhl:edm",
+        "nhl:min",
+        "nhl:phi",
+        "nhl:tbl"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8476453"
+      ]
+    },
+    {
+      "id": "news-6710396",
+      "slug": "nikishin-pomog-karoline-povtorit-dostizhenie-zaschitnikov-kluba-ne-pokoryavsheesya-im-17-let",
+      "title": "Никишин помог «Каролине» повторить достижение защитников клуба, не покорявшееся им 17 лет",
+      "summary": "Александр Никишин и Шон Уокер забросили шайбы с интервалом в 41 секунду.",
+      "content": "Александр Никишин и Шон Уокер забросили шайбы с интервалом в 41 секунду.",
+      "image": "https://img.championat.com/news/big/y/z/nikishin-pomog-karoline-povtorit-dostizhenie-zaschitnikov-kluba-ne-pokoryavsheesya-im-17-l_179539168929962887.jpg",
+      "publishedAt": "2026-11-22T23:54:50Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6710396-nikishin-pomog-karoline-povtorit-dostizhenie-zaschitnikov-kluba-ne-pokoryavsheesya-im-17-let.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Нью-Йорк Рейнджерс",
+        "Каролина Харрикейнз",
+        "Александр Никишин"
+      ],
+      "relatedTeamIds": [
+        "nhl:car",
+        "nhl:nyr"
+      ],
+      "relatedPlayerIds": [
+        "khl:p_nikishin"
+      ]
+    },
+    {
+      "id": "news-6710378",
+      "slug": "forvard-vashingtona-vyskazalsya-o-problemah-v-igre-komandy-posle-pyatogo-porazheniya-kryadu",
+      "title": "Форвард «Вашингтона» высказался о проблемах в игре команды после пятого поражения кряду",
+      "summary": "Нападающий «Вашингтон Кэпиталз» Том Уилсон высказался об игре команды после поражения в матче с «Бостон Брюинз» (5:7).",
+      "content": "Нападающий «Вашингтон Кэпиталз» Том Уилсон высказался об игре команды после поражения в матче с «Бостон Брюинз» (5:7).",
+      "image": "https://img.championat.com/news/big/c/i/forvard-vashingtona-vyskazalsya-o-problemah-v-igre-komandy-posle-pyatogo-porazheniya-kryad_17953883971991818651.jpg",
+      "publishedAt": "2026-11-22T22:59:59Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6710378-forvard-vashingtona-vyskazalsya-o-problemah-v-igre-komandy-posle-pyatogo-porazheniya-kryadu.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Бостон Брюинз",
+        "Том Уилсон"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6710174",
       "slug": "rezultaty-matchej-mhl-na-22-noyabrya-2026-goda",
       "title": "Результаты матчей МХЛ на 22 ноября 2026 года",
@@ -588,147 +753,6 @@
       "relatedTeamIds": [
         "khl:ak-bars",
         "khl:avangard"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6709864",
-      "slug": "okulov-o-pyati-pobedah-avangarda-podryad-nachali-delat-to-chto-prosit-trenerskij-shtab",
-      "title": "Окулов — о пяти победах «Авангарда» подряд: начали делать то, что просит тренерский штаб",
-      "summary": "Нападающий «Авангарда» Константин Окулов прокомментировал победу в матче с «Ак Барсом» (3:1), которая стала для омского клуба пятой подряд.",
-      "content": "Нападающий «Авангарда» Константин Окулов прокомментировал победу в матче с «Ак Барсом» (3:1), которая стала для омского клуба пятой подряд.",
-      "image": "https://img.championat.com/news/big/d/x/okulov-o-pyati-pobedah-avang.jpg",
-      "publishedAt": "2026-11-22T15:40:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6709864-okulov-o-pyati-pobedah-avangarda-podryad-nachali-delat-to-chto-prosit-trenerskij-shtab.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Ак Барс",
-        "Ги Буше",
-        "Константин Окулов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:avangard"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6709856",
-      "slug": "delali-to-chto-umeem-luchshe-vsego-okulov-vyskazalsya-posle-dublya-v-vorota-ak-barsa",
-      "title": "«Делали то, что умеем лучше всего». Окулов высказался после дубля в ворота «Ак Барса»",
-      "summary": "Нападающий «Авангарда» Константин Окулов оценил победу в домашнем матче с «Ак Барсом» (3:1).",
-      "content": "Нападающий «Авангарда» Константин Окулов оценил победу в домашнем матче с «Ак Барсом» (3:1).",
-      "image": "https://img.championat.com/news/big/n/x/delali-to-chto-umeem-luchshe.jpg",
-      "publishedAt": "2026-11-22T15:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6709856-delali-to-chto-umeem-luchshe-vsego-okulov-vyskazalsya-posle-dublya-v-vorota-ak-barsa.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Ак Барс",
-        "Константин Окулов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:avangard"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6709824",
-      "slug": "udacha-byla-na-nashej-storone-brylin-ocenil-pobedu-dinamo-v-gostevom-matche-s-barysom",
-      "title": "«Удача была на нашей стороне». Брылин оценил победу «Динамо» в гостевом матче с «Барысом»",
-      "summary": "Главный тренер минского «Динамо» Сергей Брылин оценил победу в гостевом матче с «Барысом» (2:1).",
-      "content": "Главный тренер минского «Динамо» Сергей Брылин оценил победу в гостевом матче с «Барысом» (2:1).",
-      "image": "https://img.championat.com/news/big/j/i/udacha-byla-na-nashej-storon.jpg",
-      "publishedAt": "2026-11-22T15:25:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6709824-udacha-byla-na-nashej-storone-brylin-ocenil-pobedu-dinamo-v-gostevom-matche-s-barysom.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Минск",
-        "Барыс",
-        "Сергей Брылин"
-      ],
-      "relatedTeamIds": [
-        "khl:barys",
-        "khl:dynamo-mns"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6709818",
-      "slug": "nuzhno-zabivat-goly-i-ne-delat-oshibok-kravec-o-porazhenii-barysa-ot-minskogo-dinamo",
-      "title": "«Нужно забивать голы и не делать ошибок». Кравец — о поражении «Барыса» от «Динамо» Минск",
-      "summary": "Главный тренер «Барыса» Михаил Кравец высказался о поражении в домашнем матче с минским «Динамо» (1:2).",
-      "content": "Главный тренер «Барыса» Михаил Кравец высказался о поражении в домашнем матче с минским «Динамо» (1:2).",
-      "image": "https://img.championat.com/news/big/v/y/nuzhno-zabivat-goly-i-ne-delat-oshibok-kravec-o-porazhenii-barysa-ot-dinamo-minsk_17953599531001551368.jpg",
-      "publishedAt": "2026-11-22T15:05:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6709818-nuzhno-zabivat-goly-i-ne-delat-oshibok-kravec-o-porazhenii-barysa-ot-minskogo-dinamo.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Минск",
-        "Барыс",
-        "Михаил Кравец"
-      ],
-      "relatedTeamIds": [
-        "khl:barys",
-        "khl:dynamo-mns"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6709784",
-      "slug": "gi-bushe-avangard-rastyot-i-progressiruet-my-ponimali-chto-tak-i-budet",
-      "title": "Ги Буше: «Авангард» растёт и прогрессирует. Мы понимали, что так и будет",
-      "summary": "Главный тренер «Авангарда» Ги Буше высказался о победе над «Ак Барсом» (3:1) и отметил прогресс в игре омской команды.",
-      "content": "Главный тренер «Авангарда» Ги Буше высказался о победе над «Ак Барсом» (3:1) и отметил прогресс в игре омской команды.",
-      "image": "https://img.championat.com/news/big/k/o/gi-bushe-avangard-rastyot-i-.jpg",
-      "publishedAt": "2026-11-22T14:35:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6709784-gi-bushe-avangard-rastyot-i-progressiruet-my-ponimali-chto-tak-i-budet.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Авангард",
-        "Ак Барс",
-        "Николай Прохоркин",
-        "Ги Буше",
-        "Дамир Шарипзянов",
-        "Константин Окулов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "khl:avangard"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6709780",
-      "slug": "glavnyj-trener-ak-barsa-rasskazal-o-srokah-vozvrascheniya-artyoma-galimova",
-      "title": "Главный тренер «Ак Барса» рассказал о сроках возвращения Артёма Галимова",
-      "summary": "Главный тренер «Ак Барса» Анвар Гатиятулин рассказал о сроках возвращения травмированного нападающего Артёма Галимова.",
-      "content": "Главный тренер «Ак Барса» Анвар Гатиятулин рассказал о сроках возвращения травмированного нападающего Артёма Галимова.",
-      "image": "https://img.championat.com/news/big/d/h/glavnyj-trener-ak-barsa-rass.jpg",
-      "publishedAt": "2026-11-22T14:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6709780-glavnyj-trener-ak-barsa-rasskazal-o-srokah-vozvrascheniya-artyoma-galimova.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Анвар Гатиятулин",
-        "Артём Галимов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
       ],
       "relatedPlayerIds": []
     }
