@@ -1,0 +1,43 @@
+{
+  "id": "nhl:2026020435",
+  "compId": "NHL",
+  "season": "2026/27",
+  "stage": "regular",
+  "round": null,
+  "seriesGame": null,
+  "utcDate": "2026-12-01T02:30:00Z",
+  "status": "SCHEDULED",
+  "period": null,
+  "clock": null,
+  "finishedIn": null,
+  "home": {
+    "id": "nhl:uta",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "away": {
+    "id": "nhl:mtl",
+    "score": null,
+    "periods": [],
+    "shots": null
+  },
+  "arena": "Delta Center",
+  "officials": {
+    "referees": [],
+    "linesmen": []
+  },
+  "events": [],
+  "lineups": null,
+  "stats": null,
+  "h2h": [],
+  "broadcast": {
+    "type": "external",
+    "verified": true,
+    "provider": "NHL.com",
+    "url": "https://www.nhl.com/gamecenter/mtl-vs-uta/2026/11/30/2026020435",
+    "sourceName": "NHL.com Gamecenter",
+    "sourceUrl": "https://www.nhl.com/gamecenter/mtl-vs-uta/2026/11/30/2026020435",
+    "verifiedAt": "2026-11-24T17:50:54.836997Z"
+  }
+}
