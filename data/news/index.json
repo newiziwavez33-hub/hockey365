@@ -1,6 +1,571 @@
 {
   "news": [
     {
+      "id": "news-6711816",
+      "slug": "raspisanie-matchej-mhl-na-24-noyabrya-2026-goda",
+      "title": "Расписание матчей МХЛ на 24 ноября 2026 года",
+      "summary": "Сегодня, 24 ноября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 24 ноября, пройдут очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-11-24T06:00:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711816-raspisanie-matchej-mhl-na-24-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Спартак",
+        "МХК Омские Ястребы",
+        "МХК Алмаз",
+        "МХК Амурские Тигры",
+        "МХК Сахалинские Акулы",
+        "МХК Спутник Альметьевск"
+      ],
+      "relatedTeamIds": [
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6711838",
+      "slug": "rezultaty-matchej-nhl-na-24-noyabrya-2026-goda",
+      "title": "Результаты матчей НХЛ на 24 ноября 2026 года",
+      "summary": "В ночь на 24 ноября прошли очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "content": "В ночь на 24 ноября прошли очередные матчи регулярного сезона-2026/2027 Национальной хоккейной лиги.",
+      "image": "https://img.championat.com/news/big/f/d/rezultaty-matchej-nhl-na-24-noyabrya-2026-goda_1795498894590872319.jpg",
+      "publishedAt": "2026-11-24T05:50:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711838-rezultaty-matchej-nhl-na-24-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Торонто Мэйпл Лифс",
+        "Монреаль Канадиенс",
+        "Коламбус Блю Джекетс",
+        "Миннесота Уайлд",
+        "Нью-Йорк Айлендерс",
+        "Нью-Джерси Дэвилз",
+        "Сан-Хосе Шаркс",
+        "Лос-Анджелес Кингз",
+        "Оттава Сенаторз",
+        "Виннипег Джетс",
+        "Калгари Флэймз",
+        "Анахайм Дакс",
+        "Сиэтл Кракен",
+        "Юта Маммот"
+      ],
+      "relatedTeamIds": [
+        "nhl:ana",
+        "nhl:cbj",
+        "nhl:cgy",
+        "nhl:lak",
+        "nhl:min",
+        "nhl:mtl",
+        "nhl:njd",
+        "nhl:nyi",
+        "nhl:ott",
+        "nhl:sea",
+        "nhl:sjs",
+        "nhl:tor",
+        "nhl:uta",
+        "nhl:wpg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6711842",
+      "slug": "kirill-kaprizov-povtoril-rekord-minnesoty-po-matcham-s-chetyrmya-i-bolee-ochkami",
+      "title": "Кирилл Капризов повторил рекорд «Миннесоты» по матчам с четырьмя и более очками",
+      "summary": "Российский нападающий «Миннесоты Уайлд» Кирилл Капризов во встрече регулярного сезона с «Сан-Хосе Шаркс» записал на свой счёт гол и три результативные передачи.",
+      "content": "Российский нападающий «Миннесоты Уайлд» Кирилл Капризов во встрече регулярного сезона с «Сан-Хосе Шаркс» записал на свой счёт гол и три результативные передачи.",
+      "image": "https://img.championat.com/news/big/s/c/kirill-kaprizov-povtoril-rekord-minnesoty-po-matcham-s-chetyrmya-i-bolee-ochkami_1795499166895195290.jpg",
+      "publishedAt": "2026-11-24T05:46:16Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711842-kirill-kaprizov-povtoril-rekord-minnesoty-po-matcham-s-chetyrmya-i-bolee-ochkami.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Миннесота Уайлд",
+        "Сан-Хосе Шаркс",
+        "Кирилл Капризов",
+        "Мариан Габорик"
+      ],
+      "relatedTeamIds": [
+        "nhl:min",
+        "nhl:sjs"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6711812",
+      "slug": "raspisanie-matchej-vhl-na-24-noyabrya-2026-goda",
+      "title": "Расписание матчей ВХЛ на 24 ноября 2026 года",
+      "summary": "Сегодня, 24 ноября, пройдут четыре матча OLIMPBET Чемпионата России — ВХЛ.",
+      "content": "Сегодня, 24 ноября, пройдут четыре матча OLIMPBET Чемпионата России — ВХЛ.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-11-24T05:40:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711812-raspisanie-matchej-vhl-na-24-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Химик",
+        "Барс",
+        "Сокол Красноярск",
+        "Буран",
+        "Звезда",
+        "Омские Крылья",
+        "Тамбов",
+        "Калуга"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6711834",
+      "slug": "miranchuk-obyasnil-pochemu-ne-planiruet-poseschat-matchi-ovechkina-v-ego-poslednij-sezon",
+      "title": "Миранчук объяснил, почему не планирует посещать матчи Овечкина в его последний сезон",
+      "summary": "31-летний футболист «Атланты» и сборной России Алексей Миранчук объяснил, почему не планирует посетить один из матчей российского нападающего «Вашингтона» Александра Овечкина в его последний сезон в Национальной хокке...",
+      "content": "31-летний футболист «Атланты» и сборной России Алексей Миранчук объяснил, почему не планирует посетить один из матчей российского нападающего «Вашингтона» Александра Овечкина в его последний сезон в Национальной хоккейной лиге (НХЛ).",
+      "image": "https://img.championat.com/news/big/t/w/miranchuk-obyasnil-pochemu-ne-planiruet-poseschat-matchi-ovechkina-v-ego-poslednij-sezon_1795498756566750784.jpg",
+      "publishedAt": "2026-11-24T05:39:17Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/football/news-6711834-miranchuk-obyasnil-pochemu-ne-planiruet-poseschat-matchi-ovechkina-v-ego-poslednij-sezon.html",
+      "tags": [
+        "Футбол",
+        "MLS / МЛС",
+        "Хоккей",
+        "НХЛ",
+        "Александр Овечкин",
+        "Алексей Миранчук"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8471214"
+      ]
+    },
+    {
+      "id": "news-6711818",
+      "slug": "san-hose-sharks-minnesota-uajld-rezultat-matcha-24-noyabrya-2026-goda-schet-2-5-regulyarnyj-chempionat-nhl-2026-2027",
+      "title": "Гол и три результативные передачи Капризова помогли «Миннесоте» победить «Сан-Хосе»",
+      "summary": "В ночь на 24 ноября в Сан-Хосе (США) на стадионе «Эс-Эй-Пи-центр» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Сан-Хосе Шаркс» принимал «Миннесоту Уайлд».",
+      "content": "В ночь на 24 ноября в Сан-Хосе (США) на стадионе «Эс-Эй-Пи-центр» состоялся матч регулярного чемпионата Национальной хоккейной лиги сезона-2026/2027, в котором «Сан-Хосе Шаркс» принимал «Миннесоту Уайлд».",
+      "image": "https://img.championat.com/news/big/r/i/gol-i-tri-rezultativnye-peredachi-kaprizova-pomogli-minnesote-pobedit-san-hose_1795498619350024944.jpg",
+      "publishedAt": "2026-11-24T05:38:41Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711818-san-hose-sharks-minnesota-uajld-rezultat-matcha-24-noyabrya-2026-goda-schet-2-5-regulyarnyj-chempionat-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Видео",
+        "Миннесота Уайлд",
+        "Сан-Хосе Шаркс",
+        "Кирилл Капризов"
+      ],
+      "relatedTeamIds": [
+        "nhl:min",
+        "nhl:sjs"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6711800",
+      "slug": "vozvraschenie-panarina-prodolzhenie-rekordnoj-serii-kaprizova-glavnoe-k-utru",
+      "title": "Возвращение Панарина, продолжение рекордной серии Капризова. Главное к утру",
+      "summary": "Звёздный российский нападающий «Миннесоты Уайлд» Кирилл Капризов продлил свою результативную серию в регулярном чемпионате НХЛ сезона-2026/2027 до 15 матчей, 35-летний российский нападающий «Лос-Анджелес Кингз» Артеми...",
+      "content": "Звёздный российский нападающий «Миннесоты Уайлд» Кирилл Капризов продлил свою результативную серию в регулярном чемпионате НХЛ сезона-2026/2027 до 15 матчей, 35-летний российский нападающий «Лос-Анджелес Кингз» Артемий Панарин вернулся в чемпионат после смерти дедушки и отдал передачу в матче против «Монреаль Канадиенс», тем самым вплотную приблизившись к рекорду.",
+      "image": "https://img.championat.com/news/big/e/g/vozvraschenie-panarina-prodolzhenie-rekordnoj-serii-kaprizova-glavnoe-k-utru_1795496840386288165.jpg",
+      "publishedAt": "2026-11-24T05:30:12Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711800-vozvraschenie-panarina-prodolzhenie-rekordnoj-serii-kaprizova-glavnoe-k-utru.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Футбол",
+        "Баскетбол",
+        "Бокс/ММА",
+        "Леброн Джеймс",
+        "Бостон Селтикс",
+        "Леонид Слуцкий",
+        "Торонто Мэйпл Лифс",
+        "Филадельфия Сиксерс",
+        "Монреаль Канадиенс",
+        "Миннесота Уайлд",
+        "Нью-Йорк Айлендерс",
+        "Миннесота Тимбервулвз",
+        "Артемий Панарин",
+        "Лос-Анджелес Кингз",
+        "Портленд Трэйл Блэйзерс",
+        "Кирилл Капризов",
+        "Егор Дёмин",
+        "Умар Нурмагомедов",
+        "Усман Нурмагомедов"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:lak",
+        "nhl:min",
+        "nhl:mtl",
+        "nhl:nyi",
+        "nhl:nyr",
+        "nhl:phi",
+        "nhl:tor"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478550"
+      ]
+    },
+    {
+      "id": "news-6711806",
+      "slug": "raspisanie-matchej-khl-na-24-noyabrya-2026-goda",
+      "title": "Расписание матчей КХЛ на 24 ноября 2026 года",
+      "summary": "Сегодня, 24 ноября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 24 ноября, продолжится регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/j/w/raspisanie-matchej-khl-na-24-noyabrya-2026-goda_1795496740468503443.jpg",
+      "publishedAt": "2026-11-24T05:20:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711806-raspisanie-matchej-khl-na-24-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Ак Барс",
+        "Салават Юлаев",
+        "Металлург Мг",
+        "Трактор",
+        "Динамо Минск",
+        "Автомобилист",
+        "Нефтехимик",
+        "Адмирал",
+        "Лада"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral",
+        "khl:ak-bars",
+        "khl:avtomobilist",
+        "khl:dynamo-mns",
+        "khl:dynamo-msk",
+        "khl:lada",
+        "khl:metallurg-mg",
+        "khl:neftekhimik",
+        "khl:salavat-yulaev",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6711826",
+      "slug": "forvard-chikago-bedard-perenyos-operaciyu-i-propustit-okolo-chetyryoh-mesyacev",
+      "title": "Форвард «Чикаго» Бедард перенёс операцию и пропустит около четырёх месяцев",
+      "summary": "Канадский нападающий «Чикаго Блэкхоукс» Коннор Бедард перенёс операцию и пропустит около четырёх месяцев.",
+      "content": "Канадский нападающий «Чикаго Блэкхоукс» Коннор Бедард перенёс операцию и пропустит около четырёх месяцев.",
+      "image": "https://img.championat.com/news/big/v/i/forvard-chikago-bedard-perenyos-operaciyu-i-propustit-okolo-chetyryoh-mesyacev_1795497464565698031.jpg",
+      "publishedAt": "2026-11-24T05:17:58Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711826-forvard-chikago-bedard-perenyos-operaciyu-i-propustit-okolo-chetyryoh-mesyacev.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Чикаго Блэкхоукс",
+        "Коннор Бедард"
+      ],
+      "relatedTeamIds": [
+        "nhl:chi"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6711796",
+      "slug": "oston-mettyus-pobil-rekord-toronto-po-rezultativnoj-serii-na-starte-sezona",
+      "title": "Остон Мэттьюс побил рекорд «Торонто» по результативной серии на старте сезона",
+      "summary": "29-летний американский нападающий «Торонто Мэйпл Лифс» Остон Мэттьюс продлил результативную серию в выездных матчах со старта сезона до 10 игр.",
+      "content": "29-летний американский нападающий «Торонто Мэйпл Лифс» Остон Мэттьюс продлил результативную серию в выездных матчах со старта сезона до 10 игр.",
+      "image": "https://img.championat.com/news/big/a/g/oston-mettyus-pobil-rekord-toronto-po-rezultativnoj-serii-na-starte-sezona_17954957851539572411.jpg",
+      "publishedAt": "2026-11-24T04:49:45Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711796-oston-mettyus-pobil-rekord-toronto-po-rezultativnoj-serii-na-starte-sezona.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Торонто Мэйпл Лифс",
+        "Нью-Йорк Айлендерс",
+        "Остон Мэттьюс"
+      ],
+      "relatedTeamIds": [
+        "nhl:nyi",
+        "nhl:tor"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8479318"
+      ]
+    },
+    {
+      "id": "news-6711792",
+      "slug": "oston-mettyus-povtoril-dostizhenie-patrika-kejna-po-chislu-vyezdnyh-serij-s-ochkami-v-nhl",
+      "title": "Остон Мэттьюс повторил достижение Патрика Кейна по числу выездных серий с очками в НХЛ",
+      "summary": "29-летний американский нападающий «Торонто Мэйпл Лифс» Остон Мэттьюс продлил результативную серию в выездных матчах регулярного чемпионата Национальной хоккейной лиги (НХЛ) до 10 игр.",
+      "content": "29-летний американский нападающий «Торонто Мэйпл Лифс» Остон Мэттьюс продлил результативную серию в выездных матчах регулярного чемпионата Национальной хоккейной лиги (НХЛ) до 10 игр.",
+      "image": "https://img.championat.com/news/big/l/k/oston-mettyus-povtoril-dostizhenie-patrika-kejna-po-chislu-vyezdnyh-serij-s-ochkami-v-nhl_1795494888255805656.jpg",
+      "publishedAt": "2026-11-24T04:34:50Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711792-oston-mettyus-povtoril-dostizhenie-patrika-kejna-po-chislu-vyezdnyh-serij-s-ochkami-v-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Торонто Мэйпл Лифс",
+        "Нью-Йорк Айлендерс",
+        "Чикаго Блэкхоукс",
+        "Остон Мэттьюс",
+        "Патрик Кейн"
+      ],
+      "relatedTeamIds": [
+        "nhl:chi",
+        "nhl:nyi",
+        "nhl:tor"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8479318"
+      ]
+    },
+    {
+      "id": "news-6711790",
+      "slug": "kaprizov-vyshel-na-vtoroe-mesto-v-istorii-minnesoty-po-matcham-s-neskolkimi-peredachami",
+      "title": "Капризов вышел на второе место в истории «Миннесоты» по матчам с несколькими передачами",
+      "summary": "Звёздный российский нападающий «Миннесоты Уайлд» Кирилл Капризов в данный момент проводит свой 57-й матч в карьере с несколькими голевыми передачами, россиянин сегодня, 24 ноября, обогнал по этому показателю защитника...",
+      "content": "Звёздный российский нападающий «Миннесоты Уайлд» Кирилл Капризов в данный момент проводит свой 57-й матч в карьере с несколькими голевыми передачами, россиянин сегодня, 24 ноября, обогнал по этому показателю защитника Райана Сутера (56 матчей).",
+      "image": "https://img.championat.com/news/big/n/i/kaprizov-vyshel-na-vtoroe-mesto-v-istorii-minnesoty-po-matcham-s-neskolkimi-peredachami_1795494757403038236.jpg",
+      "publishedAt": "2026-11-24T04:30:44Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711790-kaprizov-vyshel-na-vtoroe-mesto-v-istorii-minnesoty-po-matcham-s-neskolkimi-peredachami.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Миннесота Уайлд",
+        "Кирилл Капризов",
+        "Райан Сутер",
+        "Микко Койву"
+      ],
+      "relatedTeamIds": [
+        "nhl:min"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6711786",
+      "slug": "panarin-povtoril-dostizhenie-tkachuka-po-rezultativnosti-v-matchah-protiv-odnoj-franshizy",
+      "title": "Панарин повторил достижение Ткачука по числу матчей подряд с очками против одной франшизы",
+      "summary": "35-летний российский нападающий «Лос-Анджелес Кингз» Артемий Панарин набирает очки в каждом из своих последних 16 матчей против «Монреаль Канадиенс».",
+      "content": "35-летний российский нападающий «Лос-Анджелес Кингз» Артемий Панарин набирает очки в каждом из своих последних 16 матчей против «Монреаль Канадиенс».",
+      "image": "https://img.championat.com/news/big/v/x/panarin-povtoril-dostizhenie-tkachuka-po-chislu-matchej-podryad-s-ochkami-protiv-odnoj-fra_17954938191737476069.jpg",
+      "publishedAt": "2026-11-24T04:15:29Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711786-panarin-povtoril-dostizhenie-tkachuka-po-rezultativnosti-v-matchah-protiv-odnoj-franshizy.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Монреаль Канадиенс",
+        "Артемий Панарин",
+        "Лос-Анджелес Кингз",
+        "Коннор Макдэвид",
+        "Леон Драйзайтль",
+        "Мэттью Ткачук"
+      ],
+      "relatedTeamIds": [
+        "nhl:edm",
+        "nhl:lak",
+        "nhl:mtl",
+        "nhl:nyr"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478402",
+        "nhl:p_8478550"
+      ]
+    },
+    {
+      "id": "news-6711782",
+      "slug": "u-panarina-16-e-ochko-podryad-v-matchah-s-monrealem-on-blizok-k-rekordu-zhilbera-perro",
+      "title": "Панарин набирает очки в 16 матчах с «Монреалем» подряд. Он близок к рекорду Жильбера Перро",
+      "summary": "35-летний российский нападающий «Лос-Анджелес Кингз» Артемий Панарин продлил свою серию с набранными очками в матчах против «Монреаль Канадиенс» до 16.",
+      "content": "35-летний российский нападающий «Лос-Анджелес Кингз» Артемий Панарин продлил свою серию с набранными очками в матчах против «Монреаль Канадиенс» до 16.",
+      "image": "https://img.championat.com/news/big/u/g/panarin-nabiraet-ochki-v-16-matchah-s-monrealem-podryad-on-blizok-k-rekordu-zhilbera-perro_17954937737329349.jpg",
+      "publishedAt": "2026-11-24T04:05:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711782-u-panarina-16-e-ochko-podryad-v-matchah-s-monrealem-on-blizok-k-rekordu-zhilbera-perro.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Монреаль Канадиенс",
+        "Артемий Панарин",
+        "Лос-Анджелес Кингз"
+      ],
+      "relatedTeamIds": [
+        "nhl:lak",
+        "nhl:mtl",
+        "nhl:nyr"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478550"
+      ]
+    },
+    {
+      "id": "news-6711776",
+      "slug": "kaprizov-prodlil-svoyu-rezultativnuyu-seriyu-do-15-matchej-obnoviv-rekord-v-minnesote",
+      "title": "Капризов продлил свою результативную серию до 15 матчей, обновив рекорд в «Миннесоте»",
+      "summary": "Звёздный российский нападающий «Миннесоты Уайлд» Кирилл Капризов продлил свою результативную серию в регулярном чемпионате НХЛ сезона-2026/2027 до 15 матчей.",
+      "content": "Звёздный российский нападающий «Миннесоты Уайлд» Кирилл Капризов продлил свою результативную серию в регулярном чемпионате НХЛ сезона-2026/2027 до 15 матчей.",
+      "image": "https://img.championat.com/news/big/t/t/kaprizov-prodlil-svoyu-rezultativnuyu-seriyu-do-15-matchej-obnoviv-rekord-v-minnesote_1795491933742685711.jpg",
+      "publishedAt": "2026-11-24T03:45:34Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711776-kaprizov-prodlil-svoyu-rezultativnuyu-seriyu-do-15-matchej-obnoviv-rekord-v-minnesote.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Миннесота Уайлд",
+        "Кирилл Капризов",
+        "Ярослав Аскаров"
+      ],
+      "relatedTeamIds": [
+        "nhl:min"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6711768",
+      "slug": "monreal-kanadiens-los-andzheles-kingz-rezultat-matcha-24-noyabrya-2026-schet-1-2-nhl-2026-2027",
+      "title": "Передача Панарина помогла «Лос-Анджелесу» обыграть «Монреаль» на выезде",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ), в котором встречались «Монреаль Канадиенс» (Монреаль) и «Лос-Анджелес Кингз» (Лос-Анджелес).",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ), в котором встречались «Монреаль Канадиенс» (Монреаль) и «Лос-Анджелес Кингз» (Лос-Анджелес).",
+      "image": "https://img.championat.com/news/big/v/s/peredacha-panarina-pomogla-los-andzhelesu-obygrat-monreal-na-vyezde_17954913501005902787.jpg",
+      "publishedAt": "2026-11-24T03:35:51Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711768-monreal-kanadiens-los-andzheles-kingz-rezultat-matcha-24-noyabrya-2026-schet-1-2-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Монреаль Канадиенс",
+        "Артемий Панарин",
+        "Лос-Анджелес Кингз",
+        "Алекс Ньюхук",
+        "Алекс Лаферрье"
+      ],
+      "relatedTeamIds": [
+        "nhl:lak",
+        "nhl:mtl",
+        "nhl:nyr"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8478550"
+      ]
+    },
+    {
+      "id": "news-6711764",
+      "slug": "nyu-jork-ajlenders-toronto-mejpl-lifs-rezultat-matcha-24-noyabrya-2026-schet-2-4-nhl-2026-2027",
+      "title": "«Торонто» на выезде обыграл «Нью-Йорк Айлендерс», прервав серию поражений в 9 матчей",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ), в котором встречались «Нью-Йорк Айлендерс» (Нью-Йорк) и «Торонто Мэйпл Лифс» (Торонто).",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ), в котором встречались «Нью-Йорк Айлендерс» (Нью-Йорк) и «Торонто Мэйпл Лифс» (Торонто).",
+      "image": "https://img.championat.com/news/big/g/i/toronto-na-vyezde-obygral-nyu-jork-ajlenders-prervav-seriyu-porazhenij-v-9-matchej_1795490425208468533.jpg",
+      "publishedAt": "2026-11-24T03:14:16Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711764-nyu-jork-ajlenders-toronto-mejpl-lifs-rezultat-matcha-24-noyabrya-2026-schet-2-4-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Торонто Мэйпл Лифс",
+        "Нью-Йорк Айлендерс",
+        "Илья Сорокин",
+        "Остон Мэттьюс",
+        "Мэтью Барзал",
+        "Гэвин Маккенна",
+        "Энтони Дюклер",
+        "Истон Коуэн"
+      ],
+      "relatedTeamIds": [
+        "nhl:nyi",
+        "nhl:tor"
+      ],
+      "relatedPlayerIds": [
+        "nhl:p_8479318"
+      ]
+    },
+    {
+      "id": "news-6711740",
+      "slug": "nyu-dzhersi-devilz-kolambus-blyu-dzhekets-rezultat-matcha-24-noyabrya-2026-schet-3-2-nhl-2026-2027",
+      "title": "«Нью-Джерси Дэвилз» дома удержал победу над «Коламбусом», у Брауна два очка",
+      "summary": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ), в котором встречались «Нью-Джерси Дэвилз» (Ньюарк) и «Коламбус Блю Джекетс» (Коламбус).",
+      "content": "Завершился матч регулярного чемпионата Национальной хоккейной лиги (НХЛ), в котором встречались «Нью-Джерси Дэвилз» (Ньюарк) и «Коламбус Блю Джекетс» (Коламбус).",
+      "image": "https://img.championat.com/news/big/s/k/nyu-dzhersi-devilz-doma-uderzhal-pobedu-nad-kolambusom-u-brauna-dva-ochka_1795488017600195614.jpg",
+      "publishedAt": "2026-11-24T02:40:22Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711740-nyu-dzhersi-devilz-kolambus-blyu-dzhekets-rezultat-matcha-24-noyabrya-2026-schet-3-2-nhl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Коламбус Блю Джекетс",
+        "Нью-Джерси Дэвилз",
+        "Тимо Майер",
+        "Коннор Браун",
+        "Бренден Диллон",
+        "Чарли Койл"
+      ],
+      "relatedTeamIds": [
+        "nhl:cbj",
+        "nhl:njd"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6711684",
+      "slug": "forvard-vashingtona-kajru-poluchil-travmu-iz-za-kotoroj-propustit-minimum-tri-matcha-nhl",
+      "title": "Форвард «Вашингтона» Кайру получил травму, из-за которой пропустит минимум три матча НХЛ",
+      "summary": "Форвард «Вашингтон Кэпиталз» Джордан Кайру пропустит не менее семи дней из-за травмы верхней части тела, которую он получил в матче регулярного чемпионата Национальной хоккейной лиги с «Бостон Брюинз» (5:7) 22 ноября.",
+      "content": "Форвард «Вашингтон Кэпиталз» Джордан Кайру пропустит не менее семи дней из-за травмы верхней части тела, которую он получил в матче регулярного чемпионата Национальной хоккейной лиги с «Бостон Брюинз» (5:7) 22 ноября.",
+      "image": "https://img.championat.com/news/big/s/i/forvard-vashingtona-kajru-poluchil-travmu-iz-za-kotoroj-propustit-minimum-tri-matcha-nhl_17954797701858810732.jpg",
+      "publishedAt": "2026-11-24T00:21:27Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711684-forvard-vashingtona-kajru-poluchil-travmu-iz-za-kotoroj-propustit-minimum-tri-matcha-nhl.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Флорида Пантерз",
+        "Бостон Брюинз",
+        "Филадельфия Флайерз",
+        "Сент-Луис Блюз",
+        "Травмы — хоккей",
+        "Джордан Кайру"
+      ],
+      "relatedTeamIds": [
+        "nhl:bos",
+        "nhl:fla",
+        "nhl:phi",
+        "nhl:stl",
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6711644",
+      "slug": "vashington-obyavil-o-prodlenii-kontrakta-s-zaschitnikom-sent-ajvani",
+      "title": "«Вашингтон» объявил о продлении контракта с защитником Сент-Айвани",
+      "summary": "«Вашингтон Кэпиталз» заключил с защитником Джеком Сент-Айвани новое двухлетнее соглашение на общую сумму $ 2,35 млн.",
+      "content": "«Вашингтон Кэпиталз» заключил с защитником Джеком Сент-Айвани новое двухлетнее соглашение на общую сумму $ 2,35 млн.",
+      "image": "https://img.championat.com/news/big/r/s/vashington-obyavil-o-prodlenii-kontrakta-s-zaschitnikom-sent-ajvani_17954741281106977927.jpg",
+      "publishedAt": "2026-11-23T22:48:50Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6711644-vashington-obyavil-o-prodlenii-kontrakta-s-zaschitnikom-sent-ajvani.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Вашингтон Кэпиталз",
+        "Переходы — Хоккей"
+      ],
+      "relatedTeamIds": [
+        "nhl:wsh"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6711590",
       "slug": "rezultaty-matchej-mhl-na-23-noyabrya-2026-goda",
       "title": "Результаты матчей МХЛ на 23 ноября 2026 года",
@@ -243,482 +808,6 @@
         "nhl:det",
         "nhl:lak",
         "nhl:mtl"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711388",
-      "slug": "stalo-izvestno-gde-projdyot-zhenskij-chempionat-mira-2028-goda",
-      "title": "Стало известно, где пройдёт женский чемпионат мира 2028 года",
-      "summary": "Швейцарские города Цюрих и Фрибур примут женский чемпионат мира по хоккею 2028 года.",
-      "content": "Швейцарские города Цюрих и Фрибур примут женский чемпионат мира по хоккею 2028 года.",
-      "image": "assets/images/hero_banner.jpg",
-      "publishedAt": "2026-11-23T17:31:10Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711388-stalo-izvestno-gde-projdyot-zhenskij-chempionat-mira-2028-goda.html",
-      "tags": [
-        "Хоккей",
-        "Прочие турниры",
-        "Женский хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711360",
-      "slug": "vratar-yuzhnogo-urala-reshil-zabit-v-pustye-vorota-sopernika-no-popal-v-svoi",
-      "title": "Вратарь «Южного Урала» решил забить в пустые ворота соперника, но попал в свои",
-      "summary": "Голкипер «Южного Урала» Вадим Никитин попытался забросить шайбу в пустые ворота соперника, но вместо этого попал в собственные.",
-      "content": "Голкипер «Южного Урала» Вадим Никитин попытался забросить шайбу в пустые ворота соперника, но вместо этого попал в собственные.",
-      "image": "assets/images/hero_banner.jpg",
-      "publishedAt": "2026-11-23T17:07:14Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711360-vratar-yuzhnogo-urala-reshil-zabit-v-pustye-vorota-sopernika-no-popal-v-svoi.html",
-      "tags": [
-        "Хоккей",
-        "ВХЛ",
-        "Видео",
-        "Южный Урал Орск",
-        "Молот-Прикамье"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711340",
-      "slug": "plyuschev-cska-rasstalsya-s-titulom-oboronitelnoj-komandy-igraet-naporisto-agressivno",
-      "title": "Плющев: ЦСКА расстался с титулом оборонительной команды, играет напористо, агрессивно",
-      "summary": "Бывший тренер сборной России Владимир Плющев прокомментировал игру ЦСКА в нынешнем сезоне Фонбет Континентальной хоккейной лиги.",
-      "content": "Бывший тренер сборной России Владимир Плющев прокомментировал игру ЦСКА в нынешнем сезоне Фонбет Континентальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/j/m/plyuschev-cska-rasstalsya-s-.jpg",
-      "publishedAt": "2026-11-23T16:49:12Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711340-plyuschev-cska-rasstalsya-s-titulom-oboronitelnoj-komandy-igraet-naporisto-agressivno.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЦСКА",
-        "Владимир Плющев"
-      ],
-      "relatedTeamIds": [
-        "khl:cska"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711310",
-      "slug": "s-odnoj-storony-plakat-nado-zaripov-o-rezultatah-ak-barsa",
-      "title": "«С одной стороны, плакать надо». Зарипов — о результатах «Ак Барса»",
-      "summary": "Трёхкратный чемпион мира и пятикратный обладатель Кубка Гагарина Данис Зарипов высказался о выступлении «Ак Барса» в текущем сезоне.",
-      "content": "Трёхкратный чемпион мира и пятикратный обладатель Кубка Гагарина Данис Зарипов высказался о выступлении «Ак Барса» в текущем сезоне.",
-      "image": "https://img.championat.com/news/big/k/q/s-odnoj-storony-plakat-nado-.jpg",
-      "publishedAt": "2026-11-23T16:28:13Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711310-s-odnoj-storony-plakat-nado-zaripov-o-rezultatah-ak-barsa.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Данис Зарипов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711320",
-      "slug": "nekolenko-o-prervannoj-bezgolevoj-serii-perestal-smotret-statistiku-posle-10-matchej",
-      "title": "Неколенко — о прерванной безголевой серии: перестал смотреть статистику после 10 матчей",
-      "summary": "Нападающий «Сибири» Архип Неколенко после поражения от «Северстали» (2:4) высказался о своей прерванной безголевой серии.",
-      "content": "Нападающий «Сибири» Архип Неколенко после поражения от «Северстали» (2:4) высказался о своей прерванной безголевой серии.",
-      "image": "https://img.championat.com/news/big/v/z/nekolenko-o-prervannoj-bezgolevoj-serii-perestal-smotret-statistiku-posle-10-matchej_17954503971682678141.jpg",
-      "publishedAt": "2026-11-23T16:13:18Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711320-nekolenko-o-prervannoj-bezgolevoj-serii-perestal-smotret-statistiku-posle-10-matchej.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Сибирь",
-        "Северсталь",
-        "Архип Неколенко"
-      ],
-      "relatedTeamIds": [
-        "khl:severstal",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711312",
-      "slug": "glavnoe-chto-u-nas-est-harakter-nekolenko-o-porazhenii-sibiri-ot-severstali",
-      "title": "«Главное, что у нас есть характер». Неколенко — о поражении «Сибири» от «Северстали»",
-      "summary": "Нападающий «Сибири» Архип Неколенко прокомментировал поражение от «Северстали» (2:4) в матче регулярного чемпионата Фонбет КХЛ.",
-      "content": "Нападающий «Сибири» Архип Неколенко прокомментировал поражение от «Северстали» (2:4) в матче регулярного чемпионата Фонбет КХЛ.",
-      "image": "https://img.championat.com/news/big/k/t/glavnoe-chto-u-nas-est-harakter-nekolenko-o-porazhenii-sibiri-ot-severstali_17954497431535893707.jpg",
-      "publishedAt": "2026-11-23T16:02:25Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711312-glavnoe-chto-u-nas-est-harakter-nekolenko-o-porazhenii-sibiri-ot-severstali.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Сибирь",
-        "Северсталь",
-        "Архип Неколенко"
-      ],
-      "relatedTeamIds": [
-        "khl:severstal",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6710604",
-      "slug": "byvshij-igrok-nhl-obyasnil-pochemu-brosok-ovechkina-luchshij-v-istorii-hokkeya",
-      "title": "Бывший игрок НХЛ объяснил, почему бросок Овечкина — лучший в истории хоккея",
-      "summary": "Нападающий минского «Динамо» Николя Обе-Кюбель высказался о силе броска капитана «Вашингтон Кэпиталз» Александра Овечкина.",
-      "content": "Нападающий минского «Динамо» Николя Обе-Кюбель высказался о силе броска капитана «Вашингтон Кэпиталз» Александра Овечкина.",
-      "image": "https://img.championat.com/news/big/z/z/byvshij-igrok-nhl-obyasnil-pochemu-brosok-ovechkina-luchshij-v-istorii-hokkeya_1795412767434153005.jpg",
-      "publishedAt": "2026-11-23T16:00:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6710604-byvshij-igrok-nhl-obyasnil-pochemu-brosok-ovechkina-luchshij-v-istorii-hokkeya.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "Эксклюзив",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Динамо Минск",
-        "Николя Обе-Кюбель"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-mns",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6711306",
-      "slug": "lyuzenkov-rasskazal-o-razgovore-s-rukovodstvom-sibiri-posle-porazheniya-ot-severstali",
-      "title": "Люзенков рассказал о разговоре с руководством «Сибири» после поражения от «Северстали»",
-      "summary": "Главный тренер «Сибири» Ярослав Люзенков рассказал, что после матча с «Северсталью» (2:4) у него состоялся разговор с руководством новосибирского клуба.",
-      "content": "Главный тренер «Сибири» Ярослав Люзенков рассказал, что после матча с «Северсталью» (2:4) у него состоялся разговор с руководством новосибирского клуба.",
-      "image": "https://img.championat.com/news/big/k/i/lyuzenkov-rasskazal-o-razgov.jpg",
-      "publishedAt": "2026-11-23T15:52:09Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711306-lyuzenkov-rasskazal-o-razgovore-s-rukovodstvom-sibiri-posle-porazheniya-ot-severstali.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Сибирь",
-        "Северсталь",
-        "Ярослав Люзенков"
-      ],
-      "relatedTeamIds": [
-        "khl:severstal",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711304",
-      "slug": "glavnyj-trener-sibiri-rasskazal-o-prichinah-porazheniya-ot-severstali",
-      "title": "Главный тренер «Сибири» рассказал о причинах поражения от «Северстали»",
-      "summary": "Главный тренер «Сибири» Ярослав Люзенков объяснил причины поражения от «Северстали» (2:4) в матче регулярного чемпионата Фонбет КХЛ.",
-      "content": "Главный тренер «Сибири» Ярослав Люзенков объяснил причины поражения от «Северстали» (2:4) в матче регулярного чемпионата Фонбет КХЛ.",
-      "image": "https://img.championat.com/news/big/g/o/glavnyj-trener-sibiri-rasska.jpg",
-      "publishedAt": "2026-11-23T15:47:45Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711304-glavnyj-trener-sibiri-rasskazal-o-prichinah-porazheniya-ot-severstali.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Сибирь",
-        "Северсталь",
-        "Ярослав Люзенков"
-      ],
-      "relatedTeamIds": [
-        "khl:severstal",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711294",
-      "slug": "kozyrev-o-shestoj-podryad-pobede-severstali-soderzhanie-ne-takoe-kak-my-hotim-videt",
-      "title": "Козырев — о шестой подряд победе «Северстали»: содержание не такое, как мы хотим видеть",
-      "summary": "Главный тренер «Северстали» Андрей Козырев прокомментировал победу над «Сибирью» (4:2).",
-      "content": "Главный тренер «Северстали» Андрей Козырев прокомментировал победу над «Сибирью» (4:2).",
-      "image": "https://img.championat.com/news/big/f/i/kozyrev-o-shestoj-podryad-po.jpg",
-      "publishedAt": "2026-11-23T15:43:14Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711294-kozyrev-o-shestoj-podryad-pobede-severstali-soderzhanie-ne-takoe-kak-my-hotim-videt.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Сибирь",
-        "Северсталь",
-        "Андрей Козырев"
-      ],
-      "relatedTeamIds": [
-        "khl:severstal",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711280",
-      "slug": "prishlo-vremya-dvigatsya-dalshe-kommentator-matchej-detrojta-ob-obmene-larkina",
-      "title": "«Пришло время двигаться дальше». Комментатор матчей «Детройта» — об обмене Ларкина",
-      "summary": "Комментатор матчей «Детройт Ред Уингз» Кен Дэниелс отреагировал на обмен экс-капитана команды Дилана Ларкина в «Монреаль Канадиенс».",
-      "content": "Комментатор матчей «Детройт Ред Уингз» Кен Дэниелс отреагировал на обмен экс-капитана команды Дилана Ларкина в «Монреаль Канадиенс».",
-      "image": "https://img.championat.com/news/big/c/o/prishlo-vremya-dvigatsya-dalshe-kommentator-matchej-detrojta-ob-obmene-larkina_1795448310659910172.jpg",
-      "publishedAt": "2026-11-23T15:38:31Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711280-prishlo-vremya-dvigatsya-dalshe-kommentator-matchej-detrojta-ob-obmene-larkina.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Переходы — Хоккей",
-        "Монреаль Канадиенс",
-        "Детройт Ред Уингз",
-        "Дилан Ларкин"
-      ],
-      "relatedTeamIds": [
-        "nhl:det",
-        "nhl:mtl"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711288",
-      "slug": "rossijskih-sportsmenov-otstranyat-ot-sorevnovanij-na-territorii-evropejskogo-soyuza",
-      "title": "Спортсменов с флагом России перестанут допускать на соревнования в ЕС",
-      "summary": "Председатель Еврокомиссии Урсула фон дер Ляйен объявила о новых санкциях против российских спортсменов, предусматривающих запрет на участие в международных соревнованиях.",
-      "content": "Председатель Еврокомиссии Урсула фон дер Ляйен объявила о новых санкциях против российских спортсменов, предусматривающих запрет на участие в международных соревнованиях.",
-      "image": "https://img.championat.com/news/big/r/q/sportsmenov-s-flagom-rossii-perestanut-dopuskat-na-sorevnovaniya-v-es_1795449426799349256.jpg",
-      "publishedAt": "2026-11-23T15:37:31Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/other/news-6711288-rossijskih-sportsmenov-otstranyat-ot-sorevnovanij-na-territorii-evropejskogo-soyuza.html",
-      "tags": [
-        "Другие",
-        "Прочие виды спорта",
-        "Футбол",
-        "Хоккей",
-        "Теннис",
-        "Баскетбол",
-        "Бокс/ММА",
-        "Авто",
-        "Волейбол",
-        "Биатлон",
-        "Фигурное катание",
-        "Лыжи"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711248",
-      "slug": "gendirektor-neftehimika-nelzya-sobrat-sostav-v-kotorom-bylo-by-100-vospitannikov",
-      "title": "Гендиректор «Нефтехимика»: нельзя собрать состав, в котором было бы 100% воспитанников",
-      "summary": "Генеральный директор «Нефтехимика» Игорь Ларионов рассказал, по каким критериям клуб оценивает работу своей системы, и объяснил, почему не устанавливает квоты на число воспитанников в первой команде.",
-      "content": "Генеральный директор «Нефтехимика» Игорь Ларионов рассказал, по каким критериям клуб оценивает работу своей системы, и объяснил, почему не устанавливает квоты на число воспитанников в первой команде.",
-      "image": "https://img.championat.com/news/big/q/k/gendirektor-neftehimika-nelz.jpg",
-      "publishedAt": "2026-11-23T15:26:18Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711248-gendirektor-neftehimika-nelzya-sobrat-sostav-v-kotorom-bylo-by-100-vospitannikov.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Нефтехимик",
-        "Игорь Ларионов — функционер"
-      ],
-      "relatedTeamIds": [
-        "khl:neftekhimik"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6710602",
-      "slug": "obe-kyubel-ovechkin-izmenil-hokkej-on-ujdyot-nastoyaschej-legendoj",
-      "title": "Обе-Кюбель: Овечкин изменил хоккей. Он уйдёт настоящей легендой",
-      "summary": "Нападающий минского «Динамо» Николя Обе-Кюбель заявил, что российский нападающий «Вашингтон Кэпиталз» Александр Овечкин оставил после себя великолепное наследие.",
-      "content": "Нападающий минского «Динамо» Николя Обе-Кюбель заявил, что российский нападающий «Вашингтон Кэпиталз» Александр Овечкин оставил после себя великолепное наследие.",
-      "image": "https://img.championat.com/news/big/i/r/obe-kyubel-ovechkin-izmenil-hokkej-on-ujdyot-nastoyaschej-legendoj_1795412669322324727.jpg",
-      "publishedAt": "2026-11-23T15:15:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6710602-obe-kyubel-ovechkin-izmenil-hokkej-on-ujdyot-nastoyaschej-legendoj.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "Эксклюзив",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Динамо Минск",
-        "Николя Обе-Кюбель"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-mns",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6711206",
-      "slug": "zhurnalist-the-athletic-johe-malkin-hochet-byt-parnem-s-odnoj-komandoj-kak-krosbi",
-      "title": "Журналист The Athletic Йохе: Малкин хочет быть парнем с одной командой, как Кросби",
-      "summary": "Журналист Джош Йохе в своей статье на сайте The Athletic поделился мыслями относительно будущего российского нападающего «Питтсбург Пингвинз» Евгения Малкина в НХЛ.",
-      "content": "Журналист Джош Йохе в своей статье на сайте The Athletic поделился мыслями относительно будущего российского нападающего «Питтсбург Пингвинз» Евгения Малкина в НХЛ.",
-      "image": "https://img.championat.com/news/big/z/j/zhurnalist-the-athletic-johe-malkin-hochet-byt-parnem-s-odnoj-komandoj-kak-krosbi_17954466431907394657.jpg",
-      "publishedAt": "2026-11-23T15:11:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711206-zhurnalist-the-athletic-johe-malkin-hochet-byt-parnem-s-odnoj-komandoj-kak-krosbi.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Питтсбург Пингвинз",
-        "Евгений Малкин",
-        "Сидни Кросби"
-      ],
-      "relatedTeamIds": [
-        "nhl:pit"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711156",
-      "slug": "sibir-severstal-rezultat-matcha-23-noyabrya-2026-goda-schet-2-4-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Северсталь» одолела «Сибирь» и продлила серию побед до шести матчей",
-      "summary": "Сегодня, 23 ноября, в Новосибирске на стадионе «Сибирь-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Сибирь» принимала череповецкую «Северсталь».",
-      "content": "Сегодня, 23 ноября, в Новосибирске на стадионе «Сибирь-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местная «Сибирь» принимала череповецкую «Северсталь».",
-      "image": "assets/images/news_ska_lokomotiv.jpg",
-      "publishedAt": "2026-11-23T14:46:54Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711156-sibir-severstal-rezultat-matcha-23-noyabrya-2026-goda-schet-2-4-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Сибирь",
-        "Северсталь"
-      ],
-      "relatedTeamIds": [
-        "khl:severstal",
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6710598",
-      "slug": "kanadskij-eks-hokkeist-nhl-mezhdu-ovechkinym-i-krosbi-vybral-rossiyanina",
-      "title": "Канадский экс-хоккеист НХЛ между Овечкиным и Кросби выбрал россиянина",
-      "summary": "Нападающий минского «Динамо» Николя Обе-Кюбель при выборе между выдающимися хоккеистами Сидни Кросби и Александром Овечкиным отдал предпочтение российскому форварду «Вашингтон Кэпиталз».",
-      "content": "Нападающий минского «Динамо» Николя Обе-Кюбель при выборе между выдающимися хоккеистами Сидни Кросби и Александром Овечкиным отдал предпочтение российскому форварду «Вашингтон Кэпиталз».",
-      "image": "https://img.championat.com/news/big/j/m/kanadskij-eks-hokkeist-nhl-mezhdu-ovechkinym-i-krosbi-vybral-rossiyanina_1795412540433771696.jpg",
-      "publishedAt": "2026-11-23T14:40:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6710598-kanadskij-eks-hokkeist-nhl-mezhdu-ovechkinym-i-krosbi-vybral-rossiyanina.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "Эксклюзив",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Динамо Минск",
-        "Питтсбург Пингвинз",
-        "Сидни Кросби",
-        "Николя Обе-Кюбель"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-mns",
-        "nhl:pit",
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6711136",
-      "slug": "zhurnalist-the-athletic-pronman-nazval-obmen-larkina-v-monreal-vygodnym-dlya-kluba",
-      "title": "Журналист The Athletic Пронман назвал обмен Ларкина в «Монреаль» выгодным для клуба",
-      "summary": "Журналист Кори Пронман в статье для The Athletic оценил обмен экс-капитана «Детройт Ред Уингз» Дилана Ларкина в «Монреаль Канадиенс».",
-      "content": "Журналист Кори Пронман в статье для The Athletic оценил обмен экс-капитана «Детройт Ред Уингз» Дилана Ларкина в «Монреаль Канадиенс».",
-      "image": "https://img.championat.com/news/big/m/b/zhurnalist-the-athletic-pronman-nazval-obmen-larkina-v-monreal-vygodnym-dlya-kluba_17954441681210296721.jpg",
-      "publishedAt": "2026-11-23T14:29:33Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711136-zhurnalist-the-athletic-pronman-nazval-obmen-larkina-v-monreal-vygodnym-dlya-kluba.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Переходы — Хоккей",
-        "Монреаль Канадиенс",
-        "Детройт Ред Уингз",
-        "Дилан Ларкин",
-        "Кирби Дак",
-        "Сэм Монтембо",
-        "Майкл Хейдж"
-      ],
-      "relatedTeamIds": [
-        "nhl:det",
-        "nhl:mtl"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711126",
-      "slug": "plyuschev-ne-sovsem-ponyatna-kadrovaya-politika-dinamo",
-      "title": "Плющев: не совсем понятна кадровая политика «Динамо»",
-      "summary": "Бывший тренер сборной России Владимир Плющев прокомментировал смену тренеров в московском «Динамо» и «Металлурге».",
-      "content": "Бывший тренер сборной России Владимир Плющев прокомментировал смену тренеров в московском «Динамо» и «Металлурге».",
-      "image": "https://img.championat.com/news/big/a/b/plyuschev-ne-sovsem-ponyatna.jpg",
-      "publishedAt": "2026-11-23T14:08:14Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711126-plyuschev-ne-sovsem-ponyatna-kadrovaya-politika-dinamo.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Металлург Мг",
-        "Владимир Плющев",
-        "Леонид Тамбиев",
-        "Олег Ореховский",
-        "Константин Шафранов"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk",
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6710596",
-      "slug": "kanadec-iz-dinamo-minsk-rasskazal-kak-semya-otreagirovala-na-ego-reshenie-poehat-v-khl",
-      "title": "Канадец из «Динамо» Минск рассказал, как семья отреагировала на его решение поехать в КХЛ",
-      "summary": "Нападающий минского «Динамо» Николя Обе-Кюбель рассказал о реакции своей семьи на решение продолжить карьеру в КХЛ.",
-      "content": "Нападающий минского «Динамо» Николя Обе-Кюбель рассказал о реакции своей семьи на решение продолжить карьеру в КХЛ.",
-      "image": "https://img.championat.com/news/big/a/d/kanadec-iz-dinamo-minsk-rasskazal-kak-semya-otreagirovala-na-ego-reshenie-poehat-v-khl_1795412332952443740.jpg",
-      "publishedAt": "2026-11-23T14:00:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6710596-kanadec-iz-dinamo-minsk-rasskazal-kak-semya-otreagirovala-na-ego-reshenie-poehat-v-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Эксклюзив",
-        "Динамо Минск",
-        "Николя Обе-Кюбель"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-mns"
       ],
       "relatedPlayerIds": []
     }
