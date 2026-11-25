@@ -6,31 +6,96 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-25T01:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 1,
+  "clock": "05:12",
   "finishedIn": null,
   "home": {
     "id": "nhl:edm",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 2
   },
   "away": {
     "id": "nhl:vgk",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 8
   },
   "arena": "Rogers Place",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "03:53",
+      "team": "home",
+      "playerId": "nhl:p_8475218",
+      "playerName": "Mattias Ekholm",
+      "minutes": 4,
+      "reason": "high-sticking-double-minor",
+      "order": 66
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "06:13",
+      "team": "away",
+      "playerId": "nhl:p_8478403",
+      "playerName": "Jack Eichel",
+      "assists": [
+        "nhl:p_8478483",
+        "nhl:p_8478109"
+      ],
+      "score": "0-1",
+      "order": 94
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "09:07",
+      "team": "away",
+      "playerId": "nhl:p_8484803",
+      "playerName": "Trevor Connelly",
+      "score": "0-2",
+      "order": 136
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "09:33",
+      "team": "home",
+      "playerId": "nhl:p_8482703",
+      "playerName": "Colton Dach",
+      "minutes": 2,
+      "reason": "high-sticking",
+      "order": 142
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      2,
+      8
+    ],
+    "shotsOnGoal": [
+      2,
+      8
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020385/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020385/play-by-play"
+    ],
+    "fetchedAt": "2026-11-25T01:38:32.303852+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +103,6 @@
     "url": "https://www.nhl.com/gamecenter/vgk-vs-edm/2026/11/24/2026020385",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/vgk-vs-edm/2026/11/24/2026020385",
-    "verifiedAt": "2026-11-24T17:50:54.831556Z"
+    "verifiedAt": "2026-11-25T01:38:32.303893Z"
   }
 }

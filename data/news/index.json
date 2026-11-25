@@ -1,6 +1,600 @@
 {
   "news": [
     {
+      "id": "news-6712818",
+      "slug": "rezultaty-matchej-mhl-na-24-noyabrya-2026-goda",
+      "title": "Результаты матчей МХЛ на 24 ноября 2026 года",
+      "summary": "Сегодня, 24 ноября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "content": "Сегодня, 24 ноября, прошли очередные матчи регулярного чемпионата OLIMPBET Молодёжной хоккейной лиги.",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-11-24T20:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712818-rezultaty-matchej-mhl-na-24-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "МХЛ",
+        "МХК Спартак",
+        "МХК Омские Ястребы",
+        "МХК Алмаз",
+        "МХК Амурские Тигры",
+        "МХК Сахалинские Акулы",
+        "МХК Спутник Альметьевск"
+      ],
+      "relatedTeamIds": [
+        "khl:spartak"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712842",
+      "slug": "napadayuschij-monrealya-ivan-demidov-blizok-k-vozvrascheniyu-posle-travmy",
+      "title": "Нападающий «Монреаля» Иван Демидов близок к возвращению после травмы",
+      "summary": "Нападающий «Монреаль Канадиенс» Иван Демидов близок к возвращению в состав команды после травмы, сообщает пресс-служба канадского клуба.",
+      "content": "Нападающий «Монреаль Канадиенс» Иван Демидов близок к возвращению в состав команды после травмы, сообщает пресс-служба канадского клуба.",
+      "image": "https://img.championat.com/news/big/l/w/napadayuschij-monrealya-ivan-demidov-blizok-k-vozvrascheniyu-posle-travmy_17955529611996955454.jpg",
+      "publishedAt": "2026-11-24T20:45:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712842-napadayuschij-monrealya-ivan-demidov-blizok-k-vozvrascheniyu-posle-travmy.html",
+      "tags": [
+        "Хоккей",
+        "НХЛ",
+        "Монреаль Канадиенс",
+        "Иван Демидов — хоккей",
+        "Мартен Сан-Луи"
+      ],
+      "relatedTeamIds": [
+        "nhl:mtl"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712810",
+      "slug": "rezultaty-matchej-vhl-na-24-noyabrya-2026-goda",
+      "title": "Результаты матчей ВХЛ на 24 ноября 2026 года",
+      "summary": "Сегодня, 24 ноября, прошли четыре матча OLIMPBET Чемпионата России ВХЛ.",
+      "content": "Сегодня, 24 ноября, прошли четыре матча OLIMPBET Чемпионата России ВХЛ.",
+      "image": "assets/images/hero_banner.jpg",
+      "publishedAt": "2026-11-24T20:40:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712810-rezultaty-matchej-vhl-na-24-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "ВХЛ",
+        "Химик",
+        "Барс",
+        "Сокол Красноярск",
+        "Буран",
+        "Звезда",
+        "Омские Крылья",
+        "Тамбов",
+        "Калуга"
+      ],
+      "relatedTeamIds": [],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712730",
+      "slug": "rezultaty-matchej-khl-na-24-noyabrya-2026-goda",
+      "title": "Результаты матчей КХЛ на 24 ноября 2026 года",
+      "summary": "Сегодня, 24 ноября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "content": "Сегодня, 24 ноября, продолжился регулярный чемпионат Фонбет Континентальной хоккейной лиги сезона-2026/2027.",
+      "image": "https://img.championat.com/news/big/x/e/rezultaty-matchej-khl-na-24-noyabrya-2026-goda_1795547727156814053.jpg",
+      "publishedAt": "2026-11-24T20:30:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712730-rezultaty-matchej-khl-na-24-noyabrya-2026-goda.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Ак Барс",
+        "Салават Юлаев",
+        "Металлург Мг",
+        "Трактор",
+        "Динамо Минск",
+        "Автомобилист",
+        "Нефтехимик",
+        "Адмирал",
+        "Лада"
+      ],
+      "relatedTeamIds": [
+        "khl:admiral",
+        "khl:ak-bars",
+        "khl:avtomobilist",
+        "khl:dynamo-mns",
+        "khl:dynamo-msk",
+        "khl:lada",
+        "khl:metallurg-mg",
+        "khl:neftekhimik",
+        "khl:salavat-yulaev",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712726",
+      "slug": "igru-mozhno-razdelit-na-dve-chasti-gorbenko-o-porazhenii-lady-v-matche-s-traktorom",
+      "title": "«Игру можно разделить на две части». Горбенко — о поражении «Лады» в матче с «Трактором»",
+      "summary": "Главный тренер «Лады» Игорь Горбенко прокомментировал поражение в гостевом матче с «Трактором» (2:5).",
+      "content": "Главный тренер «Лады» Игорь Горбенко прокомментировал поражение в гостевом матче с «Трактором» (2:5).",
+      "image": "https://img.championat.com/news/big/y/g/igru-mozhno-razdelit-na-dve-chasti-gorbenko-o-porazhenii-lady-v-matche-s-traktorom_1795547445829407559.jpg",
+      "publishedAt": "2026-11-24T20:25:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712726-igru-mozhno-razdelit-na-dve-chasti-gorbenko-o-porazhenii-lady-v-matche-s-traktorom.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Трактор",
+        "Лада",
+        "Игорь Горбенко"
+      ],
+      "relatedTeamIds": [
+        "khl:lada",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712722",
+      "slug": "skott-gordon-ocenil-pobedu-traktora-v-domashnem-matche-s-ladoj",
+      "title": "Скотт Гордон оценил победу «Трактора» в домашнем матче с «Ладой»",
+      "summary": "Главный тренер «Трактора» Скотт Гордон прокомментировал победу в домашнем матче с «Ладой» (5:2).",
+      "content": "Главный тренер «Трактора» Скотт Гордон прокомментировал победу в домашнем матче с «Ладой» (5:2).",
+      "image": "https://img.championat.com/news/big/o/r/skott-gordon-ocenil-pobedu-t.jpg",
+      "publishedAt": "2026-11-24T20:20:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712722-skott-gordon-ocenil-pobedu-traktora-v-domashnem-matche-s-ladoj.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Трактор",
+        "Лада",
+        "Скотт Гордон"
+      ],
+      "relatedTeamIds": [
+        "khl:lada",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712806",
+      "slug": "olson-travmirovan-nachal-katatsya-kudashov-o-novichke-avtomobilista",
+      "title": "«Олсон травмирован, начал кататься». Кудашов — о новичке «Автомобилиста»",
+      "summary": "Главный тренер «Автомобилиста» Алексей Кудашов высказался о состоянии новичка команды нападающего Кайла Олсона.",
+      "content": "Главный тренер «Автомобилиста» Алексей Кудашов высказался о состоянии новичка команды нападающего Кайла Олсона.",
+      "image": "https://img.championat.com/news/big/m/k/olson-travmirovan-nachal-kat.jpg",
+      "publishedAt": "2026-11-24T20:15:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712806-olson-travmirovan-nachal-katatsya-kudashov-o-novichke-avtomobilista.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Автомобилист",
+        "Алексей Кудашов",
+        "Кайл Олсон"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712800",
+      "slug": "mozhet-zaberut-obratno-v-cska-kudashov-o-spronge",
+      "title": "«Может, заберут обратно в ЦСКА». Кудашов — о Спронге",
+      "summary": "Главный тренер «Автомобилиста» Алексей Кудашов высказался об игре нападающего Даниэля Спронга в матче с московским «Динамо» (2:4).",
+      "content": "Главный тренер «Автомобилиста» Алексей Кудашов высказался об игре нападающего Даниэля Спронга в матче с московским «Динамо» (2:4).",
+      "image": "https://img.championat.com/news/big/q/x/mozhet-zaberut-obratno-v-csk.jpg",
+      "publishedAt": "2026-11-24T20:10:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712800-mozhet-zaberut-obratno-v-cska-kudashov-o-spronge.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "ЦСКА",
+        "Динамо Москва",
+        "Автомобилист",
+        "Алексей Кудашов",
+        "Даниэль Спронг"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:cska",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712798",
+      "slug": "eto-sovershenno-drugaya-komanda-kudashova-ob-igre-dinamo-pri-tambieve-i-orehovskom",
+      "title": "«Это совершенно другая команда». Кудашов — об игре «Динамо» при Тамбиеве и Ореховском",
+      "summary": "Главный тренер «Автомобилиста» Алексей Кудашов сравнил игру московского «Динамо» при Олеге Ореховском и при прошлом главном тренере команды Леониде Тамбиеве.",
+      "content": "Главный тренер «Автомобилиста» Алексей Кудашов сравнил игру московского «Динамо» при Олеге Ореховском и при прошлом главном тренере команды Леониде Тамбиеве.",
+      "image": "https://img.championat.com/news/big/q/v/eto-sovershenno-drugaya-komanda-kudashov-ob-igre-dinamo-pri-tambieve-i-orehovskom_1795551346152291678.jpg",
+      "publishedAt": "2026-11-24T20:05:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712798-eto-sovershenno-drugaya-komanda-kudashova-ob-igre-dinamo-pri-tambieve-i-orehovskom.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Автомобилист",
+        "Алексей Кудашов",
+        "Леонид Тамбиев",
+        "Олег Ореховский"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712788",
+      "slug": "trener-dinamo-o-gole-pylenkova-daniil-izvinilsya-pered-mnoj-my-posmeyalis",
+      "title": "Тренер «Динамо» — о голе Пыленкова: Даниил извинился передо мной. Мы посмеялись",
+      "summary": "Исполняющий обязанности главного тренера московского «Динамо» Олег Ореховский высказался о достижении защитника Даниила Пыленкова.",
+      "content": "Исполняющий обязанности главного тренера московского «Динамо» Олег Ореховский высказался о достижении защитника Даниила Пыленкова.",
+      "image": "https://img.championat.com/news/big/j/h/trener-dinamo-o-gole-pylenkova-daniil-izvinilsya-peredo-mnoj-my-posmeyalis_1795551175902293011.jpg",
+      "publishedAt": "2026-11-24T20:00:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712788-trener-dinamo-o-gole-pylenkova-daniil-izvinilsya-pered-mnoj-my-posmeyalis.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Автомобилист",
+        "Олег Ореховский",
+        "Даниил Пыленков"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712782",
+      "slug": "rebyata-stoyat-u-razdevalki-s-nimi-razgovarivayu-kudashov-ob-obschenii-s-igrokami-dinamo",
+      "title": "«Ребята стоят у раздевалки, с ними разговариваю». Кудашов — об общении с игроками «Динамо»",
+      "summary": "Главный тренер «Автомобилиста» Алексей Кудашов высказался об общении с некоторыми игроками московского «Динамо», в котором он ранее работал.",
+      "content": "Главный тренер «Автомобилиста» Алексей Кудашов высказался об общении с некоторыми игроками московского «Динамо», в котором он ранее работал.",
+      "image": "https://img.championat.com/news/big/t/j/rebyata-stoyat-u-razdevalki-.jpg",
+      "publishedAt": "2026-11-24T19:55:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712782-rebyata-stoyat-u-razdevalki-s-nimi-razgovarivayu-kudashov-ob-obschenii-s-igrokami-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Автомобилист",
+        "Алексей Кудашов",
+        "Егор Римашевский"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712778",
+      "slug": "v-moskovskom-dinamo-soobschili-chto-vtoroj-golkiper-komandy-poluchil-povrezhdenie",
+      "title": "В московском «Динамо» сообщили, что второй голкипер команды получил повреждение",
+      "summary": "Исполняющий обязанности главного тренера московского «Динамо» Олег Ореховский рассказал о травме второго голкипера Максима Моторыгина.",
+      "content": "Исполняющий обязанности главного тренера московского «Динамо» Олег Ореховский рассказал о травме второго голкипера Максима Моторыгина.",
+      "image": "https://img.championat.com/news/big/b/h/v-moskovskom-dinamo-soobschi.jpg",
+      "publishedAt": "2026-11-24T19:52:21Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712778-v-moskovskom-dinamo-soobschili-chto-vtoroj-golkiper-komandy-poluchil-povrezhdenie.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Олег Ореховский",
+        "Максим Моторыгин"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712776",
+      "slug": "vsyo-slyshal-po-vozmozhnosti-pomahal-rukoj-kudashov-o-podderzhke-bolelschikov-dinamo",
+      "title": "«Всё слышал, по возможности помахал рукой». Кудашов — о поддержке болельщиков «Динамо»",
+      "summary": "Главный тренер «Автомобилиста» Алексей Кудашов высказался о поражении в матче с московским «Динамо» (2:4), в котором он ранее работал несколько лет.",
+      "content": "Главный тренер «Автомобилиста» Алексей Кудашов высказался о поражении в матче с московским «Динамо» (2:4), в котором он ранее работал несколько лет.",
+      "image": "https://img.championat.com/news/big/v/t/vsyo-slyshal-po-vozmozhnosti.jpg",
+      "publishedAt": "2026-11-24T19:50:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712776-vsyo-slyshal-po-vozmozhnosti-pomahal-rukoj-kudashov-o-podderzhke-bolelschikov-dinamo.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Автомобилист",
+        "Алексей Кудашов"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712772",
+      "slug": "my-ego-ochen-zhdali-trener-dinamo-vyskazalsya-o-vozvraschenii-uila-v-raspolozhenie-kluba",
+      "title": "«Мы его очень ждали». Тренер «Динамо» высказался о возвращении Уила в расположение клуба",
+      "summary": "Исполняющий обязанности главного тренера московского «Динамо» Олег Ореховский высказался о возвращении нападающего Джордана Уила в расположение клуба.",
+      "content": "Исполняющий обязанности главного тренера московского «Динамо» Олег Ореховский высказался о возвращении нападающего Джордана Уила в расположение клуба.",
+      "image": "https://img.championat.com/news/big/y/y/my-ego-ochen-zhdali-trener-d.jpg",
+      "publishedAt": "2026-11-24T19:47:13Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712772-my-ego-ochen-zhdali-trener-dinamo-vyskazalsya-o-vozvraschenii-uila-v-raspolozhenie-kluba.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Джордан Уил",
+        "Олег Ореховский"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712762",
+      "slug": "oleg-orehovskij-ocenil-pobedu-dinamo-nad-avtomobilistom-gde-specialist-ranshe-rabotal",
+      "title": "Олег Ореховский оценил победу «Динамо» над «Автомобилистом», где специалист раньше работал",
+      "summary": "Исполняющий обязанности главного тренера московского «Динамо» Олег Ореховский высказался о победе в матче с «Автомобилистом» (4:2).",
+      "content": "Исполняющий обязанности главного тренера московского «Динамо» Олег Ореховский высказался о победе в матче с «Автомобилистом» (4:2).",
+      "image": "https://img.championat.com/news/big/n/c/oleg-orehovskij-ocenil-pobed.jpg",
+      "publishedAt": "2026-11-24T19:45:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712762-oleg-orehovskij-ocenil-pobedu-dinamo-nad-avtomobilistom-gde-specialist-ranshe-rabotal.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Автомобилист",
+        "Олег Ореховский"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712760",
+      "slug": "chto-by-ni-sluchilos-gotov-uil-otvetil-smozhet-li-sygrat-za-dinamo-v-sleduyuschem-matche",
+      "title": "«Что бы ни случилось, готов». Уил ответил, сможет ли сыграть за «Динамо» в следующем матче",
+      "summary": "Нападающий «Динамо» Джордан Уил оценил вероятность своего возвращения в следующей встрече бело-голубых.",
+      "content": "Нападающий «Динамо» Джордан Уил оценил вероятность своего возвращения в следующей встрече бело-голубых.",
+      "image": "https://img.championat.com/news/big/s/j/chto-by-ni-sluchilos-gotov-u.jpg",
+      "publishedAt": "2026-11-24T19:40:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712760-chto-by-ni-sluchilos-gotov-uil-otvetil-smozhet-li-sygrat-za-dinamo-v-sleduyuschem-matche.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Джордан Уил"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712750",
+      "slug": "eto-biznes-esli-rezultatov-net-takoe-byvaet-uil-ob-uvolnenii-tambieva",
+      "title": "«Это бизнес, если результатов нет, такое бывает». Уил — об увольнении Тамбиева",
+      "summary": "Нападающий «Динамо» Джордан Уил высказался об увольнении Леонида Тамбиева с поста главного тренера бело-голубых.",
+      "content": "Нападающий «Динамо» Джордан Уил высказался об увольнении Леонида Тамбиева с поста главного тренера бело-голубых.",
+      "image": "https://img.championat.com/news/big/w/c/eto-biznes-esli-rezultatov-n.jpg",
+      "publishedAt": "2026-11-24T19:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712750-eto-biznes-esli-rezultatov-net-takoe-byvaet-uil-ob-uvolnenii-tambieva.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Леонид Тамбиев",
+        "Джордан Уил"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712746",
+      "slug": "pust-sport-ostayotsya-sportom-uil-o-nedopuske-rossiyan-do-molodyozhnogo-chempionata-mira",
+      "title": "«Пусть спорт остаётся спортом». Уил — о недопуске россиян до молодёжного чемпионата мира",
+      "summary": "Нападающий «Динамо» Джордан Уил высказался о ситуации с неучастием российской сборной в предстоящем молодёжном чемпионате мира в Канаде.",
+      "content": "Нападающий «Динамо» Джордан Уил высказался о ситуации с неучастием российской сборной в предстоящем молодёжном чемпионате мира в Канаде.",
+      "image": "https://img.championat.com/news/big/p/a/pust-sport-ostayotsya-sporto.jpg",
+      "publishedAt": "2026-11-24T19:27:09Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712746-pust-sport-ostayotsya-sportom-uil-o-nedopuske-rossiyan-do-molodyozhnogo-chempionata-mira.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "МЧМ по хоккею 2027",
+        "Динамо Москва",
+        "Молодёжная сборная России — Хоккей",
+        "Джордан Уил",
+        "Возвращение России в международный хоккей"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712738",
+      "slug": "uil-moj-syn-chuvstvuet-sebya-namnogo-luchshe-rad-vernutsya-v-dinamo-i-byt-s-rebyatami",
+      "title": "Уил: мой сын чувствует себя намного лучше, рад вернуться в «Динамо» и быть с ребятами",
+      "summary": "Нападающий «Динамо» Джордан Уил высказался о самочувствии своего сына, у которого были проблемы со здоровьем.",
+      "content": "Нападающий «Динамо» Джордан Уил высказался о самочувствии своего сына, у которого были проблемы со здоровьем.",
+      "image": "https://img.championat.com/news/big/t/x/uil-moj-syn-chuvstvuet-sebya.jpg",
+      "publishedAt": "2026-11-24T19:20:43Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712738-uil-moj-syn-chuvstvuet-sebya-namnogo-luchshe-rad-vernutsya-v-dinamo-i-byt-s-rebyatami.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Джордан Уил"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712698",
+      "slug": "brylin-o-porazhenii-ot-metallurga-4-golov-dolzhno-byt-dostatochno-hotya-by-dlya-odnogo-ochka",
+      "title": "Брылин о поражении от «Металлурга»: 4 голов должно быть достаточно хотя бы для одного очка",
+      "summary": "Главный тренер минского «Динамо Сергей Брылин высказался о поражении в результативной встрече с «Металлургом» (4:5).",
+      "content": "Главный тренер минского «Динамо Сергей Брылин высказался о поражении в результативной встрече с «Металлургом» (4:5).",
+      "image": "https://img.championat.com/news/big/m/s/brylin-o-porazhenii-ot-metallurga-4-golov-dolzhno-byt-dostatochno-hotya-by-dlya-odnogo-och_17955455481093499369.jpg",
+      "publishedAt": "2026-11-24T19:10:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712698-brylin-o-porazhenii-ot-metallurga-4-golov-dolzhno-byt-dostatochno-hotya-by-dlya-odnogo-ochka.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Динамо Минск",
+        "Сергей Брылин"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712680",
+      "slug": "dinamo-m-avtomobilist-rezultat-matcha-24-noyabrya-2026-goda-schet-4-2-regulyarnyj-chempionat-khl-2026-2027",
+      "title": "Московское «Динамо» обыграло «Автомобилист» и одержало пятую победу подряд",
+      "summary": "Сегодня, 24 ноября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» принимало «Автомо...",
+      "content": "Сегодня, 24 ноября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» принимало «Автомобилист».",
+      "image": "https://img.championat.com/news/big/t/w/moskovskoe-dinamo-obygralo-avtomobilist-i-oderzhalo-pyatuyu-pobedu-podryad_1795544271901041677.jpg",
+      "publishedAt": "2026-11-24T18:48:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712680-dinamo-m-avtomobilist-rezultat-matcha-24-noyabrya-2026-goda-schet-4-2-regulyarnyj-chempionat-khl-2026-2027.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Динамо Москва",
+        "Автомобилист"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712672",
+      "slug": "zaschitnik-avtomobilista-vorobyov-prerval-bezgolevuyu-seriyu-iz-117-matchej-s-uchyotom-plej-off",
+      "title": "Защитник «Автомобилиста» Воробьёв прервал безголевую серию из 117 матчей с учётом плей-офф",
+      "summary": "Защитник «Автомобилиста» Кирилл Воробьёв прервал безголевую серию из 117 матчей с учётом плей-офф.",
+      "content": "Защитник «Автомобилиста» Кирилл Воробьёв прервал безголевую серию из 117 матчей с учётом плей-офф.",
+      "image": "https://img.championat.com/news/big/y/p/zaschitnik-avtomobilista-vor.jpg",
+      "publishedAt": "2026-11-24T18:30:05Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712672-zaschitnik-avtomobilista-vorobyov-prerval-bezgolevuyu-seriyu-iz-117-matchej-s-uchyotom-plej-off.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Видео",
+        "Динамо Москва",
+        "Автомобилист",
+        "Кирилл Воробьёв"
+      ],
+      "relatedTeamIds": [
+        "khl:avtomobilist",
+        "khl:dynamo-msk"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712660",
+      "slug": "nam-nuzhno-bylo-prosto-poterpet-zaschitnik-traktora-vyskazalsya-o-pobede-nad-ladoj",
+      "title": "«Нам нужно было просто потерпеть». Защитник «Трактора» высказался о победе над «Ладой»",
+      "summary": "Защитник «Трактора» Дмитрий Бреус высказался о победе в домашней встрече с «Ладой» (5:2).",
+      "content": "Защитник «Трактора» Дмитрий Бреус высказался о победе в домашней встрече с «Ладой» (5:2).",
+      "image": "assets/images/news_spartak_traktor.jpg",
+      "publishedAt": "2026-11-24T18:20:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712660-nam-nuzhno-bylo-prosto-poterpet-zaschitnik-traktora-vyskazalsya-o-pobede-nad-ladoj.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Эксклюзив",
+        "Трактор",
+        "Лада"
+      ],
+      "relatedTeamIds": [
+        "khl:lada",
+        "khl:traktor"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712654",
+      "slug": "grishin-o-porazhenii-neftehimika-ot-salavata-rebyata-molodcy-chto-ne-opustili-ruki",
+      "title": "Гришин — о поражении «Нефтехимика» от «Салавата»: ребята молодцы, что не опустили руки",
+      "summary": "Главный тренер «Нефтехимика» Игорь Гришин подвёл итог матча с «Салаватом Юлаевым» (4:5 ОТ).",
+      "content": "Главный тренер «Нефтехимика» Игорь Гришин подвёл итог матча с «Салаватом Юлаевым» (4:5 ОТ).",
+      "image": "https://img.championat.com/news/big/d/q/grishin-o-porazhenii-neftehi.jpg",
+      "publishedAt": "2026-11-24T18:10:04Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712654-grishin-o-porazhenii-neftehimika-ot-salavata-rebyata-molodcy-chto-ne-opustili-ruki.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Салават Юлаев",
+        "Нефтехимик",
+        "Игорь Гришин"
+      ],
+      "relatedTeamIds": [
+        "khl:neftekhimik",
+        "khl:salavat-yulaev"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
+      "id": "news-6712652",
+      "slug": "shafranov-ocenil-debyut-napadayuschego-ivana-morozova-za-metallurg",
+      "title": "Шафранов оценил дебют нападающего Ивана Морозова за «Металлург»",
+      "summary": "Главный тренер «Металлурга» Константин Шафранов оценил дебютный матч нападающего Ивана Морозова.",
+      "content": "Главный тренер «Металлурга» Константин Шафранов оценил дебютный матч нападающего Ивана Морозова.",
+      "image": "https://img.championat.com/news/big/c/h/shafranov-ocenil-debyut-napadayuschego-ivana-morozova-za-metallurg_17955420791044339846.jpg",
+      "publishedAt": "2026-11-24T18:00:07Z",
+      "source": "Чемпионат • Хоккей",
+      "url": "https://www.championat.com/hockey/news-6712652-shafranov-ocenil-debyut-napadayuschego-ivana-morozova-za-metallurg.html",
+      "tags": [
+        "Хоккей",
+        "КХЛ",
+        "Металлург Мг",
+        "Динамо Минск",
+        "Иван Морозов",
+        "Константин Шафранов"
+      ],
+      "relatedTeamIds": [
+        "khl:dynamo-mns",
+        "khl:metallurg-mg"
+      ],
+      "relatedPlayerIds": []
+    },
+    {
       "id": "news-6712650",
       "slug": "shafranov-vyskazalsya-o-pobede-metallurga-v-rezultativnom-matche-s-minskim-dinamo",
       "title": "Шафранов высказался о победе «Металлурга» в результативном матче с минским «Динамо»",
@@ -135,581 +729,6 @@
       "relatedTeamIds": [
         "khl:dynamo-mns",
         "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712548",
-      "slug": "traktor-lada-rezultat-matcha-24-noyabrya-2026-goda-schet-5-2-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "«Трактор» победил «Ладу», забросив две шайбы за 68 секунд в третьем периоде",
-      "summary": "Сегодня, 24 ноября, в Челябинске на стадионе «Арена-Трактор имени Валерия Белоусова» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Трактор» принимал «...",
-      "content": "Сегодня, 24 ноября, в Челябинске на стадионе «Арена-Трактор имени Валерия Белоусова» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Трактор» принимал «Ладу».",
-      "image": "https://img.championat.com/news/big/o/t/traktor-pobedil-ladu-zabrosiv-dve-shajby-za-68-sekund-v-tretem-periode_17955361101480799101.jpg",
-      "publishedAt": "2026-11-24T16:11:11Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712548-traktor-lada-rezultat-matcha-24-noyabrya-2026-goda-schet-5-2-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Трактор",
-        "Лада"
-      ],
-      "relatedTeamIds": [
-        "khl:lada",
-        "khl:traktor"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712512",
-      "slug": "uejn-gretcki-vyskazalsya-o-vozmozhnosti-konnora-makdevida-nabrat-200-ochkov-za-sezon-nhl",
-      "title": "Уэйн Гретцки высказался о возможности Коннора Макдэвида набрать 200 очков за сезон НХЛ",
-      "summary": "Лучший бомбардир в истории НХЛ Уэйн Гретцки поделился мыслями о том, что у нападающего «Эдмонтон Ойлерз» Коннора Макдэвида есть возможность набрать 200 очков в регулярном чемпионате в этом сезоне.",
-      "content": "Лучший бомбардир в истории НХЛ Уэйн Гретцки поделился мыслями о том, что у нападающего «Эдмонтон Ойлерз» Коннора Макдэвида есть возможность набрать 200 очков в регулярном чемпионате в этом сезоне.",
-      "image": "https://img.championat.com/news/big/d/b/uejn-gretcki-vyskazalsya-o-vozmozhnosti-konnora-makdevida-nabrat-200-ochkov-za-sezon-nhl_1795533474468254371.jpg",
-      "publishedAt": "2026-11-24T15:45:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712512-uejn-gretcki-vyskazalsya-o-vozmozhnosti-konnora-makdevida-nabrat-200-ochkov-za-sezon-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Эдмонтон Ойлерз",
-        "Коннор Макдэвид",
-        "Уэйн Гретцки"
-      ],
-      "relatedTeamIds": [
-        "nhl:edm"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8478402"
-      ]
-    },
-    {
-      "id": "news-6712376",
-      "slug": "ovechkin-lyuboj-igrok-pereshedshij-v-vashington-skazhet-chto-nasha-organizaciya-osobennaya",
-      "title": "Овечкин: любой игрок, перешедший в «Вашингтон», скажет, что наша организация особенная",
-      "summary": "Капитан «Вашингтон Кэпиталз» Александр Овечкин высоко оценил работу владельца столичного клуба Теда Леонсиса и его вклад в развитие спорта в регионе.",
-      "content": "Капитан «Вашингтон Кэпиталз» Александр Овечкин высоко оценил работу владельца столичного клуба Теда Леонсиса и его вклад в развитие спорта в регионе.",
-      "image": "https://img.championat.com/news/big/o/k/ovechkin-lyuboj-igrok-pereshedshij-v-vashington-skazhet-chto-nasha-organizaciya-osobennaya_1795528441470410666.jpg",
-      "publishedAt": "2026-11-24T15:20:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712376-ovechkin-lyuboj-igrok-pereshedshij-v-vashington-skazhet-chto-nasha-organizaciya-osobennaya.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Тед Леонсис"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6712484",
-      "slug": "ak-bars-ischet-varianty-obmena-napadayuschego-alekseya-byvalceva",
-      "title": "«Ак Барс» ищет варианты обмена нападающего Алексея Бывальцева",
-      "summary": "«Ак Барс» ищет варианты обмена нападающего Алексея Бывальцева, сообщает пресс-служба агентства Winners.",
-      "content": "«Ак Барс» ищет варианты обмена нападающего Алексея Бывальцева, сообщает пресс-служба агентства Winners.",
-      "image": "https://img.championat.com/news/big/k/m/ak-bars-ischet-varianty-obme.jpg",
-      "publishedAt": "2026-11-24T14:55:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712484-ak-bars-ischet-varianty-obmena-napadayuschego-alekseya-byvalceva.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Алексей Бывальцев"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712450",
-      "slug": "ivan-morozov-otdal-dve-peredachi-v-svoyom-pervom-periode-v-tekuschem-sezone-khl",
-      "title": "Иван Морозов отдал две передачи в своём первом периоде в текущем сезоне КХЛ",
-      "summary": "В Магнитогорске на стадионе «Арена-Металлург» в эти минуты проходит матч Фонбет регулярного чемпионата Континентальной хоккейной лиги между местным «Металлургом» и минским «Динамо».",
-      "content": "В Магнитогорске на стадионе «Арена-Металлург» в эти минуты проходит матч Фонбет регулярного чемпионата Континентальной хоккейной лиги между местным «Металлургом» и минским «Динамо».",
-      "image": "https://img.championat.com/news/big/e/r/ivan-morozov-otdal-dve-pered.jpg",
-      "publishedAt": "2026-11-24T14:38:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712450-ivan-morozov-otdal-dve-peredachi-v-svoyom-pervom-periode-v-tekuschem-sezone-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Металлург Мг",
-        "Динамо Минск",
-        "Иван Морозов"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-mns",
-        "khl:metallurg-mg"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712362",
-      "slug": "vladelec-vashingtona-rasskazal-ob-ogromnom-vliyanii-ovechkina-na-uspehi-kluba-v-nhl",
-      "title": "Владелец «Вашингтона» рассказал об огромном влиянии Овечкина на успехи клуба в НХЛ",
-      "summary": "Владелец клуба «Вашингтон Кэпиталз» Тед Леонсис высоко оценил влияние на успехи столичного клуба российского нападающего Александра Овечкина.",
-      "content": "Владелец клуба «Вашингтон Кэпиталз» Тед Леонсис высоко оценил влияние на успехи столичного клуба российского нападающего Александра Овечкина.",
-      "image": "https://img.championat.com/news/big/h/a/vladelec-vashingtona-rasskazal-ob-ogromnom-vliyanii-ovechkina-na-uspehi-kluba-v-nhl_1795527744401782992.jpg",
-      "publishedAt": "2026-11-24T14:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712362-vladelec-vashingtona-rasskazal-ob-ogromnom-vliyanii-ovechkina-na-uspehi-kluba-v-nhl.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Тед Леонсис"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6712338",
-      "slug": "nelepyj-gol-reshil-ishod-matcha-bratash-o-suhom-porazhenii-admirala-ot-ak-barsa",
-      "title": "«Нелепый гол решил исход матча». Браташ — о сухом поражении «Адмирала» от «Ак Барса»",
-      "summary": "Главный тренер «Адмирала» Олег Браташ высказался о поражении в домашнем матче с «Ак Барсом» (0:3).",
-      "content": "Главный тренер «Адмирала» Олег Браташ высказался о поражении в домашнем матче с «Ак Барсом» (0:3).",
-      "image": "https://img.championat.com/news/big/o/v/nelepyj-gol-reshil-ishod-mat.jpg",
-      "publishedAt": "2026-11-24T13:55:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712338-nelepyj-gol-reshil-ishod-matcha-bratash-o-suhom-porazhenii-admirala-ot-ak-barsa.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Адмирал",
-        "Олег Браташ"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712334",
-      "slug": "forvard-ak-barsa-nikita-dynyak-podelilsya-emociyami-ot-pervogo-het-trika-v-khl",
-      "title": "Форвард «Ак Барса» Никита Дыняк поделился эмоциями от первого хет-трика в КХЛ",
-      "summary": "Нападающий «Ак Барса» Никита Дыняк высказался о своём первом хет-трике в КХЛ, оформленном в ворота «Адмирала» (3:0).",
-      "content": "Нападающий «Ак Барса» Никита Дыняк высказался о своём первом хет-трике в КХЛ, оформленном в ворота «Адмирала» (3:0).",
-      "image": "https://img.championat.com/news/big/b/u/forvard-ak-barsa-nikita-dynyak-podelilsya-emociyami-ot-pervogo-het-trika-v-khl_1795526541903040300.jpg",
-      "publishedAt": "2026-11-24T13:35:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712334-forvard-ak-barsa-nikita-dynyak-podelilsya-emociyami-ot-pervogo-het-trika-v-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Адмирал",
-        "Никита Дыняк"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711876",
-      "slug": "dinamo-m-avtomobilist-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk",
-      "title": "«Динамо» М — Автомобилист: онлайн-трансляция матча КХЛ начнётся в 19:30 мск",
-      "summary": "Сегодня, 24 ноября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» примет «Автомобил...",
-      "content": "Сегодня, 24 ноября, в Москве на стадионе «ВТБ Арена — имени Аркадия Чернышёва» состоится матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местное «Динамо» примет «Автомобилист».",
-      "image": "https://img.championat.com/news/big/e/y/dinamo-m-avtomobilist-onlajn-translyaciya-matcha-khl-nachnyotsya-v-19-30-msk_1795501706667888517.jpg",
-      "publishedAt": "2026-11-24T13:30:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711876-dinamo-m-avtomobilist-onlajn-translyaciya-matcha-khl-sezona-2026-2027-nachnetsya-v-19-30-msk.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Автомобилист"
-      ],
-      "relatedTeamIds": [
-        "khl:avtomobilist",
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712324",
-      "slug": "gatiyatulin-o-pobede-nad-admiralom-vazhno-chtoby-u-rebyat-poyavilas-uverennost",
-      "title": "Гатиятулин — о победе над «Адмиралом»: важно, чтобы у ребят появилась уверенность",
-      "summary": "Главный тренер «Ак Барса» Анвар Гатиятулин прокомментировал гостевую победу над «Адмиралом» (3:0) и отметил первый хет-трик в КХЛ нападающего Никиты Дыняка.",
-      "content": "Главный тренер «Ак Барса» Анвар Гатиятулин прокомментировал гостевую победу над «Адмиралом» (3:0) и отметил первый хет-трик в КХЛ нападающего Никиты Дыняка.",
-      "image": "https://img.championat.com/news/big/d/t/gatiyatulin-o-pobede-nad-adm.jpg",
-      "publishedAt": "2026-11-24T13:15:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712324-gatiyatulin-o-pobede-nad-admiralom-vazhno-chtoby-u-rebyat-poyavilas-uverennost.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Адмирал",
-        "Анвар Гатиятулин",
-        "Никита Дыняк"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712284",
-      "slug": "stranno-i-podozritelno-zaripov-ob-uhode-safonova-iz-sistemy-vankuvera",
-      "title": "«Странно и подозрительно». Зарипов — об уходе Сафонова из системы «Ванкувера»",
-      "summary": "Трёхкратный чемпион мира и пятикратный обладатель Кубка Гагарина, бывший нападающий «Ак Барса» Данис Зарипов высказался о возвращении форварда Ильи Сафонова в казанский клуб.",
-      "content": "Трёхкратный чемпион мира и пятикратный обладатель Кубка Гагарина, бывший нападающий «Ак Барса» Данис Зарипов высказался о возвращении форварда Ильи Сафонова в казанский клуб.",
-      "image": "https://img.championat.com/news/big/h/z/stranno-i-podozritelno-zarip.jpg",
-      "publishedAt": "2026-11-24T12:51:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712284-stranno-i-podozritelno-zaripov-ob-uhode-safonova-iz-sistemy-vankuvera.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "НХЛ",
-        "Ак Барс",
-        "Ванкувер Кэнакс",
-        "Данис Зарипов",
-        "Илья Сафонов"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars",
-        "nhl:van"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712278",
-      "slug": "press-sluzhba-admirala-ironichno-otreagirovala-na-het-trik-v-ih-vorota-forvarda-ak-barsa",
-      "title": "Пресс-служба «Адмирала» иронично отреагировала на хет-трик в их ворота форварда «Ак Барса»",
-      "summary": "Пресс-служба «Адмирала» иронично отреагировала на хет-трик в их ворота форварда «Ак Барса» Никиты Дыняка.",
-      "content": "Пресс-служба «Адмирала» иронично отреагировала на хет-трик в их ворота форварда «Ак Барса» Никиты Дыняка.",
-      "image": "https://img.championat.com/news/big/s/a/press-sluzhba-admirala-ironichno-otreagirovala-na-het-trik-v-ih-vorota-forvarda-ak-barsa_17955233481439336390.jpg",
-      "publishedAt": "2026-11-24T12:35:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712278-press-sluzhba-admirala-ironichno-otreagirovala-na-het-trik-v-ih-vorota-forvarda-ak-barsa.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Фото",
-        "Ак Барс",
-        "Адмирал",
-        "Никита Дыняк"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712270",
-      "slug": "dvukratnyj-obladatel-kubka-gagarina-otvetil-sootvetstvoval-li-tambiev-urovnyu-dinamo",
-      "title": "Двукратный обладатель Кубка Гагарина ответил, соответствовал ли Тамбиев уровню «Динамо»",
-      "summary": "Двукратный обладатель Кубка Гагарина Сергей Коньков прокомментировал последние результаты московского «Динамо».",
-      "content": "Двукратный обладатель Кубка Гагарина Сергей Коньков прокомментировал последние результаты московского «Динамо».",
-      "image": "https://img.championat.com/news/big/a/p/dvukratnyj-obladatel-kubka-g.jpg",
-      "publishedAt": "2026-11-24T12:21:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712270-dvukratnyj-obladatel-kubka-gagarina-otvetil-sootvetstvoval-li-tambiev-urovnyu-dinamo.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Динамо Москва",
-        "Леонид Тамбиев",
-        "Сергей Коньков"
-      ],
-      "relatedTeamIds": [
-        "khl:dynamo-msk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712254",
-      "slug": "hmelevski-rasskazal-kogda-vernyotsya-v-sostav-ak-barsa-posle-travmy",
-      "title": "Хмелевски рассказал, когда вернётся в состав «Ак Барса» после травмы",
-      "summary": "Нападающий «Ак Барса» Александр Хмелевски, восстанавливающийся от травмы, рассказал, когда вернётся в состав казанского клуба.",
-      "content": "Нападающий «Ак Барса» Александр Хмелевски, восстанавливающийся от травмы, рассказал, когда вернётся в состав казанского клуба.",
-      "image": "https://img.championat.com/news/big/p/w/hmelevski-rasskazal-kogda-vernyotsya-v-sostav-ak-barsa-posle-travmy_17955209541691658899.jpg",
-      "publishedAt": "2026-11-24T12:00:13Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712254-hmelevski-rasskazal-kogda-vernyotsya-v-sostav-ak-barsa-posle-travmy.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Ак Барс",
-        "Александр Хмелевски"
-      ],
-      "relatedTeamIds": [
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712228",
-      "slug": "admiral-ak-bars-rezultat-matcha-24-noyabrya-2026-goda-schet-0-3-regulyarnyj-chempionat-khl-2026-2027",
-      "title": "Хет-трик Дыняка принёс «Ак Барсу» победу над «Адмиралом», казанцы прервали серию поражений",
-      "summary": "Сегодня, 24 ноября, во Владивостоке на стадионе «Фетисов-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Адмирал» принимал «Ак Барс».",
-      "content": "Сегодня, 24 ноября, во Владивостоке на стадионе «Фетисов-Арена» состоялся матч регулярного чемпионата Фонбет Континентальной хоккейной лиги сезона-2026/2027, в котором местный «Адмирал» принимал «Ак Барс».",
-      "image": "https://img.championat.com/news/big/d/e/het-trik-dynyaka-prinyos-ak-barsu-pobedu-nad-admiralom-kazancy-prervali-seriyu-porazhenij_17955202691300860001.jpg",
-      "publishedAt": "2026-11-24T11:38:12Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712228-admiral-ak-bars-rezultat-matcha-24-noyabrya-2026-goda-schet-0-3-regulyarnyj-chempionat-khl-2026-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Видео",
-        "Ак Барс",
-        "Адмирал",
-        "Никита Дыняк"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:ak-bars"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712206",
-      "slug": "stalkivat-nacionalnyj-i-klubnyj-hokkej-ogromnaya-oshibka-yurzinov-o-sezone-khl-i-chm",
-      "title": "«Сталкивать национальный и клубный хоккей — огромная ошибка». Юрзинов — о сезоне КХЛ и ЧМ",
-      "summary": "Бывший тренер сборной СССР Владимир Юрзинов-старший высказался о структуре проведения чемпионата КХЛ в случае допуска сборной России на ЧМ-2027 в Германии.",
-      "content": "Бывший тренер сборной СССР Владимир Юрзинов-старший высказался о структуре проведения чемпионата КХЛ в случае допуска сборной России на ЧМ-2027 в Германии.",
-      "image": "https://img.championat.com/news/big/c/h/stalkivat-nacionalnyj-i-klubnyj-hokkej-ogromnaya-oshibka-yurzinov-o-sezone-khl-i-chm_17955196811820882235.jpg",
-      "publishedAt": "2026-11-24T11:15:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712206-stalkivat-nacionalnyj-i-klubnyj-hokkej-ogromnaya-oshibka-yurzinov-o-sezone-khl-i-chm.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "ЧМ по хоккею 2027",
-        "Сборная России — Хоккей",
-        "Владимир Юрзинов-старший",
-        "ЧМ-2027",
-        "Возвращение России в международный хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712178",
-      "slug": "pust-vse-zatknutsya-on-odnoznachno-pobyot-rekord-gretcki-belov-o-kritike-ovechkina",
-      "title": "«Пусть все заткнутся, он однозначно побьёт рекорд Гретцки». Белов — о критике Овечкина",
-      "summary": "Бывший тренер сборной России Валерий Белов высказался по поводу критики в адрес российского нападающего «Вашингтон Кэпиталз» Александра Овечкина.",
-      "content": "Бывший тренер сборной России Валерий Белов высказался по поводу критики в адрес российского нападающего «Вашингтон Кэпиталз» Александра Овечкина.",
-      "image": "https://img.championat.com/news/big/p/f/pust-vse-zatknutsya-on-odnoznachno-pobyot-rekord-gretcki-belov-o-kritike-ovechkina_17955168971581448056.jpg",
-      "publishedAt": "2026-11-24T10:54:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712178-pust-vse-zatknutsya-on-odnoznachno-pobyot-rekord-gretcki-belov-o-kritike-ovechkina.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Валерий Белов"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6712164",
-      "slug": "pomoschniki-glavnogo-trenera-albert-leschyov-i-dmitrij-subbotin-pokinuli-sibir",
-      "title": "Помощники главного тренера Альберт Лещёв и Дмитрий Субботин покинули «Сибирь»",
-      "summary": "Хоккейный клуб «Сибирь» расторг контракты с ассистентами главного тренера Альбертом Лещёвым и Дмитрием Субботиным по соглашению сторон.",
-      "content": "Хоккейный клуб «Сибирь» расторг контракты с ассистентами главного тренера Альбертом Лещёвым и Дмитрием Субботиным по соглашению сторон.",
-      "image": "https://img.championat.com/news/big/h/p/pomoschniki-glavnogo-trenera-albert-leschyov-i-dmitrij-subbotin-pokinuli-sibir_1795516218768801185.jpg",
-      "publishedAt": "2026-11-24T10:35:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712164-pomoschniki-glavnogo-trenera-albert-leschyov-i-dmitrij-subbotin-pokinuli-sibir.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Сибирь",
-        "Лев Крутохвостов",
-        "Альберт Лещёв"
-      ],
-      "relatedTeamIds": [
-        "khl:sibir"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712156",
-      "slug": "kirill-kaprizov-povtoril-rekord-minnesoty-po-skorosti-dostizheniya-30-peredach-v-sezone",
-      "title": "Кирилл Капризов повторил рекорд «Миннесоты» по скорости достижения 30 передач в сезоне",
-      "summary": "Российский нападающий «Миннесоты Уайлд» Кирилл Капризов во встрече регулярного сезона с «Сан-Хосе Шаркс» отдал свою 30-ю результативную передачу в нынешнем сезоне.",
-      "content": "Российский нападающий «Миннесоты Уайлд» Кирилл Капризов во встрече регулярного сезона с «Сан-Хосе Шаркс» отдал свою 30-ю результативную передачу в нынешнем сезоне.",
-      "image": "https://img.championat.com/news/big/r/y/kirill-kaprizov-povtoril-rekord-minnesoty-po-skorosti-dostizheniya-30-peredach-v-sezone_1795515617403666913.jpg",
-      "publishedAt": "2026-11-24T10:25:06Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712156-kirill-kaprizov-povtoril-rekord-minnesoty-po-skorosti-dostizheniya-30-peredach-v-sezone.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Миннесота Уайлд",
-        "Сан-Хосе Шаркс",
-        "Кирилл Капризов",
-        "Куинн Хьюз"
-      ],
-      "relatedTeamIds": [
-        "nhl:min",
-        "nhl:sjs"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712144",
-      "slug": "yurist-ocenila-mozhet-li-fhr-poluchit-kompensaciyu-ot-iihf-za-nedopusk-na-mchm",
-      "title": "Юрист оценила, может ли ФХР получить компенсацию от ИИХФ за недопуск на МЧМ",
-      "summary": "Юрист и руководитель спортивной практики «Клевер консалт» Анна Анцелиович высказалась о возможности получения компенсации для Федерации хоккея России (ФХР) от Международной федерации хоккея (ИИХФ) за недопуск сборной ...",
-      "content": "Юрист и руководитель спортивной практики «Клевер консалт» Анна Анцелиович высказалась о возможности получения компенсации для Федерации хоккея России (ФХР) от Международной федерации хоккея (ИИХФ) за недопуск сборной России на молодёжный чемпионат мира — 2027.",
-      "image": "https://img.championat.com/news/big/n/r/yurist-ocenila-mozhet-li-fhr-poluchit-kompensaciyu-ot-iihf-za-nedopusk-na-mchm_1795514641350930647.jpg",
-      "publishedAt": "2026-11-24T10:04:14Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712144-yurist-ocenila-mozhet-li-fhr-poluchit-kompensaciyu-ot-iihf-za-nedopusk-na-mchm.html",
-      "tags": [
-        "Хоккей",
-        "МЧМ по хоккею 2027",
-        "Молодёжная сборная России — Хоккей",
-        "ФХР",
-        "ИИХФ",
-        "МЧМ-2027",
-        "Возвращение России в международный хоккей"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712096",
-      "slug": "startovalo-golosovanie-bolelschikov-za-uchastnikov-matcha-zvyozd-khl-2027",
-      "title": "Стартовало голосование болельщиков за участников Матча звёзд КХЛ — 2027",
-      "summary": "24 ноября на сайте Фонбет Недели звёзд хоккея — 2027 стартовало голосование болельщиков по выбору игроков-участников предстоящего звёздного уикенда в Минске.",
-      "content": "24 ноября на сайте Фонбет Недели звёзд хоккея — 2027 стартовало голосование болельщиков по выбору игроков-участников предстоящего звёздного уикенда в Минске.",
-      "image": "https://img.championat.com/news/big/a/m/startovalo-golosovanie-bolelschikov-za-uchastnikov-matcha-zvyozd-khl-2027_1795512277252408393.jpg",
-      "publishedAt": "2026-11-24T09:40:08Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712096-startovalo-golosovanie-bolelschikov-za-uchastnikov-matcha-zvyozd-khl-2027.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Матч звёзд КХЛ"
-      ],
-      "relatedTeamIds": [],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712040",
-      "slug": "nikogda-takogo-ne-videl-glavnyj-trener-minnesoty-ob-igre-trojki-kaprizova",
-      "title": "«Никогда такого не видел». Главный тренер «Миннесоты» — об игре тройки Капризова",
-      "summary": "Главный тренер «Миннесоты Уайлд» Джон Хайнс после победного матча с «Сан-Хосе Шаркс» высоко оценил игру тройки нападения команды Кирилл Капризов — Йоэль Эрикссон Эк — Мэтт Болди.",
-      "content": "Главный тренер «Миннесоты Уайлд» Джон Хайнс после победного матча с «Сан-Хосе Шаркс» высоко оценил игру тройки нападения команды Кирилл Капризов — Йоэль Эрикссон Эк — Мэтт Болди.",
-      "image": "https://img.championat.com/news/big/a/u/nikogda-takogo-ne-videl-glavnyj-trener-minnesoty-ob-igre-trojki-kaprizova_1795509040298001021.jpg",
-      "publishedAt": "2026-11-24T09:18:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712040-nikogda-takogo-ne-videl-glavnyj-trener-minnesoty-ob-igre-trojki-kaprizova.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Миннесота Уайлд",
-        "Сан-Хосе Шаркс",
-        "Мэтт Болди",
-        "Йоэль Эрикссон Эк",
-        "Джон Хайнс"
-      ],
-      "relatedTeamIds": [
-        "nhl:min",
-        "nhl:sjs"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6711878",
-      "slug": "raspisanie-matchej-nhl-v-noch-na-25-noyabrya-2026-goda",
-      "title": "Расписание матчей НХЛ в ночь на 25 ноября 2026 года",
-      "summary": "В ночь на 25 ноября пройдёт очередной матч регулярного сезона-2026/2027 Национальной хоккейной лиги.",
-      "content": "В ночь на 25 ноября пройдёт очередной матч регулярного сезона-2026/2027 Национальной хоккейной лиги.",
-      "image": "https://img.championat.com/news/big/c/c/raspisanie-matchej-nhl-v-noch-na-25-noyabrya-2026-goda_17955018271326092408.jpg",
-      "publishedAt": "2026-11-24T09:00:04Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6711878-raspisanie-matchej-nhl-v-noch-na-25-noyabrya-2026-goda.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Эдмонтон Ойлерз",
-        "Вегас Голден Найтс"
-      ],
-      "relatedTeamIds": [
-        "nhl:edm",
-        "nhl:vgk"
-      ],
-      "relatedPlayerIds": []
-    },
-    {
-      "id": "news-6712056",
-      "slug": "sushinskij-o-bezgolevoj-serii-ovechkina-est-inye-varianty-krome-kak-iz-za-vozrasta",
-      "title": "Сушинский — о безголевой серии Овечкина: есть иные варианты, кроме как из-за возраста?",
-      "summary": "Чемпион мира в составе сборной России Максим Сушинский высказался о низкой результативности капитана «Вашингтон Кэпиталз» Александра Овечкина.",
-      "content": "Чемпион мира в составе сборной России Максим Сушинский высказался о низкой результативности капитана «Вашингтон Кэпиталз» Александра Овечкина.",
-      "image": "https://img.championat.com/news/big/r/q/sushinskij-o-bezgolevoj-serii-ovechkina-est-inye-varianty-krome-kak-iz-za-vozrasta_17955099591060041815.jpg",
-      "publishedAt": "2026-11-24T08:46:11Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712056-sushinskij-o-bezgolevoj-serii-ovechkina-est-inye-varianty-krome-kak-iz-za-vozrasta.html",
-      "tags": [
-        "Хоккей",
-        "НХЛ",
-        "Эксклюзив",
-        "Вашингтон Кэпиталз",
-        "Александр Овечкин",
-        "Максим Сушинский"
-      ],
-      "relatedTeamIds": [
-        "nhl:wsh"
-      ],
-      "relatedPlayerIds": [
-        "nhl:p_8471214"
-      ]
-    },
-    {
-      "id": "news-6712032",
-      "slug": "schitov-otvetil-na-vopros-pro-glavnye-razocharovaniya-v-pervoj-polovine-sezona-v-khl",
-      "title": "Щитов ответил на вопрос про главные разочарования в первой половине сезона КХЛ",
-      "summary": "Бывший защитник Никита Щитов ответил на вопрос про главные разочарования в первой половине сезона КХЛ.",
-      "content": "Бывший защитник Никита Щитов ответил на вопрос про главные разочарования в первой половине сезона КХЛ.",
-      "image": "https://img.championat.com/news/big/b/r/schitov-otvetil-na-vopros-pro-glavnye-razocharovaniya-v-pervoj-polovine-sezona-khl_1795509452412398073.jpg",
-      "publishedAt": "2026-11-24T08:30:05Z",
-      "source": "Чемпионат • Хоккей",
-      "url": "https://www.championat.com/hockey/news-6712032-schitov-otvetil-na-vopros-pro-glavnye-razocharovaniya-v-pervoj-polovine-sezona-v-khl.html",
-      "tags": [
-        "Хоккей",
-        "КХЛ",
-        "Барыс",
-        "Адмирал",
-        "Лада",
-        "Никита Щитов"
-      ],
-      "relatedTeamIds": [
-        "khl:admiral",
-        "khl:barys",
-        "khl:lada"
       ],
       "relatedPlayerIds": []
     }
