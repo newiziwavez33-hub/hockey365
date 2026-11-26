@@ -6,31 +6,250 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-26T01:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "LIVE",
+  "period": 2,
+  "clock": "06:46",
   "finishedIn": null,
   "home": {
     "id": "nhl:min",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 16
   },
   "away": {
     "id": "nhl:uta",
-    "score": null,
+    "score": 3,
     "periods": [],
-    "shots": null
+    "shots": 13
   },
   "arena": "Grand Casino Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "06:17",
+      "team": "away",
+      "playerId": "nhl:p_8478474",
+      "playerName": "Lawson Crouse",
+      "assists": [
+        "nhl:p_8476389",
+        "nhl:p_8479369"
+      ],
+      "score": "0-1",
+      "order": 98
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "06:52",
+      "team": "away",
+      "playerId": "nhl:p_8475314",
+      "playerName": "Anders Lee",
+      "minutes": 2,
+      "reason": "high-sticking",
+      "order": 103
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "11:17",
+      "team": "away",
+      "playerId": "nhl:p_8480849",
+      "playerName": "Barrett Hayton",
+      "minutes": 2,
+      "reason": "roughing-removing-opponents-helmet",
+      "order": 159
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "11:17",
+      "team": "home",
+      "playerId": "nhl:p_8478493",
+      "playerName": "Joel Eriksson Ek",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 161
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "11:17",
+      "team": "away",
+      "playerId": "nhl:p_8479977",
+      "playerName": "Kailer Yamamoto",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 163
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "11:17",
+      "team": "home",
+      "playerId": "nhl:p_8481557",
+      "playerName": "Matt Boldy",
+      "minutes": 2,
+      "reason": "boarding",
+      "order": 165
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "00:27",
+      "team": "away",
+      "playerId": "nhl:p_8480855",
+      "playerName": "Jack McBain",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 310
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "00:27",
+      "team": "home",
+      "playerId": "nhl:p_8477446",
+      "playerName": "Michael McCarron",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 312
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "02:34",
+      "team": "home",
+      "playerId": "nhl:p_8478493",
+      "playerName": "Joel Eriksson Ek",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 346
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "02:44",
+      "team": "away",
+      "playerId": "nhl:p_8483431",
+      "playerName": "Logan Cooley",
+      "assists": [
+        "nhl:p_8482699",
+        "nhl:p_8479410"
+      ],
+      "score": "0-2",
+      "order": 351
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "03:14",
+      "team": "away",
+      "playerId": "nhl:p_8477070",
+      "playerName": "Liam O'Brien",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 359
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "03:14",
+      "team": "home",
+      "playerId": "nhl:p_8473422",
+      "playerName": "Nick Foligno",
+      "minutes": 5,
+      "reason": "fighting",
+      "order": 361
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "04:03",
+      "team": "away",
+      "playerId": "nhl:p_8484386",
+      "playerName": "Dmitri Simashev",
+      "minutes": 2,
+      "reason": "cross-checking",
+      "order": 376
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "05:47",
+      "team": "home",
+      "playerId": "nhl:p_8481553",
+      "playerName": "Bobby Brink",
+      "assists": [
+        "nhl:p_8482122"
+      ],
+      "score": "1-2",
+      "order": 394
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "06:31",
+      "team": "away",
+      "playerId": "nhl:p_8484386",
+      "playerName": "Dmitri Simashev",
+      "assists": [
+        "nhl:p_8484388"
+      ],
+      "score": "1-3",
+      "order": 404
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "08:11",
+      "team": "home",
+      "playerId": "nhl:p_8476399",
+      "playerName": "Blake Coleman",
+      "assists": [
+        "nhl:p_8476463",
+        "nhl:p_8477446"
+      ],
+      "score": "2-3",
+      "order": 428
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "12:48",
+      "team": "away",
+      "playerId": "nhl:p_8477070",
+      "playerName": "Liam O'Brien",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 489
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      16,
+      13
+    ],
+    "shotsOnGoal": [
+      16,
+      13
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020396/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020396/play-by-play"
+    ],
+    "fetchedAt": "2026-11-26T02:44:41.032794+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +257,6 @@
     "url": "https://www.nhl.com/gamecenter/uta-vs-min/2026/11/25/2026020396",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/uta-vs-min/2026/11/25/2026020396",
-    "verifiedAt": "2026-11-25T20:01:58.330115Z"
+    "verifiedAt": "2026-11-26T02:44:41.032870Z"
   }
 }
