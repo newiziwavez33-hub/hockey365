@@ -6,244 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-26T00:00:00Z",
-  "status": "LIVE",
+  "status": "FINISHED",
   "period": 3,
-  "clock": "04:37",
-  "finishedIn": null,
+  "clock": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:fla",
-    "score": 4,
+    "score": 5,
     "periods": [],
-    "shots": 29
+    "shots": null
   },
   "away": {
     "id": "nhl:ott",
-    "score": 2,
+    "score": 3,
     "periods": [],
-    "shots": 25
+    "shots": null
   },
   "arena": "Amerant Bank Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "00:31",
-      "team": "home",
-      "playerId": "nhl:p_8473419",
-      "playerName": "Brad Marchand",
-      "minutes": 2,
-      "reason": "tripping",
-      "order": 16
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "16:16",
-      "team": "home",
-      "playerId": "nhl:p_8480185",
-      "playerName": "Eetu Luostarinen",
-      "assists": [
-        "nhl:p_8473419",
-        "nhl:p_8478859"
-      ],
-      "score": "1-0",
-      "order": 222
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "17:03",
-      "team": "home",
-      "playerId": "nhl:p_8477493",
-      "playerName": "Aleksander Barkov",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 237
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "01:12",
-      "team": "away",
-      "playerId": "nhl:p_8481528",
-      "playerName": "Dylan Cozens",
-      "assists": [
-        "nhl:p_8482245",
-        "nhl:p_8482105"
-      ],
-      "score": "1-1",
-      "order": 293
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "01:53",
-      "team": "away",
-      "playerId": "nhl:p_8481577",
-      "playerName": "Philip Tomasino",
-      "assists": [
-        "nhl:p_8482245",
-        "nhl:p_8482105"
-      ],
-      "score": "1-2",
-      "order": 300
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "08:52",
-      "team": "home",
-      "playerId": "nhl:p_8478859",
-      "playerName": "Niko Mikkola",
-      "assists": [
-        "nhl:p_8479314",
-        "nhl:p_8477495"
-      ],
-      "score": "2-2",
-      "order": 394
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "09:58",
-      "team": "away",
-      "playerId": "nhl:p_8481596",
-      "playerName": "Shane Pinto",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 413
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "09:58",
-      "team": "home",
-      "playerId": "nhl:p_8480801",
-      "playerName": "Brady Tkachuk",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 415
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "14:44",
-      "team": "home",
-      "playerId": "nhl:p_8479314",
-      "playerName": "Matthew Tkachuk",
-      "minutes": 2,
-      "reason": "clipping",
-      "order": 481
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "17:52",
-      "team": "home",
-      "playerId": "nhl:p_8477932",
-      "playerName": "Aaron Ekblad",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 520
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "17:52",
-      "team": "away",
-      "playerId": "nhl:p_8476393",
-      "playerName": "Nick Cousins",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 522
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "18:55",
-      "team": "home",
-      "playerId": "nhl:p_8482113",
-      "playerName": "Anton Lundell",
-      "assists": [
-        "nhl:p_8473419",
-        "nhl:p_8475179"
-      ],
-      "score": "3-2",
-      "order": 536
-    },
-    {
-      "type": "PENALTY",
-      "period": 2,
-      "time": "19:48",
-      "team": "home",
-      "playerId": "nhl:p_8478859",
-      "playerName": "Niko Mikkola",
-      "minutes": 2,
-      "reason": "roughing",
-      "order": 545
-    },
-    {
-      "type": "PENALTY",
-      "period": 3,
-      "time": "07:17",
-      "team": "away",
-      "playerId": "nhl:p_8480208",
-      "playerName": "Drake Batherson",
-      "minutes": 2,
-      "reason": "high-sticking",
-      "order": 650
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "09:17",
-      "team": "home",
-      "playerId": "nhl:p_8477935",
-      "playerName": "Sam Bennett",
-      "assists": [
-        "nhl:p_8482113",
-        "nhl:p_8473419"
-      ],
-      "score": "4-2",
-      "order": 674
-    },
-    {
-      "type": "PENALTY",
-      "period": 3,
-      "time": "10:57",
-      "team": "away",
-      "playerId": "nhl:p_8483676",
-      "playerName": "Stephen Halliday",
-      "minutes": 2,
-      "reason": "cross-checking",
-      "order": 704
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      29,
-      25
-    ],
-    "shotsOnGoal": [
-      29,
-      25
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020389/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020389/play-by-play"
-    ],
-    "fetchedAt": "2026-11-26T02:44:40.594081+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -251,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/ott-vs-fla/2026/11/25/2026020389",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/ott-vs-fla/2026/11/25/2026020389",
-    "verifiedAt": "2026-11-26T02:44:40.594197Z"
+    "verifiedAt": "2026-11-26T11:30:26.168989Z"
   }
 }
