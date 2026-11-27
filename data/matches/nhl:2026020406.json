@@ -6,31 +6,97 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-27T20:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "INTERMISSION",
+  "period": 1,
+  "clock": "09:24",
   "finishedIn": null,
   "home": {
     "id": "nhl:wsh",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 13
   },
   "away": {
     "id": "nhl:fla",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 5
   },
   "arena": "Capital One Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "05:25",
+      "team": "home",
+      "playerId": "nhl:p_8479345",
+      "playerName": "Jakob Chychrun",
+      "minutes": 2,
+      "reason": "holding",
+      "order": 93
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "06:01",
+      "team": "away",
+      "playerId": "nhl:p_8477495",
+      "playerName": "Seth Jones",
+      "minutes": 2,
+      "reason": "tripping",
+      "order": 100
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "09:51",
+      "team": "away",
+      "playerId": "nhl:p_8478055",
+      "playerName": "Gustav Forsling",
+      "minutes": 2,
+      "reason": "delaying-game-puck-over-glass",
+      "order": 156
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "10:26",
+      "team": "home",
+      "playerId": "nhl:p_8484873",
+      "playerName": "Cole Hutson",
+      "assists": [
+        "nhl:p_8484186",
+        "nhl:p_8479400"
+      ],
+      "score": "1-0",
+      "order": 162
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      13,
+      5
+    ],
+    "shotsOnGoal": [
+      13,
+      5
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020406/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020406/play-by-play"
+    ],
+    "fetchedAt": "2026-11-27T20:52:01.123630+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +104,6 @@
     "url": "https://www.nhl.com/gamecenter/fla-vs-wsh/2026/11/27/2026020406",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/fla-vs-wsh/2026/11/27/2026020406",
-    "verifiedAt": "2026-11-27T11:59:37.603029Z"
+    "verifiedAt": "2026-11-27T20:52:01.123695Z"
   }
 }

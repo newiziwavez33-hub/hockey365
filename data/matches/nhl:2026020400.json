@@ -6,19 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-27T18:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "FINISHED",
+  "period": 3,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:bos",
-    "score": null,
+    "score": 1,
     "periods": [],
     "shots": null
   },
   "away": {
     "id": "nhl:tor",
-    "score": null,
+    "score": 3,
     "periods": [],
     "shots": null
   },
@@ -38,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/tor-vs-bos/2026/11/27/2026020400",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/tor-vs-bos/2026/11/27/2026020400",
-    "verifiedAt": "2026-11-27T11:59:37.602124Z"
+    "verifiedAt": "2026-11-27T20:52:00.405168Z"
   }
 }

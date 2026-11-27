@@ -6,24 +6,32 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-27T16:00:00Z",
-  "status": "SCHEDULED",
+  "status": "FINISHED",
   "period": null,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "khl:severstal",
     "name": "Северсталь",
     "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/42/original/severstal_2021__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 0,
+    "periods": [
+      0,
+      0,
+      0
+    ],
     "shots": null
   },
   "away": {
     "id": "khl:sibir",
     "name": "Сибирь",
     "logo": "https://thumbs.webcaster.pro/rec-2-16.webcaster.pro/fc/sdd/team_pics/24/original/sibir_rus__200x200.png",
-    "score": null,
-    "periods": [],
+    "score": 2,
+    "periods": [
+      1,
+      1,
+      0
+    ],
     "shots": null
   },
   "arena": null,
@@ -50,6 +58,6 @@
     "stageId": 407,
     "eventId": 3001403,
     "matchId": "902311",
-    "fetchedAt": "2026-11-27T11:59:38.595291Z"
+    "fetchedAt": "2026-11-27T20:52:03.702417Z"
   }
 }

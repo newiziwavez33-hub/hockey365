@@ -6,31 +6,97 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-27T20:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "INTERMISSION",
+  "period": 1,
+  "clock": "07:25",
   "finishedIn": null,
   "home": {
     "id": "nhl:cbj",
-    "score": null,
+    "score": 0,
     "periods": [],
-    "shots": null
+    "shots": 8
   },
   "away": {
     "id": "nhl:det",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 4
   },
   "arena": "Nationwide Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "07:10",
+      "team": "away",
+      "playerId": "nhl:p_8477971",
+      "playerName": "Andreas Englund",
+      "minutes": 2,
+      "reason": "high-sticking",
+      "order": 108
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "11:51",
+      "team": "away",
+      "playerId": "nhl:p_8477456",
+      "playerName": "J.T. Compher",
+      "assists": [
+        "nhl:p_8475279",
+        "nhl:p_8481542"
+      ],
+      "score": "0-1",
+      "order": 158
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "20:00",
+      "team": "away",
+      "playerId": "nhl:p_8477429",
+      "playerName": "Andrew Copp",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 250
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "20:00",
+      "team": "home",
+      "playerId": "nhl:p_8479371",
+      "playerName": "Dante Fabbro",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 252
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      8,
+      4
+    ],
+    "shotsOnGoal": [
+      8,
+      4
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020407/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020407/play-by-play"
+    ],
+    "fetchedAt": "2026-11-27T20:52:01.184387+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +104,6 @@
     "url": "https://www.nhl.com/gamecenter/det-vs-cbj/2026/11/27/2026020407",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/det-vs-cbj/2026/11/27/2026020407",
-    "verifiedAt": "2026-11-27T11:59:37.603183Z"
+    "verifiedAt": "2026-11-27T20:52:01.184440Z"
   }
 }
