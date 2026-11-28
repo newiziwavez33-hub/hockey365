@@ -6,19 +6,19 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-27T21:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
+  "status": "FINISHED",
+  "period": 3,
   "clock": null,
-  "finishedIn": null,
+  "finishedIn": "REG",
   "home": {
     "id": "nhl:ana",
-    "score": null,
+    "score": 3,
     "periods": [],
     "shots": null
   },
   "away": {
     "id": "nhl:lak",
-    "score": null,
+    "score": 5,
     "periods": [],
     "shots": null
   },
@@ -38,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/lak-vs-ana/2026/11/27/2026020409",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/lak-vs-ana/2026/11/27/2026020409",
-    "verifiedAt": "2026-11-27T20:52:01.184774Z"
+    "verifiedAt": "2026-11-28T02:58:45.381292Z"
   }
 }

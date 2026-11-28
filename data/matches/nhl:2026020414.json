@@ -6,31 +6,209 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-28T01:00:00Z",
-  "status": "SCHEDULED",
-  "period": null,
-  "clock": null,
+  "status": "INTERMISSION",
+  "period": 2,
+  "clock": "04:47",
   "finishedIn": null,
   "home": {
     "id": "nhl:edm",
-    "score": null,
+    "score": 2,
     "periods": [],
-    "shots": null
+    "shots": 18
   },
   "away": {
     "id": "nhl:sea",
-    "score": null,
+    "score": 1,
     "periods": [],
-    "shots": null
+    "shots": 19
   },
   "arena": "Rogers Place",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [],
+  "events": [
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "08:32",
+      "team": "away",
+      "playerId": "nhl:p_8482874",
+      "playerName": "Jacob Melanson",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 134
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "08:32",
+      "team": "home",
+      "playerId": "nhl:p_8476473",
+      "playerName": "Connor Murphy",
+      "minutes": 2,
+      "reason": "roughing",
+      "order": 136
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "08:32",
+      "team": "away",
+      "playerId": "nhl:p_8483570",
+      "playerName": "Ben Meyers",
+      "minutes": 2,
+      "reason": "cross-checking",
+      "order": 138
+    },
+    {
+      "type": "GOAL",
+      "period": 1,
+      "time": "11:21",
+      "team": "away",
+      "playerId": "nhl:p_8474586",
+      "playerName": "Jordan Eberle",
+      "score": "0-1",
+      "order": 174
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "16:19",
+      "team": "away",
+      "playerId": "nhl:p_8482858",
+      "playerName": "Ryker Evans",
+      "minutes": 2,
+      "reason": "holding-the-stick",
+      "order": 232
+    },
+    {
+      "type": "PENALTY",
+      "period": 1,
+      "time": "18:06",
+      "team": "home",
+      "playerId": "nhl:p_8482703",
+      "playerName": "Colton Dach",
+      "minutes": 2,
+      "reason": "interference-goalkeeper",
+      "order": 252
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "03:33",
+      "team": "away",
+      "playerId": "nhl:p_8477986",
+      "playerName": "Brandon Montour",
+      "minutes": 2,
+      "reason": "hooking",
+      "order": 335
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "04:57",
+      "team": "home",
+      "playerId": "nhl:p_8478402",
+      "playerName": "Connor McDavid",
+      "assists": [
+        "nhl:p_8480803",
+        "nhl:p_8476454"
+      ],
+      "score": "1-1",
+      "order": 350
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "08:37",
+      "team": "away",
+      "playerId": "nhl:p_8476457",
+      "playerName": "Adam Larsson",
+      "minutes": 2,
+      "reason": "cross-checking",
+      "order": 403
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "08:53",
+      "team": "home",
+      "playerId": "nhl:p_8478402",
+      "playerName": "Connor McDavid",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 409
+    },
+    {
+      "type": "GOAL",
+      "period": 2,
+      "time": "13:07",
+      "team": "home",
+      "playerId": "nhl:p_8477934",
+      "playerName": "Leon Draisaitl",
+      "assists": [
+        "nhl:p_8481617",
+        "nhl:p_8475218"
+      ],
+      "score": "2-1",
+      "order": 473
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "14:33",
+      "team": "away",
+      "playerId": "nhl:p_8477919",
+      "playerName": "Frederick Gaudreau",
+      "minutes": 2,
+      "reason": "delaying-game-puck-over-glass",
+      "order": 490
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "17:56",
+      "team": "away",
+      "playerId": "nhl:p_8478407",
+      "playerName": "Vince Dunn",
+      "minutes": 2,
+      "reason": "cross-checking",
+      "order": 523
+    },
+    {
+      "type": "PENALTY",
+      "period": 2,
+      "time": "19:37",
+      "team": "home",
+      "playerId": "nhl:p_8477934",
+      "playerName": "Leon Draisaitl",
+      "minutes": 2,
+      "reason": "interference",
+      "order": 540
+    }
+  ],
   "lineups": null,
-  "stats": null,
+  "stats": {
+    "shots": [
+      18,
+      19
+    ],
+    "shotsOnGoal": [
+      18,
+      19
+    ]
+  },
   "h2h": [],
+  "source": {
+    "provider": "NHL Web API",
+    "official": true,
+    "endpoints": [
+      "https://api-web.nhle.com/v1/gamecenter/2026020414/boxscore",
+      "https://api-web.nhle.com/v1/gamecenter/2026020414/play-by-play"
+    ],
+    "fetchedAt": "2026-11-28T02:58:45.601533+00:00"
+  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -38,6 +216,6 @@
     "url": "https://www.nhl.com/gamecenter/sea-vs-edm/2026/11/27/2026020414",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/sea-vs-edm/2026/11/27/2026020414",
-    "verifiedAt": "2026-11-27T20:52:01.185258Z"
+    "verifiedAt": "2026-11-28T02:58:45.601615Z"
   }
 }

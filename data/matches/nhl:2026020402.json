@@ -6,227 +6,31 @@
   "round": null,
   "seriesGame": null,
   "utcDate": "2026-11-27T18:00:00Z",
-  "status": "LIVE",
+  "status": "FINISHED",
   "period": 5,
-  "clock": "00:00",
-  "finishedIn": null,
+  "clock": null,
+  "finishedIn": "SO",
   "home": {
     "id": "nhl:nsh",
     "score": 5,
     "periods": [],
-    "shots": 21
+    "shots": null
   },
   "away": {
     "id": "nhl:uta",
-    "score": 5,
+    "score": 6,
     "periods": [],
-    "shots": 35
+    "shots": null
   },
   "arena": "Bridgestone Arena",
   "officials": {
     "referees": [],
     "linesmen": []
   },
-  "events": [
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "00:52",
-      "team": "home",
-      "playerId": "nhl:p_8476887",
-      "playerName": "Filip Forsberg",
-      "assists": [
-        "nhl:p_8481535",
-        "nhl:p_8483524"
-      ],
-      "score": "1-0",
-      "order": 26
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "11:32",
-      "team": "away",
-      "playerId": "nhl:p_8475314",
-      "playerName": "Anders Lee",
-      "minutes": 2,
-      "reason": "interference",
-      "order": 159
-    },
-    {
-      "type": "PENALTY",
-      "period": 1,
-      "time": "15:27",
-      "team": "home",
-      "playerId": "nhl:p_8475158",
-      "playerName": "Ryan O'Reilly",
-      "minutes": 2,
-      "reason": "hooking",
-      "order": 210
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "16:43",
-      "team": "home",
-      "playerId": "nhl:p_8474600",
-      "playerName": "Roman Josi",
-      "assists": [
-        "nhl:p_8481726",
-        "nhl:p_8480835"
-      ],
-      "score": "2-0",
-      "order": 222
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "18:33",
-      "team": "away",
-      "playerId": "nhl:p_8479343",
-      "playerName": "Clayton Keller",
-      "assists": [
-        "nhl:p_8477346",
-        "nhl:p_8476389"
-      ],
-      "score": "2-1",
-      "order": 245
-    },
-    {
-      "type": "GOAL",
-      "period": 1,
-      "time": "19:54",
-      "team": "away",
-      "playerId": "nhl:p_8479410",
-      "playerName": "Mikhail Sergachev",
-      "assists": [
-        "nhl:p_8477346",
-        "nhl:p_8479343"
-      ],
-      "score": "2-2",
-      "order": 268
-    },
-    {
-      "type": "GOAL",
-      "period": 2,
-      "time": "18:19",
-      "team": "away",
-      "playerId": "nhl:p_8475314",
-      "playerName": "Anders Lee",
-      "assists": [
-        "nhl:p_8484386",
-        "nhl:p_8479410"
-      ],
-      "score": "2-3",
-      "order": 487
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "02:40",
-      "team": "home",
-      "playerId": "nhl:p_8477021",
-      "playerName": "Alexander Kerfoot",
-      "score": "3-3",
-      "order": 555
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "06:58",
-      "team": "away",
-      "playerId": "nhl:p_8478474",
-      "playerName": "Lawson Crouse",
-      "assists": [
-        "nhl:p_8483431",
-        "nhl:p_8477346"
-      ],
-      "score": "3-4",
-      "order": 610
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "07:47",
-      "team": "home",
-      "playerId": "nhl:p_8479525",
-      "playerName": "Ross Colton",
-      "assists": [
-        "nhl:p_8482482"
-      ],
-      "score": "4-4",
-      "order": 621
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "11:46",
-      "team": "home",
-      "playerId": "nhl:p_8482145",
-      "playerName": "Mavrik Bourque",
-      "assists": [
-        "nhl:p_8475158",
-        "nhl:p_8479980"
-      ],
-      "score": "5-4",
-      "order": 676
-    },
-    {
-      "type": "GOAL",
-      "period": 3,
-      "time": "16:05",
-      "team": "away",
-      "playerId": "nhl:p_8475314",
-      "playerName": "Anders Lee",
-      "assists": [
-        "nhl:p_8482699"
-      ],
-      "score": "5-5",
-      "order": 732
-    },
-    {
-      "type": "PENALTY",
-      "period": 4,
-      "time": "02:56",
-      "team": "home",
-      "playerId": "nhl:p_8474600",
-      "playerName": "Roman Josi",
-      "minutes": 2,
-      "reason": "holding",
-      "order": 817
-    },
-    {
-      "type": "GOAL",
-      "period": 5,
-      "time": "00:00",
-      "team": "away",
-      "playerId": "nhl:p_8476389",
-      "playerName": "Vincent Trocheck",
-      "score": "5-5",
-      "order": 847
-    }
-  ],
+  "events": [],
   "lineups": null,
-  "stats": {
-    "shots": [
-      21,
-      35
-    ],
-    "shotsOnGoal": [
-      21,
-      35
-    ]
-  },
+  "stats": null,
   "h2h": [],
-  "source": {
-    "provider": "NHL Web API",
-    "official": true,
-    "endpoints": [
-      "https://api-web.nhle.com/v1/gamecenter/2026020402/boxscore",
-      "https://api-web.nhle.com/v1/gamecenter/2026020402/play-by-play"
-    ],
-    "fetchedAt": "2026-11-27T20:52:00.607193+00:00"
-  },
   "broadcast": {
     "type": "external",
     "verified": true,
@@ -234,6 +38,6 @@
     "url": "https://www.nhl.com/gamecenter/uta-vs-nsh/2026/11/27/2026020402",
     "sourceName": "NHL.com Gamecenter",
     "sourceUrl": "https://www.nhl.com/gamecenter/uta-vs-nsh/2026/11/27/2026020402",
-    "verifiedAt": "2026-11-27T20:52:00.607297Z"
+    "verifiedAt": "2026-11-28T02:58:45.380434Z"
   }
 }
